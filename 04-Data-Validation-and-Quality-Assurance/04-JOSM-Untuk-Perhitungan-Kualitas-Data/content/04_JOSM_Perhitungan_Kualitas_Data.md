@@ -125,7 +125,9 @@ Berikut adalah langkah-langkah yang harus Anda lakukan dalam menghitung jumlah R
 
 *   Anda dapat membandingkan jumlah RW yang ada di Kelurahan Pleburan yang merupakan hasil _selection_ di JOSM dengan tabel rekapitulasi hasil pengumpulan data di lapangan. 
 
-![Contoh tabel rekapitulasi jumlah RW di kelurahan pemetaan](../images/0416_josm_data_quality_16.JPG "Contoh tabel rekapitulasi jumlah RW di kelurahan pemetaan")
+<p align="center">
+  <img width="300" height="400" src="../images/0416_josm_data_quality_16.JPG "Contoh tabel rekapitulasi jumlah RW di kelurahan pemetaan">
+</p>
 <p align="center"><i>Contoh tabel rekapitulasi jumlah RW di kelurahan pemetaan</i></p>
 
 Anda dapat melihat pada tabel di atas bahwa jumlah RW yang ada di Kelurahan Pleburan sebanyak 6 RW dan pada gambar hasil seleksi batas RW di JOSM juga terlihat terdapat 6 RW yang terpilih mulai dari RW 01 hingga RW 06. Dengan begitu telah terdapat kesamaan data dan Anda dapat memvalidasi jumlah RW di Kelurahan Pleburan yang ada di _OpenStreetMap_. 
@@ -168,7 +170,9 @@ Untuk melakukan validasi _tag _batas-batas RW, Anda dapat mengikuti langkah-lang
 
 *   Setelah jendela terbuka silahkan Anda periksa kelengkapan informasi (_tag_) untuk **masing-masing** batas RW. Selain itu, periksa hubungan relasi dengan antar batas-batas RW lain dengan melihat alur relasi di bagian **_member_**. Relasi yang baik adalah jika hubungan antara member batas RW saling terhubung dan membentuk _loop_ atau lingkaran yang terhubung. Jika Anda ingin mengetahui hubungan antar relasi dan cara melakukan input batas-batas administrasi di JOSM dengan lebih lengkap, maka Anda dapat melihat Modul **Membuat Batas Administrasi di JOSM**.
 
-![Kotak relasi dan informasi batas administrasi di JOSM](../images/0419_josm_data_quality_19.JPG "Kotak relasi dan informasi batas administrasi di JOSM")
+<p align="center">
+  <img width="400" height="500" src="../images/0419_josm_data_quality_19.JPG "Kotak relasi dan informasi batas administrasi di JOSM">
+ </p>                                                                                                                                   
 <p align="center"><i>Kotak relasi dan informasi batas administrasi di JOSM</i></p>
 
 Anda dapat menambahkan _tag_ jika di RW tersebut belum sesuai dengan model data yang telah ditentukan dan memperbaiki bentuk relasi dengan mengatur urutan member dan _rules_ masing-masing _member_.
