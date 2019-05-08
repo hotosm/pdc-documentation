@@ -99,7 +99,7 @@ Sebelum dapat memetakan menggunakan _Tasking Manager_, ada beberapa hal yang per
     <br>Ketika Anda telah memilih satu proyek _tasking_, maka akan muncul tampilan sebagai berikut: 
 
     <p align="center"><img width=70% src="../images/0212_Tasking_Kelurahan_Penjaringan.png"</p>
-    <p align="center"><i>Tasking_ _manager_ _#781_ _INSIST_ _-_ _Kelurahan Penjaringan</i></p>
+    <p align="center"><i>Tasking manager #781 INSIST - Kelurahan Penjaringan</i></p>
 
     Tampilan ini menunjukkan deskripsi proyek _tasking manager_ yang sedang kita buka. Pada bagian deskripsi, Anda dapat membaca latar belakang proyek pemetaan infrastruktur dan sanitasi di Penjaringan. Di bagian bawah kita dapat melihat informasi lebih detail mengenai proyek ini, mulai dari tingkat prioritas, organisasi pembuat, nama pembuat proyek, tingkat kesulitan, hingga objek apa yang harus dipetakan. Jika Anda ingin membuat proyek _tasking manager_ Anda sendiri, Anda dapat membacanya di modul **Membuat dan Mengelola Tasking Manager**.
 
@@ -199,6 +199,7 @@ Jika Anda menemukan grid/kotak yang tertutup awan, silakan Anda pilih tombol **_
         <p align="center"><i>Objek yang terletak di perbatasan grid/kotak tasking manager</i></p>
 
     Jika menemukan contoh objek seperti gambar di atas, silakan Anda petakan objek tersebut sedikit melewati batas grid/kotak _tasking manager_ yang Anda pilih. Hal ini dilakukan terutama pada objek jalan untuk memberi panduan bagi  kontributor lain yang memetakan di proyek _tasking manager_ berbeda dan bersebelahan dengan area Anda.
+
 
 
 **RINGKASAN**
