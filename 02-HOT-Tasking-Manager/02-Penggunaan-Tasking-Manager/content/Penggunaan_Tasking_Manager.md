@@ -109,7 +109,7 @@ Sebelum dapat memetakan menggunakan _Tasking Manager_, ada beberapa hal yang per
     
     Di bagian bawah deskripsi Anda dapat melihat tampilan peta di sebelah kanan dan beberapa informasi yang dapat Anda lihat di sebelah kiri. Jika Anda perhatikan pada bidang peta, terdapat beberapa kotak dengan warna yang berbeda. Warna tersebut mewakili informasi: 
 
-    ![alt_text](images/0214_Legenda_tasking_manager.png "image_tooltip")
+    <p align="center"><img width=20% src="../images/0214_Legenda_tasking_manager.png"</p>
 	
 *   **_Ready_ (Siap)**
         Menunjukkan kotak tersebut dapat Anda kerjakan 
@@ -137,41 +137,41 @@ Sebelum dapat memetakan menggunakan _Tasking Manager_, ada beberapa hal yang per
     Anda dapat melakukan dua jenis kontribusi pada proyek _tasking manager_, yaitu melakukan digitasi objek dan melakukan validasi data yang sudah dipetakan. Untuk mulai berkontribusi dan melakukan pemetaan silakan ikuti langkah-langkah berikut:
 
 *   Pilih tombol **_Map_**.
-    ![alt_text](images/0215_Ready_to_get_started.png "image_tooltip")
+    <p align="center"><img width=70% src="../images/0215_Ready_to_get_started.png"</p>
 
 
 *   Selanjutnya, tugas Anda adalah memilih grid/kotak proyek _tasking manager_ mana yang akan Anda kerjakan dengan cara memilih langsung grid/kotak pada proyek _tasking manager_ atau Anda juga dapat memilih kotak secara acak dengan menekan tombol **_Select a Random Task_.**
-![alt_text](images/0216_Choose_a_task.png "image_tooltip")
+<p align="center"><img width=70% src="../images/0216_Choose_a_task.png"</p>
 
     Anda  juga dapat mengganti _basemap_ atau peta dasar agar  area pemetaan di citra satelit yang terkena awan atau hutan dapat terlihat, sehingga tidak perlu dipilih. 
 
-    ![alt_text](images/0217_mengganti_citra_pada_tasking.png "image_tooltip")
+    <p align="center"><img width=70% src="../images/0217_mengganti_citra_pada_tasking.png"</p>
 
     Jika Anda menemukan grid/kotak yang tertutup awan, silakan Anda pilih tombol **_Mark as Bad Imagery_**. Jika Anda melihat bahwa area pemetaan tersebut hanya terdapat hutan, silakan Anda pilih **_Mark as Completely Mapped_**. 
-    ![alt_text](images/0218_mark_as_bad_imagery.png "image_tooltip")
+    <p align="center"><img width=70% src="../images/0218_mark_as_bad_imagery.png"</p>
 
 *   Jika sudah terpilih kotak yang diinginkan, silakan pilih tombol **_Start Mapping_**. 
-![alt_text](images/0219_Start_mapping.png "image_tooltip")
+<p align="center"><img width=70% src="../images/0219_Start_mapping.png</p>
 
 
 *   Silakan Anda pilih JOSM sebagai _editor_ yang akan digunakan untuk memetakan, kemudian pilih tombol **_Start Editor_**. Pastikan bahwa _software_ JOSM Anda telah dibuka sebelumnya. 
-![alt_text](images/0220_start_editor.png "image_tooltip")
+<p align="center"><img width=70% src="../images/0220_start_editor.png"</p>
 
 
 *   Secara otomatis _tasking manager_ akan mengunduh data ke dalam JOSM. Anda dapat langsung memetakan menggunakan JOSM dan citra satelit yang telah disesuaikan dengan petunjuk yang ada di halaman proyek _tasking_. Jika Anda ingin mengetahui bagaimana cara memetakan dengan menggunakan JOSM, silakan Anda buka kembali modul **Menggunakan JOSM**. Petakan seluruh objek yang ada di grid/kotak tersebut. 
 
-    ![alt_text](images/0221_Data_OSM_yang_telah_berhasil_di-download_melalui_tasking_manager.png "image_tooltip")
-    _Data OSM yang telah berhasil di-download melalui tasking manager_
+    <p align="center"><img width=70% src="../images/0221_Data_OSM_yang_telah_berhasil_di-download_melalui_tasking_manager.png"</p>
+    <p align="center"><i>Data OSM yang telah berhasil di-download melalui tasking manager</i></p>
 
 *   Setelah selesai, jangan lupa untuk meng-_upload_ hasil pemetaan Anda secara berkala. Hal ini bertujuan untuk mencegah terlalu banyaknya beban data yang akan di-_upload_. Ketika Anda ingin meng-_upload_, jangan lupa untuk menambahkan komentar. Jika Anda perhatikan pada kolom komentar, Anda akan melihat komentar bawaan yang sama dengan penomeran proyek _tasking manager_ tersebut. Silakan Anda tambahkan komentar Anda di belakang komentar _tasking manager_ tersebut. 
 
-    ![alt_text](images/0222_Kolom_komentar_pada_saat_upload_data_dari_JOSM.png "image_tooltip")
-    _Kolom komentar pada saat upload data dari JOSM_
+    <p align="center"><img width=70% src="../images/0222_Kolom_komentar_pada_saat_upload_data_dari_JOSM.png"</p>
+    <p align="center"><i>Kolom komentar pada saat upload data dari JOSM</i></p>
 
 *   Setelah Anda selesai melakukan pemetaan dan telah mengunggah data ke dalam server _OpenStreetMap_, silakan Anda kembali pada halaman _tasking manager_. Anda dapat memberikan komentar mengenai perubahan yang telah dikerjakan. Jika telah selesai memetakan seluruh objek di dalam proyek _tasking manager_, pilih tombol **_Mark as Completely Mapped_**. Namun, jika masih ada beberapa objek yang belum terpetakan, Anda dapat memilih tombol **_Stop Mapping_** untuk berhenti melakukan pemetaan dan dapat melanjutkan pemetaan nanti atau membiarkan kontributor lain untuk melengkapi dan memetakan objek tersebut.
     
-    ![alt_text](images/0223_Menambahkan_komentar_pada_grid_tasking_manager_yang_telah_dipetakan.png "image_tooltip")
-    _Menambahkan komentar pada grid/kotak tasking manager yang telah dipetakan_
+    <p align="center"><img width=70% src="../images/0223_Menambahkan_komentar_pada_grid_tasking_manager_yang_telah_dipetakan.png"</p>
+    <p align="center"><i>Menambahkan komentar pada grid/kotak tasking manager yang telah dipetakan</i></p>
 
 5. **Hal-hal yang Harus Diperhatikan saat Sudah Memilih Area di Proyek _Tasking_**
     Ada beberapa hal yang harus Anda perhatikan jika Anda telah memilih proyek dalam _Tasking Manager_. 
@@ -179,27 +179,27 @@ Sebelum dapat memetakan menggunakan _Tasking Manager_, ada beberapa hal yang per
 *   **Batas waktu pengerjaan maksimal 120 menit**
     Ketika Anda telah memilih satu kotak untuk dikerjakan, kotak tersebut akan menjadi milik Anda dalam jangka waktu 120 menit atau 2 jam. Pastikan Anda tidak terlalu lama mengerjakan dan segera lakukan _upload_ data secara berkala. 
 
-    ![alt_text](images/0224_Pemberitahuan_batas_waktu_pengerjaan_tasking_manager.png "image_tooltip")
-    _Pemberitahuan batas waktu pengerjaan tasking manager_
+    <p align="center"><img width=70% src="../images/0224_Pemberitahuan_batas_waktu_pengerjaan_tasking_manager.png"</p>
+    <p align="center"><i>Pemberitahuan batas waktu pengerjaan tasking manager</i></p>
 
 *   **Jangan lupa untuk membuka kembali kotak yang telah Anda pilih**
         Jika Anda telah selesai memetakan, jangan lupa gunakan tombol **_Stop Mapping_** jika kotak belum selesai dipetakan. Tombol **_Mark as Completely Mapped_** digunakan jika kotak yang Anda pilih telah betul-betul selesai Anda petakan dan sudah tidak ada objek apapun yang dapat Anda petakan. 
 
-    ![alt_text](images/0225_Tombol_Stop_Mapping_digunakan_jika_grid_Anda_belum_selesai_dipetakan.png "image_tooltip")
-        _Tombol Stop Mapping digunakan jika grid/kotak Anda belum selesai dipetakan_
+    <p align="center"><img width=70% src="../images/0225_Tombol_Stop_Mapping_digunakan_jika_grid_Anda_belum_selesai_dipetakan.png"</p>
+        <p align="center"><i>Tombol Stop Mapping digunakan jika grid/kotak Anda belum selesai dipetakan</i></p>
 
 *   **Jangan memetakan objek di luar area _tasking_ terpilh**
 
-    ![alt_text](images/0226_Area_yang_terarsir_tidak_boleh_Anda_petakan.png "image_tooltip")
-        _Area yang  terarsir tidak boleh Anda petakan_
+    <p align="center"><img width=70% src="../images/0226_Area_yang_terarsir_tidak_boleh_Anda_petakan.png"</p>
+        <p align="center"><i>Area yang  terarsir tidak boleh Anda petakan</i></p>
     
     Ketika grid/kotak _tasking manager_ yang Anda pilih telah terbuka di dalam JOSM,  terdapat area yang terarsir dan area tidak terarsir. Maksud dari area tidak terarsir menandakan bahwa area tersebut merupakan area pemetaan Anda, sementara area yang terarsir merupakan area yang tidak boleh Anda petakan. Hal ini dimaksudkan supaya tidak terjadi konflik antara pengguna _tasking manager_. 
 
 *   **Perlakuan khusus untuk objek yang berada di perbatasan antar kotak**
         Seringkali ketika memetakan menggunakan _tasking manager_, Anda menemukan objek-objek yang terletak di perbatasan antar dua grid/kotak _tasking manager_ yang berbeda seperti contoh berikut:
 
-    ![alt_text](images/0227_Objek_yang_terletak_di_perbatasan_grid_tasking_manager.png "image_tooltip")
-        _Objek yang terletak di perbatasan grid/kotak tasking manager_
+    <p align="center"><img width=70% src="../images/0227_Objek_yang_terletak_di_perbatasan_grid_tasking_manager.png"</p>
+        <p align="center"><i>Objek yang terletak di perbatasan grid/kotak tasking manager</i></p>
 
     Jika menemukan contoh objek seperti gambar di atas, silakan Anda petakan objek tersebut sedikit melewati batas grid/kotak _tasking manager_ yang Anda pilih. Hal ini dilakukan terutama pada objek jalan untuk memberi panduan bagi  kontributor lain yang memetakan di proyek _tasking manager_ berbeda dan bersebelahan dengan area Anda.
 
