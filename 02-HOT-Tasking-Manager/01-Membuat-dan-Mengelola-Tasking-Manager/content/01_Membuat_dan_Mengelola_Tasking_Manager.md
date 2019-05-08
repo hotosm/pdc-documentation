@@ -228,7 +228,7 @@ Terdapat 5 opsi pada halaman validasi hasil di _tasking manager_:
 * Memilih sesuai dengan nama pengguna. Anda juga dapat melakukan validasi pada sebuah kotak dengan memilih berdasarkan nama pengguna yang ikut serta untuk memetakan di proyek tasking Anda.
     
 c. Mengubah Area Prioritas
-    Anda bisa menentukan area prioritas untuk dipetakan terlebih dahulu. Caranya adalah dengan mengklik **_Edit Project_ **terlebih dahulu dan setelah itu Anda menuju ke menu **_Priority areas._** Silahkan ubah dan tambahkan area prioritas Anda dengan menggunakan cara yang sudah dijelaskan pada bagian sebelumnya.
+    Anda bisa menentukan area prioritas untuk dipetakan terlebih dahulu. Caranya adalah dengan mengklik **_Edit Project_** terlebih dahulu dan setelah itu Anda menuju ke menu **_Priority areas._** Silahkan ubah dan tambahkan area prioritas Anda dengan menggunakan cara yang sudah dijelaskan pada bagian sebelumnya.
 
 d. Beberapa Fitur Aksi di _Tasking Manager_
 
@@ -249,7 +249,7 @@ Pada menu pengelolaan _tasking manager_ Anda, terdapat beberapa tombol aksi:
 <p align="center"><i>Tampilan fitur-fitur yang terdapat pada halaman Action</i><p align="center">
 
 e. Mengarsip Proyek Tasking
-    Apabila proyek tasking sudah selesai, Anda disarankan untuk mengarsipkan proyek tasking yang telah Anda buat. Hal ini bertujuan untuk menghindari kontributor untuk melakukan pemetaan pada proyek _tasking_ tersebut. Untuk mengarsip proyek tasking , klik **_Edit Project_ **dan pilih menu **_Description_. **Pada menu status, ubah dari **_Published_** ke **_Archived_**. Klik **_Save Changes_**untuk menyimpan perubahannya.
+    Apabila proyek tasking sudah selesai, Anda disarankan untuk mengarsipkan proyek tasking yang telah Anda buat. Hal ini bertujuan untuk menghindari kontributor untuk melakukan pemetaan pada proyek _tasking_ tersebut. Untuk mengarsip proyek tasking , klik **_Edit Project_** dan pilih menu **_Description_.** Pada menu status, ubah dari **_Published_** ke **_Archived_**. Klik **_Save Changes_** untuk menyimpan perubahannya.
    
 <p align="center">
   <img width=50% src="../images/0119_mengubah_status_proyek_dari_published_ke_archived.png">
