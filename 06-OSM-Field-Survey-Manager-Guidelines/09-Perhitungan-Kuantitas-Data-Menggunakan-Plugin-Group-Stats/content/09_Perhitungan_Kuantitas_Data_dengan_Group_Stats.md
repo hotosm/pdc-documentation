@@ -42,7 +42,7 @@ Kuantitas adalah kualitas sesuatu hal yang terbentuk dari proses perhitungan dan
 
 Kalkulasi kuantitas data dapat dihitung berdasarkan batas administrasi agar memudahkan dalam membuat laporan bulanan dan memantau _timeline_ pemetaan. Dalam perhitungan jumlah objek membutuhkan dua jenis data yaitu: _file .shapefile_ objek OSM dan _file .shapefile_ batas administrasi. Sebelum melakukan perhitungan, Anda harus mempunyai kedua _file .shapefile_ tersebut. 
 
-Data batas administrasi yang akan digunakan pada bab ini dapat di _download_ pada tautan http://tinyurl.com/admin-smg dan data objek OSM dapat di _download_ dengan menggunakan _Export Tool _yang terdapat pada modul_ **Penggunaan YAML pada Export Tool**_. Anda dapat melakukan perhitungan jumlah objek sebelum dan sesudah pemetaan, agar terlihat kalkulasi data yang dihasilkan dari proyek pemetaan. Hasil _download _data OSM pada pada modul_ **Penggunaan YAML pada Export Tool**_ akan digunakan untuk perhitungan jumlah objek. Ada 2 (dua) kategori ._shapefile_ yang dihasilkan, yaitu:
+Data batas administrasi yang akan digunakan pada bab ini dapat di _download_ pada tautan http://tinyurl.com/admin-smg dan data objek OSM dapat di _download_ dengan menggunakan _Export Tool_ yang terdapat pada modul **Penggunaan YAML pada _Export Tool_**. Anda dapat melakukan perhitungan jumlah objek sebelum dan sesudah pemetaan, agar terlihat kalkulasi data yang dihasilkan dari proyek pemetaan. Hasil _download_ data OSM pada pada modul **Penggunaan YAML pada _Export Tool_** akan digunakan untuk perhitungan jumlah objek. Ada 2 (dua) kategori ._shapefile_ yang dihasilkan, yaitu:
 
 *   **Fasum :**
 1. Semua objek yang masuk ke dalam _amenity_=*
@@ -72,7 +72,7 @@ Jika Anda telah memiliki data ._shapefile_ seperti di atas, maka dapat melanjutk
 <p align="center"><i>Daftar file .shp hasil download data OSM</i><p align="center">
 
 
-*   _Layer-layer_ tersebut akan tampil pada _map canvas (kanvas peta)_ dan daftar _layer_ akan tampil pada **_Layers Panel_**.
+*   _Layer-layer_ tersebut akan tampil pada _map canvas_ (kanvas peta) dan daftar _layer_ akan tampil pada **_Layers Panel_**.
 
 ![Tampilan peta pada QGIS](../images/0906_tampilanlayer.png "Tampilan peta pada QGIS")
 <p align="center"><i>Tampilan peta pada QGIS</i><p align="center">
@@ -86,7 +86,7 @@ Jika Anda telah memiliki data ._shapefile_ seperti di atas, maka dapat melanjutk
 
 **b. Penggabungan Layer Objek dan Batas Administrasi**
 
-*   Gabungkan _layer_ batas administrasi dengan _layer_ objek OSM agar data objek memiliki atribut nama kelurahan. Klik **_Menu Vector → Geoprocessing Tool → Intersect_** untuk memulai penggabungan _layer_. Pada bagian  **_ input vector layer_** (_layer_ objek OSM) pilih satu per satu objek untuk digabungkan dengan **_Intersect layer_** (_layer_ kelurahan). Pilih ***Browse*** untuk menentukan lokasi penyimpanan **_output shapefile_** di direktori Anda, lalu klik **OK**. 
+*   Gabungkan _layer_ batas administrasi dengan _layer_ objek OSM agar data objek memiliki atribut nama kelurahan. Klik **_Menu Vector → Geoprocessing Tool → Intersect_** untuk memulai penggabungan _layer_. Pada bagian  **_input vector layer_** (_layer_ objek OSM) pilih satu per satu objek untuk digabungkan dengan **_Intersect layer_** (_layer_ kelurahan). Pilih ***Browse*** untuk menentukan lokasi penyimpanan **_output shapefile_** di direktori Anda, lalu klik **OK**. 
 
 <p align="center">
   <img width=50% src="../images/0908_intersectproses.png">
