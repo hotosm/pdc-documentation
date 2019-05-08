@@ -104,10 +104,12 @@ Pada GPS Anda terdapat berbagai macam menu utama lainnya pada tombol **MENU**. J
 GPS Anda merekam dua jenis informasi yang berguna untuk membuat peta atau menyimpan koordinat dari sebuah tempat. Pertama, GPS Anda dapat menyimpan jalur yang Anda lewati yang sering disebut dengan _track_ (trek). Kedua, GPS dapat menyimpan lokasi Anda pada memori GPS yang sering disebut dengan titik objek (_Waypoint_). 
 
 **a. Pengertian _Track_ atau Rute Perjalanan**
- _Track_ atau rute perjalanan adalah arah atau jalur perjalanan Anda saat mulai direkam dan akan disimpan berupa seri lokasi kemana pun Anda bergerak. Sebagai contoh, _track_ akan merekam lokasi Anda setiap satu detik, atau setiap satu meter, dan hasilnya akan berupa sebuah seri dari titik-titik yang menunjukan jalur lokasi dimana Anda pernah berada. _Track_ sangat berguna untuk memetakan objek yang ditunjukkan oleh garis atau bentuk, seperti sebuah jalan, atau bentuk dari sebuah lapangan.
+ 
+_Track_ atau rute perjalanan adalah arah atau jalur perjalanan Anda saat mulai direkam dan akan disimpan berupa seri lokasi kemana pun Anda bergerak. Sebagai contoh, _track_ akan merekam lokasi Anda setiap satu detik, atau setiap satu meter, dan hasilnya akan berupa sebuah seri dari titik-titik yang menunjukan jalur lokasi dimana Anda pernah berada. _Track_ sangat berguna untuk memetakan objek yang ditunjukkan oleh garis atau bentuk, seperti sebuah jalan, atau bentuk dari sebuah lapangan.
 
 **b. Pengertian _Waypoint_ atau Titik Objek**
- _Waypoint_ atau titik objek adalah titik acuan atau kumpulan koordinat yang digunakan untuk keperluan navigasi atau untuk mengidentifikasi sebuah titik di peta. GPS dapat menyimpan lokasi Anda pada memori GPS. Ketika Anda menyimpan sebuah lokasi, koordinat akan disimpan dengan sebuah nama. Sebagai contoh, titik pertama yang tersimpan oleh Anda akan diberi nama 001, kedua 002, dan seterusnya. Untuk lebih jelasnya, akan dibahas pada sub-bab VI. Menyimpan Titik.
+
+_Waypoint_ atau titik objek adalah titik acuan atau kumpulan koordinat yang digunakan untuk keperluan navigasi atau untuk mengidentifikasi sebuah titik di peta. GPS dapat menyimpan lokasi Anda pada memori GPS. Ketika Anda menyimpan sebuah lokasi, koordinat akan disimpan dengan sebuah nama. Sebagai contoh, titik pertama yang tersimpan oleh Anda akan diberi nama 001, kedua 002, dan seterusnya. Untuk lebih jelasnya, akan dibahas pada sub-bab VI. Menyimpan Titik.
 
 ### V. Menyalakan Mode Perekaman _Track_ atau Rute Perjalanan
 Berikut ini adalah langkah-langkah dalam mengaktifkan perekaman _track_:
