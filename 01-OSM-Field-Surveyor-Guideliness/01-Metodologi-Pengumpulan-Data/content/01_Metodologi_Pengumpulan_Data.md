@@ -22,7 +22,7 @@ Pembagian wilayah pemetaan ini bertujuan untuk memfokuskan area kegiatan pemetaa
 Pentingnya kemampuan teknis dalam mengoperasikan peralatan survei akan membantu dalam pengambilan data di lapangan. Pengetahuan lokal seperti pemahaman akan lokasi yang akan menjadi tujuan survei dan kemampuan berbahasa daerah (lokal) menjadi nilai tambah yang dapat membantu mendapatkan informasi dari masyarakat dan komunitas di area survei. 
 
 ![Pembagian wilayah pemetaan di masing-masing Kota](../images/0101_metode_pengumpulan_data.JPG "Pembagian wilayah pemetaan di masing-masing Kota")
-_Pembagian wilayah pemetaan di masing-masing Kota_
+<p align="center"><i>Pembagian wilayah pemetaan di masing-masing Kota</i></p>
 
 *   **Mengurus Surat Izin Survei**
 
@@ -43,7 +43,7 @@ Hal ini merupakan persiapan untuk internal tim dimana para _Quality Assurance_ d
 Kegiatan pengumpulan data dimulai tidak hanya ketika berada di wilayah survei atau lapangan, akan tetapi dimulai dari _basecamp_ hingga kembali ke _basecamp_ sebelum melakukan input data hasil survei. Berikut alur kegiatan dalam melakukan pengumpulan data di lapangan:
 
 ![Alur pengumpulan data di lapangan](../images/0102_metode_pengumpulan_data.JPG "Alur pengumpulan data di lapangan")
-_Alur pengumpulan data di lapangan_
+<p align="center"><i>Alur pengumpulan data di lapangan</i></p>
 
 *   **Tahap 1**
 
@@ -112,7 +112,7 @@ Aplikasi ini membantu _Data Entry_ dalam mencatat cakupan survei di kelurahan ta
 Secara umum kegiatan pengumpulan data infrastruktur dilakukan dengan berkeliling di kelurahan target pemetaan kemudian mencari objek-objek prioritas pemetaan dan mengumpulkan informasi-informasi yang dibutuhkan untuk masing-masing objek dengan pengamatan secara langsung terhadap objek ataupun bertanya kepada masyarakat sekitar. Setelah itu data hasil pemetaan akan di-_upload_ ke _google_ _drive_ yang telah dibuat oleh masing-masing _Quality Assurance_ dan ke server _ona.io_ sebagai _backup_ atau cadangan data jika data hilang atau terhapus secara tidak sengaja. Langkah terakhir adalah melakukan input hasil pengumpulan data di lapangan dengan menggunakan JOSM. Berikut adalah alur singkat dalam melakukan pengumpulan data infrastruktur:
 
 ![Alur pengambilan data infrastruktur](../images/0103_metode_pengumpulan_data.JPG "Alur pengambilan data infrastruktur")
-_Alur pengambilan data infrastruktur_
+<p align="center"><i>Alur pengambilan data infrastruktur</i></p>
 
 
 > Catatan :
@@ -122,8 +122,10 @@ Hasil pengumpulan data HARUS dihapus berkala setiap hari di smartphone setelah m
 Jika terdapat penolakan/pengusiran dari masyarakat setempat, Data Entry dapat meminta bantuan tim BPBD untuk menemani dalam melakukan pengumpulan data di lapangan.
 
 
-![Kegiatan pengumpulan data infrastruktur di lapangan](../images/0104_metode_pengumpulan_data.PNG "Kegiatan pengumpulan data infrastruktur di lapangan")
-_Kegiatan pengumpulan data infrastruktur di lapangan_
+<p align="center">
+  <img width="500" height="200" src="../images/0104_metode_pengumpulan_data.PNG "Kegiatan pengumpulan data infrastruktur di lapangan">
+</p>
+<p align="center"><i>Kegiatan pengumpulan data infrastruktur di lapangan</i></p>
 
 
 **b. Pengumpulan Data Batas Administrasi**
@@ -133,14 +135,14 @@ Mengumpulkan data batas administrasi sedikit berbeda dengan mengumpulkan data in
 Pengumpulan data batas administrasi menggunakan pendekatan komunikasi dan melibatkan perwakilan kelurahan dan masyarakat setempat. Secara umum cara pengambilan batas administrasi adalah dengan datang ke kantor kelurahan yang menjadi area target pemetaan dengan membawa peta survei kemudian berdiskusi dengan pihak kelurahan tentang batas-batas kelurahan dan rukun warga (RW). Pihak kelurahan kemudian akan melihat peta survei dan setelah itu menggambar garis batas-batas kelurahan dengan alat tulis seperti pensil ataupun spidol di atas peta survei tersebut. 
 
 ![Kegiatan pengumpulan batas administrasi di kantor kelurahan](../images/0105_metode_pengumpulan_data.PNG "Kegiatan pengumpulan batas administrasi di kantor kelurahan")
-_Kegiatan pengumpulan batas administrasi di kantor kelurahan_
+<p align="center"><i>Kegiatan pengumpulan batas administrasi di kantor kelurahan</i></p>
 
 Setelah selesai, _data entry_ dapat memberikan hasil pengumpulan batas administrasi tersebut kepada _Quality Assurance_ untuk di-_input_ ke dalam _OpenStreetMap_ dengan menggunakan JOSM. Untuk penjelasan tentang bagaimana cara _input_ batas-batas administrasi dapat dilihat di Modul **Membuat Batas Administrasi di JOSM**.
 
 Berikut adalah alur dalam melakukan pengumpulan batas administrasi:
 
 ![Alur pengambilan data batas administrasi](../images/0106_metode_pengumpulan_data.JPG "Alur pengambilan data batas administrasi")
-_Alur pengambilan data batas administrasi_
+<p align="center"><i>Alur pengambilan data batas administrasi</i></p>
 
 >Catatan :
 Pengambilan data batas-batas administrasi dapat melibatkan perwakilan kelurahan ataupun ketua RW setempat jika perwakilan kelurahan tidak memahami dengan baik batas-batas RW yang ada di kelurahan tersebut. 
