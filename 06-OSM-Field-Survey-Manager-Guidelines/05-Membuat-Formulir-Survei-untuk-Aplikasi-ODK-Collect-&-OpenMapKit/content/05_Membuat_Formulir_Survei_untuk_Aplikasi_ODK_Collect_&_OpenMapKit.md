@@ -46,9 +46,12 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
       <img width=50% src="../images/0503_tiga_lembar_kerja_utama.png">
     </p>
     <p align="center"><i>Tiga Lembar Kerja Utama di setiap XLSForm</i></p>
-    Lembar kerja pertama yaitu **_survey_. **Pada lembar kerja ini semua pertanyaan yang akan kita buat harus kita letakkan pada lembar kerja ini. Semua pertanyaan yang kita buat tidak perlu disertakan dengan daftar jawaban. Semua daftar jawaban yang kita butuhkan akan mengacu ke lembar kerja berikutnya.
+    
+    Lembar kerja pertama yaitu **_survey_.** Pada lembar kerja ini semua pertanyaan yang akan kita buat harus kita letakkan pada lembar kerja ini. Semua pertanyaan yang kita buat tidak perlu disertakan dengan daftar jawaban. Semua daftar jawaban yang kita butuhkan akan mengacu ke lembar kerja berikutnya.
+
     Lembar kerja kedua yaitu **_choices_**. Pada lembar kerja ini kita memasukkan semua daftar jawaban kita dari setiap pertanyaan yang membutuhkan pilihan jawaban. 
-    Lembar kerja ketiga yaitu **_settings_. **Pada lembar kerja ini kita hanya dapat memasukkan nama formulir kita apabila nama formulir kita berbeda dengan nama berkas kita. Sebagai contoh, apabila nama berkas kita adalah _formulir_survei_air_bersih.xls_ maka pada lembar kerja ini kita bisa memberikan nama formulir kita dengan nama yang kita inginkan, misalnya _Formulir Kondisi Air Bersih_.
+
+    Lembar kerja ketiga yaitu **_settings_.** Pada lembar kerja ini kita hanya dapat memasukkan nama formulir kita apabila nama formulir kita berbeda dengan nama berkas kita. Sebagai contoh, apabila nama berkas kita adalah _formulir_survei_air_bersih.xls_ maka pada lembar kerja ini kita bisa memberikan nama formulir kita dengan nama yang kita inginkan, misalnya _Formulir Kondisi Air Bersih_.
 
     *   **Tiga nama kolom utama.** 
     Pada setiap lembar kerja harus terdapat dua-tiga nama kolom yang berbeda di setiap lembar kerja. Nama kolom untuk masing-masing lembar kerja ini pun berbeda-beda.
