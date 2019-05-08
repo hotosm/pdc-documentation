@@ -55,14 +55,23 @@ Pada bagian ini, Anda akan mengisi informasi dasar untuk proyek Anda. Anda harus
 
 
 >Catatan:
+>
 >       Saat memasukkan tag/atribut dalam format YAML. Ada beberapa hal yang harus diperhatikan:
+>       
 >       - Penggunaan spasi sangat sensitif disini. 
+> 
 >       - Satu elemen terdiri dari elemen utama dan elemen pendukung
+>       
 >       - Semua elemen dibawah elemen utama (elemen pendukung) harus berada beberapa spasi dibandingkan elemen utama
+>       
 >       - Isi elemen pendukung = *feature, tags, & element_type*
+>       
 >       - *feature* merupakan kategori yang ada di OSM. Untuk lebih jelasnya bisa melihat wikipedia OSM
+>       
 >       - Agar lebih spesifik, Anda bisa menggunakan set *key & value* seperti misalnya *building=school* atau *amenity=hospital*
+>       
 >       - *tags* merupakan kumpulan atribut (*key & value*) OSM yang akan diperiksa oleh sistem. Harap cek *wikipedia* atau modul **Model Data OpenStreetMap**
+>       
 >       - *element_type* merupakan jenis objek OSM yang akan diperiksa. Apakah titik (*point*), garis (*line*), atau area (*polygon*) 
 
 
