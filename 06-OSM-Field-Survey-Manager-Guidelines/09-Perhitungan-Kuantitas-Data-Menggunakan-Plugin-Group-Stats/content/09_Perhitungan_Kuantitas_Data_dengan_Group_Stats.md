@@ -64,12 +64,12 @@ Jika Anda telah memiliki data ._shapefile_ seperti di atas, maka dapat melanjutk
 <p align="center"><i>Tampilan Add Vector Layer</i><p align="center">
 
 
-*   Arahkan ke direktori tempat penyimpanan _file _→ ***Pilih semua → Open → Open***
+*   Arahkan ke direktori tempat penyimpanan _file_ → ***Pilih semua → Open → Open***
 
 <p align="center">
   <img width=70% src="../images/0905_daftarfileshp.png">
 </p>
-<p align="center"><i>Daftar File .shp hasil download data OSM</i><p align="center">
+<p align="center"><i>Daftar file .shp hasil download data OSM</i><p align="center">
 
 
 *   _Layer-layer_ tersebut akan tampil pada _map canvas (kanvas peta)_ dan daftar _layer_ akan tampil pada **_Layers Panel_**.
@@ -86,7 +86,7 @@ Jika Anda telah memiliki data ._shapefile_ seperti di atas, maka dapat melanjutk
 
 **b. Penggabungan Layer Objek dan Batas Administrasi**
 
-*   Gabungkan _layer_ batas administrasi dengan _layer_ objek OSM agar data objek memiliki atribut nama kelurahan. Klik **_Menu Vector → Geoprocessing Tool → Intersect _**untuk memulai penggabungan _layer_. Pada bagian**_ input vector layer_** (_layer_ objek OSM) pilih satu per satu objek untuk digabungkan dengan **_Intersect layer_** (_layer_ kelurahan). Pilih ***Browse*** untuk menentukan lokasi penyimpanan **_output shapefile_** di direktori Anda, lalu klik **OK**. 
+*   Gabungkan _layer_ batas administrasi dengan _layer_ objek OSM agar data objek memiliki atribut nama kelurahan. Klik **_Menu Vector → Geoprocessing Tool → Intersect_** untuk memulai penggabungan _layer_. Pada bagian  **_ input vector layer_** (_layer_ objek OSM) pilih satu per satu objek untuk digabungkan dengan **_Intersect layer_** (_layer_ kelurahan). Pilih ***Browse*** untuk menentukan lokasi penyimpanan **_output shapefile_** di direktori Anda, lalu klik **OK**. 
 
 <p align="center">
   <img width=50% src="../images/0908_intersectproses.png">
@@ -116,7 +116,7 @@ Data OSM yang dihasilkan dari proyek pemetaan terdiri dari _points, lines,_ dan 
 <p align="center">
   <img width=60% src="../images/0910_filtermenu.png">
 </p>
-<p align="center"><i>Langkah-Langkah Filter Data</i><p align="center">
+<p align="center"><i>Langkah-langkah filter data</i><p align="center">
 
    
 *   Ketika Anda klik **OK** akan tampil objek OSM yang hanya ada di Kecamatan Candisari
