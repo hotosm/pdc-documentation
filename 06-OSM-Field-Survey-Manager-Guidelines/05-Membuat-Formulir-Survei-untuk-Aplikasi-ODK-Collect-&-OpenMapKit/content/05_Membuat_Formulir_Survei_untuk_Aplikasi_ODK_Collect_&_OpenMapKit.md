@@ -59,8 +59,10 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
 
         *   **Lembar kerja survey**
 
-        Pada lembar kerja **survey** kita harus memasukkan tiga nama kolom yaitu **type, name, **&** label**. Kolom dengan nama **type **menunjukkan jenis pertanyaan yang akan muncul nantinya, apakah pertanyaan berbentuk pilihan, isian bebas ataupun mengambil lokasi. 
-        Kolom dengan nama **name **menunjukkan variabel unik untuk setiap daftar pertanyaan. Variabel ini tidak boleh sama, tidak menggunakan spasi, dan hanya berupa angka, huruf atau garis bawah.  
+        Pada lembar kerja **survey** kita harus memasukkan tiga nama kolom yaitu **type, name, **&** label**. Kolom dengan nama **type** menunjukkan jenis pertanyaan yang akan muncul nantinya, apakah pertanyaan berbentuk pilihan, isian bebas ataupun mengambil lokasi. 
+
+        Kolom dengan nama **name** menunjukkan variabel unik untuk setiap daftar pertanyaan. Variabel ini tidak boleh sama, tidak menggunakan spasi, dan hanya berupa angka, huruf atau garis bawah.
+
         Kolom dengan nama **label** menunjukkan tulisan pertanyaan yang akan muncul pada perangkat ponsel pengguna. Tidak ada format baku untuk kolom ini, Anda bebas menggunakan huruf, angka, dan karakter spesial pada kolom ini.
         <p align="center">
           <img width=50% src="../images/0504_contoh_kolom_untuk _lembar_kerja_survey.png">
@@ -72,7 +74,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
         Pada lembar kerja **choices** kita harus memasukkan tiga nama kolom yaitu **list_name, name**, & **label.** Pada kolom **list_name** ini anda membuat sebuah grup yang berisikan sebuah set pilihan jawaban. Misalnya seperti sebuah set pilihan jawaban yang akan muncul dibawah pertanyaan pilihan ganda. Untuk penamaan pada variabel **list_name** ini harus mengikuti penamaan yang ada pada lembar kerja **survey**. Misalnya pada lembar kerja **survey** kita memasukkan tipe pilihan ganda dengan nama **select_one jns_bencana**. Maka pada lembar kerja **choices** kita harus mengisi **_list_name_** kita dengan nama **jns_bencana**. Ini akan dijelaskan lebih lanjut pada pembahasan berikutnya.
 
         Kolom dengan nama **name** memiliki aturan yang sama dengan kolom **name** pada lembar kerja **survey**. Semua harus dalam variabel unik yang tidak sama dengan yang lainnya baik pada lembar kerja **survey** maupun lembar kerja **choices**; tidak menggunakan spasi melainkan diganti dengan menggunakan garis bawah/_underscore_; dan tidak boleh menggunakan karakter spesial seperti tanda tanya, tanda seru, dsb.
-        
+
         Kolom dengan nama **_label_** memiliki aturan yang sama dengan kolom **label** pada lembar kerja **survey**. Pada kolom ini berisikan teks jawaban yang akan muncul pada ponsel pengguna. Anda bisa bebas menggunakan spasi, karakter khusus maupun huruf pada bagian kolom ini.
         <p align="center">
           <img width=50% src="../images/0505_contoh_penamaan_kolom_pada_lembar_kerja choices.png">
@@ -154,7 +156,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
     </p>
     <p align="center"><i>Contoh penggunaan tipe note</i></p>
     
-    *   Tipe **image, video **atau **audio**
+    *   Tipe **image, video** atau **audio**
         Tipe pertanyaan ini akan meminta pengguna untuk mengambil gambar, suara atau video. 
     <p align="center">
       <img width=50% src="../images/0514_contoh_penggunaan_tipe_image.png">
@@ -168,7 +170,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
 
     *   **Hint**
 
-        Hint merupakan salah satu fitur tambahan yang bisa kita tambahkan pada formulir survei digital kita. Dengan menggunakan fitur ini, kita bisa memberikan informasi tambahan atau petunjuk tentang bagaimana cara mengisi sebuah pertanyaan yang kita buat. Untuk membuat fitur ini, kita harus menambahkan kolom baru pada lembar kerja **survey **yang bernama **hint**. Dengan menambahkan kolom ini, setiap tipe pertanyaan yang kita buat, bisa kita tambahkan dengan petunjuk informasi pengisian dengan mengisi pada kolom **hint** ini.
+        Hint merupakan salah satu fitur tambahan yang bisa kita tambahkan pada formulir survei digital kita. Dengan menggunakan fitur ini, kita bisa memberikan informasi tambahan atau petunjuk tentang bagaimana cara mengisi sebuah pertanyaan yang kita buat. Untuk membuat fitur ini, kita harus menambahkan kolom baru pada lembar kerja **survey** yang bernama **hint**. Dengan menambahkan kolom ini, setiap tipe pertanyaan yang kita buat, bisa kita tambahkan dengan petunjuk informasi pengisian dengan mengisi pada kolom **hint** ini.
         <p align="center">
           <img width=50% src="../images/0515_contoh_penggunaan_kolom_hint.png">
         </p>
@@ -176,7 +178,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
 
     *   **Required**
 
-        Fitur ini dibutuhkan apabila pada formulir survei Anda, terdapat pertanyaan yang wajib untuk dijawab. Dengan menggunakan fitur ini, pengguna tidak akan bisa mengisi pertanyaan selanjutnya apabila mereka belum menjawab pertanyaan tersebut. Tipe pertanyaan yang menggunakan fitur ini juga akan memiliki tanda bintang berwarna merah ( *** **) apabila dilihat pada ponsel Anda. Untuk menggunakan fitur ini, Anda cukup membuat sebuah kolom baru yang bernama **required** yang terletak pada lembar kerja **survey**. Setiap tipe pertanyaan yang Anda akan atur menjadi wajib, harus anda tambahkan nilai **yes** pada kolom required ini.
+        Fitur ini dibutuhkan apabila pada formulir survei Anda, terdapat pertanyaan yang wajib untuk dijawab. Dengan menggunakan fitur ini, pengguna tidak akan bisa mengisi pertanyaan selanjutnya apabila mereka belum menjawab pertanyaan tersebut. Tipe pertanyaan yang menggunakan fitur ini juga akan memiliki tanda bintang berwarna merah ( * ) apabila dilihat pada ponsel Anda. Untuk menggunakan fitur ini, Anda cukup membuat sebuah kolom baru yang bernama **required** yang terletak pada lembar kerja **survey**. Setiap tipe pertanyaan yang Anda akan atur menjadi wajib, harus anda tambahkan nilai **yes** pada kolom required ini.
         <p align="center">
           <img width=50% src="../images/0516_contoh_penggunaan_fitur_required.png">
         </p>
@@ -186,7 +188,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
 
         Fungsi dari fitur ini adalah pengguna akan disajikan beberapa pertanyaan pada **satu halaman saja** pada layar aplikasi. Secara pengaturan awal, setiap halaman hanya akan disajikan satu pertanyaan saja. Apabila kita ingin agar semua pertanyaan muncul pada satu halaman, maka kita harus menggunakan fitur ini.
         Untuk mengaktifkan fitur ini, Anda harus melakukan beberapa pengaturan:
-        1.  Anda harus menyelipkan format **begin_group **pada bagian awal pertanyaan yang ingin Anda tampilkan ke dalam satu halaman** **dan **end_group** pada bagian akhir pertanyaan yang ingin Anda tampilkan dalam satu halaman. Format **begin_group** dan **end_group** ini harus berada di dalam kolom **type**. Dengan menyelipkan format ini, sistem akan membaca bahwa semua pertanyaan yang berada setelah format **begin_group**dan sebelum format **end_group** merupakan satu grup pertanyaan.
+        1.  Anda harus menyelipkan format **begin_group** pada bagian awal pertanyaan yang ingin Anda tampilkan ke dalam satu halaman dan **end_group** pada bagian akhir pertanyaan yang ingin Anda tampilkan dalam satu halaman. Format **begin_group** dan **end_group** ini harus berada di dalam kolom **type**. Dengan menyelipkan format ini, sistem akan membaca bahwa semua pertanyaan yang berada setelah format **begin_group** dan sebelum format **end_group** merupakan satu grup pertanyaan.
         2. Setelah anda membuat grup pertanyaan tersebut, Anda harus menambahkan kolom **appearance** dan disikan dengan format **field-list**. Dengan menambahkan kolom tersebut, Anda memberitahukan kepada sistem bahwa semua grup pertanyaan yang telah Anda buat, akan dimasukkan ke dalam daftar satu halaman saja.
         <p align="center">
           <img width=50% src="../images/0517_contoh_penggunaan_fitur_field-list_pada_beberapa_kelompok_pertanyaan.png">
@@ -194,6 +196,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
         <p align="center"><i>Contoh penggunaan fitur field-list pada beberapa kelompok pertanyaan</i></p>
 
     *   **Relevant**
+
         Fitur ini memungkinkan kita untuk  membuat daftar pertanyaan yang mengikuti jawaban dari pertanyaan sebelumnya. Misalkan kita diberikan pertanyaan mengenai “Apa makanan yang kamu suka?” dengan pilihan jawaban “A. Nasi Goreng B. Pizza C. Mi Goreng”. Apabila kita menjawab “B. Pizza”, maka pertanyaan berikutnya hanya akan berkaitan dengan pizza, misalnya seperti “Topping pizza apa yang kamu suka?” atau “Jenis pizza apa yang kamu suka?”. Pertanyaan tersebut tidak akan muncul apabila kita menjawab dengan jawaban lain selain pizza. Cara memasukkan fitur **relevant** terdiri dari beberapa tahapan:
         1. Membuat tipe pertanyaan awal
         
