@@ -146,7 +146,7 @@ Elemen ini biasanya digunakan untuk menampilkan isian informasi yang berupa tand
 Penulisan elemen menggunakan _value_on_ dan _value_off_ dimana masing-masing dapat sesuai dengan nilai dimana _value_on_ artinya jika informasi itu dicentang dan _value_off_ jika tidak dicentang. Adapun _default_ atau pengaturan awal dari elemen ini adalah perintah bahwa jika tidak dicentang maka informasi ini akan tetap muncul di jendela _membership_ di JOSM. Berikut adalah contoh tampilan elemen ini di JOSM:
 
 <p align="center">
-  <img width="300" height="200" src="../images/0309_presets_9.JPG "Tampilan elemen check key di JOSM">
+  <img width="200" height="100" src="../images/0309_presets_9.JPG "Tampilan elemen check key di JOSM">
 </p>
 <p align="center"><i>Tampilan elemen check key di JOSM</i></p>
 
