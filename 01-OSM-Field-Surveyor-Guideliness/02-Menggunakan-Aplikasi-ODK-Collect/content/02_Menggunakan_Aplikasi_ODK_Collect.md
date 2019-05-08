@@ -43,7 +43,8 @@ Selain titik lokasi, Anda juga dapat mengambil foto sebagai keterangan tambahan.
 ### **III. Pengoperasian dasar _ODK Collect_**
 
  **a. Cara mengambil formulir survei kosong dari server**
-    Sebelum Anda mengisi formulir survei yang telah dibuat sebelumnya, Anda perlu mengambil atau men-_download_ formulir survei kosong dari server yang telah ditentukan. Untuk penjelasan lebih lanjut tentang pembuatan formulir survei di ODK, Anda dapat mempelajari modul **Membuat Form Survei untuk aplikasi ODK & OMK**. Langkah-langkah untuk mengambil survei kosong dari server adalah sebagai berikut:
+ 
+ Sebelum Anda mengisi formulir survei yang telah dibuat sebelumnya, Anda perlu mengambil atau men-_download_ formulir survei kosong dari server yang telah ditentukan. Untuk penjelasan lebih lanjut tentang pembuatan formulir survei di ODK, Anda dapat mempelajari modul **Membuat Form Survei untuk aplikasi ODK & OMK**. Langkah-langkah untuk mengambil survei kosong dari server adalah sebagai berikut:
 
 *   Tekan **_Get Blank Form_** dan tunggu formulir ter-_download_ dari server dan pastikan internet Anda telah aktif.
 
@@ -88,6 +89,7 @@ Selain titik lokasi, Anda juga dapat mengambil foto sebagai keterangan tambahan.
 <p align="center"><i>Tampilan halaman finalisasi akhir pada formulir survei</i></p>
 
  **c. Mengubah formulir survei yang sudah diisi**
+
 Formulir yang telah disimpan akan otomatis tersimpan pada aplikasi _ODK Collect_. Apabila Anda ingin mengedit kembali formulir yang telah diisi Anda dapat melakukan langkah sebagai berikut:
 
 *   Anda dapat kembali ke halaman awal dan tekan pilihan **_Edit Saved Form_**.
@@ -106,7 +108,8 @@ Formulir yang telah disimpan akan otomatis tersimpan pada aplikasi _ODK Collect_
 <p align="center"><i>Tampilan formulir survei yang sudah diisi dan ikon untuk simpan perubahan formulir</i></p>
 
  **d. Mengupload formulir survei ke server**
-    Setelah Anda mengisi dan menyimpan formulir, langkah selanjutnya ialah meng-_upload_ atau _upload_ formulir tersimpan ke server. Langkah-langkah untuk meng-_upload_ formulir ke server adalah sebagai berikut:
+
+Setelah Anda mengisi dan menyimpan formulir, langkah selanjutnya ialah meng-_upload_ atau _upload_ formulir tersimpan ke server. Langkah-langkah untuk meng-_upload_ formulir ke server adalah sebagai berikut:
 
 *   Untuk meng-_upload_ formulir survei kembali ke server, Anda dapat memilih pilihan **_Send Finalized Form_** pada halaman awal.
 
@@ -140,6 +143,7 @@ Formulir yang telah disimpan akan otomatis tersimpan pada aplikasi _ODK Collect_
 <p align="center"><i>Kotak dialog untuk konfirmasi hapus formulir</i></p>
 
  **e. Meng-_upload_ formulir survei ke Google Drive**
+
 Setelah Anda meng-_upload_ semua formulir survei kembali ke server, Anda perlu menyimpan dan meng-_upload_ _file_ hasil survei dalam format _.zip_ ke dalam folder di **Google Drive** yang telah dibuat oleh _Mapping Supervisor_. Langkah-langkahnya adalah sebagai berikut:
 
 *   Pergi ke _File Manager_ atau _File Explorer_ pada _smartphone_ Anda dan buka penyimpanan internal Anda. Kemudian buka folder dengan nama **odk** yaitu folder yang berisikan semua _file_ hasil survei yang tersimpan pada aplikasi _ODK Collect_. Lalu tekan folder **instances** yang berisi folder yang didalamnya terdapat _file_ *.osm objek hasil survei.
