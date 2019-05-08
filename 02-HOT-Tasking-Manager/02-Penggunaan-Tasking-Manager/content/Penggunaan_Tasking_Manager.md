@@ -99,13 +99,13 @@ Sebelum dapat memetakan menggunakan _Tasking Manager_, ada beberapa hal yang per
 3. **Mengenal Tampilan _Tasking Manager_**
     Ketika Anda telah memilih satu proyek _tasking_, maka akan muncul tampilan sebagai berikut: 
 
-    <p align="center"><img width=100% src="../images/0212_Tasking_manager_#781_INSIST_-_Kelurahan_Penjaringan.png"</p>
+    <p align="center"><img width=70% src="../images/0212_Tasking_manager_#781_INSIST_-_Kelurahan_Penjaringan.png"</p>
     <p align="center"><i>Tasking manager #781 INSIST - Kelurahan Penjaringan</i></p>
 
     Tampilan ini menunjukkan deskripsi proyek _tasking manager_ yang sedang kita buka. Pada bagian deskripsi, Anda dapat membaca latar belakang proyek pemetaan infrastruktur dan sanitasi di Penjaringan. Di bagian bawah kita dapat melihat informasi lebih detail mengenai proyek ini, mulai dari tingkat prioritas, organisasi pembuat, nama pembuat proyek, tingkat kesulitan, hingga objek apa yang harus dipetakan. Jika Anda ingin membuat proyek _tasking manager_ Anda sendiri, Anda dapat membacanya di modul **Membuat dan Mengelola Tasking Manager**.
 
-    ![alt_text](images/0213_Tampilan_proyek_tasking_manager.png "image_tooltip")
-    _Tampilan proyek tasking manager_
+    <p align="center"><img width=80% src="../(images/0213_Tampilan_proyek_tasking_manager.png"</p>
+    <p align="center"><i>Tampilan proyek tasking manager</i></p>
     
     Di bagian bawah deskripsi Anda dapat melihat tampilan peta di sebelah kanan dan beberapa informasi yang dapat Anda lihat di sebelah kiri. Jika Anda perhatikan pada bidang peta, terdapat beberapa kotak dengan warna yang berbeda. Warna tersebut mewakili informasi: 
 
