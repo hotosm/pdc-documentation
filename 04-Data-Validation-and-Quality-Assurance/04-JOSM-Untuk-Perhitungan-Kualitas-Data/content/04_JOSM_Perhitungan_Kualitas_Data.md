@@ -126,7 +126,7 @@ Berikut adalah langkah-langkah yang harus Anda lakukan dalam menghitung jumlah R
 *   Anda dapat membandingkan jumlah RW yang ada di Kelurahan Pleburan yang merupakan hasil _selection_ di JOSM dengan tabel rekapitulasi hasil pengumpulan data di lapangan. 
 
 <p align="center">
-  <img width="400" height="200" src="../images/0416_josm_data_quality_16.JPG "Contoh tabel rekapitulasi jumlah RW di kelurahan pemetaan">
+  <img width="200" height="400" src="../images/0416_josm_data_quality_16.JPG "Contoh tabel rekapitulasi jumlah RW di kelurahan pemetaan">
 </p>
 <p align="center"><i>Contoh tabel rekapitulasi jumlah RW di kelurahan pemetaan</i></p>
 
