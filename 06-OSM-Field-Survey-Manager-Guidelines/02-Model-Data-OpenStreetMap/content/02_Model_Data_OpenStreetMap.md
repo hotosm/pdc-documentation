@@ -61,14 +61,18 @@ Pada modul ini telah dijelaskan sebelumnya mengenai tipe data _OpenStreetMap_, y
 
 Titik biasanya digunakan untuk menggambarkan posisi atau lokasi dari suatu objek tertentu. Sebagai contoh objek yang dapat digambarkan berbentuk titik di _OpenStreetMap_ yaitu lampu merah, Saluran Pengisian Bahan Bakar Umum (SPBU), ataupun rumah makan yang berada di dalam suatu _mall_ atau pusat perbelanjaan.
 
-![Contoh objek titik (nodes) di OSM](../images/0204_objek_titik.JPG "Contoh objek titik (nodes) di OSM")
+<p align="center">
+  <img width="400" height="300" src="../images/0204_objek_titik.JPG "Contoh objek titik (nodes) di OSM">
+</p>
 <p align="center"><i>Contoh objek titik (nodes) di OSM</i></p>
 
 *   **Garis (_Ways_)**
 
 Garis adalah bentuk yang terdiri dari beberapa titik (_nodes_) yang saling terhubung satu sama lain. Beberapa contoh objek garis di _OpenStreetMap_ yaitu jalan, sungai, rel kereta, dan batas administrasi.
 
-![Contoh objek garis (ways) di OSM](../images/0205_objek_garis.JPG "Contoh objek garis (ways) di OSM")
+<p align="center">
+  <img width="400" height="300" src="../images/0205_objek_garis.JPG "Contoh objek garis (ways) di OSM">
+</p>
 <p align="center"><i>Contoh objek garis (ways) di OSM</i></p>
 
 
@@ -77,7 +81,9 @@ Garis adalah bentuk yang terdiri dari beberapa titik (_nodes_) yang saling terhu
 
 Area merupakan bentuk dari beberapa garis (_ways_) yang saling terhubung dan tertutup. Beberapa contoh objek area di _OpenStreetMap_ yaitu bangunan, taman, penggunaan lahan dan danau/waduk.
 
-![Contoh objek area (polygon) di OSM](../images/0206_objek_area.JPG "Contoh objek area (polygon) di OSM")
+<p align="center">
+  <img width="400" height="300" src="../images/0206_objek_area.JPG "Contoh objek area (polygon) di OSM">
+</p>
 <p align="center"><i>Contoh objek area (polygon) di OSM</i></p>
 
 **b. Objek Pemetaan di Kegiatan Pemetaan HOT-PDC InAWARE**
