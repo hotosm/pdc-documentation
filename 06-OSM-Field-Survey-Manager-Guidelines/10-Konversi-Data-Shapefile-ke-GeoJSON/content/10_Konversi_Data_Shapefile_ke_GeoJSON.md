@@ -40,7 +40,7 @@ Jika sudah melakukan instalasi dan QGIS sudah terpasang di laptop/komputer Anda,
 *   Anda akan melihat sebuah kotak dan aturlah seperti gambar di bawah ini:
 
 <p align="center">
-  <img width="400" height="300" src="../images/1004_pengaturan_geojson_di_qgis.PNG "Tampilan pengaturan konversi shapefile ke GeoJSON">
+  <img width="500" height="400" src="../images/1004_pengaturan_geojson_di_qgis.PNG "Tampilan pengaturan konversi shapefile ke GeoJSON">
 </p>
 <p align="center"><i>Tampilan pengaturan konversi shapefile ke GeoJSON</i></p>
 
@@ -74,15 +74,16 @@ Jika Anda tidak ingin atau tidak bisa menginstal QGIS di laptop/komputer Anda ak
 
 *   Setelah itu masukkan **_query_** terhadap data yang ingin Anda dapatkan. _Query_ yang Anda masukkan merupakan _tag_ yang memiliki _key_ dan _value_ berdasarkan standar _OpenStreetMap_. Jika Anda belum mengetahui tentang _tag_ serta _key_ dan _value_ maka Anda dapat melihat Modul **Model Data _OpenStreetMap_** terlebih dahulu. Sebagai contoh _query_ di modul ini, Anda ingin mengambil batas administrasi Kota Semarang oleh karena itu Anda dapat menuliskan “**_admin_level=5 and name=Semarang”_** di _query wizard_ dan klik **_build and run query_**
 
-![Tampilan query wizard di situs Overpass Turbo](../images/1009_overpass_4.PNG "Tampilan query wizard di situs Overpass Turbo")
+<p align="center">
+  <img width="400" height="300" src="../images/1009_overpass_4.PNG "Tampilan query wizard di situs Overpass Turbo">
+</p>
 <p align="center"><i>Tampilan query wizard di situs Overpass Turbo</i></p>
 
 *   Setelah itu hasil _query_ akan muncul di _Overpass Turbo_
 
-<p align="center">
-  <img width="400" height="300" src="../images/1010_overpass_5.PNG "Tampilan hasil query wizard batas Kota Semarang">
-</p>
+![Tampilan query wizard di situs Overpass Turbo](../images/1010_overpass_5.PNG "Tampilan hasil query wizard batas Kota Semarang")
 <p align="center"><i>Tampilan hasil query wizard batas Kota Semarang</i></p>
+
 
 *   Setelah hasil _query_ muncul silakan klik **_Export_** di menu _Overpass Turbo_ kemudian pilih dan klik pilihan **_download/copy as GeoJSON._**
 
