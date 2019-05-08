@@ -123,7 +123,7 @@ Jika terdapat penolakan/pengusiran dari masyarakat setempat, Data Entry dapat me
 
 
 <p align="center">
-  <img width="500" height="200" src="../images/0104_metode_pengumpulan_data.PNG "Kegiatan pengumpulan data infrastruktur di lapangan">
+  <img width="800" height="400" src="../images/0104_metode_pengumpulan_data.PNG "Kegiatan pengumpulan data infrastruktur di lapangan">
 </p>
 <p align="center"><i>Kegiatan pengumpulan data infrastruktur di lapangan</i></p>
 
