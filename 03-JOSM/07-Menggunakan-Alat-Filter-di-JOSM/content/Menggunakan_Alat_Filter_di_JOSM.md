@@ -80,7 +80,7 @@ Saat Anda menggunakan fungsi filter pada JOSM, hasil filter tersebut akan selalu
 
 
 **RINGKASAN**
-Jika Anda telah berhasil mengikuti semua langkah-langkah yang ada, pada akhir  modul ini Anda telah berhasil mengetahui apa itu mode filter atau mode penyaringan data di JOSM. Anda juga telah mampu mengoperasikan mode filter di JOSM untuk memilih data mana saja yang ingin Anda lihat. Silakan Anda gunakan filter untuk membantu proses pemetaan Anda supaya menjadi lebih mudah. 
+<br>Jika Anda telah berhasil mengikuti semua langkah-langkah yang ada, pada akhir  modul ini Anda telah berhasil mengetahui apa itu mode filter atau mode penyaringan data di JOSM. Anda juga telah mampu mengoperasikan mode filter di JOSM untuk memilih data mana saja yang ingin Anda lihat. Silakan Anda gunakan filter untuk membantu proses pemetaan Anda supaya menjadi lebih mudah. 
 
 
 
