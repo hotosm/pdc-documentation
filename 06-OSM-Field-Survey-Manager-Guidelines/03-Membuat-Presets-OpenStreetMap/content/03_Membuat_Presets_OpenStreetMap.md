@@ -112,7 +112,7 @@ Elemen yang terlihat pada contoh di atas tersebut berfungsi untuk menentukan inf
 Anda juga dapat melihat _value_ yang ada ditambahkan (s) dibelakangnya karena pilihan informasi yang disediakan lebih dari 1 dan kata “_display_values_” adalah label _value_ yang bisa dituliskan dalam Bahasa Indonesia. Berikut adalah contoh tampilan di JOSM dari elemen di atas:
 
 <p align="center">
-  <img width="400" height="300" src="../images/0307_presets_7.JPG "Tampilan elemen combo key di JOSM">
+  <img width="200" height="200" src="../images/0307_presets_7.JPG "Tampilan elemen combo key di JOSM">
 </p>
 <p align="center"><i>Tampilan elemen combo key di JOSM</i></p>
 
@@ -131,7 +131,7 @@ Elemen ini dapat menampilkan informasi dalam bentuk pilihan. Elemen ini mirip de
 Penulisan elemen ini mirip dengan _combo key_ dimana perbedaannya adalah kata _multiselect_ menggantikan kata _combo_ dan pemisah antara _value_ menggunakan titik koma (;) sedangkan label _key_ dan _value_ yang dapat ditulis dalam Bahasa Indonesia sama-sama menggunakan kata _text_ dan _display_values_. Ini merupakan contoh tampilan elemen _multiselect key_ di JOSM:
 
 <p align="center">
-  <img width="400" height="300" src="../images/0308_presets_8.JPG "Tampilan elemen multiselect key di JOSM">
+  <img width="200" height="200" src="../images/0308_presets_8.JPG "Tampilan elemen multiselect key di JOSM">
 </p>
 <p align="center"><i>Tampilan elemen multiselect key di JOSM</i></p>
 
@@ -146,16 +146,14 @@ Elemen ini biasanya digunakan untuk menampilkan isian informasi yang berupa tand
 Penulisan elemen menggunakan _value_on_ dan _value_off_ dimana masing-masing dapat sesuai dengan nilai dimana _value_on_ artinya jika informasi itu dicentang dan _value_off_ jika tidak dicentang. Adapun _default_ atau pengaturan awal dari elemen ini adalah perintah bahwa jika tidak dicentang maka informasi ini akan tetap muncul di jendela _membership_ di JOSM. Berikut adalah contoh tampilan elemen ini di JOSM:
 
 <p align="center">
-  <img width="400" height="300" src="../images/0309_presets_9.JPG "Tampilan elemen check key di JOSM">
+  <img width="200" height="200" src="../images/0309_presets_9.JPG "Tampilan elemen check key di JOSM">
 </p>
 <p align="center"><i>Tampilan elemen check key di JOSM</i></p>
 
 **b. Memasukkan Ikon di Presets**
 Hal lain yang dapat Anda lakukan dalam membuat _presets_ adalah memasukkan ikon di _presets_ Anda. Ikon berfungsi sebagai gambar yang mewakili objek yang akan diisi informasinya dan selain itu akan memperindah tampilan dari _presets_ Anda. Untuk memasukkan ikon di _presets_ maka Anda harus memasukkan keterangan ikon dan tipe data di elemen pada _presets_ seperti contoh di bawah ini:
 
-<p align="center">
-  <img width="400" height="300" src="../images/0310_presets_10.JPG "susunan presets">
-</p>
+![susunan presets](../images/0310_presets_10.JPG "susunan presets")
 <p align="center"><i>susunan elemen presets</i></p>
 
 Jika Anda ingin menggunakan ikon yang sudah ada di JOSM maka Anda dapat melihatnya di **[https://josm.openstreetmap.de/browser/josm/trunk/images/presets ](https://josm.openstreetmap.de/browser/josm/trunk/images/presets)**. Akan tetapi, jika Anda ingin menggunakan ikon yang berbeda Anda dapat membuat ikon tersebut ataupun mengambilnya dari tempat lain dan menempatkannya secara _offline_ di laptop/komputer Anda. Akan tetapi jika Anda membagikan _presets_ Anda ke teman Anda maka ikon tersebut tidak akan muncul di JOSM yang ada di laptop/komputer mereka. Berikut adalah contoh sumber untuk menaruh ikon secara _offline_ di laptop/komputer Anda. \
