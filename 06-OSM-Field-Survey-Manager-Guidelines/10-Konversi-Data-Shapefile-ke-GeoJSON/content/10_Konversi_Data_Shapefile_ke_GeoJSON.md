@@ -39,7 +39,9 @@ Jika sudah melakukan instalasi dan QGIS sudah terpasang di laptop/komputer Anda,
 
 *   Anda akan melihat sebuah kotak dan aturlah seperti gambar di bawah ini:
 
-![Tampilan pengaturan konversi shapefile ke GeoJSON](../images/1004_pengaturan_geojson_di_qgis.PNG "Tampilan pengaturan konversi shapefile ke GeoJSON")
+<p align="center">
+  <img width="400" height="300" src="../images/1004_pengaturan_geojson_di_qgis.PNG "Tampilan pengaturan konversi shapefile ke GeoJSON">
+</p>
 <p align="center"><i>Tampilan pengaturan konversi shapefile ke GeoJSON</i></p>
 
 *   **_Format_** : Pilihlah Format **_GeoJSON_**
@@ -77,7 +79,9 @@ Jika Anda tidak ingin atau tidak bisa menginstal QGIS di laptop/komputer Anda ak
 
 *   Setelah itu hasil _query_ akan muncul di _Overpass Turbo_
 
-![Tampilan hasil query wizard batas Kota Semarang](../images/1010_overpass_5.PNG "Tampilan hasil query wizard batas Kota Semarang")
+<p align="center">
+  <img width="400" height="300" src="../images/1010_overpass_5.PNG "Tampilan hasil query wizard batas Kota Semarang">
+</p>
 <p align="center"><i>Tampilan hasil query wizard batas Kota Semarang</i></p>
 
 *   Setelah hasil _query_ muncul silakan klik **_Export_** di menu _Overpass Turbo_ kemudian pilih dan klik pilihan **_download/copy as GeoJSON._**
