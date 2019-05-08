@@ -254,4 +254,5 @@ _Toolbar_ samping kiri pada JOSM adalah jendela alat yang berisi beberapa tombol
 <p align="center"><i>Tombol untuk mengatur toolbar pada JOSM</i><p align="center">
 
 **RINGKASAN**
+
 Jika Anda dapat mengikuti dan mempraktikkan seluruh tahapan dalam modul ini, maka Anda telah berhasil menginstal JOSM di dalam laptop atau komputer Anda. Selain itu, Anda juga telah berhasil mempelajari dan mempraktekkan bagaimana cara melakukan pengaturan standar di JOSM untuk memudahkan pekerjaan Anda. Pada modul selanjutnya Anda akan mempelajari bagaimana cara menambahkan data di JOSM mulai dari tingkat dasar hingga tingkat lanjut. 
