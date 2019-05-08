@@ -83,11 +83,12 @@ Sebelum dapat memetakan menggunakan _Tasking Manager_, ada beberapa hal yang per
     Jika Anda telah mengubah tampilan Anda menjadi _Map View_, akan muncul halaman seperti berikut:
 
     <p align="center"><img width=70% src="../images/0209_Tampilan Map_View_pada_Tasking_Manager.png"
-    <p align="center"><i>Tampilan Map View pada Tasking Manager</i></p>
+    <br><p align="center"><i>Tampilan Map View pada Tasking Manager</i></p>
 
     Berbeda dengan tampilan _Grid View_, tampilan _Map View_ akan  memperlihatkan tampilan peta dunia dengan banyak bulatan biru. Anda dapat menggunakan tombol dengan tanda plus dan minus yang ada di sebelah kiri atas bidang peta untuk memperbesar dan memperkecil tampilan peta. Ketika tampilan peta diperbesar, maka akan muncul berbagai proyek _tasking manager_ yang ada di berbagai tempat ditandai dengan adanya titik-titik berwarna. Masing-masing warna tersebut mewakili tingkat prioritas proyek _tasking_ mulai dari _urgent_ hingga _low_. 
 
     <p align="center"><img width=70% src="../images/0210_Prioritas_tasking_manager.png"</p>
+    
     Jika Anda ingin mulai melakukan pencarian, maka Anda dapat mengubah tampilan menjadi _Grid View_. Ubah kembali tampilan _Tasking Manager_ Anda menjadi tampilan _Grid View_. Untuk dapat mencari proyek _tasking,_ silakan Anda arahkan kursor Anda pada kotak pencarian. Pada contoh kali ini kita akan mencari proyek _tasking manager_ dengan kata kunci ‘Penjaringan’ kemudian tekan **_Enter_**. Untuk parameter lain seperti _mapping difficulty_, _organization_, dan _campaign_ tidak perlu diubah.
 
     <p align="center"><img width=70% src="../images/0211_Hasil pencarian_proyek_tasking_manager_dengan_kata_pencarian_‘penjaringan’.png"</p>
@@ -108,7 +109,7 @@ Sebelum dapat memetakan menggunakan _Tasking Manager_, ada beberapa hal yang per
     
     Di bagian bawah deskripsi Anda dapat melihat tampilan peta di sebelah kanan dan beberapa informasi yang dapat Anda lihat di sebelah kiri. Jika Anda perhatikan pada bidang peta, terdapat beberapa kotak dengan warna yang berbeda. Warna tersebut mewakili informasi: 
 
-    <p align="center"><img width=70% src="../images/0214_Legenda_tasking_manager.png"</p>
+    <p align="center"><img width=20% src="../images/0214_Legenda_tasking_manager.png"</p>
 	
 *   **_Ready_ (Siap)**
         Menunjukkan kotak tersebut dapat Anda kerjakan 
@@ -136,18 +137,17 @@ Sebelum dapat memetakan menggunakan _Tasking Manager_, ada beberapa hal yang per
     Anda dapat melakukan dua jenis kontribusi pada proyek _tasking manager_, yaitu melakukan digitasi objek dan melakukan validasi data yang sudah dipetakan. Untuk mulai berkontribusi dan melakukan pemetaan silakan ikuti langkah-langkah berikut:
 
 *   Pilih tombol **_Map_**.
-    <p align="center"><img width=70% src="../images/0215_Ready_to_get_started.png"</p>
+    <p align="center"><img width=40% src="../images/0215_Ready_to_get_started.png"</p>
 
 
 *   Selanjutnya, tugas Anda adalah memilih grid/kotak proyek _tasking manager_ mana yang akan Anda kerjakan dengan cara memilih langsung grid/kotak pada proyek _tasking manager_ atau Anda juga dapat memilih kotak secara acak dengan menekan tombol **_Select a Random Task_.**
-<p align="center"><img width=70% src="../images/0216_Choose_a_task.png"</p>
+<p align="center"><img width=50% src="../images/0216_Choose_a_task.png"</p>
 
-    Anda  juga dapat mengganti _basemap_ atau peta dasar agar  area pemetaan di citra satelit yang terkena awan atau hutan dapat terlihat, sehingga tidak perlu dipilih. 
+Anda  juga dapat mengganti _basemap_ atau peta dasar agar  area pemetaan di citra satelit yang terkena awan atau hutan dapat terlihat, sehingga tidak perlu dipilih. 
+<p align="center"><img width=70% src="../images/0217_mengganti_citra_pada_tasking.png"</p>
 
-    <p align="center"><img width=70% src="../images/0217_mengganti_citra_pada_tasking.png"</p>
-
-    Jika Anda menemukan grid/kotak yang tertutup awan, silakan Anda pilih tombol **_Mark as Bad Imagery_**. Jika Anda melihat bahwa area pemetaan tersebut hanya terdapat hutan, silakan Anda pilih **_Mark as Completely Mapped_**. 
-    <p align="center"><img width=70% src="../images/0218_mark_as_bad_imagery.png"</p>
+Jika Anda menemukan grid/kotak yang tertutup awan, silakan Anda pilih tombol **_Mark as Bad Imagery_**. Jika Anda melihat bahwa area pemetaan tersebut hanya terdapat hutan, silakan Anda pilih **_Mark as Completely Mapped_**. 
+<p align="center"><img width=70% src="../images/0218_mark_as_bad_imagery.png"</p>
 
 *   Jika sudah terpilih kotak yang diinginkan, silakan pilih tombol **_Start Mapping_**. 
 <p align="center"><img width=70% src="../images/0219_Start_mapping.png"</p>

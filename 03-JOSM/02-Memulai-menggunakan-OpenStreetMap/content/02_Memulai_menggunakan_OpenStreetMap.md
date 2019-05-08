@@ -21,7 +21,7 @@ Untuk dapat mengunjungi situs _OpenStreetMap (OSM)_, pastikan komputer Anda tela
 *   Ketika halaman situs sudah muncul, maka Anda akan melihat tampilan sebagai berikut: 
 
 <p align="center">
-<img src="../images/0201_peta_osm.png" alt="peta_osm" title="Peta OSM"></p>
+<img width=80% src="../images/0201_peta_osm.png" alt="peta_osm" title="Peta OSM"></p>
 <p align="center"><i>Tampilan awal situs OpenStreetMap</i></p>
 
 ### **II. Menavigasikan Peta**
@@ -37,13 +37,13 @@ Pada tampilan utama halaman situs _OpenStreetMap_, Anda akan melihat tampilan sa
 *   Memperkecil dan memperbesar tampilan peta. Anda dapat menggunakan tombol **(+)** dan **(-)** yang ada pada panel di sebelah kanan layar Anda. Apabila perangkat _mouse_ Anda memiliki _scroll-wheel_ atau roda gulir, Anda dapat menggunakannya untuk dapat memperbesar dan memperkecil peta. Gulirkan _scroll-wheel_ atau roda gulir _mouse_ Anda ke atas untuk memperbesar, sedangkan gulirkan ke bawah untuk memperkecil.
 
 <p align="center">
-<img src="../images/0203_0204_tombol_zoom.PNG" alt="tombol_zoom" title="Tombol zoom"></p>
+<img width=50% src="../images/0203_0204_tombol_zoom.PNG" alt="tombol_zoom" title="Tombol zoom"></p>
 <p align="center"><i>Cara memperbesar dan memperkecil tampilan peta</i></p>
 
 *   Mencari lokasi yang Anda inginkan. Anda dapat menggunakan kotak pencarian **_Search_** yang berada di sebelah kiri layar. Anda dapat mengetikkan lokasi yang ingin Anda cari pada kolom pencarian ini, kemudian tekan **_Enter_** atau klik **_Go_**. Setelah itu akan muncul kotak **_Search Results_** di bawah kolom pencarian. Anda dapat memilih dan mengklik pada hasil pencarian untuk dapat langsung menuju ke titik lokasi yang Anda inginkan tersebut.
 
 <p align="center">
-<img src="../images/0205_pencarian_lokasi.png" alt="pencarian_lokasi" title="Pencarian lokasi"></p>
+<img width=80% src="../images/0205_pencarian_lokasi.png" alt="pencarian_lokasi" title="Pencarian lokasi"></p>
 <p align="center"><i>Langkah pencarian lokasi dengan kotak Search</i></p>
 
 *   Menampilkan titik lokasi Anda saat ini. Anda dapat menuju panel peta di sebelah kanan peta dan klik tombol **_Show My Location_**. Lalu, secara otomatis peta akan menampilkan titik lokasi Anda saat ini (titik berwarna biru). Pastikan GPS pada laptop/komputer Anda telah aktif dan Anda mengizinkan OSM untuk mendapatkan lokasi Anda.
@@ -101,13 +101,13 @@ Pada halaman utama situs _OpenStreetMap_, selain melihat lokasi dan menavigasika
 *   Akan muncul kotak di sebelah kiri layar yang menampilkan **_Nearby Features_** dan **_Enclosing Features_**. _Nearby features_ atau fitur terdekat menunjukan keterangan objek apa saja yang berada paling dekat dengan lokasi titik yang Anda pilih, sedangkan _Enclosing features_ atau fitur sekitar menunjukan keterangan objek apa saja yang berada di sekitar lokasi titik yang Anda pilih. Pilih keterangan **_Governmental office_ Dinas Kesehatan**.
 
 <p align="center">
-<img src="../images/0214_nearby_features.png" alt="nearby_features" title="nearby features"></p>
+<img width=80% src="../images/0214_nearby_features.png" alt="nearby_features" title="nearby features"></p>
 <p align="center"><i>Tampilan pilihan Nearby features dan Enclosing features</i></p>
 
 *   Setelah dipilih, akan muncul informasi detail mengenai bangunan Dinas Kesehatan pada kotak sebelah kiri. Informasi yang ditampilkan tersebut merupakan _tag_ atau atribut mengenai informasi umum objek seperti nama objek, alamat, tingkat bangunan, dan lain-lain.
 
 <p align="center">
-<img src="../images/0215_hasil_query.png" alt="hasil_query" title="hasil query"></p>
+<img width=80% src="../images/0215_hasil_query.png" alt="hasil_query" title="hasil query"></p>
 <p align="center"><i>Hasil Identifikasi Objek menggunakan Query Features pada OpenStreetMap</i></p>
 
 ### **V. Membagikan tautan _OpenStreetMap_**
@@ -118,13 +118,13 @@ Anda dapat membagikan tautan peta _OpenStreetMap_ kepada orang lain untuk berbag
 *   Beri tanda centang pada **_Include marker_** untuk menambahkan titik penanda lokasi. Titik penanda lokasi ini dapat Anda pindahkan atau geser sesuai dengan lokasi yang diinginkan. Caranya, klik dan tahan penanda lokasi tersebut kemudian Anda geser ke titik lokasi yang diinginkan. Cara lainnya ialah dengan menggeser peta sehingga titik penanda lokasi berada pada posisi yang Anda inginkan.
 
 <p align="center">
-<img src="../images/0216_include_marker.png" alt="include_marker" title="Memasukkan Marker"></p>
+<img width=80% src="../images/0216_include_marker.png" alt="include_marker" title="Memasukkan Marker"></p>
 <p align="center"><i>Menambahkan penanda lokasi</i></p>
 
 *   Setelah sesuai, Anda dapat menyalin tautan yang ada pada kotak **_Link_** dan bagikan tautan ini sesuai dengan keperluan Anda. Anda juga dapat menyalin versi lebih pendek dari tautan pada kotak **_Short Link_** atau menyalin kode HTML pada kotak **_HTML_**.
 
 <p align="center">
-<img src="../images/0217_membagikan_tautan.png" alt="membagikan_tautan" title="membagikan tautan"></p>
+<img width=80% src="../images/0217_membagikan_tautan.png" alt="membagikan_tautan" title="membagikan tautan"></p>
 <p align="center"><i>Membagikan Tautan Peta OpenStreetMap</i></p>
 
 ### **VI.  Mengekspor peta menjadi sebuah gambar**
@@ -160,13 +160,13 @@ Ketika Anda mengedit objek atau membuat perubahan pada _OpenStreetMap_, Anda dap
 4. Nomor _changeset_. Nomor ini merupakan nomor unik sebagai identitas _changeset_. 
 
 <p align="center">
-<img src="../images/0220_melihat_history.png" alt="melihat_history" title="Melihat history"></p>
+<img width=80% src="../images/0220_melihat_history.png" alt="melihat_history" title="Melihat history"></p>
 <p align="center"><i>Tampilan untuk melihat History pada OpenStreetMap</i></p>
 
 *   Anda dapat klik salah satu _changeset_ pada daftar _changeset_ atau Anda dapat langsung memilih kotak berwarna oranye pada peta. Setelah Anda memilih salah satu _changeset_, Anda akan mendapatkan detail informasi mengenai _changeset_ tersebut.
 
 <p align="center">
-<img src="../images/0221_detail_changeset.png" alt="detail_changeset" title="detail changeset"></p>
+<img width=80% src="../images/0221_detail_changeset.png" alt="detail_changeset" title="detail changeset"></p>
 <p align="center"><i>Tampilan detail informasi pada changeset</i></p>
 
 ### **VIII. Cara membuat akun _OpenStreetMap_**
@@ -176,7 +176,7 @@ Anda telah melihat tampilan serta menu-menu utama dari situs _OpenStreetMap_, se
 *   Pada sebelah kanan atas dari situs _OpenStreetMap_, klik **_Sign Up_**. Anda akan melihat tampilan seperti berikut:
 
 <p align="center">
-<img src="../images/0222_membuat_akun.png" alt="membuat_akun" title="membuat_akun"></p>
+<img width=80% src="../images/0222_membuat_akun.png" alt="membuat_akun" title="membuat_akun"></p>
 <p align="center"><i>Tampilan awal membuat akun di OpenStreetMap</i></p>
 
 *   Akan ada lima kotak yang harus Anda isi untuk mendaftarkan akun Anda di OSM. Pertama, masukkan **alamat email** Anda pada kotak pertama dan kotak kedua. Anda harus memasukkan alamat email yang sama di kedua kotak tersebut. Fungsinya adalah untuk melakukan konfirmasi akun Anda yang pesannya akan dikirim pada email yang telah Anda daftarkan. 
@@ -226,7 +226,7 @@ Pada contoh diatas terdapat 4 macam atribut **_key & value_**, diantaranya key a
 Dalam memberikan informasi terhadap objek yang dipetakan Anda perlu memastikan bahwa informasi tersebut sudah benar dan sesuai dengan ketentuan dari _OpenStreetMap_. Untuk itu, Anda perlu memastikan acuan yang benar apabila ingin memberikan atribut pada objek tertentu. _OpenStreetMap_ telah menyediakan halaman Wikipedia khusus yang dapat Anda jadikan acuan secara umum. Halaman tersebut dapat Anda lihat pada halaman _Wiki Map Features_ di [https://wiki.openstreetmap.org/wiki/Map_Features](https://wiki.openstreetmap.org/wiki/Map_Features). 
 
 <p align="center">
-<img src="../images/0225_map_features.png" alt="map_features" title="map features"></p>
+<img width=90% src="../images/0225_map_features.png" alt="map_features" title="map features"></p>
 <p align="center"><i>Tampilan awal halaman Wiki Map Features dan daftar tabel fitur</i></p>
 
 Halaman dari _Map Features_ yang berisikan informasi terhadap objek-objek di _OpenStreetMap_ dianggap tidak cukup untuk membantu terutama untuk objek spesifik yang biasanya hanya terdapat di suatu negara termasuk di Indonesia. Seringkali para pengguna tidak mendapatkan informasi tag terhadap objek yang mereka cari di _Map Features_ ataupun melewatkan objek tersebut karena berbeda nama. 
@@ -234,13 +234,13 @@ Halaman dari _Map Features_ yang berisikan informasi terhadap objek-objek di _Op
 Biasanya objek di Indonesia memiliki nama lokal sendiri seperti posyandu, pesantren, dan lain-lain. Anda tidak perlu kebingungan dalam mencari dan menghafal daftar atribut karena Anda dapat melihat daftar atribut objek yang dapat Anda lihat di halaman Wikipedia [https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines](https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines).
 
 <p align="center">
-<img src="../images/0226_indo_tagging_guidelines.png" alt="indo_tagging_guidelines" title="indo tagging guidelines"></p>
+<img width=90% src="../images/0226_indo_tagging_guidelines.png" alt="indo_tagging_guidelines" title="indo tagging guidelines"></p>
 <p align="center"><i>Tampilan awal halaman Wiki panduan referensi atribut objek Indonesia</i></p>
 
 Halaman Wikipedia tersebut dibuat khusus untuk memberikan referensi atribut objek-objek OSM yang ada di Indonesia. Dalam halaman tersebut objek-objek yang ada akan dibagi ke dalam beberapa kategori dimana akan disesuaikan dengan objek-objek yang ada di Indonesia.
 
 <p align="center">
-<img src="../images/0227_tampilan_dftr_tabel.png" alt="daftar_tabel" title="daftar tabel"></p>
+<img width=90% src="../images/0227_tampilan_dftr_tabel.png" alt="daftar_tabel" title="daftar tabel"></p>
 <p align="center"><i>Tampilan daftar tabel atribut objek Indonesia</i></p>
 
 **RINGKASAN**
