@@ -41,7 +41,8 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
     Dalam pembuatan formulir survei ada beberapa ketentuan yang harus Anda ikuti agar formulir survei yang kita buat bisa diubah kedalam format _XForm_. Beberapa aturan yang harus diikuti untuk membuat formulir survei yang sesuai adalah:
 
     *   **Tiga lembar kerja/_sheet_ utama.**
-    Pada dokumen _spreadsheet _yang kita buat, harus terdiri dari 3 lembar kerja utama, yaitu lembar kerja yang bernama_ **survey, choices, settings.**_ Penamaan lembar kerja ini harus sesuai dan tidak boleh salah karena nanti akan gagal pada saat meng-_upload_ formulir survei Anda.
+
+    Pada dokumen _spreadsheet_ yang kita buat, harus terdiri dari 3 lembar kerja utama, yaitu lembar kerja yang bernama _**survey, choices, settings.**_ Penamaan lembar kerja ini harus sesuai dan tidak boleh salah karena nanti akan gagal pada saat meng-_upload_ formulir survei Anda.
     <p align="center">
       <img width=50% src="../images/0503_tiga_lembar_kerja_utama.png">
     </p>
@@ -57,6 +58,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
     Pada setiap lembar kerja harus terdapat dua-tiga nama kolom yang berbeda di setiap lembar kerja. Nama kolom untuk masing-masing lembar kerja ini pun berbeda-beda.
 
         *   **Lembar kerja survey**
+
         Pada lembar kerja **survey** kita harus memasukkan tiga nama kolom yaitu **type, name, **&** label**. Kolom dengan nama **type **menunjukkan jenis pertanyaan yang akan muncul nantinya, apakah pertanyaan berbentuk pilihan, isian bebas ataupun mengambil lokasi. 
         Kolom dengan nama **name **menunjukkan variabel unik untuk setiap daftar pertanyaan. Variabel ini tidak boleh sama, tidak menggunakan spasi, dan hanya berupa angka, huruf atau garis bawah.  
         Kolom dengan nama **label** menunjukkan tulisan pertanyaan yang akan muncul pada perangkat ponsel pengguna. Tidak ada format baku untuk kolom ini, Anda bebas menggunakan huruf, angka, dan karakter spesial pada kolom ini.
@@ -66,6 +68,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
         <p align="center"><i>Contoh kolom untuk lembar kerja survey</i></p>
 
         * **Lembar kerja choices**
+
         Pada lembar kerja **choices** kita harus memasukkan tiga nama kolom yaitu **list_name, name**, & **label.** Pada kolom **list_name** ini anda membuat sebuah grup yang berisikan sebuah set pilihan jawaban. Misalnya seperti sebuah set pilihan jawaban yang akan muncul dibawah pertanyaan pilihan ganda. Untuk penamaan pada variabel **list_name** ini harus mengikuti penamaan yang ada pada lembar kerja **survey**. Misalnya pada lembar kerja **survey** kita memasukkan tipe pilihan ganda dengan nama **select_one jns_bencana**. Maka pada lembar kerja **choices** kita harus mengisi **_list_name_** kita dengan nama **jns_bencana**. Ini akan dijelaskan lebih lanjut pada pembahasan berikutnya.
         Kolom dengan nama **name **memiliki aturan yang sama dengan kolom **name **pada lembar kerja **survey**. Semua harus dalam variabel unik yang tidak sama dengan yang lainnya baik pada lembar kerja **survey **maupun lembar kerja **choices**; tidak menggunakan spasi melainkan diganti dengan menggunakan garis bawah/_underscore_; dan tidak boleh menggunakan karakter spesial seperti tanda tanya, tanda seru, dsb.
         Kolom dengan nama **_label_** memiliki aturan yang sama dengan kolom **label** pada lembar kerja **survey**. Pada kolom ini berisikan teks jawaban yang akan muncul pada ponsel pengguna. Anda bisa bebas menggunakan spasi, karakter khusus maupun huruf pada bagian kolom ini.
@@ -75,6 +78,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
         <p align="center"><i>Contoh penamaan kolom pada lembar kerja **choices**</i></p>
 
         *   **Lembar kerja settings**
+
         Lembar kerja **_settings_** digunakan apabila Anda ingin membuat pengaturan tambahan seperti memberikan nama formulir survei Anda, memberikan id formulir secara spesifik, dan versi formulir survei Anda. Agar dapat menggunakan fitur ini, Anda harus memberikan tiga nama kolom ini: **form_title, form_id,** & **version**. 
         Pada kolom **form_title,** Anda bisa memberikan penamaan yang bebas untuk formulir Anda. Penamaan ini yang nantinya akan muncul pada ponsel pengguna. 
         Sementara untuk kolom **form_id**, Anda bisa memberikan id formulir Anda. Syarat penamaan pada kolom ini adalah Anda tidak boleh memiliki id yang sama seperti formulir lainnya, tidak menggunakan spasi, dan tidak menggunakan karakter spesial.
@@ -85,6 +89,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
         <p align="center"><i>Contoh penamaan kolom pada lembar kerja choices</i></p>
 
         *   **Semua isian harus dengan format standar dan dimulai dari kotak paling pertama.**
+
         Salah satu syarat yang paling utama adalah ketika kita membuat formulir survei, semua harus dimulai pada _field_/kuadran _**A-1.**_
         <p align="center">
           <img width=50% src="../images/0507_posisi_awal_membuat_formulir_survei.png">
@@ -100,6 +105,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
 
     Dalam formulir survei kertas, biasanya kita menemukan beberapa pertanyaan seperti jawaban singkat, jawaban panjang, memasukkan tanggal lahir, dan pilihan berganda. Beberapa pertanyaan tersebut, apabila kita buat dalam _spreadsheet_, memiliki tipe pertanyaan yang berbeda-beda, seperti: 
     *   Tipe pertanyaan **text**
+
         Tipe pertanyaan jenis ini akan menghasilkan format pertanyaan dengan jawaban bebas. Pengguna bisa dengan bebas memasukkan angka, huruf, dan karakter spesial apabila kita menggunakan tipe pertanyaan ini.
         <p align="center">
           <img width=50% src="../images/0508_contoh_tipe_pertanyaan_text.png">
@@ -107,6 +113,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
         <p align="center"><i>Contoh tipe pertanyaan text</i></p>
 
     *   Tipe pertanyaan **integer/decimal**
+
         Tipe pertanyaan jenis ini akan menghasilkan format pertanyaan dengan jawaban berupa angka bilangan bulat (khusus untuk tipe **integer**) atau angka bilangan desimal (khusus untuk tipe **decimal**). Pengguna hanya bisa memasukkan angka saja dengan tipe pertanyaan ini, gabungan dari angka dan huruf tidak akan bisa dimasukkan apabila kita menggunakan tipe pertanyaan ini.
         <p align="center">
           <img width=50% src="../images/0509_contoh_tipe_pertanyaan_integer.png">
@@ -114,6 +121,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
         <p align="center"><i>Contoh tipe pertanyaan integer</i></p>
 
     *   Tipe pertanyaan **select_one**
+
         Tipe pertanyaan jenis ini akan memberikan pengguna sebuah pilihan jawaban dimana pengguna hanya boleh memilih satu jawaban saja. Dalam membuat tipe pertanyaan ini, Anda harus menggunakan format seperti **select_one [opsi]**. Dimana **[opsi]** merupakan variabel grup yang akan dimasukkan ke dalam lembar kerja **choices** di dalam kolom **list_name**.
         <p align="center">
           <img width=50% src="../images/0510_contoh_tipe_pertanyaan_select_one_[opsi].png">
@@ -121,6 +129,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
         <p align="center"><i>Contoh tipe pertanyaan select_one [opsi]. Perhatikan bahwa pada  list_name sesuai dengan apa yang ada pada  [opsi] di lembar kerja survey.</i></p>
 
     *   Tipe pertanyaan **select_multiple**
+
         Tipe pertanyaan jenis ini sama seperti tipe pertanyaan sebelumnya. Jawaban yang disajikan ke pengguna merupakan beberapa pilihan dan pengguna boleh memilih lebih dari satu jawaban. Aturan dalam pembuatan tipe pertanyaan ini juga sama seperti **select_one**. Anda harus menggunakan format seperti **select_multiple [opsi],** dimana **[opsi]** merupakan variabel grup yang akan dimasukkan ke dalam lembar kerja **choices** dalam kolom **list_name**.
         <p align="center">
           <img width=50% src="../images/0511_contoh_tipe_pertanyaan_select_multiple_[opsi].png">
@@ -128,6 +137,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
         <p align="center"><i>Contoh tipe pertanyaan select_multiple [opsi]. Opsi pada gambar diatas adalah floodcause yang juga muncul didalam lembar kerja choices</i></p>
         
     *   Tipe pertanyaan **geopoint**
+
         Tipe pertanyaan ini akan meminta pengguna untuk merekam koordinat posisi mereka dan akan menghasilkan data berbentuk koordinat lintang dan bujur.
         <p align="center">
           <img width=50% src="../images/0512_contoh_penggunaan_tipe_pertanyaan_geopoint.png">
@@ -135,6 +145,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
         <p align="center"><i>Contoh penggunaan tipe pertanyaan geopoint</i></p>
 
     *   Tipe **note**
+
         Tipe ini digunakan untuk menambahkan halaman catatan atau pemberitahuan. Pengguna akan disajikan satu halaman yang berisikan tampilan tulisan saja tanpa harus mengisi informasi apapun. Untuk format penulisan masih mengikuti kaidah penulisan pada kolom **label**, dimana kita bebas memberikan format tulisan apapun.
     <p align="center">
       <img width=50% src="../images/0513_contoh_penggunaan_tipe_note.png">
@@ -154,6 +165,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
     Anda bisa langsung menggunakan formulir survei Anda hanya dengan memasukan beberapa tipe pertanyaan standar yang sudah dijelaskan sebelumnya. Semakin Anda mahir membuat _XLSForm_, Anda mungkin akan bertanya apakah ada tipe pertanyaan lain yang bisa membuat formulir survei Anda semakin mudah digunakan dan mengambil data sesuai kemauan Anda. Untuk melihat semua tipe pertanyaan yang bisa digunakan dalam membuat _XLSForm_, Anda bisa menuju situs [http://xlsform.org](http://xlsform.org). Pada materi ini, kita hanya akan membahas beberapa tipe pertanyaan tambahan yang bisa Anda gunakan apabila Anda ingin membuat formulir survei Anda menjadi lebih informatif dan mudah digunakan.
 
     *   **Hint**
+
         Hint merupakan salah satu fitur tambahan yang bisa kita tambahkan pada formulir survei digital kita. Dengan menggunakan fitur ini, kita bisa memberikan informasi tambahan atau petunjuk tentang bagaimana cara mengisi sebuah pertanyaan yang kita buat. Untuk membuat fitur ini, kita harus menambahkan kolom baru pada lembar kerja **survey **yang bernama **hint**. Dengan menambahkan kolom ini, setiap tipe pertanyaan yang kita buat, bisa kita tambahkan dengan petunjuk informasi pengisian dengan mengisi pada kolom **hint** ini.
         <p align="center">
           <img width=50% src="../images/0515_contoh_penggunaan_kolom_hint.png">
@@ -161,6 +173,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
         <p align="center"><i>Contoh penggunaan kolom hint</i></p>
 
     *   **Required**
+
         Fitur ini dibutuhkan apabila pada formulir survei Anda, terdapat pertanyaan yang wajib untuk dijawab. Dengan menggunakan fitur ini, pengguna tidak akan bisa mengisi pertanyaan selanjutnya apabila mereka belum menjawab pertanyaan tersebut. Tipe pertanyaan yang menggunakan fitur ini juga akan memiliki tanda bintang berwarna merah ( *** **) apabila dilihat pada ponsel Anda. Untuk menggunakan fitur ini, Anda cukup membuat sebuah kolom baru yang bernama **required** yang terletak pada lembar kerja **survey**. Setiap tipe pertanyaan yang Anda akan atur menjadi wajib, harus anda tambahkan nilai **yes** pada kolom required ini.
         <p align="center">
           <img width=50% src="../images/0516_contoh_penggunaan_fitur_required.png">
@@ -168,6 +181,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
         <p align="center"><i>Contoh penggunaan fitur required. Setiap pertanyaan yang mengaktifkan fitur ini tidak dapat dilewati oleh pengguna apabila belum diisi</i></p>
 
     *   **Field-list**
+
         Fungsi dari fitur ini adalah pengguna akan disajikan beberapa pertanyaan pada **satu halaman saja** pada layar aplikasi. Secara pengaturan awal, setiap halaman hanya akan disajikan satu pertanyaan saja. Apabila kita ingin agar semua pertanyaan muncul pada satu halaman, maka kita harus menggunakan fitur ini.
         Untuk mengaktifkan fitur ini, Anda harus melakukan beberapa pengaturan:
         1.  Anda harus menyelipkan format **begin_group **pada bagian awal pertanyaan yang ingin Anda tampilkan ke dalam satu halaman** **dan **end_group** pada bagian akhir pertanyaan yang ingin Anda tampilkan dalam satu halaman. Format **begin_group** dan **end_group** ini harus berada di dalam kolom **type**. Dengan menyelipkan format ini, sistem akan membaca bahwa semua pertanyaan yang berada setelah format **begin_group**dan sebelum format **end_group** merupakan satu grup pertanyaan.
@@ -180,6 +194,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
     *   **Relevant**
         Fitur ini memungkinkan kita untuk  membuat daftar pertanyaan yang mengikuti jawaban dari pertanyaan sebelumnya. Misalkan kita diberikan pertanyaan mengenai “Apa makanan yang kamu suka?” dengan pilihan jawaban “A. Nasi Goreng B. Pizza C. Mi Goreng”. Apabila kita menjawab “B. Pizza”, maka pertanyaan berikutnya hanya akan berkaitan dengan pizza, misalnya seperti “Topping pizza apa yang kamu suka?” atau “Jenis pizza apa yang kamu suka?”. Pertanyaan tersebut tidak akan muncul apabila kita menjawab dengan jawaban lain selain pizza. Cara memasukkan fitur **relevant** terdiri dari beberapa tahapan:
         1. Membuat tipe pertanyaan awal
+        
             Sebelum menggunakan fitur **relevant**, Anda terlebih dahulu harus membuat pertanyaan Awal yang akan Anda masukkan kedalam format fitur **relevant**. Misalnya dengan menggunakan tipe pertanyaan **select_one**:
         <p align="center">
           <img width=50% src="../images/0518_contoh_pertanyaan_pada_lembar_kerja_survey.png">
@@ -187,14 +202,16 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
         <p align="center"><i>Contoh pertanyaan pada lembar kerja survey</i></p>
 
         2. Membuat pilihan jawaban pada lembar kerja **choices**
+        
             Setelah Anda membuat pertanyaan awal, langkah selanjutnya adalah Anda harus membuat pilihan jawaban pada lembar kerja **choices**.
         <p align="center">
           <img width=50% src="../images/0519_contoh_pilihan_jawaban_pada_lembar_kerja_choices.png">
         </p>
         <p align="center"><i>Contoh pilihan jawaban pada lembar kerja choices</i></p>
+
+        3. Memasukkan fitur **relevant** pada pertanyaan selanjutnya
         
-        3. Memasukkan fitur **relevant **pada pertanyaan selanjutnya
-            Setelah Anda membuat pertanyaan awal dan pilihan jawaban, langkah selanjutnya adalah Anda akan membuat pertanyaan yang akan muncul sesuai dengan pilihan jawaban yang dipilih pada pertanyaan sebelumnya. Misalnya, pada pertanyaan sebelumnya, Anda memilih **prasasti **untuk jenis objek yang dimaksud, maka pada pertanyaan berikutnya akan spesifik mengenai **prasasti **saja. Untuk mengaktifkan fitur ini, Anda harus memasukkan kolom tambahan yang bernama **relevant** pada lembar kerja **survey**. Setelah memasukkan kolom tambahan Anda bisa mengisi baris pertanyaan yang membutuhkan fungsi **relevant **dengan format:
+            Setelah Anda membuat pertanyaan awal dan pilihan jawaban, langkah selanjutnya adalah Anda akan membuat pertanyaan yang akan muncul sesuai dengan pilihan jawaban yang dipilih pada pertanyaan sebelumnya. Misalnya, pada pertanyaan sebelumnya, Anda memilih **prasasti** untuk jenis objek yang dimaksud, maka pada pertanyaan berikutnya akan spesifik mengenai **prasasti** saja. Untuk mengaktifkan fitur ini, Anda harus memasukkan kolom tambahan yang bernama **relevant** pada lembar kerja **survey**. Setelah memasukkan kolom tambahan Anda bisa mengisi baris pertanyaan yang membutuhkan fungsi **relevant** dengan format:
 
             |Format                    | Deskripsi                           |
             |--------------------------|-------------------------------------|
@@ -215,14 +232,17 @@ Selain menggunakan _ODK Collect_, untuk pengumpulan data di lapangan kita juga m
 Secara umum, pembuatan formulir survei untuk _OpenMapKit_ mengikuti aturan seperti formulir survei _ODK Collect_. Pembuatan formulir survei ini pun bisa dilakukan dalam berkas yang sama dalam pembuatan _ODK Collect_. Ada beberapa pengaturan standar yang harus kita ikuti agar formulir survei yang kita buat bisa digunakan untuk _OpenMapKit_.
 
 1. Empat lembar kerja/_sheet _utama
+
     Secara umum, kebutuhan lembar kerja untuk membuat _OpenMapKit_ tidak jauh berbeda dengan format _ODK Collect_. Lembar kerja yang dibutuhkan oleh _ODK Collect_ adalah **survey, choices,** & **settings**. Namun untuk _OpenMapKit_, kita harus **menambahkan lembar kerja baru bernama** **osm**. 
     <p align="center">
       <img width=50% src="../images/0521_lembar_kerja_utama_untuk_openmapkit.png">
     </p>
     <p align="center"><i>Lembar kerja utama untuk OpenMapKit</i></p>
+
     Lembar kerja **osm** berisikan tentang pertanyaan dan pilihan jawaban yang akan muncul pada _OpenMapKit_. Pada lembar kerja inilah kita harus memasukkan semua daftar pertanyaan yang akan muncul di _OpenMapKit_. Sementara itu, tiga lembar kerja lainnya mengikuti pengaturan dalam pembuatan _ODK Collect_.
 
 2. Tipe pertanyaan utama
+
     Agar pertanyaan yang kita buat berhasil dimunculkan ke dalam _OpenMapKit_, kita harus memasukkan tipe pertanyaan khusus, yaitu **osm**. Dengan memasukkan pertanyaan ini ke dalam lembar kerja **survey**, sistem akan memunculkan semua pertanyaan di _OpenMapKit_ yang telah kita buat pada lembar kerja **osm**.
     Tipe pertanyaan ini harus diikuti dengan variabel yang nantinya akan terhubung dengan variabel yang ada pada kolom **list name** di lembar kerja **osm.**
     <p align="center">
@@ -231,6 +251,7 @@ Secara umum, pembuatan formulir survei untuk _OpenMapKit_ mengikuti aturan seper
     <p align="center"><i>Tipe pertanyaan osm dengan variabel yang sama di lembar kerja osm</i></p>
 
 3. Tiga kolom utama
+
     Pada lembar kerja **osm**, kita harus memasukkan tiga kolom utama, yaitu kolom **list name**, **name**, dan **label**. Kolom **list name** berisi tentang pertanyaan dan pilihan jawaban. Kolom **name** berisi tentang variabel unik yang mengikuti standar _key_ dan _value_ dari _OpenStreetMap._ Untuk daftar _key_ dan _value,_ Anda bisa melihat pada modul **Model Data _OpenStreetMap_** atau bisa langsung menuju situs [https://wiki.openstreetmap.org/wiki/Map_Features](https://wiki.openstreetmap.org/wiki/Map_Features) dan [https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines](https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines).
     <p align="center">
       <img width=50% src="../images/0523_kolom_name_mengikuti_aturan_key_dan_value_pada_osm.png">
@@ -238,6 +259,7 @@ Secara umum, pembuatan formulir survei untuk _OpenMapKit_ mengikuti aturan seper
     <p align="center"><i>Kolom **name** mengikuti aturan key dan value pada OSM</i></p>
 
 4. Pertanyaan dan pilihan jawaban didalam satu lembar kerja
+
     Tidak seperti pembuatan formulir survei untuk _ODK Collect_ yang setiap pertanyaan dan pilihan jawaban terpisah pada lembar kerja berbeda, untuk pembuatan formulir survei _OpenMapKit_ ini kita harus memasukkan semua pertanyaan dan pilihan jawaban di dalam satu lembar kerja.
 
 
