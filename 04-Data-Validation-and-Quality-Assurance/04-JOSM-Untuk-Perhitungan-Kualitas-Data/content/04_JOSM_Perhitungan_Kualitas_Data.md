@@ -171,7 +171,7 @@ Untuk melakukan validasi _tag _batas-batas RW, Anda dapat mengikuti langkah-lang
 *   Setelah jendela terbuka silahkan Anda periksa kelengkapan informasi (_tag_) untuk **masing-masing** batas RW. Selain itu, periksa hubungan relasi dengan antar batas-batas RW lain dengan melihat alur relasi di bagian **_member_**. Relasi yang baik adalah jika hubungan antara member batas RW saling terhubung dan membentuk _loop_ atau lingkaran yang terhubung. Jika Anda ingin mengetahui hubungan antar relasi dan cara melakukan input batas-batas administrasi di JOSM dengan lebih lengkap, maka Anda dapat melihat Modul **Membuat Batas Administrasi di JOSM**.
 
 <p align="center">
-  <img width="300" height="400" src="../images/0419_josm_data_quality_19.JPG "Kotak relasi dan informasi batas administrasi di JOSM">
+  <img width="400" height="500" src="../images/0419_josm_data_quality_19.JPG "Kotak relasi dan informasi batas administrasi di JOSM">
  </p>                                                                                                                                   
 <p align="center"><i>Kotak relasi dan informasi batas administrasi di JOSM</i></p>
 
