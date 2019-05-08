@@ -142,10 +142,9 @@ Sebelum dapat memetakan menggunakan _Tasking Manager_, ada beberapa hal yang per
 
 *   Selanjutnya, tugas Anda adalah memilih grid/kotak proyek _tasking manager_ mana yang akan Anda kerjakan dengan cara memilih langsung grid/kotak pada proyek _tasking manager_ atau Anda juga dapat memilih kotak secara acak dengan menekan tombol **_Select a Random Task_.**
 <p align="center"><img width=50% src="../images/0216_Choose_a_task.png"</p>
-
-Anda  juga dapat mengganti _basemap_ atau peta dasar agar  area pemetaan di citra satelit yang terkena awan atau hutan dapat terlihat, sehingga tidak perlu dipilih. 
+	Anda  juga dapat mengganti _basemap_ atau peta dasar agar  area pemetaan di citra satelit yang terkena awan atau hutan dapat terlihat, sehingga tidak perlu dipilih. 
     <p align="center"><img width=70% src="../images/0217_mengganti_citra_pada_tasking.png"</p>
-Jika Anda menemukan grid/kotak yang tertutup awan, silakan Anda pilih tombol **_Mark as Bad Imagery_**. Jika Anda melihat bahwa area pemetaan tersebut hanya terdapat hutan, silakan Anda pilih **_Mark as Completely Mapped_**. 
+	Jika Anda menemukan grid/kotak yang tertutup awan, silakan Anda pilih tombol **_Mark as Bad Imagery_**. Jika Anda melihat bahwa area pemetaan tersebut hanya terdapat hutan, silakan Anda pilih **_Mark as Completely Mapped_**. 
     <p align="center"><img width=70% src="../images/0218_mark_as_bad_imagery.png"</p>
 
 *   Jika sudah terpilih kotak yang diinginkan, silakan pilih tombol **_Start Mapping_**. 
