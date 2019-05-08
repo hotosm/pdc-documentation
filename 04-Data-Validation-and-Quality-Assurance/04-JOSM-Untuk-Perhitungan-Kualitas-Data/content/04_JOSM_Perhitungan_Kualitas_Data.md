@@ -125,7 +125,9 @@ Berikut adalah langkah-langkah yang harus Anda lakukan dalam menghitung jumlah R
 
 *   Anda dapat membandingkan jumlah RW yang ada di Kelurahan Pleburan yang merupakan hasil _selection_ di JOSM dengan tabel rekapitulasi hasil pengumpulan data di lapangan. 
 
-![Contoh tabel rekapitulasi jumlah RW di kelurahan pemetaan](../images/0416_josm_data_quality_16.JPG "Contoh tabel rekapitulasi jumlah RW di kelurahan pemetaan")
+<p align="center">
+  <img width="400" height="200" src="../images/0416_josm_data_quality_16.JPG "Contoh tabel rekapitulasi jumlah RW di kelurahan pemetaan">
+</p>
 <p align="center"><i>Contoh tabel rekapitulasi jumlah RW di kelurahan pemetaan</i></p>
 
 Anda dapat melihat pada tabel di atas bahwa jumlah RW yang ada di Kelurahan Pleburan sebanyak 6 RW dan pada gambar hasil seleksi batas RW di JOSM juga terlihat terdapat 6 RW yang terpilih mulai dari RW 01 hingga RW 06. Dengan begitu telah terdapat kesamaan data dan Anda dapat memvalidasi jumlah RW di Kelurahan Pleburan yang ada di _OpenStreetMap_. 
