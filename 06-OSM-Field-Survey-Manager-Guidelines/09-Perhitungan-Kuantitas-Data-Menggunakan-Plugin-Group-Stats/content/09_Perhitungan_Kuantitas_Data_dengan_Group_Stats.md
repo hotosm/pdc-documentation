@@ -69,7 +69,7 @@ Jika Anda telah memiliki data ._shapefile_ seperti di atas, maka dapat melanjutk
 <p align="center">
   <img width=70% src="../images/0905_daftarfileshp.png">
 </p>
-<p align="center"><i>Daftar File .shp hasil download data OSM</i><p align="center">
+<p align="center"><i>Daftar file .shp hasil download data OSM</i><p align="center">
 
 
 *   _Layer-layer_ tersebut akan tampil pada _map canvas (kanvas peta)_ dan daftar _layer_ akan tampil pada **_Layers Panel_**.
@@ -116,7 +116,7 @@ Data OSM yang dihasilkan dari proyek pemetaan terdiri dari _points, lines,_ dan 
 <p align="center">
   <img width=60% src="../images/0910_filtermenu.png">
 </p>
-<p align="center"><i>Langkah-Langkah Filter Data</i><p align="center">
+<p align="center"><i>Langkah-langkah filter data</i><p align="center">
 
    
 *   Ketika Anda klik **OK** akan tampil objek OSM yang hanya ada di Kecamatan Candisari
