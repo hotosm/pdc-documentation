@@ -15,8 +15,9 @@ _OpenStreetMap_ sebagai sebuah alternatif untuk melakukan pemetaan secara bebas 
 2. **Contoh Penggunaan _Tasking Manager_**
     _Tasking manager_ pernah digunakan sebagai bentuk respon ketika bencana Topan Haiyan terjadi di Filipina pada 8 November 2013. Pemetaan menggunakan _tasking manager_ dilakukan di Kota Tacloban, salah satu kota yang terdampak sangat parah ketika bencana terjadi. Dalam kurun waktu 24 jam setelah dibuatnya proyek _tasking manager_, sebanyak 10.000 bangunan telah terpetakan atau sekitar 25% dari total jumlah bangunan yang ada di Kota Tacloban. Seluruh pemetaan ini dilakukan oleh 33 orang relawan. 
 
-    ![alt_text](images/0201_Kondisi_bangunan_sebelum_dan_setelah_dipetakan_menggunakan_Tasking_Manager.png "image_tooltip")
-    _Kondisi bangunan sebelum dan setelah dipetakan menggunakan Tasking Manager_
+    <p align="center"><img width=70% src="../images/0201_Kondisi_bangunan_sebelum_dan_setelah_dipetakan_menggunakan_Tasking_Manager.png">
+	</p>
+    <p align="center"><i>Kondisi bangunan sebelum dan setelah dipetakan menggunakan Tasking Manager</i></p>
     
     _Tasking manager_ juga digunakan di Indonesia untuk respon ketika bencana terjadi. Salah satu contohnya adalah ketika bencana gempa dan tsunami terjadi di Selat Sunda pada Desember 2018. Dalam kurun waktu 1 bulan, seluruh daerah terdampak sudah selesai dipetakan oleh sekitar 60 orang relawan. 
 
