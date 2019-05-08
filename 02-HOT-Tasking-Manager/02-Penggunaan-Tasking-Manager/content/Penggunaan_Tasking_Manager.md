@@ -137,17 +137,15 @@ Sebelum dapat memetakan menggunakan _Tasking Manager_, ada beberapa hal yang per
     Anda dapat melakukan dua jenis kontribusi pada proyek _tasking manager_, yaitu melakukan digitasi objek dan melakukan validasi data yang sudah dipetakan. Untuk mulai berkontribusi dan melakukan pemetaan silakan ikuti langkah-langkah berikut:
 
 *   Pilih tombol **_Map_**.
-    <p align="center"><img width=70% src="../images/0215_Ready_to_get_started.png"</p>
+    <p align="center"><img width=50% src="../images/0215_Ready_to_get_started.png"</p>
 
 
 *   Selanjutnya, tugas Anda adalah memilih grid/kotak proyek _tasking manager_ mana yang akan Anda kerjakan dengan cara memilih langsung grid/kotak pada proyek _tasking manager_ atau Anda juga dapat memilih kotak secara acak dengan menekan tombol **_Select a Random Task_.**
-<p align="center"><img width=70% src="../images/0216_Choose_a_task.png"</p>
+<p align="center"><img width=50% src="../images/0216_Choose_a_task.png"</p>
 
-    Anda  juga dapat mengganti _basemap_ atau peta dasar agar  area pemetaan di citra satelit yang terkena awan atau hutan dapat terlihat, sehingga tidak perlu dipilih. 
-
+Anda  juga dapat mengganti _basemap_ atau peta dasar agar  area pemetaan di citra satelit yang terkena awan atau hutan dapat terlihat, sehingga tidak perlu dipilih. 
     <p align="center"><img width=70% src="../images/0217_mengganti_citra_pada_tasking.png"</p>
-
-    Jika Anda menemukan grid/kotak yang tertutup awan, silakan Anda pilih tombol **_Mark as Bad Imagery_**. Jika Anda melihat bahwa area pemetaan tersebut hanya terdapat hutan, silakan Anda pilih **_Mark as Completely Mapped_**. 
+Jika Anda menemukan grid/kotak yang tertutup awan, silakan Anda pilih tombol **_Mark as Bad Imagery_**. Jika Anda melihat bahwa area pemetaan tersebut hanya terdapat hutan, silakan Anda pilih **_Mark as Completely Mapped_**. 
     <p align="center"><img width=70% src="../images/0218_mark_as_bad_imagery.png"</p>
 
 *   Jika sudah terpilih kotak yang diinginkan, silakan pilih tombol **_Start Mapping_**. 
@@ -170,7 +168,7 @@ Sebelum dapat memetakan menggunakan _Tasking Manager_, ada beberapa hal yang per
 
 *   Setelah Anda selesai melakukan pemetaan dan telah mengunggah data ke dalam server _OpenStreetMap_, silakan Anda kembali pada halaman _tasking manager_. Anda dapat memberikan komentar mengenai perubahan yang telah dikerjakan. Jika telah selesai memetakan seluruh objek di dalam proyek _tasking manager_, pilih tombol **_Mark as Completely Mapped_**. Namun, jika masih ada beberapa objek yang belum terpetakan, Anda dapat memilih tombol **_Stop Mapping_** untuk berhenti melakukan pemetaan dan dapat melanjutkan pemetaan nanti atau membiarkan kontributor lain untuk melengkapi dan memetakan objek tersebut.
     
-    <p align="center"><img width=70% src="../images/0223_Menambahkan_komentar_pada_grid_tasking_manager_yang_telah_dipetakan.png"</p>
+    <p align="center"><img width=50% src="../images/0223_Menambahkan_komentar_pada_grid_tasking_manager_yang_telah_dipetakan.png"</p>
     <p align="center"><i>Menambahkan komentar pada grid/kotak tasking manager yang telah dipetakan</i></p>
 
 5. **Hal-hal yang Harus Diperhatikan saat Sudah Memilih Area di Proyek _Tasking_**
@@ -179,13 +177,13 @@ Sebelum dapat memetakan menggunakan _Tasking Manager_, ada beberapa hal yang per
 *   **Batas waktu pengerjaan maksimal 120 menit**
     Ketika Anda telah memilih satu kotak untuk dikerjakan, kotak tersebut akan menjadi milik Anda dalam jangka waktu 120 menit atau 2 jam. Pastikan Anda tidak terlalu lama mengerjakan dan segera lakukan _upload_ data secara berkala. 
 
-    <p align="center"><img width=70% src="../images/0224_Pemberitahuan_batas_waktu_pengerjaan_tasking_manager.png"</p>
+    <p align="center"><img width=50% src="../images/0224_Pemberitahuan_batas_waktu_pengerjaan_tasking_manager.png"</p>
     <p align="center"><i>Pemberitahuan batas waktu pengerjaan tasking manager</i></p>
 
 *   **Jangan lupa untuk membuka kembali kotak yang telah Anda pilih**
         Jika Anda telah selesai memetakan, jangan lupa gunakan tombol **_Stop Mapping_** jika kotak belum selesai dipetakan. Tombol **_Mark as Completely Mapped_** digunakan jika kotak yang Anda pilih telah betul-betul selesai Anda petakan dan sudah tidak ada objek apapun yang dapat Anda petakan. 
 
-    <p align="center"><img width=70% src="../images/0225_Tombol_Stop_Mapping_digunakan_jika_grid_Anda_belum_selesai_dipetakan.png"</p>
+    <p align="center"><img width=50% src="../images/0225_Tombol_Stop_Mapping_digunakan_jika_grid_Anda_belum_selesai_dipetakan.png"</p>
         <p align="center"><i>Tombol Stop Mapping digunakan jika grid/kotak Anda belum selesai dipetakan</i></p>
 
 *   **Jangan memetakan objek di luar area _tasking_ terpilh**
