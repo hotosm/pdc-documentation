@@ -110,25 +110,25 @@ Sebelum dapat memetakan menggunakan _Tasking Manager_, ada beberapa hal yang per
 
     <p align="center"><img width=20% src="../images/0214_Legenda_tasking_manager.png"</p>
 	
-	*   **_Ready_ (Siap)**
+*   **_Ready_ (Siap)**
         <br>Menunjukkan kotak tersebut dapat Anda kerjakan 
 
-	*   **_Mapped_ (Dipetakan)**
+*   **_Mapped_ (Dipetakan)**
         <br>Kotak berwarna kuning menunjukkan bahwa kotak tersebut telah selesai dipetakan 
 
-	*   **_Bad Imagery_ (Citra Satelit Buruk)**
+*   **_Bad Imagery_ (Citra Satelit Buruk)**
         <br>Kotak berwarna abu-abu kehitaman ditandai sebagai daerah dengan citra satelit yang buruk
 
-	*   **_Validated_ (Tervalidasi)**
+*   **_Validated_ (Tervalidasi)**
         <br>Kotak berwarna hijau menunjukkan bahwa kotak tersebut telah tervalidasi
 
-	*   **_Invalidated_ (Tidak Tervalidasi)**
+*   **_Invalidated_ (Tidak Tervalidasi)**
         <br>Kotak berwarna merah menunjukkan bahwa kotak tersebut masih perlu diperiksa ulang sebelum dilakukan validasi kembali
 
-	*   **_Locked_ (Terkunci)**
+*   **_Locked_ (Terkunci)**
         <br>Kotak berwarna abu-abu menunjukkan bahwa kotak tersebut telah dipilih oleh pengguna lain
 
-	*   **_Locked by you_ (Dikunci oleh Anda)**
+*   **_Locked by you_ (Dikunci oleh Anda)**
         <br>Kotak berwarna dengan garis berwarna biru tua menunjukkan kotak yang sedang Anda pilih dan kerjakan
 
 4. **Memulai Berkontribusi di Proyek _Tasking Manager_**
