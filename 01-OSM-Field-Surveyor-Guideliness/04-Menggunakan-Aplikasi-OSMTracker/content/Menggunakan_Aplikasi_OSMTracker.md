@@ -94,7 +94,7 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
 
     1. Pada halaman _Track logger_, silakan Anda kembali ke halaman utama, kemudian temukan satu _file track_ yang telah Anda kumpulkan. Pada _file_ tersebut silakan Anda tekan dan tahan beberapa saat hingga muncul menu tambahan. 
 
-        <p align="center"><img width=70% src="../images/0411_Pilihan_untuk_menghentikan_perekaman_jalur.png"</p>
+        <p align="center"><img width=40% src="../images/0411_Pilihan_untuk_menghentikan_perekaman_jalur.png"</p>
         <p align="center"><i>Pilihan untuk menghentikan perekaman jalur (Stop tracking)</i></p>
 
     2. Pilih menu _**Stop tracking.**_
@@ -104,14 +104,14 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
 
     1. Pada _file_ yang ingin Anda lanjutkan _track_-nya silakan Anda tekan dan tahan beberapa saat hingga muncul menu tambahan
 
-        <p align="center"><img width=70% src="../images/0413_Pilihan_untuk_melanjutkan_kembali_perekaman_jalur.png"</p>
+        <p align="center"><img width=40% src="../images/0413_Pilihan_untuk_melanjutkan_kembali_perekaman_jalur.png"</p>
         <p align="center"><i>Pilihan untuk melanjutkan kembali perekaman jalur (Resume tracking)</i></p>
 
     2. Kemudian pilih **_Resume Tracking_**
 
 >Catatan :
 <p align="center"><img width=70% src="../images/0414_ikon_tanda_jam_oranye.png"</p>
-Jika File Anda memiliki ikon atau tanda jam berwarna oranye di sebelah kanan nama file menandakan bahwa file tersebut masih dalam mode perekaman jalur. Ikon ini akan hilang jika Anda telah menghentikan mode perekaman jalur. 
+<br>Jika File Anda memiliki ikon atau tanda jam berwarna oranye di sebelah kanan nama file menandakan bahwa file tersebut masih dalam mode perekaman jalur. Ikon ini akan hilang jika Anda telah menghentikan mode perekaman jalur. 
 
 
 
