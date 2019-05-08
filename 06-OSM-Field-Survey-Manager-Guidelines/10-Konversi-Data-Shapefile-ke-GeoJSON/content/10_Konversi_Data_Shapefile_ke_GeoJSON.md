@@ -40,7 +40,7 @@ Jika sudah melakukan instalasi dan QGIS sudah terpasang di laptop/komputer Anda,
 *   Anda akan melihat sebuah kotak dan aturlah seperti gambar di bawah ini:
 
 <p align="center">
-  <img width="500" height="400" src="../images/1004_pengaturan_geojson_di_qgis.PNG "Tampilan pengaturan konversi shapefile ke GeoJSON">
+  <img width="400" height="400" src="../images/1004_pengaturan_geojson_di_qgis.PNG "Tampilan pengaturan konversi shapefile ke GeoJSON">
 </p>
 <p align="center"><i>Tampilan pengaturan konversi shapefile ke GeoJSON</i></p>
 
