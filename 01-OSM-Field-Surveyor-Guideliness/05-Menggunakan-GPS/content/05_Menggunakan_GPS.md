@@ -230,5 +230,6 @@ Selanjutnya data yang sudah dikumpulkan dengan GPS akan di-_copy_ atau salin ke 
 
 
 **RINGKASAN**
+
 Selamat! Anda sekarang telah mendapatkan pemahaman bagaimana menggunakan GPS. Jika belum, cobalah untuk melatih menyimpan titik dari beberapa lokasi yang menurut Anda penting. Pada modul ini Anda telah mempelajari bagaimana mengumpulkan _waypoint_ dan _track_ dan membukanya di JOSM. Nantinya, Anda akan menggunakan informasi ini untuk menambahkan objek baru ke _OpenStreetMap_.
 
