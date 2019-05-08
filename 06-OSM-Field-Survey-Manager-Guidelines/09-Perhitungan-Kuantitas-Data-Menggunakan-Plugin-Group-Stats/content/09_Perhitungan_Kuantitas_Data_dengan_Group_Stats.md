@@ -9,9 +9,9 @@ Kuantitas adalah kualitas sesuatu hal yang terbentuk dari proses perhitungan dan
 
 ### **I. Instalasi _Group Stats_**
 
-*   Jika Anda belum memiliki QGIS, Anda dapat download di situs tautan berikut : [http://download.osgeo.org/qgis/win64/QGIS-OSGeo4W-2.14.22-1-Setup-x86.exe](http://download.osgeo.org/qgis/win64/QGIS-OSGeo4W-2.14.22-1-Setup-x86.exe)
+*   Jika Anda belum memiliki QGIS, Anda dapat download di situs tautan berikut : [http://download.osgeo.org/qgis/win64/QGIS-OSGeo4W-2.14.22-1-Setup-x86.exe](http://download.osgeo.org/qgis/win64/QGIS-OSGeo4W-2.14.22-1-Setup-x86.exe) untuk Windows 32 bit dan [http://download.osgeo.org/qgis/win64/QGIS-OSGeo4W-2.14.22-1-Setup-x86_64.exe](http://download.osgeo.org/qgis/win64/QGIS-OSGeo4W-2.14.22-1-Setup-x86_64.exe) untuk Windows 64 bit.  
 
-    untuk Windows 32 bit dan [http://download.osgeo.org/qgis/win64/QGIS-OSGeo4W-2.14.22-1-Setup-x86_64.exe](http://download.osgeo.org/qgis/win64/QGIS-OSGeo4W-2.14.22-1-Setup-x86_64.exe) untuk Windows 64 bit.  Setelah selesai di _download_, kemudian klik Instal dan Buka QGIS
+* Setelah selesai di _download_, kemudian klik Instal dan Buka QGIS
 
 *   Klik menu **_Plugins → Manage and Install Plugins_** 
 
@@ -114,7 +114,7 @@ Data OSM yang dihasilkan dari proyek pemetaan terdiri dari _points, lines,_ dan 
 *   Jika Anda melakukan pemetaan dalam ruang lingkup kota, maka akan lebih mudah melakukan perhitungan kuantitas data per kecamatan. Lakukan _filter_ pada _layer_ “**fasum_point_admin”**, agar data yang ditampilkan  hanya untuk kecamatan tertentu, dengan **klik kanan pada layer fasum_point_admin** → ***Filter***. Kemudian, lakukan langkah seperti gambar di bawah ini.
 
 <p align="center">
-  <img width=70% src="../images/0910_langkahfilterdata.png">
+  <img width=60% src="../images/0910_filtermenu.png">
 </p>
 <p align="center"><i>Langkah-Langkah Filter Data</i><p align="center">
 
@@ -240,7 +240,7 @@ Perhitungan objek jalan berbeda dengan perhitungan objek dalam bentuk _point_ da
 *   Untuk memudahkan proses perhitungan kuantitas data untuk panjang jalan, Anda akan melakukan filter perhitungan berdasarkan administrasi kecamatan, langkah yang diperlukan yaitu klik kanan pada **_layer_ “jalan_admin_utm” → Filter → (ikuti  langkah-langkah seperti gambar di bawah) → OK**.
 
 <p align="center">
-  <img width=70% src="../images/0922_filtermenu.png">
+  <img width=60% src="../images/0922_langkahfilterdata.png">
 </p>
 <p align="center"><i>Filter berdasarkan Kecamatan</i><p align="center">
 
