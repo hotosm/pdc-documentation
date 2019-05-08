@@ -11,19 +11,19 @@ _OSMTracker_ adalah sebuah aplikasi android yang memungkinkan kita untuk mengamb
 
 Untuk dapat menggunakan _OSMTracker_ Anda harus melakukan instalasi terlebih dahulu melalui _Playstore_. Anda dapat membuka aplikasi _Google Playstore_ di perangkat _smartphone_ Anda kemudian ketik _“OSMTracker”_ pada kolom pencarian.
 
-<p align="center"><img width=70% src="../images/0401_Aplikasi_OSMTracker_dapat_Anda_download_di_Google_Playstore.png"</p>
+<p align="center"><img width=40% src="../images/0401_Aplikasi_OSMTracker_dapat_Anda_download_di_Google_Playstore.png"</p>
 <p align="center"><i>Aplikasi OSMTracker dapat Anda download di Google Playstore</i></p>
 
 Jika sudah selesai terpasang, silakan Anda buka aplikasi _OSMTracker_ pada _smartphone_ Anda.
 
-<p align="center"><img width=70% src="../images/0402_Tampilan_awal_aplikasi_OSMTracker.png"</p>
+<p align="center"><img width=30% src="../images/0402_Tampilan_awal_aplikasi_OSMTracker.png"</p>
 <p align="center"><i>Tampilan awal aplikasi OSMTracker</i></p>
 
 
 ### 2. Pengaturan Awal _OSMTracker_
-Sebelum Anda dapat menggunakan _OSMTracker_, ada beberapa pengaturan dasar yang harus Anda lakukan. Untuk dapat masuk ke dalam menu pengaturan silakan Anda pilih menu tombol <p align="center"><img width=70% src="../images/0403_Tombol_settings.png"</p> di sebelah kanan atas kemudian pilih **_Settings_**. 
+Sebelum Anda dapat menggunakan _OSMTracker_, ada beberapa pengaturan dasar yang harus Anda lakukan. Untuk dapat masuk ke dalam menu pengaturan silakan Anda pilih menu tombol <p align="center"><img src="../images/0403_Tombol_settings.png"</p> di sebelah kanan atas kemudian pilih **_Settings_**. 
 
-<p align="center"><img width=70% src="../images/0404_Memilih_menu_Settings_di_aplikasi_OSMTracker.png"</p>
+<p align="center"><img width=30% src="../images/0404_Memilih_menu_Settings_di_aplikasi_OSMTracker.png"</p>
 <p align="center"><i>Memilih menu Settings di aplikasi OSMTracker</i></p>
 
 Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti:
@@ -60,7 +60,7 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
 1. **Merekam Rute Perjalanan**
     Untuk dapat mulai melakukan perekaman rute perjalanan atau perekaman jalur, silakan Anda pilih tombol bertanda **+** yang ada di sebelah kanan atas layar. Setelah itu akan muncul tampilan _Track Logger_.
 
-    <p align="center"><img width=70% src="../images/0406_Tombol_dengan_icon_+_yang_digunakan_untuk_melakukan_perekaman_jalur_atau_merekam_perjalanan_Anda.png"</p>
+    <p align="center"><img width=40% src="../images/0406_Tombol_dengan_icon_+_yang_digunakan_untuk_melakukan_perekaman_jalur_atau_merekam_perjalanan_Anda.png"</p>
     <p align="center"><i>Tombol dengan icon + yang digunakan untuk melakukan perekaman jalur atau merekam perjalanan Anda</i></p>
 
     Satu hal penting yang perlu Anda perhatikan adalah tingkat keakurasian GPS. Seluruh fitur yang ada di _track logger_ tidak akan dapat Anda akses jika _smartphone_ Anda belum mendapatkan sinyal GPS dengan baik. Usahakan mendapatkan akurasi GPS semaksimal mungkin (_accuracy_ di bawah 10 meter) untuk menghindari kesalahan perekaman posisi yang dilakukan pada saat survei. Indikator sinyal GPS dapat dilihat pada _signal bar_ yang ada di sebelah kanan atas layar _OSMTracker_ Anda (lihat gambar). Sinyal akan semakin baik apabila indikator _signal bar_ semakin penuh dan berwarna hijau, sedangkan sinyal semakin buruk jika indikator ini masih belum terisi. Semakin penuh indikator sinyal akan semakin baik penangkapan sinyal GPS Anda. Untuk mendapatkan sinyal yang baik, posisikan diri Anda berada di luar ruangan dan tidak terhalang benda apapun seperti atap bangunan atau pepohonan lebat. 
@@ -73,13 +73,13 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
 2. **Merekam Objek dengan Titik dan Gambar**
     Ada beragam tombol yang terdapat di dalam _track logger_, namun untuk mengambil titik survei atau _waypoint_, Anda cukup menggunakan 2 tombol berikut: 
 
-    <p align="center"><img width=70% src="../images/0408_Halaman_track_logger_pada_OSMTracker.png"</p>
+    <p align="center"><img width=40% src="../images/0408_Halaman_track_logger_pada_OSMTracker.png"</p>
     <p align="center"><i>Halaman Track Logger pada OSMTracker</i></p>
 
     1. _Text Note_
         **_Text note_** digunakan untuk mengambil titik atau _waypoint_ pada saat melakukan survei. Jika Anda sudah berada di titik yang ingin Anda rekam, Anda cukup menekan tombol ini kemudian isi dengan keterangan yang Anda inginkan. Sebagai contoh, Anda dapat menggunakan penomoran diikuti dengan keterangan objeknya. 
 
-        <p align="center"><img width=70% src="../images/0409_Contoh_penggunaan_Text_Note_untuk_merekam_titik_survei.png"</p>
+        <p align="center"><img width=40% src="../images/0409_Contoh_penggunaan_Text_Note_untuk_merekam_titik_survei.png"</p>
         <p align="center"><i>Contoh penggunaan Text Note untuk merekam titik survei</i></p>
 
     2. _Take Photo_
