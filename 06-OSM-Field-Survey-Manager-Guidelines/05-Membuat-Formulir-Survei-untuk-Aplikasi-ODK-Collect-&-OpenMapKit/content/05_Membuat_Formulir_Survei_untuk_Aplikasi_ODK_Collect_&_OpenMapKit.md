@@ -70,7 +70,9 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
         * **Lembar kerja choices**
 
         Pada lembar kerja **choices** kita harus memasukkan tiga nama kolom yaitu **list_name, name**, & **label.** Pada kolom **list_name** ini anda membuat sebuah grup yang berisikan sebuah set pilihan jawaban. Misalnya seperti sebuah set pilihan jawaban yang akan muncul dibawah pertanyaan pilihan ganda. Untuk penamaan pada variabel **list_name** ini harus mengikuti penamaan yang ada pada lembar kerja **survey**. Misalnya pada lembar kerja **survey** kita memasukkan tipe pilihan ganda dengan nama **select_one jns_bencana**. Maka pada lembar kerja **choices** kita harus mengisi **_list_name_** kita dengan nama **jns_bencana**. Ini akan dijelaskan lebih lanjut pada pembahasan berikutnya.
-        Kolom dengan nama **name **memiliki aturan yang sama dengan kolom **name **pada lembar kerja **survey**. Semua harus dalam variabel unik yang tidak sama dengan yang lainnya baik pada lembar kerja **survey **maupun lembar kerja **choices**; tidak menggunakan spasi melainkan diganti dengan menggunakan garis bawah/_underscore_; dan tidak boleh menggunakan karakter spesial seperti tanda tanya, tanda seru, dsb.
+
+        Kolom dengan nama **name** memiliki aturan yang sama dengan kolom **name** pada lembar kerja **survey**. Semua harus dalam variabel unik yang tidak sama dengan yang lainnya baik pada lembar kerja **survey** maupun lembar kerja **choices**; tidak menggunakan spasi melainkan diganti dengan menggunakan garis bawah/_underscore_; dan tidak boleh menggunakan karakter spesial seperti tanda tanya, tanda seru, dsb.
+        
         Kolom dengan nama **_label_** memiliki aturan yang sama dengan kolom **label** pada lembar kerja **survey**. Pada kolom ini berisikan teks jawaban yang akan muncul pada ponsel pengguna. Anda bisa bebas menggunakan spasi, karakter khusus maupun huruf pada bagian kolom ini.
         <p align="center">
           <img width=50% src="../images/0505_contoh_penamaan_kolom_pada_lembar_kerja choices.png">
