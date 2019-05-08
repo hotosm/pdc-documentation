@@ -87,14 +87,14 @@ Di sebelah kiri pada layar JOSM terdapat banyak _toolbar_ yang menyediakan lebih
 </p>
 <p align="center"><i>Ikon Draw Tool</i></p>
 
-*   Temukan area kosong pada peta, dan klik dua kali dengan _mouse _Anda kemudian akan tergambar sebuah titik tunggal.
+*   Temukan area kosong pada peta, dan klik dua kali dengan _mouse_ Anda kemudian akan tergambar sebuah titik tunggal.
 
 <p align="center">
  <img src="../images/0408_Contoh_menggambar_objek_titik.png"
 </p>
 <p align="center"><i>Contoh menggambar objek titik</i></p>
 
-*   Untuk menggambar sebuah garis, klik sekali dengan _mouse _Anda. Gerakan _mouse _Anda dan klik kembali. Lanjutkan hingga membentuk sebuah garis. Untuk mengakhiri garis, klik dua kali pada _mouse _Anda.
+*   Untuk menggambar sebuah garis, klik sekali dengan _mouse_ Anda. Gerakan _mouse_ Anda dan klik kembali. Lanjutkan hingga membentuk sebuah garis. Untuk mengakhiri garis, klik dua kali pada _mouse_ Anda.
 
 <p align="center">
  <img src="../images/0409_Contoh_menggambar_objek_garis.png"
@@ -147,7 +147,7 @@ Pada materi ini Anda akan mempelajari beberapa _tools_ dasar dan teknik yang ada
 </p>
 <p align="center"><i>Tampilan file latihan mengedit di JOSM</i></p>
 
-JOSM memiliki _tools_ yang akan memudahkan Anda dalam meng_edit_ baik garis atau poligon. _Tools_ ini dapat ditemukan di menu **_Tools_** di bagian atas JOSM. Jika Anda klik pada menu _Tools_ di bagian atas JOSM, Anda akan melihat bahwa terdapat banyak fungsi yang dapat membantu Anda dalam menggambar garis dan poligon, dan juga mengedit objek pada peta.
+JOSM memiliki _tools_ yang akan memudahkan Anda dalam mengedit baik garis atau poligon. _Tools_ ini dapat ditemukan di menu **_Tools_** di bagian atas JOSM. Jika Anda klik pada menu _Tools_ di bagian atas JOSM, Anda akan melihat bahwa terdapat banyak fungsi yang dapat membantu Anda dalam menggambar garis dan poligon, dan juga mengedit objek pada peta.
 
 <p align="center">
  <img src="../images/0415_Pilihan_yang_ada_di_menu_tools_JOSM.png"
@@ -195,7 +195,7 @@ Jika Anda menggabungkan jalan yang memiliki arah yang berbeda, Anda akan mendapa
 <p align="center"><i>Tampilan reverse way</i></p>
 
 *   **_Simplify Way_** (sederhanakan jalur)
-    Jika garis Anda memiliki terlalu banyak titik di dalamnya dan Anda ingin membuatnya lebih sederhana, menu _simplify way_ akan menghapus beberapa titik yang ada pada sebuah garis. _Tool_ ini juga digunakan untuk mempercepat saat _upload _data karena menghapus beberapa nodes/titik yang berada di satu garis. Cara untuk menggunakan _simplify way_ adalah klik pada garis yang ingin Anda sederhanakan, kemudian ke menu _tools_ dan klik **_Simplify Way_**. Tombol pintas untuk melakukan _simplify way_ adalah tombol **Shift+Y** pada _keyboard._
+    Jika garis Anda memiliki terlalu banyak titik di dalamnya dan Anda ingin membuatnya lebih sederhana, menu _simplify way_ akan menghapus beberapa titik yang ada pada sebuah garis. _Tool_ ini juga digunakan untuk mempercepat saat _upload_ data karena menghapus beberapa nodes/titik yang berada di satu garis. Cara untuk menggunakan _simplify way_ adalah klik pada garis yang ingin Anda sederhanakan, kemudian ke menu _tools_ dan klik **_Simplify Way_**. Tombol pintas untuk melakukan _simplify way_ adalah tombol **Shift+Y** pada _keyboard._
 
 <p align="center">
  <img src="../images/0421_Tampilan_simplify_way.png"
@@ -303,7 +303,7 @@ Jika sebelumnya membahas mengenai objek yang tidak boleh terhubung, sekarang And
 </p>
 <p align="center"><i>Jalan harus terhubung satu sama lain</i></p>
 
-**3. Objek yang Saling _Overlap _atau Tumpang Tindih**
+**3. Objek yang Saling _Overlap_ atau Tumpang Tindih**
 
 Salah satu kesalahan umum pada saat menggambar di JOSM adalah poligon saling _overlap_, padahal seharusnya objek yang digambarkan tidak saling _overlap_. Sebuah bangunan tidak bisa _overlap_ dengan bangunan yang lain. Sebagai contoh, poligon penggunaan lahan permukiman tidak seharusnya overlap atau tumpang tindih dengan poligon kebun.
 
