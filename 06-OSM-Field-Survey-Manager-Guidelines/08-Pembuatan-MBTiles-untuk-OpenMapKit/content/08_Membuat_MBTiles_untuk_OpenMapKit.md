@@ -140,7 +140,7 @@ _Plugin_ QTiles merupakan _plugin_ yang dapat digunakan untuk menghasilkan _tile
 *   Sekarang Anda dapat menambahkan data _layer_ yang berbentuk _tilemap_ untuk menampilkan citra satelit pada peta kanvas QGIS, dengan cara klik **_Menu Web → QuickMapServices → Search QMS_**
 
 <p align="center">
-  <img width=50% src="../images/0816_QMS.png">
+  <img width=40% src="../images/0816_QMS.png">
 </p>
 <p align="center"><i>Plugin QuickMapServices</i><p align="center">
 
@@ -148,7 +148,7 @@ _Plugin_ QTiles merupakan _plugin_ yang dapat digunakan untuk menghasilkan _tile
 *   Pada kotak pencarian **_Search QMS_** ketikkan **DigitalGlobe Premium Imagery**, kemudian klik **_Add_**
 
 <p align="center">
-  <img width=50% src="../images/0817_basemap.png">
+  <img width=40% src="../images/0817_basemap.png">
 </p>
 <p align="center"><i>Pemilihan basemap</i><p align="center">
 
