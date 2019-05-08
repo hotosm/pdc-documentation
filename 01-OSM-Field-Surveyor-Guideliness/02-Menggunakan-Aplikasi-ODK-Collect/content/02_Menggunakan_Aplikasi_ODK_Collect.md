@@ -15,7 +15,8 @@ _Open Data Kit Collect (ODK Collect)_ merupakan aplikasi pengumpulan data di lap
 ### **II. Pengaturan awal untuk _ODK Collect_**
 
 **a. Mengatur _URL Server_**
-    Untuk mengambil formulir survei dari server untuk pertama kalinya, pengguna perlu mengatur _URL server_. Langkah-langkah mengatur _URL server_ adalah sebagai berikut:
+
+Untuk mengambil formulir survei dari server untuk pertama kalinya, pengguna perlu mengatur _URL server_. Langkah-langkah mengatur _URL server_ adalah sebagai berikut:
 
 *   Buka aplikasi **ODK Collect** dan tekan tombol titik tiga di pojok kanan atas, pilih **_General Settings → Server_**
 
@@ -28,6 +29,7 @@ _Open Data Kit Collect (ODK Collect)_ merupakan aplikasi pengumpulan data di lap
 <p align="center"><i>Langkah untuk memasukkan alamat URL pada ODK Collect</i></p>
 
 **b. Mengatur ukuran gambar**
+
 Selain titik lokasi, Anda juga dapat mengambil foto sebagai keterangan tambahan. Anda dapat mengatur resolusi gambar sesuai keinginan. Namun, resolusi gambar juga akan mempengaruhi jumlah kapasitas memori atau _file_ yang akan _di-upload_ ke server nantinya. Disarankan agar Anda memilih resolusi gambar terkecil saat pengaturan awal. Langkah-langkahnya adalah sebagai berikut:
 
 *   Tekan tombol titik tiga di pojok kanan atas dan pergi ke **_General Settings → Form Management_**.
