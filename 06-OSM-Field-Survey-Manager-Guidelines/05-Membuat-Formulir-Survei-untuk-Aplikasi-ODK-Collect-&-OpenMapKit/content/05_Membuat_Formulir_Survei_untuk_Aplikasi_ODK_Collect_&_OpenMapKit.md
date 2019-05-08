@@ -46,7 +46,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
       <img width=50% src="../images/0503_tiga_lembar_kerja_utama.png">
     </p>
     <p align="center"><i>Tiga Lembar Kerja Utama di setiap XLSForm</i></p>
-    
+
     Lembar kerja pertama yaitu **_survey_.** Pada lembar kerja ini semua pertanyaan yang akan kita buat harus kita letakkan pada lembar kerja ini. Semua pertanyaan yang kita buat tidak perlu disertakan dengan daftar jawaban. Semua daftar jawaban yang kita butuhkan akan mengacu ke lembar kerja berikutnya.
 
     Lembar kerja kedua yaitu **_choices_**. Pada lembar kerja ini kita memasukkan semua daftar jawaban kita dari setiap pertanyaan yang membutuhkan pilihan jawaban. 
@@ -60,37 +60,39 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
         Pada lembar kerja **survey** kita harus memasukkan tiga nama kolom yaitu **type, name, **&** label**. Kolom dengan nama **type **menunjukkan jenis pertanyaan yang akan muncul nantinya, apakah pertanyaan berbentuk pilihan, isian bebas ataupun mengambil lokasi. 
         Kolom dengan nama **name **menunjukkan variabel unik untuk setiap daftar pertanyaan. Variabel ini tidak boleh sama, tidak menggunakan spasi, dan hanya berupa angka, huruf atau garis bawah.  
         Kolom dengan nama **label** menunjukkan tulisan pertanyaan yang akan muncul pada perangkat ponsel pengguna. Tidak ada format baku untuk kolom ini, Anda bebas menggunakan huruf, angka, dan karakter spesial pada kolom ini.
-    <p align="center">
-      <img width=50% src="../images/0504_contoh_kolom_untuk _lembar_kerja_survey.png">
-    </p>
-    <p align="center"><i>Contoh kolom untuk lembar kerja survey</i></p>
+        <p align="center">
+          <img width=50% src="../images/0504_contoh_kolom_untuk _lembar_kerja_survey.png">
+        </p>
+        <p align="center"><i>Contoh kolom untuk lembar kerja survey</i></p>
 
         * **Lembar kerja choices**
-    Pada lembar kerja **choices** kita harus memasukkan tiga nama kolom yaitu **list_name, name**, & **label.** Pada kolom **list_name** ini anda membuat sebuah grup yang berisikan sebuah set pilihan jawaban. Misalnya seperti sebuah set pilihan jawaban yang akan muncul dibawah pertanyaan pilihan ganda. Untuk penamaan pada variabel **list_name** ini harus mengikuti penamaan yang ada pada lembar kerja **survey**. Misalnya pada lembar kerja **survey** kita memasukkan tipe pilihan ganda dengan nama **select_one jns_bencana**. Maka pada lembar kerja **choices** kita harus mengisi **_list_name_** kita dengan nama **jns_bencana**. Ini akan dijelaskan lebih lanjut pada pembahasan berikutnya.
-    Kolom dengan nama **name **memiliki aturan yang sama dengan kolom **name **pada lembar kerja **survey**. Semua harus dalam variabel unik yang tidak sama dengan yang lainnya baik pada lembar kerja **survey **maupun lembar kerja **choices**; tidak menggunakan spasi melainkan diganti dengan menggunakan garis bawah/_underscore_; dan tidak boleh menggunakan karakter spesial seperti tanda tanya, tanda seru, dsb.
-    Kolom dengan nama **_label_** memiliki aturan yang sama dengan kolom **label** pada lembar kerja **survey**. Pada kolom ini berisikan teks jawaban yang akan muncul pada ponsel pengguna. Anda bisa bebas menggunakan spasi, karakter khusus maupun huruf pada bagian kolom ini.
-    <p align="center">
-      <img width=50% src="../images/0505_contoh_penamaan_kolom_pada_lembar_kerja choices.png">
-    </p>
-    <p align="center"><i>Contoh penamaan kolom pada lembar kerja **choices**</i></p>
+        Pada lembar kerja **choices** kita harus memasukkan tiga nama kolom yaitu **list_name, name**, & **label.** Pada kolom **list_name** ini anda membuat sebuah grup yang berisikan sebuah set pilihan jawaban. Misalnya seperti sebuah set pilihan jawaban yang akan muncul dibawah pertanyaan pilihan ganda. Untuk penamaan pada variabel **list_name** ini harus mengikuti penamaan yang ada pada lembar kerja **survey**. Misalnya pada lembar kerja **survey** kita memasukkan tipe pilihan ganda dengan nama **select_one jns_bencana**. Maka pada lembar kerja **choices** kita harus mengisi **_list_name_** kita dengan nama **jns_bencana**. Ini akan dijelaskan lebih lanjut pada pembahasan berikutnya.
+        Kolom dengan nama **name **memiliki aturan yang sama dengan kolom **name **pada lembar kerja **survey**. Semua harus dalam variabel unik yang tidak sama dengan yang lainnya baik pada lembar kerja **survey **maupun lembar kerja **choices**; tidak menggunakan spasi melainkan diganti dengan menggunakan garis bawah/_underscore_; dan tidak boleh menggunakan karakter spesial seperti tanda tanya, tanda seru, dsb.
+        Kolom dengan nama **_label_** memiliki aturan yang sama dengan kolom **label** pada lembar kerja **survey**. Pada kolom ini berisikan teks jawaban yang akan muncul pada ponsel pengguna. Anda bisa bebas menggunakan spasi, karakter khusus maupun huruf pada bagian kolom ini.
+        <p align="center">
+          <img width=50% src="../images/0505_contoh_penamaan_kolom_pada_lembar_kerja choices.png">
+        </p>
+        <p align="center"><i>Contoh penamaan kolom pada lembar kerja **choices**</i></p>
 
         *   **Lembar kerja settings**
         Lembar kerja **_settings_** digunakan apabila Anda ingin membuat pengaturan tambahan seperti memberikan nama formulir survei Anda, memberikan id formulir secara spesifik, dan versi formulir survei Anda. Agar dapat menggunakan fitur ini, Anda harus memberikan tiga nama kolom ini: **form_title, form_id,** & **version**. 
         Pada kolom **form_title,** Anda bisa memberikan penamaan yang bebas untuk formulir Anda. Penamaan ini yang nantinya akan muncul pada ponsel pengguna. 
         Sementara untuk kolom **form_id**, Anda bisa memberikan id formulir Anda. Syarat penamaan pada kolom ini adalah Anda tidak boleh memiliki id yang sama seperti formulir lainnya, tidak menggunakan spasi, dan tidak menggunakan karakter spesial.
         Untuk kolom **version**, Anda bisa memberikan versi formulir Anda. Penambahan kolom **version** ini tidak wajib. Apabila Anda sering menambah/mengubah formulir survei Anda, dengan memberikan kolom **version** ini, akan memudahkan Anda dalam mengunggah formulirnya pada server.
-    <p align="center">
-      <img width=50% src="../images/0506_contoh_pengaturan_pada_lembar_kerja settings.png">
-    </p>
-    <p align="center"><i>Contoh penamaan kolom pada lembar kerja choices</i></p>
+        <p align="center">
+          <img width=50% src="../images/0506_contoh_pengaturan_pada_lembar_kerja settings.png">
+        </p>
+        <p align="center"><i>Contoh penamaan kolom pada lembar kerja choices</i></p>
 
         *   **Semua isian harus dengan format standar dan dimulai dari kotak paling pertama.**
         Salah satu syarat yang paling utama adalah ketika kita membuat formulir survei, semua harus dimulai pada _field_/kuadran _**A-1.**_
-    <p align="center">
-      <img width=50% src="../images/0507_posisi_awal_membuat_formulir_survei.png">
-    </p>
-    <p align="center"><i>Posisi awal membuat formulir survei</i></p>
+        <p align="center">
+          <img width=50% src="../images/0507_posisi_awal_membuat_formulir_survei.png">
+        </p>
+        <p align="center"><i>Posisi awal membuat formulir survei</i></p>
+
         Semua isian formulir harus dimulai pada kuadran/_field_ tersebut karena nantinya sistem akan mengkonversi berkas _spreadsheet_ ini menjadi dalam bentuk _XForm_, sehingga apabila Anda tidak memulai dari posisi tersebut, akan terjadi _error_ pada sistem.
+        
         Selain itu, syarat utama lainnya adalah tidak boleh menggunakan format tabel seperti contohnya _merge, center, hide row/coloum, wrap text,_ dsb. Semuanya harus dalam keadaan format standar. Pengaturan yang bisa kita gunakan adalah menambahkan huruf cetak tebal/**bold**, memberikan warna pada kolom atau baris, dan mengubah bentuk dan ukuran huruf.
 
 
