@@ -15,13 +15,13 @@ _OpenStreetMap_ sebagai sebuah alternatif untuk melakukan pemetaan secara bebas 
 2. **Contoh Penggunaan _Tasking Manager_**
     _Tasking manager_ pernah digunakan sebagai bentuk respon ketika bencana Topan Haiyan terjadi di Filipina pada 8 November 2013. Pemetaan menggunakan _tasking manager_ dilakukan di Kota Tacloban, salah satu kota yang terdampak sangat parah ketika bencana terjadi. Dalam kurun waktu 24 jam setelah dibuatnya proyek _tasking manager_, sebanyak 10.000 bangunan telah terpetakan atau sekitar 25% dari total jumlah bangunan yang ada di Kota Tacloban. Seluruh pemetaan ini dilakukan oleh 33 orang relawan. 
 
-    ![alt_text](images/0201_Kondisi_bangunan_sebelum_dan_setelah_dipetakan_menggunakan_Tasking_Manager.png "image_tooltip")
-    _Kondisi bangunan sebelum dan setelah dipetakan menggunakan Tasking Manager_
+    <p align="center"><img width=70% src="../images/0201_Kondisi_bangunan_sebelum_dan_setelah_dipetakan_menggunakan_Tasking_Manager.png"</p>
+    <p align="center"><i>Kondisi bangunan sebelum dan setelah dipetakan menggunakan Tasking Manager</i></p>
     
     _Tasking manager_ juga digunakan di Indonesia untuk respon ketika bencana terjadi. Salah satu contohnya adalah ketika bencana gempa dan tsunami terjadi di Selat Sunda pada Desember 2018. Dalam kurun waktu 1 bulan, seluruh daerah terdampak sudah selesai dipetakan oleh sekitar 60 orang relawan. 
 
-    ![alt_text](images/0202_Tasking_manager_yang_dibuat_sebagai_respon_bencana_gempa_dan_tsunami_di_Selat_Sunda.png "image_tooltip")
-    _Tasking Manager yang dibuat sebagai respon bencana gempa dan tsunami di Selat Sunda_
+    <p align="center"><img width=70% src="../images/0202_Tasking_manager_yang_dibuat_sebagai_respon_bencana_gempa_dan_tsunami_di_Selat_Sunda.png"</p>
+    <p align="center"><i>Tasking Manager yang dibuat sebagai respon bencana gempa dan tsunami di Selat Sunda</i></p>
 
 
 ### II. Memulai _Tasking Manager_
@@ -29,14 +29,14 @@ _OpenStreetMap_ sebagai sebuah alternatif untuk melakukan pemetaan secara bebas 
 Anda dapat mengakses halaman _tasking manager_ di alamat [https://tasks.hotosm.org/](https://tasks.hotosm.org/). Ketika Anda membuka halaman tersebut, akan muncul tampilan seperti berikut: 
 
 
-![alt_text](images/0203_Halaman_utama_Taksing_Manager.png "image_tooltip")
-_Halaman utama Tasking Manager_
+<p align="center"><img width=70% src="../images/0203_Halaman_utama_Taksing_Manager.png"</p>
+<p align="center"><i>Halaman utama Tasking Manager</i></p>
 
 Pada halaman utama, Anda dapat melihat beberapa menu yang bisa Anda pilih. Untuk mengganti bahasa yang ingin ditampilkan Anda dapat memilih tombol tanda panah di sebelah kiri tombol _**Login**_ pada kanan atas layar. Anda juga bisa mempelajari lebih lanjut mengenai tutorial penggunaan _tasking manager_ pada menu **_Learn_** di bagian atas layar. 
 
 
-![alt_text](images/0204_Tombol_untuk_mengganti_bahasa_di_sebelah_kanan_dan_tombol_Learn_di_sebelah_kiri.png "image_tooltip")
-_Tombol untuk mengganti bahasa di sebelah kanan dan tombol Learn di sebelah kiri_
+<p align="center"><img width=70% src="../images/0204_Tombol_untuk_mengganti_bahasa_di_sebelah_kanan_dan_tombol_Learn_di_sebelah_kiri.png"</p>
+<p align="center"><i>Tombol untuk mengganti bahasa di sebelah kanan dan tombol Learn di sebelah kiri</i></p>
 
 Sebelum dapat memetakan menggunakan _Tasking Manager_, ada beberapa hal yang perlu Anda perhatikan, seperti:
 
@@ -46,19 +46,19 @@ Sebelum dapat memetakan menggunakan _Tasking Manager_, ada beberapa hal yang per
 
     Sebelum Anda dapat melakukan memetakan, Anda harus melakukan _login_ atau masuk dengan menggunakan akun _OpenStreetMap_ yang Anda miliki. Silakan Anda pilih menu **_Login_** yang berada di sebelah kanan atas layar kemudian masukkan akun _OpenStreetMap_ yang telah Anda miliki. Pada pilihan **_Authorize access to  your account_** silakan Anda centang pilihan **_read your user preferences_** kemudian pilih **_Grant Access_**. Untuk lebih jelasnya, silakan Anda lihat gambar berikut:
 
-    ![alt_text](images/0205_Pilihan_untuk_mengizinkan_otorisasi_pada_akun_Anda.png "image_tooltip")
-    _Pilihan untuk mengizinkan otorisasi pada akun Anda_
+    <p align="center"><img width=70% src="../images/0205_Pilihan_untuk_mengizinkan_otorisasi_pada_akun_Anda.png"</p>
+    <p align="center"><i>Pilihan untuk mengizinkan otorisasi pada akun Anda</i></p>
 
     Setelah Anda _login_ maka Anda akan diarahkan kembali pada halaman _Tasking Manager_. Anda dapat melihat nama akun _OpenStreetMap_ di bagian kanan atas halaman yang menandakan bahwa Anda telah berhasil melakukan _login_. Untuk memulai memetakan, silakan pilih tombol **_Start Mapping_** atau tombol **_Contribute_** yang terletak di sebelah kiri atas layar. 
 
-    ![alt_text](images/0206_Tombol_Contribute_dan_Start_Mapping_pada_halaman_Tasking_Manager.png "image_tooltip")
-    _Tombol Contribute dan Start Mapping pada halaman Tasking Manager_
+    <p align="center"><img width=70% src="../images/0206_Tombol_Contribute_dan_Start_Mapping_pada_halaman_Tasking_Manager.png"</p>
+    <p align="center"><i>Tombol Contribute dan Start Mapping pada halaman Tasking Manager</i></p>
 
 2. **Mencari Proyek _Tasking Manager_ di Kolom Pencarian**
     Setelah Anda menekan tombol **_Start Mapping_** atau **_Contribute_** akan muncul halaman _Contribute_. Di halaman ini Anda dapat memilih tampilan _Grid View_ dan _Map View_. Di dalam tampilan _Grid View_ ada beberapa hal yang perlu Anda perhatikan, seperti: 
 
-    ![alt_text](images/0207_Beberapa_pengaturan_yang_dapat_dilakukan_pada_tampilan_Grid_View.png "image_tooltip")
-    _Beberapa pengaturan yang dapat dilakukan pada tampilan Grid View_
+    <p align="center"><img width=70% src="../images/0207_Beberapa_pengaturan_yang_dapat_dilakukan_pada_tampilan_Grid_View.png"</p>
+    <p align="center"><i>Beberapa pengaturan yang dapat dilakukan pada tampilan Grid View</i></p>
 
     1. **_Search_** (Kotak Pencarian)
         Pada bagian ini, Anda dapat melakukan pencarian proyek _tasking manager._ Silakan Anda ketik kata kunci yang diinginkan seperti nama kecamatan, kabupaten, provinsi, atau nama kegiatan yang menjadi judul proyek yang telah dibuat. 
@@ -77,29 +77,29 @@ Sebelum dapat memetakan menggunakan _Tasking Manager_, ada beberapa hal yang per
 
     Anda dapat mengubah tampilan dari _Grid View_ menjadi _Map View_. Pada tampilan _Grid View_, Anda akan melihat daftar proyek _tasking manager_ dalam bentuk grid atau kotak. Jika Anda memilih tampilan _Map_ _View_, tampilan utama yang akan Anda lihat adalah tampilan peta dunia dengan banyak bulatan kecil berwarna biru di atasnya.
 
-    ![alt_text](images/0208_Tombol_untuk_mengubah_tampilan_Grid_View_atau_Map_View.png "image_tooltip")
-    _Tombol untuk mengubah tampilan Grid View atau Map View_
+    <p align="center"><img width=70% src="../images/0208_Tombol_untuk_mengubah_tampilan_Grid_View_atau_Map_View.png"</p>
+    <p align="center"><i>Tombol untuk mengubah tampilan Grid View atau Map View</i></p>
 
     Jika Anda telah mengubah tampilan Anda menjadi _Map View_, akan muncul halaman seperti berikut:
 
-    ![alt_text](images/0209_Tampilan Map_View_pada_Tasking_Manager.png "image_tooltip")
-    _Tampilan Map View pada Tasking Manager_
+    <p align="center"><img width=70% src="../images/0209_Tampilan Map_View_pada_Tasking_Manager.png"
+    <p align="center"><i>Tampilan Map View pada Tasking Manager</i></p>
 
     Berbeda dengan tampilan _Grid View_, tampilan _Map View_ akan  memperlihatkan tampilan peta dunia dengan banyak bulatan biru. Anda dapat menggunakan tombol dengan tanda plus dan minus yang ada di sebelah kiri atas bidang peta untuk memperbesar dan memperkecil tampilan peta. Ketika tampilan peta diperbesar, maka akan muncul berbagai proyek _tasking manager_ yang ada di berbagai tempat ditandai dengan adanya titik-titik berwarna. Masing-masing warna tersebut mewakili tingkat prioritas proyek _tasking_ mulai dari _urgent_ hingga _low_. 
 
-    ![alt_text](images/0210_Prioritas_tasking_manager.png "image_tooltip")
+    <p align="center"><img width=70% src="../images/0210_Prioritas_tasking_manager.png"</p>
     Jika Anda ingin mulai melakukan pencarian, maka Anda dapat mengubah tampilan menjadi _Grid View_. Ubah kembali tampilan _Tasking Manager_ Anda menjadi tampilan _Grid View_. Untuk dapat mencari proyek _tasking,_ silakan Anda arahkan kursor Anda pada kotak pencarian. Pada contoh kali ini kita akan mencari proyek _tasking manager_ dengan kata kunci ‘Penjaringan’ kemudian tekan **_Enter_**. Untuk parameter lain seperti _mapping difficulty_, _organization_, dan _campaign_ tidak perlu diubah.
 
-    ![alt_text](images/0211_Hasil pencarian_proyek_tasking_manager_dengan_kata_pencarian_‘penjaringan’.png "image_tooltip")
-    _Hasil pencarian proyek tasking manager dengan kata pencarian ‘penjaringan’_
+    <p align="center"><img width=70% src="../images/0211_Hasil pencarian_proyek_tasking_manager_dengan_kata_pencarian_‘penjaringan’.png"</p>
+    <p align="center"><i>Hasil pencarian proyek tasking manager dengan kata pencarian ‘penjaringan’</i></p>
 
     _Tasking Manager_ akan menampilkan proyek dengan kata kunci ‘Penjaringan’. Silakan Anda pilih proyek _tasking_ yang ada di sebelah kanan dengan judul _‘#781 - INSIST II (Integrated Services for Infrastructure and Sanitation Technology) II - Kelurahan Penjaringan’._
 
 3. **Mengenal Tampilan _Tasking Manager_**
     Ketika Anda telah memilih satu proyek _tasking_, maka akan muncul tampilan sebagai berikut: 
 
-    ![alt_text](images/0212_Tasking_manager_#781_INSIST_-_Kelurahan_Penjaringan.png "image_tooltip")
-    _Tasking_ _manager_ _#781_ _INSIST_ _-_ _Kelurahan Penjaringan_
+    <p align="center"><img width=70% src="../images/0212_Tasking_Kelurahan_Penjaringan.png"</p>
+    <p align="center"><i>Tasking_ _manager_ _#781_ _INSIST_ _-_ _Kelurahan Penjaringan</i></p>
 
     Tampilan ini menunjukkan deskripsi proyek _tasking manager_ yang sedang kita buka. Pada bagian deskripsi, Anda dapat membaca latar belakang proyek pemetaan infrastruktur dan sanitasi di Penjaringan. Di bagian bawah kita dapat melihat informasi lebih detail mengenai proyek ini, mulai dari tingkat prioritas, organisasi pembuat, nama pembuat proyek, tingkat kesulitan, hingga objek apa yang harus dipetakan. Jika Anda ingin membuat proyek _tasking manager_ Anda sendiri, Anda dapat membacanya di modul **Membuat dan Mengelola Tasking Manager**.
 
