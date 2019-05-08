@@ -83,11 +83,12 @@ Sebelum dapat memetakan menggunakan _Tasking Manager_, ada beberapa hal yang per
     Jika Anda telah mengubah tampilan Anda menjadi _Map View_, akan muncul halaman seperti berikut:
 
     <p align="center"><img width=70% src="../images/0209_Tampilan Map_View_pada_Tasking_Manager.png"
-    <p align="center"><i>Tampilan Map View pada Tasking Manager</i></p>
+    <br><p align="center"><i>Tampilan Map View pada Tasking Manager</i></p>
 
     Berbeda dengan tampilan _Grid View_, tampilan _Map View_ akan  memperlihatkan tampilan peta dunia dengan banyak bulatan biru. Anda dapat menggunakan tombol dengan tanda plus dan minus yang ada di sebelah kiri atas bidang peta untuk memperbesar dan memperkecil tampilan peta. Ketika tampilan peta diperbesar, maka akan muncul berbagai proyek _tasking manager_ yang ada di berbagai tempat ditandai dengan adanya titik-titik berwarna. Masing-masing warna tersebut mewakili tingkat prioritas proyek _tasking_ mulai dari _urgent_ hingga _low_. 
 
     <p align="center"><img width=70% src="../images/0210_Prioritas_tasking_manager.png"</p>
+    
     Jika Anda ingin mulai melakukan pencarian, maka Anda dapat mengubah tampilan menjadi _Grid View_. Ubah kembali tampilan _Tasking Manager_ Anda menjadi tampilan _Grid View_. Untuk dapat mencari proyek _tasking,_ silakan Anda arahkan kursor Anda pada kotak pencarian. Pada contoh kali ini kita akan mencari proyek _tasking manager_ dengan kata kunci ‘Penjaringan’ kemudian tekan **_Enter_**. Untuk parameter lain seperti _mapping difficulty_, _organization_, dan _campaign_ tidak perlu diubah.
 
     <p align="center"><img width=70% src="../images/0211_Hasil pencarian_proyek_tasking_manager_dengan_kata_pencarian_‘penjaringan’.png"</p>
