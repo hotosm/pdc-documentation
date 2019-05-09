@@ -76,7 +76,7 @@ Untuk bisa membuat _presets_ Anda sendiri, ada beberapa hal yang perlu Anda pers
 **a. Elemen-Elemen di Presets**
 Jika sudah mengetahui dan memahami aturan dalam pembuatan_ presets_ maka Anda juga perlu untuk mengetahui tentang elemen-elemen penyusun yang dapat menampilkan informasi di _presets_ Anda dengan bentuk yang beragam. Beberapa elemen-elemen _presets _tersebut adalah:
 
-Elemen <p style="color:red;">key key</p> 
+* Elemen **key** key 
 
 ```
                                    Struktur dasar  : <key key="......" value="......" /> 
