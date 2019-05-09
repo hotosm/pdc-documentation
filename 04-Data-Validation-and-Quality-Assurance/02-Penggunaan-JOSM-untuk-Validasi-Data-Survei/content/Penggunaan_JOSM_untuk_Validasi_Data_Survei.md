@@ -57,7 +57,7 @@ Dalam survei lapangan, _data entry_ mengumpulkan dua jenis data yaitu data objek
         <p align="center"><i>Menggabungkan seluruh layer</i></p>
 
 *   Anda akan diminta untuk memilih _layer_ tujuan atau _target layer_. Anda tidak perlu mengubah _target layer_ ini dan langsung pilih **Merge**.
-       <p align="center"><img width=70% src="../images/0209_Pilih_merge_untuk_menggabungkan_seluruh_data.png"</p>
+       <p align="center"><img width=40% src="../images/0209_Pilih_merge_untuk_menggabungkan_seluruh_data.png"</p>
         <p align="center"><i>Pilih merge untuk menggabungkan seluruh data</i></p>
 
 *   Data yang sudah berhasil digabungkan akan menjadi hanya satu _layer_.
@@ -104,7 +104,7 @@ Setelah Anda melakukan pengecekan data mentah atau _raw_ data yang telah dikumpu
     <p align="center"><i>Mengaktifkan jendela validasi pada JOSM</i></p>
 
    *   Untuk melakukan validasi Anda dapat menggunakan tombol **_Validation_** yang ada pada jendela _validation result_. Satu hal yang perlu Anda perhatikan pada saat melakukan validasi adalah pastikan tidak ada objek yang sedang Anda pilih karena jika Anda sedang memilih salah satu objek, JOSM hanya akan melakukan validasi terhadap objek yang sedang Anda pilih. 
-   <p align="center"><img width=70% src="../images/0218_Hasil_validasi_menggunakan_JOSM.png"</p>
+   <p align="center"><img width=40% src="../images/0218_Hasil_validasi_menggunakan_JOSM.png"</p>
     <p align="center"><i>Hasil validasi menggunakan JOSM</i></p>
 
    *   Perbaiki jika ada kesalahan _(error)_ dan peringatan _(warning)_ yang muncul pada data Anda hingga selesai. Setelah itu jangan lupa untuk mengunggah kembali data yang sudah Anda perbaiki ke dalam server _OpenStreetMap_. 
@@ -117,11 +117,11 @@ Seperti telah dijelaskan sebelumnya, ketika melakukan validasi menggunakan JOSM,
 
 2. Peringatan _(Warning)_
     <br>Berbeda dengan kesalahan atau _error_, peringatan atau _warning_ tidak bersifat wajib untuk diperbaiki. Sesuai dengan namanya, peringatan atau _warning_ diberikan untuk memberikan informasi bahwa terdapat ketidaksesuaian dalam pemetaan Anda. Peringatan ini dapat Anda abaikan dan Anda tetap dapat melakukan _upload_ data ke dalam server _OpenStreetMap_. Meskipun demikian, ada juga beberapa jenis _warning_ yang sebaiknya diperbaiki seperti _crossing building, building inside building, crossing ways,_ dan sebagainya. Anda akan mempelajari lebih lanjut mengenai jenis-jenis _warning_ yang harus diperbaiki pada bagian selanjutnya. 
-   <p align="center"><img width=70% src="../images/0219_Contoh_error_warning_yang_muncul.png"</p>
+   <p align="center"><img width=40% src="../images/0219_Contoh_error_warning_yang_muncul.png"</p>
     <p align="center"><i>Contoh kesalahan (errors) dan peringatan (warnings) yang muncul pada saat validasi</i></p>
 
    Untuk kesalahan atau _Error_, Anda dapat langsung memperbaikinya secara otomatis dengan menekan pada bagian _Error_, kemudian tekan tombol **Fix**. Namun, untuk peringatan atau _warning_, Anda harus menyelesaikannya satu per satu. 
-   <p align="center"><img width=70% src="../images/0220_Kesalahan_atau_errors_diselesaikan.png"</p>
+   <p align="center"><img width=40% src="../images/0220_Kesalahan_atau_errors_diselesaikan.png"</p>
 <p align="center"><i>Kesalahan atau Errors dapat diselesaikan secara otomatis dengan menggunakan tombol Fix</i></p>
 
 ### IV. Jenis-jenis Kesalahan _(Error)_ dan Peringatan _(Warning)_ yang Harus Diperbaiki
