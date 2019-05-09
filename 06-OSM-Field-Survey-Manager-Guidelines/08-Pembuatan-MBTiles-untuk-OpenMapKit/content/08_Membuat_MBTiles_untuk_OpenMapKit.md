@@ -209,7 +209,8 @@ Pada proses ini, Anda telah memiliki _file_ dalam bentuk format mbtiles yang aka
 </p>
 <p align="center"><i>Direktori OpenMapKit (OMK)</i><p align="center">
  
-* Buka aplikasi *OpenMapKit* pada *smartphone* Anda, dan aktifkan file *.mbtiles* yang telah dipindahkan dengan klik Menu *Basemap* pada aplikasi *OpenMapKit*.
+* Buka aplikasi *OpenMapKit* pada *smartphone* Anda, dan aktifkan file *.mbtiles* yang telah dipindahkan dengan klik Menu *Basemap* pada aplikasi *OpenMapKit*. Anda dapat mempelajari modul **Menggunakan Aplikasi _OpenMapKit_** untuk mengetahui bagaimana cara kerja aplikasi tersebut.
+
 <p align="center">
   <img width=70% src="../images/0825_hasildiOMK.png">
 </p>
