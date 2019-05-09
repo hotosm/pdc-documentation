@@ -76,7 +76,7 @@ Untuk bisa membuat _presets_ Anda sendiri, ada beberapa hal yang perlu Anda pers
 **a. Elemen-Elemen di Presets**
 Jika sudah mengetahui dan memahami aturan dalam pembuatan_ presets_ maka Anda juga perlu untuk mengetahui tentang elemen-elemen penyusun yang dapat menampilkan informasi di _presets_ Anda dengan bentuk yang beragam. Beberapa elemen-elemen _presets _tersebut adalah:
 
-* Elemen **key** key 
+* Elemen <p style="color:red;"><b>key**</b></p> key 
 
 ```
                                    Struktur dasar  : <key key="......" value="......" /> 
@@ -140,7 +140,7 @@ Penulisan elemen ini mirip dengan _combo key_ dimana perbedaannya adalah kata _m
 *   **Elemen check key**
 
 ```
-               Struktur Dasar : <check key="......" text="......" value_on="yes" value_off="no" default="......" />
+          Struktur Dasar : <check key="......" text="......" value_on="yes" value_off="no" default="......" />
 ```
 Elemen ini biasanya digunakan untuk menampilkan isian informasi yang berupa tanda centang. Biasanya elemen ini digunakan untuk pertanyaan yang jawabannya iya atau tidak seperti akses ke atap dan jalan satu arah. Anda dapat menuliskan elemen ini di _preset_ seperti berikut:
 **<check key="access:roof" text="Ada akses ke atap" value_on="yes" value_off="no" default="off" />**
