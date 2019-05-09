@@ -113,10 +113,10 @@ Setelah Anda melakukan pengecekan data mentah atau _raw_ data yang telah dikumpu
 
 Seperti telah dijelaskan sebelumnya, ketika melakukan validasi menggunakan JOSM, Anda akan menemukan dua jenis hasil validasi: 
 1. Kesalahan _(Error)_
-    Kesalahan atau _Error_ merupakan jenis peringatan yang bersifat wajib untuk diperbaiki. Kesalahan atau _Error_ berguna untuk memberitahukan adanya objek yang tidak dipetakan sesuai kaidah _OpenStreetMap_. Anda tidak dapat melakukan _upload_ data jika Anda belum menyelesaikan kesalahan atau _error_ pada _changeset_ Anda. 
+    <br>Kesalahan atau _Error_ merupakan jenis peringatan yang bersifat wajib untuk diperbaiki. Kesalahan atau _Error_ berguna untuk memberitahukan adanya objek yang tidak dipetakan sesuai kaidah _OpenStreetMap_. Anda tidak dapat melakukan _upload_ data jika Anda belum menyelesaikan kesalahan atau _error_ pada _changeset_ Anda. 
 
 2. Peringatan _(Warning)_
-    Berbeda dengan kesalahan atau _error_, peringatan atau _warning_ tidak bersifat wajib untuk diperbaiki. Sesuai dengan namanya, peringatan atau _warning_ diberikan untuk memberikan informasi bahwa terdapat ketidaksesuaian dalam pemetaan Anda. Peringatan ini dapat Anda abaikan dan Anda tetap dapat melakukan _upload_ data ke dalam server _OpenStreetMap_. Meskipun demikian, ada juga beberapa jenis _warning_ yang sebaiknya diperbaiki seperti _crossing building, building inside building, crossing ways,_ dan sebagainya. Anda akan mempelajari lebih lanjut mengenai jenis-jenis _warning_ yang harus diperbaiki pada bagian selanjutnya. 
+    <br>Berbeda dengan kesalahan atau _error_, peringatan atau _warning_ tidak bersifat wajib untuk diperbaiki. Sesuai dengan namanya, peringatan atau _warning_ diberikan untuk memberikan informasi bahwa terdapat ketidaksesuaian dalam pemetaan Anda. Peringatan ini dapat Anda abaikan dan Anda tetap dapat melakukan _upload_ data ke dalam server _OpenStreetMap_. Meskipun demikian, ada juga beberapa jenis _warning_ yang sebaiknya diperbaiki seperti _crossing building, building inside building, crossing ways,_ dan sebagainya. Anda akan mempelajari lebih lanjut mengenai jenis-jenis _warning_ yang harus diperbaiki pada bagian selanjutnya. 
    <p align="center"><img width=70% src="../images/0219_Contoh_error_warning_yang_muncul.png"</p>
     <p align="center"><i>Contoh kesalahan (errors) dan peringatan (warnings) yang muncul pada saat validasi</i></p>
 
