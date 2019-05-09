@@ -34,7 +34,7 @@ Sebagai salah satu platform peta partisipatif yang ada di dunia, _OpenStreetMap_
 
 **a. Wikipedia _OpenStreetMap_ Global**
 
-Penjelasan tentang objek serta daftar _key _dan _value _yang ada di data OSM telah dibuat di dalam satu halaman khusus pada OSM Wikipedia yang disebut _Map Feature_. Di halaman ini Anda dapat melihat berbagai macam daftar objek yang dapat dipetakan di dalam OSM serta informasi key dan value yang menggambarkan objek di seluruh dunia. Untuk mengaksesnya silahkan buka di [https://wiki.openstreetmap.org/wiki/Map_Features](https://wiki.openstreetmap.org/wiki/Map_Features) 
+Penjelasan tentang objek serta daftar _key_ dan _value_ yang ada di data OSM telah dibuat di dalam satu halaman khusus pada OSM Wikipedia yang disebut _Map Feature_. Di halaman ini Anda dapat melihat berbagai macam daftar objek yang dapat dipetakan di dalam OSM serta informasi key dan value yang menggambarkan objek di seluruh dunia. Untuk mengaksesnya silahkan buka di [https://wiki.openstreetmap.org/wiki/Map_Features](https://wiki.openstreetmap.org/wiki/Map_Features) 
 
 ![Tampilan situs wikipedia OpenStreetMap map feature](../images/0202_wiki_map_feature.jpg "Tampilan situs wikipedia OpenStreetMap map feature")
 <p align="center"><i>Tampilan situs wikipedia OpenStreetMap map feature</i></p>
@@ -61,14 +61,18 @@ Pada modul ini telah dijelaskan sebelumnya mengenai tipe data _OpenStreetMap_, y
 
 Titik biasanya digunakan untuk menggambarkan posisi atau lokasi dari suatu objek tertentu. Sebagai contoh objek yang dapat digambarkan berbentuk titik di _OpenStreetMap_ yaitu lampu merah, Saluran Pengisian Bahan Bakar Umum (SPBU), ataupun rumah makan yang berada di dalam suatu _mall_ atau pusat perbelanjaan.
 
-![Contoh objek titik (nodes) di OSM](../images/0204_objek_titik.JPG "Contoh objek titik (nodes) di OSM")
+<p align="center">
+  <img width="400" height="300" src="../images/0204_objek_titik.JPG "Contoh objek titik (nodes) di OSM">
+</p>
 <p align="center"><i>Contoh objek titik (nodes) di OSM</i></p>
 
 *   **Garis (_Ways_)**
 
 Garis adalah bentuk yang terdiri dari beberapa titik (_nodes_) yang saling terhubung satu sama lain. Beberapa contoh objek garis di _OpenStreetMap_ yaitu jalan, sungai, rel kereta, dan batas administrasi.
 
-![Contoh objek garis (ways) di OSM](../images/0205_objek_garis.JPG "Contoh objek garis (ways) di OSM")
+<p align="center">
+  <img width=70% src="../images/0205_objek_garis.JPG "Contoh objek garis (ways) di OSM">
+</p>
 <p align="center"><i>Contoh objek garis (ways) di OSM</i></p>
 
 
@@ -77,7 +81,9 @@ Garis adalah bentuk yang terdiri dari beberapa titik (_nodes_) yang saling terhu
 
 Area merupakan bentuk dari beberapa garis (_ways_) yang saling terhubung dan tertutup. Beberapa contoh objek area di _OpenStreetMap_ yaitu bangunan, taman, penggunaan lahan dan danau/waduk.
 
-![Contoh objek area (polygon) di OSM](../images/0206_objek_area.JPG "Contoh objek area (polygon) di OSM")
+<p align="center">
+  <img width=30% src="../images/0206_objek_area.JPG "Contoh objek area (polygon) di OSM">
+</p>
 <p align="center"><i>Contoh objek area (polygon) di OSM</i></p>
 
 **b. Objek Pemetaan di Kegiatan Pemetaan HOT-PDC InAWARE**
@@ -151,7 +157,7 @@ Memilih objek yang akan dipetakan di dalam _OpenStreetMap_ tergantung dari tujua
 
 ### **IV. Model Data Pemetaan di _OpenStreetMap_**
 
-Model data adalah beberapa informasi yang terdapat dalam sebuah objek dimana merupakan gabungan dari beberapa _key _dan _value _yang telah disepakati sebelum kegiatan pemetaan dilakukan. Sebuah model data tidak memiliki bentuk baku karena informasi yang ingin diambil akan disesuaikan sesuai dengan kebutuhan kegiatan pemetaan. Sebagai contoh dalam melakukan pemetaan sekolah, jika Anda ingin mengumpulkan informasi **nama sekolah**, **alamat sekolah**, **jenis sekolah**, **pengelola sekolah**, **jumlah tingkat sekolah** maka model data yang akan Anda buat adalah seperti berikut:
+Model data adalah beberapa informasi yang terdapat dalam sebuah objek dimana merupakan gabungan dari beberapa _key_ dan _value_ yang telah disepakati sebelum kegiatan pemetaan dilakukan. Sebuah model data tidak memiliki bentuk baku karena informasi yang ingin diambil akan disesuaikan sesuai dengan kebutuhan kegiatan pemetaan. Sebagai contoh dalam melakukan pemetaan sekolah, jika Anda ingin mengumpulkan informasi **nama sekolah**, **alamat sekolah**, **jenis sekolah**, **pengelola sekolah**, **jumlah tingkat sekolah** maka model data yang akan Anda buat adalah seperti berikut:
 
 Tabel _Tag_ Informasi Sekolah
 

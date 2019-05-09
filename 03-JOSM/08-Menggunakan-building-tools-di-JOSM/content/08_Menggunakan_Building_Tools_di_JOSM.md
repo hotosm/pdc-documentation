@@ -74,7 +74,7 @@ Langkah-langkah menggunakan _plugin_ **buildings tools** adalah sebagai berikut:
 
 <p align="center"><i>Proses menggambar bangunan menggunakan plugin buildings tools</i></p>
 
-*   Jika daerah yang Anda petakan terdapat bangunan-bangunan yang ukurannya dan bentuknya hampir sama seperti di kompleks perumahan, Anda dapat mengatur panjang dan lebar bangunan yang digambar dengan cara klik menu **Data → Set Building Size** lalu isikan lebar bangunan di kolom **Buildings width/diameter** dan isikan panjang bangunan di kolom **Length step** (masing-masing dalam satuan meter). Pada jendela **Set Building Size**, Anda juga dapat mengatur bentuk _default_ bangunan yang digambar. Ada dua pilihan yaitu **Rectangle** (persegi empat) atau **Circle** (lingkaran), tetapi karena pada umumnya bangunan berbentuk persegi empat pilih **Rectangle**. Lalu klik **OK**.
+*   Jika daerah yang Anda petakan terdapat bangunan-bangunan yang ukurannya dan bentuknya hampir sama seperti di kompleks perumahan, Anda dapat mengatur panjang dan lebar bangunan yang digambar dengan cara klik menu _**Data → Set Building Size**_ lalu isikan lebar bangunan di kolom _**Buildings width/diameter**_ dan isikan panjang bangunan di kolom _**Length step**_ (masing-masing dalam satuan meter). Pada jendela _**Set Building Size**_, Anda juga dapat mengatur bentuk _default_ bangunan yang digambar. Ada dua pilihan yaitu _**Rectangle**_ (persegi empat) atau _**Circle**_ (lingkaran), tetapi karena pada umumnya bangunan berbentuk persegi empat pilih _**Rectangle**_. Lalu klik _**OK**_.
 
 <p align="center">
 <img width=30% src="../images/0807_set_building_size.png" alt="Tampilan jendela Set Building Size" title="Tampilan jendela Set Building Size">

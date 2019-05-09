@@ -26,7 +26,7 @@ Cara membuat YAML untuk struktur data OSM dapat dibagi menjadi empat bagian, yai
 </p>
 <p align="center"><i>Struktur format YAML untuk data OSM</i><p align="center">
 
-Dalam pembuatan YAML, Anda membutuhkan suatu editor tambahan untuk mempermudah dalam penulisan struktur data YAML. Editor tersebut adalah Notepad++, silakan donwload  [https://notepad-plus-plus.org/download/v7.6.4.html](https://notepad-plus-plus.org/download/v7.6.4.html) lalu instal. Anda dapat membuka modul **Pembuatan Model Data OSM** untuk melihat daftar model data objek OSM yang akan dipetakan. Kemudian dari daftar tabel-tabel tersebut akan dibuat ke dalam struktur data YAML.  Langkah-langkah untuk membuat YAML, yaitu:
+Dalam pembuatan YAML, Anda membutuhkan suatu editor tambahan untuk mempermudah dalam penulisan struktur data YAML. Editor tersebut adalah Notepad++, silakan _donwload_  [https://notepad-plus-plus.org/download/v7.6.4.html](https://notepad-plus-plus.org/download/v7.6.4.html) lalu instal. Anda dapat membuka modul **Pembuatan Model Data OSM** untuk melihat daftar model data objek OSM yang akan dipetakan. Kemudian dari daftar tabel-tabel tersebut akan dibuat ke dalam struktur data YAML.  Langkah-langkah untuk membuat YAML, yaitu:
 
 *   Buka **Notepad++**
 *   Buat daftar objek yang dipetakan yang sudah dibuat sebelumnya pada model data OSM
@@ -220,7 +220,7 @@ Tabel Model Data OSM untuk Objek Bank
 </p>
 <p align="center"><i>Penentuan area dengan bentuk manual</i><p align="center">
 
-3. **_Import _**= Menggunakan poligon dalam format _.geojson_ untuk memilih area yang akan di _download_. Syarat format data _.geojson_ yang dapat ditambahkan ke dalam _Export Tool_ adalah harus satu fitur (satu baris) pada data atribut. Anda dapat membuka modul **Menggunakan GeoJSON** untuk mengetahui cara mendapatkan data _.geojson._
+3. **_Import_** = Menggunakan poligon dalam format _.geojson_ untuk memilih area yang akan di _download_. Syarat format data _.geojson_ yang dapat ditambahkan ke dalam _Export Tool_ adalah harus satu fitur (satu baris) pada data atribut. Anda dapat membuka modul **Menggunakan GeoJSON** untuk mengetahui cara mendapatkan data _.geojson._
 
 <p align="center">
   <img width=80% src="../images/0407_Penentuan_area_dengan_import.png">

@@ -17,7 +17,7 @@ Data OSM dapat diperkaya dengan cara menambahkan atau memetakan objek di OSM. Na
 
 ### **I. Menginstal _plugin Utilsplugin2_**
 
-Sebelum menambahkan atau mengedit data OSM menggunakan JOSM, instal _plugin_ yang akan digunakan terlebih dahulu. JOSM memiliki _plugin_ yang salah satu fungsinya memudahkan Anda untuk menyalin _preset/tag_ yaitu _plugin_ **utilsplugin2**. Anda harus menginstal _plugin_ ini terlebih dahulu. Langkah-langkah untuk menginstal _plugin utilsplugin2_ yaitu:
+Sebelum menambahkan atau mengedit data OSM menggunakan JOSM, instal _plugin_ yang akan digunakan terlebih dahulu. JOSM memiliki _plugin_ yang salah satu fungsinya memudahkan Anda untuk menyalin _preset/tag_ yaitu _plugin_ _**utilsplugin2**_. Anda harus menginstal _plugin_ ini terlebih dahulu. Langkah-langkah untuk menginstal _plugin utilsplugin2_ yaitu:
 
 *   Buka **JOSM**
 *   Klik menu **_Edit → Preferences_**
@@ -39,7 +39,7 @@ Sebelum menambahkan atau mengedit data OSM menggunakan JOSM, instal _plugin_ yan
 <p align="center"><i>Tampilan menu More tools pada JOSM</i></p>
 
 >Catatan :
-Terkadang JOSM meminta Anda untuk melakukan _Restart_ setelah melakukan instalasi _plugin_ baru untuk mengaplikasikan _plugin_ yang baru saja diinstal. Namun, tidak semua plugin membutuhkan _Restart_ untuk dapat digunakan setelah instalasi.
+Terkadang JOSM meminta Anda untuk melakukan _Restart_ setelah melakukan instalasi _plugin_ baru untuk mengaplikasikan _plugin_ yang baru saja diinstal. Namun, tidak semua _plugin_ membutuhkan _Restart_ untuk dapat digunakan setelah instalasi.
 
 ### **II. Menggabungkan Data Survei**
 
@@ -47,7 +47,7 @@ Jika Anda sudah melakukan survei menggunakan alat pengumpulan data seperti _ODK 
 
 
 
-*   Arahkan **_File Explorer_** ke direktori tempat penyimpanan _file_ hasil survei dari **_ODK Collect_** dan **OMK**.
+*   Arahkan **_File Explorer_** ke direktori tempat penyimpanan _file_ hasil survei dari **_ODK Collect_** dan _**OpenMapKit**_.
 
 <p align="center">
 <img width=70% src="../images/0503_direktori_file_odk.png" alt="Direktori penyimpanan file hasil survei menggunakan ODK Collect" title="Tampilan direktori penyimpanan file hasil survei menggunakan ODK Collect">
@@ -55,7 +55,7 @@ Jika Anda sudah melakukan survei menggunakan alat pengumpulan data seperti _ODK 
 
 <p align="center"><i>Tampilan direktori penyimpanan file hasil survei menggunakan ODK Collect</i></p>
 
-*   Cari semua _file .osm_ dengan cara ketikkan “osm” pada kolom **Search**. Pilih semua _file .osm_ dari hasil pencarian.
+*   Cari semua _file .osm_ dengan cara ketikkan **osm** pada kolom _**Search**_. Pilih semua _file .osm_ dari hasil pencarian.
 
 <p align="center">
 <img width=60% src="../images/0504_pencarian_direktori.png" alt="Tampilan hasil pencarian pada direktori penyimpanan file hasil survei" title="Tampilan hasil pencarian pada direktori penyimpanan file hasil survei">
@@ -88,7 +88,7 @@ Jika Anda sudah melakukan survei menggunakan alat pengumpulan data seperti _ODK 
 
 <p align="center"><i>Menyimpan layer hasil survei yang sudah digabungkan</i></p>
 
-*   Untuk memudahkan Anda menandai objek-objek yang sudah dipetakan atau belum dari _layer_ hasil survei, JOSM menyediakan _plugin_ _**to-do**_ cara instalasi dan penggunaan secara detailnya dapat dibaca pada modul **Menggunakan to-do list di JOSM**. Jika _plugin_ _**to-do list**_ sudah diinstal dan kotak jendela **Todo list** sudah diaktifkan, pilih semua titik objek yang ada di _layer_ hasil survei yang sudah digabungkan menggunakan ikon **Select object**, kemudian pada kotak jendela Todo list klik **_Add_**.
+*   Untuk memudahkan Anda menandai objek-objek yang sudah dipetakan atau belum dari _layer_ hasil survei, JOSM menyediakan _plugin_ _**to-do**_ cara instalasi dan penggunaan secara detailnya dapat dibaca pada modul **Menggunakan to-do list di JOSM**. Jika _plugin_ _**to-do list**_ sudah diinstal dan kotak jendela _**Todo list**_ sudah diaktifkan, pilih semua titik objek yang ada di _layer_ hasil survei yang sudah digabungkan menggunakan ikon _**Select object**_, kemudian pada kotak jendela Todo list klik **_Add_**.
 
 <p align="center">
 <img src="../images/0508_to_do_josm.png" alt="Memasukkan objek hasil survei ke dalam Todo list" title="Memasukkan objek hasil survei ke dalam Todo list">
@@ -175,7 +175,7 @@ Setelah menginstal _plugin utilsplugin2_, menggabungkan data hasil survei, men-_
 
 <p align="center"><i>Tampilan JOSM setelah dimasukkan data hasil survei dan citra satelit</i></p>
 
-*   Agar Anda tidak mengubah batas administrasi yang sudah dipetakan pada OSM, Anda dapat menggunakan fitur **Filter** pada JOSM. Hal ini dikarenakan batas administrasi merupakan hal yang bersifat khusus dan tidak terkait dengan objek lainnya di dalam OSM. Untuk menggunakan fitur **Filter**, aktifkan kotak jendela Filter dengan cara klik menu **_Windows → Filter_**. Akan muncul kotak jendela Filter di sebelah kanan kanvas kerja Anda. Klik **_Add_** pada kotak jendela Filter, tuliskan **boundary=administrative** pada kolom **Filter string** dan kemudian klik **_Submit Filter_**. Akan muncul sebuah filter baru untuk batas administrasi, untuk menonaktifkan filter Anda dapat menghilangkan tanda centang di sebelah filter. Untuk mengetahui lebih lanjut mengenai fitur **Filter** JOSM, Anda dapat mempelajari modul **Menggunakan Alat Filter di JOSM**.
+*   Agar Anda tidak mengubah batas administrasi yang sudah dipetakan pada OSM, Anda dapat menggunakan fitur **Filter** pada JOSM. Hal ini dikarenakan batas administrasi merupakan hal yang bersifat khusus dan tidak terkait dengan objek lainnya di dalam OSM. Untuk menggunakan fitur **Filter**, aktifkan kotak jendela Filter dengan cara klik menu **_Windows → Filter_**. Akan muncul kotak jendela Filter di sebelah kanan kanvas kerja Anda. Klik **_Add_** pada kotak jendela Filter, tuliskan **boundary=administrative** pada kolom **Filter _string_** dan kemudian klik **_Submit Filter_**. Akan muncul sebuah filter baru untuk batas administrasi, untuk menonaktifkan filter Anda dapat menghilangkan tanda centang di sebelah filter. Untuk mengetahui lebih lanjut mengenai fitur **Filter** JOSM, Anda dapat mempelajari modul **Menggunakan Alat Filter di JOSM**.
 
 <p align="center">
 <img width=40% src="../images/0517_jendela_filter.png" alt="Tampilan kotak jendela Filter" title="Tampilan kotak jendela Filter">
@@ -250,7 +250,7 @@ Setelah menginstal _plugin utilsplugin2_, menggabungkan data hasil survei, men-_
 >Catatan:
 Ketika Anda memetakan suatu wilayah, sebaiknya Anda meng-_upload_-nya secara berkala agar tidak terlalu banyak perubahan yang di-_upload_. Semakin banyak perubahan yang di-_upload_ akan semakin lama pula proses _upload_-nya selesai. Apabila hasil pekerjaan Anda sudah terlanjur banyak jumlahnya, sebaiknya Anda meng-_upload_-nya per bagian. Caranya, pada jendela _**Upload**_, pilih tab _**Advanced**_ dan pilih _**Upload data in chunks of objects**_. Kemudian isi _**Chunk size**_ nya dengan jumlah perubahan yang akan di-_upload_ per bagian, misalnya 500. Hal ini bertujuan agar _upload_ tidak terputus di tengah jalan, terutama apabila internet tidak stabil dan juga menghindari terjadinya kesalahan duplikasi objek.
 
-### **VII. Menyimpan File _.osm_**
+### **VII. Menyimpan _File .osm_**
 
 
 

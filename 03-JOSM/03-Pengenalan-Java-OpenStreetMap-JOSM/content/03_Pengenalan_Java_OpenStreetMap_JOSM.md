@@ -16,7 +16,7 @@ Jika Anda memiliki salinan _file_ instalasi JOSM pada sebuah CD atau _flashdisk_
 </p>
 <p align="center"><i>Tampilan situs JOSM</i><p align="center">
 
-Silakan pilih _file_ instalasi sesuai dengan sistem operasi komputer Anda. Jika Anda menggunakan komputer dengan sistem operasi _Windows_, klik **_Windows JOSM Installer_** untuk men-_download_ JOSM. Jika Anda memiliki sistem operasi lainnya, klik pada _link_ yang sesuai dengan sistem operasi komputer Anda. Kemudian Anda dapat men-_download-_nya. Pada modul ini kami akan mengasumsikan Anda menggunakan _Windows_, tetapi petunjuknya hampir sama dengan sistem operasi lainnya.  
+Silakan pilih _file_ instalasi sesuai dengan sistem operasi komputer Anda. Jika Anda menggunakan komputer dengan sistem operasi _Windows_, klik **_Windows JOSM Installer_** untuk men-_download_ JOSM. Jika Anda memiliki sistem operasi lainnya, klik pada _link_ yang sesuai dengan sistem operasi komputer Anda. Kemudian Anda dapat men-_download_-nya. Pada modul ini kami akan mengasumsikan Anda menggunakan _Windows_, tetapi petunjuknya hampir sama dengan sistem operasi lainnya.  
 
 ### **II. Menginstal JOSM**
 Setelah Anda berhasil men-_download_ JOSM, sekarang Anda akan menginstal JOSM ke komputer atau laptop Anda. Berikut ini adalah cara-cara untuk melakukan instalasi JOSM:
@@ -62,7 +62,7 @@ Setelah Anda berhasil men-_download_ JOSM, sekarang Anda akan menginstal JOSM ke
 
 > **Catatan:**
  Anda mungkin memiliki masalah ketika melakukan instalasi JOSM apabila Java belum terinstal di komputer Anda. Jika Anda memiliki masalah ketika melakukan instalasi pada bagian ini, cobalah mendownload dan menginstal Java. Anda dapat mendownloadnya disini: http://www.java.com/en/download/
- Anda mungkin akan melihat sebuah jendela muncul saat pertama kali membuka JOSM yang menanyakan untuk memperbarui perangkat lunak tersebut. Anda tidak perlu memperbaharuinya karena yang baru saja Anda download perangkat lunak baru. Tekan tombol "Cancel". Jika Anda tidak ingin melihat pesan ini lagi, centang kotak di bawah sebelum menekan "Cancel".
+ Anda mungkin akan melihat sebuah jendela muncul saat pertama kali membuka JOSM yang menanyakan untuk memperbarui perangkat lunak tersebut. Anda tidak perlu memperbaharuinya karena yang baru saja Anda download perangkat lunak baru. Tekan tombol _"Cancel"_. Jika Anda tidak ingin melihat pesan ini lagi, centang kotak di bawah sebelum menekan _"Cancel"_.
 JOSM yang digunakan dalam modul ini versi 14760. Tampilan mungkin berbeda jika Anda menggunakan JOSM versi yang lain.
 
 ### **III. Mengubah Pengaturan Pada JOSM**
@@ -153,7 +153,7 @@ Jika Anda sudah memiliki _file presets_ Anda sendiri di komputer Anda, Anda juga
 </p>
 <p align="center"><i>Tanda + untuk menambahkan preset dari komputer</i><p align="center">
 
-*   Kemudian ikon **_Open a File_** untuk mencari_ file presets_ Anda.
+*   Kemudian ikon **_Open a File_** untuk mencari _file presets_ Anda.
 <p align="center">
  <img src="../images/0318_Ikon_Open_a_File.png"
 </p>
@@ -163,7 +163,7 @@ Jika Anda sudah memiliki _file presets_ Anda sendiri di komputer Anda, Anda juga
 
 **d. Memasukkan Citra Satelit**
 
-Anda akan menggunakan citra satelit pada saat mengedit peta OSM. Jika koneksi internet Anda stabil pada saat membuka pengaturan JOSM, maka di bagian _**Edit** → **Preferences** → **Imagery Preferences**_, akan otomatis terpilih citra-citra satelit yang sering digunakan. Jika koneksi internet bermasalah dan saat dilihat bagian _Imagery Preferences_ tidak ada citra satelit yang terpilih, coba _restart _JOSM dan lihat kembali di bagian _Imagery Preferences_ apakah citra satelitnya  sudah terpilih atau belum. Jika masih belum terpilih juga, maka berikut ini adalah langkah-langkah untuk menambahkan _presets_ di JOSM:
+Anda akan menggunakan citra satelit pada saat mengedit peta OSM. Jika koneksi internet Anda stabil pada saat membuka pengaturan JOSM, maka di bagian _**Edit** → **Preferences** → **Imagery Preferences**_, akan otomatis terpilih citra-citra satelit yang sering digunakan. Jika koneksi internet bermasalah dan saat dilihat bagian _Imagery Preferences_ tidak ada citra satelit yang terpilih, coba _restart_ JOSM dan lihat kembali di bagian _Imagery Preferences_ apakah citra satelitnya  sudah terpilih atau belum. Jika masih belum terpilih juga, maka berikut ini adalah langkah-langkah untuk menambahkan _presets_ di JOSM:
 
 *   Akses jendela _Preferences_, klik _**Edit** → **Preferences**._
 
@@ -213,7 +213,7 @@ Untuk memunculkannya Anda harus mengubah tampilan _style_ peta pada JOSM Anda. B
 </p>
 <p align="center"><i>Tampilan untuk mengaktifkan Map Paint Styles</i><p align="center">
 
-*   Setelah Anda klik, akan muncul jendela _Map Paint Styles _di sebelah kanan bawah JOSM Anda.
+*   Setelah Anda klik, akan muncul jendela _Map Paint Styles_ di sebelah kanan bawah JOSM Anda.
 *   Klik kanan pada **_JOSM default (Map CSS)_** dan pilih _Style Settings._  
 *   Samakan dengan tampilan di bawah ini.
 

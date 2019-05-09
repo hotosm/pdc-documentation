@@ -18,7 +18,7 @@ _Map Campaigner_ merupakan sebuah alat yang ditujukan untuk mengumpulkan semua m
 _Map Campaigner_ bertujuan memudahkan para manajer proyek dalam memantau proyek pemetaan mereka. Sebagai contoh disini adalah kegiatan pemetaan yang dilakukan oleh tim HOT untuk memetakan semua tempat ibadah, sekolah, universitas dan sekolah tinggi yang ada di Jakarta Pusat. Dengan menggunakan _Map Campaigner_, Anda bisa melihat berapa banyak total objek yang sudah terpetakan dalam kegiatan proyek ini, kemudian berapa banyak pengguna _OpenStreetMap_ yang membantu untuk turut serta dalam proyek pemetaan ini, baik secara sukarela maupun yang tergabung ke dalam tim proyek pemetaan.
 
 <p align="center">
-  <img width=50% src="../images/0101_Contoh penggunaan Map Campaigner untuk  Jakarta Pusat.png">
+  <img width=80% src="../images/0101_Contoh penggunaan Map Campaigner untuk  Jakarta Pusat.png">
 </p>
 <p align="center"><i>Contoh penggunaan Map Campaigner untuk  Jakarta Pusat</i><p align="center">
 
@@ -29,7 +29,7 @@ _Map Campaigner_ juga menyajikan fitur penjaminan kualitas dari segi kelengkapan
 
 
 <p align="center">
-  <img width=50% src="../images/0102_Contoh pengecekan atribut oleh Map Campaigner.png">
+  <img width=80% src="../images/0102_Contoh pengecekan atribut oleh Map Campaigner.png">
 </p>
 <p align="center"><i>Contoh pengecekan atribut oleh Map Campaigner</i><p align="center">
 
@@ -49,7 +49,7 @@ Pada bagian ini, Anda akan mengisi informasi dasar untuk proyek Anda. Anda harus
 
 
 <p align="center">
-  <img width=50% src="../images/0103_Tampilan saat memasukkan atribut OSM untuk Map Campaigner.png">
+  <img width=80% src="../images/0103_Tampilan saat memasukkan atribut OSM untuk Map Campaigner.png">
 </p>
 <p align="center"><i>Tampilan saat memasukkan atribut OSM untuk Map Campaigner</i><p align="center">
 
@@ -82,7 +82,7 @@ Pada bagian ini, Anda akan mengisi informasi dasar untuk proyek Anda. Anda harus
 
     
 <p align="center">
-  <img width=50% src="../images/0104_Tampilan pada halaman informasi dasar.png">
+  <img width=90% src="../images/0104_Tampilan pada halaman informasi dasar.png">
 </p>
 <p align="center"><i>Tampilan pada halaman informasi dasar</i><p align="center">
 
@@ -98,7 +98,7 @@ Setelah mengatur area kerja proyek, Anda dapat menetapkan tim mana saja yang ber
 
 
 <p align="center">
-  <img width=50% src="../images/0105_Tampilan pada halaman pengaturan area kerja.png">
+  <img width=90% src="../images/0105_Tampilan pada halaman pengaturan area kerja.png">
 </p>
 <p align="center"><i>Tampilan pada halaman pengaturan area kerja</i><p align="center">
 
@@ -110,7 +110,7 @@ Setelah berhasil membuat proyek _campaign_, Anda bisa langsung menuju halaman ut
 
 
 <p align="center">
-  <img width=50% src="../images/0106_Tampilan halaman Map Campaigner.png">
+  <img width=90% src="../images/0106_Tampilan halaman Map Campaigner.png">
 </p>
 <p align="center"><i>Tampilan halaman Map Campaigner</i><p align="center">
 
