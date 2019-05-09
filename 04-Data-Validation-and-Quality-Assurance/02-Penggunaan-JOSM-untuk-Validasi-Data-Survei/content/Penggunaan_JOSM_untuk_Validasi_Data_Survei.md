@@ -83,13 +83,12 @@ Setelah Anda melakukan pengecekan data mentah atau _raw_ data yang telah dikumpu
     <p align="center"><i>Contoh data hasil survei</i></p>
 
    Data tersebut dikumpulkan menggunakan ODK Collect dan Open Map Kit (OMK). Data ini harus dilakukan pengecekan apakah data tersebut telah dikumpulkan dengan benar. Terlebih dahulu Anda harus men-_download_ data OSM yang sudah ada untuk mengecek apakah objek yang disurvei sudah dipetakan atau belum. Setelah itu, Anda dapat mengecek data yang telah disurvei, Beberapa pengecekan yang dapat dilakukan antara lain memeriksa adanya kesalahan pengetikan dan peletakan titik. Mengingat banyaknya data yang harus dicek, akan lebih mudah jika Anda menggunakan _to do list_. 
-
+   
    Sebagai contoh, Anda mempunyai data titik survei yaitu kantor kesehatan pelabuhan di daerah Jakarta Utara. Untuk itu, Anda perlu men-_download_ data OSM untuk memeriksa apakah ada kesalahan dalam melakukan input data. Anda dapat melakukan perbandingan mengenai informasi atau atribut yang telah ditambahkan, apakah masih terdapat kesalahan pengetikan atau informasi yang tidak sesuai. Pada contoh, dapat terlihat bahwa pada atribut data mentah atau _raw_ data memiliki penulisan nama objek dengan huruf kecil, namun jika dibandingkan dengan data hasil input, nama yang diketik sudah menggunakan huruf kapital pada awal kata. Hal ini menandakan bahwa _data entry_ sudah memasukan data dengan benar. 
 
    <p align="center"><img width=70% src="../images/0214_Perbandingan_antara_hasil_input_dan_mentah.png"</p>
     <p align="center"><i>Perbandingan antara hasil input dan hasil data mentah</i></p>
-    
-   Selain itu, Anda juga dapat memeriksa apakah titik objek tersebut telah diletakkan sesuai dengan titik yang sebenarnya. Pada gambar terlihat bahwa data mentah (titik survei berwarna abu-abu) belum terletak sesuai dengan lokasi sebenarnya, sedangkan pada data yang sudah dipetakan titiknya telah sesuai dengan lokasi sebenarnya (titik survei berwarna). Anda dapat menggunakan bantuan citra satelit sebagai acuan untuk melihat posisi titik tersebut apakah sudah sesuai dengan objek bangunan yang ada di citra atau belum. 
+    Selain itu, Anda juga dapat memeriksa apakah titik objek tersebut telah diletakkan sesuai dengan titik yang sebenarnya. Pada gambar terlihat bahwa data mentah (titik survei berwarna abu-abu) belum terletak sesuai dengan lokasi sebenarnya, sedangkan pada data yang sudah dipetakan titiknya telah sesuai dengan lokasi sebenarnya (titik survei berwarna). Anda dapat menggunakan bantuan citra satelit sebagai acuan untuk melihat posisi titik tersebut apakah sudah sesuai dengan objek bangunan yang ada di citra atau belum. 
  <p align="center"><img width=70% src="../images/0215_Perbedaan_posisi_titik_data_hasil_input_dan_data_mentah.png"</p>
     <p align="center"><i>Perbedaan posisi titik data hasil input dan data mentah</i></p>
 
@@ -145,43 +144,35 @@ Terdapat banyak sekali kesalahan dan peringatan yang muncul ketika Anda melakuka
     *   _Crossing Building_ (Bangunan Bersinggungan)
         Peringatan ini merupakan peringatan yang cukup sering muncul ketika melakukan validasi. Seringkali pengguna memetakan dua bangunan yang berbeda tetapi diletakkan secara bertumpuk. Untuk mengatasi _warning_ ini, Anda cukup memindahkan atau menghapus  salah satu bangunan yang bertumpukan.
 <p align="center"><img width=70% src="../images/0223_Warning_Crossing_building.png"</p>
-        <p align="center"><i>Warning: Crossing building</i></p>
-        
+        <p align="center"><i>Warning: Crossing building</i></p>    
     *   _Crossing Ways_ (Garis Bersinggungan)
         _Warning_ ini muncul ketika terdapat dua buah objek garis atau jalan yang digambar tanpa adanya titik perpotongan antar jalan. Untuk mengatasi _warning_ ini, Anda cukup menambahkan titik perpotongan yang terletak pada percabangan kedua jalan tersebut.
 <p align="center"><img width=70% src="../images/0224_Warning_Crossing_ways.png"</p>
         <p align="center"><i>Warning: Crossing ways</i></p>
-
     *   _Overlapping Highways_ (Jalan saling bertumpang tindih)
         _Warning_ ini muncul ketika terdapat bagian jalan yang bertumpukkan dengan bagian jalan lain. Untuk menyelesaikannya, Anda dapat menggeser atau menghapus bagian jalan yang bertumpukkan. 
 <p align="center"><img width=70% src="../images/0225_Warning_Overlapping_highways.png"</p>
         <p align="center"><i>Warning: Overlapping highways</i></p>
-
     *   _Node connect highways and building_ (Titik bangunan dan jalan saling terhubung)
         _Warning_ ini muncul ketika titik objek bangunan dan titik objek jalan secara tidak sengaja saling terhubung satu sama lain. Untuk menyelesaikannya, silakan Anda pisahkan titik tersebut dengan menggunakan _tools **unglue node**_.
 <p align="center"><img width=70% src="../images/0226_Warning_Node_connect_higways_and_building.png"</p>
         <p align="center"><i>Warning: Node connect highways and building</i></p>
-
     *   _Untagged ways_ (Objek belum diberi tag) 
         _Untagged ways_ merupakan peringatan atau _warning_ yang  muncul disebabkan adanya objek yang belum diberi identitas atau _tag_. JOSM akan menandai objek tersebut sebagai objek tanpa identitas, mengingat pentingnya pemberian identitas atau atribut pada setiap objek yang dipetakan. Apabila Anda tetap mengabaikan peringatan ini, objek tersebut tetap dapat Anda _upload_ tetapi objek tersebut tidak akan muncul pada situs _OpenStreetMap_. Silakan Anda berikan _presets_ yang sesuai untuk objek yang belum diberikan informasi objek.
 <p align="center"><img width=70% src="../images/0227_Warning_Untagged_ways.png"</>
 <p align="center"><i>Warning:Untagged ways</i></p>
-
     *   _Way end node near other highways_ (titik tidak terhubung dengan garis terdekat)
         _Warning_ ini muncul ketika ada titik dari objek jalan yang berdekatan dengan jalan lainnya namun tidak terhubung satu sama lain. Jika memang jalan tersebut merupakan jalan yang tidak dapat dilalui (jalan buntu) silakan gunakan tag **highway=block**. Namun jika ternyata jalan tersebut saling berhubungan, silakan Anda gabungkan jalan tersebut dengan menggunakan fungsi **Merge**.
 <p align="center"><i>images/0228_Warning_Way_end_node_near_other_highways.png"</p>
         <p align="center"><i>Warning: Way end node near other highways</i></p>
-
     *   _Building inside building_ (bangunan di dalam bangunan)
         Peringatan atau _warning_ ini juga salah satu jenis _warning_ yang sering muncul ketika melakukan validasi. _Warning_ ini terjadi ketika ada poligon bangunan yang digambar di dalam poligon bangunan lain. Untuk menyelesaikannya, silakan Anda geser atau hapus salah satu bangunan yang ada di dalam poligon bangunan lain. 
 <p align="center"><img width=70% src="../images/0229_Warning_Building_inside_building.png"</p>
         <p align="center"><i>Warning: Building inside building</i></p>
-
     *   _Unnamed ways_ (Jalan belum diberi nama)
         _Unnamed ways_ menandakan adanya jalan yang belum diberi nama. Jenis _warning_ ini dapat diabaikan, karena bisa saja ketika Anda melakukan pemetaan jarak jauh, Anda hanya memetakan objek jalannya saja tanpa mengetahui nama jalan tersebut. 
 <p align="center"><img width=70% src="../images/0230_Warning_Unnamed_ways.png"</p>
         <p align="center"><i>Warning: Unnamed ways</i></p>
-
     *   _Similarly named ways_ (Jalan memiliki nama yang sama)
         _Warning_ ini muncul ketika ada beberapa jalan yang memiliki nama jalan yang hampir mirip. Sebagai contoh, ada jalan dengan nama Jalan Tebet Timur I, Jalan Tebet Timur IA, Jalan Tebet Timur IAA, dan sebagainya. Jenis _warning_ ini dapat Anda abaikan jika memang pada kenyataannya jalan tersebut memiliki nama jalan yang hampir serupa. 
 <p align="center"><img width=70% src="../images/0231_Warning_Similarly_named_ways.png"</p>
