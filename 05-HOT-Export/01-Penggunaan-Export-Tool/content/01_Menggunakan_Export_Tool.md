@@ -40,7 +40,7 @@ _Export tool_ adalah sebuah layanan terbuka yang digunakan untuk men-_download_ 
 </p>
 <p align="center"><i>Penentuan Area dengan Bentuk Manual</i><p align="center">
 
-3. **_Import_** = Menggunakan poligon dalam format .geojson untuk memilih area yang akan di-_download_. Cara mendapatkan _file_ _.geojson_ dapat Anda lihat pada modul **Menggunakan GeoJSON**.
+3. **_Import_** = Menggunakan poligon dalam format *.geojson* untuk memilih area yang akan di-_download_. Cara mendapatkan _file_ _.geojson_ dapat Anda lihat pada modul **Menggunakan GeoJSON**.
 
 <p align="center">
   <img width=70% src="../images/0105_penentuangeojson.png">
