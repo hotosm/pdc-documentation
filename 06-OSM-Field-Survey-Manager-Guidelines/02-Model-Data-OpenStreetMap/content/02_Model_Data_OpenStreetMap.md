@@ -157,7 +157,7 @@ Memilih objek yang akan dipetakan di dalam _OpenStreetMap_ tergantung dari tujua
 
 ### **IV. Model Data Pemetaan di _OpenStreetMap_**
 
-Model data adalah beberapa informasi yang terdapat dalam sebuah objek dimana merupakan gabungan dari beberapa _key _dan _value _yang telah disepakati sebelum kegiatan pemetaan dilakukan. Sebuah model data tidak memiliki bentuk baku karena informasi yang ingin diambil akan disesuaikan sesuai dengan kebutuhan kegiatan pemetaan. Sebagai contoh dalam melakukan pemetaan sekolah, jika Anda ingin mengumpulkan informasi **nama sekolah**, **alamat sekolah**, **jenis sekolah**, **pengelola sekolah**, **jumlah tingkat sekolah** maka model data yang akan Anda buat adalah seperti berikut:
+Model data adalah beberapa informasi yang terdapat dalam sebuah objek dimana merupakan gabungan dari beberapa _key_ dan _value_ yang telah disepakati sebelum kegiatan pemetaan dilakukan. Sebuah model data tidak memiliki bentuk baku karena informasi yang ingin diambil akan disesuaikan sesuai dengan kebutuhan kegiatan pemetaan. Sebagai contoh dalam melakukan pemetaan sekolah, jika Anda ingin mengumpulkan informasi **nama sekolah**, **alamat sekolah**, **jenis sekolah**, **pengelola sekolah**, **jumlah tingkat sekolah** maka model data yang akan Anda buat adalah seperti berikut:
 
 Tabel _Tag_ Informasi Sekolah
 
