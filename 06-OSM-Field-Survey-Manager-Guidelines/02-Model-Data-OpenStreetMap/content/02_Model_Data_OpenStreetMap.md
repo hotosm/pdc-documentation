@@ -82,7 +82,7 @@ Garis adalah bentuk yang terdiri dari beberapa titik (_nodes_) yang saling terhu
 Area merupakan bentuk dari beberapa garis (_ways_) yang saling terhubung dan tertutup. Beberapa contoh objek area di _OpenStreetMap_ yaitu bangunan, taman, penggunaan lahan dan danau/waduk.
 
 <p align="center">
-  <img width="300" height="300" src="../images/0206_objek_area.JPG "Contoh objek area (polygon) di OSM">
+  <img width=50% src="../images/0206_objek_area.JPG "Contoh objek area (polygon) di OSM">
 </p>
 <p align="center"><i>Contoh objek area (polygon) di OSM</i></p>
 
