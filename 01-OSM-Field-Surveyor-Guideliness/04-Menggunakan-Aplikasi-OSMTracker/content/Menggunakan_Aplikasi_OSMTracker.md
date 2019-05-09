@@ -109,9 +109,7 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
 
     2. Kemudian pilih **_Resume Tracking_**
 
->Catatan :
-<img width=40% src="../images/0414_ikon_tanda_jam_oranye.png">
-Jika File Anda memiliki ikon atau tanda jam berwarna oranye di sebelah kanan nama file menandakan bahwa file tersebut masih dalam mode perekaman jalur. Ikon ini akan hilang jika Anda telah menghentikan mode perekaman jalur. 
+>Catatan : <br><img width=40% src="../images/0414_ikon_tanda_jam_oranye.png"><br>Jika File Anda memiliki ikon atau tanda jam berwarna oranye di sebelah kanan nama file menandakan bahwa file tersebut masih dalam mode perekaman jalur. Ikon ini akan hilang jika Anda telah menghentikan mode perekaman jalur. 
 
 
 
