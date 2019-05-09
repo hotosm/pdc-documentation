@@ -76,7 +76,7 @@ Untuk bisa membuat _presets_ Anda sendiri, ada beberapa hal yang perlu Anda pers
 **a. Elemen-Elemen di Presets**
 Jika sudah mengetahui dan memahami aturan dalam pembuatan_ presets_ maka Anda juga perlu untuk mengetahui tentang elemen-elemen penyusun yang dapat menampilkan informasi di _presets_ Anda dengan bentuk yang beragam. Beberapa elemen-elemen _presets _tersebut adalah:
 
-* Elemen **key** key 
+<li> Elemen <font color= "red"><b>key</b></font> key 
 
 ```
                                    Struktur dasar  : <key key="......" value="......" /> 
@@ -85,7 +85,7 @@ Ini merupakan _key_ wajib yang mendefinisikan informasi utama dari suatu objek w
 
 <key key=”amenity” value=”school”/>
 
-*   Elemen **text** key
+<li> Elemen <font color= "red"><b>text</b></font> key
 
 ```
                                    Struktur dasar   : <text key="......" text="......" />
@@ -100,7 +100,7 @@ Penambahan kata “text” pada contoh di atas adalah sebagai label informasi ya
 
 
 
-*   Elemen **combo** key
+<li> Elemen <font color= "red"><b>combo</b></font> key
 
 ```
 Struktur dasar : <combo key="......" text="......" values="...,...,..." display_values="...,...,..."/>
@@ -120,7 +120,7 @@ Anda juga dapat melihat _value_ yang ada ditambahkan (s) dibelakangnya karena pi
 
 
 
-*   **Elemen multiselect** key
+<li> Elemen <font color= "red"><b>multiselect</b></font> key
 
 ```
 Struktur dasar : <multiselect key="......" text="......" values="...;...;...;..." display_valuest="..;..;..;.." />
@@ -137,7 +137,7 @@ Penulisan elemen ini mirip dengan _combo key_ dimana perbedaannya adalah kata _m
 </p>
 <p align="center"><i>Tampilan elemen multiselect key di JOSM</i></p>
 
-*   **Elemen check key**
+<li> Elemen <font color= "red"><b>check</b></font> key
 
 ```
           Struktur Dasar : <check key="......" text="......" value_on="yes" value_off="no" default="......" />
