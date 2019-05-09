@@ -79,7 +79,7 @@ Jika sudah mengetahui dan memahami aturan dalam pembuatan_ presets_ maka Anda ju
 * Elemen **key** key 
 
 ```
-                                          Struktur dasar  : <key key="......" value="......" /> 
+                                   Struktur dasar  : <key key="......" value="......" /> 
 ```
 Ini merupakan _key_ wajib yang mendefinisikan informasi utama dari suatu objek walaupun informasi yang lain dikosongkan. Sebagai contoh jika dalam _presets_ Anda ingin menekankan bahwa itu informasi _tag_ ini adalah sekolah maka Anda dapat menuliskannya seperti:
 
@@ -88,7 +88,7 @@ Ini merupakan _key_ wajib yang mendefinisikan informasi utama dari suatu objek w
 *   Elemen **text** key
 
 ```
-                                           Struktur dasar   : <text key="......" text="......" />
+                                   Struktur dasar   : <text key="......" text="......" />
 ```
 Ini merupakan elemen yang mendefinisikan informasi objek dalam bentuk isian. Elemen ini biasanya digunakan untuk informasi nama dan alamat objek. Sebagai contoh jika Anda ingin memberikan informasi nama objek maka Anda dapat menuliskannya seperti: 
 **<text key=”name” text=”nama”/>**
@@ -103,7 +103,7 @@ Penambahan kata “text” pada contoh di atas adalah sebagai label informasi ya
 *   Elemen **combo** key
 
 ```
-                 Struktur dasar : <combo key="......" text="......" values="...,...,..." display_values="...,...,..."/>
+          Struktur dasar : <combo key="......" text="......" values="...,...,..." display_values="...,...,..."/>
 ```
 Ini merupakan elemen yang menampilkan informasi dalam bentuk pilihan. Elemen ini biasanya digunakan untuk informasi seperti tipe atap ataupun jenis dinding. Jika ingin mengumpulkan seperti itu Anda dapat menuliskannya di _presets_ seperti berikut:
 
@@ -123,7 +123,7 @@ Anda juga dapat melihat _value_ yang ada ditambahkan (s) dibelakangnya karena pi
 *   **Elemen multiselect** key
 
 ```
-                       <multiselect key="......" text="......" values="...;...;...;..." display_valuest="..;..;..;.." />
+         Struktur dasar : <multiselect key="......" text="......" values="...;...;...;..." display_valuest="..;..;..;.." />
 ```
 
 Elemen ini dapat menampilkan informasi dalam bentuk pilihan. Elemen ini mirip dengan _combo key_ dimana Anda dapat memasukkan pilihan informasi yang akan dipilih, akan tetapi perbedaannya adalah dengan elemen ini Anda dapat memilih lebih dari satu pilihan. Elemen ini biasanya digunakan untuk informasi seperti sumber air di suatu bangunan dimana kadang bisa memiliki lebih dari 1 sumber air. Berikut penulisan elemen ini dalam _presets_:
@@ -140,7 +140,7 @@ Penulisan elemen ini mirip dengan _combo key_ dimana perbedaannya adalah kata _m
 *   **Elemen check key**
 
 ```
-                            <check key="......" text="......" value_on="yes" value_off="no" default="......" />
+                    <check key="......" text="......" value_on="yes" value_off="no" default="......" />
 ```
 Elemen ini biasanya digunakan untuk menampilkan isian informasi yang berupa tanda centang. Biasanya elemen ini digunakan untuk pertanyaan yang jawabannya iya atau tidak seperti akses ke atap dan jalan satu arah. Anda dapat menuliskan elemen ini di _preset_ seperti berikut:
 **<check key="access:roof" text="Ada akses ke atap" value_on="yes" value_off="no" default="off" />**
