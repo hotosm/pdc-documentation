@@ -71,7 +71,7 @@ Titik biasanya digunakan untuk menggambarkan posisi atau lokasi dari suatu objek
 Garis adalah bentuk yang terdiri dari beberapa titik (_nodes_) yang saling terhubung satu sama lain. Beberapa contoh objek garis di _OpenStreetMap_ yaitu jalan, sungai, rel kereta, dan batas administrasi.
 
 <p align="center">
-  <img width="300" height="300" src="../images/0205_objek_garis.JPG "Contoh objek garis (ways) di OSM">
+  <img width=50% src="../images/0205_objek_garis.JPG "Contoh objek garis (ways) di OSM">
 </p>
 <p align="center"><i>Contoh objek garis (ways) di OSM</i></p>
 
