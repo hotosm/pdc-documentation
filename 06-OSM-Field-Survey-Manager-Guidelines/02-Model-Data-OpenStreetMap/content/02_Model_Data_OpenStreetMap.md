@@ -163,46 +163,46 @@ Tabel _Tag_ Informasi Sekolah
 
 |  key |  (possible) values |
 |---|---|
-| amenity  |  school |
-|building   | school  |
+|<font color="99DBFF"> amenity  |  <font color="99DBFF"> school |
+|<font color="#FF7278"> building   | <font color="#FF7278"> school  |
 |  school:type_idn | sd [SD/MI (Elementary School)], smp [SMP/MTs (Junior High School)], sma [SMA/SMK/MA (Senior High School)]  |
 |  name |  (nama bangunan) |
 |addr:full   |  (alamat) |
 | operator:type  | government (Pemerintah), private (Swasta), community (Komunitas/Masyarakat)  |
 |  building:levels | (jumlah lantai)  |
 
-amenity=school  merupakan informasi yang wajib ada untuk informasi sekolah. _Key_ dan _value_ ini merupakan informasi utama yang menandakan bahwa objek tersebut merupakan sebuah sekolah.
+<font color="99DBFF">amenity=school</font>  merupakan informasi yang wajib ada untuk informasi sekolah. _Key_ dan _value_ ini merupakan informasi utama yang menandakan bahwa objek tersebut merupakan sebuah sekolah.
 
-building=school merupakan informasi yang menunjukkan bahwa sekolah tersebut merupakan sebuah bangunan yang berdiri sendiri dan tidak menumpang di bangunan yang lain. Jika sekolah tersebut menumpang di bangunan lain yang fungsinya bukan sekolah maka _key_ dan _value_ ini tidak perlu dimasukkan.
+<font color="#FF7278"> building=school</font> merupakan informasi yang menunjukkan bahwa sekolah tersebut merupakan sebuah bangunan yang berdiri sendiri dan tidak menumpang di bangunan yang lain. Jika sekolah tersebut menumpang di bangunan lain yang fungsinya bukan sekolah maka _key_ dan _value_ ini tidak perlu dimasukkan.
 
 **a. Model Data di Kegiatan Pemetaan HOT-PDC InAWARE**
 
 Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi terhadap masing-masing objek yang akan dipetakan. Oleh karena itu, Anda membutuhkan model data yang dapat membantu tim surveyor untuk melakukan pemetaan di lapangan dan input data ke dalam _OpenStreetMap_. Berikut adalah contoh model data untuk masing-masing objek dalam kegiatan Pemetaan HOT-PDC InAWARE:
 
 **Keterangan Warna:**
-*   Warna biru artinya _key_ dan _value_ tersebut wajib dimiliki oleh objek tersebut.
-*   Warna merah artinya _key_ dan _value_ merupakan informasi khusus untuk bangunan. Jika objek tersebut memiliki bangunan sendiri maka informasi tersebut perlu dimasukkan, jika objek  menumpang di bangunan lain dengan fungsi yang berbeda maka informasi tersebut tidak perlu dimasukkan.
-*   Warna putih artinya _key_ dan _value_ tersebut perlu dimasukkan ke dalam objek pemetaan baik objek tersebut  memiliki bangunan sendiri ataupun menumpang di bangunan yang lain.
+*   <font color="99DBFF"> Warna biru </font> artinya _key_ dan _value_ tersebut wajib dimiliki oleh objek tersebut.
+*   <font color="#FF7278"> Warna merah </font> artinya _key_ dan _value_ merupakan informasi khusus untuk bangunan. Jika objek tersebut memiliki bangunan sendiri maka informasi tersebut perlu dimasukkan, jika objek  menumpang di bangunan lain dengan fungsi yang berbeda maka informasi tersebut tidak perlu dimasukkan.
+*   Warna hitam artinya _key_ dan _value_ tersebut **sebaiknya** dimasukkan ke dalam objek pemetaan baik objek tersebut  memiliki bangunan sendiri ataupun menumpang di bangunan yang lain.
 
 **1.Fasilitas Ekonomi**
 * Tabel Model Data Pasar
 
 | key  |  possible values |
 |---|---|
-|  amenity | marketplace  |
-|  building |  marketplace |
+|  <font color="99DBFF">amenity | <font color="99DBFF">marketplace  |
+| <font color="#FF7278"> building | <font color="#FF7278"> marketplace |
 |  name | (nama pasar)  |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
-|  capacity:persons | <50, 50-100, 100-250, 250-500, >500  |
-|  building:levels |  (jumlah lantai) |
-|building:structure   |   confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
-| building:material  |  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
-| building:floor  | ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
-| building:roof  |  tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
-|  access:roof | yes (Ada), no (Tidak ada)  |
-|  building: condition |  poor (Buruk), good (Baik) |
-|  ground_floor:height |  tinggi bangunan dari jalan dalam satuan meter |
+|  <font color="#FF7278"> capacity:persons |<font color="#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <font color="#FF7278"> building:levels | <font color="#FF7278"> (jumlah lantai) |
+|<font color="#FF7278"> building:structure   | <font color="#FF7278">  confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
+| <font color="#FF7278"> building:material  | <font color="#FF7278"> brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
+| <font color="#FF7278"> building:floor  |<font color="#FF7278"> ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
+| <font color="#FF7278"> building:roof  | <font color="#FF7278"> tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
+| <font color="#FF7278"> access:roof | <font color="#FF7278"> yes (Ada), no (Tidak ada)  |
+| <font color="#FF7278"> building: condition | <font color="#FF7278"> poor (Buruk), good (Baik) |
+| <font color="#FF7278"> ground_floor:height | <font color="#FF7278"> (tinggi bangunan dari jalan dalam satuan meter) |
 | backup_generator  | yes (Ada), no (Tidak ada)  |
 |  source |  HOT_InAWARESurvey_2018 |
 
@@ -210,20 +210,20 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  amenity | supermarket  |
-|  building |  supermarket |
+|  <font color="99DBFF">amenity | <font color="99DBFF">supermarket  |
+|  <font color="#FF7278"> building | <font color="#FF7278"> supermarket |
 |  name | (nama supermarket)  |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
-|  capacity:persons | <50, 50-100, 100-250, 250-500, >500  |
-|  building:levels |  (jumlah lantai) |
-|building:structure   |   confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
-| building:material  |  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
-| building:floor  | ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
-| building:roof  |  tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
-|  access:roof | yes (Ada), no (Tidak ada)  |
-|  building: condition |  poor (Buruk), good (Baik) |
-|  ground_floor:height |  tinggi bangunan dari jalan dalam satuan meter |
+| <font color="#FF7278"> capacity:persons |<font color="#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+| <font color="#FF7278"> building:levels | <font color="#FF7278"> (jumlah lantai) |
+|<font color="#FF7278"> building:structure   | <font color="#FF7278">  confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
+| <font color="#FF7278"> building:material  |<font color="#FF7278">  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
+| <font color="#FF7278"> building:floor  |<font color="#FF7278"> ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
+| <font color="#FF7278"> building:roof  | <font color="#FF7278"> tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
+| <font color="#FF7278">  access:roof |<font color="#FF7278"> yes (Ada), no (Tidak ada)  |
+| <font color="#FF7278">  building: condition | <font color="#FF7278"> poor (Buruk), good (Baik) |
+|  <font color="#FF7278"> ground_floor:height | <font color="#FF7278"> (tinggi bangunan dari jalan dalam satuan meter) |
 | backup_generator  | yes (Ada), no (Tidak ada)  |
 |  source |  HOT_InAWARESurvey_2018 |
 
@@ -231,20 +231,20 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  amenity | bank  |
-|  building |  bank |
+|  <font color="99DBFF"> amenity |<font color="99DBFF"> bank  |
+| <font color="#FF7278"> building | <font color="#FF7278"> bank |
 |  name | (nama bank)  |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
-|  capacity:persons | <50, 50-100, 100-250, 250-500, >500  |
-|  building:levels |  (jumlah lantai) |
-|building:structure   |   confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
-| building:material  |  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
-| building:floor  | ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
-| building:roof  |  tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
-|  access:roof | yes (Ada), no (Tidak ada)  |
-|  building: condition |  poor (Buruk), good (Baik) |
-|  ground_floor:height |  tinggi bangunan dari jalan dalam satuan meter |
+| <font color="#FF7278"> capacity:persons |<font color="#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+| <font color="#FF7278"> building:levels | <font color="#FF7278"> (jumlah lantai) |
+|<font color="#FF7278"> building:structure   | <font color="#FF7278">  confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
+|<font color="#FF7278"> building:material  | <font color="#FF7278"> brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
+|<font color="#FF7278"> building:floor  |<font color="#FF7278"> ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
+|<font color="#FF7278"> building:roof  | <font color="#FF7278"> tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
+| <font color="#FF7278"> access:roof |<font color="#FF7278"> yes (Ada), no (Tidak ada)  |
+| <font color="#FF7278"> building: condition | <font color="#FF7278"> poor (Buruk), good (Baik) |
+| <font color="#FF7278"> ground_floor:height | <font color="#FF7278"> (tinggi bangunan dari jalan dalam satuan meter) |
 | backup_generator  | yes (Ada), no (Tidak ada)  |
 |  source |  HOT_InAWARESurvey_2018 |
 
@@ -254,21 +254,21 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  amenity | university  |
-|  building |  university |
+| <font color="99DBFF"> amenity |<font color="99DBFF"> university  |
+| <font color="#FF7278"> building | <font color="#FF7278"> university |
 |  name | (nama universitas) |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
 |  operator:type |  government (Pemerintah), private (Swasta), community (Komunitas/Masyarakat) |
-|  capacity:persons | <50, 50-100, 100-250, 250-500, >500  |
-|  building:levels |  (jumlah lantai) |
-|building:structure   |   confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
-| building:material  |  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
-| building:floor  | ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
-| building:roof  |  tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
-|  access:roof | yes (Ada), no (Tidak ada)  |
-|  building: condition |  poor (Buruk), good (Baik) |
-|  ground_floor:height |  tinggi bangunan dari jalan dalam satuan meter |
+| <font color="#FF7278"> capacity:persons |<font color="#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+| <font color="#FF7278"> building:levels | <font color="#FF7278"> (jumlah lantai) |
+|<font color="#FF7278"> building:structure   | <font color="#FF7278">  confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
+| <font color="#FF7278"> building:material  |<font color="#FF7278"> <font color="#FF7278"> brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
+|<font color="#FF7278"> building:floor  |<font color="#FF7278"> ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
+| <font color="#FF7278"> building:roof  | <font color="#FF7278"> tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
+| <font color="#FF7278"> access:roof |<font color="#FF7278"> yes (Ada), no (Tidak ada)  |
+| <font color="#FF7278">  building: condition | <font color="#FF7278"> poor (Buruk), good (Baik) |
+| <font color="#FF7278">  ground_floor:height | <font color="#FF7278"> (tinggi bangunan dari jalan dalam satuan meter) |
 | backup_generator  | yes (Ada), no (Tidak ada)  |
 |  source |  HOT_InAWARESurvey_2018 |
 |  evacuation_center |  yes (Ya), no (Bukan) |
@@ -282,21 +282,21 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  amenity | college  |
-|  building |  college |
+|  <font color="99DBFF"> amenity | <font color="99DBFF"> college  |
+|  <font color="#FF7278"> building |  college |
 |  name | (nama sekolah tinggi)  |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
 |  operator:type |  government (Pemerintah), private (Swasta), community (Komunitas/Masyarakat) |
-|  capacity:persons | <50, 50-100, 100-250, 250-500, >500  |
-|  building:levels |  (jumlah lantai) |
-|building:structure   |   confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
-| building:material  |  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
-| building:floor  | ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
-| building:roof  |  tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
-|  access:roof | yes (Ada), no (Tidak ada)  |
-|  building: condition |  poor (Buruk), good (Baik) |
-|  ground_floor:height |  tinggi bangunan dari jalan dalam satuan meter |
+| <font color="#FF7278"> capacity:persons |<font color="#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+| <font color="#FF7278"> building:levels | <font color="#FF7278"> (jumlah lantai) |
+|<font color="#FF7278"> building:structure   | <font color="#FF7278">  confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
+|<font color="#FF7278"> building:material  | <font color="#FF7278"> brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
+| <font color="#FF7278"> building:floor  |<font color="#FF7278"> ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
+| <font color="#FF7278"> building:roof  |<font color="#FF7278">  tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
+| <font color="#FF7278"> access:roof |<font color="#FF7278"> yes (Ada), no (Tidak ada)  |
+| <font color="#FF7278"> building: condition | <font color="#FF7278"> poor (Buruk), good (Baik) |
+| <font color="#FF7278"> ground_floor:height | <font color="#FF7278"> (tinggi bangunan dari jalan dalam satuan meter) |
 | backup_generator  | yes (Ada), no (Tidak ada)  |
 |  source |  HOT_InAWARESurvey_2018 |
 |  evacuation_center |  yes (Ya), no (Bukan) |
@@ -310,22 +310,22 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  school:type_idn | sd [SD/MI (Elementary School)], smp [SMP/MTs (Junior High School)], sma [SMA/SMK/MA (Senior High School)]  |
-|  amenity | school  |
-|  building |  school |
+| <font color="99DBFF"> school:type_idn |<font color="99DBFF"> sd [SD/MI (Elementary School)], smp [SMP/MTs (Junior High School)], sma [SMA/SMK/MA (Senior High School)]  |
+| <font color="99DBFF"> amenity |<font color="99DBFF"> school  |
+| <font color="#FF7278"> building |<font color="#FF7278">  school |
 |  name | (nama sekolah)  |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
 |  operator:type |  government (Pemerintah), private (Swasta), community (Komunitas/Masyarakat) |
-|  capacity:persons | <50, 50-100, 100-250, 250-500, >500  |
-|  building:levels |  (jumlah lantai) |
-|building:structure   |   confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
-| building:material  |  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
-| building:floor  | ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
-| building:roof  |  tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
-|  access:roof | yes (Ada), no (Tidak ada)  |
-|  building: condition |  poor (Buruk), good (Baik) |
-|  ground_floor:height |  tinggi bangunan dari jalan dalam satuan meter |
+| <font color="#FF7278"> capacity:persons |<font color="#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+| <font color="#FF7278"> building:levels | <font color="#FF7278"> (jumlah lantai) |
+|<font color="#FF7278"> building:structure   | <font color="#FF7278">  confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
+| <font color="#FF7278"> building:material  | <font color="#FF7278"> brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
+| <font color="#FF7278"> building:floor  |<font color="#FF7278"> ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
+| <font color="#FF7278"> building:roof  | <font color="#FF7278"> tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
+| <font color="#FF7278"> access:roof |<font color="#FF7278"> yes (Ada), no (Tidak ada)  |
+| <font color="#FF7278"> building: condition | <font color="#FF7278"> poor (Buruk), good (Baik) |
+| <font color="#FF7278"> ground_floor:height | <font color="#FF7278"> tinggi bangunan dari jalan dalam satuan meter |
 | backup_generator  | yes (Ada), no (Tidak ada)  |
 |  source |  HOT_InAWARESurvey_2018 |
 |  evacuation_center |  yes (Ya), no (Bukan) |
@@ -339,21 +339,21 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  amenity | kindergarten [PAUD/ Play Group / TK (Early education / Play group / Kindergarten)]  |
-|  building |  kindergarten |
+| <font color="99DBFF"> amenity |<font color="99DBFF"> kindergarten [PAUD/ Play Group / TK (Early education / Play group / Kindergarten)]  |
+| <font color="#FF7278"> building | <font color="#FF7278"> kindergarten |
 |  name | (nama taman kanak-kanak)  |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
 |  operator:type |  government (Pemerintah), private (Swasta), community (Komunitas/Masyarakat) |
-|  capacity:persons | <50, 50-100, 100-250, 250-500, >500  |
-|  building:levels |  (jumlah lantai) |
-|building:structure   |   confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
-| building:material  |  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
-| building:floor  | ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
-| building:roof  |  tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
-|  access:roof | yes (Ada), no (Tidak ada)  |
-|  building: condition |  poor (Buruk), good (Baik) |
-|  ground_floor:height |  tinggi bangunan dari jalan dalam satuan meter |
+| <font color="#FF7278"> capacity:persons |<font color="#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+| <font color="#FF7278"> building:levels | <font color="#FF7278"> (jumlah lantai) |
+|<font color="#FF7278"> building:structure   | <font color="#FF7278">  confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
+| <font color="#FF7278"> building:material  |<font color="#FF7278">  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
+|<font color="#FF7278"> building:floor  |<font color="#FF7278"> ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
+|<font color="#FF7278"> building:roof  | <font color="#FF7278"> tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
+| <font color="#FF7278"> access:roof |<font color="#FF7278"> yes (Ada), no (Tidak ada)  |
+| <font color="#FF7278"> building: condition | <font color="#FF7278"> poor (Buruk), good (Baik) |
+|  <font color="#FF7278"> ground_floor:height | <font color="#FF7278"> (tinggi bangunan dari jalan dalam satuan meter) |
 | backup_generator  | yes (Ada), no (Tidak ada)  |
 |  source |  HOT_InAWARESurvey_2018 |
 
@@ -363,21 +363,21 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  amenity | hospital  |
+| <font color="99DBFF"> amenity |<font color="99DBFF"> hospital  |
 |  name | (nama rumah sakit)  |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
 |  operator:type |  government (Pemerintah), private (Swasta), community (Komunitas/Masyarakat) |
-|  building |  hospital |
-|  capacity:persons | <50, 50-100, 100-250, 250-500, >500  |
-|  building:levels |  (jumlah lantai) |
-|building:structure   |   confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
-| building:material  |  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
-| building:floor  | ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
-| building:roof  |  tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
-|  access:roof | yes (Ada), no (Tidak ada)  |
-|  building: condition |  poor (Buruk), good (Baik) |
-|  ground_floor:height |  tinggi bangunan dari jalan dalam satuan meter |
+| <font color="#FF7278"> building | <font color="#FF7278"> hospital |
+|  <font color="#FF7278"> capacity:persons |<font color="#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <font color="#FF7278"> building:levels | <font color="#FF7278"> (jumlah lantai) |
+|<font color="#FF7278"> building:structure   | <font color="#FF7278">  confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
+|<font color="#FF7278">  building:material  |<font color="#FF7278">  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
+|<font color="#FF7278">  building:floor  |<font color="#FF7278"> ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
+|<font color="#FF7278">  building:roof  | <font color="#FF7278"> tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
+|<font color="#FF7278">  access:roof |<font color="#FF7278"> yes (Ada), no (Tidak ada)  |
+| <font color="#FF7278"> building: condition | <font color="#FF7278"> poor (Buruk), good (Baik) |
+| <font color="#FF7278"> ground_floor:height | <font color="#FF7278"> (tinggi bangunan dari jalan dalam satuan meter) |
 | backup_generator  | yes (Ada), no (Tidak ada)  |
 |  source |  HOT_InAWARESurvey_2018 |
 |  evacuation_center |  yes (Ya), no (Bukan) |
@@ -391,21 +391,21 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  amenity | clinic (Klinik / Puskemas / Posyandu) |
+| <font color="99DBFF"> amenity |<font color="99DBFF"> clinic (Klinik / Puskemas / Posyandu) |
 |  name | (nama klinik)  |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
 |  operator:type |  government (Pemerintah), private (Swasta), community (Komunitas/Masyarakat) |
-|  building |  clinic |
-|  capacity:persons | <50, 50-100, 100-250, 250-500, >500  |
-|  building:levels |  (jumlah lantai) |
-|building:structure   |   confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
-| building:material  |  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
-| building:floor  | ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
-| building:roof  |  tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
-|  access:roof | yes (Ada), no (Tidak ada)  |
-|  building: condition |  poor (Buruk), good (Baik) |
-|  ground_floor:height |  tinggi bangunan dari jalan dalam satuan meter |
+| <font color="#FF7278"> building |<font color="#FF7278">  clinic |
+| <font color="#FF7278"> capacity:persons |<font color="#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+| <font color="#FF7278"> building:levels | <font color="#FF7278"> (jumlah lantai) |
+|<font color="#FF7278"> building:structure   | <font color="#FF7278">  confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
+|<font color="#FF7278">  building:material  | <font color="#FF7278"> brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
+| <font color="#FF7278"> building:floor  |<font color="#FF7278"> ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
+|<font color="#FF7278">  building:roof  | <font color="#FF7278"> tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
+| <font color="#FF7278"> access:roof |<font color="#FF7278"> yes (Ada), no (Tidak ada)  |
+| <font color="#FF7278"> building: condition |<font color="#FF7278">  poor (Buruk), good (Baik) |
+| <font color="#FF7278"> ground_floor:height | <font color="#FF7278"> (tinggi bangunan dari jalan dalam satuan meter) |
 | backup_generator  | yes (Ada), no (Tidak ada)  |
 |  source |  HOT_InAWARESurvey_2018 |
 |  evacuation_center |  yes (Ya), no (Bukan) |
@@ -420,8 +420,8 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 |key   | possible values  |
 |---|---|
-| man_made  | tower  |
-| tower:type | communication  |
+|<font color="99DBFF"> man_made  |<font color="99DBFF"> tower  |
+|<font color="99DBFF"> tower:type | <font color="99DBFF"> communication  |
 | name  | (nama tower)  |
 | height | (tinggi tower dalam meter)  |
 | operator   | Telkomsel, Indosat, XL, Tri, Smartfren  |
@@ -435,20 +435,20 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  amenity | police  |
-|  building |  police |
+| <font color="99DBFF"> amenity |<font color="99DBFF"> police  |
+|  <font color="#FF7278"> building | <font color="#FF7278"> police |
 |  name | (nama kantor polisi)  |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
-|  capacity:persons | <50, 50-100, 100-250, 250-500, >500  |
-|  building:levels |  (jumlah lantai) |
-|building:structure   |   confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
-| building:material  |  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
-| building:floor  | ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
-| building:roof  |  tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
-|  access:roof | yes (Ada), no (Tidak ada)  |
-|  building: condition |  poor (Buruk), good (Baik) |
-|  ground_floor:height |  tinggi bangunan dari jalan dalam satuan meter |
+|  <font color="#FF7278"> capacity:persons |<font color="#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <font color="#FF7278"> building:levels | <font color="#FF7278"> (jumlah lantai) |
+|<font color="#FF7278"> building:structure   |  <font color="#FF7278"> confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
+|<font color="#FF7278"> building:material  | <font color="#FF7278"> brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
+|<font color="#FF7278"> building:floor  |<font color="#FF7278"> ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
+| <font color="#FF7278"> building:roof  | <font color="#FF7278"> tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
+|  <font color="#FF7278"> access:roof | <font color="#FF7278"> yes (Ada), no (Tidak ada)  |
+|  <font color="#FF7278"> building: condition | <font color="#FF7278"> poor (Buruk), good (Baik) |
+| <font color="#FF7278">  ground_floor:height | <font color="#FF7278"> (tinggi bangunan dari jalan dalam satuan meter) |
 | backup_generator  | yes (Ada), no (Tidak ada)  |
 |  source |  HOT_InAWARESurvey_2018 |
 
@@ -456,20 +456,20 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  amenity | fire_station  |
-|  building |  fire_station |
+| <font color="99DBFF"> amenity |<font color="99DBFF"> fire_station  |
+|  <font color="#FF7278"> building | <font color="#FF7278"> fire_station |
 |  name | (nama kantor pemadam kebakaran)  |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
-|  capacity:persons | <50, 50-100, 100-250, 250-500, >500  |
-|  building:levels |  (jumlah lantai) |
-|building:structure   |   confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
-| building:material  |  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
-| building:floor  | ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
-| building:roof  |  tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
-|  access:roof | yes (Ada), no (Tidak ada)  |
-|  building: condition |  poor (Buruk), good (Baik) |
-|  ground_floor:height |  tinggi bangunan dari jalan dalam satuan meter |
+| <font color="#FF7278"> capacity:persons |<font color="#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+| <font color="#FF7278"> building:levels | <font color="#FF7278"> (jumlah lantai) |
+|<font color="#FF7278"> building:structure   | <font color="#FF7278">  confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
+|<font color="#FF7278"> building:material  | <font color="#FF7278"> brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
+|<font color="#FF7278"> building:floor  |<font color="#FF7278"> ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
+|<font color="#FF7278"> building:roof  | <font color="#FF7278"> tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
+| <font color="#FF7278"> access:roof | <font color="#FF7278"> yes (Ada), no (Tidak ada)  |
+| <font color="#FF7278"> building: condition | <font color="#FF7278"> poor (Buruk), good (Baik) |
+| <font color="#FF7278"> ground_floor:height | <font color="#FF7278"> (tinggi bangunan dari jalan dalam satuan meter) |
 | backup_generator  | yes (Ada), no (Tidak ada)  |
 |  source |  HOT_InAWARESurvey_2018 |
 
@@ -477,8 +477,8 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 |  key  | possible values  |
 |---|---|
-| emergency  | fire_hydrant  |
-| fire_hydrant:type | underground (bawah tanah), pillar (pilar), wall (dinding), pond (kolam)  |
+|<font color="99DBFF"> emergency  |<font color="99DBFF"> fire_hydrant  |
+|<font color="99DBFF"> fire_hydrant:type |<font color="99DBFF"> underground (bawah tanah), pillar (pilar), wall (dinding), pond (kolam)  |
 | name  |  (nama hidran) |
 | operator  | (nama operator)  |
 | addr:city  | (kota pemetaan)  |
@@ -489,21 +489,21 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  office | government  |
-|  building |  governor_office (Kantor Gubernur), townhall (Kantor Bupati / Walikota), subdistrict_office (Kantor Camat), village_office (Kantor Desa / Lurah), community_group_office (Balai Warga / Kantor RW)  |
-|  admin_level |  4 (Kantor Gubernur), 5 (Kantor Bupati / Walikota), 6 (Kantor Kecamatan), 7 (Kantor Desa / Keluruhan), 9 (Kantor RW)  |
+| <font color="99DBFF"> office |<font color="99DBFF"> government  |
+| <font color="#FF7278"> building | <font color="#FF7278"> governor_office (Kantor Gubernur), townhall (Kantor Bupati / Walikota), subdistrict_office (Kantor Camat), village_office (Kantor Desa / Lurah), community_group_office (Balai Warga / Kantor RW)  |
+| <font color="99DBFF"> admin_level | <font color="99DBFF"> 4 (Kantor Gubernur), 5 (Kantor Bupati / Walikota), 6 (Kantor Kecamatan), 7 (Kantor Desa / Keluruhan), 9 (Kantor RW)  |
 |  name | (nama kantor pemerintahan)  |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
-|  capacity:persons | <50, 50-100, 100-250, 250-500, >500  |
-|  building:levels |  (jumlah lantai) |
-|building:structure   |   confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
-| building:material  |  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
-| building:floor  | ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
-| building:roof  |  tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
-|  access:roof | yes (Ada), no (Tidak ada)  |
-|  building: condition |  poor (Buruk), good (Baik) |
-|  ground_floor:height |  tinggi bangunan dari jalan dalam satuan meter |
+| <font color="#FF7278"> capacity:persons | <font color="#FF7278"><50, 50-100, 100-250, 250-500, >500  |
+| <font color="#FF7278"> building:levels |<font color="#FF7278">  (jumlah lantai) |
+|<font color="#FF7278"> building:structure   | <font color="#FF7278">  confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
+|<font color="#FF7278"> building:material  | <font color="#FF7278"> brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
+|<font color="#FF7278"> building:floor  |<font color="#FF7278"> ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
+|<font color="#FF7278"> building:roof  | <font color="#FF7278"> tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
+| <font color="#FF7278"> access:roof |<font color="#FF7278"> yes (Ada), no (Tidak ada)  |
+| <font color="#FF7278"> building: condition | <font color="#FF7278"> poor (Buruk), good (Baik) |
+| <font color="#FF7278"> ground_floor:height |<font color="#FF7278">  (tinggi bangunan dari jalan dalam satuan meter) |
 | backup_generator  | yes (Ada), no (Tidak ada)  |
 |  source |  HOT_InAWARESurvey_2018 |
 |  evacuation_center |  yes (Ya), no (Bukan) |
@@ -517,20 +517,20 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  office | government  |
-|  building |  government_office  |
+| <font color="99DBFF"> office |<font color="99DBFF"> government  |
+|  <font color="#FF7278"> building | <font color="#FF7278"> government_office  |
 |  name | (nama instansi pemerintahan)  |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
-|  admin_level |  4 (Provinsi), 5 (Kabupaten/Kota), 6 (Kecamatan), 7 ( Desa / Keluruhan)  |
-|  capacity:persons | <50, 50-100, 100-250, 250-500, >500  |
-|  building:levels |  (jumlah lantai) |
-|building:structure   |   confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
-| building:material  |  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
-| building:floor  | ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
-| building:roof  |  tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
-|  access:roof | yes (Ada), no (Tidak ada)  |
-|  building: condition |  poor (Buruk), good (Baik) |
+| <font color="99DBFF"> admin_level | <font color="99DBFF"> 4 (Provinsi), 5 (Kabupaten/Kota), 6 (Kecamatan), 7 ( Desa / Keluruhan)  |
+| <font color="#FF7278"> capacity:persons |<font color="#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+| <font color="#FF7278"> building:levels | <font color="#FF7278"> (jumlah lantai) |
+|<font color="#FF7278"> building:structure   | <font color="#FF7278">  confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
+|<font color="#FF7278"> building:material  | <font color="#FF7278"> brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
+|<font color="#FF7278"> building:floor  |<font color="#FF7278"> ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
+|<font color="#FF7278"> building:roof  | <font color="#FF7278"> tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
+| <font color="#FF7278"> <font color="#FF7278"> access:roof | <font color="#FF7278"> yes (Ada), no (Tidak ada)  |
+|<font color="#FF7278"> <font color="#FF7278"> building: condition | <font color="#FF7278"> poor (Buruk), good (Baik) |
 | backup_generator  | yes (Ada), no (Tidak ada)  |
 |  source |  HOT_InAWARESurvey_2018 |
 
@@ -539,7 +539,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 |  key | possible values  |
 |---|---|
-|  power | tower  |
+|  <font color="99DBFF"> power |<font color="99DBFF"> tower  |
 | name  |  (nama tower) |
 | addr:city  | (kota pemetaan)  |
 | operator  |  PT Perusahaan Listrik Negara |
@@ -549,9 +549,9 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 |  key | possible values  |
 |---|---|
-|  power | substation  |
-|  substation | transmission (Gardu Induk), distribution (Gardu Distribusi)  |
-|  building | power_substation  |
+| <font color="99DBFF"> power |<font color="99DBFF"> substation  |
+| <font color="99DBFF"> substation | <font color="99DBFF"> transmission (Gardu Induk), distribution (Gardu Distribusi)  |
+| <font color="#FF7278"> building |<font color="#FF7278"> power_substation  |
 | name  |  (nama gardu listrik) |
 | addr:city  | (kota pemetaan)  |
 | rating  | (ditentukan pengguna)  |
@@ -562,8 +562,8 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 |  key | possible values  |
 |---|---|
-|  power | plant  |
-|  building | power_plant  |
+| <font color="99DBFF"> power | <font color="99DBFF"> plant  |
+| <font color="#FF7278"> building | <font color="#FF7278"> power_plant  |
 | name  |  (nama pembangkit listrik) |
 | operator  |  (nama operator) |
 | addr:city  | (kota pemetaan)  |
@@ -575,19 +575,19 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  amenity | aerodrome  |
-|  building |  aerodrome |
+| <font color="99DBFF"> amenity |<font color="99DBFF"> aerodrome  |
+| <font color="#FF7278"> building | <font color="#FF7278"> aerodrome |
 |  name | (nama bandar udara)  |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
-|  capacity:persons | <50, 50-100, 100-250, 250-500, >500  |
-|  building:levels |  (jumlah lantai) |
-|building:structure   |   confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
-| building:material  |  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
-| building:floor  | ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
-| building:roof  |  tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
-|  access:roof | yes (Ada), no (Tidak ada)  |
-|  building: condition |  poor (Buruk), good (Baik) |
+| <font color="#FF7278"> capacity:persons | <font color="#FF7278"><50, 50-100, 100-250, 250-500, >500  |
+| <font color="#FF7278"> building:levels | <font color="#FF7278"> (jumlah lantai) |
+|<font color="#FF7278"> building:structure   | <font color="#FF7278">  confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
+|<font color="#FF7278"> building:material  | <font color="#FF7278"> brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
+|<font color="#FF7278"> building:floor  |<font color="#FF7278"> ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
+|<font color="#FF7278"> building:roof  | <font color="#FF7278"> tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
+| <font color="#FF7278"> access:roof |<font color="#FF7278"> yes (Ada), no (Tidak ada)  |
+| <font color="#FF7278"> building: condition | <font color="#FF7278"> poor (Buruk), good (Baik) |
 | backup_generator  | yes (Ada), no (Tidak ada)  |
 |  source |  HOT_InAWARESurvey_2018 |
 
@@ -595,7 +595,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  amenity | bus_station  |
+|  <font color="99DBFF"> amenity |<font color="99DBFF">  bus_station  |
 |  name | (nama terminal bis)  |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
@@ -605,9 +605,9 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  amenity | station  |
+| <font color="99DBFF"> amenity | <font color="99DBFF"> station  |
 |  name | (nama stasiun kereta)  |
-|  ele | (ketinggian di atas permukaan laut)  |
+| <font color="99DBFF"> ele | <font color="99DBFF"> (ketinggian di atas permukaan laut)  |
 |  operator | PT Kereta Api Indonesia  |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
@@ -617,19 +617,19 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  amenity | ferry_terminal  |
-|  building |  ferry_terminal |
+|  <font color="99DBFF"> amenity | <font color="99DBFF"> ferry_terminal  |
+| <font color="#FF7278"> building | <font color="#FF7278"> ferry_terminal |
 |  name | (nama dermaga)  |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
-|  capacity:persons | <50, 50-100, 100-250, 250-500, >500  |
-|  building:levels |  (jumlah lantai) |
-|building:structure   |   confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
-| building:material  |  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
-| building:floor  | ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
-| building:roof  |  tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
-|  access:roof | yes (Ada), no (Tidak ada)  |
-|  building: condition |  poor (Buruk), good (Baik) |
+| <font color="#FF7278"> capacity:persons |<font color="#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+| <font color="#FF7278"> building:levels |<font color="#FF7278">  (jumlah lantai) |
+|<font color="#FF7278"> building:structure   | <font color="#FF7278">  confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
+| <font color="#FF7278"> building:material  | <font color="#FF7278"> brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
+| <font color="#FF7278"> building:floor  |<font color="#FF7278"> ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
+| <font color="#FF7278"> building:roof  | <font color="#FF7278"> tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
+| <font color="#FF7278"> access:roof |<font color="#FF7278"> yes (Ada), no (Tidak ada)  |
+| <font color="#FF7278"> building: condition | <font color="#FF7278"> poor (Buruk), good (Baik) |
 | backup_generator  | yes (Ada), no (Tidak ada)  |
 |  source |  HOT_InAWARESurvey_2018 |
 
@@ -638,21 +638,21 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  amenity | place_of_worship  |
-|  religion |  muslim, christian, hindu, buddhist, confucian  |
+|  <font color="99DBFF"> amenity | <font color="99DBFF"> place_of_worship  |
+|  <font color="99DBFF"> religion | <font color="99DBFF">  muslim, christian, hindu, buddhist, confucian  |
 |  name | (nama kantor pemerintahan)  |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
-|  building |  mosque (Masjid), church (Gereja), temple (Pura), tempe (Vihara), temple (Klenteng)  |
-|  capacity:persons | <50, 50-100, 100-250, 250-500, >500  |
-|  building:levels |  (jumlah lantai) |
-|building:structure   |   confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
-| building:material  |  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
-| building:floor  | ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
-| building:roof  |  tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
-|  access:roof | yes (Ada), no (Tidak ada)  |
-|  building: condition |  poor (Buruk), good (Baik) |
-|  ground_floor:height |  tinggi bangunan dari jalan dalam satuan meter |
+| <font color="#FF7278"> building | <font color="#FF7278"> mosque (Masjid), church (Gereja), temple (Pura), tempe (Vihara), temple (Klenteng)  |
+| <font color="#FF7278"> capacity:persons |<font color="#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+| <font color="#FF7278"> building:levels | <font color="#FF7278"> (jumlah lantai) |
+|<font color="#FF7278"> building:structure   | <font color="#FF7278">  confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
+|<font color="#FF7278"> building:material  |<font color="#FF7278">  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
+|<font color="#FF7278"> building:floor  |<font color="#FF7278"> ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
+| <font color="#FF7278"> building:roof  | <font color="#FF7278"> tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
+| <font color="#FF7278"> access:roof | <font color="#FF7278"> yes (Ada), no (Tidak ada)  |
+| <font color="#FF7278"> building: condition | <font color="#FF7278"> poor (Buruk), good (Baik) |
+| <font color="#FF7278"> ground_floor:height | <font color="#FF7278"> (tinggi bangunan dari jalan dalam satuan meter) |
 | backup_generator  | yes (Ada), no (Tidak ada)  |
 |  source |  HOT_InAWARESurvey_2018 |
 |  evacuation_center |  yes (Ya), no (Bukan) |
@@ -666,21 +666,21 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  leisure | stadium (Stadion), sports_centre (Pusat Kegiatan Olahraga / GOR), pitch (Lapangan Olahraga)  |
-|  building |  stadium, sports_centre, yes (futsal field)  |
+|  <font color="99DBFF"> leisure | <font color="99DBFF"> stadium (Stadion), sports_centre (Pusat Kegiatan Olahraga / GOR), pitch (Lapangan Olahraga)  |
+| <font color="#FF7278"> building | <font color="#FF7278"> stadium, sports_centre, yes (futsal field)  |
 |  name | (nama fasilitas olahraga)  |
 |  addr:full | (alamat)   |
 |  addr:city |  (kota pemetaan) |
-|  sport |  soccer,futsal,basketball,badminton,tennis,volleyball,swimming,athletics, baseball,cycling, multi |
-|  capacity:persons | <50, 50-100, 100-250, 250-500, >500  |
-|  building:levels |  (jumlah lantai) |
-|building:structure   |   confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
-| building:material  |  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
-| building:floor  | ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
-| building:roof  |  tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
-|  access:roof | yes (Ada), no (Tidak ada)  |
-|  building: condition |  poor (Buruk), good (Baik) |
-|  ground_floor:height |  tinggi bangunan dari jalan dalam satuan meter |
+|  <font color="99DBFF"> sport | <font color="99DBFF">  soccer,futsal,basketball,badminton,tennis,volleyball,swimming,athletics, baseball,cycling, multi |
+| <font color="#FF7278"> capacity:persons |<font color="#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+| <font color="#FF7278"> building:levels | <font color="#FF7278"> (jumlah lantai) |
+|<font color="#FF7278"> building:structure   | <font color="#FF7278">  confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
+|<font color="#FF7278"> building:material  | <font color="#FF7278"> brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
+|<font color="#FF7278"> building:floor  |<font color="#FF7278"> ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
+|<font color="#FF7278"> building:roof  | <font color="#FF7278"> tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
+| <font color="#FF7278"> access:roof |<font color="#FF7278"> yes (Ada), no (Tidak ada)  |
+| <font color="#FF7278"> building: condition | <font color="#FF7278"> poor (Buruk), good (Baik) |
+| <font color="#FF7278"> ground_floor:height | <font color="#FF7278"> (tinggi bangunan dari jalan dalam satuan meter) |
 | backup_generator  | yes (Ada), no (Tidak ada)  |
 |  source |  HOT_InAWARESurvey_2018 |
 |  evacuation_center |  yes (Ya), no (Bukan) |
@@ -694,7 +694,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  leisure | park  |
+| <font color="99DBFF"> leisure |<font color="99DBFF"> park  |
 |  name | (nama taman)  |
 |  addr:full | (alamat)   |
 |  addr:city |  (kota pemetaan) |
@@ -711,7 +711,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  man_made | water_tower  |
+| <font color="99DBFF"> man_made | <font color="99DBFF"> water_tower  |
 |  name | (nama tower)  |
 |  operator | (nama operator)   |
 |  addr:city |  (kota pemetaan) |
@@ -721,12 +721,12 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  waterway | floodgate  |
+| <font color="99DBFF"> waterway |<font color="99DBFF"> floodgate  |
 |  name | (nama pintu air)  |
 |  operator | (nama operator)   |
 |  floodgate:unit | (jumlah pintu air)   |
 |  elevation | (ketinggian di atas permukaan laut)   |
-|  condition | good (baik), poor (buruk)   |
+|  <font color="99DBFF"> condition | <font color="99DBFF"> good (baik), poor (buruk)   |
 |  addr:city |  (kota pemetaan) |
 |  source |  HOT_InAWARESurvey_2018 |
 
@@ -734,23 +734,23 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  man_made | pumping_station  |
-|  building |  pumping_station |
+| <font color="99DBFF"> man_made |<font color="99DBFF"> pumping_station  |
+| <font color="#FF7278"> building | <font color="#FF7278"> pumping_station |
 |  name | (nama rumah pompa)  |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
 |  operator | (nama operator)   |
 |  pump:unit | (jumlah pompa)   |
 |  elevation | (ketinggian di atas permukaan laut)   |
-|  capacity:persons | (kapasitas pompa (l/s))  |
-|  building:levels |  (jumlah lantai) |
-|building:structure   |   confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
-| building:material  |  brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
-| building:floor  | ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
-| building:roof  |  tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
-|  access:roof | yes (Ada), no (Tidak ada)  |
-|  building: condition |  poor (Buruk), good (Baik) |
-|  ground_floor:height |  tinggi bangunan dari jalan dalam satuan meter |
+| <font color="#FF7278"> capacity:persons | <font color="#FF7278"> (kapasitas pompa (l/s))  |
+| <font color="#FF7278"> building:levels | <font color="#FF7278"> (jumlah lantai) |
+|<font color="#FF7278"> building:structure   | <font color="#FF7278">  confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
+|<font color="#FF7278"> building:material  | <font color="#FF7278"> brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca) |
+|<font color="#FF7278"> building:floor  |<font color="#FF7278"> ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)  |
+|<font color="#FF7278"> building:roof  | <font color="#FF7278"> tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton) |
+| <font color="#FF7278"> access:roof |<font color="#FF7278"> yes (Ada), no (Tidak ada)  |
+| <font color="#FF7278"> building: condition | <font color="#FF7278"> poor (Buruk), good (Baik) |
+| <font color="#FF7278"> ground_floor:height | <font color="#FF7278"> (tinggi bangunan dari jalan dalam satuan meter) |
 | backup_generator  | yes (Ada), no (Tidak ada)  |
 |  source |  HOT_InAWARESurvey_2018 |
 
@@ -758,25 +758,25 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  man_made | embankment  |
+| <font color="99DBFF"> man_made | <font color="99DBFF"> embankment  |
 |  name | (nama tanggul)  |
-|  material | concrete (Benton), stone (Batu), soil (Tanah), sand (Pasir)   |
+| <font color="99DBFF"> material | <font color="99DBFF"> concrete (Benton), stone (Batu), soil (Tanah), sand (Pasir)   |
 |  source |  HOT_InAWARESurvey_2018 |
 
 * Tabel Model Data Sungai
 
 | key  |  possible values |
 |---|---|
-|  waterway | river (Sungai), riverbank (Badan sungai), canal (Kanal)  |
+| <font color="99DBFF"> waterway |<font color="99DBFF"> river (Sungai), riverbank (Badan sungai), canal (Kanal)  |
 |  name | (nama sungai)  |
-|  width | (lebar sungai)   |
+| <font color="99DBFF"> width |<font color="99DBFF"> (lebar sungai)   |
 |  source |  HOT_InAWARESurvey_2018 |
 
 * Tabel Model Data Waduk / Danau
 
 | key  |  possible values |
 |---|---|
-|  landuse | reservoir  |
+|  <font color="99DBFF"> landuse |<font color="99DBFF">  reservoir  |
 |  name | (nama waduk/danau)  |
 |  operator | (nama operator)   |
 |  addr:city |  (kota pemetaan) |
@@ -787,7 +787,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  amenity | fuel  |
+|  <font color="99DBFF"> amenity | <font color="99DBFF"> fuel  |
 |  name | (nama SPBU)  |
 |  addr:full |  (alamat) |
 |  addr:city |  (kota pemetaan) |
@@ -798,15 +798,15 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  type | boundary  |
-|  boundary |  administrative |
-|  name | (nama rumah pompa)  |
-|  admin_level |4 (Provinsi), 5 (Kota / Kotamadya / Kabupaten), 6 (Kecamatan), 7 (Kelurahan / Desa), 8 (Dusun), 9 (RW), 10 (RT)   |
-|  is_in:province |  (nama provinsi) |
-|  is_in:city (Kota) / is_in:town (Kabupaten)| (nama kota/kabupaten)   |
-|  is_in:municipality | (nama kecamatan)   |
-|  is_in:village | (nama kelurahan)   |
-|  is_in:RW | (nama rw)  |
+|  <font color="99DBFF"> type | <font color="99DBFF"> boundary  |
+| <font color="99DBFF">  boundary |  <font color="99DBFF"> administrative |
+| <font color="99DBFF"> name | <font color="99DBFF"> (nama rumah pompa)  |
+|  <font color="99DBFF"> admin_level |<font color="99DBFF"> 4 (Provinsi), 5 (Kota / Kotamadya / Kabupaten), 6 (Kecamatan), 7 (Kelurahan / Desa), 8 (Dusun), 9 (RW), 10 (RT)   |
+| <font color="99DBFF"> is_in:province | <font color="99DBFF"> (nama provinsi) |
+| <font color="99DBFF"> is_in:city (Kota) / is_in:town (Kabupaten)|<font color="99DBFF"> (nama kota/kabupaten)   |
+| <font color="99DBFF"> is_in:municipality |<font color="99DBFF"> (nama kecamatan)   |
+| <font color="99DBFF"> is_in:village |<font color="99DBFF"> (nama kelurahan)   |
+| <font color="99DBFF"> is_in:RW |<font color="99DBFF"> (nama rw)  |
 |  flood_prone *khusus untuk relasi RW |  yes (Iya), no (Tidak) |
 |  landslide_prone *khusus untuk relasi RW   |  yes (Iya), no (Tidak) |
 |  source |  HOT_InAWARESurvey_2018 |
@@ -815,15 +815,15 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 | key  |  possible values |
 |---|---|
-|  highway | motorway (Jalan Tol), trunk (Jalan Arteri Primer), primary (Jalan Arteri Sekunder), secondary (Jalan Kolektor Primer), , tertiary (Jalan Lokal), service (Jalan Layanan), residential (Jalan Permukiman), pedestrian (Jalan Khusus Pejalan Kaki), path (Jalan Setapak), living_street (Gang), track (Jalan Pematang).  |
+| <font color="99DBFF"> highway |<font color="99DBFF"> motorway (Jalan Tol), trunk (Jalan Arteri Primer), primary (Jalan Arteri Sekunder), secondary (Jalan Kolektor Primer), , tertiary (Jalan Lokal), service (Jalan Layanan), residential (Jalan Permukiman), pedestrian (Jalan Khusus Pejalan Kaki), path (Jalan Setapak), living_street (Gang), track (Jalan Pematang).  |
 |  name | (nama jalan)  |
 |  layer | 5,4,3,2,1,-1,-2,-3,-4,-5  |
 |  width |  (lebar jalan) |
 |  lanes | (jumlah lajur)   |
-|  surface | asphalt (Aspal), concrete (Beton), metal (Besi/Baja), wood (Kayu), grass (Rumput), ground (Tanah), gravel (Batu Kerikil), mud (Lumpur), sand (Pasir), paving_stones (Paving blok)  |
+| <font color="99DBFF"> surface | <font color="99DBFF"> asphalt (Aspal), concrete (Beton), metal (Besi/Baja), wood (Kayu), grass (Rumput), ground (Tanah), gravel (Batu Kerikil), mud (Lumpur), sand (Pasir), paving_stones (Paving blok)  |
 |  smoothness | good (Baik), intermediate (Cukup Baik), bad (Buruk), impassable (Tidak dapat dilewati)  |
 |  motorcycle | yes (Iya), no (Tidak)  |
-|  oneway |  yes (Iya), no (Tidak) |
+| <font color="99DBFF"> oneway | <font color="99DBFF"> yes (Iya), no (Tidak) |
 | ref  |  (referensi) |
 |  source |  HOT_InAWARESurvey_2018 |
 
@@ -832,8 +832,8 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 Setelah Anda mengetahui model data berdasarkan _tag_ yang diperlukan untuk masing-masing objek khususnya dalam kegiatan pemetaan kebencanaan, Anda juga perlu mengetahui pemetaan objek berdasarkan tipe data di _OpenStreetMap_. Berikut adalah tabel pembagian jenis-jenis objek berdasarkan tipe data yang dapat dipetakan:
 
 **Keterangan Warna:**
-*   Warna hijau artinya objek bisa dipetakan dalam tipe data tersebut.
-*   Warna merah artinya objek tidak bisa dan tidak boleh dipetakan dalam tipe data tersebut
+*   <font color="#7EFF83">Warna hijau</font> artinya objek bisa dipetakan dalam tipe data tersebut.
+*   <font color="#FF7278">Warna merah</font> artinya objek tidak bisa dan tidak boleh dipetakan dalam tipe data tersebut
 
 Tabel Jenis Infrastruktur dan Tipe Data di _OpenStreetMap_
 
