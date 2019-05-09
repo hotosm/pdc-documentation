@@ -101,7 +101,10 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
         <p align="center"><i>Pilihan untuk menghentikan perekaman jalur (Stop tracking)</i></p>
 
     2. Pilih menu _**Stop tracking.**_
-    3. Anda juga dapat menggunakan tombol <p align="center"><img width=70% src="../images/0412_Tombol_save.png"</p> yang berada di sebelah kanan atas halaman _Track logger_ Anda untuk berhenti melakukan perekaman dan menyimpan hasil perekaman Anda. 
+    3. Anda juga dapat menggunakan tombol 
+    <p align="center"><img width=20% src="../images/0412_Tombol_save.png"</p> 
+    
+    yang berada di sebelah kanan atas halaman _Track logger_ Anda untuk berhenti melakukan perekaman dan menyimpan hasil perekaman Anda. 
 
     Jika Anda ingin melanjutkan kembali perekaman trek yang sudah Anda kumpulkan, langkah-langkah yang perlu Anda lakukan adalah: 
 
