@@ -168,7 +168,7 @@ Terdapat banyak sekali kesalahan dan peringatan yang muncul ketika Anda melakuka
     
 *   _Way end node near other highways_ (titik tidak terhubung dengan garis terdekat)
         _Warning_ ini muncul ketika ada titik dari objek jalan yang berdekatan dengan jalan lainnya namun tidak terhubung satu sama lain. Jika memang jalan tersebut merupakan jalan yang tidak dapat dilalui (jalan buntu) silakan gunakan tag **highway=block**. Namun jika ternyata jalan tersebut saling berhubungan, silakan Anda gabungkan jalan tersebut dengan menggunakan fungsi **Merge**.
-<p align="center"><i>images/0228_Warning_Way_end_node_near_other_highways.png"</p>
+<p align="center"><img width=70% src="../images/0228_Warning_Way_end_node_near_other_highways.png"</p>
         <p align="center"><i>Warning: Way end node near other highways</i></p>
     
 *   _Building inside building_ (bangunan di dalam bangunan)
