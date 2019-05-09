@@ -14,14 +14,14 @@ Dalam survei lapangan, _data entry_ mengumpulkan dua jenis data yaitu data objek
     Hasil survei yang telah dikumpulkan harus dicek menggunakan batas administrasi yang ada. Tujuannya untuk melihat apakah seluruh objek yang ada dalam batas administrasi tersebut telah selesai disurvei atau belum. Anda dapat menggunakan batas administrasi yang diperoleh dari BPS atau dengan menggunakan batas administrasi yang telah digambar oleh _Quality Assurance_. 
 
    *   Silakan Anda buka hasil survei yang telah dikumpulkan. Sebagai contoh, dalam modul ini akan digunakan data hasil survei di daerah Yogyakarta. 
-       ![alt_text](images/0201_Contoh_data_hasil_survei_di_Desa_Wedomartani.png "image_tooltip")
-        _Contoh data hasil survei di Desa Wedomartani, Sleman, Yogyakarta_
+       <p align="center"><img width=70% src="../images/0201_Contoh_data_hasil_survei_di_Desa_Wedomartani.png"</p>
+        <p align="center"><i>Contoh data hasil survei di Desa Wedomartani, Sleman, Yogyakarta</i></p>
 
    *   Setelah itu, silakan Anda buka _file_ batas administrasi yang Anda miliki. Dalam contoh ini akan digunakan data batas desa yang didapatkan dari BPS. Data dari BPS masih dalam format .shp. Untuk dapat dibuka di dalam JOSM, Anda perlu mengubah format data ini menjadi bentuk GeoJSON. Anda dapat membuka materi **Menggunakan GeoJSON** untuk mempelajari bagaimana cara mengubah format data ini. 
 
         Untuk membuka _file_ batas administrasi, silakan pilih menu **File → Open**, kemudian masukkan batas administrasi yang Anda miliki.
 
-       ![alt_text](images/0202_Overlay_data_survey_dengan_batas_admin.png "image_tooltip")
+       <p align="center"><img width=70% src="../images/0202_Overlay_data_survey_dengan_batas_admin.png"</p>
 
    *   Anda dapat membandingkan antara sebaran titik yang telah dikumpulkan dengan batas administrasi. Jika menurut Anda titik-titik yang dikumpulkan masih belum memenuhi target pemetaan yang diberikan atau masih ada objek-objek yang belum disurvei, Anda dapat meminta _Data Entry_ untuk melakukan survei ulang untuk memenuhi target yang diinginkan. 
  
@@ -33,44 +33,44 @@ Dalam survei lapangan, _data entry_ mengumpulkan dua jenis data yaitu data objek
 
    *   Silakan Anda cari _file_ _ODK Collect_ yang telah Anda pindahkan dari _smartphone_ ke laptop/komputer Anda dengan menggunakan **Windows Explorer**. Jika Anda lupa bagaimana cara memindahkan data ODK Collect dari _smartphone_ ke laptop/komputer Anda, silakan baca kembali modul **Menggunakan Aplikasi ODK Collect**. Sebagai contoh, dalam modul kali ini akan digunakan data hasil survei yang dilakukan di daerah Yogyakarta.
 
-       ![alt_text](images/0203_Data_ODK_Collect_yang_sudah_dipindahkan_ke_laptop.png "image_tooltip")
-        _Data ODK Collect yang sudah dipindahkan ke laptop/komputer_
+       <p align="center"><img width=70% src="../images/0203_Data_ODK_Collect_yang_sudah_dipindahkan_ke_laptop.png"</p>
+        <p align="center"><i>Data ODK Collect yang sudah dipindahkan ke laptop/komputer</i></p>
 
      *   Setelah itu, pada kolom pencarian di sebelah kanan atas, silakan Anda ketik **‘.osm’**. Hal ini bertujuan untuk mencari seluruh data hasil survei dengan format .osm. 
-         ![alt_text](images/0204_Pencarian_data_dengan_format_osm.png "image_tooltip")
-        _Pencarian data dengan format .osm_
+         <p align="center"><img width=70% src="../images/0204_Pencarian_data_dengan_format_osm.png"</p>
+        <p align="center"><i>Pencarian data dengan format .osm</i></p>
 
     *   Jika sudah, silakan Anda pilih semua data tersebut dengan cara klik pada salah satu _file_ dan tekan tombol **Ctrl+A** untuk memilih seluruh file tersebut. 
-  ![alt_text](images/0205_Seluruh_file_sudah_terpilih.png "image_tooltip")
-        _Seluruh file sudah terpilih_
+  <p align="center"><img width=70% src="../images/0205_Seluruh_file_sudah_terpilih.png"</p>
+        <p align="center"><i>Seluruh file sudah terpilih</i></p>
 
    *   Selanjutnya, silakan Anda klik dan tahan pada salah satu _file_, kemudian Anda geser seluruh _file_ tersebut dan masukkan ke dalam JOSM. Pastikan Anda sudah membuka _software_ JOSM terlebih dahulu. 
-        ![alt_text](images/0206_Geser_dan_buka_file_osm.png "image_tooltip")
-        _Geser dan buka file .osm ke dalam JOSM_
+        <p align="center"><img width=70% src="../images/0206_Geser_dan_buka_file_osm.png"</p>
+        <p align="center"><i>Geser dan buka file .osm ke dalam JOSM</i></p>
 
    *   Jika sudah berhasil terbuka akan muncul tampilan seperti berikut
-        ![alt_text](images/0207_Seluruh_file_osm_berhasil_dibuka_dalam_JOSM.png "image_tooltip")
-        _Seluruh file .osm yang berhasil dibuka dalam JOSM_
+        <p align="center"><img width=70% src="../images/0207_Seluruh_file_osm_berhasil_dibuka_dalam_JOSM.png"</p>
+        <p align="center"><i>Seluruh file .osm yang berhasil dibuka dalam JOSM</i></p>
 
    *   Jika Anda lihat pada data yang telah dimasukkan, masing-masing titik hasil survei masih berada dalam satu _layer_ yang berbeda. Untuk itu Anda perlu menggabungkan seluruh data tersebut menjadi satu _layer_ baru. Untuk menggabungkannya, silakan Anda klik salah satu _layer_ data pada _layer window_ kemudian tekan tombol **Ctrl + A** untuk memilih seluruh titik, kemudian klik kanan dan pilih **_Merge_**. 
-       ![alt_text](images/0208_Menggabungkan_seluruh_layer.png "image_tooltip")
-        _Menggabungkan seluruh layer_
+       <p align="center"><img width=70% src="../images/0208_Menggabungkan_seluruh_layer.png"</p>
+        <p align="center"><i>Menggabungkan seluruh layer</i></p>
 
    *   Anda akan diminta untuk memilih _layer_ tujuan atau _target layer_. Anda tidak perlu mengubah _target layer_ ini dan langsung pilih **Merge**.
-       ![alt_text](images/0209_Pilih_merge_untuk_menggabungkan_seluruh_data.png "image_tooltip")
-        _Pilih merge untuk menggabungkan seluruh data_
+       <p align="center"><img width=70% src="../images/0209_Pilih_merge_untuk_menggabungkan_seluruh_data.png"</p>
+        <p align="center"><i>Pilih merge untuk menggabungkan seluruh data</i></p>
 
    *   Data yang sudah berhasil digabungkan akan menjadi hanya satu _layer_.
-   ![alt_text](images/0210_Seluruh_data_yang_sudah_digabungkan.png "image_tooltip")
-        _Seluruh data yang sudah digabungkan_
+   <p align="center"><img width=70% src="../images/0210_Seluruh_data_yang_sudah_digabungkan.png"</p>
+        <p align="center"><i>Seluruh data yang sudah digabungkan</i></p>
 
    *   Silakan Anda simpan layer yang telah disatukan dengan cara klik kanan pada layer tersebut, kemudian pilih **Save as**. Simpan layer ini sesuai dengan nama yang Anda inginkan.
-  ![alt_text](images/0211_Save_as.png "image_tooltip")
+  <p align="center"><img width=70% src="../images/0211_Save_as.png"</p>
 
 
 4. **Upload Hasil Data Survei ke Google Drive**
     Setelah Anda gabungkan seluruh titik yang telah dikumpulkan, Anda perlu meng-_upload_ data tersebut ke dalam media penyimpanan yang dapat diakses secara bersama-sama, baik _Data Entry_ maupun _Quality Assurance_ secara online. Anda dapat menggunakan media penyimpanan online gratis seperti _Google Drive_. Silakan Anda upload sesuai dengan folder yang telah ditentukan. 
-   ![alt_text](images/0212_Google_drive.png "image_tooltip")
+   <p align="center"><img width=70% src="../images/0212_Google_drive.png"</p>
 
 ### II. Mengecek Hasil Input Data Survei
 Setelah Anda melakukan pengecekan data mentah atau _raw_ data yang telah dikumpulkan, Anda perlu melakukan pengecekan terhadap data yang telah berhasil di-_upload_ ke dalam server _OpenStreetMap_. Pengecekan ini dilakukan dengan menggunakan bantuan _plugin to do list_ dan alat validasi _(validation tool)_ yang telah tersedia di _software_ JOSM.
@@ -79,34 +79,34 @@ Setelah Anda melakukan pengecekan data mentah atau _raw_ data yang telah dikumpu
     Anda dapat menggunakan _plugin_ pada JOSM yang bernama _To do list_ untuk melakukan pengecekan data hasil survei. To do list memungkinkan Anda untuk membuat daftar objek-objek apa saja yang telah dikumpulkan. Dengan adanya daftar ini akan memudahkan Anda untuk melakukan pengecekan data sehingga tidak akan ada data yang terlewat. Anda dapat melihat kembali materi **Menggunakan to-do list** di JOSM untuk memahami lebih lanjut. 
 
     Sebagai contoh, Anda mempunyai data hasil survei sebagai berikut:
-![alt_text](images/0213_Contoh_data_hasil_survei.png "image_tooltip")
-    _Contoh data hasil survei_
+<p align="center"><img width=70% src="../images/0213_Contoh_data_hasil_survei.png"</p>
+    <p align="center"><i>Contoh data hasil survei</i></p>
 
     Data tersebut dikumpulkan menggunakan ODK Collect dan Open Map Kit (OMK). Data ini harus dilakukan pengecekan apakah data tersebut telah dikumpulkan dengan benar. Terlebih dahulu Anda harus men-_download_ data OSM yang sudah ada untuk mengecek apakah objek yang disurvei sudah dipetakan atau belum. Setelah itu, Anda dapat mengecek data yang telah disurvei, Beberapa pengecekan yang dapat dilakukan antara lain memeriksa adanya kesalahan pengetikan dan peletakan titik. Mengingat banyaknya data yang harus dicek, akan lebih mudah jika Anda menggunakan _to do list_. 
 
     Sebagai contoh, Anda mempunyai data titik survei yaitu kantor kesehatan pelabuhan di daerah Jakarta Utara. Untuk itu, Anda perlu men-_download_ data OSM untuk memeriksa apakah ada kesalahan dalam melakukan input data. Anda dapat melakukan perbandingan mengenai informasi atau atribut yang telah ditambahkan, apakah masih terdapat kesalahan pengetikan atau informasi yang tidak sesuai. Pada contoh, dapat terlihat bahwa pada atribut data mentah atau _raw_ data memiliki penulisan nama objek dengan huruf kecil, namun jika dibandingkan dengan data hasil input, nama yang diketik sudah menggunakan huruf kapital pada awal kata. Hal ini menandakan bahwa _data entry_ sudah memasukan data dengan benar. 
 
-   ![alt_text](images/0214_Perbandingan_antara_hasil_input_dan_mentah.png "image_tooltip")
-    _Perbandingan antara hasil input dan hasil data mentah_
+   <p align="center"><img width=70% src="../images/0214_Perbandingan_antara_hasil_input_dan_mentah.png"</p>
+    <p align="center"><i>Perbandingan antara hasil input dan hasil data mentah</i></p>
     
     Selain itu, Anda juga dapat memeriksa apakah titik objek tersebut telah diletakkan sesuai dengan titik yang sebenarnya. Pada gambar terlihat bahwa data mentah (titik survei berwarna abu-abu) belum terletak sesuai dengan lokasi sebenarnya, sedangkan pada data yang sudah dipetakan titiknya telah sesuai dengan lokasi sebenarnya (titik survei berwarna). Anda dapat menggunakan bantuan citra satelit sebagai acuan untuk melihat posisi titik tersebut apakah sudah sesuai dengan objek bangunan yang ada di citra atau belum. 
- ![alt_text](images/0215_Perbedaan_posisi_titik_data_hasil_input_dan_data_mentah.png "image_tooltip")
-    _Perbedaan posisi titik data hasil input dan data mentah_
+ <p align="center"><img width=70% src="../images/0215_Perbedaan_posisi_titik_data_hasil_input_dan_data_mentah.png"</p>
+    <p align="center"><i>Perbedaan posisi titik data hasil input dan data mentah</i></p>
 
 2. Menggunakan Alat Validasi
     Untuk melakukan pengecekan hasil input data survei, langkah-langkah yang harus dilakukan adalah: 
 
    *   _Download_ data _OpenStreetMap_ pada lokasi survei yang ingin Anda cek datanya.
-  ![alt_text](images/0216_Contoh_data_OSM_yang_telah_didownload.png "image_tooltip")
-    _Contoh data OpenStreetMap yang telah di-download_
+  <p align="center"><img width=70% src="../images/0216_Contoh_data_OSM_yang_telah_didownload.png"</p>
+    <p align="center"><i>Contoh data OpenStreetMap yang telah di-download</i></p>
 
    *   Lakukan validasi dengan menggunakan _validation tools_ atau alat validasi yang ada di JOSM. Untuk mengaktifkan jendela validasi atau _validation result_ silakan Anda pilih menu **Window** lalu pilih **Validation Result**. Jendela validasi akan muncul di sebelah kanan bawah JOSM Anda. 
-  ![alt_text](images/0217_Mengaktifkan_jendela_validasi_pada_JOSM.png "image_tooltip")
-    _Mengaktifkan jendela validasi pada JOSM_
+  <p align="center"><img width=70% src="../images/0217_Mengaktifkan_jendela_validasi_pada_JOSM.png"</p>
+    _Mengaktifkan jendela validasi pada JOSM</i></p>
 
    *   Untuk melakukan validasi Anda dapat menggunakan tombol **_Validation_** yang ada pada jendela _validation result_. Satu hal yang perlu Anda perhatikan pada saat melakukan validasi adalah pastikan tidak ada objek yang sedang Anda pilih karena jika Anda sedang memilih salah satu objek, JOSM hanya akan melakukan validasi terhadap objek yang sedang Anda pilih. 
-   ![alt_text](images/0218_Hasil_validasi_menggunakan_JOSM.png "image_tooltip")
-    _Hasil validasi menggunakan JOSM_
+   <p align="center"><img width=70% src="../images/0218_Hasil_validasi_menggunakan_JOSM.png"</p>
+    <p align="center"><i>Hasil validasi menggunakan JOSM</i></p>
 
    *   Perbaiki jika ada kesalahan _(error)_ dan peringatan _(warning)_ yang muncul pada data Anda hingga selesai. Setelah itu jangan lupa untuk mengunggah kembali data yang sudah Anda perbaiki ke dalam server _OpenStreetMap_. 
 
@@ -118,12 +118,12 @@ Seperti telah dijelaskan sebelumnya, ketika melakukan validasi menggunakan JOSM,
 
 2. Peringatan _(Warning)_
     Berbeda dengan kesalahan atau _error_, peringatan atau _warning_ tidak bersifat wajib untuk diperbaiki. Sesuai dengan namanya, peringatan atau _warning_ diberikan untuk memberikan informasi bahwa terdapat ketidaksesuaian dalam pemetaan Anda. Peringatan ini dapat Anda abaikan dan Anda tetap dapat melakukan _upload_ data ke dalam server _OpenStreetMap_. Meskipun demikian, ada juga beberapa jenis _warning_ yang sebaiknya diperbaiki seperti _crossing building, building inside building, crossing ways,_ dan sebagainya. Anda akan mempelajari lebih lanjut mengenai jenis-jenis _warning_ yang harus diperbaiki pada bagian selanjutnya. 
-   ![alt_text](images/0219_Contoh_error_warning_yang_muncul.png "image_tooltip")
-    _Contoh kesalahan (errors) dan peringatan (warnings) yang muncul pada saat validasi_
+   <p align="center"><img width=70% src="../images/0219_Contoh_error_warning_yang_muncul.png"</p>
+    <p align="center"><i>Contoh kesalahan (errors) dan peringatan (warnings) yang muncul pada saat validasi</i></p>
 
    Untuk kesalahan atau _Error_, Anda dapat langsung memperbaikinya secara otomatis dengan menekan pada bagian _Error_, kemudian tekan tombol **Fix**. Namun, untuk peringatan atau _warning_, Anda harus menyelesaikannya satu per satu. 
-   ![alt_text](images/0220_Kesalahan_atau_errors_diselesaikan.png "image_tooltip")
-_Kesalahan atau Errors dapat diselesaikan secara otomatis dengan menggunakan tombol Fix_
+   <p align="center"><img width=70% src="../images/0220_Kesalahan_atau_errors_diselesaikan.png"</p>
+<p align="center"><i>Kesalahan atau Errors dapat diselesaikan secara otomatis dengan menggunakan tombol Fix</i></p>
 
 ### IV. Jenis-jenis Kesalahan _(Error)_ dan Peringatan _(Warning)_ yang Harus Diperbaiki
 
@@ -132,25 +132,25 @@ Terdapat banyak sekali kesalahan dan peringatan yang muncul ketika Anda melakuka
 1. Kesalahan _(Error)_
     *   _Duplicated Node_ (Titik Terduplikasi)
         Kesalahan ini biasanya muncul ketika sebuah objek secara tidak sengaja diunggah sebanyak 2 kali atau lebih sehingga menyebabkan adanya objek yang tumpang tindih pada posisi yang sama. Kesalahan ini biasanya terjadi ketika pengguna mengunggah data dengan menggunakan koneksi internet yang kurang stabil, sehingga menyebabkan adanya gangguan pada saat meng-_upload_ data. 
-        ![alt_text](images/0221_Error_duplicated_node.png "image_tooltip")
-        _Error: Duplicated Node_
+        <p align="center"><img width=70% src="../images/0221_Error_duplicated_node.png"</p>
+        <p align="center"><i>Error: Duplicated Node</i></p>
 
     *   _Duplicated Ways_ (Garis Terduplikasi)
         Kesalahan ini sama seperti kesalahan _duplicated node_, dimana terdapat dua atau lebih garis yang berada pada posisi yang sama. Kesalahan ini biasa terjadi pada objek jalan, namun seringkali juga terjadi pada objek bangunan yang bertumpuk pada satu tempat yang sama. Kesalahan ini juga disebabkan karena adanya objek yang terunggah sebanyak 2 kali dan disebabkan karena koneksi internet yang kurang stabil.
-![alt_text](images/0222_Error_duplicated_ways.png "image_tooltip")
-        _Error: Duplicated ways_
+<p align="center"><img width=70% src="../images/0222_Error_duplicated_ways.png"</p>
+        <p align="center"><i>Error: Duplicated ways</i></p>
 
 
 2. Peringatan _(Warning)_
     *   _Crossing Building_ (Bangunan Bersinggungan)
         Peringatan ini merupakan peringatan yang cukup sering muncul ketika melakukan validasi. Seringkali pengguna memetakan dua bangunan yang berbeda tetapi diletakkan secara bertumpuk. Untuk mengatasi _warning_ ini, Anda cukup memindahkan atau menghapus  salah satu bangunan yang bertumpukan.
-![alt_text](images/0223_Warning_Crossing_building.png "image_tooltip")
-        _Warning: Crossing building_
+<p align="center"><img width=70% src="../images/0223_Warning_Crossing_building.png"</p>
+        <p align="center"><i>Warning: Crossing building</i></p>
 
     *   _Crossing Ways_ (Garis Bersinggungan)
         _Warning_ ini muncul ketika terdapat dua buah objek garis atau jalan yang digambar tanpa adanya titik perpotongan antar jalan. Untuk mengatasi _warning_ ini, Anda cukup menambahkan titik perpotongan yang terletak pada percabangan kedua jalan tersebut.
-![alt_text](images/0224_Warning_Crossing_ways.png "image_tooltip")
-        _Warning: Crossing ways_
+<p align="center"><img width=70% src="../images/0224_Warning_Crossing_ways.png"</p>
+        <p align="center"><i>Warning: Crossing ways</i></p>
 
     *   _Overlapping Highways_ (Jalan saling bertumpang tindih)
         _Warning_ ini muncul ketika terdapat bagian jalan yang bertumpukkan dengan bagian jalan lain. Untuk menyelesaikannya, Anda dapat menggeser atau menghapus bagian jalan yang bertumpukkan. 
