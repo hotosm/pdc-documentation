@@ -14,7 +14,7 @@ Silahkan Anda buka _file_ contoh OSM yang akan digunakan untuk mempelajari cara 
 
 
 
-*   _Download file_ latihan tersebut disini: bit.ly/osmsampel
+*   _Download file_ latihan tersebut disini: www.bit.ly/osmsampel
 *   Buka _file_ contoh peta OSM di dalam JOSM. Klik tombol **_Open a File_** di bagian atas sebelah kiri.
 
 <p align="center">
@@ -140,7 +140,7 @@ Pada sesi sebelumnya Anda telah menginstal JOSM dan mempelajari bagaimana melaku
 
 **a. Alat Menggambar Tingkat Lanjut di JOSM**
 
-Pada materi ini Anda akan mempelajari beberapa _tools_ dasar dan teknik yang ada untuk menggambar fitur peta di JOSM. Anda akan mempelajari lebih detail untuk _tools_ menggambar lanjutan yang akan membantu Anda dalam melakukan pemetaan di JOSM. Silakan Anda _download_ di bit.ly/toolsbahasa kemudian buka JOSM dan file yang telah di-_download_. Tampilan pada JOSM Anda akan seperti di bawah ini:
+Pada materi ini Anda akan mempelajari beberapa _tools_ dasar dan teknik yang ada untuk menggambar fitur peta di JOSM. Anda akan mempelajari lebih detail untuk _tools_ menggambar lanjutan yang akan membantu Anda dalam melakukan pemetaan di JOSM. Silakan Anda _download_ di www.bit.ly/toolsbahasa kemudian buka JOSM dan file yang telah di-_download_. Tampilan pada JOSM Anda akan seperti di bawah ini:
 
 <p align="center">
  <img src="../images/0414_Tampilan_file_latihan_mengedit_di_JOSM.png"
@@ -167,7 +167,7 @@ Dalam mengaplikasikan fungsi dalam menu ini, Anda terlebih dahulu harus memilih 
 Setelah Anda melakukan _split way_, Anda dapat menambahkan informasi mengenai masing-masing segmen jalan yang sudah dipisah, misalnya seperti memberikan nama jalan pada kedua jalan.
 
 *   **_Combine Way_** (menggabungkan segmen garis/_way_).
-    _Combine way_ ini adalah kebalikan dari _Split Way_, digunakan untuk menggabungkan dua segmen garis menjadi satu segmen garis. Kedua segmen garis ini harus saling terhubung dengan titik yang sama. Untuk menggunakan fungsi ini, pilih kedua garis yang ingin Anda gabungkan. Anda dapat memilih lebih dari satu objek dengan menahan tombol _shift_ pada _keyboard_ Anda dan klik di kedua garisnya. Ketika Anda telah memilih kedua garis tersebut, klik **_Combine Way_** dari menu _Tools_. Kedua segmen garis tersebut akan menyatu jadi satu segmen garis. Tombol pintas untuk melakukan _combine way_ adalah tombol **C** pada _keyboard _setelah anda mengklik kedua garis.
+    _Combine way_ ini adalah kebalikan dari _Split Way_, digunakan untuk menggabungkan dua segmen garis menjadi satu segmen garis. Kedua segmen garis ini harus saling terhubung dengan titik yang sama. Untuk menggunakan fungsi ini, pilih kedua garis yang ingin Anda gabungkan. Anda dapat memilih lebih dari satu objek dengan menahan tombol _shift_ pada _keyboard_ Anda dan klik di kedua garisnya. Ketika Anda telah memilih kedua garis tersebut, klik **_Combine Way_** dari menu _Tools_. Kedua segmen garis tersebut akan menyatu jadi satu segmen garis. Tombol pintas untuk melakukan _combine way_ adalah tombol **C** pada _keyboard_ setelah anda mengklik kedua garis.
 
 <p align="center">
  <img src="../images/0417_Tampilan_combine_way.png"
@@ -320,13 +320,14 @@ Ada beberapa pengecualian pada aturan ini, contohnya seperti bangunan sekolah. D
 <p align="center"><i>Contoh sekolah dengan poligon keseluruhan halaman sekolah dan bangunannya</i></p>
 
 **4. Tips lain**
+
 Saat menggambar di JOSM, ada beberapa kesalahan-kesalahan lain yang sering terjadi. Berikut ini adalah contoh-contoh kesalahan lainnya yang sering terjadi dan tips agar menghindari kesalahan tersebut.
 
 Tabel Kesalahan yang Sering Terjadi dan Tipsnya
 
 | Kesalahan  |Tips   |
 |---|---|
-|Tag diberikan pada node, bukan pada objek (misalnya: bangunan) <img src="../images/0441_Contoh_bangunan_yang_diberikan_tag_yang_salah_dan_benar.png" width="">|Satu masalah umum yang sering terjadi yaitu menambahkan tag pada node atau titik yang terdapat pada bagian dari sebuah garis atau poligon. Ini sering terjadi ketika seseorang menggambar sebuah objek, kemudian melakukan _select all)_ pada objek (memilih semua titik/_select node_ pada garis). Kemudian seseorang menambahkan _presets_, sehingga tag terdapat di setiap sudut poligon, ini adalah cara yang tidak tepat. Cara untuk menghindari hal ini, dengan klik objek secara langsung pada garis atau hindari _select all_ pada objek.|
+|Tag diberikan pada node, bukan pada objek (misalnya: bangunan) <img src="../images/0441_Contoh_bangunan_yang_diberikan_tag_yang_salah_dan_benar.png" width="10000">|Satu masalah umum yang sering terjadi yaitu menambahkan tag pada node atau titik yang terdapat pada bagian dari sebuah garis atau poligon. Ini sering terjadi ketika seseorang menggambar sebuah objek, kemudian melakukan _select all)_ pada objek (memilih semua titik/_select node_ pada garis). Kemudian seseorang menambahkan _presets_, sehingga tag terdapat di setiap sudut poligon, ini adalah cara yang tidak tepat. Cara untuk menghindari hal ini, dengan klik objek secara langsung pada garis atau hindari _select all_ pada objek.|
 |Persimpangan yang bertemu di sudut jalan atau persimpangan jalan harus dipisah <img src="../images/0442_Contoh_pembuatan_simpangan_yang_salah_dan_benar.png" width="">|Ketika jalan bersinggungan atau persimpangan satu sama lain di sudut jalan, Anda tidak boleh membuat garis melengkung di persimpangan. Garis seharusnya berbentuk sudut 90° dan terpisah menjadi dua segmen garis yang berbeda, seperti di kondisi yang sebenarnya di lapangan|
 |Tidak ada tag pada node atau garis <img src="../images/0443_Contoh_tidak_ada_tag_pada_node_atau_garis.png" width="">|Untuk memperbaiki kesalahan ini, pilih objek dan masukan _presets_ sesuai dengan informasi objek tersebut atau bisa dihapus bila objek itu merupakan kesalahan. Hal ini dikarenakan, server OSM tidak bisa membaca sebuah objek yang tidak dilengkapi dengan presets (informasi objek).|
 |Garis berada dekat dengan garis lain tetapi tidak terhubung <img src="../images/0444_Contoh_garis_jalan_yang_tidak_saling_terhubung.png" width="">|Untuk memperbaikinya, Anda dapat memilih titik dari garis yang ingin dihubungkan dan kemudian pilih _tool Draw nodes_ untuk menambahkan titik di garis yang mendatar/garis yang berada di depannya. Alternatif lainnya, Anda dapat menggunakan _tool Merge Node_ (jika di depan garis yang belum terhubung tersebut merupakan sebuah titik), caranya: 1. Pilih kedua titik yang berdekatan, yang berada di dalam kedua garis yang ingin dihubungkan. 2. Pilih _Merge Node_ yang berada di  _Menu tools_. Jika didepan garis yang belum terhubung tersebut tidak terdapat sebuah titik, Anda bisa menggunakan _tool Join Node to Way_ dengan cara: 1. Pilih titik terakhir dari garis yang belum terhubung dan juga pilih garis yang berada di depan garis yang belum terhubung. 2. Pilih _Join Node to Way_ yang Berada Di _Menu Tools_|
@@ -394,7 +395,7 @@ Langkah digitasinya adalah sebagai berikut:
 </p>
 <p align="center"><i>Cara menambahkan jembatan</i></p>
 
-*   Akan terbuka kotak dialog _preset _jembatan (_bridges_). Cukup isikan keterangan **Bridge=yes** dan **Layer=1**. Layer=1 ini berfungsi untuk menambahkan informasi bahwa jembatan tersebut berada di satu tingkat lebih tinggi dibandingkan dengan dasarnya.
+*   Akan terbuka kotak dialog _preset_ jembatan (_bridges_). Cukup isikan keterangan **Bridge=yes** dan **Layer=1**. Layer=1 ini berfungsi untuk menambahkan informasi bahwa jembatan tersebut berada di satu tingkat lebih tinggi dibandingkan dengan dasarnya.
 
 <p align="center">
  <img src="../images/0454_Informasi_yang_harus_diisi_untuk_jembatan.png"
@@ -481,7 +482,7 @@ Perhatikan arah panah pada kedua garis berbeda. Pada garis pertama, arah panah k
 Jika suatu jalan terdiri atas empat ruas yang berbeda (berarti terdapat 3 pembatas jalan), misalnya jalur lambat arah ke utara, jalur cepat arah ke utara, jalur lambat arah ke selatan, dan jalur cepat arah ke selatan; maka Anda harus menggambarkan jalan tersebut dengan 4 garis. Kondisi tersebut misalnya dijumpai di Jalan Sudirman, Jakarta Pusat.
 
 <p align="center">
- <img src="../images/0465_Salah_satu_bagian_Jalan_Sudirman_Jakarta_Pusat_yang_terdiri_dari_4_ruas_3_pembatas_jalan.png"
+ <img width=50% src="../images/0465_Salah_satu_bagian_Jalan_Sudirman_Jakarta_Pusat.png"
 </p>
 <p align="center"><i>Salah satu bagian Jalan Sudirman, Jakarta Pusat, yang terdiri dari empat ruas (tiga pembatas jalan)</i></p>
 
