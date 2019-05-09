@@ -38,7 +38,7 @@ Dalam survei lapangan, _data entry_ mengumpulkan dua jenis data yaitu data objek
 
      *   Setelah itu, pada kolom pencarian di sebelah kanan atas, silakan Anda ketik **‘.osm’**. Hal ini bertujuan untuk mencari seluruh data hasil survei dengan format .osm. 
          <p align="center"><img width=70% src="../images/0204_Pencarian_data_dengan_format_osm.png"</p>
-        <p align="center"><i>Pencarian data dengan format .osm</i></p>
+         <p align="center"><i>Pencarian data dengan format .osm</i></p>
 
     *   Jika sudah, silakan Anda pilih semua data tersebut dengan cara klik pada salah satu _file_ dan tekan tombol **Ctrl+A** untuk memilih seluruh file tersebut. 
   <p align="center"><img width=70% src="../images/0205_Seluruh_file_sudah_terpilih.png"</p>
@@ -76,7 +76,7 @@ Dalam survei lapangan, _data entry_ mengumpulkan dua jenis data yaitu data objek
 Setelah Anda melakukan pengecekan data mentah atau _raw_ data yang telah dikumpulkan, Anda perlu melakukan pengecekan terhadap data yang telah berhasil di-_upload_ ke dalam server _OpenStreetMap_. Pengecekan ini dilakukan dengan menggunakan bantuan _plugin to do list_ dan alat validasi _(validation tool)_ yang telah tersedia di _software_ JOSM.
 
 1. Menggunakan _Plugin To do list_
-    Anda dapat menggunakan _plugin_ pada JOSM yang bernama _To do list_ untuk melakukan pengecekan data hasil survei. To do list memungkinkan Anda untuk membuat daftar objek-objek apa saja yang telah dikumpulkan. Dengan adanya daftar ini akan memudahkan Anda untuk melakukan pengecekan data sehingga tidak akan ada data yang terlewat. Anda dapat melihat kembali materi **Menggunakan to-do list** di JOSM untuk memahami lebih lanjut. 
+    <br>Anda dapat menggunakan _plugin_ pada JOSM yang bernama _To do list_ untuk melakukan pengecekan data hasil survei. To do list memungkinkan Anda untuk membuat daftar objek-objek apa saja yang telah dikumpulkan. Dengan adanya daftar ini akan memudahkan Anda untuk melakukan pengecekan data sehingga tidak akan ada data yang terlewat. Anda dapat melihat kembali materi **Menggunakan to-do list** di JOSM untuk memahami lebih lanjut. 
 
     Sebagai contoh, Anda mempunyai data hasil survei sebagai berikut:
 <p align="center"><img width=70% src="../images/0213_Contoh_data_hasil_survei.png"</p>
@@ -93,7 +93,7 @@ Setelah Anda melakukan pengecekan data mentah atau _raw_ data yang telah dikumpu
     <p align="center"><i>Perbedaan posisi titik data hasil input dan data mentah</i></p>
 
 2. Menggunakan Alat Validasi
-    Untuk melakukan pengecekan hasil input data survei, langkah-langkah yang harus dilakukan adalah: 
+    <br>Untuk melakukan pengecekan hasil input data survei, langkah-langkah yang harus dilakukan adalah: 
 
    *   _Download_ data _OpenStreetMap_ pada lokasi survei yang ingin Anda cek datanya.
   <p align="center"><img width=70% src="../images/0216_Contoh_data_OSM_yang_telah_didownload.png"</p>
