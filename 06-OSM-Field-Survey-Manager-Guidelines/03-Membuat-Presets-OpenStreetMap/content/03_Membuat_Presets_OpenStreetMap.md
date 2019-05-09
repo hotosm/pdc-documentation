@@ -92,7 +92,7 @@ Ini merupakan _key_ wajib yang mendefinisikan informasi utama dari suatu objek w
                                    Struktur dasar   : <text key="......" text="......" />
 ```
 Ini merupakan elemen yang mendefinisikan informasi objek dalam bentuk isian. Elemen ini biasanya digunakan untuk informasi nama dan alamat objek. Sebagai contoh jika Anda ingin memberikan informasi nama objek maka Anda dapat menuliskannya seperti: 
-**<text key=”name” text=”nama”/>**
+<text key=”name” text=”nama”/>
 
 Penambahan kata “text” pada contoh di atas adalah sebagai label informasi yang akan tampil di JOSM. Pada bagian “text” ini Anda dapat mengisinya dengan Bahasa Indonesia ataupun bahasa lain yang Anda inginkan. Contoh tampilan dari elemen ini di JOSM seperti berikut:
 
@@ -108,7 +108,7 @@ Struktur dasar : <combo key="......" text="......" values="...,...,..." display_
 ```
 Ini merupakan elemen yang menampilkan informasi dalam bentuk pilihan. Elemen ini biasanya digunakan untuk informasi seperti tipe atap ataupun jenis dinding. Jika ingin mengumpulkan seperti itu Anda dapat menuliskannya di _presets_ seperti berikut:
 
-**<combo key="building:materials" text="Tipe Dinding" values="bamboo, brick,concrete,glass,wood" display_values="Bambu,Bata,Beton,Kaca, Papan Kayu" />**
+<combo key="building:materials" text="Tipe Dinding" values="bamboo, brick,concrete,glass,wood" display_values="Bambu,Bata,Beton,Kaca, Papan Kayu" />
 
 Elemen yang terlihat pada contoh di atas tersebut berfungsi untuk menentukan informasi jenis dinding sehingga _key_ yang digunakan adalah “_building:walls”_ dan kata “_text”_ untuk menampilkan label _key_ dalam Bahasa Indonesia.
 
@@ -129,7 +129,7 @@ Struktur dasar : <multiselect key="......" text="......" values="...;...;...;...
 
 Elemen ini dapat menampilkan informasi dalam bentuk pilihan. Elemen ini mirip dengan _combo key_ dimana Anda dapat memasukkan pilihan informasi yang akan dipilih, akan tetapi perbedaannya adalah dengan elemen ini Anda dapat memilih lebih dari satu pilihan. Elemen ini biasanya digunakan untuk informasi seperti sumber air di suatu bangunan dimana kadang bisa memiliki lebih dari 1 sumber air. Berikut penulisan elemen ini dalam _presets_:
 
-**<multiselect key="water_source" text="Sumber Air" values="water_works;manual_pump;powered_pump" display_values="PDAM;Pompa Tangan;Mesin Pompa"/>**
+<multiselect key="water_source" text="Sumber Air" values="water_works;manual_pump;powered_pump" display_values="PDAM;Pompa Tangan;Mesin Pompa"/>
 
 Penulisan elemen ini mirip dengan _combo key_ dimana perbedaannya adalah kata _multiselect_ menggantikan kata _combo_ dan pemisah antara _value_ menggunakan titik koma (;) sedangkan label _key_ dan _value_ yang dapat ditulis dalam Bahasa Indonesia sama-sama menggunakan kata _text_ dan _display_values_. Ini merupakan contoh tampilan elemen _multiselect key_ di JOSM:
 
@@ -144,7 +144,7 @@ Penulisan elemen ini mirip dengan _combo key_ dimana perbedaannya adalah kata _m
           Struktur Dasar : <check key="......" text="......" value_on="yes" value_off="no" default="......" />
 ```
 Elemen ini biasanya digunakan untuk menampilkan isian informasi yang berupa tanda centang. Biasanya elemen ini digunakan untuk pertanyaan yang jawabannya iya atau tidak seperti akses ke atap dan jalan satu arah. Anda dapat menuliskan elemen ini di _preset_ seperti berikut:
-**<check key="access:roof" text="Ada akses ke atap" value_on="yes" value_off="no" default="off" />**
+<check key="access:roof" text="Ada akses ke atap" value_on="yes" value_off="no" default="off" />
 
 Penulisan elemen menggunakan _value_on_ dan _value_off_ dimana masing-masing dapat sesuai dengan nilai dimana _value_on_ artinya jika informasi itu dicentang dan _value_off_ jika tidak dicentang. Adapun _default_ atau pengaturan awal dari elemen ini adalah perintah bahwa jika tidak dicentang maka informasi ini akan tetap muncul di jendela _membership_ di JOSM. Berikut adalah contoh tampilan elemen ini di JOSM:
 
