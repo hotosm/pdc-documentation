@@ -146,7 +146,7 @@ Terdapat banyak sekali kesalahan dan peringatan yang muncul ketika Anda melakuka
         Peringatan ini merupakan peringatan yang cukup sering muncul ketika melakukan validasi. Seringkali pengguna memetakan dua bangunan yang berbeda tetapi diletakkan secara bertumpuk. Untuk mengatasi _warning_ ini, Anda cukup memindahkan atau menghapus  salah satu bangunan yang bertumpukan.
 <p align="center"><img width=70% src="../images/0223_Warning_Crossing_building.png"</p>
         <p align="center"><i>Warning: Crossing building</i></p>
-
+        
     *   _Crossing Ways_ (Garis Bersinggungan)
         _Warning_ ini muncul ketika terdapat dua buah objek garis atau jalan yang digambar tanpa adanya titik perpotongan antar jalan. Untuk mengatasi _warning_ ini, Anda cukup menambahkan titik perpotongan yang terletak pada percabangan kedua jalan tersebut.
 <p align="center"><img width=70% src="../images/0224_Warning_Crossing_ways.png"</p>
@@ -154,38 +154,38 @@ Terdapat banyak sekali kesalahan dan peringatan yang muncul ketika Anda melakuka
 
     *   _Overlapping Highways_ (Jalan saling bertumpang tindih)
         _Warning_ ini muncul ketika terdapat bagian jalan yang bertumpukkan dengan bagian jalan lain. Untuk menyelesaikannya, Anda dapat menggeser atau menghapus bagian jalan yang bertumpukkan. 
-![alt_text](images/0225_Warning_Overlapping_highways.png "image_tooltip")
-        _Warning: Overlapping highways_
+<p align="center"><img width=70% src="../images/0225_Warning_Overlapping_highways.png"</p>
+        <p align="center"><i>Warning: Overlapping highways</i></p>
 
     *   _Node connect highways and building_ (Titik bangunan dan jalan saling terhubung)
         _Warning_ ini muncul ketika titik objek bangunan dan titik objek jalan secara tidak sengaja saling terhubung satu sama lain. Untuk menyelesaikannya, silakan Anda pisahkan titik tersebut dengan menggunakan _tools **unglue node**_.
-![alt_text](images/0226_Warning_Node_connect_higways_and_building.png "image_tooltip")
-        _Warning: Node connect highways and building_
+<p align="center"><img width=70% src="../images/0226_Warning_Node_connect_higways_and_building.png"</p>
+        <p align="center"><i>Warning: Node connect highways and building</i></p>
 
     *   _Untagged ways_ (Objek belum diberi tag) 
         _Untagged ways_ merupakan peringatan atau _warning_ yang  muncul disebabkan adanya objek yang belum diberi identitas atau _tag_. JOSM akan menandai objek tersebut sebagai objek tanpa identitas, mengingat pentingnya pemberian identitas atau atribut pada setiap objek yang dipetakan. Apabila Anda tetap mengabaikan peringatan ini, objek tersebut tetap dapat Anda _upload_ tetapi objek tersebut tidak akan muncul pada situs _OpenStreetMap_. Silakan Anda berikan _presets_ yang sesuai untuk objek yang belum diberikan informasi objek.
-![alt_text](images/0227_Warning_Untagged_ways.png "image_tooltip")
-_Warning:Untagged ways_
+<p align="center"><img width=70% src="../images/0227_Warning_Untagged_ways.png"</>
+<p align="center"><i>Warning:Untagged ways</i></p>
 
     *   _Way end node near other highways_ (titik tidak terhubung dengan garis terdekat)
         _Warning_ ini muncul ketika ada titik dari objek jalan yang berdekatan dengan jalan lainnya namun tidak terhubung satu sama lain. Jika memang jalan tersebut merupakan jalan yang tidak dapat dilalui (jalan buntu) silakan gunakan tag **highway=block**. Namun jika ternyata jalan tersebut saling berhubungan, silakan Anda gabungkan jalan tersebut dengan menggunakan fungsi **Merge**.
-![alt_text](images/0228_Warning_Way_end_node_near_other_highways.png "image_tooltip")
-        _Warning: Way end node near other highways_
+<p align="center"><i>images/0228_Warning_Way_end_node_near_other_highways.png"</p>
+        <p align="center"><i>Warning: Way end node near other highways</i></p>
 
     *   _Building inside building_ (bangunan di dalam bangunan)
         Peringatan atau _warning_ ini juga salah satu jenis _warning_ yang sering muncul ketika melakukan validasi. _Warning_ ini terjadi ketika ada poligon bangunan yang digambar di dalam poligon bangunan lain. Untuk menyelesaikannya, silakan Anda geser atau hapus salah satu bangunan yang ada di dalam poligon bangunan lain. 
-![alt_text](images/0229_Warning_Building_inside_building.png "image_tooltip")
-        _Warning: Building inside building_
+<p align="center"><img width=70% src="../images/0229_Warning_Building_inside_building.png"</p>
+        <p align="center"><i>Warning: Building inside building</i></p>
 
     *   _Unnamed ways_ (Jalan belum diberi nama)
         _Unnamed ways_ menandakan adanya jalan yang belum diberi nama. Jenis _warning_ ini dapat diabaikan, karena bisa saja ketika Anda melakukan pemetaan jarak jauh, Anda hanya memetakan objek jalannya saja tanpa mengetahui nama jalan tersebut. 
-![alt_text](images/0230_Warning_Unnamed_ways.png "image_tooltip")
-        _Warning: Unnamed ways_
+<p align="center"><img width=70% src="../images/0230_Warning_Unnamed_ways.png"</p>
+        <p align="center"><i>Warning: Unnamed ways</i></p>
 
     *   _Similarly named ways_ (Jalan memiliki nama yang sama)
         _Warning_ ini muncul ketika ada beberapa jalan yang memiliki nama jalan yang hampir mirip. Sebagai contoh, ada jalan dengan nama Jalan Tebet Timur I, Jalan Tebet Timur IA, Jalan Tebet Timur IAA, dan sebagainya. Jenis _warning_ ini dapat Anda abaikan jika memang pada kenyataannya jalan tersebut memiliki nama jalan yang hampir serupa. 
-![alt_text](images/0231_Warning_Similarly_named_ways.png "image_tooltip")
-        _Warning: Similarly named ways_
+<p align="center"><img width=70% src="../images/0231_Warning_Similarly_named_ways.png"</p>
+        <p align="center"><i>Warning: Similarly named ways</i></p>
 
 
 **RINGKASAN**
