@@ -49,7 +49,7 @@ Pelatihan dilakukan selama 3 hari, bertujuan untuk menggunakan alat-alat survei 
 
 *   Pelatihan Validasi Data untuk _Quality Assurance_
 
-Pelatihan dilakukan selama 2 hari,  bertujuan untuk melakukan validasi data yang sudah dimasukkan oleh_ data entry_ ke dalam _OpenStreetMap_. Materi pelatihan yang diberikan, sebagai berikut: 
+Pelatihan dilakukan selama 2 hari,  bertujuan untuk melakukan validasi data yang sudah dimasukkan oleh _data entry_ ke dalam _OpenStreetMap_. Materi pelatihan yang diberikan, sebagai berikut: 
 
 1. Validasi Data OSM menggunakan JOSM
 2. Validasi Data OSM menggunakan Tasking Manager
@@ -66,7 +66,7 @@ Pelatihan dilakukan selama 1 hari, bertujuan untuk membuat peta hasil survei lap
 
 #### **b. Persiapan Mapathon**
 
-Mapathon adalah pemetaan yang dilakukan secara bersama-sama secara partisipatif dengan menggunakan _tasking manager_. Anda dapat bekerja sama dengan pihak universitas untuk membantu memetakan bangunan dan jalan di wilayah pemetaan Anda. Hal ini sangat efektif untuk membantu pemetaan sehingga data entry dapat berfokus pada survei lapangan dan mempersingkat durasi pemetaan. Juga dapat menjalin kerjasama guna keberlanjutan data _OpenStreetMap_ di wilayah tersebut. Kegiatan mapathon dapat dilakukan selama 3 hari, dengan kegiatan di hari pertama diisi dengan pelatihan, kemudian hari kedua dan ketiga diisi dengan kegiatan pemetaan.
+Mapathon adalah pemetaan yang dilakukan secara bersama-sama secara partisipatif dengan menggunakan _tasking manager_. Anda dapat bekerja sama dengan pihak universitas untuk membantu memetakan bangunan dan jalan di wilayah pemetaan Anda. Hal ini sangat efektif untuk membantu pemetaan sehingga _data entry_ dapat berfokus pada survei lapangan dan mempersingkat durasi pemetaan. Juga dapat menjalin kerjasama guna keberlanjutan data _OpenStreetMap_ di wilayah tersebut. Kegiatan mapathon dapat dilakukan selama 3 hari, dengan kegiatan di hari pertama diisi dengan pelatihan, kemudian hari kedua dan ketiga diisi dengan kegiatan pemetaan.
 
 ### **II. Pembuatan _Timeline_ Survei Pemetaan**
 
