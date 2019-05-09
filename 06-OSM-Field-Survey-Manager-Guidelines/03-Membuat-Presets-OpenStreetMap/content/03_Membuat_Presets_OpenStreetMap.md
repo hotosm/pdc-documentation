@@ -86,7 +86,7 @@ Ini merupakan _key_ wajib yang mendefinisikan informasi utama dari suatu objek w
 
 
 <p align="center">
-  <img width=30% src="../images/0312_presets.PNG "penulisan elemen key key di xml">
+  <img width=35% src="../images/0312_presets.PNG "penulisan elemen key key di xml">
 </p>
 
 
@@ -98,7 +98,7 @@ Ini merupakan _key_ wajib yang mendefinisikan informasi utama dari suatu objek w
 Ini merupakan elemen yang mendefinisikan informasi objek dalam bentuk isian. Elemen ini biasanya digunakan untuk informasi nama dan alamat objek. Sebagai contoh jika Anda ingin memberikan informasi nama objek maka Anda dapat menuliskannya seperti: 
 
 <p align="center">
-  <img width=30% src="../images/0313_presets.PNG "penulisan elemen text key di xml">
+  <img width=35% src="../images/0313_presets.PNG "penulisan elemen text key di xml">
 </p>
 
 Penambahan kata “text” pada contoh di atas adalah sebagai label informasi yang akan tampil di JOSM. Pada bagian “text” ini Anda dapat mengisinya dengan Bahasa Indonesia ataupun bahasa lain yang Anda inginkan. Contoh tampilan dari elemen ini di JOSM seperti berikut:
@@ -157,7 +157,7 @@ Penulisan elemen ini mirip dengan _combo key_ dimana perbedaannya adalah kata _m
 Elemen ini biasanya digunakan untuk menampilkan isian informasi yang berupa tanda centang. Biasanya elemen ini digunakan untuk pertanyaan yang jawabannya iya atau tidak seperti akses ke atap dan jalan satu arah. Anda dapat menuliskan elemen ini di _preset_ seperti berikut:
 
 <p align="center">
-  <img width=80% src="../images/0316_presets.PNG "penulisan elemen check key di xml">
+  <img width=90% src="../images/0316_presets.PNG "penulisan elemen check key di xml">
 </p>
 
 Penulisan elemen menggunakan _value_on_ dan _value_off_ dimana masing-masing dapat sesuai dengan nilai dimana _value_on_ artinya jika informasi itu dicentang dan _value_off_ jika tidak dicentang. Adapun _default_ atau pengaturan awal dari elemen ini adalah perintah bahwa jika tidak dicentang maka informasi ini akan tetap muncul di jendela _membership_ di JOSM. Berikut adalah contoh tampilan elemen ini di JOSM:
