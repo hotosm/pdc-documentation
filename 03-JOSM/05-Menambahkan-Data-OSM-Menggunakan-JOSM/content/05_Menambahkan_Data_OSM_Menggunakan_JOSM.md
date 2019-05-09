@@ -267,7 +267,7 @@ Apabila Anda belum selesai memetakan wilayah pemetaan Anda dan ingin melanjutkan
 
 ### **VIII. Melihat Perubahan di Peta**
 
-*   Anda dapat melihat perubahan di peta OSM dengan mengeceknya pada _website_ <www.openstreetmap.org> dan mengarahkan peta ke wilayah pemetaan yang sudah Anda tambahkan datanya. Perlu diingat, perubahan baru dapat dilihat beberapa saat setelah Anda meng-_upload_ hasil pemetaan ke server OSM.
+*   Anda dapat melihat perubahan di peta OSM dengan mengeceknya pada _website_ <https://www.openstreetmap.org> dan mengarahkan peta ke wilayah pemetaan yang sudah Anda tambahkan datanya. Perlu diingat, perubahan baru dapat dilihat beberapa saat setelah Anda meng-_upload_ hasil pemetaan ke server OSM.
 
 <p align="center">
 <img width=90% src="../images/0528_hasil_upload.png" alt="Tampilan perubahan sebelum dan sesudah proses pemetaan" title="Tampilan perubahan sebelum dan sesudah proses pemetaan">
