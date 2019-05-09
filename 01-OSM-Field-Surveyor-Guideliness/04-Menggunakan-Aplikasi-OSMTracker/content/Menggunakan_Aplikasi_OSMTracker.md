@@ -102,9 +102,9 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
 
     2. Pilih menu _**Stop tracking.**_
     3. Anda juga dapat menggunakan tombol 
-    <p align="center"><img width=5% src="../images/0412_Tombol_save.png"</p> 
+       <p align="center"><img width=5% src="../images/0412_Tombol_save.png"</p> 
     
-    yang berada di sebelah kanan atas halaman _Track logger_ Anda untuk berhenti melakukan perekaman dan menyimpan hasil perekaman Anda. 
+       yang berada di sebelah kanan atas halaman _Track logger_ Anda untuk berhenti melakukan perekaman dan menyimpan hasil perekaman          Anda. 
 
     Jika Anda ingin melanjutkan kembali perekaman trek yang sudah Anda kumpulkan, langkah-langkah yang perlu Anda lakukan adalah: 
 
@@ -120,7 +120,10 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
 
 
 4. **Melihat Daftar Objek yang Dikumpulkan**
-    Anda dapat melihat objek-objek apa saja yang telah Anda kumpulkan pada saat survei. Pada halaman _Track logger_ pilih tombol <p align="center"><img width=70% src="../images/0403_Tombol_settings.png"</p> yang berada di sebelah kanan atas, kemudian pilih **_Waypoints_**. 
+    Anda dapat melihat objek-objek apa saja yang telah Anda kumpulkan pada saat survei. Pada halaman _Track logger_ pilih tombol 
+    <p align="center"><img src="../images/0403_Tombol_settings.png"</p> 
+    
+    yang berada di sebelah kanan atas, kemudian pilih **_Waypoints_**. 
 
     <p align="center"><img width=50% src="../images/0415_Tombol_untuk_menampilkan_daftar_waypoints_yang_telah_dikumpulkan.png"</p>
     <p align="center"><i>Tombol untuk menampilkan daftar waypoints yang telah dikumpulkan</i></p>
@@ -131,7 +134,10 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
     <p align="center"><i>Halaman Waypoint list untuk melihat daftar objek yang telah dikumpulkan</i></p>
 
 5. **Melihat Rute Perjalanan dan Objek yang Dikumpulkan pada Peta**
-    Anda juga dapat melihat sejauh apa rute perjalanan yang telah Anda lewati dan titik-titik objek yang telah dikumpulkan. Pada halaman _Track logger_ pilih menu <p align="center"><img width=70% src="../images/0403_Tombol_settings.png"</p> di sebelah kanan atas, kemudian pilih **_Display Track_**. 
+    Anda juga dapat melihat sejauh apa rute perjalanan yang telah Anda lewati dan titik-titik objek yang telah dikumpulkan. Pada halaman _Track logger_ pilih menu 
+    <p align="center"><img src="../images/0403_Tombol_settings.png"</p> 
+    
+    di sebelah kanan atas, kemudian pilih **_Display Track_**. 
 
     <p align="center"><img width=40% src="../images/0417_Tombol_untuk_melihat_rute_perjalanan_dan_objek_yang_telah_dikumpulkan.png"</p>
     <p align="center"><i>Tombol untuk melihat rute perjalanan dan objek yang telah dikumpulkan</i></p>
