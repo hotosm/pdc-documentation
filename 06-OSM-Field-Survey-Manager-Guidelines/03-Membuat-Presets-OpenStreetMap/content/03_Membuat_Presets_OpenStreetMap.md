@@ -103,7 +103,7 @@ Penambahan kata “text” pada contoh di atas adalah sebagai label informasi ya
 *   Elemen **combo** key
 
 ```
-          Struktur dasar : <combo key="......" text="......" values="...,...,..." display_values="...,...,..."/>
+Struktur dasar : <combo key="......" text="......" values="...,...,..." display_values="...,...,..."/>
 ```
 Ini merupakan elemen yang menampilkan informasi dalam bentuk pilihan. Elemen ini biasanya digunakan untuk informasi seperti tipe atap ataupun jenis dinding. Jika ingin mengumpulkan seperti itu Anda dapat menuliskannya di _presets_ seperti berikut:
 
@@ -123,7 +123,7 @@ Anda juga dapat melihat _value_ yang ada ditambahkan (s) dibelakangnya karena pi
 *   **Elemen multiselect** key
 
 ```
-         Struktur dasar : <multiselect key="......" text="......" values="...;...;...;..." display_valuest="..;..;..;.." />
+Struktur dasar : <multiselect key="......" text="......" values="...;...;...;..." display_valuest="..;..;..;.." />
 ```
 
 Elemen ini dapat menampilkan informasi dalam bentuk pilihan. Elemen ini mirip dengan _combo key_ dimana Anda dapat memasukkan pilihan informasi yang akan dipilih, akan tetapi perbedaannya adalah dengan elemen ini Anda dapat memilih lebih dari satu pilihan. Elemen ini biasanya digunakan untuk informasi seperti sumber air di suatu bangunan dimana kadang bisa memiliki lebih dari 1 sumber air. Berikut penulisan elemen ini dalam _presets_:
@@ -140,7 +140,7 @@ Penulisan elemen ini mirip dengan _combo key_ dimana perbedaannya adalah kata _m
 *   **Elemen check key**
 
 ```
-                    <check key="......" text="......" value_on="yes" value_off="no" default="......" />
+               Struktur Dasar : <check key="......" text="......" value_on="yes" value_off="no" default="......" />
 ```
 Elemen ini biasanya digunakan untuk menampilkan isian informasi yang berupa tanda centang. Biasanya elemen ini digunakan untuk pertanyaan yang jawabannya iya atau tidak seperti akses ke atap dan jalan satu arah. Anda dapat menuliskan elemen ini di _preset_ seperti berikut:
 **<check key="access:roof" text="Ada akses ke atap" value_on="yes" value_off="no" default="off" />**
