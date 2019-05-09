@@ -21,7 +21,9 @@ Jika sudah selesai terpasang, silakan Anda buka aplikasi _OSMTracker_ pada _smar
 
 
 ### 2. Pengaturan Awal _OSMTracker_
-Sebelum Anda dapat menggunakan _OSMTracker_, ada beberapa pengaturan dasar yang harus Anda lakukan. Untuk dapat masuk ke dalam menu pengaturan silakan Anda pilih menu tombol <p align="center"><img src="../images/0403_Tombol_titik_tiga.png"</p> di sebelah kanan atas kemudian pilih **_Settings_**. 
+Sebelum Anda dapat menggunakan _OSMTracker_, ada beberapa pengaturan dasar yang harus Anda lakukan. Untuk dapat masuk ke dalam menu pengaturan silakan Anda pilih menu tombol 
+<p align="center"><img src="../images/0403_Tombol_settings.png"</p> 
+    di sebelah kanan atas kemudian pilih **_Settings_**. 
 
 <p align="center"><img width=30% src="../images/0404_Memilih_menu_Settings_di_aplikasi_OSMTracker.png"</p>
 <p align="center"><i>Memilih menu Settings di aplikasi OSMTracker</i></p>
