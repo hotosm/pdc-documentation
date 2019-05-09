@@ -15,6 +15,7 @@ Berangkat dari kebutuhan informasi dan disepakatinya standar internasional oleh 
 ### **I. Konsep Presets di _OpenStreetMap_**
 
 **a.  Pengertian Umum Presets**
+
 _Presets_ merupakan sebuah informasi yang diwakilkan oleh sebuah _Tag_, kombinasi antara _key_ dan _value_ tertentu, dimana memudahkan para pengguna untuk melakukan edit atau memetakan di _OpenStreetMap_ menggunakan JOSM maupun iD Editor. 
 
 ![Tampilan presets di JOSM](../images/0301_presets_1.PNG "Tampilan presets di JOSM")
@@ -26,6 +27,7 @@ Gambar di atas adalah contoh pemberian _presets_ untuk objek sekolah. Jika kemud
 <p align="center"><i>Pengisian presets di JOSM</i></p>
 
 **b. Presets Khusus di JOSM**
+
 Seperti yang sudah dijelaskan di sub-bab sebelumnya, komunitas _OpenStreetMap_ telah membuat _presets_ umum yang otomatis ada ketika Anda menggunakan JOSM. Akan tetapi, _presets_ yang disediakan di JOSM memiliki beberapa kekurangan khususnya untuk pengguna _OpenStreetMap_ di Indonesia, antara lain:
 
 *   Kolom Informasi untuk suatu objek tidak lengkap dan tidak sesuai kebutuhan pemetaan
@@ -41,7 +43,7 @@ Oleh karena itu solusi untuk mengatasi masalah-masalah tersebut adalah dengan me
 
 ### **II. Penggunaan Bahasa XML untuk Presets di OpenStreetMap**
 
-Sebelum memulai membuat _presets _ada baiknya Anda memahami terlebih dahulu bahasa yang digunakan untuk membuat _presets _itu sendiri. _Presets _yang dimasukkan ke dalam JOSM menggunakan bahasa yang disebut _Extensible Markup Language_ atau disingkat XML. Bahasa XML merupakan bahasa yang berfungsi untuk membawa data-data yang nantinya dapat ditampilkan di JOSM dan _OpenStreetMap. _Bahasa XML menggunakan elemen-elemen penyusun yang memiliki hierarki dimana elemen tersebut akan mempunyai sub-elemen dan sub-elemen akan memiliki sub-sub-elemen. 
+Sebelum memulai membuat _presets_ ada baiknya Anda memahami terlebih dahulu bahasa yang digunakan untuk membuat _presets_ itu sendiri. _Presets_ yang dimasukkan ke dalam JOSM menggunakan bahasa yang disebut _Extensible Markup Language_ atau disingkat XML. Bahasa XML merupakan bahasa yang berfungsi untuk membawa data-data yang nantinya dapat ditampilkan di JOSM dan _OpenStreetMap_. Bahasa XML menggunakan elemen-elemen penyusun yang memiliki hierarki dimana elemen tersebut akan mempunyai sub-elemen dan sub-elemen akan memiliki sub-sub-elemen. 
 
 ![Contoh tampilan XML di Notepad ++](../images/0304_presets_4.JPG "Contoh tampilan XML di Notepad ++")
 <p align="center"><i>Contoh tampilan XML di Notepad ++</i></p>
@@ -151,6 +153,7 @@ Penulisan elemen menggunakan _value_on_ dan _value_off_ dimana masing-masing dap
 <p align="center"><i>Tampilan elemen check key di JOSM</i></p>
 
 **b. Memasukkan Ikon di Presets**
+
 Hal lain yang dapat Anda lakukan dalam membuat _presets_ adalah memasukkan ikon di _presets_ Anda. Ikon berfungsi sebagai gambar yang mewakili objek yang akan diisi informasinya dan selain itu akan memperindah tampilan dari _presets_ Anda. Untuk memasukkan ikon di _presets_ maka Anda harus memasukkan keterangan ikon dan tipe data di elemen pada _presets_ seperti contoh di bawah ini:
 
 ![susunan presets](../images/0310_presets_10.JPG "susunan presets")
@@ -158,7 +161,7 @@ Hal lain yang dapat Anda lakukan dalam membuat _presets_ adalah memasukkan ikon 
 
 Jika Anda ingin menggunakan ikon yang sudah ada di JOSM maka Anda dapat melihatnya di **[https://josm.openstreetmap.de/browser/josm/trunk/images/presets ](https://josm.openstreetmap.de/browser/josm/trunk/images/presets)**. Akan tetapi, jika Anda ingin menggunakan ikon yang berbeda Anda dapat membuat ikon tersebut ataupun mengambilnya dari tempat lain dan menempatkannya secara _offline_ di laptop/komputer Anda. Akan tetapi jika Anda membagikan _presets_ Anda ke teman Anda maka ikon tersebut tidak akan muncul di JOSM yang ada di laptop/komputer mereka. Berikut adalah contoh sumber untuk menaruh ikon secara _offline_ di laptop/komputer Anda. \
  **C:\Users\(nama komputer/laptop Anda)\Desktop\icon presets\building.png** \
-Silahkan _download_ contoh presets HOT-PDC InAWARE sebagai acuan Anda dalam mempelajari materi _presets_ di bit.ly/presetshotpdcid
+Silahkan _download_ contoh presets HOT-PDC InAWARE sebagai acuan Anda dalam mempelajari materi _presets_ di https://bit.ly/presetshotpdcid
 
 <p align="center">
   <img width="400" height="300" src="../images/0311_presets_11.JPG "Contoh tampilan ikon di Presets JOSM">
