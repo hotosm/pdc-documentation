@@ -31,40 +31,40 @@ Dalam survei lapangan, _data entry_ mengumpulkan dua jenis data yaitu data objek
 3. **Menggabungkan hasil survei menjadi satu layer**
     <br>Anda harus menggabungkan _file_ hasil survei _ODK Collect_ menjadi satu _file_ yang sama. Untuk menggabungkannya, langkah-langkah yang harus Anda lakukan adalah:
 
-   *   Silakan Anda cari _file_ _ODK Collect_ yang telah Anda pindahkan dari _smartphone_ ke laptop/komputer Anda dengan menggunakan **Windows Explorer**. Jika Anda lupa bagaimana cara memindahkan data ODK Collect dari _smartphone_ ke laptop/komputer Anda, silakan baca kembali modul **Menggunakan Aplikasi ODK Collect**. Sebagai contoh, dalam modul kali ini akan digunakan data hasil survei yang dilakukan di daerah Yogyakarta.
+*   Silakan Anda cari _file_ _ODK Collect_ yang telah Anda pindahkan dari _smartphone_ ke laptop/komputer Anda dengan menggunakan **Windows Explorer**. Jika Anda lupa bagaimana cara memindahkan data ODK Collect dari _smartphone_ ke laptop/komputer Anda, silakan baca kembali modul **Menggunakan Aplikasi ODK Collect**. Sebagai contoh, dalam modul kali ini akan digunakan data hasil survei yang dilakukan di daerah Yogyakarta.
 
        <p align="center"><img width=70% src="../images/0203_Data_ODK_Collect_yang_sudah_dipindahkan_ke_laptop.png"</p>
         <p align="center"><i>Data ODK Collect yang sudah dipindahkan ke laptop/komputer</i></p>
 
-     *   Setelah itu, pada kolom pencarian di sebelah kanan atas, silakan Anda ketik **‘.osm’**. Hal ini bertujuan untuk mencari seluruh data hasil survei dengan format .osm. 
+*   Setelah itu, pada kolom pencarian di sebelah kanan atas, silakan Anda ketik **‘.osm’**. Hal ini bertujuan untuk mencari seluruh data hasil survei dengan format .osm. 
          <p align="center"><img width=70% src="../images/0204_Pencarian_data_dengan_format_osm.png"</p>
          <p align="center"><i>Pencarian data dengan format .osm</i></p>
 
-    *   Jika sudah, silakan Anda pilih semua data tersebut dengan cara klik pada salah satu _file_ dan tekan tombol **Ctrl+A** untuk memilih seluruh file tersebut. 
+*   Jika sudah, silakan Anda pilih semua data tersebut dengan cara klik pada salah satu _file_ dan tekan tombol **Ctrl+A** untuk memilih seluruh file tersebut. 
   <p align="center"><img width=70% src="../images/0205_Seluruh_file_sudah_terpilih.png"</p>
         <p align="center"><i>Seluruh file sudah terpilih</i></p>
-
-   *   Selanjutnya, silakan Anda klik dan tahan pada salah satu _file_, kemudian Anda geser seluruh _file_ tersebut dan masukkan ke dalam JOSM. Pastikan Anda sudah membuka _software_ JOSM terlebih dahulu. 
+        
+*   Selanjutnya, silakan Anda klik dan tahan pada salah satu _file_, kemudian Anda geser seluruh _file_ tersebut dan masukkan ke dalam JOSM. Pastikan Anda sudah membuka _software_ JOSM terlebih dahulu. 
         <p align="center"><img width=70% src="../images/0206_Geser_dan_buka_file_osm.png"</p>
         <p align="center"><i>Geser dan buka file .osm ke dalam JOSM</i></p>
 
-   *   Jika sudah berhasil terbuka akan muncul tampilan seperti berikut
+*   Jika sudah berhasil terbuka akan muncul tampilan seperti berikut
         <p align="center"><img width=70% src="../images/0207_Seluruh_file_osm_berhasil_dibuka_dalam_JOSM.png"</p>
         <p align="center"><i>Seluruh file .osm yang berhasil dibuka dalam JOSM</i></p>
 
-   *   Jika Anda lihat pada data yang telah dimasukkan, masing-masing titik hasil survei masih berada dalam satu _layer_ yang berbeda. Untuk itu Anda perlu menggabungkan seluruh data tersebut menjadi satu _layer_ baru. Untuk menggabungkannya, silakan Anda klik salah satu _layer_ data pada _layer window_ kemudian tekan tombol **Ctrl + A** untuk memilih seluruh titik, kemudian klik kanan dan pilih **_Merge_**. 
+*   Jika Anda lihat pada data yang telah dimasukkan, masing-masing titik hasil survei masih berada dalam satu _layer_ yang berbeda. Untuk itu Anda perlu menggabungkan seluruh data tersebut menjadi satu _layer_ baru. Untuk menggabungkannya, silakan Anda klik salah satu _layer_ data pada _layer window_ kemudian tekan tombol **Ctrl + A** untuk memilih seluruh titik, kemudian klik kanan dan pilih **_Merge_**. 
        <p align="center"><img width=70% src="../images/0208_Menggabungkan_seluruh_layer.png"</p>
         <p align="center"><i>Menggabungkan seluruh layer</i></p>
 
-   *   Anda akan diminta untuk memilih _layer_ tujuan atau _target layer_. Anda tidak perlu mengubah _target layer_ ini dan langsung pilih **Merge**.
+*   Anda akan diminta untuk memilih _layer_ tujuan atau _target layer_. Anda tidak perlu mengubah _target layer_ ini dan langsung pilih **Merge**.
        <p align="center"><img width=70% src="../images/0209_Pilih_merge_untuk_menggabungkan_seluruh_data.png"</p>
         <p align="center"><i>Pilih merge untuk menggabungkan seluruh data</i></p>
 
-   *   Data yang sudah berhasil digabungkan akan menjadi hanya satu _layer_.
+*   Data yang sudah berhasil digabungkan akan menjadi hanya satu _layer_.
    <p align="center"><img width=70% src="../images/0210_Seluruh_data_yang_sudah_digabungkan.png"</p>
         <p align="center"><i>Seluruh data yang sudah digabungkan</i></p>
 
-   *   Silakan Anda simpan layer yang telah disatukan dengan cara klik kanan pada layer tersebut, kemudian pilih **Save as**. Simpan layer ini sesuai dengan nama yang Anda inginkan.
+*   Silakan Anda simpan layer yang telah disatukan dengan cara klik kanan pada layer tersebut, kemudian pilih **Save as**. Simpan layer ini sesuai dengan nama yang Anda inginkan.
   <p align="center"><img width=70% src="../images/0211_Save_as.png"</p>
 
 
