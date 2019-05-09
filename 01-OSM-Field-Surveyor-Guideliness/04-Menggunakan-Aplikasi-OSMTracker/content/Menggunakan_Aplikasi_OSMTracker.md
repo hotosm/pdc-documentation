@@ -35,25 +35,25 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
 <p align="center"><i>Beberapa pengaturan pada halaman Settings</i></p>
 
 1. _GPS logging interval_
-    Pengaturan ini menentukan seberapa sering _OSMTracker_ merekam _track_ Anda. Semakin kecil angkanya maka semakin sering _OSMTracker_ akan melakukan perekaman. Pengaturan awal adalah 0 detik, artinya setiap saat _OSMTracker_ akan secara terus menerus melakukan perekaman trek. Hal ini tentunya akan sangat menghabiskan baterai perangkat _smartphone_ Anda. Ubahlah interval perekaman sesuai kebutuhan, misalnya menjadi 2 detik. 
+    <br>Pengaturan ini menentukan seberapa sering _OSMTracker_ merekam _track_ Anda. Semakin kecil angkanya maka semakin sering _OSMTracker_ akan melakukan perekaman. Pengaturan awal adalah 0 detik, artinya setiap saat _OSMTracker_ akan secara terus menerus melakukan perekaman trek. Hal ini tentunya akan sangat menghabiskan baterai perangkat _smartphone_ Anda. Ubahlah interval perekaman sesuai kebutuhan, misalnya menjadi 2 detik. 
 
 2. _External storage (SD) directory_
-    Pengaturan ini dilakukan untuk menentukan dimana Anda akan menyimpan seluruh hasil survei di dalam perangkat _smartphone_. _OSMTracker_ secara otomatis akan membuat folder baru bernama _“osmtracker”_ di penyimpanan internal perangkat Anda. Anda tidak perlu mengganti pengaturan ini apabila tidak perlu. 
+    <br>Pengaturan ini dilakukan untuk menentukan dimana Anda akan menyimpan seluruh hasil survei di dalam perangkat _smartphone_. _OSMTracker_ secara otomatis akan membuat folder baru bernama _“osmtracker”_ di penyimpanan internal perangkat Anda. Anda tidak perlu mengganti pengaturan ini apabila tidak perlu. 
 
 3. _One directory per track_
-    Jika Anda mengaktifkan fitur ini, maka setiap _track_ yang Anda simpan akan membentuk sebuah folder baru di dalam folder _OSMTracker_.
+    <br>Jika Anda mengaktifkan fitur ini, maka setiap _track_ yang Anda simpan akan membentuk sebuah folder baru di dalam folder _OSMTracker_.
 
 4. _Filename for named track_
-    Pengaturan ini menetapkan bagaimana pola nama _file_ dari hasil survei Anda. Pengaturan awal adalah nama _track_, tanggal dimulai, dan waktu pengambilan. Anda bisa mengabaikan pengaturan ini jika Anda tidak ingin mengubah pola penamaan _file_ Anda. 
+    <br>Pengaturan ini menetapkan bagaimana pola nama _file_ dari hasil survei Anda. Pengaturan awal adalah nama _track_, tanggal dimulai, dan waktu pengambilan. Anda bisa mengabaikan pengaturan ini jika Anda tidak ingin mengubah pola penamaan _file_ Anda. 
 
 5. _Screen always on_
-    Dengan mengaktifkan fitur ini, Anda akan membiarkan perangkat _smartphone_ Anda untuk terus menyala ketika Anda menggunakan _OSMTracker_. Namun perlu diingat bahwa jika Anda mengaktifkan fitur ini maka baterai _smartphone_ Anda juga akan semakin cepat habis. 
+    <br>Dengan mengaktifkan fitur ini, Anda akan membiarkan perangkat _smartphone_ Anda untuk terus menyala ketika Anda menggunakan _OSMTracker_. Namun perlu diingat bahwa jika Anda mengaktifkan fitur ini maka baterai _smartphone_ Anda juga akan semakin cepat habis. 
 
 6. _Background map_
-    Pengaturan ini digunakan untuk menampilkan _background_ peta pada tampilan _track_ Anda. Aktifkan pengaturan ini sehingga Anda dapat melihat hasil _track_ Anda dengan tampilan peta sebagai latar belakangnya. 
+    <br>Pengaturan ini digunakan untuk menampilkan _background_ peta pada tampilan _track_ Anda. Aktifkan pengaturan ini sehingga Anda dapat melihat hasil _track_ Anda dengan tampilan peta sebagai latar belakangnya. 
 
 7. _Map tile provider_
-    Anda bisa mengubah tampilan latar belakang peta Anda melalui fitur ini. 
+    <br>Anda bisa mengubah tampilan latar belakang peta Anda melalui fitur ini. 
     
  Setelah semua pengaturan telah selesai dilakukan, Anda telah siap menggunakan _OSMTracker_. Jangan lupa untuk mengaktifkan fitur _Location_ atau GPS yang ada di _smartphone_ Anda. Setelah itu, silakan Anda kembali ke tampilan menu utama _OSMTracker_. Jika Anda baru pertama kali menggunakan _OSMTracker_ maka halaman utama Anda masih akan kosong. Seluruh hasil survei yang telah Anda lakukan nantinya akan muncul di halaman utama. 
 
@@ -61,7 +61,7 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
 
 ### 3. Pengoperasian Dasar _OSMTracker_
 1. **Merekam Rute Perjalanan**
-    Untuk dapat mulai melakukan perekaman rute perjalanan atau perekaman jalur, silakan Anda pilih tombol bertanda **+** yang ada di sebelah kanan atas layar. Setelah itu akan muncul tampilan _Track Logger_.
+    <br>Untuk dapat mulai melakukan perekaman rute perjalanan atau perekaman jalur, silakan Anda pilih tombol bertanda **+** yang ada di sebelah kanan atas layar. Setelah itu akan muncul tampilan _Track Logger_.
 
     <p align="center"><img width=40% src="../images/0406_Tombol_dengan_icon_+_yang_digunakan_untuk_melakukan_perekaman_jalur_atau_merekam_perjalanan_Anda.png"</p>
     <p align="center"><i>Tombol dengan icon + yang digunakan untuk melakukan perekaman jalur atau merekam perjalanan Anda</i></p>
@@ -74,19 +74,19 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
     Ketika GPS sudah berhasil menangkap sinyal dengan baik, maka yang perlu Anda lakukan adalah mulai berjalan sesuai dengan rute survei Anda. Setelah Anda menekan tombol + dan _smartphone_ Anda telah menangkap GPS dengan baik, maka _OSMTracker_ secara otomatis telah merekam rute perjalanan atau jalur perjalanan Anda. 
 
 2. **Merekam Objek dengan Titik dan Gambar**
-    Ada beragam tombol yang terdapat di dalam _track logger_, namun untuk mengambil titik survei atau _waypoint_, Anda cukup menggunakan 2 tombol berikut: 
+    <br>Ada beragam tombol yang terdapat di dalam _track logger_, namun untuk mengambil titik survei atau _waypoint_, Anda cukup menggunakan 2 tombol berikut: 
 
     <p align="center"><img width=40% src="../images/0408_Halaman_track_logger_pada_OSMTracker.png"</p>
     <p align="center"><i>Halaman Track Logger pada OSMTracker</i></p>
 
     1. _Text Note_
-        **_Text note_** digunakan untuk mengambil titik atau _waypoint_ pada saat melakukan survei. Jika Anda sudah berada di titik yang ingin Anda rekam, Anda cukup menekan tombol ini kemudian isi dengan keterangan yang Anda inginkan. Sebagai contoh, Anda dapat menggunakan penomoran diikuti dengan keterangan objeknya. 
+        <br>**_Text note_** digunakan untuk mengambil titik atau _waypoint_ pada saat melakukan survei. Jika Anda sudah berada di titik yang ingin Anda rekam, Anda cukup menekan tombol ini kemudian isi dengan keterangan yang Anda inginkan. Sebagai contoh, Anda dapat menggunakan penomoran diikuti dengan keterangan objeknya. 
 
         <p align="center"><img width=40% src="../images/0409_Contoh_penggunaan_Text_Note_untuk_merekam_titik_survei.png"</p>
         <p align="center"><i>Contoh penggunaan Text Note untuk merekam titik survei</i></p>
 
     2. _Take Photo_
-        **_Take Photo_** digunakan untuk mengambil gambar objek yang Anda survei. Anda dapat mengambil gambar secara langsung menggunakan kamera ataupun dapat mengambilnya dari galeri foto Anda. 
+        <br>**_Take Photo_** digunakan untuk mengambil gambar objek yang Anda survei. Anda dapat mengambil gambar secara langsung menggunakan kamera ataupun dapat mengambilnya dari galeri foto Anda. 
 
         <p align="center"><img width=30% src="../images/0410_Anda_dapat_memilih_foto_lansung_atau_galeri.png"</p>
         <p align="center"><i>Anda dapat memilih untuk mengambil foto langsung menggunakan kamera atau memilih foto dari galeri foto Anda</i></p>
@@ -120,7 +120,7 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
 
 
 4. **Melihat Daftar Objek yang Dikumpulkan**
-    Anda dapat melihat objek-objek apa saja yang telah Anda kumpulkan pada saat survei. Pada halaman _Track logger_ pilih tombol 
+    <br>Anda dapat melihat objek-objek apa saja yang telah Anda kumpulkan pada saat survei. Pada halaman _Track logger_ pilih tombol 
     <p align="center"><img src="../images/0403_Tombol_settings.png"</p> 
     
     yang berada di sebelah kanan atas, kemudian pilih **_Waypoints_**. 
@@ -134,7 +134,7 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
     <p align="center"><i>Halaman Waypoint list untuk melihat daftar objek yang telah dikumpulkan</i></p>
 
 5. **Melihat Rute Perjalanan dan Objek yang Dikumpulkan pada Peta**
-    Anda juga dapat melihat sejauh apa rute perjalanan yang telah Anda lewati dan titik-titik objek yang telah dikumpulkan. Pada halaman _Track logger_ pilih menu 
+    <br>Anda juga dapat melihat sejauh apa rute perjalanan yang telah Anda lewati dan titik-titik objek yang telah dikumpulkan. Pada halaman _Track logger_ pilih menu 
     <p align="center"><img src="../images/0403_Tombol_settings.png"</p> 
     
     di sebelah kanan atas, kemudian pilih **_Display Track_**. 
@@ -153,12 +153,12 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
     <p align="center"><i>Contoh hasil rute perjalanan dan titik survei yang sudah diambil pada saat survei</i></p>
 
 4. **Menyimpan _OSMTracker_**
-    Setelah Anda melakukan survei lapangan, Anda tentu ingin menyimpan data hasil survei Anda untuk kemudian Anda gunakan sebagai acuan pada saat melakukan pemetaan. Untuk itu, data hasil survei yang telah berhasil Anda kumpulkan dapat Anda simpan sebagai data _.gpx_, _upload_ ke dalam server _OpenStreetMap_, atau Anda pindahkan ke dalam laptop.
+    <br>Setelah Anda melakukan survei lapangan, Anda tentu ingin menyimpan data hasil survei Anda untuk kemudian Anda gunakan sebagai acuan pada saat melakukan pemetaan. Untuk itu, data hasil survei yang telah berhasil Anda kumpulkan dapat Anda simpan sebagai data _.gpx_, _upload_ ke dalam server _OpenStreetMap_, atau Anda pindahkan ke dalam laptop.
 
 
 
 1. **Menyimpan Rute Perjalanan dan Objek sebagai Data ._gpx_**
-    Anda dapat menyimpan rute perjalanan dan objek yang telah Anda survei ke dalam format data _.gpx_. Data _.gpx_ dapat Anda pakai ketika Anda menggunakan aplikasi pemetaan seperti **QGIS** maupun **JOSM**. Pada _file_ survei Anda, silakan Anda tekan dan tahan kemudian pilih menu **_Export as GPX_**. Jika _file_ data survei telah berhasil disimpan dalam bentuk _.gpx_, maka akan muncul bulatan warna hijau di sebelah kanan nama _file_.
+    <br>Anda dapat menyimpan rute perjalanan dan objek yang telah Anda survei ke dalam format data _.gpx_. Data _.gpx_ dapat Anda pakai ketika Anda menggunakan aplikasi pemetaan seperti **QGIS** maupun **JOSM**. Pada _file_ survei Anda, silakan Anda tekan dan tahan kemudian pilih menu **_Export as GPX_**. Jika _file_ data survei telah berhasil disimpan dalam bentuk _.gpx_, maka akan muncul bulatan warna hijau di sebelah kanan nama _file_.
 
     <p align="center"><img width=30% src="../images/0420_Menu_untuk_menyimpan_data_survei_ke_dalam_file_GPX.png"</p>
         <p align="center"><i>Menu untuk menyimpan data survei ke dalam file GPX</i></p>
@@ -172,16 +172,16 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
         
     Pada halaman _OpenStreetMap Upload_ Anda akan diminta untuk mengisi beberapa isian seperti nama dan deskripsi _file_. Pada isian _Tags_ bisa Anda abaikan. Pada bagian paling bawah, Anda dapat mengatur sifat dari trek yang akan Anda unggah sepeti _private, public, trackable, dan identifiable_.
     1. _Private_
-        _Track_ tidak akan terlihat pada daftar _track_ publik. _Trackpoints_ dapat diakses pada urutan waktu melalui API GPS publik tanpa cap waktu. 
+        <br>_Track_ tidak akan terlihat pada daftar _track_ publik. _Trackpoints_ dapat diakses pada urutan waktu melalui API GPS publik tanpa cap waktu. 
 
     2. _Public_
-        _Track_ Anda akan terlihat untuk publik (umum) pada _track_ GPS Anda dan pada daftar _track_ GPS publik. Pengguna lain masih dapat mengunduh _track_ Anda dari daftar _track_ publik serta waktu pengambilan titik yang termuat di dalamnya. Namun, data yang tampil pada API tidak mereferensikan pada halaman track Anda
+        <br>_Track_ Anda akan terlihat untuk publik (umum) pada _track_ GPS Anda dan pada daftar _track_ GPS publik. Pengguna lain masih dapat mengunduh _track_ Anda dari daftar _track_ publik serta waktu pengambilan titik yang termuat di dalamnya. Namun, data yang tampil pada API tidak mereferensikan pada halaman track Anda
 
     3. _Trackable_
-        _Track_ tidak akan terlihat pada daftar _track publik_, namun _trackpoints_ akan tetap dapat diakses melalui API GPS publik bseserta waktu pengambilan titiknya. Pengguna lain tetap dapat mengunduh _trackpoints_ tapi tidak akan direferensi/dikaitkan dengan Anda
+        <br>_Track_ tidak akan terlihat pada daftar _track publik_, namun _trackpoints_ akan tetap dapat diakses melalui API GPS publik bseserta waktu pengambilan titiknya. Pengguna lain tetap dapat mengunduh _trackpoints_ tapi tidak akan direferensi/dikaitkan dengan Anda
 
     4. _Identifiable_
-        _Track_ Anda akan terlihat untuk publik (umum) pada _track_ GPS Anda dan pada daftar _track_ GPS publik. Pengguna lain dapat mengunduh _track_ Anda dan menghubungkannya dengan _username_ Anda. Waktu pengambilan titik-titik pada _track_ juga dapat diakses melalui GPS API publik. 
+        <br>_Track_ Anda akan terlihat untuk publik (umum) pada _track_ GPS Anda dan pada daftar _track_ GPS publik. Pengguna lain dapat mengunduh _track_ Anda dan menghubungkannya dengan _username_ Anda. Waktu pengambilan titik-titik pada _track_ juga dapat diakses melalui GPS API publik. 
 
     Untuk pemilihan sifat _track_, Anda dapat memilih _Trackable_ atau _Public_ sehingga hasil _upload_ Anda dapat terlihat oleh pengguna lain. 
 
@@ -189,7 +189,7 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
     <p align="center"><i>Contoh file hasil survei yang telah siap diunggah ke dalam server OpenStreetMap</i></p>
 
 3. **Mengambil Rute Perjalanan dan Titik ke Laptop/Komputer**
-    Seluruh data yang sudah diekspor ke dalam data _.gpx_ akan tersimpan ke dalam folder internal _smartphone_ Anda. Anda dapat mencari data tersebut dengan menggunakan aplikasi _file manager_ Anda. Untuk dapat memindahkan data tersebut silakan ikuti langkah-langkah berikut:
+    <br>Seluruh data yang sudah diekspor ke dalam data _.gpx_ akan tersimpan ke dalam folder internal _smartphone_ Anda. Anda dapat mencari data tersebut dengan menggunakan aplikasi _file manager_ Anda. Untuk dapat memindahkan data tersebut silakan ikuti langkah-langkah berikut:
    1. Hubungkan _smartphone_ Anda ke laptop dengan menggunakan kabel data kemudian cari folder bernama _“osmtracker”_ di media penyimpanan _smartphone_ Anda. 
 
       <p align="center"><img width=40% src="../images/0423_Folder_OSMTracker_di_media_penyimpanan_smartphone_Anda.png"</p>
