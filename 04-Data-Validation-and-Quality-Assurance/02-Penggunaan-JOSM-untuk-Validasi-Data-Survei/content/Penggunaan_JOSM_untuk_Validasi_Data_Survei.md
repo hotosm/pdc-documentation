@@ -11,7 +11,7 @@ JOSM merupakan _software_ yang paling sering digunakan untuk melakukan pemetaan 
 Dalam survei lapangan, _data entry_ mengumpulkan dua jenis data yaitu data objek infrastruktur dan data batas administrasi. Sebelum dimasukkan ke dalam JOSM, kedua jenis data tersebut harus diperiksa oleh tim _Quality Assurance_. Hal ini dilakukan untuk memeriksa kelengkapan atribut yang dikumpulkan yang telah disesuaikan dengan **Pembuatan Model Data OSM** dan objek-objek yang berada didalam suatu area survei apakah sudah semua di ambil datanya.
 
 1. **Memeriksa Hasil Survei menggunakan Batas Administrasi**
-    Hasil survei yang telah dikumpulkan harus dicek menggunakan batas administrasi yang ada. Tujuannya untuk melihat apakah seluruh objek yang ada dalam batas administrasi tersebut telah selesai disurvei atau belum. Anda dapat menggunakan batas administrasi yang diperoleh dari BPS atau dengan menggunakan batas administrasi yang telah digambar oleh _Quality Assurance_. 
+    <br>Hasil survei yang telah dikumpulkan harus dicek menggunakan batas administrasi yang ada. Tujuannya untuk melihat apakah seluruh objek yang ada dalam batas administrasi tersebut telah selesai disurvei atau belum. Anda dapat menggunakan batas administrasi yang diperoleh dari BPS atau dengan menggunakan batas administrasi yang telah digambar oleh _Quality Assurance_. 
 
    *   Silakan Anda buka hasil survei yang telah dikumpulkan. Sebagai contoh, dalam modul ini akan digunakan data hasil survei di daerah Yogyakarta. 
        <p align="center"><img width=70% src="../images/0201_Contoh_data_hasil_survei_di_Desa_Wedomartani.png"</p>
@@ -26,10 +26,10 @@ Dalam survei lapangan, _data entry_ mengumpulkan dua jenis data yaitu data objek
    *   Anda dapat membandingkan antara sebaran titik yang telah dikumpulkan dengan batas administrasi. Jika menurut Anda titik-titik yang dikumpulkan masih belum memenuhi target pemetaan yang diberikan atau masih ada objek-objek yang belum disurvei, Anda dapat meminta _Data Entry_ untuk melakukan survei ulang untuk memenuhi target yang diinginkan. 
  
 2. **Memeriksa Hasil Survei Batas Administrasi**
-    _Data entry_ menggunakan peta survei untuk menggambarkan batas administrasi yang didapatkan dari hasil diskusi dengan pihak kelurahan. Anda dapat melakukan pengecekan jumlah RW yang dihasilkan dalam kelurahan tersebut dan batas-batas di dalam peta apakah sudah jelas atau belum.
+    <br>_Data entry_ menggunakan peta survei untuk menggambarkan batas administrasi yang didapatkan dari hasil diskusi dengan pihak kelurahan. Anda dapat melakukan pengecekan jumlah RW yang dihasilkan dalam kelurahan tersebut dan batas-batas di dalam peta apakah sudah jelas atau belum.
 
 3. **Menggabungkan hasil survei menjadi satu layer**
-    Anda harus menggabungkan _file_ hasil survei _ODK Collect_ menjadi satu _file_ yang sama. Untuk menggabungkannya, langkah-langkah yang harus Anda lakukan adalah:
+    <br>Anda harus menggabungkan _file_ hasil survei _ODK Collect_ menjadi satu _file_ yang sama. Untuk menggabungkannya, langkah-langkah yang harus Anda lakukan adalah:
 
    *   Silakan Anda cari _file_ _ODK Collect_ yang telah Anda pindahkan dari _smartphone_ ke laptop/komputer Anda dengan menggunakan **Windows Explorer**. Jika Anda lupa bagaimana cara memindahkan data ODK Collect dari _smartphone_ ke laptop/komputer Anda, silakan baca kembali modul **Menggunakan Aplikasi ODK Collect**. Sebagai contoh, dalam modul kali ini akan digunakan data hasil survei yang dilakukan di daerah Yogyakarta.
 
@@ -69,7 +69,7 @@ Dalam survei lapangan, _data entry_ mengumpulkan dua jenis data yaitu data objek
 
 
 4. **Upload Hasil Data Survei ke Google Drive**
-    Setelah Anda gabungkan seluruh titik yang telah dikumpulkan, Anda perlu meng-_upload_ data tersebut ke dalam media penyimpanan yang dapat diakses secara bersama-sama, baik _Data Entry_ maupun _Quality Assurance_ secara online. Anda dapat menggunakan media penyimpanan online gratis seperti _Google Drive_. Silakan Anda upload sesuai dengan folder yang telah ditentukan. 
+    <br>Setelah Anda gabungkan seluruh titik yang telah dikumpulkan, Anda perlu meng-_upload_ data tersebut ke dalam media penyimpanan yang dapat diakses secara bersama-sama, baik _Data Entry_ maupun _Quality Assurance_ secara online. Anda dapat menggunakan media penyimpanan online gratis seperti _Google Drive_. Silakan Anda upload sesuai dengan folder yang telah ditentukan. 
    <p align="center"><img width=70% src="../images/0212_Google_drive.png"</p>
 
 ### II. Mengecek Hasil Input Data Survei
