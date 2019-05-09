@@ -101,7 +101,7 @@ Setelah Anda melakukan pengecekan data mentah atau _raw_ data yang telah dikumpu
 
    *   Lakukan validasi dengan menggunakan _validation tools_ atau alat validasi yang ada di JOSM. Untuk mengaktifkan jendela validasi atau _validation result_ silakan Anda pilih menu **Window** lalu pilih **Validation Result**. Jendela validasi akan muncul di sebelah kanan bawah JOSM Anda. 
   <p align="center"><img width=70% src="../images/0217_Mengaktifkan_jendela_validasi_pada_JOSM.png"</p>
-    _Mengaktifkan jendela validasi pada JOSM</i></p>
+    <p align="center"><i>Mengaktifkan jendela validasi pada JOSM</i></p>
 
    *   Untuk melakukan validasi Anda dapat menggunakan tombol **_Validation_** yang ada pada jendela _validation result_. Satu hal yang perlu Anda perhatikan pada saat melakukan validasi adalah pastikan tidak ada objek yang sedang Anda pilih karena jika Anda sedang memilih salah satu objek, JOSM hanya akan melakukan validasi terhadap objek yang sedang Anda pilih. 
    <p align="center"><img width=70% src="../images/0218_Hasil_validasi_menggunakan_JOSM.png"</p>
