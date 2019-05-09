@@ -74,6 +74,7 @@ Untuk bisa membuat _presets_ Anda sendiri, ada beberapa hal yang perlu Anda pers
 *   Penulisan _key_ dan _value_ harus menggunakan Bahasa Inggris, untuk penulisan label Indonesia nanti dapat diatur dalam _presets_ itu sendiri.
 
 **a. Elemen-Elemen di Presets**
+
 Jika sudah mengetahui dan memahami aturan dalam pembuatan_ presets_ maka Anda juga perlu untuk mengetahui tentang elemen-elemen penyusun yang dapat menampilkan informasi di _presets_ Anda dengan bentuk yang beragam. Beberapa elemen-elemen _presets _tersebut adalah:
 
 <li> Elemen <font color= "red"><b>key</b></font> key 
