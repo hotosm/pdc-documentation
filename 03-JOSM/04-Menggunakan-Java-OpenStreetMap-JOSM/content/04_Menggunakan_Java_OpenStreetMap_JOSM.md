@@ -87,14 +87,14 @@ Di sebelah kiri pada layar JOSM terdapat banyak _toolbar_ yang menyediakan lebih
 </p>
 <p align="center"><i>Ikon Draw Tool</i></p>
 
-*   Temukan area kosong pada peta, dan klik dua kali dengan _mouse _Anda kemudian akan tergambar sebuah titik tunggal.
+*   Temukan area kosong pada peta, dan klik dua kali dengan _mouse_ Anda kemudian akan tergambar sebuah titik tunggal.
 
 <p align="center">
  <img src="../images/0408_Contoh_menggambar_objek_titik.png"
 </p>
 <p align="center"><i>Contoh menggambar objek titik</i></p>
 
-*   Untuk menggambar sebuah garis, klik sekali dengan _mouse _Anda. Gerakan _mouse _Anda dan klik kembali. Lanjutkan hingga membentuk sebuah garis. Untuk mengakhiri garis, klik dua kali pada _mouse _Anda.
+*   Untuk menggambar sebuah garis, klik sekali dengan _mouse_ Anda. Gerakan _mouse_ Anda dan klik kembali. Lanjutkan hingga membentuk sebuah garis. Untuk mengakhiri garis, klik dua kali pada _mouse_ Anda.
 
 <p align="center">
  <img src="../images/0409_Contoh_menggambar_objek_garis.png"
@@ -147,7 +147,7 @@ Pada materi ini Anda akan mempelajari beberapa _tools_ dasar dan teknik yang ada
 </p>
 <p align="center"><i>Tampilan file latihan mengedit di JOSM</i></p>
 
-JOSM memiliki _tools_ yang akan memudahkan Anda dalam meng_edit_ baik garis atau poligon. _Tools_ ini dapat ditemukan di menu **_Tools_** di bagian atas JOSM. Jika Anda klik pada menu _Tools_ di bagian atas JOSM, Anda akan melihat bahwa terdapat banyak fungsi yang dapat membantu Anda dalam menggambar garis dan poligon, dan juga mengedit objek pada peta.
+JOSM memiliki _tools_ yang akan memudahkan Anda dalam mengedit baik garis atau poligon. _Tools_ ini dapat ditemukan di menu **_Tools_** di bagian atas JOSM. Jika Anda klik pada menu _Tools_ di bagian atas JOSM, Anda akan melihat bahwa terdapat banyak fungsi yang dapat membantu Anda dalam menggambar garis dan poligon, dan juga mengedit objek pada peta.
 
 <p align="center">
  <img src="../images/0415_Pilihan_yang_ada_di_menu_tools_JOSM.png"
@@ -195,7 +195,7 @@ Jika Anda menggabungkan jalan yang memiliki arah yang berbeda, Anda akan mendapa
 <p align="center"><i>Tampilan reverse way</i></p>
 
 *   **_Simplify Way_** (sederhanakan jalur)
-    Jika garis Anda memiliki terlalu banyak titik di dalamnya dan Anda ingin membuatnya lebih sederhana, menu _simplify way_ akan menghapus beberapa titik yang ada pada sebuah garis. _Tool_ ini juga digunakan untuk mempercepat saat _upload _data karena menghapus beberapa nodes/titik yang berada di satu garis. Cara untuk menggunakan _simplify way_ adalah klik pada garis yang ingin Anda sederhanakan, kemudian ke menu _tools_ dan klik **_Simplify Way_**. Tombol pintas untuk melakukan _simplify way_ adalah tombol **Shift+Y** pada _keyboard._
+    Jika garis Anda memiliki terlalu banyak titik di dalamnya dan Anda ingin membuatnya lebih sederhana, menu _simplify way_ akan menghapus beberapa titik yang ada pada sebuah garis. _Tool_ ini juga digunakan untuk mempercepat saat _upload_ data karena menghapus beberapa nodes/titik yang berada di satu garis. Cara untuk menggunakan _simplify way_ adalah klik pada garis yang ingin Anda sederhanakan, kemudian ke menu _tools_ dan klik **_Simplify Way_**. Tombol pintas untuk melakukan _simplify way_ adalah tombol **Shift+Y** pada _keyboard._
 
 <p align="center">
  <img src="../images/0421_Tampilan_simplify_way.png"
@@ -303,7 +303,7 @@ Jika sebelumnya membahas mengenai objek yang tidak boleh terhubung, sekarang And
 </p>
 <p align="center"><i>Jalan harus terhubung satu sama lain</i></p>
 
-**3. Objek yang Saling _Overlap _atau Tumpang Tindih**
+**3. Objek yang Saling _Overlap_ atau Tumpang Tindih**
 
 Salah satu kesalahan umum pada saat menggambar di JOSM adalah poligon saling _overlap_, padahal seharusnya objek yang digambarkan tidak saling _overlap_. Sebuah bangunan tidak bisa _overlap_ dengan bangunan yang lain. Sebagai contoh, poligon penggunaan lahan permukiman tidak seharusnya overlap atau tumpang tindih dengan poligon kebun.
 
@@ -326,7 +326,7 @@ Tabel Kesalahan yang Sering Terjadi dan Tipsnya
 
 | Kesalahan  |Tips   |
 |---|---|
-|Tag diberikan pada node, bukan pada objek (misalnya: bangunan) <img src="../images/0441_Contoh_bangunan_yang_diberikan_tag_yang_salah_dan_benar.png" width="">|Satu masalah umum yang sering terjadi yaitu menambahkan tag pada node atau titik yang terdapat pada bagian dari sebuah garis atau poligon. Ini sering terjadi ketika seseorang menggambar sebuah objek, kemudian melakukan _select all)_ pada objek (memilih semua titik/_select node_ pada garis). Kemudian seseorang menambahkan _presets_, sehingga tag terdapat di setiap sudut poligon, ini adalah cara yang tidak tepat. Cara untuk menghindari hal ini, dengan klik objek secara langsung pada garis atau hindari _select all_ pada objek.
+|Tag diberikan pada node, bukan pada objek (misalnya: bangunan) <img src="../images/0441_Contoh_bangunan_yang_diberikan_tag_yang_salah_dan_benar.png" width="">|Satu masalah umum yang sering terjadi yaitu menambahkan tag pada node atau titik yang terdapat pada bagian dari sebuah garis atau poligon. Ini sering terjadi ketika seseorang menggambar sebuah objek, kemudian melakukan _select all)_ pada objek (memilih semua titik/_select node_ pada garis). Kemudian seseorang menambahkan _presets_, sehingga tag terdapat di setiap sudut poligon, ini adalah cara yang tidak tepat. Cara untuk menghindari hal ini, dengan klik objek secara langsung pada garis atau hindari _select all_ pada objek.|
 |Persimpangan yang bertemu di sudut jalan atau persimpangan jalan harus dipisah <img src="../images/0442_Contoh_pembuatan_simpangan_yang_salah_dan_benar.png" width="">|Ketika jalan bersinggungan atau persimpangan satu sama lain di sudut jalan, Anda tidak boleh membuat garis melengkung di persimpangan. Garis seharusnya berbentuk sudut 90° dan terpisah menjadi dua segmen garis yang berbeda, seperti di kondisi yang sebenarnya di lapangan|
 |Tidak ada tag pada node atau garis <img src="../images/0443_Contoh_tidak_ada_tag_pada_node_atau_garis.png" width="">|Untuk memperbaiki kesalahan ini, pilih objek dan masukan _presets_ sesuai dengan informasi objek tersebut atau bisa dihapus bila objek itu merupakan kesalahan. Hal ini dikarenakan, server OSM tidak bisa membaca sebuah objek yang tidak dilengkapi dengan presets (informasi objek).|
 |Garis berada dekat dengan garis lain tetapi tidak terhubung <img src="../images/0444_Contoh_garis_jalan_yang_tidak_saling_terhubung.png" width="">|Untuk memperbaikinya, Anda dapat memilih titik dari garis yang ingin dihubungkan dan kemudian pilih _tool Draw nodes_ untuk menambahkan titik di garis yang mendatar/garis yang berada di depannya. Alternatif lainnya, Anda dapat menggunakan _tool Merge Node_ (jika di depan garis yang belum terhubung tersebut merupakan sebuah titik), caranya: 1. Pilih kedua titik yang berdekatan, yang berada di dalam kedua garis yang ingin dihubungkan. 2. Pilih _Merge Node_ yang berada di  _Menu tools_. Jika didepan garis yang belum terhubung tersebut tidak terdapat sebuah titik, Anda bisa menggunakan _tool Join Node to Way_ dengan cara: 1. Pilih titik terakhir dari garis yang belum terhubung dan juga pilih garis yang berada di depan garis yang belum terhubung. 2. Pilih _Join Node to Way_ yang Berada Di _Menu Tools_|

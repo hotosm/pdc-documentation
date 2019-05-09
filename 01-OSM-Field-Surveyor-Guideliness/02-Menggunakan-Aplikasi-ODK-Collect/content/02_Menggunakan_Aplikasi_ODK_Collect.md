@@ -154,7 +154,7 @@ Setelah Anda meng-_upload_ semua formulir survei kembali ke server, Anda perlu m
 <p align="center"><i>Folder instances di dalam folder odk dan isi folder instances hasil survei</i></p>
 
 
-*   Sebelum memindahkan folder **instances** ke dalam folder komputer Anda, Anda perlu mengubah folder **instances** tersebut menjadi format _.zip_ dengan cara tekan pada folder** instances** dan tekan **_Compress_** dan Anda dapat ubah nama _file_ _.zip_ tersebut.
+*   Sebelum memindahkan folder **instances** ke dalam folder komputer Anda, Anda perlu mengubah folder **instances** tersebut menjadi format _.zip_ dengan cara tekan pada folder **instances** dan tekan **_Compress_** dan Anda dapat ubah nama _file_ _.zip_ tersebut.
 
 <p align="center"><img width=70% src="../images/0233_0234_compress.png" alt="compress" title="compress"></p>
 <p align="center"><i>Langkah untuk kompresi file menjadi format *.zip</i></p>

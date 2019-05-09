@@ -44,7 +44,7 @@ Cara untuk melakukan validasi dengan menggunakan _tasking manager_ tidak jauh be
 <p align="center">
  <img src="../images/0305_Tampilan_Contribute.png"
 </p>
-<p align="center"><i>0305_Tampilan_Contribute</i><p align="center">
+<p align="center"><i>Tampilan Contribute</i><p align="center">
 
 *   Anda dapat memilih salah satu dari banyak _tasking_ yang ada untuk Anda validasi. Atau Anda juga dapat mencari _tasking_ yang ingin Anda validasi dengan cara mengetik kata kunci di kolom **_Search_** pada sisi sebelah kiri tampilan _tasking manager_ Anda, kemudian tekan **_Enter_**. Anda akan melihat daftar _tasking_ yang berkaitan dengan kata kunci yang sebelumnya Anda cari. Silakan cari dan pilih _tasking_ yang ingin Anda validasi.
 

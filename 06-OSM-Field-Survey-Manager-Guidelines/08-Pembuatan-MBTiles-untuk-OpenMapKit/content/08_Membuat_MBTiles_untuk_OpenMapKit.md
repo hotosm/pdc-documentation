@@ -211,7 +211,7 @@ Pada proses ini, Anda telah memiliki _file_ dalam bentuk format mbtiles yang aka
  
 * Buka aplikasi *OpenMapKit* pada *smartphone* Anda, dan aktifkan file *.mbtiles* yang telah dipindahkan dengan klik Menu *Basemap* pada aplikasi *OpenMapKit*.
 <p align="center">
-  <img width=40% src="../images/0825_hasildiOMK.png">
+  <img width=70% src="../images/0825_hasildiOMK.png">
 </p>
 <p align="center"><i>File .mbtiles saat di buka di OMK</i><p align="center">
 
