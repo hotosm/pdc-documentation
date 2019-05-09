@@ -83,7 +83,7 @@ Jika sudah mengetahui dan memahami aturan dalam pembuatan_ presets_ maka Anda ju
 ```
 Ini merupakan _key_ wajib yang mendefinisikan informasi utama dari suatu objek walaupun informasi yang lain dikosongkan. Sebagai contoh jika dalam _presets_ Anda ingin menekankan bahwa itu informasi _tag_ ini adalah sekolah maka Anda dapat menuliskannya seperti:
 
-<key key=”amenity” value=”school”/>
+<b><key key=”amenity” value=”school”/></b>
 
 *   Elemen **text** key
 
