@@ -110,7 +110,7 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
     2. Kemudian pilih **_Resume Tracking_**
 
 >Catatan :
-<p align="center"><img width=70% src="../images/0414_ikon_tanda_jam_oranye.png"</p>
+<img width=40% src="../images/0414_ikon_tanda_jam_oranye.png"
 <br>Jika File Anda memiliki ikon atau tanda jam berwarna oranye di sebelah kanan nama file menandakan bahwa file tersebut masih dalam mode perekaman jalur. Ikon ini akan hilang jika Anda telah menghentikan mode perekaman jalur. 
 
 
@@ -123,23 +123,23 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
 
     Anda akan melihat daftar titik serta foto yang telah berhasil Anda kumpulkan pada halaman _Waypoint list._
 
-    <p align="center"><img width=70% src="../images/0416_Halaman_waypoint_list_untuk_melihat_daftar_objek_yang_telah_dikumpulkan.png"</p>
+    <p align="center"><img width=40% src="../images/0416_Halaman_waypoint_list_untuk_melihat_daftar_objek_yang_telah_dikumpulkan.png"</p>
     <p align="center"><i>Halaman Waypoint list untuk melihat daftar objek yang telah dikumpulkan</i></p>
 
 5. **Melihat Rute Perjalanan dan Objek yang Dikumpulkan pada Peta**
     Anda juga dapat melihat sejauh apa rute perjalanan yang telah Anda lewati dan titik-titik objek yang telah dikumpulkan. Pada halaman _Track logger_ pilih menu <p align="center"><img width=70% src="../images/0403_Tombol_settings.png"</p> di sebelah kanan atas, kemudian pilih **_Display Track_**. 
 
-    <p align="center"><img width=70% src="../images/0417_Tombol_untuk_melihat_rute_perjalanan_dan_objek_yang_telah_dikumpulkan.png"</p>
+    <p align="center"><img width=40% src="../images/0417_Tombol_untuk_melihat_rute_perjalanan_dan_objek_yang_telah_dikumpulkan.png"</p>
     <p align="center"><i>Tombol untuk melihat rute perjalanan dan objek yang telah dikumpulkan</i></p>
 
     Pada saat menampilkan menu _Display Track_, _OSMTracker_ akan bertanya apakah Anda mengizinkan akses untuk menampilkan peta. Pilih **_Display Background Map_.**
 
-    <p align="center"><img width=70% src="../images/0418_Pilihan_untuk_menampilkan_latar_belakang_peta.png"</p>
+    <p align="center"><img width=40% src="../images/0418_Pilihan_untuk_menampilkan_latar_belakang_peta.png"</p>
     <p align="center"><i>Pilihan untuk menampilkan latar belakang peta</i></p>
 
     Anda akan melihat tampilan halaman peta dengan simbol garis, bintang, dan orang di atasnya. Simbol bintang ini menunjukkan titik-titik yang telah Anda survei, sedangkan simbol garis menunjukkan rute perjalanan yang telah Anda lewati. Simbol orang menunjukkan lokasi Anda saat ini. 
 
-    <p align="center"><img width=70% src="../images/0419_Contoh_hasil_rute_perjalanan_dan_titik_survei_yang_sudah_diambil_pada_saat_survei.png"</p>
+    <p align="center"><img width=40% src="../images/0419_Contoh_hasil_rute_perjalanan_dan_titik_survei_yang_sudah_diambil_pada_saat_survei.png"</p>
     <p align="center"><i>Contoh hasil rute perjalanan dan titik survei yang sudah diambil pada saat survei</i></p>
 
 4. **Menyimpan _OSMTracker_**
@@ -150,14 +150,14 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
 1. **Menyimpan Rute Perjalanan dan Objek sebagai Data ._gpx_**
     Anda dapat menyimpan rute perjalanan dan objek yang telah Anda survei ke dalam format data _.gpx_. Data _.gpx_ dapat Anda pakai ketika Anda menggunakan aplikasi pemetaan seperti **QGIS** maupun **JOSM**. Pada _file_ survei Anda, silakan Anda tekan dan tahan kemudian pilih menu **_Export as GPX_**. Jika _file_ data survei telah berhasil disimpan dalam bentuk _.gpx_, maka akan muncul bulatan warna hijau di sebelah kanan nama _file_.
 
-    <p align="center"><img width=70% src="../images/0420_Menu_untuk_menyimpan_data_survei_ke_dalam_file_GPX.png"</p>
+    <p align="center"><img width=40% src="../images/0420_Menu_untuk_menyimpan_data_survei_ke_dalam_file_GPX.png"</p>
         <p align="center"><i>Menu untuk menyimpan data survei ke dalam file GPX</i></p>
 
 2. **Mengunggah _(Upload)_ Rute Perjalanan ke Server _OpenStreetMap_**
 
     Anda juga dapat meng-_upload_ data hasil survei ke dalam server _OpenStreetMap_. Pada _file_ hasil survei Anda, ketuk dan tahan beberapa saat, kemudian pilih **_Upload to OpenStreetMap_**. 
 
-    <p align="center"><img width=70% src="../images/0421_Menu_untuk_mengunggah_hasil_survei_ke_dalam_server_OSM.png"</p>
+    <p align="center"><img width=40% src="../images/0421_Menu_untuk_mengunggah_hasil_survei_ke_dalam_server_OSM.png"</p>
         <p align="center"><i>Menu untuk mengunggah hasil survei ke dalam server OpenStreetMap</i></p>
         
     Pada halaman _OpenStreetMap Upload_ Anda akan diminta untuk mengisi beberapa isian seperti nama dan deskripsi _file_. Pada isian _Tags_ bisa Anda abaikan. Pada bagian paling bawah, Anda dapat mengatur sifat dari trek yang akan Anda unggah sepeti _private, public, trackable, dan identifiable_.
@@ -175,14 +175,14 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
 
     Untuk pemilihan sifat _track_, Anda dapat memilih _Trackable_ atau _Public_ sehingga hasil _upload_ Anda dapat terlihat oleh pengguna lain. 
 
-    <p align="center"><img width=70% src="../images/0422_Contoh_file_hasil_survei_yang_telah_siap_diungah_ke_dalam_server_OpenStreetMap.png"</p>
+    <p align="center"><img width=40% src="../images/0422_Contoh_file_hasil_survei_yang_telah_siap_diungah_ke_dalam_server_OpenStreetMap.png"</p>
     <p align="center"><i>Contoh file hasil survei yang telah siap diunggah ke dalam server OpenStreetMap</i></p>
 
 3. **Mengambil Rute Perjalanan dan Titik ke Laptop/Komputer**
     Seluruh data yang sudah diekspor ke dalam data _.gpx_ akan tersimpan ke dalam folder internal _smartphone_ Anda. Anda dapat mencari data tersebut dengan menggunakan aplikasi _file manager_ Anda. Untuk dapat memindahkan data tersebut silakan ikuti langkah-langkah berikut:
    1. Hubungkan _smartphone_ Anda ke laptop dengan menggunakan kabel data kemudian cari folder bernama _“osmtracker”_ di media penyimpanan _smartphone_ Anda. 
 
-      <p align="center"><img width=70% src="../images/0423_Folder_OSMTracker_di_media_penyimpanan_smartphone_Anda.png"</p>
+      <p align="center"><img width=40% src="../images/0423_Folder_OSMTracker_di_media_penyimpanan_smartphone_Anda.png"</p>
         <p align="center"><i>Folder OSMTracker di media penyimpanan smartphone Anda</i></p>
 
    2. Dalam folder _OSMTracker_ Anda akan menemukan satu folder yang berisi data dengan format _.gpx_ dan data foto. Silakan Anda kemudian pindahkan satu folder yang berisi data tersebut ke dalam laptop Anda.
