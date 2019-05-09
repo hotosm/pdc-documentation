@@ -53,11 +53,11 @@ Dalam survei lapangan, _data entry_ mengumpulkan dua jenis data yaitu data objek
         <p align="center"><i>Seluruh file .osm yang berhasil dibuka dalam JOSM</i></p>
 
 *   Jika Anda lihat pada data yang telah dimasukkan, masing-masing titik hasil survei masih berada dalam satu _layer_ yang berbeda. Untuk itu Anda perlu menggabungkan seluruh data tersebut menjadi satu _layer_ baru. Untuk menggabungkannya, silakan Anda klik salah satu _layer_ data pada _layer window_ kemudian tekan tombol **Ctrl + A** untuk memilih seluruh titik, kemudian klik kanan dan pilih **_Merge_**. 
-       <p align="center"><img width=70% src="../images/0208_Menggabungkan_seluruh_layer.png"</p>
+        <p align="center"><img width=70% src="../images/0208_Menggabungkan_seluruh_layer.png"</p>
         <p align="center"><i>Menggabungkan seluruh layer</i></p>
 
 *   Anda akan diminta untuk memilih _layer_ tujuan atau _target layer_. Anda tidak perlu mengubah _target layer_ ini dan langsung pilih **Merge**.
-       <p align="center"><img width=70% src="../images/0209_Pilih_merge_untuk_menggabungkan_seluruh_data.png"</p>
+        <p align="center"><img width=70% src="../images/0209_Pilih_merge_untuk_menggabungkan_seluruh_data.png"</p>
         <p align="center"><i>Pilih merge untuk menggabungkan seluruh data</i></p>
 
 *   Data yang sudah berhasil digabungkan akan menjadi hanya satu _layer_.
