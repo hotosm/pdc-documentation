@@ -214,6 +214,6 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
    Hasil rute perjalanan dan juga titik objek yang telah Anda survei ini dapat Anda gunakan sebagai acuan pada saat Anda memetakan menggunakan JOSM. Anda tidak perlu bingung lagi objek apa yang sedang Anda petakan karena Anda telah melakukan survei lapangan dan melakukan pengambilan foto objek yang Anda survei. 
 
 
-**RINGKASAN**
-Pada bab ini Anda telah mengetahui salah satu metode survei lapangan dengan menggunakan _OSMTracker,_ dimana _OSMTracker_ dapat Anda gunakan untuk melakukan perekaman rute perjalanan, titik survei dan melakukan pengambilan foto objek. Anda juga telah mempelajari bagaimana cara melakukan pengaturan awal dan cara menggunakan _OSMTracker_. Anda dapat menggunakan _OSMTracker_ sebagai alternatif alat survei jika Anda tidak memiliki GPS. 
+<br>**RINGKASAN**
+<br>Pada bab ini Anda telah mengetahui salah satu metode survei lapangan dengan menggunakan _OSMTracker,_ dimana _OSMTracker_ dapat Anda gunakan untuk melakukan perekaman rute perjalanan, titik survei dan melakukan pengambilan foto objek. Anda juga telah mempelajari bagaimana cara melakukan pengaturan awal dan cara menggunakan _OSMTracker_. Anda dapat menggunakan _OSMTracker_ sebagai alternatif alat survei jika Anda tidak memiliki GPS. 
 
