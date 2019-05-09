@@ -111,7 +111,7 @@ Aplikasi ini membantu _Data Entry_ dalam mencatat cakupan survei di kelurahan ta
 
 Secara umum kegiatan pengumpulan data infrastruktur dilakukan dengan berkeliling di kelurahan target pemetaan kemudian mencari objek-objek prioritas pemetaan dan mengumpulkan informasi-informasi yang dibutuhkan untuk masing-masing objek dengan pengamatan secara langsung terhadap objek ataupun bertanya kepada masyarakat sekitar. Setelah itu data hasil pemetaan akan di-_upload_ ke _google_ _drive_ yang telah dibuat oleh masing-masing _Quality Assurance_ dan ke server _ona.io_ sebagai _backup_ atau cadangan data jika data hilang atau terhapus secara tidak sengaja. Langkah terakhir adalah melakukan input hasil pengumpulan data di lapangan dengan menggunakan JOSM. Berikut adalah alur singkat dalam melakukan pengumpulan data infrastruktur:
 
-![Alur pengambilan data infrastruktur](../images/0103_metode_pengumpulan_data.JPG "Alur pengambilan data infrastruktur")
+![Alur pengambilan data infrastruktur](../images/0106_metode_pengumpulan_data.JPG "Alur pengambilan data infrastruktur")
 <p align="center"><i>Alur pengambilan data infrastruktur</i></p>
 
 
@@ -141,7 +141,7 @@ Setelah selesai, _data entry_ dapat memberikan hasil pengumpulan batas administr
 
 Berikut adalah alur dalam melakukan pengumpulan batas administrasi:
 
-![Alur pengambilan data batas administrasi](../images/0106_metode_pengumpulan_data.JPG "Alur pengambilan data batas administrasi")
+![Alur pengambilan data batas administrasi](../images/0103_metode_pengumpulan_data.JPG "Alur pengambilan data batas administrasi")
 <p align="center"><i>Alur pengambilan data batas administrasi</i></p>
 
 >Catatan :
