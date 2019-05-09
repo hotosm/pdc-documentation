@@ -39,7 +39,7 @@ Sebelum Anda meng-_upload_ formulir survei Anda, Anda harus memiliki akun di _On
 <p align="center">
   <img width=50% src="../images/0601_tampilan_membuat_akun_di_ona.io.png">
 </p>
-<p align="center"><i>Tampilan membuat akun di Ona.io</i><p align="center">
+<p align="center"><i>Tampilan membuat akun di Ona.io</i></p>
 
 
 ###  b. Meng-_upload_ Formulir Survei
@@ -49,7 +49,7 @@ Saat pertama kali Anda berhasil membuat akun pada _Ona.io_, Anda akan secara oto
 <p align="center">
   <img width=50% src="../images/0602_proyek_pribadi_dengan_nama_akun_anda_sendiri.png">
 </p>
-<p align="center"><i>Proyek pribadi dengan nama akun Anda sendiri</i><p align="center">
+<p align="center"><i>Proyek pribadi dengan nama akun Anda sendiri</i></p>
 
 
 Untuk meng-_upload_ formulir Anda, klik pada nama proyek Anda sendiri. Setelah berhasil masuk ke dalam proyek Anda. Klik pada bagian **_Add a form_** dan sebuah jendela baru akan muncul. Disini Anda diminta untuk memasukkan _file XLSForm_. Pilih _file_ formulir survei Anda. Setelah Anda berhasil memilih _file_ formulir survei Anda, klik pada bagian **_Upload Selected File_**. Sistem akan mengecek apakah formulir Anda terdapat kesalahan dalam pembuatan ataupun tidak. 
@@ -58,7 +58,7 @@ Untuk meng-_upload_ formulir Anda, klik pada nama proyek Anda sendiri. Setelah b
 <p align="center">
   <img width=50% src="../images/0603_tampilan_jendela_saat_meng-upload_formulir_survei.png">
 </p>
-<p align="center"><i>Tampilan jendela saat meng-upload formulir survei</i><p align="center">
+<p align="center"><i>Tampilan jendela saat meng-upload formulir survei</i></p>
 
 Jika sudah berhasil mengunggah formulir survei, akan muncul keterangan **Form Verified!** Dan klik pada tombol **Save form** untuk langsung menyimpan formulir surveinya.
 
@@ -66,7 +66,7 @@ Jika sudah berhasil mengunggah formulir survei, akan muncul keterangan **Form Ve
 <p align="center">
   <img width=50% src="../images/0604_pilih_save_form_untuk_menyimpan_formulir_yang_sudah_terverifikasi.png">
 </p>
-<p align="center"><i>Pilih Save Form untuk menyimpan formulir yang sudah terverifikasi</i><p align="center">
+<p align="center"><i>Pilih Save Form untuk menyimpan formulir yang sudah terverifikasi</i></p>
 
 
 ### c. Mengganti formulir survei
@@ -78,14 +78,14 @@ Untuk mengganti formulir survei Anda, klik pada tanda panah kebawah yang terleta
 <p align="center">
   <img width=50% src="../images/0605_klik_pada_bagian_kanan_formulir_survei_anda_untuk_memunculkan_menu_replace_form.png">
 </p>
-<p align="center"><i>Klik pada bagian kanan formulir survei Anda untuk memunculkan menu Replace Form</i><p align="center">
+<p align="center"><i>Klik pada bagian kanan formulir survei Anda untuk memunculkan menu Replace Form</i></p>
 
 Apabila formulir survei Anda telah berisikan beberapa isian. Akan muncul peringatan dari _Ona.io_. Peringatan tersebut muncul agar pengguna paham bahwa ketika mengganti formulir survei, terutama mengganti variabel, _Ona.io_ akan menggunakan variabel yang terdapat pada formulir survei yang baru.
 
 <p align="center">
   <img width=50% src="../images/0606_peringatan_ketika_akan_mengganti_formulir_survei.png">
 </p>
-<p align="center"><i>Peringatan Ketika akan Mengganti Formulir Survei</i><p align="center">
+<p align="center"><i>Peringatan Ketika akan Mengganti Formulir Survei</i></p>
 
 Setelah Anda mengklik tombol **_I Understand_**, Anda akan diarahkan ke jendela untuk mengunggah formulir survei. Pilih formulir survei baru Anda dan klik **_Upload Selected file_**. Setelah formulir berhasil tervalidasi, klik pada bagian tombol **Save form**.
 
@@ -97,7 +97,7 @@ Apabila Anda memiliki formulir survei yang ingin Anda hapus/dinon-aktifkan. Anda
 <p align="center">
   <img width=50% src="../images/0607_tampilan_untuk_menghapus_atau_menonaktifkan_formulir_survei.png">
 </p>
-<p align="center"><i>Tampilan untuk menghapus atau menonaktifkan formulir survei</i><p align="center">
+<p align="center"><i>Tampilan untuk menghapus atau menonaktifkan formulir survei</i></p>
 
 
 
@@ -116,14 +116,14 @@ Untuk men-_download_ data hasil survei. Anda terlebih dahulu harus memilih formu
 <p align="center">
   <img width=50% src="../images/0608_tampilan_untuk_mengunduh_data_hasil_survei.png">
 </p>
-<p align="center"><i>Tampilan untuk mengunduh data hasil survei</i><p align="center">
+<p align="center"><i>Tampilan untuk mengunduh data hasil survei</i></p>
 
 Klik pada bagian tombol **_Prepare Data Export_** untuk memulai mengunduh data formulir survei Anda. Setelah itu Anda akan diarahkan untuk memilih tipe _file_ yang akan Anda unduh. 
 
 <p align="center">
   <img width=50% src="../images/0609_pilihan_jenis_file_yang_dapat_anda_unduh.png">
 </p>
-<p align="center"><i>Pilihan jenis file yang dapat Anda unduh</i><p align="center"> 
+<p align="center"><i>Pilihan jenis file yang dapat Anda unduh</i></p> 
 
 Apabila formulir survei Anda tidak menggunakan foto, Anda bisa memilih langsung tipe _file_ CSV. Namun jika formulir survei Anda menggunakan foto, Anda bisa memilih **_Zip folder of media attachment._** Lama tidaknya proses _download_ data survei tergantung dari berapa banyak data yang Anda hasilkan pada kegiatan pengumpulan data.
 
