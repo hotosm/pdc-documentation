@@ -21,7 +21,7 @@ b. Contoh Penggunaan _Tasking Manager_
 _Tasking Manager_ pernah digunakan sebagai bentuk respon ketika bencana Topan Haiyan terjadi di Filipina pada 8 November 2013. Pemetaan menggunakan _Tasking Manager_ dilakukan di Kota Tacloban, salah satu kota yang terdampak sangat parah ketika bencana terjadi. Dalam kurun waktu 24 jam setelah dibuatnya proyek _Tasking Manager_, sebanyak 10.000 bangunan telah terpetakan atau sekitar 25% dari total jumlah bangunan yang ada di Kota Tacloban. Seluruh pemetaan ini dilakukan oleh 33 orang relawan. 
 
 <p align="center">
-  <img width=50% src="../images/0101_kondisi_bangunan_sebelum_dan_setelah_dipetakan_dengan_tasking_manager.png">
+  <img width=50% src="../images/0101_tasking_manager.png">
 </p>
 <p align="center"><i>Kondisi bangunan sebelum dan setelah dipetakan dengan Tasking Manager</i><p align="center">
 
@@ -30,7 +30,7 @@ Di Indonesia, penggunaan *Tasking Manager* juga digunakan untuk respon ketika be
 
 
 <p align="center">
-  <img width=50% src="../images/0102_tasking_manager_yang_dibuat_sebagai_respon_bencana_di_selat_sunda.png">
+  <img width=50% src="../images/0102_respon_bencana_di_selat_sunda.png">
 </p>
 <p align="center"><i>Tasking Manager yang dibuat sebagai respon bencana di Selat Sunda</i><p align="center">
 
@@ -41,7 +41,7 @@ Di Indonesia, penggunaan *Tasking Manager* juga digunakan untuk respon ketika be
 Untuk dapat membuat _tasking_ baru di _tasking manager,_ Anda harus terlebih dahulu mempunyai  akses sebagai _project manager_. Apabila Anda belum memiliki akses maka anda harus diatur sebagai manager proyek agar dapat membuat tasking, Anda bisa mengajukan akses tersebut dengan mengirim _e-mail_ ke [team.id@hotosm.org](mailto:team.id@hotosm.org) untuk _tasking manager_ khusus di Indonesia. Setelah Anda berhasil mendapatkan akses untuk membuat tasking, Anda dapat melihat pada bagian kanan atas dari halaman depan tasking dan mengklik tombol **_Create New Project_.** 
 
 <p align="center">
-  <img width=50% src="../images/0103_memulai_membuat_proyek_baru_di_tasking_manager.png">
+  <img width=50% src="../images/0103_membuat_proyek_baru_di_tasking_manager.png">
 </p>
 <p align="center"><i>Memulai membuat proyek baru di tasking manager</i><p align="center">
 
@@ -80,7 +80,7 @@ Ada beberapa tahapan yang harus dilakukan dalam membuat tasking:
 
 
 <p align="center">
-  <img width=50% src="../images/0106_deskripsi_alat-alat_pada_tahapan_pengaturan_kotak_kerja.png">
+  <img width=50% src="../images/0106_alat_pada_tahapan_pengaturan_kotak_kerja.png">
 </p>
 <p align="center"><i>Deskripsi alat-alat pada tahapan pengaturan kotak kerja</i><p align="center">
    
@@ -120,7 +120,7 @@ Setelah selesai membuat proyek, Anda akan diarahkan ke pengaturan tambahan diman
     3. Anda akan mengatur ringkasan (**_Short description_**) dan deskripsi dari _tasking manager_ Anda. Dalam memberikan ringkasan (_short description)_ dan deskripsi untuk tasking Anda, terdapat pilihan bahasa dari bahasa Inggris (**EN**) dan Indonesia (**ID**). Pilihan bahasa tersebut akan muncul saat pengguna mengubah bahasa situs _tasking manager_ ke bahasa yang mereka inginkan. Apabila Anda ingin memasukkan bahasa Indonesia saja, pilih **ID** sebagai pilihan bahasa dan kemudian isi deskripsi singkat dan deskripsinya dalam format _markdown_. _Markdown_ merupakan format yang sama dengan format _html _dengan penulisan yang lebih sederhana. Untuk panduan penulisan dengan format _markdown_, Anda bisa melihatnya di situs _Markdown Guide_[^1]_._
 
 <p align="center">
-  <img width=50% src="../images/0109_penjelasan_untuk_bagian_deskripsi_proyek_pemetaan_anda.png">
+  <img width=50% src="../images/0109_penjelasan_deskripsi_proyek_pemetaan_anda.png">
 </p>
 <p align="center"><i>Penjelasan untuk Bagian Deskripsi Proyek Pemetaan Anda</i><p align="center">
 
@@ -196,7 +196,7 @@ Setelah selesai dengan pengaturan tambahan. Anda bisa menyimpan proyek _tasking_
 
 
 <p align="center">
-  <img width=50% src="../images/0115_klik_tombol_untuk_menyimpan_proyek_tasking_yang_sudah_diubah.png">
+  <img width=50% src="../images/0115_menyimpan_proyek_tasking_yang_sudah_diubah.png">
 </p>
 <p align="center"><i>Klik tombol untuk menyimpan proyek tasking yang sudah diubah</i><p align="center">
 
@@ -206,7 +206,7 @@ a. Mengubah Instruksi dan Deskripsi
     Jika Anda ingin menambahkan beberapa kalimat instruksi baru atau ingin mengubah deskripsi proyek Anda seiring dengan berjalannya waktu pemetaan di _tasking_ Anda, Anda bisa memilih tombol **_Edit Project_** pada halaman _tasking_ tersebut . Setelah itu Anda bisa langsung merubah deskripsi dan instruksi untuk tasking Anda.
 
 <p align="center">
-  <img width=50% src="../images/0116_klik_tombol_edit_project_untuk_mengubah_deskripsi_proyek_tasking_anda.png">
+  <img width=50% src="../images/0116_edit_project_mengubah_deskripsi_proyek_tasking_anda.png">
 </p>
 <p align="center"><i>Klik tombol EDIT PROJECT untuk mengubah deskripsi proyek tasking Anda</i><p align="center">
 

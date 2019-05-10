@@ -1,0 +1,1 @@
+# HOT Documentation Site Template
