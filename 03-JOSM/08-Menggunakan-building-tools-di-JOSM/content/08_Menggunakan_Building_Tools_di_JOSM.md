@@ -40,7 +40,7 @@ Untuk dapat menggunakan _plugin_ **_buildings tools_**, Anda harus menginstalnya
 <p align="center"><i>Tampilan hasil pencarian plugin buildings_tools</i></p>
 
 >Catatan :
-Terkadang JOSM meminta Anda untuk melakukan _Restart_ setelah melakukan instalasi plugin baru untuk mengaplikasikan plugin yang baru saja diinstal. Namun, tidak semua plugin membutuhkan _Restart_ untuk dapat digunakan setelah instalasi.
+Terkadang JOSM meminta Anda untuk melakukan _Restart_ setelah melakukan instalasi _plugin_ baru untuk mengaplikasikan _plugin_ yang baru saja diinstal. Namun, tidak semua _plugin_ membutuhkan _Restart_ untuk dapat digunakan setelah instalasi.
 
 *   Jika _plugin **buildings_tools**_ sudah berhasil diinstal, akan muncul _tool **Draw buildings**_ di sebelah kiri atas JOSM  Anda. Anda dapat menggunakannya untuk menggambar bangunan.
 
