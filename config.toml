@@ -1,12 +1,12 @@
 languageCode = "en-us"
-title = "My New HOT Documenation Site" #<-- change me
+title = "HOT-PDC Training Site" #<-- change me
 theme = "book"
 DefaultContentLanguage = "en"
 relativeurls = true
 enableGitInfo = true
 
 [params]
-    BookRepo = "https://github.com/hotosm/" #<-- change me
+    BookRepo = "https://github.com/hotosm/pdc-documentation" #<-- change me
     BookShowToC = false
     BookEditPath = "/edit/master/content/"
 
