@@ -1,4 +1,4 @@
-﻿# **Menggunakan buildings tools di JOSM**
+﻿# **Menggunakan _buildings tools_ di JOSM**
 
 **Tujuan Pembelajaran:**
 
@@ -15,7 +15,7 @@ Jika Anda menambahkan data di JOSM tanpa melakukan survei lapangan, data yang di
 
 <p align="center"><i>Bangunan sekolah berbentuk seperti huruf U</i></p>
 
-Dengan OSM, Anda dapat memetakan bangunan umum walaupun Anda tidak mengetahui fungsi spesifiknya. Objek bangunan tersebut dapat diberikan _preset/tag_ _**building=yes**_ untuk menunjukkan bahwa objek tersebut adalah bangunan. Tetapi jika Anda memetakan banyak bangunan, pasti cukup merepotkan juga jika Anda harus menambahkan _preset/tag_ _**buidling=yes**_ setiap kali Anda menggambarkan satu bangunan. JOSM memiliki _plugin_ (alat tambahan) yang dapat memudahkan Anda  menggambar objek bangunan. Alat ini memungkinkan bangunan yang Anda digitasi/gambar otomatis memiliki _preset_ _**building=yes**_ dan memiliki bentuk bangunan yang relatif lebih rapi. _Plugin_ ini bernama **buildings tools**.
+Dengan OSM, Anda dapat memetakan bangunan umum walaupun Anda tidak mengetahui fungsi spesifiknya. Objek bangunan tersebut dapat diberikan _preset/tag_ _**building=yes**_ untuk menunjukkan bahwa objek tersebut adalah bangunan. Tetapi jika Anda memetakan banyak bangunan, pasti cukup merepotkan juga jika Anda harus menambahkan _preset/tag_ _**buidling=yes**_ setiap kali Anda menggambarkan satu bangunan. JOSM memiliki _plugin_ (alat tambahan) yang dapat memudahkan Anda  menggambar objek bangunan. Alat ini memungkinkan bangunan yang Anda digitasi/gambar otomatis memiliki _preset_ _**building=yes**_ dan memiliki bentuk bangunan yang relatif lebih rapi. _Plugin_ ini bernama _**buildings tools**_.
 
 ### **I. Menginstal _buildings tools_ di _plugin_ JOSM**
 
@@ -31,7 +31,7 @@ Untuk dapat menggunakan _plugin_ **_buildings tools_**, Anda harus menginstalnya
 
 <p align="center"><i>Tampilan jendela Preferences untuk menu Plugins</i></p>
 
-*   Pada  kotak **_Search_**, tuliskan **buildings_tools** untuk mencari _plugin_ **buildings tools**. Setelah berhasil menemukan _plugin_ **buildings tools**, silakan **centang** kotak kecil di samping _plugin_ **buildings tools**. Setelah itu klik **_OK_** dan tunggu hingga proses instalasi selesai.
+*   Pada  kotak **_Search_**, tuliskan _**buildings_tools**_ untuk mencari _plugin **buildings tools**_. Setelah berhasil menemukan _plugin **buildings tools**_, silakan **centang** kotak kecil di samping _plugin **buildings tools**_. Setelah itu klik **_OK_** dan tunggu hingga proses instalasi selesai.
 
 <p align="center">
 <img width=50% src="../images/0803_pencarian_building_tools.png" alt="Tampilan hasil pencarian plugin buildings_tools" title="Tampilan hasil pencarian plugin buildings_tools">
@@ -42,7 +42,7 @@ Untuk dapat menggunakan _plugin_ **_buildings tools_**, Anda harus menginstalnya
 >Catatan :
 Terkadang JOSM meminta Anda untuk melakukan _Restart_ setelah melakukan instalasi plugin baru untuk mengaplikasikan plugin yang baru saja diinstal. Namun, tidak semua plugin membutuhkan _Restart_ untuk dapat digunakan setelah instalasi.
 
-*   Jika _plugin_ **buildings_tools** sudah berhasil diinstal, akan muncul _tool_ **Draw buildings** di sebelah kiri atas JOSM  Anda. Anda dapat menggunakannya untuk menggambar bangunan.
+*   Jika _plugin **buildings_tools**_ sudah berhasil diinstal, akan muncul _tool **Draw buildings**_ di sebelah kiri atas JOSM  Anda. Anda dapat menggunakannya untuk menggambar bangunan.
 
 <p align="center">
 <img width=70% src="../images/0804_ikon_building_tools.png" alt="Ikon Draw buildings sudah muncul menandakan plugin buildings tools sudah berhasil terinstal" title="Ikon Draw buildings sudah muncul menandakan plugin buildings tools sudah berhasil terinstal">
@@ -52,13 +52,13 @@ Terkadang JOSM meminta Anda untuk melakukan _Restart_ setelah melakukan instalas
 
 ### **II. Menggunakan alat _buildings tools_**
 
-Langkah-langkah menggunakan _plugin_ **buildings tools** adalah sebagai berikut:
+Langkah-langkah menggunakan _plugin **buildings tools**_ adalah sebagai berikut:
 
 *   Seperti yang sudah dibahas pada modul **Menambahkan Data OSM Menggunakan JOSM** untuk menambahkan data OSM menggunakan JOSM, Anda harus men-_download_ data OSM yang sudah ada terlebih dahulu di wilayah pemetaan Anda. Untuk men-_download_ data OSM, klik menu **_File_ → _Download Data_**.
 *   Gambar kotak pemetaan Anda dengan cara **klik kiri tahan dan geser** hingga membentuk **kotak warna merah muda** yang meliputi seluruh wilayah pemetaan Anda. Setelah itu klik **_Download_**. 
 *   Setelah berhasil men-_download_ data OSM, akan muncul _layer_ baru yang juga akan menjadi _layer_ dimana Anda dapat menambahkan data OSM. Pastikan Anda hanya menambahkan data pada **kotak yang tidak diarsir** karena kotak yang diarsir sudah bukan wilayah yang Anda _download_.
 *   Tambahkan citra satelit sebagai acuan untuk memetakan dengan cara klik menu **_Imagery_ → pilih citra satelit yang akan digunakan, misalnya _Digital Globe Premium Imagery_**.
-*   Sekarang Anda sudah siap untuk menambahkan data OSM. Untuk memetakan bangunan, gunakan **buildings tools** untuk menggambarnya. Klik _plugin_ **buildings tools** (ikon _Draw buildings_) yang terletak di sebelah kiri atas JOSM atau **tekan B** pada _keyboard_ Anda. Jika kursor _mouse_ Anda sudah berubah menjadi tanda plus dengan ikon bangunan, berarti Anda sudah siap menggambar bangunan menggunakan _buildings tools_.
+*   Sekarang Anda sudah siap untuk menambahkan data OSM. Untuk memetakan bangunan, gunakan _**buildings tools**_ untuk menggambarnya. Klik _plugin **buildings tools**_ (ikon _Draw buildings_) yang terletak di sebelah kiri atas JOSM atau **tekan B** pada _keyboard_ Anda. Jika kursor _mouse_ Anda sudah berubah menjadi tanda plus dengan ikon bangunan, berarti Anda sudah siap menggambar bangunan menggunakan _buildings tools_.
 
 <p align="center">
 <img width=30% src="../images/0805_kursor_building_tools.png" alt="Tampilan kursor saat plugin buildings tools diaktifkan" title="Tampilan kursor saat plugin buildings tools diaktifkan">
@@ -93,7 +93,7 @@ Langkah-langkah menggunakan _plugin_ **buildings tools** adalah sebagai berikut:
 *   Setelah objek-objek bangunan terpetakan, jangan lupa _upload_ hasil pemetaan Anda dengan cara klik menu **_File → Upload Data_**. Tuliskan hal yang Anda lakukan pada kolom komentar, misalnya menambahkan bangunan serta tuliskan sumber pada kolom sumber misalnya nama citra yang digunakan sebagai acuan dan kemudian klik **_Upload Changes_**.
 
 >Catatan :
-Pastikan tidak ada objek yang terpilih saat Anda menggunakan _plugin_ buildings_tools agar kursor dapat digerakkan lebih leluasa saat menggambar bangunan menggunakan _plugin_ buildings_tools.
+Pastikan tidak ada objek yang terpilih saat Anda menggunakan _plugin buildings_tools_ agar kursor dapat digerakkan lebih leluasa saat menggambar bangunan menggunakan _plugin buildings_tools_.
 
 **RINGKASAN**
 
