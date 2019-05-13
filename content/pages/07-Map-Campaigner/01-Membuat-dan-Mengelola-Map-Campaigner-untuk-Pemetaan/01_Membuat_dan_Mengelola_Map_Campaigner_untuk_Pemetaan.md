@@ -1,14 +1,12 @@
 ---
-ttitle: Summer Essay - How I Spent My Summer Vacation
+title: Membuat dan Mengelola Map Campaigner untuk Pemetaan
 ---
 
-
-# Membuat dan Mengelola _Map Campaigner_ untuk Pemetaan
-
 **Tujuan pembelajaran:**
-*   Mengetahui dan memahami cara kerja _Map Campaigner_
-*   Mengoperasikan _Map Campaigner_ untuk membuat kegiatan pemetaan
-*   Mengoperasikan _Map Campaigner_ untuk memantau kegiatan pemetaan
+
+* Mengetahui dan memahami cara kerja _Map Campaigner_
+* Mengoperasikan _Map Campaigner_ untuk membuat kegiatan pemetaan
+* Mengoperasikan _Map Campaigner_ untuk memantau kegiatan pemetaan
 
 Dalam melaksanakan proyek pemetaan seringkali  Anda membutuhkan sebuah laporan terkait progres kegiatan tersebut dalam sebuah data statistik mengenai seberapa banyak objek yang telah terpetakan dalam kegiatan tersebut. Terdapat beberapa alat yang bisa digunakan untuk mendapatkan data statistik tersebut. Salah satu alat yang akan kita pelajari saat ini adalah _Map Campaigner._
 

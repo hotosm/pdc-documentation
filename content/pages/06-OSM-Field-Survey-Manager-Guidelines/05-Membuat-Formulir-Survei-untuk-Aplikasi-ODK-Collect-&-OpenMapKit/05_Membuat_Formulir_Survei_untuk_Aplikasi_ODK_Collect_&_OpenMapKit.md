@@ -14,7 +14,7 @@ Dalam kegiatan survei lapangan terkadang Anda membutuhkan sebuah formulir survei
 _XLSForm_ merupakan sebuah formulir standar yang dibuat untuk membantu mempercepat proses pembuatan formulir survei di **Excel.** Pembuatan formulir survei ini dilakukan dalam format yang mudah dibaca dan menggunakan alat yang familiar - **Excel/Google Spreadsheet**. _XLSForm_ menghasilkan standar baku untuk berbagi dan bekerja sama dalam pembuatan formulir survei. _XLSForm_ sangat mudah untuk digunakan tetapi bisa juga menjadi sangat rumit apabila Anda sudah familiar dalam membuatnya. 
 
 <p align="center">
-  <img width=50% src="../images/0501_contoh_format_XLSForm.png">
+  <img width=50% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0501_contoh_format_XLSForm.png">
 </p>
 <p align="center"><i>Contoh format XLSForm</i></p>
 
