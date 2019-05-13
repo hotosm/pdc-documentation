@@ -21,7 +21,7 @@ Pembagian wilayah pemetaan ini bertujuan untuk memfokuskan area kegiatan pemetaa
 
 Pentingnya kemampuan teknis dalam mengoperasikan peralatan survei akan membantu dalam pengambilan data di lapangan. Pengetahuan lokal seperti pemahaman akan lokasi yang akan menjadi tujuan survei dan kemampuan berbahasa daerah (lokal) menjadi nilai tambah yang dapat membantu mendapatkan informasi dari masyarakat dan komunitas di area survei. 
 
-![Pembagian wilayah pemetaan di masing-masing Kota](../images/0101_metode_pengumpulan_data.JPG "Pembagian wilayah pemetaan di masing-masing Kota")
+![Pembagian wilayah pemetaan di masing-masing Kota](/pages/01-OSM-Field-Surveyor-Guideliness/01-Metodologi-Pengumpulan-Data/images/0101_metode_pengumpulan_data.JPG "Pembagian wilayah pemetaan di masing-masing Kota")
 <p align="center"><i>Pembagian wilayah pemetaan di masing-masing Kota</i></p>
 
 *   **Mengurus Surat Izin Survei**
