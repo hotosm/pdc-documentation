@@ -1,7 +1,10 @@
-# Meletakkan Formulir Survei ke *Ona.io*
+---
+title: Meletakkan Formulir Survei ke Ona.io
+weight: 6
+---
+
 
 **Tujuan Pembelajaran:**
-
 
 
 *   Mampu menjelaskan manfaat penggunaan *Ona.io*
