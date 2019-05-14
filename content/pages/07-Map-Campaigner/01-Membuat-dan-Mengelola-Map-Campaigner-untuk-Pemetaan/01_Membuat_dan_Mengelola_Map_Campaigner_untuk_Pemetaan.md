@@ -21,7 +21,7 @@ _Map Campaigner_ merupakan sebuah alat yang ditujukan untuk mengumpulkan semua m
 _Map Campaigner_ bertujuan memudahkan para manajer proyek dalam memantau proyek pemetaan mereka. Sebagai contoh disini adalah kegiatan pemetaan yang dilakukan oleh tim HOT untuk memetakan semua tempat ibadah, sekolah, universitas dan sekolah tinggi yang ada di Jakarta Pusat. Dengan menggunakan _Map Campaigner_, Anda bisa melihat berapa banyak total objek yang sudah terpetakan dalam kegiatan proyek ini, kemudian berapa banyak pengguna _OpenStreetMap_ yang membantu untuk turut serta dalam proyek pemetaan ini, baik secara sukarela maupun yang tergabung ke dalam tim proyek pemetaan.
 
 <p align="center">
-  <img width=80% src="/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0101_Contoh penggunaan Map Campaigner untuk  Jakarta Pusat.png">
+  <img width=80% src="/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0101_contoh_penggunaan_map_campaigner_untuk__jakarta_pusat.png">
 </p>
 <p align="center"><i>Contoh penggunaan Map Campaigner untuk  Jakarta Pusat</i><p align="center">
 
@@ -32,7 +32,7 @@ _Map Campaigner_ juga menyajikan fitur penjaminan kualitas dari segi kelengkapan
 
 
 <p align="center">
-  <img width=80% src="/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0102_Contoh pengecekan atribut oleh Map Campaigner.png">
+  <img width=80% src="/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0102_contoh_pengecekan_atribut_oleh_map_campaigner.png">
 </p>
 <p align="center"><i>Contoh pengecekan atribut oleh Map Campaigner</i><p align="center">
 
@@ -45,6 +45,7 @@ Sampai saat ini Anda telah mengetahui apa itu _Map Campaigner_ dan apa saja manf
 
 ### a. Mengatur Informasi Dasar untuk Proyek _Campaign_ Anda
 Pada bagian ini, Anda akan mengisi informasi dasar untuk proyek Anda. Anda harus mengisi beberapa informasi pada halaman ini:
+
 *   **Nama proyek.** Pada bagian ini, Anda cukup mengisikan nama proyek yang sedang Anda lakukan.
 *   **Durasi proyek berlangsung.** Pada bagian ini, Anda akan mengatur durasi proyek berlangsung. Anda bisa memberikan tanggal yang telah lampau apabila proyek pemetaan yang Anda lakukan adalah proyek pemetaan yang sudah selesai.
 *   **Deskripsi proyek.** Pada bagian ini, Anda akan mengisikan mengenai deskripsi kegiatan proyek.
@@ -52,7 +53,7 @@ Pada bagian ini, Anda akan mengisi informasi dasar untuk proyek Anda. Anda harus
 
 
 <p align="center">
-  <img width=80% src="/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0103_Tampilan saat memasukkan atribut OSM untuk Map Campaigner.png">
+  <img width=80% src="/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0103_tampilan_saat_memasukkan_atribut_osm_untuk_map_campaigner.png">
 </p>
 <p align="center"><i>Tampilan saat memasukkan atribut OSM untuk Map Campaigner</i><p align="center">
 
@@ -67,15 +68,15 @@ Pada bagian ini, Anda akan mengisi informasi dasar untuk proyek Anda. Anda harus
 >       
 >       - Semua elemen dibawah elemen utama (elemen pendukung) harus berada beberapa spasi dibandingkan elemen utama
 >       
->       - Isi elemen pendukung = *feature, tags, & element_type*
+>       - Isi elemen pendukung = feature, tags, & element_type
 >       
->       - *feature* merupakan kategori yang ada di OSM. Untuk lebih jelasnya bisa melihat wikipedia OSM
+>       - feature merupakan kategori yang ada di OSM. Untuk lebih jelasnya bisa melihat wikipedia OSM
 >       
->       - Agar lebih spesifik, Anda bisa menggunakan set *key & value* seperti misalnya *building=school* atau *amenity=hospital*
+>       - Agar lebih spesifik, Anda bisa menggunakan set key & value seperti misalnya building=school atau amenity=hospital
 >       
->       - *tags* merupakan kumpulan atribut (*key & value*) OSM yang akan diperiksa oleh sistem. Harap cek *wikipedia* atau modul **Model Data OpenStreetMap**
+>       - tags merupakan kumpulan atribut (key & value) OSM yang akan diperiksa oleh sistem. Harap cek wikipedia atau modul Model Data OpenStreetMap
 >       
->       - *element_type* merupakan jenis objek OSM yang akan diperiksa. Apakah titik (*point*), garis (*line*), atau area (*polygon*) 
+>       - element_type merupakan jenis objek OSM yang akan diperiksa. Apakah titik (point), garis (line), atau area (polygon) 
 
 
 
@@ -85,7 +86,7 @@ Pada bagian ini, Anda akan mengisi informasi dasar untuk proyek Anda. Anda harus
 
     
 <p align="center">
-  <img width=90% src="/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0104_Tampilan pada halaman informasi dasar.png">
+  <img width=90% src="/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0104_tampilan_pada_halaman_informasi_dasar.png">
 </p>
 <p align="center"><i>Tampilan pada halaman informasi dasar</i><p align="center">
 
@@ -101,7 +102,7 @@ Setelah mengatur area kerja proyek, Anda dapat menetapkan tim mana saja yang ber
 
 
 <p align="center">
-  <img width=90% src="/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0105_Tampilan pada halaman pengaturan area kerja.png">
+  <img width=90% src="/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0105_tampilan_pada_halaman_pengaturan_area_kerja.png">
 </p>
 <p align="center"><i>Tampilan pada halaman pengaturan area kerja</i><p align="center">
 
@@ -113,7 +114,7 @@ Setelah berhasil membuat proyek _campaign_, Anda bisa langsung menuju halaman ut
 
 
 <p align="center">
-  <img width=90% src="/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0106_Tampilan halaman Map Campaigner.png">
+  <img width=90% src="/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0106_tampilan_halaman_map_campaigner.png">
 </p>
 <p align="center"><i>Tampilan halaman Map Campaigner</i><p align="center">
 
@@ -135,7 +136,9 @@ Selain beberapa tampilan di atas, terdapat pula bagian **_Errors_** yang menjela
 ## V. Memperbaiki Objek OSM yang Belum Lengkap
 
 Dengan menggunakan _Map Campaigner_, Anda bisa langsung memperbaiki objek OSM yang belum lengkap dari segi atribut datanya. Untuk memperbaikinya terdapat dua cara.
+
 *   Cara yang pertama adalah dengan memperbaiki satu-persatu objek OSM tersebut dengan memilih id objek pada kolom **_Name_**. Dengan cara ini Anda akan diarahkan ke halaman situs _OpenStreetMap_ dan kemudian Anda bisa langsung mengubahnya dengan menggunakan **JOSM** ataupun **iD**.
+
 *   Cara kedua adalah dengan mengklik tombol **_Download_** yang ada pada bagian bawah dari daftar _errors_. Dengan menggunakan ini, Anda akan mengunduh _file_ .osm untuk dapat dibuka dengan menggunakan JOSM. Setelah berkas berhasil anda unduh, Anda dapat langsung membukanya di JOSM untuk langsung melengkapi atributnya.
 
 
@@ -146,8 +149,8 @@ Selamat! Saat ini Anda telah berhasil mempelajari cara menggunakan _Map Campaign
 
 [^1]:
 
-     [https://wiki.openstreetmap.org/wiki/Map_Features](https://wiki.openstreetmap.org/wiki/Map_Features)
-    [https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines](https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines)
+    https://wiki.openstreetmap.org/wiki/Map_Features
+    https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines
 
 
 
