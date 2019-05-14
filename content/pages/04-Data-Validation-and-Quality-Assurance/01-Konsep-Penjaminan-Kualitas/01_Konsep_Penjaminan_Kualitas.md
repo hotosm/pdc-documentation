@@ -1,6 +1,10 @@
-# Konsep Penjaminan Kualitas
+---
+title: Konsep Penjaminan Kualitas
+weight: 1
+---
 
 **Tujuan Pembelajaran:**
+
 *   Memahami pengertian penjaminan kualitas
 *   Memahami pengertian penjaminan kualitas data di OpenStreetMap
 
@@ -23,7 +27,8 @@ Menurut buku "_Assuring the quality of volunteered geographic information_" yang
 
 
 1. Penjaminan Partisipatif
-    Ditambahkan oleh Surowiecki dalam bukunya yang berjudul “_The Wisdom of Crowds_” (2004) mekanisme **penjaminan kualitas data** secara **partisipatif** memiliki beberapa ciri dan kelebihan seperti:
+   
+    Ditambahkan oleh Surowiecki dalam bukunya yang berjudul "_The Wisdom of Crowds_" (2004) mekanisme **penjaminan kualitas data** secara **partisipatif** memiliki beberapa ciri dan kelebihan seperti:
     *   Beberapa pengguna dapat menghasilkan suatu kesepakatan bersama atas suatu kesalahan data yang ditemukan. Hal ini biasanya terjadi seperti kesalahan informasi ataupun jenis-jenis dari objek yang dipetakan di suatu wilayah. Para pengguna yang memetakan wilayah tersebut dapat menghasilkan kesepakatan bersama sehingga tidak ada lagi kesalahan informasi terhadap objek-objek yang akan dipetakan.
     *   Beberapa pengamatan dan pengalaman dari suatu individu dapat memperkuat validitas pengamatan dan pengalaman individu yang lain sehingga dapat mengurangi risiko kesalahan pemahaman terhadap suatu objek tertentu.
     *   Secara bersama-sama dapat melakukan validasi dan pengecekan kualitas data dan kesalahan di wilayah tertentu sehingga dapat menghemat waktu, tenaga dan biaya dalam melakukan kegiatan penjaminan kualitas data.
@@ -31,6 +36,7 @@ Menurut buku "_Assuring the quality of volunteered geographic information_" yang
     Contoh penjaminan kualitas secara partisipatif ini pernah dilakukan oleh _Humanitarian OpenStreetMap Team_ bekerja sama dengan _Resilience Network Initiative_ (RNI) memetakan Kelurahan Purwodinatan, Kecamatan Semarang Tengah, Kota Semarang. Kegiatan ini melibatkan elemen masyarakat dan dibantu oleh mahasiswa lokal serta panitia sekitar dalam melakukan pemetaan hingga menginput data-data yang dipetakan ke dalam _OpenStreetMap_. 
 
 2. Penjaminan Sosial
+   
     Sedikit berbeda namun tetap berkaitan dengan mekanisme penjaminan kualitas secara partisipatif, **penjaminan kualitas** secara **sosial** lebih mengedepankan kualitas individu untuk melakukannya. Semakin sering seseorang melakukan validasi dan memperbaiki kesalahan-kesalahan yang ada pada data, maka dia akan semakin dipercaya untuk bisa melakukan penjaminan kualitas data. Dengan demikian, seseorang yang memiliki reputasi yang baik akan dipercaya untuk memimpin yang lain untuk melakukan kegiatan penjaminan kualitas di dalam suatu kegiatan atau proyek. Selain itu, penjaminan kualitas sosial dapat dilakukan dengan membentuk suatu _working group_ yang menjadi sebuah media untuk memberitahukan serta memperbaharui kegiatan-kegiatan yang terkait penjaminan kualitas data. Hal ini dapat mempercepat kegiatan penjaminan kualitas data dan mengefektifkan komunikasi sesama anggota.
 
     Salah satu contoh kegiatan penjaminan kualitas sosial ini seperti yang telah dilakukan oleh _OpenStreetMap Foundation_ dimana mereka membuat beberapa kelompok diskusi (_working group_) yang tiap kelompok memiliki tema diskusi yang berbeda-beda. Untuk kualitas data OpenStreetMap dibahas dalam kelompok diskusi data (_Data Working Group_) dimana dalam kelompok tersebut dibahas berbagai hal terkait data yang ada di _OpenStreetMap_ seperti lisensi data, vandalisme data, perselisihan tentang data, serta membantu dalam menentukan kebijakan pemakaian terhadap data OpenStreetMap. Kelompok diskusi data ini terdiri dari anggota _OpenStreetMap foundation_ yang merupakan donor _OpenStreetMap_ dan juga beberapa pengguna yang direkomendasikan oleh anggota yang berada di _OpenStreetMap foundation_ itu sendiri. Untuk melihat tugas dan kegiatan _Data Working Group_ silahkan mengunjungi halaman _wiki_ untuk _Data Working Group_[^1] dan jika Anda ingin bergabung untuk berdiskusi dapat menghubungi anggota mereka di <data@osmfoundation.org>.
@@ -45,6 +51,7 @@ Menurut buku "_Assuring the quality of volunteered geographic information_" yang
 ## III. Penjaminan Kualitas Data di OpenStreetMap
 
 Mekanisme penjaminan kualitas data yang telah dijelaskan dapat diaplikasikan ke dalam penjaminan kualitas data OpenStreetMap. Perlu diketahui bahwa kegiatan penjaminan kualitas di _OpenStreetMap_ menjadi tanggung jawab seluruh pengguna. Oleh karena itu, _OpenStreetMap_ telah memiliki beberapa petunjuk teknis dalam melakukan kegiatan tersebut dengan menggunakan ketiga mekanisme yang telah dijelaskan. Terdapat 2 jenis alat yang digunakan dalam melakukan penjaminan kualitas data di _OpenStreetMap_, yaitu:
+
 *   Alat Pemantau Data _OpenStreetMap_
 *   Alat Pendeteksi Kesalahan _OpenStreetMap_
 
@@ -60,7 +67,7 @@ Saat ini Anda tentunya sudah memahami apa itu penjaminan kualitas data, mekanism
 
 [^1]:
 
-     [https://wiki.osmfoundation.org/wiki/Data_Working_Group](https://wiki.osmfoundation.org/wiki/Data_Working_Group)
+    https://wiki.osmfoundation.org/wiki/Data_Working_Group
 
 
 
