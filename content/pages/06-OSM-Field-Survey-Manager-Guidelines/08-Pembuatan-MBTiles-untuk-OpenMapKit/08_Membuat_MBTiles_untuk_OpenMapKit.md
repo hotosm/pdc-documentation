@@ -46,12 +46,12 @@ _Export Tool_ merupakan salah satu situs yang digunakan untuk men-_download_ dat
 
 *   Selanjutnya klik pada bagian **Menu Data**, Anda harus menyalin alamat URL _tilemap_ dari citra satelit yang akan digunakan sebagai _basemap_. Anda mungkin hanya bisa melihat OpenStreetMap sebagai salah satu opsi untuk membuat MBTiles. Secara pengaturan awal _Export Tools_ hanya menyediakan OpenStreetMap sebagai latar belakang MBTiles Anda. Namun, Anda bisa dengan mudah menambahkan tautan citra satelit lain. Untuk menambahkan tautan di bawah, pilih salah satu citra satelit yang tersedia, **salin (_copy_)** tautan di bawah dan **letakkan (_paste_)** pada kotak **_MBTiles Source_** yang terdapat di dalam **Menu Data**. 
 
-        Mapbox Satellite = https://tinyurl.com/mbtiles-mapbox
-        [http://a.tiles.mapbox.com/v4/openstreetmap.map-inh7ifmo/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJncjlmd0t3In0.DmZsIeOW-3x-C5eX-wAqTw](http://a.tiles.mapbox.com/v4/openstreetmap.map-inh7ifmo/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJncjlmd0t3In0.DmZsIeOW-3x-C5eX-wAqTw)
+        Mapbox Satellite
+        http://a.tiles.mapbox.com/v4/openstreetmap.map-inh7ifmo/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJncjlmd0t3In0.DmZsIeOW-3x-C5eX-wAqTw
 
 
-        Digital Globe = https://tinyurl.com/mbtiles-DG
-	    [https://a.tiles.mapbox.com/v4/digitalglobe.316c9a2e/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGlnaXRhbGdsb2JlIiwiYSI6ImNqZGFrZ2c2dzFlMWgyd2x0ZHdmMDB6NzYifQ.9Pl3XOO82ArX94fHV289Pg](https://a.tiles.mapbox.com/v4/digitalglobe.316c9a2e/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGlnaXRhbGdsb2JlIiwiYSI6ImNqZGFrZ2c2dzFlMWgyd2x0ZHdmMDB6NzYifQ.9Pl3XOO82ArX94fHV289Pg)
+        Digital Globe
+	    https://a.tiles.mapbox.com/v4/digitalglobe.316c9a2e/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGlnaXRhbGdsb2JlIiwiYSI6ImNqZGFrZ2c2dzFlMWgyd2x0ZHdmMDB6NzYifQ.9Pl3XOO82ArX94fHV289Pg
 
 *   Setelah Anda salin, Anda dapat menggeser ke kiri dan memilih tautan yang baru saja dimasukkan.  
 
@@ -104,7 +104,7 @@ _Export Tool_ merupakan salah satu situs yang digunakan untuk men-_download_ dat
 _Plugin_ QTiles merupakan _plugin_ yang dapat digunakan untuk menghasilkan _tile_ raster dari proyek QGIS. Plugin ini dapat menyimpan pengaturan perbesaran tampilan _tile_ raster dari layanan _tile_ seperti _(Slippy map_, TMS). Anda dapat menggunakan _plugin_ QuickMapServices pada modul sebelumnya **Pembuatan Peta Survei dengan QGIS**, untuk menampilkan layanan _tile_ raster. Kelebihan lainnya dengan menggunakan _plugin_ ini, Anda dapat menampilkan layer jalan dan batas administrasi pada proyek QGIS, sehingga pada tampilan _basemap_ OMK akan membantu _data entry_ dalam pengenalan survei lapangan. Langkah - langkah yang dilakukan untuk membuat mbtiles dengan _plugin_ QTiles, sebagai berikut:
 
 **a. Instal _Plugin_ QTiles**
-*   Buka QGIS dan_ install plugin_ dengan klik **_Menu Plugin → Manage and Install Plugin_.**Tuliskan pada kotak pencarian (**_Search_**) “qtiles” maka akan tampil di bawah ini, berikan tanda centang dan klik **_Install Plugin_**. Jika _download plugin_ tidak berhasil, maka Anda dapat memeriksa jaringan internet. 
+*   Buka QGIS dan _install plugin_ dengan klik **_Menu Plugin → Manage and Install Plugin_.**Tuliskan pada kotak pencarian (**_Search_**) “qtiles” maka akan tampil di bawah ini, berikan tanda centang dan klik **_Install Plugin_**. Jika _download plugin_ tidak berhasil, maka Anda dapat memeriksa jaringan internet. 
 
 <p align="center">
   <img width=80% src="../images/0812_qtiles.png">
