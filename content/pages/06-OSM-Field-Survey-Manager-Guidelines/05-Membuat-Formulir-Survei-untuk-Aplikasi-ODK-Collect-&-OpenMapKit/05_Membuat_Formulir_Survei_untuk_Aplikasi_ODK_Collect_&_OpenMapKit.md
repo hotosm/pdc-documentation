@@ -1,4 +1,8 @@
-# Membuat Formulir Survei untuk Aplikasi ODK Collect & OpenMapKit
+---
+title: Membuat Formulir Survei untuk Aplikasi ODK Collect & OpenMapKit
+weight: 5
+---
+
 
 **Tujuan pembelajaran:**
 
