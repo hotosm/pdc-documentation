@@ -14,6 +14,8 @@ weight: 1
 Perencanaan proyek pemetaan memerlukan metodologi survei yang tepat dan efisien untuk mencapai target dan tujuan pemetaan. Indikator-indikator yang perlu diperhatikan dalam pembuatan metodologi survei meliputi: luas wilayah survei, jumlah tim pemetaan, jumlah objek yang dikumpulkan, dan pendanaan proyek. Jika luas wilayah semakin besar dan jumlah objek yang dikumpulkan semakin banyak, maka pendanaan proyek juga semakin besar. 
 
 Pada proyek pemetaan survei lapang akan dilaksanakan oleh tim pemetaan yang dibagi menjadi 3 (tiga) peran, yaitu :
+
+
 *   _Mapping Supervisor_ = mengatur dan mengawasi jalannya proyek pemetaan, mempersiapkan keperluan pemetaan, membuat laporan hasil pemetaan dan memeriksa kualitas dan kuantitas data yang telah divalidasi oleh _Quality Assurance_.
 *   _Quality Assurance_= menjamin kuantitas dan kualitas data yang dihasilkan oleh _data entry_ dan mengawasi _data entry_ dalam melakukan survei lapangan.
 *   _Data Entry_ = melaksanakan survei lapangan dan memasukkan data lapangan ke dalam OSM beserta digitasi bangunan dan jalan.
@@ -22,6 +24,8 @@ Pada proyek pemetaan survei lapang akan dilaksanakan oleh tim pemetaan yang diba
 ### **I. Pembuatan Kerangka Kerja**
 
 Perencanaan pemetaan memerlukan suatu kerangka kerja yang disesuaikan dengan indikator-indikator pemetaan yang telah disebutkan sebelumnya. Kerangka kerja tersebut dapat dijadikan acuan dalam pelaksanaan proyek pemetaan yang akan dimonitor oleh _Mapping Supervisor_ dan _Quality Assurance_. Kerangka kerja secara garis besar terdiri dari:
+
+
 *   Persiapan proyek pemetaan
 *   Penentuan jumlah tim _data entry_ dan tim _quality assurance_
 *   Pelaksanaan pelatihan OSM untuk tim pemetaan
@@ -84,6 +88,7 @@ Pada tahapan ini, kegiatan yang dilakukan akan berfokus pada persiapan peralatan
 *   Membuat MBTiles untuk citra satelit
 *   Membuat peta survei berdasarkan batas administrasi
 *   Membuat panduan survei pemetaan
+
 
      Contoh Tabel _Timeline_ Pemetaan Tahap Sebelum Survei
 
@@ -288,11 +293,12 @@ _*Pengisian dilakukan oleh Mapping Supervisor_
 **b. Survei Pemetaan**
 
 Pada saat proses survei pemetaan, masing-masing tim memiliki peran agar survei pemetaan dapat terlaksana dengan baik, yaitu:
+
 *   _Data Entry_ = mempersiapkan peralatan survei pada _smartphone_, melaksanakan survei, memasukkan data survei dan meng-_upload_ ke dalam OSM, digitasi bangunan dan jalan dengan menggunakan JOSM.
 *   _Quality Assurance_ = memastikan dan mengawasi kualitas data yang telah di-_upload_ oleh _data entry_, memastikan dan mengawasi pelaksanaan survei yang dilakukan oleh _data entry_ di lapangan, serta mengatur strategi kegiatan survei lapangan bersama _data entry._
 *   _Mapping Supervisor_ = memastikan kualitas dan kuantitas data serta memantau pelaksanaan survei yang disesuaikan dengan _timeline_ yang telah ditetapkan.
 
-    Contoh Tabel _Timeline_ Pemetaan Tahap Survei Pemetaan
+    Contoh Tabel *Timeline* Pemetaan Tahap Survei Pemetaan
 
 <table>
   <tr>
