@@ -22,21 +22,23 @@ _Global Positioning System_ atau GPS adalah sebuah alat atau sistem berbasis sat
 <p align="center">
  <img src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0501_Ilustrasi_garis_lintang_dan_garis_bujur.png"
 </p>
-<p align="center"><i>Ilustrasi garis lintang dan garis bujur</i><p align="center">
+<p align="center"><i>Ilustrasi garis lintang dan garis bujur</i></p>
 
 Berikut ini adalah bagian-bagian dari GPS Garmin 64s. Jika Anda menggunakan GPS tipe lain tidak perlu khawatir, karena pada dasarnya semua GPS memiliki prinsip yang sama.
 
 <p align="center">
  <img width=75% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0502_Bagian_depan_pada_GPS.png"
 </p>
-<p align="center"><i>Bagian depan pada GPS</i><p align="center">
+<p align="center"><i>Bagian depan pada GPS</i></p>
 
 <p align="center">
  <img width=50% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0503_Bagian_belakang_pada_GPS.png"
 </p>
-<p align="center"><i>Bagian belakang pada GPS</i><p align="center">
+<p align="center"><i>Bagian belakang pada GPS</i></p>
+
 
 Berikut ini fungsi dari tombol-tombol yang ada pada GPS:
+
 *   Tombol _power_ terletak di sebelah kanan atas. Tekan tombol agak lama, kemudian GPS akan otomatis nyala. 
 *   Tombol (IN) berfungsi untuk memperbesar tampilan peta pada layar GPS. 
 *   Tombol (OUT) berfungsi untuk memperkecil tampilan peta pada layar GPS. 
@@ -51,7 +53,7 @@ Berikut ini fungsi dari tombol-tombol yang ada pada GPS:
 ### II. Menyalakan GPS
 _Global Positioning System_ atau GPS adalah sebuah alat yang berbasis satelit sehingga untuk menyalakan GPS, pastikan Anda berada di tempat yang terbuka dimana Anda dapat melihat langit dengan jelas. GPS dapat menentukan lokasi Anda dengan cara menerima sinyal dari satelit sehingga jika Anda berada di dalam ruangan, maka GPS tidak akan dapat bekerja. Berikut ini adalah langkah-langkah untuk menyalakan GPS:
 
-*   Pada bagian atas sisi kanan GPS Anda, tekan dan tahan tombol _Power _selama beberapa detik hingga layar menyala dan memunculkan logo “Garmin”. Proses dengan logo Garmin ini memang agak lama, tapi Anda tidak perlu khawatir karena GPS sedang memproses _waypoints, tracks,_ dan _routes_ yang ada di dalam GPS Anda sehingga memerlukan waktu lebih lama.
+*   Pada bagian atas sisi kanan GPS Anda, tekan dan tahan tombol _Power_ selama beberapa detik hingga layar menyala dan memunculkan logo “Garmin”. Proses dengan logo Garmin ini memang agak lama, tapi Anda tidak perlu khawatir karena GPS sedang memproses _waypoints, tracks,_ dan _routes_ yang ada di dalam GPS Anda sehingga memerlukan waktu lebih lama.
 
 <p align="center">
  <img width=25% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0504_GPS_dalam_keadaan_baru_nyala_dengan_logo_Garmin.png"
@@ -89,7 +91,7 @@ Di GPS Anda juga dapat mengetahui arah mata angin dari titik lokasi Anda pada pi
 </p>
 <p align="center"><i>Kompas untuk membantu sebagai penunjuk arah pada saat survei</i></p>
 
-Pada GPS Anda juga dapat mengetahui lokasi dimana Anda berada dan melihat tempat-tempat di sekitar lokasi Anda. Anda dapat mencobanya dengan cara menekan tombol **_Page → Map_**. Pada opsi map ini, Anda juga dapat melihat _track_ dan _waypoint _jika Anda sudah mulai merekam _track _dan _waypoint_. 
+Pada GPS Anda juga dapat mengetahui lokasi dimana Anda berada dan melihat tempat-tempat di sekitar lokasi Anda. Anda dapat mencobanya dengan cara menekan tombol **_Page → Map_**. Pada opsi map ini, Anda juga dapat melihat _track_ dan _waypoint_ jika Anda sudah mulai merekam _track_ dan _waypoint_. 
 
 <p align="center">
  <img width=25% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0509_Tampilan_layar_GPS_pada_pilihan_menu_Map.png"
