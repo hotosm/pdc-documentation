@@ -1,4 +1,6 @@
-﻿# **Penggunaan YAML pada _Export Tool_**
+﻿---
+title: Penggunaan YAML pada Export Tool
+---
 
 **Tujuan Pembelajaran:**
 
@@ -22,7 +24,7 @@ Cara membuat YAML untuk struktur data OSM dapat dibagi menjadi empat bagian, yai
 *   _Where_ = menunjukkan letak objek pada data OSM, terdiri dari _key_ dan _value_ dari objek tersebut
 
 <p align="center">
-  <img width=60% src="../images/0401_Struktur_format_YAML.png">
+  <img width=60% src="pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0401_Struktur_format_YAML.png">
 </p>
 <p align="center"><i>Struktur format YAML untuk data OSM</i><p align="center">
 
@@ -184,14 +186,14 @@ Tabel Model Data OSM untuk Objek Bank
 *   Buka halaman situs Anda, dan ketikkan link berikut ini https://export.hotosm.org
 
 <p align="center">
-  <img width=95% src="../images/0402_Halaman_Situs_Export.png">
+  <img width=95% src="pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0402_Halaman_Situs_Export.png">
 </p>
 <p align="center"><i>Halaman muka situs Export Tool</i><p align="center">
 
 *   Anda harus masuk menggunakan akun OSM dengan klik **_Login_** di sudut kanan atas. Apabila muncul _‘Authorize access to your account’_ klik **_Grant Access_**. Periksa alamat email Anda untuk mengkonfirmasi pembuatan akun pada email yang masih aktif. Klik tautan pada email tersebut untuk konfirmasi pembuatan akun.
 
 <p align="center">
-  <img width=95% src="../images/0403_Izin_akses_akun_OSM.png">
+  <img width=95% src="pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0403_Izin_akses_akun_OSM.png">
 </p>
 <p align="center"><i>Izin akses akun OSM</i><p align="center">
 
@@ -200,7 +202,7 @@ Tabel Model Data OSM untuk Objek Bank
 *   Pada **_Menu Describe_** akan muncul formulir isian dan gambar peta seperti gambar di bawah ini, formulir isian yang wajib diisi dan Anda dapat memilih area yang diinginkan pada gambar peta di sebelah kanan. 
 
 <p align="center">
-  <img width=90% src="../images/0404_Lembar_kerja_Export_Tool.png">
+  <img width=90% src="pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0404_Lembar_kerja_Export_Tool.png">
 </p>
 <p align="center"><i>Lembar kerja Export Tool</i><p align="center">
 
@@ -209,56 +211,56 @@ Tabel Model Data OSM untuk Objek Bank
 1. **_Box_** = Menggambar area dengan menggunakan kotak. Jika Anda ingin mengulang untuk pembuatan kotak klik tanda X pada kolom _Box_. 
 
 <p align="center">
-  <img width=80% src="../images/0405_Penentuan_area_box.png">
+  <img width=80% src="pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0405_Penentuan_area_box.png">
 </p>
 <p align="center"><i>Penentuan area dengan bentuk kotak</i><p align="center">
 
 2. **_Draw_** = Menggambar area yang dipilih secara manual, Anda dapat klik pada area yang ingin digambar dan diakhiri dengan klik dua kali.
 
 <p align="center">
-  <img width=80% src="../images/0406_Penentuan_area_dengan_bentuk_manual.png">
+  <img width=80% src="pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0406_Penentuan_area_dengan_bentuk_manual.png">
 </p>
 <p align="center"><i>Penentuan area dengan bentuk manual</i><p align="center">
 
 3. **_Import_** = Menggunakan poligon dalam format _.geojson_ untuk memilih area yang akan di _download_. Syarat format data _.geojson_ yang dapat ditambahkan ke dalam _Export Tool_ adalah harus satu fitur (satu baris) pada data atribut. Anda dapat membuka modul **Menggunakan GeoJSON** untuk mengetahui cara mendapatkan data _.geojson._
 
 <p align="center">
-  <img width=80% src="../images/0407_Penentuan_area_dengan_import.png">
+  <img width=80% src="pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0407_Penentuan_area_dengan_import.png">
 </p>
 <p align="center"><i>Penentuan area dengan berdasarkan batas administrasi</i><p align="center">
  
 *   Jika sudah menyelesaikan formulir isian dan menentukan area yang akan di _download_, pilih menu **_Format_**. Pilih data spasial yang Anda inginkan, misalnya _.shapefile_
 
 <p align="center">
-  <img width=50% src="../images/0408_Format_data_spasial.png">
+  <img width=50% src="pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0408_Format_data_spasial.png">
 </p>
 <p align="center"><i>Format data spasial</i><p align="center">
 
 *   Selanjutnya klik Menu **Data → YAML**. Salin struktur data YAML yang telah dibuat, tempelkan/_paste_ ke kotak YAML
 
 <p align="center">
-  <img width=70% src="../images/0409_Menu_YAML.png">
+  <img width=70% src="pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0409_Menu_YAML.png">
 </p>
 <p align="center"><i>Menu YAML</i><p align="center">
 
 *   Klik Menu **_Summary_**, Anda harus memilih apakah _file_ ekspor ini akan dipublikasikan kepada umum atau hanya ada pada akun Anda. Kemudian klik **_Create Export_** untuk memulai proses ekspor data OSM.
 
 <p align="center">
-  <img width=70% src="../images/0410_Menu_summary.png">
+  <img width=70% src="pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0410_Menu_summary.png">
 </p>
 <p align="center"><i>Menu summary</i><p align="center">
 
 *   Tunggu beberapa saat sampai proses selesai. Jika _file export_ Anda sudah selesai, _Export Tool_ akan memberikan pemberitahuan melalui _email_, atau Anda dapat melihat hasilnya di Menu **_Export._** Jika Anda ingin melihat hasil _export_ yang dilakukan oleh pengguna lainnya, maka beri tanda centang **_Show all Export_**. 
 
 <p align="center">
-  <img width=90% src="../images/0411_Menu_export.png">
+  <img width=90% src="pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0411_Menu_export.png">
 </p>
 <p align="center"><i>Menu Export</i><p align="center">
 
 *   Jika proses sudah selesai akan muncul kotak dialog seperti di bawah ini, klik tulisan berwarna biru seperti **nama file.shp.zip** untuk menyimpan hasil ekspor data OSM.
 
 <p align="center">
-  <img width=80% src="../images/0412_Done.png">
+  <img width=80% src="pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0412_Done.png">
 </p>
 <p align="center"><i>Proses export tool telah selesai</i><p align="center">
 

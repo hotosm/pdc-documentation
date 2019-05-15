@@ -1,4 +1,7 @@
-﻿# **Menambahkan Data Hasil Survei ke OSM Menggunakan JOSM**
+﻿---
+title: Menambahkan Data Hasil Survei ke OSM Menggunakan JOSM
+weight: 5
+---
 
 **Tujuan Pembelajaran:**
 
@@ -25,7 +28,7 @@ Sebelum menambahkan atau mengedit data OSM menggunakan JOSM, instal _plugin_ yan
 *   Setelah men-_download plugin_, cari _plugin **utlisplugin2**_ dengan menuliskannya pada kolom **_Search_**. Setelah berhasil menemukan _plugin **utilsplugin2**_, silakan **centang** kotak _plugin **utilsplugin2**_ untuk menginstal _plugin_ tersebut.
 
 <p align="center">
-<img width=50% src="../images/0501_utilsplugin.png" alt="Melakukan instalasi plugin utilsplugin2" title="Melakukan instalasi plugin utilsplugin2">
+<img width=50% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0501_utilsplugin.png" alt="Melakukan instalasi plugin utilsplugin2" title="Melakukan instalasi plugin utilsplugin2">
 </p>
 
 <p align="center"><i>Melakukan instalasi plugin utilsplugin2</i></p>
@@ -33,7 +36,7 @@ Sebelum menambahkan atau mengedit data OSM menggunakan JOSM, instal _plugin_ yan
 *   Setelah itu klik **_OK_** dan tunggu hingga proses instalasi selesai. Jika sudah berhasil diinstal, akan muncul menu **_More tools_**.
 
 <p align="center">
-<img width= 40% src="../images/0502_menu_more_tools.png" alt="Tampilan menu More tools pada JOSM" title="Tampilan menu More tools pada JOSM">
+<img width= 40% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0502_menu_more_tools.png" alt="Tampilan menu More tools pada JOSM" title="Tampilan menu More tools pada JOSM">
 </p>
 
 <p align="center"><i>Tampilan menu More tools pada JOSM</i></p>
@@ -50,7 +53,7 @@ Jika Anda sudah melakukan survei menggunakan alat pengumpulan data seperti _ODK 
 *   Arahkan **_File Explorer_** ke direktori tempat penyimpanan _file_ hasil survei dari **_ODK Collect_** dan _**OpenMapKit**_.
 
 <p align="center">
-<img width=70% src="../images/0503_direktori_file_odk.png" alt="Direktori penyimpanan file hasil survei menggunakan ODK Collect" title="Tampilan direktori penyimpanan file hasil survei menggunakan ODK Collect">
+<img width=70% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0503_direktori_file_odk.png" alt="Direktori penyimpanan file hasil survei menggunakan ODK Collect" title="Tampilan direktori penyimpanan file hasil survei menggunakan ODK Collect">
 </p>
 
 <p align="center"><i>Tampilan direktori penyimpanan file hasil survei menggunakan ODK Collect</i></p>
@@ -58,7 +61,7 @@ Jika Anda sudah melakukan survei menggunakan alat pengumpulan data seperti _ODK 
 *   Cari semua _file .osm_ dengan cara ketikkan **osm** pada kolom _**Search**_. Pilih semua _file .osm_ dari hasil pencarian.
 
 <p align="center">
-<img width=60% src="../images/0504_pencarian_direktori.png" alt="Tampilan hasil pencarian pada direktori penyimpanan file hasil survei" title="Tampilan hasil pencarian pada direktori penyimpanan file hasil survei">
+<img width=60% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0504_pencarian_direktori.png" alt="Tampilan hasil pencarian pada direktori penyimpanan file hasil survei" title="Tampilan hasil pencarian pada direktori penyimpanan file hasil survei">
 </p>
 
 <p align="center"><i>Tampilan hasil pencarian pada direktori penyimpanan file hasil survei</i></p>
@@ -66,7 +69,7 @@ Jika Anda sudah melakukan survei menggunakan alat pengumpulan data seperti _ODK 
 *   Tarik semua _file .osm_ yang sudah dipilih ke **JOSM**.
 
 <p align="center">
-<img width=40% src="../images/0505_layer_josm.png" alt="Tampilan layer setelah dimasukkan data hasil survei menggunakan ODK dan OMK" title="Tampilan layer setelah dimasukkan data hasil survei menggunakan ODK dan OMK">
+<img width=40% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0505_layer_josm.png" alt="Tampilan layer setelah dimasukkan data hasil survei menggunakan ODK dan OMK" title="Tampilan layer setelah dimasukkan data hasil survei menggunakan ODK dan OMK">
 </p>
 
 <p align="center"><i>Tampilan layer setelah dimasukkan data hasil survei menggunakan ODK dan OMK</i></p>
@@ -75,7 +78,7 @@ Jika Anda sudah melakukan survei menggunakan alat pengumpulan data seperti _ODK 
 *   **Klik kanan pada _layer_ hasil survei**, lalu klik **_Merge_**. Setelah itu muncul jendela **_Select target layer_**, Anda tidak perlu mengubah target _layer_ nya lalu klik **_Merge_**.
 
 <p align="center">
-<img width=70% src="../images/0506_merge_layer.png" alt="Menggabungkan layer hasil survei" title="Menggabungkan layer hasil survei">
+<img width=70% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0506_merge_layer.png" alt="Menggabungkan layer hasil survei" title="Menggabungkan layer hasil survei">
 </p>
 
 <p align="center"><i>Menggabungkan layer hasil survei</i></p>
@@ -83,7 +86,7 @@ Jika Anda sudah melakukan survei menggunakan alat pengumpulan data seperti _ODK 
 *   Simpan dan ubah nama _layer_ hasil gabungan seluruh data survei dengan cara **klik kanan pada _layer_ hasil gabungan**, pilih **_Save As_**, ubah nama _file_ nya dan kemudian klik **_Save_**.
 
 <p align="center">
-<img width=80% src="../images/0507_menyimpan_layer.png" alt="Menyimpan layer hasil survei yang sudah digabungkan" title="Menyimpan layer hasil survei yang sudah digabungkan">
+<img width=80% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0507_menyimpan_layer.png" alt="Menyimpan layer hasil survei yang sudah digabungkan" title="Menyimpan layer hasil survei yang sudah digabungkan">
 </p>
 
 <p align="center"><i>Menyimpan layer hasil survei yang sudah digabungkan</i></p>
@@ -91,7 +94,7 @@ Jika Anda sudah melakukan survei menggunakan alat pengumpulan data seperti _ODK 
 *   Untuk memudahkan Anda menandai objek-objek yang sudah dipetakan atau belum dari _layer_ hasil survei, JOSM menyediakan _plugin_ _**to-do**_ cara instalasi dan penggunaan secara detailnya dapat dibaca pada modul **Menggunakan to-do list di JOSM**. Jika _plugin_ _**to-do list**_ sudah diinstal dan kotak jendela _**Todo list**_ sudah diaktifkan, pilih semua titik objek yang ada di _layer_ hasil survei yang sudah digabungkan menggunakan ikon _**Select object**_, kemudian pada kotak jendela Todo list klik **_Add_**.
 
 <p align="center">
-<img src="../images/0508_to_do_josm.png" alt="Memasukkan objek hasil survei ke dalam Todo list" title="Memasukkan objek hasil survei ke dalam Todo list">
+<img src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0508_to_do_josm.png" alt="Memasukkan objek hasil survei ke dalam Todo list" title="Memasukkan objek hasil survei ke dalam Todo list">
 </p>
 
 <p align="center"><i>Memasukkan objek hasil survei ke dalam Todo list</i></p>
@@ -104,7 +107,7 @@ Setelah berhasil menggabungkan data hasil survei, Anda perlu men-_download_ data
 *   Akan muncul jendela **_Download_** yang secara _default_ menampilkan tab _**Slippy Map**_
 
 <p align="center">
-<img width=70% src="../images/0509_jendela_download.png" alt="Tampilan jendela Download Data OSM" title="Tampilan jendela Download Data OSM">
+<img width=70% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0509_jendela_download.png" alt="Tampilan jendela Download Data OSM" title="Tampilan jendela Download Data OSM">
 </p>
 
 <p align="center"><i>Tampilan jendela Download Data OSM</i></p>
@@ -116,7 +119,7 @@ Setelah berhasil menggabungkan data hasil survei, Anda perlu men-_download_ data
 Perhatikan banyaknya data OSM yang sudah ada di wilayah pemetaan Anda. Jika sudah cukup banyak sebaiknya Anda tidak langsung men-_download_ seluruh data OSM yang ada di wilayah pemetaan Anda karena JOSM tidak dapat men-_download_ data yang terlalu besar sekaligus. Untuk mengatasinya, Anda dapat men-_download_ data OSM di wilayah pemetaan Anda per bagian. 
 
 <p align="center">
-<img width=70% src="../images/0510_tab_areas_around_places.png" alt="Tampilan tab “Areas around places” pada jendela Download" title="Tampilan tab “Areas around places” pada jendela Download">
+<img width=70% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0510_tab_areas_around_places.png" alt="Tampilan tab “Areas around places” pada jendela Download" title="Tampilan tab “Areas around places” pada jendela Download">
 </p>
 
 <p align="center"><i>Tampilan tab “Areas around places” pada jendela Download</i></p>
@@ -124,7 +127,7 @@ Perhatikan banyaknya data OSM yang sudah ada di wilayah pemetaan Anda. Jika suda
 *   Setelah berhasil men-_download_ data OSM pada wilayah pemetaan Anda, akan muncul _layer_ baru yang juga akan menjadi _layer_ area kerja Anda untuk menambahkan dan mengubah data OSM. Pastikan Anda hanya menambahkan data pada **kotak yang tidak diarsir** karena kotak yang diarsir sudah bukan wilayah yang Anda _download_. Pastikan seluruh area survei Anda data OSM nya sudah di-_download_. Seperti ini tampilannya:
 
 <p align="center">
-<img src="../images/0511_download_data_osm.png" alt="Tampilan JOSM ketika sudah berhasil men-download data OSM" title="Tampilan JOSM ketika sudah berhasil men-download data OSM">
+<img src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0511_download_data_osm.png" alt="Tampilan JOSM ketika sudah berhasil men-download data OSM" title="Tampilan JOSM ketika sudah berhasil men-download data OSM">
 </p>
 
 <p align="center"><i>Tampilan JOSM ketika sudah berhasil men-download data OSM</i></p>
@@ -132,7 +135,7 @@ Perhatikan banyaknya data OSM yang sudah ada di wilayah pemetaan Anda. Jika suda
 *   Jika sudah berhasil men-_download_ data OSM di seluruh area survei Anda, gabungkan _layer_ data OSM hasil _download_ dengan _layer_ hasil survei yang sudah digabung pada subbab sebelumnya. Caranya **pilih kedua _layer_** tersebut kemudian **klik kanan**, pilih **_Merge_**. Simpan pada _layer_ hasil survei yang sudah digabung. Kemudian klik **_Merge_**.
 
 <p align="center">
-<img width=70% src="../images/0512_menggabungkan_layer.png" alt="Menggabungkan layer data OSM dengan data hasil survei" title="Menggabungkan layer data OSM dengan data hasil survei">
+<img width=70% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0512_menggabungkan_layer.png" alt="Menggabungkan layer data OSM dengan data hasil survei" title="Menggabungkan layer data OSM dengan data hasil survei">
 </p>
 
 <p align="center"><i>Menggabungkan layer data OSM dengan data hasil survei</i></p>
@@ -142,7 +145,7 @@ Perhatikan banyaknya data OSM yang sudah ada di wilayah pemetaan Anda. Jika suda
 *   Setelah berhasil men-_download_ data OSM, tambahkan citra satelit untuk acuan dalam memetakan dengan cara mengklik **_Imagery_ → pilih citra yang akan digunakan, misalnya _DigitalGlobe Premium Imagery_**. Setelah berhasil menambahkan citra satelit berarti Anda sudah siap untuk menambahkan data OSM. Tampilannya akan seperti ini:
 
 <p align="center">
-<img src="../images/0513_menambahkan_citra.png" alt="Tampilan data OSM yang sudah ditambahkan citra satelit" title="Tampilan data OSM yang sudah ditambahkan citra satelit">
+<img src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0513_menambahkan_citra.png" alt="Tampilan data OSM yang sudah ditambahkan citra satelit" title="Tampilan data OSM yang sudah ditambahkan citra satelit">
 </p>
 
 <p align="center"><i>Tampilan data OSM yang sudah ditambahkan citra satelit</i></p>
@@ -150,7 +153,7 @@ Perhatikan banyaknya data OSM yang sudah ada di wilayah pemetaan Anda. Jika suda
 *   Anda juga dapat mengatur tampilan citra satelit yang Anda gunakan. Caranya, pilih _layer_ citra satelitnya kemudian klik pada ikon **_Change visibility of selected layer_** lalu ubah tampilannya sesuai keinginan Anda.
 
 <p align="center">
-<img width=30% src="../images/0514_setting_citra.png" alt="Mengubah tampilan citra satelit" title="Mengubah tampilan citra satelit">
+<img width=30% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0514_setting_citra.png" alt="Mengubah tampilan citra satelit" title="Mengubah tampilan citra satelit">
 </p>
 
 <p align="center"><i>Mengubah tampilan citra satelit</i></p>
@@ -158,7 +161,7 @@ Perhatikan banyaknya data OSM yang sudah ada di wilayah pemetaan Anda. Jika suda
 *   Terkadang citra satelit yang digunakan khususnya **_DigitalGlobe Premium Imagery_** memiliki perbedaan tampilan ketika di _zoom in_ dan _zoom out_ dan hanya salah satunya yang sesuai dengan data OSM nya. Agar tampilan citranya tidak berubah-ubah ketika di _zoom in_ atau _zoom out_, nonaktifkan fitur _**Auto zoom**_ dengan cara **klik kanan pada citra di kanvas kerja → klik _Auto zoom_** sehingga tanda centang pada **_Auto zoom_** hilang.
 
 <p align="center">
-<img width=30% src="../images/0515_auto_zoom.png" alt="Menonaktifkan Auto zoom pada citra satelit" title="Menonaktifkan Auto zoom pada citra satelit">
+<img width=30% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0515_auto_zoom.png" alt="Menonaktifkan Auto zoom pada citra satelit" title="Menonaktifkan Auto zoom pada citra satelit">
 </p>
 
 <p align="center"><i>Menonaktifkan Auto zoom pada citra satelit</i></p>
@@ -170,7 +173,7 @@ Setelah menginstal _plugin utilsplugin2_, menggabungkan data hasil survei, men-_
 *   Setelah berhasil mengikuti langkah-langkah pada empat subbab sebelumnya, pada JOSM Anda akan terdapat dua _layer_ yang terbuka di JOSM yaitu **_layer_ citra satelit** (pada gambar adalah _layer DigitalGlobe Premium Imagery_) dan **_layer_ data hasil survei yang sudah digabungkan dengan data OSM yang di-_download_** (pada gambar adalah _layer hasil_survey_jakut.osm_). Tampilannya akan seperti ini:
 
 <p align="center">
-<img width=50% src="../images/0516_menambahkan_data_survei.png" alt="Tampilan JOSM setelah dimasukkan data hasil survei dan citra satelit" title="Tampilan JOSM setelah dimasukkan data hasil survei dan citra satelit">
+<img width=50% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0516_menambahkan_data_survei.png" alt="Tampilan JOSM setelah dimasukkan data hasil survei dan citra satelit" title="Tampilan JOSM setelah dimasukkan data hasil survei dan citra satelit">
 </p>
 
 <p align="center"><i>Tampilan JOSM setelah dimasukkan data hasil survei dan citra satelit</i></p>
@@ -178,19 +181,19 @@ Setelah menginstal _plugin utilsplugin2_, menggabungkan data hasil survei, men-_
 *   Agar Anda tidak mengubah batas administrasi yang sudah dipetakan pada OSM, Anda dapat menggunakan fitur **Filter** pada JOSM. Hal ini dikarenakan batas administrasi merupakan hal yang bersifat khusus dan tidak terkait dengan objek lainnya di dalam OSM. Untuk menggunakan fitur **Filter**, aktifkan kotak jendela Filter dengan cara klik menu **_Windows → Filter_**. Akan muncul kotak jendela Filter di sebelah kanan kanvas kerja Anda. Klik **_Add_** pada kotak jendela Filter, tuliskan _**boundary=administrative**_ pada kolom **Filter _string_** dan kemudian klik **_Submit Filter_**. Akan muncul sebuah filter baru untuk batas administrasi, untuk menonaktifkan filter Anda dapat menghilangkan tanda centang di sebelah filter. Untuk mengetahui lebih lanjut mengenai fitur **Filter** JOSM, Anda dapat mempelajari modul **Menggunakan Alat Filter di JOSM**.
 
 <p align="center">
-<img width=40% src="../images/0517_jendela_filter.png" alt="Tampilan kotak jendela Filter" title="Tampilan kotak jendela Filter">
+<img width=40% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0517_jendela_filter.png" alt="Tampilan kotak jendela Filter" title="Tampilan kotak jendela Filter">
 </p>
 
 <p align="center"><i>Tampilan kotak jendela Filter</i></p>
 
 <p align="center">
-<img width=80% src="../images/0518_mengisi_filter.png" alt="Mengisi filter string pada jendela Filter" title="Mengisi filter string pada jendela Filter">
+<img width=80% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0518_mengisi_filter.png" alt="Mengisi filter string pada jendela Filter" title="Mengisi filter string pada jendela Filter">
 </p>
 
 <p align="center"><i>Mengisi filter string pada jendela Filter</i></p>
 
 <p align="center">
-<img width=40% src="../images/0519_filter_sudah_diisi.png" alt="Tampilan kotak jendela filter yang sudah ditambahkan sebuah filter" title="Tampilan kotak jendela filter yang sudah ditambahkan sebuah filter">
+<img width=40% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0519_filter_sudah_diisi.png" alt="Tampilan kotak jendela filter yang sudah ditambahkan sebuah filter" title="Tampilan kotak jendela filter yang sudah ditambahkan sebuah filter">
 </p>
 
 <p align="center"><i>Tampilan kotak jendela filter yang sudah ditambahkan sebuah filter</i></p>
@@ -198,19 +201,19 @@ Setelah menginstal _plugin utilsplugin2_, menggabungkan data hasil survei, men-_
 *   Setelah itu, mulai lakukan pemetaan dengan perbesar ke sebuah objek langsung, pilih salah satu objek yang ada di kotak jendela _todo list_ kemudian klik **_Zoom_**. Setelah titik objek tersebut diperbesar dan terpilih, Anda dapat menyalin _tag_ yang ada di objek tersebut ke objek OSM ter-_download_. Caranya pilih objek OSM ter-_download_ yang bertampalan/berdekatan dengan titik objek hasil survei yang sebelumnya dipilih, kemudian pilih menu **_More tools_ → _Copy tags from previous selection_** atau tekan **Shift + R** di _keyboard_. Pastikan objek yang Anda pilih sebelum menyalin _tag_ adalah objek hasil survei yang bertampalan/berdekatan dengan objek OSM ter-_download_. Pastikan juga _tag_ yang disalin sudah sesuai dengan aturan OSM serta sudah sesuai juga dengan objeknya. Seperti pada contoh objek klinik yang berada di ruko di bawah ini, objek titik hanya berisi _tag_ yang sesuai untuk objek titik, sedangan _tag_ yang berisi informasi bangunan diberikan ke objek bangunan dimana objek titik tersebut berada. Jika sudah selesai menyalin _tag_ dari satu objek, klik **_Mark_** untuk menandakan bahwa objek tersebut sudah dimasukkan ke OSM. Ulangi langkah-langkah tersebut sampai semua objek selesai dimasukkan.
 
 <p align="center">
-<img width=70% src="../images/0520_fitur_zoom_mark_todo.png" alt="Menggunakan fitur Zoom dan Mark pada Todo list" title="Menggunakan fitur Zoom dan Mark pada Todo list">
+<img width=70% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0520_fitur_zoom_mark_todo.png" alt="Menggunakan fitur Zoom dan Mark pada Todo list" title="Menggunakan fitur Zoom dan Mark pada Todo list">
 </p>
 
 <p align="center"><i>Menggunakan fitur Zoom dan Mark pada Todo list</i></p>
 
 <p align="center">
-<img width=70% src="../images/0521_tag_objek_titik.png" alt="Menyesuaikan isi tag dengan objek titik" title="Menyesuaikan isi tag dengan objek titik">
+<img width=70% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0521_tag_objek_titik.png" alt="Menyesuaikan isi tag dengan objek titik" title="Menyesuaikan isi tag dengan objek titik">
 </p>
 
 <p align="center"><i>Menyesuaikan isi tag dengan objek titik</i></p>
 
 <p align="center">
-<img width=70% src="../images/0522_menyalin_tag.png" alt="Menyalin tag mengenai bangunan menggunakan Shift + R" title="Menyalin tag mengenai bangunan menggunakan Shift + R">
+<img width=70% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0522_menyalin_tag.png" alt="Menyalin tag mengenai bangunan menggunakan Shift + R" title="Menyalin tag mengenai bangunan menggunakan Shift + R">
 </p>
 
 <p align="center"><i>Menyalin tag mengenai bangunan menggunakan Shift + R</i></p>
@@ -218,19 +221,19 @@ Setelah menginstal _plugin utilsplugin2_, menggabungkan data hasil survei, men-_
 *   Contoh objek yang dipetakan di atas digambarkan sebagai sebuah titik. Jika Anda menemukan objek yang sebaiknya digambarkan sebagai poligon, seperti misalnya kompleks sekolah yang memiliki lebih dari satu bangunan. Caranya hampir sama dengan memetakan objek titik pada langkah sebelumnya. Pilih titik objek sekolah yang akan dipetakan pada jendela _todo list_ kemudian klik **_Zoom_**. Pilih titik objek sekolah lalu salin _tag_ dari objek titik sekolah yang akan dipetakan dengan memilih objek poligon bangunan yang bertampalan/berdekatan dengan titik objek sekolah tersebut kemudian klik menu **_More tools_ → _Copy tags from previous selection_** atau tekan **Shift + R** di _keyboard_. Setelah _tag_ berhasil disalin, hapus _tag_ yang tidak berhubungan dengan bangunan dan sisakan _tag_ yang berhubungan dengan bangunan. Gambar kawasan sekolah yang meliputi seluruh bangunan menggunakan **_Draw nodes_**, lalu salin _tag_ yang sesuai dengan informasi kawasan sekolah (yang sebelumnya dihapus pada poligon bangunan) seperti _amenity_, _name_ dan _addr_. Setelah selesai memetakan kompleks sekolah, hapus objek titik hasil survei karena sudah dipetakan sebagai poligon kawasan sekolah.
 
 <p align="center">
-<img width=70% src="../images/0523_objek_sekolah_hasil_survei.png" alt="Objek sekolah hasil survei" title="Objek sekolah hasil survei">
+<img width=70% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0523_objek_sekolah_hasil_survei.png" alt="Objek sekolah hasil survei" title="Objek sekolah hasil survei">
 </p>
 
 <p align="center"><i>Objek sekolah hasil survei</i></p>
 
 <p align="center">
-<img width=70% src="../images/0524_tag_bangunan_sekolah.png" alt="Menyesuaikan isi tag dengan bangunan sekolah" title="Menyesuaikan isi tag dengan bangunan sekolah">
+<img width=70% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0524_tag_bangunan_sekolah.png" alt="Menyesuaikan isi tag dengan bangunan sekolah" title="Menyesuaikan isi tag dengan bangunan sekolah">
 </p>
 
 <p align="center"><i>Menyesuaikan isi tag dengan bangunan sekolah</i></p>
 
 <p align="center">
-<img width=70% src="../images/0525_tag_kawasan_sekolah.png" alt="Menyesuaikan isi tag dengan kawasan sekolah" title="Menyesuaikan isi tag dengan kawasan sekolah">
+<img width=70% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0525_tag_kawasan_sekolah.png" alt="Menyesuaikan isi tag dengan kawasan sekolah" title="Menyesuaikan isi tag dengan kawasan sekolah">
 </p>
 
 <p align="center"><i>Menyesuaikan isi tag dengan kawasan sekolah</i></p>
@@ -242,7 +245,7 @@ Setelah menginstal _plugin utilsplugin2_, menggabungkan data hasil survei, men-_
 *   Jika tidak ada peringatan/kesalahan (_warning/error_), akan langsung muncul jendela **_Upload_**. Pada jendela **_Upload_** tersebut, pada kolom komentar isikan penambahan dan perubahan yang dilakukan dan pada kolom sumber tuliskan citra satelit yang digunakan untuk memetakan. Tuliskan juga ‘_survey_’ pada kolom sumber apabila Anda melakukan survei. Jika Anda merasa pekerjaan Anda perlu diperiksa oleh pengguna lain yang sudah mahir dalam memetakan menggunakan OSM, silakan centang _**I would like someone to review my edits**_. Setelah itu klik **_Upload Changes_**.
 
 <p align="center">
-<img width=50% src="../images/0526_upload_josm.png" alt="Tampilan jendela Upload" title="Tampilan jendela Upload">
+<img width=50% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0526_upload_josm.png" alt="Tampilan jendela Upload" title="Tampilan jendela Upload">
 </p>
 
 <p align="center"><i>Tampilan jendela Upload</i></p>
@@ -257,7 +260,7 @@ Ketika Anda memetakan suatu wilayah, sebaiknya Anda meng-_upload_-nya secara ber
 *   Anda juga dapat menyimpan _layer_ hasil pekerjaan Anda dengan cara **klik kanan** di _layer_ tempat pekerjaan Anda dan pilih **_Save_**. Akan muncul jendela **_Save OSM file_** seperti di bawah ini. Tuliskan nama _file .osm_ nya sesuai yang Anda inginkan, kemudian klik **_Save_**. _File_ hasil pekerjaan Anda akan tersimpan dengan format _.osm_.
 
 <p align="center">
-<img width=70% src="../images/0527_menyimpan_file_osm.png" alt="Tampilan jendela Save OSM File" title="Tampilan jendela Save OSM File">
+<img width=70% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0527_menyimpan_file_osm.png" alt="Tampilan jendela Save OSM File" title="Tampilan jendela Save OSM File">
 </p>
 
 <p align="center"><i>Tampilan jendela Save OSM File</i></p>
@@ -270,7 +273,7 @@ Apabila Anda belum selesai memetakan wilayah pemetaan Anda dan ingin melanjutkan
 *   Anda dapat melihat perubahan di peta OSM dengan mengeceknya pada situs web OSM <https://www.openstreetmap.org> dan mengarahkan peta ke wilayah pemetaan yang sudah Anda tambahkan datanya. Perlu diingat, perubahan baru dapat dilihat beberapa saat setelah Anda meng-_upload_ hasil pemetaan ke server OSM.
 
 <p align="center">
-<img width=90% src="../images/0528_hasil_upload.png" alt="Tampilan perubahan sebelum dan sesudah proses pemetaan" title="Tampilan perubahan sebelum dan sesudah proses pemetaan">
+<img width=90% src="/pages/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/images/0528_hasil_upload.png" alt="Tampilan perubahan sebelum dan sesudah proses pemetaan" title="Tampilan perubahan sebelum dan sesudah proses pemetaan">
 </p>
 
 <p align="center"><i>Tampilan perubahan sebelum (kiri) dan sesudah (kanan) proses pemetaan</i></p>
