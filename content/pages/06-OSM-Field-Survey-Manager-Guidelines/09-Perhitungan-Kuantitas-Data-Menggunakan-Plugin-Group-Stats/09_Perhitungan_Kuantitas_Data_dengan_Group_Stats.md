@@ -1,5 +1,6 @@
 ﻿---
 title: Perhitungan Kuantitas Data Menggunakan Plugin Group Stats
+weight: 9
 ---
 
 **Tujuan Pembelajaran:**
@@ -18,7 +19,7 @@ Kuantitas adalah kualitas sesuatu hal yang terbentuk dari proses perhitungan dan
 *   Klik menu **_Plugins → Manage and Install Plugins_** 
 
 <p align="center">
-  <img src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0901_menuplugin.png">
+  <img src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0901_menuplugin.png">
 </p>
 <p align="center"><i>Tampilan Menu Plugins</i><p align="center">
 
@@ -26,7 +27,7 @@ Kuantitas adalah kualitas sesuatu hal yang terbentuk dari proses perhitungan dan
 *   Anda memerlukan koneksi internet untuk menginstal _plugin_, pada kotak **_Search_** ketikkan **_Group Stats_**. **Berikan tanda centang pada _group stats_ _→ Install Plugin_**. Tunggu beberapa saat hingga proses instalasi _plugin_ selesai.
 
 <p align="center">
-  <img width=70% src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0902_plugingroupstats.png">
+  <img width=70% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0902_plugingroupstats.png">
 </p>
 <p align="center"><i>Plugin Group Stats</i><p align="center">
 
@@ -34,7 +35,7 @@ Kuantitas adalah kualitas sesuatu hal yang terbentuk dari proses perhitungan dan
 *   Jika sudah berhasil, _plugin_ akan muncul pada **_Menu Vector → GroupStats_**
 
 <p align="center">
-  <img src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0903_menugroupstats.png">
+  <img src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0903_menugroupstats.png">
 </p>
 <p align="center"><i>Tampilan Plugin GroupStats</i><p align="center">
 
@@ -61,7 +62,7 @@ Jika Anda telah memiliki data ._shapefile_ seperti di atas, maka dapat melanjutk
 *   Persiapkan data objek OSM hasil _download_ dari _Export Tool_ yang sudah dilakukan **_Extract_**.  Kemudian gunakan **QGIS desktop** untuk membuka data tersebut dengan klik **_Add Vector Layer → Browse_** yang berada di sisi sebelah kiri QGIS atau klik **_Menu Layer → Add Layer → Add Vector Layer → Browse_**.
 
 <p align="center">
-  <img width=50% src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0904_addvector.png">
+  <img width=50% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0904_addvector.png">
 </p>
 <p align="center"><i>Tampilan Add Vector Layer</i><p align="center">
 
@@ -69,7 +70,7 @@ Jika Anda telah memiliki data ._shapefile_ seperti di atas, maka dapat melanjutk
 *   Arahkan ke direktori tempat penyimpanan _file_ → ***Pilih semua → Open → Open***
 
 <p align="center">
-  <img width=70% src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0905_daftarfileshp.png">
+  <img width=70% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0905_daftarfileshp.png">
 </p>
 <p align="center"><i>Daftar file .shp hasil download data OSM</i><p align="center">
 
@@ -77,7 +78,7 @@ Jika Anda telah memiliki data ._shapefile_ seperti di atas, maka dapat melanjutk
 *   _Layer-layer_ tersebut akan tampil pada _map canvas_ (kanvas peta) dan daftar _layer_ akan tampil pada **_Layers Panel_**.
 
 <p align="center">
-  <img src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0906_tampilanlayer.png">
+  <img src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0906_tampilanlayer.png">
 </p>
 <p align="center"><i>Tampilan peta pada QGIS</i><p align="center">
 
@@ -85,7 +86,7 @@ Jika Anda telah memiliki data ._shapefile_ seperti di atas, maka dapat melanjutk
 *   Tambahkan data vektor batas kelurahan ke QGIS dengan klik **_Add Vector Layer_**
 
 <p align="center">
-  <img src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0907_tampilanbatas.png">
+  <img src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0907_tampilanbatas.png">
 </p>
 <p align="center"><i>Tampilan batas administrasi kelurahan</i><p align="center">
 
@@ -95,7 +96,7 @@ Jika Anda telah memiliki data ._shapefile_ seperti di atas, maka dapat melanjutk
 *   Gabungkan _layer_ batas administrasi dengan _layer_ objek OSM agar data objek memiliki atribut nama kelurahan. Klik **_Menu Vector → Geoprocessing Tool → Intersect_** untuk memulai penggabungan _layer_. Pada bagian  **_input vector layer_** (_layer_ objek OSM) pilih satu per satu objek untuk digabungkan dengan **_Intersect layer_** (_layer_ kelurahan). Pilih ***Browse*** untuk menentukan lokasi penyimpanan **_output shapefile_** di direktori Anda, lalu klik **OK**. 
 
 <p align="center">
-  <img width=50% src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0908_intersectproses.png">
+  <img width=50% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0908_intersectproses.png">
 </p>
 <p align="center"><i>Intersect penggabungan layer</i><p align="center">
 
@@ -103,7 +104,7 @@ Jika Anda telah memiliki data ._shapefile_ seperti di atas, maka dapat melanjutk
 *   Setelah berhasil akan ada _layer_ baru sebagai hasil gabungan keduanya. Untuk melihat hasilnya, Anda dapat membuka atribut tabel, dengan **klik kanan pada _layer_ fasum** dan pilih **_Open Attribute Table_**. Pada tabel atribut akan terlihat nama kelurahan pada kolom **name_2** di setiap objek OSM pada _layer_ “**fasum_point_admin”**. 
 
 <p align="center">
-  <img src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0909_tabelatribut.png">
+  <img src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0909_tabelatribut.png">
 </p>
 <p align="center"><i>Tabel atribut fasum point</i><p align="center">
 
@@ -122,7 +123,7 @@ Data OSM yang dihasilkan dari proyek pemetaan terdiri dari _points, lines,_ dan 
 *   Jika Anda melakukan pemetaan dalam ruang lingkup kota, maka akan lebih mudah melakukan perhitungan kuantitas data per kecamatan. Lakukan _filter_ pada _layer_ “**fasum_point_admin”**, agar data yang ditampilkan  hanya untuk kecamatan tertentu, dengan **klik kanan pada layer fasum_point_admin** → ***Filter***. Kemudian, lakukan langkah seperti gambar di bawah ini.
 
 <p align="center">
-  <img width=60% src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0910_filtermenu.png">
+  <img width=60% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0910_filtermenu.png">
 </p>
 <p align="center"><i>Langkah-langkah filter data</i><p align="center">
 
@@ -130,7 +131,7 @@ Data OSM yang dihasilkan dari proyek pemetaan terdiri dari _points, lines,_ dan 
 *   Ketika Anda klik **OK** akan tampil objek OSM yang hanya ada di Kecamatan Candisari
 
 <p align="center">
-  <img src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0911_filtercandisari.png">
+  <img src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0911_filtercandisari.png">
 </p>
 <p align="center"><i>Tabel atribut hasil filter</i><p align="center">
 
@@ -138,7 +139,7 @@ Data OSM yang dihasilkan dari proyek pemetaan terdiri dari _points, lines,_ dan 
 *   Sekarang Anda akan memulai proses perhitungan dengan _plugin_ **_Group Stats_**. Buka **_Menu Vector → Group Stats → GroupStats_** 
 
 <p align="center">
-  <img src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0912_menugroupstats.png">
+  <img src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0912_menugroupstats.png">
 </p>
 <p align="center"><i>Group Stats</i><p align="center">
 
@@ -151,7 +152,7 @@ Data OSM yang dihasilkan dari proyek pemetaan terdiri dari _points, lines,_ dan 
 5. Klik **_Calculate_** untuk memulai proses perhitungan 
 
 <p align="center">
-  <img width=80% src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0913_langkahgroupstats.png">
+  <img width=80% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0913_langkahgroupstats.png">
 </p>
 <p align="center"><i>Langkah-langkah Group Stats</i><p align="center">
 
@@ -161,7 +162,7 @@ Data OSM yang dihasilkan dari proyek pemetaan terdiri dari _points, lines,_ dan 
     Caranya : Klik **_Data → Copy all to clipboard._**
 
 <p align="center">
-  <img width=70% src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0914_clipboard.png">
+  <img width=70% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0914_clipboard.png">
 </p>
 <p align="center"><i>Copy dan paste tabel atribut</i><p align="center">
 
@@ -178,7 +179,7 @@ Perhitungan objek jalan berbeda dengan perhitungan objek dalam bentuk _point_ da
 *   **Klik kanan pada _layer_ jalan → _Save as_ → pilih Format ESRI Shapefile → _Save as_ dalam direktori → CRS** pilih sistem koordinat UTM sesuai dengan wilayah Anda **→** OK. 
 
 <p align="center">
-  <img width=60% src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0915_simpanfile.png">
+  <img width=60% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0915_simpanfile.png">
 </p>
 <p align="center"><i>Simpan file dengan CRS berbeda</i><p align="center">
 
@@ -190,7 +191,7 @@ Perhitungan objek jalan berbeda dengan perhitungan objek dalam bentuk _point_ da
 *   Klik kanan pada _Layers_ **“Jalan_Admin_UTM”** → **_Open Attribute Table_**. Aktifkan _toolbar_ yang terletak di atas dengan klik **_Toggle editing mode_** untuk mengaktifkan semua _toolbar_.   
 
 <p align="center">
-  <img width=50% src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0916_toggleediting.png">
+  <img width=50% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0916_toggleediting.png">
 </p>
 <p align="center"><i>Toolbar Toggle editing mode</i><p align="center">
 
@@ -198,7 +199,7 @@ Perhitungan objek jalan berbeda dengan perhitungan objek dalam bentuk _point_ da
 *   Untuk menambahkan kolom baru, klik **_New Field_** yang terletak pada _toolbar_.
 
 <p align="center">
-  <img width=60% src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0917_newfield.png">
+  <img width=60% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0917_newfield.png">
 </p>
 <p align="center"><i>Toolbar New Field</i><p align="center">
 
@@ -210,7 +211,7 @@ Perhitungan objek jalan berbeda dengan perhitungan objek dalam bentuk _point_ da
 4. Klik OK = untuk menyelesaikan pengaturan   
 
 <p align="center">
-  <img src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0918_pengaturanfield.png">
+  <img src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0918_pengaturanfield.png">
 </p>
 <p align="center"><i>Pengaturan Add field</i><p align="center">
 
@@ -226,7 +227,7 @@ Perhitungan objek jalan berbeda dengan perhitungan objek dalam bentuk _point_ da
 5. Klik OK untuk menyelesaikan pengaturan _field calculator_
 
 <p align="center">
-  <img width=70% src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0919_fieldpj.png">
+  <img width=70% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0919_fieldpj.png">
 </p>
 <p align="center"><i>Pengaturan Field Calculator untuk panjang jalan</i><p align="center">
 
@@ -234,7 +235,7 @@ Perhitungan objek jalan berbeda dengan perhitungan objek dalam bentuk _point_ da
 *   Periksa kolom paling akhir di tabel atribut untuk mengetahui panjang jalan  untuk setiap segmen jalan. 
 
 <p align="center">
-  <img src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0920_hasilpj.png">
+  <img src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0920_hasilpj.png">
 </p>
 <p align="center"><i>Panjang jalan untuk segmen jalan</i><p align="center">
 
@@ -242,7 +243,7 @@ Perhitungan objek jalan berbeda dengan perhitungan objek dalam bentuk _point_ da
 *   Simpan hasil perhitungan jalan tersebut dengan cara klik _toolbar **Save Edits**_. Untuk mengakhiri mode pengeditan klik **_Toggle Editing_**.
 
 <p align="center">
-  <img width=50% src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0921_savechange.png">
+  <img width=50% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0921_savechange.png">
 </p>
 <p align="center"><i>Simpan perubahan</i><p align="center">
 
@@ -252,7 +253,7 @@ Perhitungan objek jalan berbeda dengan perhitungan objek dalam bentuk _point_ da
 *   Untuk memudahkan proses perhitungan kuantitas data untuk panjang jalan, Anda akan melakukan filter perhitungan berdasarkan administrasi kecamatan, langkah yang diperlukan yaitu klik kanan pada **_layer_ “jalan_admin_utm” → Filter → (ikuti  langkah-langkah seperti gambar di bawah) → OK**.
 
 <p align="center">
-  <img width=60% src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0922_langkahfilterdata.png">
+  <img width=60% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0922_langkahfilterdata.png">
 </p>
 <p align="center"><i>Filter berdasarkan Kecamatan</i><p align="center">
 
@@ -261,7 +262,7 @@ Perhitungan objek jalan berbeda dengan perhitungan objek dalam bentuk _point_ da
 *   Pada bagian **_Value_**, Anda dapat menggunakan formula **“sum”** untuk menghitung panjang jalan yang terdapat di kolom **Panjang_Jl** yang telah dihitung sebelumnya.
 
 <p align="center">
-  <img width=80% src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0923_groupstatspj.png">
+  <img width=80% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0923_groupstatspj.png">
 </p>
 <p align="center"><i>Pengaturan Group Stats untuk panjang jalan</i><p align="center">
 
@@ -271,7 +272,7 @@ Perhitungan objek jalan berbeda dengan perhitungan objek dalam bentuk _point_ da
     Caranya : Klik **_Data → Copy all to clipboard._**
 
 <p align="center">
-  <img width=70% src="pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0924_copyhasilpj.png">
+  <img width=70% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0924_copyhasilpj.png">
 </p>
 <p align="center"><i>Copy dan paste tabel atribut</i><p align="center">
 
