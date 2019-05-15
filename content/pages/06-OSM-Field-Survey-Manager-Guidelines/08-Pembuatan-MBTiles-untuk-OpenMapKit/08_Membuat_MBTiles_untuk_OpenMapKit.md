@@ -1,5 +1,6 @@
 ﻿---
 title: Pembuatan MBTiles untuk OpenMapKit (OMK)
+weight: 8
 ---
 
 **Tujuan Pembelajaran:**
