@@ -1,5 +1,5 @@
 ---
-title: Menggunakan _Java OpenStreetMap_ (JOSM)
+title: Menggunakan Java OpenStreetMap (JOSM)
 weight: 4
 ---
 
@@ -46,6 +46,7 @@ Untuk menggeser peta ke kanan atau ke kiri dan ke atas atau ke bawah, Anda dapat
 **b. Titik, Garis, dan Area**
 
 Pada _OpenStreetMap_ terdapat tiga jenis objek yang digunakan. Ketiga jenis objek itu adalah titik, garis, dan poligon.
+
 *   Titik adalah suatu lokasi yang digambarkan dengan simbol. Dalam data contoh ini terdapat dua titik, yaitu toko sepatu dan supermarket. Toko sepatu digambarkan dengan simbol sepatu dan supermarket digambarkan dengan simbol keranjang belanja. Jika Anda belum dapat melihatnya dengan jelas, silahkan perbesar tampilan peta Anda.
 *   Terdapat beberapa garis yang terdapat dalam peta, objek yang digambarkan dalam bentuk garis seperti jalan, sungai, dan tanggul sungai. Jika Anda melihat dengan lebih teliti, maka Anda akan melihat di dalam garis akan terdapat titik-titik. Titik-titik tersebut tidak memiliki simbol atau informasi apapun, tetapi titik-titik tersebut yang membentuk garis.
 *   Terakhir, ada beberapa poligon dalam peta contoh ini yang menunjukkan tempat-tempat yang berbeda seperti hutan, sungai, dan bangunan. Suatu poligon secara umum mewakilkan suatu area seperti lapangan ataupun bangunan. Poligon sama seperti garis, akan tetapi perbedaannya adalah poligon terdiri atas beberapa garis yang membentuk dimana titik akhir bertemu dengan titik awal garis tersebut.
@@ -73,6 +74,7 @@ Ketika Anda memilih sebuah objek, objek tersebut akan berwarna merah dan muncul 
 **d. Cara Mengubah Objek**
 
 Anda dapat mengubah objek yang sudah digambar di JOSM. Berikut ini adalah langkah-langkah untuk mengubah objek:
+
 *   Pilih salah satu objek pada contoh, misalnya objek hutan. Pastikan Anda mengklik garis pada hutan tersebut, bukan klik pada titiknya. Selanjutnya klik dan tahan objek tersebut kemudian geser. Anda baru saja memindahkan hutan ke lokasi yang baru pada peta.
 *   Klik salah satu titik pada garis  hutan. Klik dan tahan titik tersebut kemudian geser titiknya. Anda dapat menggerakan titik. Dengan menggerakkan titik ini Anda dapat mengubah bentuk dari sebuah objek.
 
@@ -84,6 +86,7 @@ Anda dapat mengubah objek yang sudah digambar di JOSM. Berikut ini adalah langka
 **e. Menggambar Objek**
 
 Di sebelah kiri pada layar JOSM terdapat banyak _toolbar_ yang menyediakan lebih banyak informasi mengenai peta. _Tools_ ini dapat mengubah perintah apa yang Anda lakukan dengan _mouse_ Anda, salah satunya adalah untuk menggambar objek. Berikut ini adalah langkah-langkah untuk menggambar objek:
+
 *   Sebelum menggambar objek, Anda perlu memastikan bahwa tidak ada objek yang terpilih. Klik diluar objek peta dimana tidak terdapat objek, untuk memastikan tidak ada objek  yang terpilih.
 *   Kemudian klik pada tombol **_Draw Tool_** untuk menggambar objek.
 
@@ -116,6 +119,7 @@ Di sebelah kiri pada layar JOSM terdapat banyak _toolbar_ yang menyediakan lebih
 **f. Cara Menambahkan _Presets_**
 
 Sekarang Anda telah memahami bagaimana cara untuk menggambar titik, garis, dan poligon. Akan tetapi Anda masih belum memberikan informasi mengenai objek tersebut. Di _OpenStreetMap_ memberikan informasi mengenai objek yang Anda gambar adalah suatu kewajiban, apakah objek tersebut adalah sekolah, rumah sakit, kantor pemerintahan dan apakah objek yang Anda buat itu bangunan atau sesuatu yang lain. Hal ini diwajibkan agar orang lain dapat mengetahui informasi objek tersebut. Untuk memberikan informasi terhadap objek yang Anda buat atau edit, Anda perlu memasukkan _presets_ di objek tersebut. Berikut ini adalah langkah-langkahnya:
+
 *   Klik tombol **_Select_** pada _toolbar_ sebelah kiri di JOSM.
 *   Pilih objek yang ingin ditambahkan _preset_.
 *   Pilih menu **_Presets_** pada bagian atas JOSM. Gerakkan mouse Anda ke sub-menu jenis objek yang ingin Anda tentukan.
@@ -145,7 +149,7 @@ Pada sesi sebelumnya Anda telah menginstal JOSM dan mempelajari bagaimana melaku
 
 **a. Alat Menggambar Tingkat Lanjut di JOSM**
 
-Pada materi ini Anda akan mempelajari beberapa _tools_ dasar dan teknik yang ada untuk menggambar fitur peta di JOSM. Anda akan mempelajari lebih detail untuk _tools_ menggambar lanjutan yang akan membantu Anda dalam melakukan pemetaan di JOSM. Silakan Anda _download_ di www.bit.ly/toolsbahasa kemudian buka JOSM dan file yang telah di-_download_. Tampilan pada JOSM Anda akan seperti di bawah ini:
+Pada materi ini Anda akan mempelajari beberapa _tools_ dasar dan teknik yang ada untuk menggambar fitur peta di JOSM. Anda akan mempelajari lebih detail untuk _tools_ menggambar lanjutan yang akan membantu Anda dalam melakukan pemetaan di JOSM. Silakan Anda _download_ di [http://www.bit.ly/toolsbahasa] (http://www.bity.ly/toolsbahasa) kemudian buka JOSM dan file yang telah di-_download_. Tampilan pada JOSM Anda akan seperti di bawah ini:
 
 <p align="center">
  <img src="/pages/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/images/0414_Tampilan_file_latihan_mengedit_di_JOSM.png"
@@ -162,6 +166,7 @@ JOSM memiliki _tools_ yang akan memudahkan Anda dalam mengedit baik garis atau p
 Dalam mengaplikasikan fungsi dalam menu ini, Anda terlebih dahulu harus memilih sebuah titik, garis, atau poligon pada bidang peta. _File_ contoh yang telah Anda _download_ berisi berbagai macam elemen yang berlabelkan nama alat yang berbeda-beda di dalam menu. Anda dapat mencoba masing-masing _tools_ menggunakan _file_ contoh. Penjelasan mengenai beberapa _tools_ lainnya disediakan di bawah ini:
 
 *   **_Split Way_** (Memisahkan Segmen Garis/_Way_).
+
     _Split Way_ digunakan untuk membagi sebuah segmen garis menjadi dua segmen garis yang terpisah. Ini berguna jika Anda ingin menambahkan atribut ke bagian jalan yang berbeda, seperti jembatan atau jalan yang berbeda nama. Untuk menggunakan fungsi ini, pilih sebuah titik di tengah segmen garis yang Anda ingin potong, kemudian klik **_Split Way_** dari menu _Tools_, dan garis Anda akan terpotong menjadi dua. Tombol pintas untuk melakukan _split way_ adalah tombol **P** pada _keyboard_ setelah anda memilih salah satu titik pada garis.
 
 <p align="center">
@@ -172,6 +177,7 @@ Dalam mengaplikasikan fungsi dalam menu ini, Anda terlebih dahulu harus memilih 
 Setelah Anda melakukan _split way_, Anda dapat menambahkan informasi mengenai masing-masing segmen jalan yang sudah dipisah, misalnya seperti memberikan nama jalan pada kedua jalan.
 
 *   **_Combine Way_** (menggabungkan segmen garis/_way_).
+
     _Combine way_ ini adalah kebalikan dari _Split Way_, digunakan untuk menggabungkan dua segmen garis menjadi satu segmen garis. Kedua segmen garis ini harus saling terhubung dengan titik yang sama. Untuk menggunakan fungsi ini, pilih kedua garis yang ingin Anda gabungkan. Anda dapat memilih lebih dari satu objek dengan menahan tombol _shift_ pada _keyboard_ Anda dan klik di kedua garisnya. Ketika Anda telah memilih kedua garis tersebut, klik **_Combine Way_** dari menu _Tools_. Kedua segmen garis tersebut akan menyatu jadi satu segmen garis. Tombol pintas untuk melakukan _combine way_ adalah tombol **C** pada _keyboard_ setelah anda mengklik kedua garis.
 
 <p align="center">
@@ -192,6 +198,7 @@ Jika Anda menggabungkan jalan yang memiliki arah yang berbeda, Anda akan mendapa
 <p align="center"><i>Peringatan change directions</i></p>
 
 *   **_Reverse Way_** (membalikkan garis/_way_). 
+
     _Reverse way_ digunakan untuk mengubah arah pada garis. Semua garis di dalam OSM memiliki sebuah arah, yang ditunjukkan di dalam JOSM dengan panah pada garis. Pengaturan arah sangat berguna untuk memetakan jalan yang memiliki satu arah dan aliran sungai (hulu ke hilir). Pada kasus ini, Anda mungkin perlu membalikkan arah garis sehingga garis tersebut dalam arah yang benar. Cara untuk menggunakan _reverse way_ ini adalah klik pada garis yang ingin Anda ubah arahnya, kemudian ke menu _tools_ dan klik **_Reverse Ways_**. Tombol pintas untuk melakukan _reverse way_ adalah tombol **R** pada _keyboard_.
 
 <p align="center">
@@ -200,6 +207,7 @@ Jika Anda menggabungkan jalan yang memiliki arah yang berbeda, Anda akan mendapa
 <p align="center"><i>Tampilan reverse way</i></p>
 
 *   **_Simplify Way_** (sederhanakan jalur)
+
     Jika garis Anda memiliki terlalu banyak titik di dalamnya dan Anda ingin membuatnya lebih sederhana, menu _simplify way_ akan menghapus beberapa titik yang ada pada sebuah garis. _Tool_ ini juga digunakan untuk mempercepat saat _upload_ data karena menghapus beberapa nodes/titik yang berada di satu garis. Cara untuk menggunakan _simplify way_ adalah klik pada garis yang ingin Anda sederhanakan, kemudian ke menu _tools_ dan klik **_Simplify Way_**. Tombol pintas untuk melakukan _simplify way_ adalah tombol **Shift+Y** pada _keyboard._
 
 <p align="center">
@@ -208,6 +216,7 @@ Jika Anda menggabungkan jalan yang memiliki arah yang berbeda, Anda akan mendapa
 <p align="center"><i>Tampilan simplify way</i></p>
 
 *   **_Align Nodes in Circle_** (Sejajarkan _Node_ Membentuk Lingkaran).
+
     Jika Anda mengalami kesulitan dalam menggambar bentuk lingkaran di dalam OSM, maka Anda dapat menggunakan _tools_ ini untuk membuat bentuk lingkaran secara sempurna. Cara untuk menggunakan _align nodes in circle_ ini adalah klik pada garis yang ingin Anda sederhanakan, kemudian ke menu _tools_ dan klik **_Align Nodes in Circle_**. Tombol pintas untuk melakukan _align nodes in circle_ adalah tombol **O** pada _keyboard._
 
 <p align="center">
@@ -216,6 +225,7 @@ Jika Anda menggabungkan jalan yang memiliki arah yang berbeda, Anda akan mendapa
 <p align="center"><i>Tampilan Align Nodes in Circle</i></p>
 
 *   **_Create Circle_** (Buat Lingkaran)
+
     Sebagai alternatif untuk membuat lingkaran, Anda dapat menggunakan _tool create circle_. _Tool_ ini akan membuat lingkaran dari diameter lingkaran (hanya memerlukan sebuah garis yang terdiri atas dua titik). Cara untuk menggunakan _create circle_ ini adalah gambar sebuah garis yang mewakili diameter dari lingkaran yang Anda inginkan, dan kemudian ke menu tools dan klik **_Create Circle_**. Tombol pintas untuk melakukan _create circle_ adalah tombol **Shift+O** pada _keyboard._
 
 <p align="center">
@@ -224,6 +234,7 @@ Jika Anda menggabungkan jalan yang memiliki arah yang berbeda, Anda akan mendapa
 <p align="center"><i>Tampilan create cirle</i></p>
 
 *   **_Align Nodes in Line_** (Sejajarkan Node dalam Garis/_Way_)
+
     Fungsi ini digunakan untuk mengubah garis yang tidak beraturan menjadi bentuk yang lurus. Hati-hati karena hal ini memiliki kecenderungan untuk pergeseran garis walaupun sedikit. Perlu diingat, fungsi ini akan meluruskan bentuk garis sesuai letak titik awal dan akhir garis tersebut. Cara untuk menggunakan _align nodes in line_ ini adalah klik garis yang ingin Anda sejajarkan, dan kemudian ke menu tools dan klik **_Align Nodes in Line_**. Tombol pintas untuk melakukan _align nodes in line_ adalah tombol **L** pada _keyboard_.
 
 <p align="center">
@@ -237,6 +248,7 @@ Jika Anda menggabungkan jalan yang memiliki arah yang berbeda, Anda akan mendapa
 <p align="center"><i>Contoh setelah menggunakan align nodes in line</i></p>
 
 *   **_Orthogonalize Shape_** (Ortogonalisasi Bentuk)
+
     _Orthogonalize shape_ sangat berguna untuk membuat gambar poligon yang memiliki sudut-sudut tidak teratur menjadi bentuk persegi, contohnya adalah bentuk bangunan. Setelah Anda menggambar sebuah bangunan, fungsi ini akan membentuk menjadi bangunan yang memiliki sudut  persegi 90’. Cara untuk menggunakan _orthogonalize shape_ ini adalah klik objek yang ingin Anda ubah bentuknya, dan kemudian ke menu _tools_ dan pilih **_Orthogonalize Shape_**. Tombol pintas untuk melakukan _orthogonalize shape_ adalah tombol **Q** pada _keyboard_.
 
 <p align="center">
@@ -250,6 +262,7 @@ Jika Anda menggabungkan jalan yang memiliki arah yang berbeda, Anda akan mendapa
 <p align="center"><i>Contoh setelah menggunakan orthogonalize shape</i></p>
 
 *   **_Unglue Way_** (Memisahkan Titik/Garis)
+
     _Unglue way_ berfungsi untuk melepaskan titik-titik yang terhubung. _Unglue way_ berguna ketika dua objek berada di titik yang sama padahal seharusnya mereka tidak menempel. Sebagai contoh, kesalahan yang sering terjadi adalah sebuah jalan memiliki titik yang sama dengan sudut bangunan. Tentu saja di lapangan, jalan tidak mungkin bergabung dengan bangunan, sehingga ini adalah suatu kesalahan. Untuk memperbaikinya Anda dapat melepaskan objek satu dengan yang lain. Cara untuk menggunakan _unglue way_ ini adalah klik titik yang saling menempel antara dua objek, dan kemudian ke menu tools dan pilih **_Unglue Way_**. Tombol pintas untuk melakukan _unglue way_ adalah tombol **G** pada _keyboard_. Perlu Anda perhatikan ketika Anda sudah menggunakan _tool_ ini, antara kedua objek yang sebelumnya saling menempel, tidak langsung otomatis terpisah, tetapi harus Anda menggeser salah satu objeknya.
 
 <p align="center">
@@ -332,7 +345,7 @@ Tabel Kesalahan yang Sering Terjadi dan Tipsnya
 
 | Kesalahan  |Tips   |
 |---|---|
-|Tag diberikan pada node, bukan pada objek (misalnya: bangunan) <img src="/pages/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/images/0441_Contoh_bangunan_yang_diberikan_tag_yang_salah_dan_benar.png" width="10000">|Satu masalah umum yang sering terjadi yaitu menambahkan tag pada node atau titik yang terdapat pada bagian dari sebuah garis atau poligon. Ini sering terjadi ketika seseorang menggambar sebuah objek, kemudian melakukan _select all)_ pada objek (memilih semua titik/_select node_ pada garis). Kemudian seseorang menambahkan _presets_, sehingga tag terdapat di setiap sudut poligon, ini adalah cara yang tidak tepat. Cara untuk menghindari hal ini, dengan klik objek secara langsung pada garis atau hindari _select all_ pada objek.|
+|Tag diberikan pada node, bukan pada objek (misalnya: bangunan) <img src="/pages/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/images/0441_Contoh_bangunan_yang_diberikan_tag_yang_salah_dan_benar.png" width="5000">|Satu masalah umum yang sering terjadi yaitu menambahkan tag pada node atau titik yang terdapat pada bagian dari sebuah garis atau poligon. Ini sering terjadi ketika seseorang menggambar sebuah objek, kemudian melakukan _select all)_ pada objek (memilih semua titik/_select node_ pada garis). Kemudian seseorang menambahkan _presets_, sehingga tag terdapat di setiap sudut poligon, ini adalah cara yang tidak tepat. Cara untuk menghindari hal ini, dengan klik objek secara langsung pada garis atau hindari _select all_ pada objek.|
 |Persimpangan yang bertemu di sudut jalan atau persimpangan jalan harus dipisah <img src="/pages/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/images/0442_Contoh_pembuatan_simpangan_yang_salah_dan_benar.png" width="">|Ketika jalan bersinggungan atau persimpangan satu sama lain di sudut jalan, Anda tidak boleh membuat garis melengkung di persimpangan. Garis seharusnya berbentuk sudut 90° dan terpisah menjadi dua segmen garis yang berbeda, seperti di kondisi yang sebenarnya di lapangan|
 |Tidak ada tag pada node atau garis <img src="/pages/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/images/0443_Contoh_tidak_ada_tag_pada_node_atau_garis.png" width="">|Untuk memperbaiki kesalahan ini, pilih objek dan masukan _presets_ sesuai dengan informasi objek tersebut atau bisa dihapus bila objek itu merupakan kesalahan. Hal ini dikarenakan, server OSM tidak bisa membaca sebuah objek yang tidak dilengkapi dengan presets (informasi objek).|
 |Garis berada dekat dengan garis lain tetapi tidak terhubung <img src="/pages/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/images/0444_Contoh_garis_jalan_yang_tidak_saling_terhubung.png" width="">|Untuk memperbaikinya, Anda dapat memilih titik dari garis yang ingin dihubungkan dan kemudian pilih _tool Draw nodes_ untuk menambahkan titik di garis yang mendatar/garis yang berada di depannya. Alternatif lainnya, Anda dapat menggunakan _tool Merge Node_ (jika di depan garis yang belum terhubung tersebut merupakan sebuah titik), caranya: 1. Pilih kedua titik yang berdekatan, yang berada di dalam kedua garis yang ingin dihubungkan. 2. Pilih _Merge Node_ yang berada di  _Menu tools_. Jika didepan garis yang belum terhubung tersebut tidak terdapat sebuah titik, Anda bisa menggunakan _tool Join Node to Way_ dengan cara: 1. Pilih titik terakhir dari garis yang belum terhubung dan juga pilih garis yang berada di depan garis yang belum terhubung. 2. Pilih _Join Node to Way_ yang Berada Di _Menu Tools_|
@@ -386,7 +399,7 @@ Langkah digitasinya adalah sebagai berikut:
 </p>
 <p align="center"><i>Contoh split way</i></p>
 
-* Maka, garis yang semula merupakan 1 ruas jaringan jalan saja, kini telah terbagi menjadi 3 ruas, yaitu (1) jaringan jalan di sebelah kiri jembatan, (2) jembatan, (3) jaringan jalan di sebelah kanan jembatan.
+* Maka, garis yang semula merupakan 1 segmen jaringan jalan saja, kini telah terbagi menjadi 3 segmen, yaitu (1) jaringan jalan di sebelah kiri jembatan, (2) jembatan, (3) jaringan jalan di sebelah kanan jembatan.
 
 <p align="center">
  <img src="/pages/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/images/0452_Jalan_sudah_terbagi_menjadi_tiga_segmen.png"
@@ -499,7 +512,7 @@ Jika suatu jalan terdiri atas empat ruas yang berbeda (berarti terdapat 3 pembat
 <p align="center">
  <img src="/pages/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/images/0467_Ruas_jalan_tersebut_meskipun_merupakan_1_jalan_yang_sama_yaitu_jalan_sudirman.png"
 </p>
-<p align="center"><i>Ruas jalan tersebut, meskipun merupakan 1 jalan yang sama, yaitu Jalan Sudirman, namun terdiri dari 4 ruas; pada OSM, digambarkan dengan 4 garis yang berbeda</i></p>
+<p align="center"><i>Ruas jalan tersebut, meskipun merupakan satu jalan yang sama, yaitu Jalan Sudirman, namun terdiri dari empat ruas; pada OSM, digambarkan dengan empat garis yang berbeda</i></p>
 
 **RINGKASAN**
 
