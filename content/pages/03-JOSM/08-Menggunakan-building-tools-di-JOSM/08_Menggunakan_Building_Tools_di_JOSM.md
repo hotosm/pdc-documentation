@@ -96,7 +96,7 @@ Langkah-langkah menggunakan _plugin **buildings tools**_ adalah sebagai berikut:
 *   Setelah objek-objek bangunan terpetakan, jangan lupa _upload_ hasil pemetaan Anda dengan cara klik menu **_File → Upload Data_**. Tuliskan hal yang Anda lakukan pada kolom komentar, misalnya menambahkan bangunan serta tuliskan sumber pada kolom sumber misalnya nama citra yang digunakan sebagai acuan dan kemudian klik **_Upload Changes_**.
 
 >Catatan :
-Pastikan tidak ada objek yang terpilih saat Anda menggunakan _plugin buildings_tools_ agar kursor dapat digerakkan lebih leluasa saat menggambar bangunan menggunakan _plugin buildings_tools_.
+Pastikan tidak ada objek yang terpilih saat Anda menggunakan *plugin* *buildings_tools* agar kursor dapat digerakkan lebih leluasa saat menggambar bangunan menggunakan *plugin* *buildings_tools*.
 
 **RINGKASAN**
 
