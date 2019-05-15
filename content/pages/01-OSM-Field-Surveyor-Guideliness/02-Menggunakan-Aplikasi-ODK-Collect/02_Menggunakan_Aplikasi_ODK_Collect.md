@@ -1,5 +1,6 @@
 ﻿---
 title: Menggunakan Aplikasi ODK Collect
+weight: 2
 ---
 
 **Tujuan Pembelajaran:**
