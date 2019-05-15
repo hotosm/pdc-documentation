@@ -130,6 +130,7 @@ Setelah selesai membuat proyek, Anda akan diarahkan ke pengaturan tambahan diman
 <p align="center"><i>Penjelasan untuk Bagian Deskripsi Proyek Pemetaan Anda</i></p>
 
 *   **_Instructions_**= Memberikan instruksi pemetaan
+
     Pada bagian ini Anda akan memberikan informasi mengenai objek apa saja yang harus dipetakan pada _Tasking Manager_ yang telah Anda buat. 
 
     1. Pada bagian **_Entitles to map_** Anda bisa menjabarkan obyek apa saja yang Anda butuhkan dari proyek _tasking_ ini. Misalnya Anda membutuhkan data jaringan jalan, bangunan dan sungai. Maka pada bagian ini, Anda bisa menjabarkan tentang obyek-obyek tersebut. 
@@ -143,16 +144,16 @@ Setelah selesai membuat proyek, Anda akan diarahkan ke pengaturan tambahan diman
 <p align="center"><i>Tampilan pada bagian instruksi</i></p>
 
 *   **_Metadata_**= Mengeset metadata proyek (opsional)
-    1. **Mapper Level**
+    1. **Mapper Level.**
     Pada bagian ini, Anda bisa mengatur tingkat kesulitan proyek pemetaan dan mengaturnya berdasarkan persepsi Anda sendiri. Sebagai contoh apabila daerah yang dipetakan merupakan daerah pemukiman padat penduduk dengan kondisi citra satelit yang tidak terlalu baik dan kebutuhan data yang dipetakan adalah data bangunan umum, Anda bisa mengatur tingkat kesulitan untuk memetakan daerah tersebut  termasuk tinggi atau sedang.
 
-    1. **Type(s) of Mapping**
+    2. **Type(s) of Mapping.**
     Anda bisa mengidentifikasi obyek yang akan dipetakan pada proyek tasking Anda dengan memberikan centang pada daftar obyek yang ada di bagian **_Type(s) of Mapping_**. 
 
-    1. **Organization Tag**
+    3. **Organization Tag.**
      Pada bagian ini Anda bisa memberikan _tag_ organisasi Anda untuk memudahkan pencarian proyek _tasking_ pada kolom pencarian.
 
-    2. **Campaign Tag**
+    4. **Campaign Tag.**
     Sama seperti _organization tag_ pada bagian ini Anda bisa menambahkan _tag_ yang sesuai dengan proyek pemetaan Anda agar memudahkan pencarian.
 
 
