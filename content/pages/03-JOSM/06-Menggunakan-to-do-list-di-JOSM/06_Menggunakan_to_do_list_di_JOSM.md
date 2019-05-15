@@ -4,7 +4,9 @@ weight: 6
 ---
 
 **Tujuan Pembelajaran:**
+
 *   Mampu melakukan instalasi alat tambahan untuk memasukkan data di JOSM
+
 *   Mampu mengoperasikan alat tambahan _to-do list_ di JOSM untuk memasukkan data
 
 Setelah melakukan kegiatan survei dengan menggunakan aplikasi _OpenMapKit_ (OMK), langkah selanjutnya yang perlu Anda lakukan ialah memasukkan data survei berupa objek-objek titik lokasi tersebut ke dalam _OpenStreetMap_ dengan menggunakan JOSM. Untuk memudahkan Anda dalam melakukan hal tersebut, Anda perlu menginstal perangkat tambahan pada JOSM yaitu _plugin_ **_Todo list_**. _Plugin Todo list_ merupakan perangkat tambahan yang dapat membantu Anda untuk menemukan objek hasil survei yang akan Anda _upload_ pada peta _OpenStreetMap_ (OSM). 
@@ -31,7 +33,9 @@ Karena plugin _Todo list_ merupakan perangkat tambahan pada JOSM, Anda perlu mel
 ### **II. Menggunakan _to-do list_**
 
 Langkah-langkah penggunaan _plugin to-do list_ adalah sebagai berikut:
+
 *   Anda perlu memasukkan terlebih dahulu semua _file_ dengan format _.osm_ yang akan dimasukkan kedalam _OpenStreetMap (OSM)_. _File .osm_ ini berisi objek titik hasil survei yang telah diekspor dari _OpenMapKit_ (OMK) dengan cara klik **_File → Open_** pada menu bar.
+
 *   Dikarenakan satu _file_ berisi satu titik objek, Anda perlu menggabungkan _layer-layer_ tersebut hingga menjadi satu _layer_. Cara menggabungkan ialah pada panel **Layers** pilih semua _layer_ yang akan digabungkan lalu klik kanan dan pilih **_Merge_**. Anda dapat memilih beberapa _layer_ sekaligus dengan cara klik pada salah satu _layer_ lalu tahan untuk untuk memilih semua layer pada panel atau klik layer satu persatu dengan menekan tombol **Ctrl** pada keyboard Anda.
 
 <p align="center"><img width=50% src="/pages/03-JOSM/06-Menggunakan-to-do-list-di-JOSM/images/0604_merge.png" alt="merge" title="Merge"></p>
