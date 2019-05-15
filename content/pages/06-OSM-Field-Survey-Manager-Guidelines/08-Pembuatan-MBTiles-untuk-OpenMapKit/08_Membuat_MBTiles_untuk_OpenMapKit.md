@@ -37,7 +37,7 @@ _Export Tool_ merupakan salah satu situs yang digunakan untuk men-_download_ dat
 *   Lengkapi kotak dialog di sebelah kiri sebagai deskripsi proyek dan pilih wilayah yang Anda inginkan. Pemilihan wilayah dapat dilakukan dengan beberapa pilihan dengan _tools_ yang berada di panel sebelah kanan. Anda tidak disarankan untuk memilih area yang terlalu besar pada penentuan luasan wilayah pembuatan MBTiles, karena akan terjadi kegagalan saat proses berlangsung. Jika Anda memiliki batas administrasi dalam format *.geojson* dapat menggunakan pilihan _**Import**_. Hal yang perlu diperhatikan _file_ *.geojson* harus terdiri dari satu jenis data atribut. Pada modul ini, fitur yang akan digunakan adalah _Import_. Pilih ***Import*** dan masukkan _file_ *.geojson* yang Anda miliki. Jika Anda tidak memiliki _file .geojson_, maka Anda dapat membuka modul **Menggunakan GeoJSON**. 
 
 <p align="center">
-  <img src="/pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0803_Pengaturan_Menu_Describe">
+  <img src="/pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0803_Pengaturan_Menu_Describe.png">
 </p>
 <p align="center"><i>Pengaturan Menu Describe</i><p align="center">
 
