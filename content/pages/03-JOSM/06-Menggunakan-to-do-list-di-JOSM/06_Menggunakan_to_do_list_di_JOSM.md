@@ -14,7 +14,9 @@ Setelah melakukan kegiatan survei dengan menggunakan aplikasi _OpenMapKit_ (OMK)
 ### **I. Menginstal _to-do list_  _plugin_ di JOSM**
 
 Karena plugin _Todo list_ merupakan perangkat tambahan pada JOSM, Anda perlu melakukan instalasi _plugin_ JOSM terlebih dahulu sebelum menggunakannya. Langkah-langkah untuk menginstal _plugin todo list_ di JOSM adalah sebagai berikut:
+
 *   Klik menu bar **_Edit → Preferences_**
+
 *   Akan muncul jendela **_Preferences_** dan pilih menu **_Plugins_** untuk menginstal _plugins_ baru. Jika daftar _plugins_ belum muncul, Anda dapat mengklik **_Download list_** dan pastikan internet Anda telah terkoneksi untuk men-_download_ _plugins_.
 
 <p align="center"><img width=70% src="/pages/03-JOSM/06-Menggunakan-to-do-list-di-JOSM/images/0601_download_plugin.png" alt="download_plugin" title="Download plugin"></p>
