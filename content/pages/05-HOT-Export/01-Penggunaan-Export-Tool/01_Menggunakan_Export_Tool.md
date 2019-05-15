@@ -1,5 +1,6 @@
 ﻿---
 title: Download Data OSM dengan Menggunakan Export Tool
+weight: 1
 ---
 
 **Tujuan Pembelajaran**
@@ -11,14 +12,14 @@ Setelah Anda belajar bagaimana menambahkan dan mengedit data pada _OpenStreetMap
 
 ### **I. Pengertian _Export Tool_**
 
-_Export tool_ adalah sebuah layanan terbuka yang digunakan untuk men-_download_ data OSM terbaru yang memberikan kebebasan bagi pengguna untuk memilih data yang akan mereka _download _di area tertentu._ Export tool_ juga menyediakan pilihan format data spasial, seperti ESRI shapefiles (_.shapefile_), google KML (_.kml_), GeoPackage (_.gpkg_) dan MBTiles (_.mbtiles_). Anda dapat memilih wilayah yang diinginkan dan kategori data yang akan di-_download_ dengan menggunakan _Export Tool._ Cara men-_download_ data pada situs ini sangat mudah dan tidak ada persyaratan, hanya Anda diwajibkan untuk mendaftar dengan menggunakan akun _OpenStreetMap_ Anda dan mencantumkan sumber data untuk lisensi kredit pada produk yang Anda buat seperti **© OpenStreetMap contributors.**
+_Export tool_ adalah sebuah layanan terbuka yang digunakan untuk men-_download_ data OSM terbaru yang memberikan kebebasan bagi pengguna untuk memilih data yang akan mereka _download_ di area tertentu. _Export tool_ juga menyediakan pilihan format data spasial, seperti ESRI shapefiles (_.shapefile_), google KML (_.kml_), GeoPackage (_.gpkg_) dan MBTiles (_.mbtiles_). Anda dapat memilih wilayah yang diinginkan dan kategori data yang akan di-_download_ dengan menggunakan _Export Tool._ Cara men-_download_ data pada situs ini sangat mudah dan tidak ada persyaratan, hanya Anda diwajibkan untuk mendaftar dengan menggunakan akun _OpenStreetMap_ Anda dan mencantumkan sumber data untuk lisensi kredit pada produk yang Anda buat seperti **© OpenStreetMap contributors.**
 
 ### **II. Cara Menggunakan _Export Tool_**
 
 *   Buka halaman situs Anda, dan ketikkan link berikut ini https://export.hotosm.org
 
 <p align="center">
-  <img src="pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0101_tampilanexporttool.png">
+  <img src="/pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0101_tampilanexporttool.png">
 </p>
 <p align="center"><i>Halaman muka Export Tool</i><p align="center">
 
@@ -27,7 +28,7 @@ _Export tool_ adalah sebuah layanan terbuka yang digunakan untuk men-_download_ 
 *   Akan muncul formulir isian dan peta seperti gambar di bawah ini, formulir isian harus  diisi dan Anda dapat memilih area yang diinginkan pada peta di sebelah kanan. 
 
 <p align="center">
-  <img src="pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0102_lembarkerjaet.png">
+  <img src="/pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0102_lembarkerjaet.png">
 </p>
 <p align="center"><i>Lembar kerja Export Tool</i><p align="center">
 
@@ -35,56 +36,56 @@ _Export tool_ adalah sebuah layanan terbuka yang digunakan untuk men-_download_ 
 1. **_Box_** = Menggambar area dengan menggunakan kotak. Jika Anda ingin mengulang untuk pembuatan kotak klik tanda X pada kolom _Box_. 
 
 <p align="center">
-  <img width=70% src="pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0103_Penentuan_Area_dengan_Kotak.png">
+  <img width=70% src="/pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0103_Penentuan_Area_dengan_Kotak.png">
 </p>
 <p align="center"><i>Penentuan area dengan kotak</i><p align="center">
 
 2. **_Draw_** = Menggambar area yang dipilih secara manual
 
 <p align="center">
-  <img width=70% src="pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0104_penentuan_manual.png">
+  <img width=70% src="/pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0104_penentuan_manual.png">
 </p>
 <p align="center"><i>Penentuan Area dengan Bentuk Manual</i><p align="center">
 
 3. **_Import_** = Menggunakan poligon dalam format *.geojson* untuk memilih area yang akan di-_download_. Cara mendapatkan _file_ _.geojson_ dapat Anda lihat pada modul **Menggunakan GeoJSON**.
 
 <p align="center">
-  <img width=70% src="pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0105_penentuangeojson.png">
+  <img width=70% src="/pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0105_penentuangeojson.png">
 </p>
 <p align="center"><i>Penentuan area dengan berdasarkan admin</i><p align="center">
   
 *   Jika sudah menyelesaikan formulir isian dan menentukan area yang akan di _download_, pilih menu **_Format_**. Pilih data spasial yang Anda inginkan, misalnya _shapefile_
 
 <p align="center">
-  <img width=50% src="pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0106_menuformat.png">
+  <img width=50% src="/pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0106_menuformat.png">
 </p>
 <p align="center"><i>Format data spasial</i><p align="center">
 
 *   Selanjutnya klik Menu **Data**, pada bagian ini halaman yang akan muncul akan menyesuaikan pemilihan tipe data spasial yang Anda pilih sebelumnya pada **_Menu Format_**. Pada bagian **_Tag Tree_**, menunjukkan informasi objek yang sesuai dengan presets OSM secara global. Anda harus memberikan tanda centang untuk data OSM yang akan di-_download_ sesuai dengan kebutuhan data yang diinginkan. Sebagai contoh, jika kita akan men-_download_ data bangunan dan jalan, berikan tanda centang pada **_Buildings dan Transportation > Roads_**
 
 <p align="center">
-  <img width=70% src="pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0107_buildingandroads.png">
+  <img width=70% src="/pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0107_buildingandroads.png">
 </p>
 <p align="center"><i>Pilihan Objek di Export Tool</i><p align="center">
 
 *   Klik Menu **_Summary_**, Anda harus memilih apakah _file_ ekspor ini akan dipublikasikan kepada umum atau hanya ada pada akun Anda. Kemudian klik **_Create Export_** untuk memulai proses _export_ data OSM.
 
 <p align="center">
-  <img width=70% src="pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0108_menusummary.png">
+  <img width=70% src="/pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0108_menusummary.png">
 </p>
 <p align="center"><i>Menu Summary</i><p align="center">
 
 *   Tunggu beberapa saat sampai proses selesai. Jika _file export_ Anda telah selesai, _Export Tool_ akan memberikan pemberitahuan melalui email, atau Anda dapat melihat hasilnya di Menu **_Exports_**
 
 <p align="center">
-  <img width=90% src="pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0109_menuexporttool.png">
+  <img width=90% src="/pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0109_menuexporttool.png">
 </p>
 <p align="center"><i>Menu Exports</i><p align="center">
 
 *   Jika proses sudah selesai akan muncul kotak dialog seperti di bawah ini, klik **nama file.shp.zip** untuk menyimpan hasil ekspor data OSM di direktori laptop/komputer Anda.
 
 <p align="center">
-  <img width=70% src="pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0110_selesaiexport.png">
+  <img width=70% src="/pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0110_selesaiexport.png">
 </p>
 <p align="center"><i>Proses Export Tool Selesai</i><p align="center">
 
