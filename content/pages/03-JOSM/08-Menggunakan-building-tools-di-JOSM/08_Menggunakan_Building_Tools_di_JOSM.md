@@ -34,7 +34,7 @@ Untuk dapat menggunakan _plugin_ **_buildings tools_**, Anda harus menginstalnya
 
 <p align="center"><i>Tampilan jendela Preferences untuk menu Plugins</i></p>
 
-*   Pada  kotak **_Search_**, tuliskan _**buildings_tools**_ untuk mencari _plugin **buildings tools**_. Setelah berhasil menemukan _plugin **buildings tools**_, silakan **centang** kotak kecil di samping _plugin **buildings tools**_. Setelah itu klik **_OK_** dan tunggu hingga proses instalasi selesai.
+*   Pada  kotak **_Search_**, tuliskan ***buildings_tools*** untuk mencari _plugin **buildings tools**_. Setelah berhasil menemukan _plugin **buildings tools**_, silakan **centang** kotak kecil di samping _plugin **buildings tools**_. Setelah itu klik **_OK_** dan tunggu hingga proses instalasi selesai.
 
 <p align="center">
 <img width=50% src="/pages/03-JOSM/08-Menggunakan-building-tools-di-JOSM/images/0803_pencarian_building_tools.png" alt="Tampilan hasil pencarian plugin buildings_tools" title="Tampilan hasil pencarian plugin buildings_tools">

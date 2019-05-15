@@ -13,7 +13,8 @@ weight: 1
 
 Perencanaan proyek pemetaan memerlukan metodologi survei yang tepat dan efisien untuk mencapai target dan tujuan pemetaan. Indikator-indikator yang perlu diperhatikan dalam pembuatan metodologi survei meliputi: luas wilayah survei, jumlah tim pemetaan, jumlah objek yang dikumpulkan, dan pendanaan proyek. Jika luas wilayah semakin besar dan jumlah objek yang dikumpulkan semakin banyak, maka pendanaan proyek juga semakin besar. 
 
-Pada proyek pemetaan survei lapang akan dilaksanakan oleh tim pemetaan yang dibagi menjadi 3 (tiga) peran, yaitu :
+Pada proyek pemetaan survei lapang akan dilaksanakan oleh tim pemetaan yang dibagi menjadi 3 (tiga) peran, 
+yaitu :
 
 
 *   _Mapping Supervisor_ = mengatur dan mengawasi jalannya proyek pemetaan, mempersiapkan keperluan pemetaan, membuat laporan hasil pemetaan dan memeriksa kualitas dan kuantitas data yang telah divalidasi oleh _Quality Assurance_.
@@ -89,8 +90,7 @@ Pada tahapan ini, kegiatan yang dilakukan akan berfokus pada persiapan peralatan
 *   Membuat peta survei berdasarkan batas administrasi
 *   Membuat panduan survei pemetaan
 
-
-     Contoh Tabel _Timeline_ Pemetaan Tahap Sebelum Survei
+Contoh Tabel _Timeline_ Pemetaan Tahap Sebelum Survei
 
 
 <table>
@@ -298,7 +298,7 @@ Pada saat proses survei pemetaan, masing-masing tim memiliki peran agar survei p
 *   _Quality Assurance_ = memastikan dan mengawasi kualitas data yang telah di-_upload_ oleh _data entry_, memastikan dan mengawasi pelaksanaan survei yang dilakukan oleh _data entry_ di lapangan, serta mengatur strategi kegiatan survei lapangan bersama _data entry._
 *   _Mapping Supervisor_ = memastikan kualitas dan kuantitas data serta memantau pelaksanaan survei yang disesuaikan dengan _timeline_ yang telah ditetapkan.
 
-    Contoh Tabel *Timeline* Pemetaan Tahap Survei Pemetaan
+Contoh Tabel *Timeline* Pemetaan Tahap Survei Pemetaan
 
 <table>
   <tr>
