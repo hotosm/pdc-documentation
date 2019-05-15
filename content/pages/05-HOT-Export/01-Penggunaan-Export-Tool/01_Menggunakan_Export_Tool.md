@@ -33,21 +33,25 @@ _Export tool_ adalah sebuah layanan terbuka yang digunakan untuk men-_download_ 
 <p align="center"><i>Lembar kerja Export Tool</i><p align="center">
 
 *   Ada beberapa cara untuk menggambarkan area yang akan dipilih
-    **_Box_** = Menggambar area dengan menggunakan kotak. Jika Anda ingin mengulang untuk pembuatan kotak klik tanda X pada kolom _Box_. 
+
+1. **_Box_** = Menggambar area dengan menggunakan kotak. Jika Anda ingin mengulang untuk pembuatan kotak klik tanda X pada kolom _Box_. 
 
 <p align="center">
   <img width=70% src="/pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0103_Penentuan_Area_dengan_Kotak.png">
 </p>
 <p align="center"><i>Penentuan area dengan kotak</i><p align="center">
 
-   **_Draw_** = Menggambar area yang dipilih secara manual
+
+2. **_Draw_** = Menggambar area yang dipilih secara manual
 
 <p align="center">
   <img width=70% src="/pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0104_penentuan_manual.png">
 </p>
 <p align="center"><i>Penentuan Area dengan Bentuk Manual</i><p align="center">
 
-  **_Import_** = Menggunakan poligon dalam format *.geojson* untuk memilih area yang akan di-_download_. Cara mendapatkan _file_ _.geojson_ dapat Anda lihat pada modul **Menggunakan GeoJSON**.
+
+3. **_Import_** = Menggunakan poligon dalam format *.geojson* untuk memilih area yang akan di-_download_. Cara mendapatkan _file_ _.geojson_ dapat Anda lihat pada modul **Menggunakan GeoJSON**.
+
 
 <p align="center">
   <img width=70% src="/pages/05-HOT-Export/01-Penggunaan-Export-Tool/images/0105_penentuangeojson.png">
