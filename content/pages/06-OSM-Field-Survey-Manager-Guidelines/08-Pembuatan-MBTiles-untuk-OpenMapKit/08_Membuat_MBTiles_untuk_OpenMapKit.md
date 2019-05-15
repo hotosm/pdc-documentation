@@ -1,5 +1,5 @@
 ﻿---
-:title: Pembuatan MBTiles untuk OpenMapKit (OMK)
+title: Pembuatan MBTiles untuk OpenMapKit (OMK)
 ---
 
 **Tujuan Pembelajaran:**
