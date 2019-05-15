@@ -1,5 +1,5 @@
 ﻿---
-title: **Pengenalan OpenStreetMap**
+title: Pengenalan OpenStreetMap
 weight: 1
 ---
 
