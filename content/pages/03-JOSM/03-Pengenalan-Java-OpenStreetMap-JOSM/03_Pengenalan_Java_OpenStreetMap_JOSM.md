@@ -25,7 +25,7 @@ Silakan pilih _file_ instalasi sesuai dengan sistem operasi komputer Anda. Jika 
 
 ### **II. Menginstal JOSM**
 Setelah Anda berhasil men-_download_ JOSM, sekarang Anda akan menginstal JOSM ke komputer atau laptop Anda. Berikut ini adalah cara-cara untuk melakukan instalasi JOSM:
-*   Temukan _file_ instalasi JOSM di dalam komputer Anda. Klik dua kali pada _file_ tersebut untuk memulai instalasi. Kemudian akan muncul jendela _“Do you want to allow this app from an unknown publisher to make changes to your device?_”, lalu klik **_Yes_**.
+*   Temukan _file_ instalasi JOSM di dalam komputer Anda. Klik dua kali pada _file_ tersebut untuk memulai instalasi. Kemudian akan muncul jendela _“Do you want to allow this app from an unknown publisher to make changes to your device?”_, lalu klik **_Yes_**.
 *   Selanjutnya akan muncul jendela untuk memilih bahasa. Di modul ini hanya akan membahas JOSM yang berbahasa Inggris. Jika bahasa sudah dipilih, silakan klik **_OK_**.
 
 <p align="center">
@@ -151,6 +151,7 @@ Sekarang Anda telah memasukkan nama akun Anda. Selanjutnya adalah pengaturan unt
 <p align="center"><i>Menambahkan preset di JOSM</i><p align="center">
 
 Jika Anda sudah memiliki _file presets_ Anda sendiri di komputer Anda, Anda juga dapat langsung memasukkannya dengan cara:
+
 *   Silahkan klik tanda **+** di samping kotak _active presets_. 
 
 <p align="center">
@@ -209,6 +210,7 @@ Pada pengaturan awal di JOSM, setiap objek _OpenStreetMap_ yang ada di JOSM tida
 <p align="center"><i>Contoh tampilan awal JOSM yang pengaturannya belum diubah</i><p align="center">
 
 Untuk memunculkannya Anda harus mengubah tampilan _style_ peta pada JOSM Anda. Berikut ini adalah langkah-langkah untuk mengubahnya:
+
 *   Klik pada menu **_File → New Layer_** untuk memunculkan panel pada JOSM.
 *   Pada bagian kanan di panel JOSM, lihat pada bagian **_Map Paint Styles_**.
 *   Jika pada panel JOSM Anda belum ada jendela _Map Paint Styles_, silahkan Anda klik menu **_Windows_** pada sisi atas JOSM Anda, kemudian klik _Map Paint Styles_ untuk mengaktifkan jendela _Map Paint Styles_ di sisi kanan JOSM Anda.
