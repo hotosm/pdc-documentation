@@ -1,5 +1,5 @@
 ---
-title: Pengenalan _Java OpenStreetMap_ (JOSM)
+title: Pengenalan Java OpenStreetMap (JOSM)
 weight: 3
 ---
 
