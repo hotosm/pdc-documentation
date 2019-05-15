@@ -199,7 +199,7 @@ Tabel Model Data OSM untuk Objek Bank
 <p align="center"><i>Izin akses akun OSM</i><p align="center">
 
 
-*   Sekarang Anda sudah masuk dengan menggunakan akun OSM, kemudian klik **_Start Exporting_** untuk memulai proses _download _data OSM
+*   Sekarang Anda sudah masuk dengan menggunakan akun OSM, kemudian klik **_Start Exporting_** untuk memulai proses _download_ data OSM
 *   Pada **_Menu Describe_** akan muncul formulir isian dan gambar peta seperti gambar di bawah ini, formulir isian yang wajib diisi dan Anda dapat memilih area yang diinginkan pada gambar peta di sebelah kanan. 
 
 <p align="center">
