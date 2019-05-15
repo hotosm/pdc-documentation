@@ -123,7 +123,9 @@ Anda tidak dapat meng-upload perubahan sampai panel _Conflicts_ kosong dan semua
 Anda dapat melakukan beberapa hal, agar terhindar dari konflik saat meng-_upload_ objek ke dalam server OSM.
 
 **a. Meng-_upload_ hasil perubahan secara berkala**
+
 *   Untuk meminimalkan konflik yang dapat terjadi, Anda dapat mengupload secara berkala untuk hasil pengeditan data OSM. Misalnya, jika Anda akan melakukan pemetaan 100 bangunan dan koneksi internet Anda tidak bagus, maka Anda dapat mengupload secara berkala setiap Anda mendijitasi 20 bangunan atau setiap 15 menit sekali. Kemungkinan konflik akan muncul lebih banyak apabila Anda mengedit seluruh wilayah terlebih dahulu dan menunda untuk meng-_upload_ nya. Semakin lama selang waktu antara men-_download_ data dengan meng-_upload_ editan Anda, maka semakin besar kemungkinan seseorang telah mengedit data tersebut pada saat itu.
+
 *   Jika Anda menyimpan data OSM dan ingin meng-_upload_ di waktu yang tidak bersamaan, maka Anda dapat membarui data OSM untuk mendapatkan data OSM terbaru yang ada di server OSM. Sebelum meng-_upload_ pekerjaan Anda ke OSM, klik pada menu **_File → Update data_** atau pilih **_Update Modified_** lalu tunggu sampai proses pembaharuan data selesai. Setelah itu Anda dapat meng-_upload_ data dengan menggunakan opsi **_Upload data_** pada menu **_File_** atau klik ikon  ![ikon_upload](/pages/03-JOSM/10-Mengatasi-konflik-data-pada-OpenStreetMap/images/1018_ikon_upload.png "ikon_upload") pada _bar menu_.
 
 <p align="center">
