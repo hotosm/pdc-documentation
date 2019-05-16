@@ -209,21 +209,21 @@ Tabel Model Data OSM untuk Objek Bank
 
 
 *   Ada beberapa cara untuk menggambarkan area yang akan dipilih
-1. **_Box_** = Menggambar area dengan menggunakan kotak. Jika Anda ingin mengulang untuk pembuatan kotak klik tanda X pada kolom _Box_. 
+  **_Box_** = Menggambar area dengan menggunakan kotak. Jika Anda ingin mengulang untuk pembuatan kotak klik tanda X pada kolom _Box_. 
 
 <p align="center">
   <img width=80% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0405_Penentuan_area_box.png">
 </p>
 <p align="center"><i>Penentuan area dengan bentuk kotak</i><p align="center">
 
-2. **_Draw_** = Menggambar area yang dipilih secara manual, Anda dapat klik pada area yang ingin digambar dan diakhiri dengan klik dua kali.
+  **_Draw_** = Menggambar area yang dipilih secara manual, Anda dapat klik pada area yang ingin digambar dan diakhiri dengan klik dua kali.
 
 <p align="center">
   <img width=80% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0406_Penentuan_area_dengan_bentuk_manual.png">
 </p>
 <p align="center"><i>Penentuan area dengan bentuk manual</i><p align="center">
 
-3. **_Import_** = Menggunakan poligon dalam format _.geojson_ untuk memilih area yang akan di _download_. Syarat format data _.geojson_ yang dapat ditambahkan ke dalam _Export Tool_ adalah harus satu fitur (satu baris) pada data atribut. Anda dapat membuka modul **Menggunakan GeoJSON** untuk mengetahui cara mendapatkan data _.geojson._
+  **_Import_** = Menggunakan poligon dalam format _.geojson_ untuk memilih area yang akan di _download_. Syarat format data _.geojson_ yang dapat ditambahkan ke dalam _Export Tool_ adalah harus satu fitur (satu baris) pada data atribut. Anda dapat membuka modul **Menggunakan GeoJSON** untuk mengetahui cara mendapatkan data _.geojson._
 
 <p align="center">
   <img width=80% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0407_Penentuan_area_dengan_import.png">
@@ -258,7 +258,7 @@ Tabel Model Data OSM untuk Objek Bank
 </p>
 <p align="center"><i>Menu Export</i><p align="center">
 
-*   Jika proses sudah selesai akan muncul kotak dialog seperti di bawah ini, klik tulisan berwarna biru seperti **nama file.shp.zip** untuk menyimpan hasil ekspor data OSM.
+*   Jika proses sudah selesai akan muncul kotak dialog seperti di bawah ini dengan status **_COMPLETED_**, klik tulisan berwarna biru seperti **nama file.shp.zip** untuk menyimpan hasil ekspor data OSM.
 
 <p align="center">
   <img width=80% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0412_Done.png">
