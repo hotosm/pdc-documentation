@@ -60,6 +60,7 @@ Data batas administrasi yang akan digunakan pada bab ini dapat di _download_ pad
 Jika Anda telah memiliki data ._shapefile_ seperti di atas, maka dapat melanjutkan langkah di bawah ini mengenai bagaimana menghitung kuantitas data OSM. Langkah - langkah dalam menghitung kuantitas data OSM, yaitu:
 
 **a. Persiapan _Data Layer_**
+
 *   Persiapkan data objek OSM hasil _download_ dari _Export Tool_ yang sudah dilakukan **_Extract_**.  Kemudian gunakan **QGIS desktop** untuk membuka data tersebut dengan klik **_Add Vector Layer → Browse_** yang berada di sisi sebelah kiri QGIS atau klik **_Menu Layer → Add Layer → Add Vector Layer → Browse_**.
 
 <p align="center">
@@ -209,10 +210,11 @@ Perhitungan objek jalan berbeda dengan perhitungan objek dalam bentuk _point_ da
 
 
 *   Tampilan kotak dialog **_Add field_** akan nampak seperti gambar di bawah ini, ada beberapa pengaturan isian, yaitu :
-1. **_Name_** 	= menampilkan judul kolom
-2. **_Type_**	= menunjukkan tipe data yang dapat dipilih sesuai dengan jenis data isi kolom. Tipe _decimal number (real)_ akan menunjukkan bilangan desimal.
-3. **_Provider type double_** = _Length_ menunjukkan jumlah angka di setiap baris dan _precision_ menunjukkan jumlah desimal di belakang koma.
-4. Klik OK = untuk menyelesaikan pengaturan   
+
+  * **_Name_** 	= menampilkan judul kolom
+  * **_Type_**	= menunjukkan tipe data yang dapat dipilih sesuai dengan jenis data isi kolom. Tipe _decimal number (real)_ akan menunjukkan bilangan desimal.
+  * **_Provider type double_** = _Length_ menunjukkan jumlah angka di setiap baris dan _precision_ menunjukkan jumlah desimal di belakang koma.
+  * Klik OK = untuk menyelesaikan pengaturan   
 
 <p align="center">
   <img src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0918_pengaturanfield.png">
@@ -223,12 +225,14 @@ Perhitungan objek jalan berbeda dengan perhitungan objek dalam bentuk _point_ da
 **Perhitungan Panjang Jalan (meter) dengan _Field Calculator_**
 
 *   Anda dapat memeriksa kolom yang sudah dibuat yang terletak di baris paling akhir pada tabel atribut. Untuk melakukan pengisian kolom perhitungan panjang jalan, Anda dapat mengaktifkan **_Open field calculator_**.
+
 *   Ada beberapa pengaturan untuk pengisian _field calculator_, yaitu :
-1. Berikan tanda centang pada bagian **_Update existing field_** untuk memperbarui isian kolom
-2. Pilih kolom yang akan diperbaharui datanya
-3. Anda dapat mengetikkan **_“length”_** untuk menghitung panjang jalan secara otomatis.
-4. Klik dua kali pada bagian **_Geometry → length_** sebagai formula untuk menghitung panjang jalan, kata **_$length_** akan muncul pada kotak **_Expression._**
-5. Klik OK untuk menyelesaikan pengaturan _field calculator_
+
+  * Berikan tanda centang pada bagian **_Update existing field_** untuk memperbarui isian kolom
+  * Pilih kolom yang akan diperbaharui datanya
+  * Anda dapat mengetikkan **_“length”_** untuk menghitung panjang jalan secara otomatis.
+  * Klik dua kali pada bagian **_Geometry → length_** sebagai formula untuk menghitung panjang jalan, kata **_$length_** akan muncul pada kotak **_Expression._**
+  * Klik OK untuk menyelesaikan pengaturan _field calculator_
 
 <p align="center">
   <img width=70% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0919_fieldpj.png">
