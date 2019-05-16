@@ -48,11 +48,12 @@ Kalkulasi kuantitas data dapat dihitung berdasarkan batas administrasi agar memu
 Data batas administrasi yang akan digunakan pada bab ini dapat di _download_ pada tautan http://tinyurl.com/admin-smg dan data objek OSM dapat di _download_ dengan menggunakan _Export Tool_ yang terdapat pada modul **Penggunaan YAML pada _Export Tool_**. Anda dapat melakukan perhitungan jumlah objek sebelum dan sesudah pemetaan, agar terlihat kalkulasi data yang dihasilkan dari proyek pemetaan. Hasil _download_ data OSM pada pada modul **Penggunaan YAML pada _Export Tool_** akan digunakan untuk perhitungan jumlah objek. Ada 2 (dua) kategori ._shapefile_ yang dihasilkan, yaitu:
 
 *   **Fasum :**
-1. Semua objek yang masuk ke dalam _amenity_=*
-2. Instalasi Kelistrikan (_power_=*)
-3. Rekreasi dan RTH (_leisure_=*)
-4. Kantor pemerintahan (_office_=*)
-5. Supermarket (_shop=supermarket_)
+
+  1. Semua objek yang masuk ke dalam _amenity_=*
+  2. Instalasi Kelistrikan (_power_=*)
+  3. Rekreasi dan RTH (_leisure_=*)
+  4. Kantor pemerintahan (_office_=*)
+  5. Supermarket (_shop=supermarket_)
 
 *   **Jalan :** _highway_=*
 
@@ -111,15 +112,17 @@ Jika Anda telah memiliki data ._shapefile_ seperti di atas, maka dapat melanjutk
 
 *   Lakukan kembali proses **_intersect_** kepada _layer_ **“jalan”** dan _layer_ **“fasum polygon”**, sehingga Anda memiliki 3 (tiga) _layer_ baru dari hasil penggabungan batas administrasi dan objek.
 *   Buka atribut tabel di setiap _layer_ dan periksa kolom yang dapat dijadikan acuan untuk perhitungan data OSM. Apakah di dalam tabel atribut tersebut sudah ada nama kolom seperti di bawah ini: 
-1. Fasum _point_ = _amenity, power, office_ dan _supermarket_
-2. Fasum _polygon_ = _amenity, power, office, supermarket,_ dan _leisure_
-3. Jalan = _highway_
+
+  1. Fasum _point_ = _amenity, power, office_ dan _supermarket_
+  2. Fasum _polygon_ = _amenity, power, office, supermarket,_ dan _leisure_
+  3. Jalan = _highway_
 
 **c. Perhitungan Data Objek OSM**
 
 Data OSM yang dihasilkan dari proyek pemetaan terdiri dari _points, lines,_ dan _polygons_. Anda akan melakukan perhitungan dengan dua formula yang berbeda pada saat menggunakan _plugin Group Stats_. Data OSM dalam bentuk **_points_ dan _polygons_** akan dihitung dengan menggunakan formula **“count”**, formula tersebut akan menghitung atribut objek  berdasarkan banyaknya atribut yang terdapat di kolom atribut. Sedangkan data OSM dalam bentuk **_lines_** akan dihitung menggunakan formula **“sum”**,  dimana formula tersebut atribut akan menjumlahkan segmen panjang jalan.
 
 **1. Perhitungan Data OSM dalam bentuk _Points dan Polygon_** 
+
 *   Jika Anda melakukan pemetaan dalam ruang lingkup kota, maka akan lebih mudah melakukan perhitungan kuantitas data per kecamatan. Lakukan _filter_ pada _layer_ “**fasum_point_admin”**, agar data yang ditampilkan  hanya untuk kecamatan tertentu, dengan **klik kanan pada layer fasum_point_admin** → ***Filter***. Kemudian, lakukan langkah seperti gambar di bawah ini.
 
 <p align="center">
@@ -145,11 +148,12 @@ Data OSM yang dihasilkan dari proyek pemetaan terdiri dari _points, lines,_ dan 
 
 
 *   Lakukan seperti langkah di bawah ini:
-1. **_Layers_**= menunjukkan _layer_ yang akan dihitung jumlah objeknya. **_Fields_** = secara otomatis menunjukkan kolom yang ada pada tabel atribut _layers_ yang dipilih  
-2. **_Columns_**= akan menjadi kategori kolom pada saat proses perhitungan, isi dengan kolom yang ada pada _Fields_, dengan cara pilih dan pindahkan ke kotak _Columns_. 
-3. **_Rows_**= akan menjadi kategori baris pada saat proses perhitungan, isi dengan kolom yang akan dijadikan baris, dengan cara pilih dan pindahkan ke kotak _Rows._
-4. **_Value_**= sebagai acuan dasar perhitungan, pilih formula + kolom _Layers_
-5. Klik **_Calculate_** untuk memulai proses perhitungan 
+
+  * **_Layers_**= menunjukkan _layer_ yang akan dihitung jumlah objeknya. **_Fields_** = secara otomatis menunjukkan kolom yang ada pada tabel atribut _layers_ yang dipilih  
+  * **_Columns_**= akan menjadi kategori kolom pada saat proses perhitungan, isi dengan kolom yang ada pada _Fields_, dengan cara pilih dan pindahkan ke kotak _Columns_. 
+  * **_Rows_**= akan menjadi kategori baris pada saat proses perhitungan, isi dengan kolom yang akan dijadikan baris, dengan cara pilih dan pindahkan ke kotak _Rows._   
+  * **_Value_**= sebagai acuan dasar perhitungan, pilih formula + kolom _Layers_
+  * Klik **_Calculate_** untuk memulai proses perhitungan 
 
 <p align="center">
   <img width=80% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0913_langkahgroupstats.png">
