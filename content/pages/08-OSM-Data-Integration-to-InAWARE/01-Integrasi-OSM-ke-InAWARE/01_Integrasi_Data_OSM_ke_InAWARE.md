@@ -23,12 +23,12 @@ Saat disetujui, prosesnya kemungkinan memakan waktu hingga 24 jam, tergantung da
 
 ### **II. Memasukkan Data _OpenStreetMap_ ke InAWARE**
 
-Setelah Anda mengetahui apa itu InAWARE serta langkah-langkah untuk mendapatkan akun, sekarang Anda akan mempelajari tentang bagaimana cara memasukkan hasil pemetaan dan pengumpulan data Anda di lapangan yang telah dimasukkan ke dalam _OpenStreetMap _ke dalam InAWARE. Format data yang dapat kita masukkan ke dalam InAWARE adalah **_GeoJSON._** Untuk mendapatkan data _OpenStreetMap _dalam format tersebut, Anda dapat melihat Modul **Konversi Data Shapefile ke GeoJSON**. Berikut adalah langkah-langkah dalam memasukkan data _OpenStreetMap _ ke dalam InAWARE:
+Setelah Anda mengetahui apa itu InAWARE serta langkah-langkah untuk mendapatkan akun, sekarang Anda akan mempelajari tentang bagaimana cara memasukkan hasil pemetaan dan pengumpulan data Anda di lapangan yang telah dimasukkan ke dalam _OpenStreetMap _ke dalam InAWARE. Format data yang dapat kita masukkan ke dalam InAWARE adalah **_GeoJSON._** Untuk mendapatkan data _OpenStreetMap _dalam format tersebut, Anda dapat melihat Modul **Konversi Data Shapefile ke GeoJSON**. Berikut adalah langkah-langkah dalam memasukkan data _OpenStreetMap_ ke dalam InAWARE:
 
 *   Silahkan klik menu **_Layers_** di InAWARE
 *   Pilih **_Edit_** kemudian pilih **_Add Layer_**
 
-![Memasukkan layer untuk data OpenStreetMap](/pages/08-OSM-Data-Integration-to-InAWARE/01-Integrasi-OSM-ke-InAWARE/images/0101_osm_to_inaware.png "Memasukkan layer untuk data OpenStreetMap")
+![Memasukkan layer untuk data OpenStreetMap](/pages/08-OSM-Data-Integration-to-InAWARE/01-Integrasi-OSM-ke-InAWARE/images/0101_osm_to_inaware.png)
 <p align="center"><i>Memasukkan layer untuk data OpenStreetMap</i></p>
 
 *   Kemudian pilih **_File_** dan klik **_Please Choose the File_**
