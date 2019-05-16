@@ -28,7 +28,7 @@ Setelah Anda mengetahui apa itu InAWARE serta langkah-langkah untuk mendapatkan 
 *   Silahkan klik menu **_Layers_** di InAWARE
 *   Pilih **_Edit_** kemudian pilih **_Add Layer_**
 
-![Memasukkan layer untuk data OpenStreetMap](/pages/08-OSM-Data-Integration-to-InAWARE/01-Integrasi-OSM-ke-InAWARE/images/0101_osm_to_inaware.png "Memasukkan layer untuk data OpenStreetMap")
+![Memasukkan layer untuk data OpenStreetMap](/pages/08-OSM-Data-Integration-to-InAWARE/01-Integrasi-OSM-ke-InAWARE/images/0101_osm_to_inaware.png)
 <p align="center"><i>Memasukkan layer untuk data OpenStreetMap</i></p>
 
 *   Kemudian pilih **_File_** dan klik **_Please Choose the File_**
