@@ -208,7 +208,8 @@ Tabel Model Data OSM untuk Objek Bank
 <p align="center"><i>Lembar kerja Export Tool</i><p align="center">
 
 
-*   Ada beberapa cara untuk menggambarkan area yang akan dipilih
+*   Ada beberapa cara untuk menggambarkan area yang akan dipilih :
+
   **_Box_** = Menggambar area dengan menggunakan kotak. Jika Anda ingin mengulang untuk pembuatan kotak klik tanda X pada kolom _Box_. 
 
 <p align="center">
