@@ -1,4 +1,7 @@
-﻿# **Model Data _OpenStreetMap_**
+﻿---
+title: Model Data OpenStreetMap
+weight: 2
+---
 
 **Tujuan Pembelajaran:**
 
@@ -23,7 +26,7 @@ alamat= Jalan Slamet Riyadi II.
 
 Dalam contoh di atas “nama dan alamat” adalah **_Key_** sedangkan “SDN Kebon Manggis 11 Pagi dan Jalan Slamet Riyadi II” merupakan **_Value_.** Untuk penjelasan lebih lanjut silahkan lihat gambar di bawah ini:
 
-![Contoh key dan value di data OpenStreetMap](../images/0201_contoh_key_dan_value_di_osm.PNG "Contoh key dan value di data OpenStreetMap")
+![Contoh key dan value di data OpenStreetMap](/pages/06-OSM-Field-Survey-Manager-Guidelines/02-Model-Data-OpenStreetMap/images/0201_contoh_key_dan_value_di_osm.PNG "Contoh key dan value di data OpenStreetMap")
 <p align="center"><i>Contoh key dan value di data OpenStreetMap</i></p>
 
 Seperti yang dapat Anda lihat pada gambar di atas, _key_ dan _value_ yang digunakan adalah Bahasa Inggris karena itu merupakan aturan baku yang telah ditetapkan untuk semua data yang ada di _OpenStreetMap_. Anda tidak diharuskan untuk mengingat semua _key_ dan _value_ yang ada. Anda dapat menemukan key dan value yang disesuaikan dengan kebutuhan pemetaan di halaman wikipedia _OpenStreetMap_ yang akan dibahas di sub-bab selanjutnya.
@@ -36,7 +39,7 @@ Sebagai salah satu platform peta partisipatif yang ada di dunia, _OpenStreetMap_
 
 Penjelasan tentang objek serta daftar _key_ dan _value_ yang ada di data OSM telah dibuat di dalam satu halaman khusus pada OSM Wikipedia yang disebut _Map Feature_. Di halaman ini Anda dapat melihat berbagai macam daftar objek yang dapat dipetakan di dalam OSM serta informasi key dan value yang menggambarkan objek di seluruh dunia. Untuk mengaksesnya silahkan buka di [https://wiki.openstreetmap.org/wiki/Map_Features](https://wiki.openstreetmap.org/wiki/Map_Features) 
 
-![Tampilan situs wikipedia OpenStreetMap map feature](../images/0202_wiki_map_feature.jpg "Tampilan situs wikipedia OpenStreetMap map feature")
+![Tampilan situs wikipedia OpenStreetMap map feature](/pages/06-OSM-Field-Survey-Manager-Guidelines/02-Model-Data-OpenStreetMap/images/0202_wiki_map_feature.jpg "Tampilan situs wikipedia OpenStreetMap map feature")
 <p align="center"><i>Tampilan situs wikipedia OpenStreetMap map feature</i></p>
 
 Setiap _key_ dan _value_ yang ada di halaman _Map Features_ adalah hal yang tidak dapat Anda ubah ataupun edit sesuai keinginan Anda. Jadi, halaman ini merupakan panduan untuk para pengguna OSM di seluruh dunia. Anda dapat menelusuri seluruh halaman _Map Features_ ini untuk mencari segala macam informasi objek yang Anda ingin ketahui.
@@ -49,7 +52,7 @@ Perbedaan mendasar antara halaman _Map Features_ dan wikipedia Panduan Objek OSM
 
 Anda dapat melihat daftar objek-objek panduan OSM di Indonesia dengan mengakses tautan sebagai berikut: [https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines](https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines) 
 
-![Halaman wiki panduan objek titik (atas) dan garis (bawah) di  OSM Indonesia](../images/0203_wiki_osm_indonesia.PNG "Halaman wiki panduan objek titik (atas) dan garis (bawah) di  OSM Indonesia")
+![Halaman wiki panduan objek titik (atas) dan garis (bawah) di  OSM Indonesia](/pages/06-OSM-Field-Survey-Manager-Guidelines/02-Model-Data-OpenStreetMap/images/0203_wiki_osm_indonesia.PNG "Halaman wiki panduan objek titik (atas) dan garis (bawah) di  OSM Indonesia")
 <p align="center"><i>Halaman wiki panduan objek titik (atas) dan garis (bawah) di  OSM Indonesia</i></p>
 
 ### **III. Objek-Objek Pemetaan di _OpenStreetMap_**
@@ -62,7 +65,7 @@ Pada modul ini telah dijelaskan sebelumnya mengenai tipe data _OpenStreetMap_, y
 Titik biasanya digunakan untuk menggambarkan posisi atau lokasi dari suatu objek tertentu. Sebagai contoh objek yang dapat digambarkan berbentuk titik di _OpenStreetMap_ yaitu lampu merah, Saluran Pengisian Bahan Bakar Umum (SPBU), ataupun rumah makan yang berada di dalam suatu _mall_ atau pusat perbelanjaan.
 
 <p align="center">
-  <img width="400" height="300" src="../images/0204_objek_titik.JPG "Contoh objek titik (nodes) di OSM">
+  <img width="400" height="300" src="/pages/06-OSM-Field-Survey-Manager-Guidelines/02-Model-Data-OpenStreetMap/images/0204_objek_titik.JPG "Contoh objek titik (nodes) di OSM">
 </p>
 <p align="center"><i>Contoh objek titik (nodes) di OSM</i></p>
 
@@ -71,7 +74,7 @@ Titik biasanya digunakan untuk menggambarkan posisi atau lokasi dari suatu objek
 Garis adalah bentuk yang terdiri dari beberapa titik (_nodes_) yang saling terhubung satu sama lain. Beberapa contoh objek garis di _OpenStreetMap_ yaitu jalan, sungai, rel kereta, dan batas administrasi.
 
 <p align="center">
-  <img width=70% src="../images/0205_objek_garis.JPG "Contoh objek garis (ways) di OSM">
+  <img width=70% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/02-Model-Data-OpenStreetMap/images/0205_objek_garis.JPG "Contoh objek garis (ways) di OSM">
 </p>
 <p align="center"><i>Contoh objek garis (ways) di OSM</i></p>
 
@@ -82,7 +85,7 @@ Garis adalah bentuk yang terdiri dari beberapa titik (_nodes_) yang saling terhu
 Area merupakan bentuk dari beberapa garis (_ways_) yang saling terhubung dan tertutup. Beberapa contoh objek area di _OpenStreetMap_ yaitu bangunan, taman, penggunaan lahan dan danau/waduk.
 
 <p align="center">
-  <img width=30% src="../images/0206_objek_area.JPG "Contoh objek area (polygon) di OSM">
+  <img width=30% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/02-Model-Data-OpenStreetMap/images/0206_objek_area.JPG "Contoh objek area (polygon) di OSM">
 </p>
 <p align="center"><i>Contoh objek area (polygon) di OSM</i></p>
 
@@ -837,21 +840,21 @@ Setelah Anda mengetahui model data berdasarkan _tag_ yang diperlukan untuk masin
 
 Tabel Jenis Infrastruktur dan Tipe Data di _OpenStreetMap_
 
-![Tabel Infrastruktur](../images/0207_tabel_infrastruktur.PNG "Tabel Infrastruktur")
+![Tabel Infrastruktur](/pages/06-OSM-Field-Survey-Manager-Guidelines/02-Model-Data-OpenStreetMap/images/0207_tabel_infrastruktur.PNG "Tabel Infrastruktur")
 
 
 ### V. Mengecek _key_ dan _value_ di _Tag Info_
 
 Pada bab sebelumnya sudah dijelaskan mengenai panduan untuk melihat _key_ dan _value_ pada objek di _OpenStreetMap_ dengan menggunakan halaman wikipedia _Map Features_ dan Referensi objek OSM Indonesia. Namun, ada beberapa _key_ dan _value_ yang tidak dijelaskan pada halaman tersebut khususnya informasi yang lebih rinci dan spesifik misalnya untuk **kapasitas orang pada sebuah bangunan** atau **jenis lantai bangunan**. Untuk melihat informasi (_tag_) tersebut Anda dapat melihat di halaman berikut: [https://taginfo.openstreetmap.org/](https://taginfo.openstreetmap.org/) 
 
-![Tampilan halaman utama Tag Info](../images/0208_halaman_tag_info.PNG "Tampilan halaman utama Tag Info")
+![Tampilan halaman utama Tag Info](/pages/06-OSM-Field-Survey-Manager-Guidelines/02-Model-Data-OpenStreetMap/images/0208_halaman_tag_info.PNG "Tampilan halaman utama Tag Info")
 <p align="center"><i>Tampilan halaman utama Tag Info</i></p>
 
 Pada gambar di atas, menunjukkan kolom _KEYS_ dimana menunjukkan beberapa _key_ yang sering dicari oleh pengguna _OpenStreetMap_ seperti _building, highway, name, source_, dan lain-lain. Selain itu Anda juga dapat memilih kombinasi _key_ dan _value_ (_tag_) yang populer seperti _building=yes_ dan _highway=residential_ di kolom _TAGS_ dan Anda juga dapat mencari secara manual di kotak pencarian pada pojok kanan atas pada halaman utama _Tag Info_. 
 
 Sebagai contoh, jika Anda ingin melihat informasi khusus terkait **sumber kegiatan pemetaan** dan **jumlah tingkat dari sebuah bangunan** maka silakan klik _building_ di bagian _Keys_. Anda kemudian akan melihat halaman berikut:
 
-![Contoh kombinasi tag and value di Tag Info](../images/0209_kombinasi_tag_info.PNG "Contoh kombinasi tag and value di Tag Info")
+![Contoh kombinasi tag and value di Tag Info](/pages/06-OSM-Field-Survey-Manager-Guidelines/02-Model-Data-OpenStreetMap/images/0209_kombinasi_tag_info.PNG "Contoh kombinasi tag and value di Tag Info")
 <p align="center"><i>Contoh kombinasi tag and value di Tag Info</i></p>
 
 Pilih menu _tab_ _Combinations_ kemudian Anda akan melihat beberapa kombinasi _key building_ khusus yang sering digunakan oleh pengguna _OpenStreetMap_. Misalnya, jika Anda ingin mencari sumber pemetaan bangunan dan tinggi bangunan maka Anda bisa menggunakan **_source_** untuk sumber pemetaan bangunan dan **_building:levels_** untuk tinggi bangunan. Selain itu, Anda dapat melihat _key_ yang terkait informasi bangunan yang lain. Anda dapat memilih _key_ dengan jumlah terbanyak yang terdapat pada kolom _Count._ Hal ini menunjukkan seberapa sering _key_ tersebut digunakan untuk objek bangunan oleh pengguna OSM di seluruh dunia. 
