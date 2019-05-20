@@ -125,10 +125,7 @@ Durasi pengambilan data tergantung oleh luas wilayah dan kepadatan data yang dik
 Hasil pengumpulan data HARUS dihapus berkala setiap hari di smartphone setelah melakukan upload ke google drive dan server ona.io. Hal ini dilakukan untuk mengantisipasi kapasitas memori yang tidak cukup dan sebagai laporan survei kepada Quality Assurance yang nanti akan melakukan pengecekan terhadap kualitas data yang diambil.
 Jika terdapat penolakan/pengusiran dari masyarakat setempat, Data Entry dapat meminta bantuan tim BPBD untuk menemani dalam melakukan pengumpulan data di lapangan.
 
-
-<p align="center">
-  <img width="600" height="400" src="/pages/01-OSM-Field-Surveyor-Guideliness/01-Metodologi-Pengumpulan-Data/images/0104_metode_pengumpulan_data.png "Kegiatan pengumpulan data infrastruktur di lapangan">
-</p>
+![Kegiatan pengumpulan data infrastruktur di lapangan](/pages/01-OSM-Field-Surveyor-Guideliness/01-Metodologi-Pengumpulan-Data/images/0104_metode_pengumpulan_data.png "Kegiatan pengumpulan data infrastruktur di lapangan")
 <p align="center"><i>Kegiatan pengumpulan data infrastruktur di lapangan</i></p>
 
 
