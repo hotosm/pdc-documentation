@@ -25,18 +25,13 @@ Bayangkan jika Anda ingin melakukan pemetaan pada suatu wilayah tertentu dimana 
 
 _Tasking Manager_ pernah digunakan sebagai bentuk respon ketika bencana Topan Haiyan terjadi di Filipina pada 8 November 2013. Pemetaan menggunakan _Tasking Manager_ dilakukan di Kota Tacloban, salah satu kota yang terdampak sangat parah ketika bencana terjadi. Dalam kurun waktu 24 jam setelah dibuatnya proyek _Tasking Manager_, sebanyak 10.000 bangunan telah terpetakan atau sekitar 25% dari total jumlah bangunan yang ada di Kota Tacloban. Seluruh pemetaan ini dilakukan oleh 33 orang relawan. 
 
-<p align="center">
-  <img width=50% src="/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0101_tasking_manager.png">
-</p>
+![Kondisi bangunan sebelum dan setelah dipetakan dengan Tasking Manager](/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0101_tasking_manager.png "Kondisi bangunan sebelum dan setelah dipetakan dengan Tasking Manager")
 <p align="center"><i>Kondisi bangunan sebelum dan setelah dipetakan dengan Tasking Manager</i></p>
 
 
 Di Indonesia, penggunaan *Tasking Manager* juga digunakan untuk respon ketika bencana terjadi. Salah satu contohnya adalah ketika bencana gempa dan tsunami terjadi di Selat Sunda pada Desember 2018. Dalam kurun waktu 1 bulan, seluruh daerah terdampak sudah selesai dipetakan oleh sekitar 60 orang. 
 
-
-<p align="center">
-  <img width=50% src="/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0102_respon_bencana_di_selat_sunda.png">
-</p>
+![Tasking Manager yang dibuat sebagai respon bencana di Selat Sunda](/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0102_respon_bencana_di_selat_sunda.png "Tasking Manager yang dibuat sebagai respon bencana di Selat Sunda")
 <p align="center"><i>Tasking Manager yang dibuat sebagai respon bencana di Selat Sunda</i></p>
 
 
@@ -45,9 +40,7 @@ Di Indonesia, penggunaan *Tasking Manager* juga digunakan untuk respon ketika be
 
 Untuk dapat membuat _tasking_ baru di _tasking manager,_ Anda harus terlebih dahulu mempunyai  akses sebagai _project manager_. Apabila Anda belum memiliki akses maka anda harus diatur sebagai manager proyek agar dapat membuat tasking, Anda bisa mengajukan akses tersebut dengan mengirim _e-mail_ ke [team.id@hotosm.org](mailto:team.id@hotosm.org) untuk _tasking manager_ khusus di Indonesia. Setelah Anda berhasil mendapatkan akses untuk membuat tasking, Anda dapat melihat pada bagian kanan atas dari halaman depan tasking dan mengklik tombol **_Create New Project_.** 
 
-<p align="center">
-  <img width=50% src="/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0103_membuat_proyek_baru_di_tasking_manager.png">
-</p>
+![Memulai membuat proyek baru di tasking manager](/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0103_membuat_proyek_baru_di_tasking_manager.png"Memulai membuat proyek baru di tasking manager")
 <p align="center"><i>Memulai membuat proyek baru di tasking manager</i></p>
 
 Ada beberapa tahapan yang harus dilakukan dalam membuat tasking:
@@ -64,9 +57,7 @@ Ada beberapa tahapan yang harus dilakukan dalam membuat tasking:
 
     Klik **_Next_** apabila Anda sudah selesai mengatur area kerja Anda.
 
-<p align="center">
-  <img width=50% src="/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0104_pilihan_mengatur_area_kerja.png">
-</p>
+![Pilihan mengatur area kerja](/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0104_pilihan_mengatur_area_kerja.png"Pilihan mengatur area kerja")
 <p align="center"><i>Pilihan mengatur area kerja</i></p>
  
 
@@ -74,19 +65,14 @@ Ada beberapa tahapan yang harus dilakukan dalam membuat tasking:
 
     Setelah Anda sudah mengatur area kerja, tahapan berikutnya adalah Anda diminta untuk mengatur bentuk pembagian area kerja. Terdapat dua tipe pembagian area kerja: kotak (**_Square Grid_**) dan bebas (**_Arbitary Tasks_**). Jika memilih bentuk kotak, area kerja Anda akan dibagi menjadi beberapa kotak persegi dengan ukuran yang sama. Sementara itu apabila Anda memilih bentuk bebas. Area kerja Anda akan dibagi menjadi beberapa ukuran acak. Klik **Next** untuk menuju tahapan berikutnya.
 
-<p align="center">
-  <img width=50% src="/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0105_pilihan_mengatur_tipe_pembagian_area_kerja.png">
-</p>
+![Pilihan mengatur tipe pembagian area kerja](/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0105_pilihan_mengatur_tipe_pembagian_area_kerja.png"Pilihan mengatur tipe pembagian area kerja")
 <p align="center"><i>Pilihan mengatur tipe pembagian area kerja</i></p>
 
 *   **Step 3: _Set Task Sizes_** = Mengatur besar luasan kotak kerja
 
     Pada tahapan ini, Anda akan mengatur besar luasan kotak kerja. Diasumsikan bahwa pada tahapan sebelumnya Anda memilih pembagian area kerja dalam bentuk kotak dan pada tahapan ini Anda akan menentukan jumlah kotak yang ada di dalam area yang Anda tentukan. Semakin besar ukuran kotak kerja, maka jumlah pembagi kotak kerja akan lebih sedikit. Namun hal tersebut juga berarti para relawan pemetaan yang ikut memetakan area Anda bisa jadi mendapatkan pembagian luas wilayah yang sangat besar dan begitu juga sebaliknya.
 
-
-<p align="center">
-  <img width=50% src="/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0106_alat_pada_tahapan_pengaturan_kotak_kerja.png">
-</p>
+![Deskripsi alat-alat pada tahapan pengaturan kotak kerja](/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0106_alat_pada_tahapan_pengaturan_kotak_kerja.png"Deskripsi alat-alat pada tahapan pengaturan kotak kerja")
 <p align="center"><i>Deskripsi alat-alat pada tahapan pengaturan kotak kerja</i></p>
    
 >Catatan:
@@ -97,10 +83,7 @@ Ada beberapa tahapan yang harus dilakukan dalam membuat tasking:
 
     Setelah Anda mengatur besaran kotak kerja, pada tahapan selanjutnya Anda akan diarahkan untuk memotong kotak kerja hanya spesifik ke area proyek Anda saja. Dengan menggunakan fitur ini, Anda bisa menghapus kotak kerja yang berada di luar area kotak kerja dan menyisakan kotak kerja yang sesuai dengan area batas proyek kerja Anda. Lama tidaknya proses memotong kotak ini tergantung dari besar luasan proyek kerja Anda.
 
-
-<p align="center">
-  <img width=50% src="/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0107_menggunakan_trim_untuk_memotong_area_kerja.png">
-</p>
+![Menggunakan trim untuk memotong area kerja](/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0107_menggunakan_trim_untuk_memotong_area_kerja.png"Menggunakan trim untuk memotong area kerja")
 <p align="center"><i>Menggunakan trim untuk memotong area kerja</i></p>
 
 
@@ -108,9 +91,7 @@ Ada beberapa tahapan yang harus dilakukan dalam membuat tasking:
 
     Tahapan selanjutnya adalah Anda memberikan nama untuk proyek  pemetaan Anda. Pada tahapan ini sebaiknya Anda memberikan nama yang mudah untuk dicari oleh para pengguna lainnya. Pada bagian ini juga terdapat keterangan jumlah _grid_/kotak yang akan Anda kerjakan, seperti gambar di bawah ini ada 56 _grid_/kotak. Klik **_Create_** untuk membuat proyek _tasking manager_ Anda.
 
-<p align="center">
-  <img width=50% src="/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0108_tahapan_akhir_sebelum_proyek_dibuat.png">
-</p>
+![Tahapan akhir sebelum proyek dibuat](/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0108_tahapan_akhir_sebelum_proyek_dibuat.png"Tahapan akhir sebelum proyek dibuat")
 <p align="center"><i>Tahapan akhir sebelum proyek dibuat</i></p>
 
 
@@ -124,9 +105,7 @@ Setelah selesai membuat proyek, Anda akan diarahkan ke pengaturan tambahan diman
     2. Anda akan mengatur prioritas _tasking_ Anda. Pada _tasking manager_, Anda akan diberikan tiga pilihan prioritas yaitu mendesak, tinggi, sedang, dan rendah dimana masing-masing tingkat memiliki arti yang berbeda-beda. Anda bisa mengatur _tasking_ Anda ke dalam tingkat mendesak/**_urgent_** apabila proyek _tasking_ yang dibuat oleh Anda bertujuan untuk segera dipetakan seperti pemetaan respon saat bencana terjadi sehingga proyek _tasking_ Anda akan ditampilkan pada urutan teratas di daftar _tasking_. Atur prioritas ke tingkat tinggi/**_high_** apabila kegiatan pemetaan Anda merupakan kegiatan pemetaan untuk respon kebencanaan namun bencana tersebut telah melewati fase tanggap darurat. Atur prioritas ke sedang/**_medium_** apabila proyek pemetaan Anda tidak terlalu mendesak untuk dipetakan namun termasuk kedalam lingkup pemetaan untuk kebencanaan. Atur prioritas ke rendah/**_low_** apabila kegiatan proyek _tasking_ Anda tidak mendesak dan bukan merupakan kegiatan untuk pemetaan kebencanaan.
     3. Anda akan mengatur ringkasan (**_Short description_**) dan deskripsi dari _tasking manager_ Anda. Dalam memberikan ringkasan (_short description)_ dan deskripsi untuk tasking Anda, terdapat pilihan bahasa dari bahasa Inggris (**EN**) dan Indonesia (**ID**). Pilihan bahasa tersebut akan muncul saat pengguna mengubah bahasa situs _tasking manager_ ke bahasa yang mereka inginkan. Apabila Anda ingin memasukkan bahasa Indonesia saja, pilih **ID** sebagai pilihan bahasa dan kemudian isi deskripsi singkat dan deskripsinya dalam format _markdown_. _Markdown_ merupakan format yang sama dengan format _html _dengan penulisan yang lebih sederhana. Untuk panduan penulisan dengan format _markdown_, Anda bisa melihatnya di situs _Markdown Guide_[^1]_._
 
-<p align="center">
-  <img width=50% src="/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0109_penjelasan_deskripsi_proyek_pemetaan_anda.png">
-</p>
+![Penjelasan untuk Bagian Deskripsi Proyek Pemetaan Anda](/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0109_penjelasan_deskripsi_proyek_pemetaan_anda.png"Penjelasan untuk Bagian Deskripsi Proyek Pemetaan Anda")
 <p align="center"><i>Penjelasan untuk Bagian Deskripsi Proyek Pemetaan Anda</i></p>
 
 *   **_Instructions_**= Memberikan instruksi pemetaan
@@ -137,29 +116,23 @@ Setelah selesai membuat proyek, Anda akan diarahkan ke pengaturan tambahan diman
     2. Pada bagian **_Changeset comment_** Anda bisa mengatur komen _changeset_ bawaan yang akan muncul otomatis pada saat pengguna  akan mengunggah penambahan data mereka ke _OpenStreetMap_.
     3. Pada bagian **_Detailed Instruction_** Anda bisa memasukkan instruksi pemetaan secara detail. Penjelasan ini sangat membantu relawan yang ingin berkontribusi dalam proyek _tasking_ Anda tetapi belum memiliki pengalaman pemetaan baik di _Tasking Manager_ maupun di OpenStreetMap. Anda bisa memberikan instruksi yang sedetail mungkin pada bagian ini. 
 
-
-<p align="center">
-  <img width=50% src="/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0110_tampilan_pada_bagian_instruksi.png">
-</p>
+![Tampilan pada bagian instruksi](/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0110_tampilan_pada_bagian_instruksi.png"Tampilan pada bagian instruksi")
 <p align="center"><i>Tampilan pada bagian instruksi</i></p>
 
 *   **_Metadata_**= Mengeset metadata proyek (opsional)
     1. **Mapper Level.**
     Pada bagian ini, Anda bisa mengatur tingkat kesulitan proyek pemetaan dan mengaturnya berdasarkan persepsi Anda sendiri. Sebagai contoh apabila daerah yang dipetakan merupakan daerah pemukiman padat penduduk dengan kondisi citra satelit yang tidak terlalu baik dan kebutuhan data yang dipetakan adalah data bangunan umum, Anda bisa mengatur tingkat kesulitan untuk memetakan daerah tersebut  termasuk tinggi atau sedang.
 
-    2. **Type(s) of Mapping.**
+    1. **Type(s) of Mapping.**
     Anda bisa mengidentifikasi obyek yang akan dipetakan pada proyek tasking Anda dengan memberikan centang pada daftar obyek yang ada di bagian **_Type(s) of Mapping_**. 
 
-    3. **Organization Tag.**
+    1. **Organization Tag.**
      Pada bagian ini Anda bisa memberikan _tag_ organisasi Anda untuk memudahkan pencarian proyek _tasking_ pada kolom pencarian.
 
-    4. **Campaign Tag.**
+    2. **Campaign Tag.**
     Sama seperti _organization tag_ pada bagian ini Anda bisa menambahkan _tag_ yang sesuai dengan proyek pemetaan Anda agar memudahkan pencarian.
 
-
-<p align="center">
-  <img width=50% src="/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0111_tampilan_halaman_metadata.png">
-</p>
+![Tampilan halaman metadata](/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0111_tampilan_halaman_metadata.png"Tampilan halaman metadata")
 <p align="center"><i>Tampilan halaman metadata</i></p>
 
 
@@ -172,18 +145,13 @@ Setelah selesai membuat proyek, Anda akan diarahkan ke pengaturan tambahan diman
     5. Menghapus area prioritas dengan menggunakan tombol **_DELETE_,** dan
     6. Menghapus semua area prioritas dengan menggunakan tombol **_CLEAR ALL_**
 
-
-<p align="center">
-  <img width=50% src="/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0112_tampilan_halaman_priority_areas.png">
-</p>
+![Tampilan halaman Priority Areas](/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0112_tampilan_halaman_priority_areas.png"Tampilan halaman Priority Areas")
 <p align="center"><i>Tampilan halaman Priority Areas</i></p>
 
 *   **_Imagery_** = Memberikan citra satelit tambahan (opsional)
     Apabila Anda mempunyai citra satelit tambahan dalam format TMS (_Tile Map Service_). Anda bisa memasukkan _url_ nya di bagian ini. Selain itu Anda juga perlu mengatur lisensi dari citra satelit yang anda gunakan. Anda harus memastikan citra satelit yang Anda gunakan mempunyai lisensi yang dapat digunakan untuk pemetaan di OpenStreetMap.
 
-<p align="center">
-  <img width=50% src="/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0113_tampilan_halaman_imagery.png">
-</p>
+![Tampilan halaman Imagery](/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0113_tampilan_halaman_imagery.png"Tampilan halaman Imagery")
 <p align="center"><i>Tampilan halaman Imagery</i></p>
 
 *   **_Permissions_** = Mengatur tingkat izin proyek (opsional)
@@ -193,17 +161,12 @@ Setelah selesai membuat proyek, Anda akan diarahkan ke pengaturan tambahan diman
 
     Apabila Anda mengaktifkan **_Private Project_** maka tasking Anda hanya akan bisa diakses oleh pengguna yang namanya (_user_ OSM) sudah Anda tentukan sebelumnya. Orang lain diluar nama yang telah diatur tidak dapat melihat tasking yang dibuat oleh Anda.
 
-<p align="center">
-  <img width=50% src="/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0114_tampilan_halaman_permissions.png">
-</p>
+![Tampilan halaman Permissions](/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0114_tampilan_halaman_permissions.png"Tampilan halaman Permissions")
 <p align="center"><i>Tampilan halaman Permissions</i></p>
 
 Setelah selesai dengan pengaturan tambahan. Anda bisa menyimpan proyek _tasking_ Anda dengan mengklik tombol **SAVE CHANGES** yang ada pada bagian bawah.
 
-
-<p align="center">
-  <img width=50% src="/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0115_menyimpan_proyek_tasking_yang_sudah_diubah.png">
-</p>
+![Klik tombol untuk menyimpan proyek tasking yang sudah diubah](/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0115_menyimpan_proyek_tasking_yang_sudah_diubah.png "Klik tombol untuk menyimpan proyek tasking yang sudah diubah")
 <p align="center"><i>Klik tombol untuk menyimpan proyek tasking yang sudah diubah</i></p>
 
 ## III. Pengelolaan Proyek *Tasking*
@@ -212,19 +175,14 @@ Setelah selesai dengan pengaturan tambahan. Anda bisa menyimpan proyek _tasking_
 
   Jika Anda ingin menambahkan beberapa kalimat instruksi baru atau ingin mengubah deskripsi proyek Anda seiring dengan berjalannya waktu pemetaan di _tasking_ Anda, Anda bisa memilih tombol **_Edit Project_** pada halaman _tasking_ tersebut . Setelah itu Anda bisa langsung merubah deskripsi dan instruksi untuk tasking Anda.
 
-<p align="center">
-  <img width=50% src="/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0116_edit_project_mengubah_deskripsi_proyek_tasking_anda.png">
-</p>
+![Klik tombol EDIT PROJECT untuk mengubah deskripsi proyek tasking Anda](/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0116_edit_project_mengubah_deskripsi_proyek_tasking_anda.png "Klik tombol EDIT PROJECT untuk mengubah deskripsi proyek tasking Anda")
 <p align="center"><i>Klik tombol EDIT PROJECT untuk mengubah deskripsi proyek tasking Anda</i></p>
 
 ### b. Validasi Hasil Kerja
 
   Seiring dengan berjalannya proyek tasking Anda dan bertambahnya data di daerah yang sedang Anda kerjakan, beberapa relawan mungkin ada yang belum mahir melakukan digitasi dengan OSM sehingga Anda membutuhkan kegiatan validasi untuk memperbaiki data. Untuk lebih jelasnya, Anda bisa membaca modul **Penjaminan Kualitas Data dengan _Tasking Manager_**. Silahkan klik tombol **_Validate_** untuk beralih ke halaman validasi untuk proyek tasking Anda.
 
-
-<p align="center">
-  <img width=50% src="/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0117_halaman_validasi_pada_tasking_manager.png">
-</p>
+![Halaman validasi pada tasking manager](/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0117_halaman_validasi_pada_tasking_manager.png"Halaman validasi pada tasking manager")
 <p align="center"><i>Halaman validasi pada tasking manager</i></p>
 
 
@@ -254,18 +212,14 @@ Pada menu pengelolaan _tasking manager_ Anda, terdapat beberapa tombol aksi:
 *   Mengatur ulang proyek tasking. Dengan tombol **_Reset Tasks_** Anda akan mengatur ulang tasking Anda tetapi masih dapat menyimpan histori kontributor yang ikut turut serta memetakan proyek tasking Anda.
 *   Menduplikasi tasking. Dengan tombol **_Clone Project_** Anda bisa menduplikasi tasking Anda dan membuat tasking baru dengan deskripsi dan area kerja yang sama seperti tasking sebelumnya. Hal yang berbeda adalah proyek _tasking_ hasil duplikasi Anda akan dalam status _Draft_ dan untuk bagian area yang ingin dipetakan, jumlah kotak dan area prioritas tidak akan terduplikasi sehingga Anda harus melakukan pengaturan lebih lanjut.
 
-<p align="center">
-  <img width=50% src="/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0118_tampilan_fitur-fitur_yang_terdapat_pada_halaman_action.png">
-</p>
+![Tampilan fitur-fitur yang terdapat pada halaman Action](/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0118_tampilan_fitur-fitur_yang_terdapat_pada_halaman_action.png"Tampilan fitur-fitur yang terdapat pada halaman Action")
 <p align="center"><i>Tampilan fitur-fitur yang terdapat pada halaman Action</i></p>
 
 ### e. Mengarsip Proyek Tasking
 
   Apabila proyek tasking sudah selesai, Anda disarankan untuk mengarsipkan proyek tasking yang telah Anda buat. Hal ini bertujuan untuk menghindari kontributor untuk melakukan pemetaan pada proyek _tasking_ tersebut. Untuk mengarsip proyek tasking , klik **_Edit Project_** dan pilih menu **_Description_.** Pada menu status, ubah dari **_Published_** ke **_Archived_**. Klik **_Save Changes_** untuk menyimpan perubahannya.
-   
-<p align="center">
-  <img width=50% src="/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0119_mengubah_status_proyek_dari_published_ke_archived.png">
-</p>
+
+![Mengubah status proyek dari Published ke Archived](/pages/02-HOT-Tasking-Manager/01-Membuat-dan-Mengelola-Tasking-Manager/images/0119_mengubah_status_proyek_dari_published_ke_archived.png"Mengubah status proyek dari Published ke Archived")
 <p align="center"><i>Mengubah status proyek dari Published ke Archived</i></p>
 
 ## RINGKASAN
