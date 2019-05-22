@@ -90,8 +90,9 @@ def clean_markdown(path, filename, images, lang="", default_lang = "en"):
         guide['filename'] = filename
         content = post.content
         for image in images:
-            replace_regex = r'(\!\[.*\]).*(\().*\/(' + re.escape(image) + r'[A-Za-z\s\"\'\-\,\.\;\:\)\(]*\))'
-            content = re.sub(replace_regex, r'\1\2\3', content)
+            replace_regex = r'(\!\[.*\]).*(\().*\/(' + re.escape(image) + r')([A-Za-z\s\"\'\-\,\.\;\:]*)(\))'
+            print(replace_regex)
+            content = re.sub(replace_regex, r'\1\2\3\5', content)
         guide['content'] = ''
         if title:
             guide['content'] += '# {0} \n\n'.format(title)
