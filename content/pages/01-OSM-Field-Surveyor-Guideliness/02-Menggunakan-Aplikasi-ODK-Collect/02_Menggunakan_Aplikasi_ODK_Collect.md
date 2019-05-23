@@ -105,11 +105,7 @@ Formulir yang telah disimpan akan otomatis tersimpan pada aplikasi _ODK Collect_
 ![Tampilan halaman Edit Saved Form untuk memilih formulir yang akan diubah](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0219_edit_saved_form.png "Tampilan halaman Edit Saved Form untuk memilih formulir yang akan diubah")
 <p align="center"><i>Tampilan halaman Edit Saved Form untuk memilih formulir yang akan diubah</i></p>
 
-*   Setelah itu, simpan formulir dengan cara tekan ikon disket
-
-![disk_icon](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0220_disk_icon.png "disk_icon") 
-
-untuk simpan perubahan pada formulir survei.
+*   Setelah itu, simpan formulir dengan cara tekan ikon disket <img src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0220_disk_icon.png"> untuk simpan perubahan pada formulir survei.
 
 ![Tampilan formulir survei yang sudah diisi dan ikon untuk simpan perubahan formulir](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0221_0222_edit_saved_form.png "Tampilan formulir survei yang sudah diisi dan ikon untuk simpan perubahan formulir")
 <p align="center"><i>Tampilan formulir survei yang sudah diisi dan ikon untuk simpan perubahan formulir</i></p>
