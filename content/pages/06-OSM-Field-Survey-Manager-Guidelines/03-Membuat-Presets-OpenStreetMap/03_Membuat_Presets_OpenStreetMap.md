@@ -177,8 +177,12 @@ Hal lain yang dapat Anda lakukan dalam membuat _presets_ adalah memasukkan ikon 
 ![susunan presets](/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0310_presets_10.png "susunan presets")
 <p align="center"><i>susunan elemen presets</i></p>
 
-Jika Anda ingin menggunakan ikon yang sudah ada di JOSM maka Anda dapat melihatnya di **[https://josm.openstreetmap.de/browser/josm/trunk/images/presets ](https://josm.openstreetmap.de/browser/josm/trunk/images/presets)**. Akan tetapi, jika Anda ingin menggunakan ikon yang berbeda Anda dapat membuat ikon tersebut ataupun mengambilnya dari tempat lain dan menempatkannya secara _offline_ di laptop/komputer Anda. Akan tetapi jika Anda membagikan _presets_ Anda ke teman Anda maka ikon tersebut tidak akan muncul di JOSM yang ada di laptop/komputer mereka. Berikut adalah contoh sumber untuk menaruh ikon secara _offline_ di laptop/komputer Anda. \
- **C:\Users\(nama komputer/laptop Anda)\Desktop\icon presets\building.png** \
+Jika Anda ingin menggunakan ikon yang sudah ada di JOSM maka Anda dapat melihatnya di **[https://josm.openstreetmap.de/browser/josm/trunk/images/presets ](https://josm.openstreetmap.de/browser/josm/trunk/images/presets)**. Akan tetapi, jika Anda ingin menggunakan ikon yang berbeda Anda dapat membuat ikon tersebut ataupun mengambilnya dari tempat lain dan menempatkannya secara _offline_ di laptop/komputer Anda. Akan tetapi jika Anda membagikan _presets_ Anda ke teman Anda maka ikon tersebut tidak akan muncul di JOSM yang ada di laptop/komputer mereka. Berikut adalah contoh sumber untuk menaruh ikon secara _offline_ di laptop/komputer Anda.
+
+ ```
+ C:\Users\(nama komputer/laptop Anda)\Desktop\icon presets\building.png
+ ```
+
 Silahkan _download_ contoh presets HOT-PDC InAWARE sebagai acuan Anda dalam mempelajari materi _presets_ di https://bit.ly/presetshotpdcid
 
 <p align="center">
