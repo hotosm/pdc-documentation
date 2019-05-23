@@ -35,12 +35,12 @@ Setelah Anda mengetahui apa itu InAWARE serta langkah-langkah untuk mendapatkan 
 *   Cari dan pilih data _OpenStreetMap_ yang telah dikonversi menjadi GeoJSON
 *   Layer data OSM Anda akan tampil di InAWARE dan berada di Folder **_KML & External Layers_** dengan nama **_GeoJSON_ _Feature_**
 
-![Tampilan layer OpenStreetMap di InAWARE](/pages/08-OSM-Data-Integration-to-InAWARE/01-Integrasi-OSM-ke-InAWARE/images/0102_osm_to_inaware.png "Tampilan layer OpenStreetMap di InAWARE")
+![Tampilan layer OpenStreetMap di InAWARE](/pages/08-OSM-Data-Integration-to-InAWARE/01-Integrasi-OSM-ke-InAWARE/images/0102_osm_to_inaware.png)
 <p align="center"><i>Tampilan layer OpenStreetMap di InAWARE</i></p>
 
 *   Anda dapat melihat informasi untuk setiap fitur / objek dari data _OpenStreetMap_ yang telah dimasukkan. Anda klik pada fitur yang mau Anda lihat informasinya kemudian pilih **_info_**
 
-![Tampilan Informasi Fitur Data OpenStreetMap di InAWARE](/pages/08-OSM-Data-Integration-to-InAWARE/01-Integrasi-OSM-ke-InAWARE/images/0103_osm_to_inaware.png "Tampilan Informasi Fitur Data OpenStreetMap di InAWARE")
+![Tampilan Informasi Fitur Data OpenStreetMap di InAWARE](/pages/08-OSM-Data-Integration-to-InAWARE/01-Integrasi-OSM-ke-InAWARE/images/0103_osm_to_inaware.png)
 <p align="center"><i>Tampilan Informasi Fitur Data OpenStreetMap di InAWARE</i></p>
 
 **RINGKASAN**

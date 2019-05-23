@@ -36,9 +36,8 @@ Perencanaan pemetaan memerlukan suatu kerangka kerja yang disesuaikan dengan ind
 
 Sebagai contoh, dibawah ini merupakan kerangka kerja yang disusun untuk pemetaan di Kota Semarang tahun 2018 yang memiliki luas wilayah 373,8 km<sup>2</sup> dengan jumlah _data entry_ 16 orang dan jumlah _quality assurance_ 4 orang. Infrastruktur yang dikumpulkan berjumlah 58 kategori objek meliputi jaringan jalan, sungai, tanggul dan fasilitas umum. Semua tahapan-tahapan pemetaan dilakukan selama 6 bulan.
 
-<p align="center">
-   <img src="/pages/06-OSM-Field-Survey-Manager-Guidelines/01-Metodologi-Kerangka-Kerja-Pemetaan-OpenStreetMap/images/0101_Kerangka_kerja_pemetaan.png")>
-</p>
+
+![kerangka_kerja]("/pages/06-OSM-Field-Survey-Manager-Guidelines/01-Metodologi-Kerangka-Kerja-Pemetaan-OpenStreetMap/images/0101_Kerangka_kerja_pemetaan.png")
 <p align="center"><i>Kerangka kerja pemetaan</i></p>
 
 #### **a. Pelatihan _OpenStreetMap_ dan QGIS untuk tim Pemetaan**
@@ -723,8 +722,7 @@ Contoh Tabel Folder Proyek Pemetaan
 
 Data-data digital harus di-_upload_ ke dalam folder tersebut seiring dengan berjalannya proyek pemetaan, agar data tersebut dapat di-_backup_ dengan baik dan tidak ada data yang hilang atau rusak.
 
-<p align="center">
-   <img src="/pages/06-OSM-Field-Survey-Manager-Guidelines/01-Metodologi-Kerangka-Kerja-Pemetaan-OpenStreetMap/images/0102_Contoh_folder_Google_Drive.png")>
+![gdrive](/pages/06-OSM-Field-Survey-Manager-Guidelines/01-Metodologi-Kerangka-Kerja-Pemetaan-OpenStreetMap/images/0102_Contoh_folder_Google_Drive.png)
 </p>
 <p align="center"><i>Contoh folder di dalam Google Drive</i><p align="center">
  
@@ -740,16 +738,12 @@ Setelah Anda mengetahui faktor-faktor yang menentukan durasi pemetaan, Anda dapa
 
 Tahapan pembagian wilayah untuk bulan pertama dapat dilakukan dengan area yang dekat dengan _basecamp_/kantor agar memudahkan dalam hal koordinasi penggunaan alat yang dilakukan oleh _data entry._ Jika _data entry_ menemukan masalah di lapangan, maka mereka dapat kembali ke kantor dengan jarak yang tidak terlalu jauh dari lokasi survei.
 
-<p align="center">
-   <img src="/pages/06-OSM-Field-Survey-Manager-Guidelines/01-Metodologi-Kerangka-Kerja-Pemetaan-OpenStreetMap/images/0103_peta_timeline.png")>
-</p>
+![timeline](/pages/06-OSM-Field-Survey-Manager-Guidelines/01-Metodologi-Kerangka-Kerja-Pemetaan-OpenStreetMap/images/0103_peta_timeline.png)
 <p align="center"><i>Peta timeline pemetaan Kota Semarang</i><p align="center">
    
 Pada peta perencanaan pemetaan Kota Semarang dibawah ini, dibagi menjadi dua bagian berdasarkan karakteristik wilayah, sehingga diperlukan dua orang _mapping supervisor_ untuk mengatur dan memantau kegiatan pemetaan.
 
-<p align="center">
-   <img src="/pages/06-OSM-Field-Survey-Manager-Guidelines/01-Metodologi-Kerangka-Kerja-Pemetaan-OpenStreetMap/images/0104_peta_survey.png")>
-</p>
+![peta](/pages/06-OSM-Field-Survey-Manager-Guidelines/01-Metodologi-Kerangka-Kerja-Pemetaan-OpenStreetMap/images/0104_peta_survey.png)
 <p align="center"><i>Peta pembagian wilayah Kota Semarang</i><p align="center">
 
 Contoh Tabel _Timeline_ Pembagian Wilayah
@@ -819,9 +813,7 @@ Kec Gunung Pati
 
 Aspek pembagian wilayah sangat menentukan dalam pembagian kelompok survei, terutama untuk pendistribusian _data entry_. Anda dapat memilih berdasarkan orang-orang yang sudah mengenal wilayah tersebut. Untuk mendapatkan informasi tersebut, Anda dapat mencantumkan pertanyaan wilayah mana saja yang mereka pahami pada saat tahap penerimaan _data entry_ yang baru. Berdasarkan pembagian wilayah yang sudah dijelaskan sebelumnya, maka tim pemetaan memiliki bagan sebagai berikut:
 
-<p align="center">
-  <img src="/pages/06-OSM-Field-Survey-Manager-Guidelines/01-Metodologi-Kerangka-Kerja-Pemetaan-OpenStreetMap/images/0105_bagan_kelompok.png">
-</p>
+![kelompok](/pages/06-OSM-Field-Survey-Manager-Guidelines/01-Metodologi-Kerangka-Kerja-Pemetaan-OpenStreetMap/images/0105_bagan_kelompok.png)
 <p align="center"><i>Bagan pembagian kelompok</i><p align="center">
 
 Tabel Pembagian Kelompok Berdasarkan Wilayah Survei
