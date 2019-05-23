@@ -20,7 +20,7 @@ _Map Campaigner_ merupakan sebuah alat yang ditujukan untuk mengumpulkan semua m
 
 _Map Campaigner_ bertujuan memudahkan para manajer proyek dalam memantau proyek pemetaan mereka. Sebagai contoh disini adalah kegiatan pemetaan yang dilakukan oleh tim HOT untuk memetakan semua tempat ibadah, sekolah, universitas dan sekolah tinggi yang ada di Jakarta Pusat. Dengan menggunakan _Map Campaigner_, Anda bisa melihat berapa banyak total objek yang sudah terpetakan dalam kegiatan proyek ini, kemudian berapa banyak pengguna _OpenStreetMap_ yang membantu untuk turut serta dalam proyek pemetaan ini, baik secara sukarela maupun yang tergabung ke dalam tim proyek pemetaan.
 
-![Contoh penggunaan Map Campaigner untuk  Jakarta Pusat](/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0101_contoh_penggunaan_map_campaigner_untuk__jakarta_pusat.png "Contoh penggunaan Map Campaigner untuk  Jakarta Pusat")
+![Contoh penggunaan Map Campaigner untuk  Jakarta Pusat](/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0101_contoh_penggunaan_map_campaigner_untuk__jakarta_pusat.png)
 <p align="center"><i>Contoh penggunaan Map Campaigner untuk  Jakarta Pusat</i><p align="center">
 
 
@@ -28,7 +28,7 @@ Dengan menggunakan _Map Campaigner,_ Anda juga bisa mengetahui berapa banyak obj
 
 _Map Campaigner_ juga menyajikan fitur penjaminan kualitas dari segi kelengkapan atribut suatu objek di OSM. Dengan _Map Campaigner_ Anda  bisa melihat berapa banyak objek yang masih belum lengkap dari segi atribut data yang sudah ditentukan sebelumnya. Anda  bisa mengunduh semua objek tersebut dan kita perbaiki dengan menggunakan JOSM.
 
-![Contoh pengecekan atribut oleh Map Campaigner](/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0102_contoh_pengecekan_atribut_oleh_map_campaigner.png "Contoh pengecekan atribut oleh Map Campaigner")
+![Contoh pengecekan atribut oleh Map Campaigner](/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0102_contoh_pengecekan_atribut_oleh_map_campaigner.png)
 <p align="center"><i>Contoh pengecekan atribut oleh Map Campaigner</i><p align="center">
 
 
@@ -46,7 +46,7 @@ Pada bagian ini, Anda akan mengisi informasi dasar untuk proyek Anda. Anda harus
 *   **Deskripsi proyek.** Pada bagian ini, Anda akan mengisikan mengenai deskripsi kegiatan proyek.
 *   **Atribut/_tags_ yang dibutuhkan.** Pada bagian ini Anda akan memberikan atribut _OpenStreetMap_ yang dibutuhkan selama proyek pemetaan berlangsung. Untuk atribut _OpenStreetMap_ yang dibutuhkan, Anda bisa mengacu pada halaman Wikipedia[^1] atau pada modul **Model Data _OpenStreetMap_**. Format pengisian pada halaman ini Anda bisa memilih menggunakan struktur data **_YAML_** (yang sudah Anda pelajari pada modul _**Penggunaan YAML pada HOT Export**_) atau dengan versi mudah yang sudah disediakan pada situs ini.
 
-![Tampilan saat memasukkan atribut OSM untuk Map Campaigner](/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0103_tampilan_saat_memasukkan_atribut_osm_untuk_map_campaigner.png "Tampilan saat memasukkan atribut OSM untuk Map Campaigner")
+![Tampilan saat memasukkan atribut OSM untuk Map Campaigner](/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0103_tampilan_saat_memasukkan_atribut_osm_untuk_map_campaigner.png)
 <p align="center"><i>Tampilan saat memasukkan atribut OSM untuk Map Campaigner</i><p align="center">
 
 
@@ -74,7 +74,7 @@ Pada bagian ini, Anda akan mengisi informasi dasar untuk proyek Anda. Anda harus
 
 *   **Menambahkan manajer proyek lainnya (opsional).** Pada bagian ini Anda bisa menambahkan akun _OSM_ lainnya sebagai manajer proyek _campaign_ apabila proyek yang Anda kerjakan terdapat lebih dari satu orang manajer proyek. Peran dari manajer proyek ini adalah mereka bisa menambahkan atribut baru untuk dihitung atau mengubah informasi yang ada pada proyek _campaign_ mereka.
 
-![Tampilan pada halaman informasi dasar](/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0104_tampilan_pada_halaman_informasi_dasar.png "Tampilan pada halaman informasi dasar")
+![Tampilan pada halaman informasi dasar](/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0104_tampilan_pada_halaman_informasi_dasar.png)
 <p align="center"><i>Tampilan pada halaman informasi dasar</i><p align="center">
 
 
@@ -87,7 +87,7 @@ Cara kedua adalah dengan menggunakan data batas administrasi dalam format _GeoJS
 
 Setelah mengatur area kerja proyek, Anda dapat menetapkan tim mana saja yang bertugas untuk area proyek yang sudah ditentukan sebelumnya. Pengaturan tim ini sifatnya opsional dan bertujuan untuk memudahkan memantau perkembangan tim Anda.
 
-![Tampilan pada halaman pengaturan area kerja](/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0105_tampilan_pada_halaman_pengaturan_area_kerja.png "Tampilan pada halaman pengaturan area kerja")
+![Tampilan pada halaman pengaturan area kerja](/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0105_tampilan_pada_halaman_pengaturan_area_kerja.png)
 <p align="center"><i>Tampilan pada halaman pengaturan area kerja</i><p align="center">
 
 
@@ -96,7 +96,7 @@ Setelah mengatur area kerja proyek, Anda dapat menetapkan tim mana saja yang ber
 Setelah berhasil membuat proyek _campaign_, Anda bisa langsung menuju halaman utama untuk melihat proyek. Ketika membuka proyek pemetaan, Anda akan disajikan beberapa informasi mulai dari data statistik, daftar kesalahan/_error_, dan grafik pengguna yang turut serta dalam pemetaan.
 
 
-![Tampilan halaman Map Campaigner](/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0106_tampilan_halaman_map_campaigner.png "Tampilan halaman Map Campaigner")
+![Tampilan halaman Map Campaigner](/pages/07-Map-Campaigner/01-Membuat-dan-Mengelola-Map-Campaigner-untuk-Pemetaan/images/0106_tampilan_halaman_map_campaigner.png)
 <p align="center"><i>Tampilan halaman Map Campaigner</i><p align="center">
 
 
