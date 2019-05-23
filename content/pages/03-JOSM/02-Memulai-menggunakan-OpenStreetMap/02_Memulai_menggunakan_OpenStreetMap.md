@@ -40,7 +40,7 @@ Pada tampilan utama halaman situs _OpenStreetMap_, Anda akan melihat tampilan sa
 *   Memperkecil dan memperbesar tampilan peta. Anda dapat menggunakan tombol **(+)** dan **(-)** yang ada pada panel di sebelah kanan layar Anda. Apabila perangkat _mouse_ Anda memiliki _scroll-wheel_ atau roda gulir, Anda dapat menggunakannya untuk dapat memperbesar dan memperkecil peta. Gulirkan _scroll-wheel_ atau roda gulir _mouse_ Anda ke atas untuk memperbesar, sedangkan gulirkan ke bawah untuk memperkecil.
 
 <p align="center">
-<img width=50% src="/pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0203_0204_tombol_zoom.PNG" alt="tombol_zoom" title="Tombol zoom"></p>
+<img width=50% src="/pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0203_0204_tombol_zoom.png" alt="tombol_zoom" title="Tombol zoom"></p>
 <p align="center"><i>Cara memperbesar dan memperkecil tampilan peta</i></p>
 
 *   Mencari lokasi yang Anda inginkan. Anda dapat menggunakan kotak pencarian **_Search_** yang berada di sebelah kiri layar. Anda dapat mengetikkan lokasi yang ingin Anda cari pada kolom pencarian ini, kemudian tekan **_Enter_** atau klik **_Go_**. Setelah itu akan muncul kotak **_Search Results_** di bawah kolom pencarian. Anda dapat memilih dan mengklik pada hasil pencarian untuk dapat langsung menuju ke titik lokasi yang Anda inginkan tersebut.
