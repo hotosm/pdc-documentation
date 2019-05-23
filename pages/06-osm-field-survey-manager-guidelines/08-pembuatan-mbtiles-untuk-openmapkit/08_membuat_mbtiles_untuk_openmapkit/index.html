@@ -1,0 +1,693 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOT-PDC Training Site</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../../../../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../../favicon-16x16.png">
+<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+
+
+
+<link rel="stylesheet" href="../../../../normalize.min.css">
+
+<link rel="stylesheet" href="../../../../book.min.eef33454e9c5a767233b17f85141d9e41283b74cf9b6aad8a63ba7849076a025.css">
+
+<!--
+Made with Book Theme
+https://github.com/hotosm/hugo-book
+-->
+  
+</head>
+
+<body>
+  <header class="header-nav" id="nav">
+    <div class="nav-container">
+      <a class="nav-title with-logo" href="../../../../">
+        <img class="logo" src="../../../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
+        <span>HOT-PDC Training Site</span>
+      </a>
+      <a class="nav-guide-link guide-active" href="../../../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/" >Guide</a>
+      <div class="hr-v"></div>
+      <a class="nav-pdf-download" href="../../../../pdfs/HOT-PDC_Training_Site.pdf">Download PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+      </a>
+      <input type="checkbox" style="display: none" id="menu-control" />      
+    </div>
+    <div class="nav-right">
+    
+    
+    
+    
+    <div class="hr-v"></div>
+    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../../svg/icon-external-red.svg" alt=""></a>
+    </div>
+  </header>
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+
+
+
+
+<a href="../../../../" >Introduction</a>  
+
+    
+
+
+  
+  
+    
+  
+ 
+  
+  <ul>
+    
+    <li>
+    
+    Panduan OpenStreetMap untuk Surveyor 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/">
+    Metodologi Pengumpulan Data</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/">
+    Menggunakan Aplikasi ODK Collect</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/">
+    Menggunakan Aplikasi OpenMapKit</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/">
+    Menggunakan Aplikasi OSMTracker</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/">
+    Menggunakan GPS</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    HOT Tasking Manager 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/">
+    Membuat dan Mengelola Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/">
+    Penggunaan Tasking Manager</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    JOSM 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/">
+    Pengenalan OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/">
+    Memulai menggunakan OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/">
+    Pengenalan Java OpenStreetMap (JOSM)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/">
+    Menggunakan Java OpenStreetMap (JOSM)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/">
+    Menambahkan Data Hasil Survei ke OSM Menggunakan JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/">
+    Menggunakan To-Do List di JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/">
+    Menggunakan Alat Filter di JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/">
+    Menggunakan buildings tools di JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/">
+    Pembuatan Batas Administrasi dengan JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/">
+    Mengatasi Konflik pada Data OpenStreetMap (OSM)</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Validasi Data dan Penjaminan Kualitas 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/">
+    Konsep Penjaminan Kualitas</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/02_penggunaan_josm_untuk_validasi_data_survei/">
+    Penggunaan JOSM untuk Validasi Data Survei</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/">
+    Penjaminan Kualitas Data dengan Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/">
+    JOSM untuk Perhitungan Kualitas Data</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Penggunaan HOT Export 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/">
+    Download Data OSM dengan Menggunakan Export Tool</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Panduan Pemetaan Lapangan untuk Manajer Proyek 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/">
+    Metodologi Kerangka Kerja Pemetaan PDC InAWARE</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/">
+    Model Data OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/">
+    Membuat Presets</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04_penggunaan_yaml_pada_export_tool/">
+    Penggunaan YAML pada Export Tool</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/">
+    Membuat Formulir Survei untuk Aplikasi ODK Collect &amp; OpenMapKit</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/">
+    Meletakkan Formulir Survei ke Ona.io</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07.pembuatan_peta_survey_dengan_qgis/">
+    Pembuatan Peta Survei dengan Menggunakan QGIS</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/" class="active">
+    Pembuatan MBTiles untuk OpenMapKit (OMK)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09_perhitungan_kuantitas_data_dengan_group_stats/">
+    Perhitungan Kuantitas Data Menggunakan Plugin Group Stats</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/">
+    Konversi Data Shapefile ke GeoJSON</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Menggunakan Map Campaigner 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/">
+    Membuat dan Mengelola Map Campaigner untuk Pemetaan</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Integrasi data OpenStreetMap ke InAWARE 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/">
+    Integrasi Data OpenStreetMap di InAWARE</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+
+
+
+
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="../../../../svg/menu.svg" />
+  </label>
+  <strong>
+    Pembuatan MBTiles untuk OpenMapKit (OMK)</strong>
+</header>
+
+      
+<article class="markdown">
+  <div class="markdown__header">  <h1>Pembuatan MBTiles untuk OpenMapKit (OMK)</h1>
+    <a href="../../../../pdfs/08_Membuat_MBTiles_untuk_OpenMapKit.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+    </a>
+  </div>
+
+<p><strong>Tujuan Pembelajaran:</strong></p>
+
+<ul>
+<li>Memahami konsep MBTiles</li>
+<li>Mengoperasikan cara membuat MBTiles dengan menggunakan <em>Export Tool</em></li>
+<li>Mengoperasikan cara membuat MBTiles dengan menggunakan <em>Plugin</em> QTiles</li>
+<li>Memahami cara memindahkan <em>file</em> MBTiles ke dalam OMK pada <em>smartphone</em></li>
+</ul>
+
+<p>Pada saat Anda menggunakan aplikasi <em>OpenMapKit</em> (OMK) untuk melakukan survei lapangan, terkadang Anda akan mengalami kesulitan dalam menentukan objek di aplikasi tersebut. Hal ini dikarenakan, latar belakang peta yang digunakan belum dipetakan di dalam <em>OpenStreetMap</em> dan Anda tidak memiliki waktu untuk mendigitasi objek di wilayah survei. Anda dapat menggunakan MBTiles untuk latar belakang peta yang merupakan citra satelit, sehingga memudahkan Anda dalam melakukan identifikasi objek di lapangan.</p>
+
+<h3 id="i-pengertian-mbtiles"><strong>I. Pengertian MBTiles</strong></h3>
+
+<p>MBTiles merupakan format data spasial untuk menyimpan beberapa <em>tile</em> peta yang digabung menjadi satu <em>file</em> dalam bentuk raster, sehingga tampilannya seperti citra satelit. Salah satu penggunaan MBTiles yaitu dapat digunakan sebagai <em>basemap</em> di dalam aplikasi OMK, yang memudahkan pengguna untuk menandai sebuah objek di lapangan. <em>Basemap</em> merupakan sebuah peta dasar yang menjadi latar belakang sebuah aplikasi, dapat berupa citra satelit dan peta OSM.</p>
+
+<p><p align="center">
+  <img src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0801_Tampilan_mbtiles.png">
+</p>
+<p align="center"><i>Tampilan MBTiles pada QGIS</i><p align="center"></p>
+
+<p><strong>II. Membuat MBTiles dengan <em>Export Tool</em></strong></p>
+
+<p><em>Export Tool</em> merupakan salah satu situs yang digunakan untuk men-<em>download</em> data <em>OpenStreetMap</em> secara gratis berdasarkan fitur dan wilayah tertentu. Dimana format data spasial yang sering digunakan, yaitu: <em>Shapefile (.shp), GeoPackage (.gpkg), dan MBTiles (.mbtiles)</em>. Langkah-langkah untuk membuat MBTiles dengan menggunakan <em>export tools</em> yaitu :</p>
+
+<ul>
+<li>Buka halaman situs Anda dan ketikkan <a href="https://export.hotosm.org/en/v3/">https://export.hotosm.org/en/v3/</a>, Anda harus <strong><em>login</em></strong> terlebih dahulu dengan menggunakan akun <em>OpenStreetMap</em>. Jika belum memiliki akun, Anda dapat membuatnya di situs <a href="https://www.openstreetmap.org">https://www.openstreetmap.org</a> pada modul <strong>Memulai Menggunakan OSM</strong>.</li>
+<li>Setelah Anda berhasil masuk, klik <strong><em>Start Exporting</em></strong></li>
+</ul>
+
+<p><p align="center">
+  <img width=90% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0802_interface_exporttool.png">
+</p>
+<p align="center"><i>Tampilan Export Tool</i><p align="center"></p>
+
+<ul>
+<li>Lengkapi kotak dialog di sebelah kiri sebagai deskripsi proyek dan pilih wilayah yang Anda inginkan. Pemilihan wilayah dapat dilakukan dengan beberapa pilihan dengan <em>tools</em> yang berada di panel sebelah kanan. Anda tidak disarankan untuk memilih area yang terlalu besar pada penentuan luasan wilayah pembuatan MBTiles, karena akan terjadi kegagalan saat proses berlangsung. Jika Anda memiliki batas administrasi dalam format <em>.geojson</em> dapat menggunakan pilihan <em><strong>Import</strong></em>. Hal yang perlu diperhatikan <em>file</em> <em>.geojson</em> harus terdiri dari satu jenis data atribut. Pada modul ini, fitur yang akan digunakan adalah <em>Import</em>. Pilih <strong><em>Import</em></strong> dan masukkan <em>file</em> <em>.geojson</em> yang Anda miliki. Jika Anda tidak memiliki <em>file .geojson</em>, maka Anda dapat membuka modul <strong>Menggunakan GeoJSON</strong>.</li>
+</ul>
+
+<p><p align="center">
+  <img src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0803_Pengaturan_Menu_Describe.png">
+</p>
+<p align="center"><i>Pengaturan Menu Describe</i><p align="center"></p>
+
+<ul>
+<li>Langkah selanjutnya, klik <strong>Menu Format → Beri tanda centang pada MBTiles</strong></li>
+</ul>
+
+<p><p align="center">
+  <img width=60% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0804_format_mbtiles.png">
+</p>
+<p align="center"><i>Pemilihan format data spasial</i><p align="center"></p>
+
+<ul>
+<li><p>Selanjutnya klik pada bagian <strong>Menu Data</strong>, Anda harus menyalin alamat URL <em>tilemap</em> dari citra satelit yang akan digunakan sebagai <em>basemap</em>. Anda mungkin hanya bisa melihat OpenStreetMap sebagai salah satu opsi untuk membuat MBTiles. Secara pengaturan awal <em>Export Tools</em> hanya menyediakan OpenStreetMap sebagai latar belakang MBTiles Anda. Namun, Anda bisa dengan mudah menambahkan tautan citra satelit lain. Untuk menambahkan tautan di bawah, pilih salah satu citra satelit yang tersedia, <strong>salin (<em>copy</em>)</strong> tautan di bawah dan <strong>letakkan (<em>paste</em>)</strong> pada kotak <strong><em>MBTiles Source</em></strong> yang terdapat di dalam <strong>Menu Data</strong>.</p>
+
+<pre><code>Mapbox Satellite
+http://a.tiles.mapbox.com/v4/openstreetmap.map-inh7ifmo/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoib3BlbnN0cmVldG1hcCIsImEiOiJncjlmd0t3In0.DmZsIeOW-3x-C5eX-wAqTw
+
+
+Digital Globe
+https://a.tiles.mapbox.com/v4/digitalglobe.316c9a2e/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGlnaXRhbGdsb2JlIiwiYSI6ImNqZGFrZ2c2dzFlMWgyd2x0ZHdmMDB6NzYifQ.9Pl3XOO82ArX94fHV289Pg
+</code></pre></li>
+
+<li><p>Setelah Anda salin, Anda dapat menggeser ke kiri dan memilih tautan yang baru saja dimasukkan.</p></li>
+</ul>
+
+<p><p align="center">
+  <img width=70% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0805_tautan.png">
+</p>
+<p align="center"><i>Pengaturan Sumber Tautan Citra Satelit</i><p align="center"></p>
+
+<ul>
+<li>Lakukan pengaturan <strong><em>Zoom Range</em></strong> yang digunakan untuk memilih batas level untuk memperbesar dan memperkecil tampilan MBTiles. Sebagai catatan, jika jarak antar <em>zoom range</em> semakin jauh maka ukuran file akan semakin besar.</li>
+</ul>
+
+<p><p align="center">
+  <img width=70% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0806_zoomrange.png">
+</p>
+<p align="center"><i>Pengaturan Zoom Level</i><p align="center"></p>
+
+<p><p align="center">
+  <img src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0807_resolusi_image.png">
+</p>
+<p align="center"><i>Kiri (zoom level 10) dan kanan (zoom level 18)</i><p align="center"></p>
+
+<ul>
+<li>Langkah terakhir pilih menu <strong><em>Summary</em></strong>, pada bagian ini akan ditampilkan ringkasan dari proyek yang telah Anda lakukan. Jika proyek Anda ingin terlihat oleh pengguna lainnya dapat memilih <strong><em>Publish this Export</em></strong>. Kemudian klik <strong><em>Create Export</em></strong> untuk memproses pembuatan MBTiles.</li>
+</ul>
+
+<p><p align="center">
+  <img width=70% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0808_tahap_akhir.png">
+</p>
+<p align="center"><i>Menu summary</i><p align="center"></p>
+
+<ul>
+<li>Dalam proses pembuatan MBTiles dibutuhkan beberapa menit tergantung dengan jaringan internet, luasan wilayah, dan <em>zoom range</em> yang telah diatur sebelumnya. Anda tidak perlu menunggu, karena <em>export tool</em> akan memberikan pemberitahuan melalui email saat proses telah selesai. Anda juga dapat melihat proyek lain yang telah dibuat pada <strong><em>Menu Exports</em></strong>.</li>
+</ul>
+
+<p><p align="center">
+  <img src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0809_menuexport.png">
+</p>
+<p align="center"><i>Tampilan Menu Exports</i><p align="center"></p>
+
+<ul>
+<li>Setelah proses selesai, status proyek Anda berubah menjadi <strong><em>COMPLETED</em></strong>. Klik nama <em>file</em> yang ditandai dengan warna biru untuk men-<em>download</em> <em>file</em> mbtiles.</li>
+</ul>
+
+<p><p align="center">
+  <img width=80% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0810_downloadmbtiles.png">
+</p>
+<p align="center"><i>Download File MBTiles</i><p align="center"></p>
+
+<ul>
+<li>MBTiles dapat dibuka dengan menggunakan <em>software</em> pemetaan seperti QGIS, sehingga menjadi tampilan citra satelit dalam bentuk <em>offline</em>. Hal ini dapat digunakan untuk memeriksa <em>file</em> mbtiles sebelum dimasukkan ke dalam aplikasi OMK, caranya buka <strong>QGIS <em>→ Add Raster Layer</em></strong></li>
+</ul>
+
+<p><p align="center">
+  <img src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0811_tampilan_mbtiles_qgis.png">
+</p>
+<p align="center"><i>Tampilan MBTiles di dalam QGIS</i><p align="center"></p>
+
+<h3 id="iii-membuat-mbtiles-dengan-menggunakan-plugin-qtiles"><strong>III. Membuat MBTiles dengan menggunakan <em>Plugin</em> QTiles</strong></h3>
+
+<p><em>Plugin</em> QTiles merupakan <em>plugin</em> yang dapat digunakan untuk menghasilkan <em>tile</em> raster dari proyek QGIS. Plugin ini dapat menyimpan pengaturan perbesaran tampilan <em>tile</em> raster dari layanan <em>tile</em> seperti <em>(Slippy map</em>, TMS). Anda dapat menggunakan <em>plugin</em> QuickMapServices pada modul sebelumnya <strong>Pembuatan Peta Survei dengan QGIS</strong>, untuk menampilkan layanan <em>tile</em> raster. Kelebihan lainnya dengan menggunakan <em>plugin</em> ini, Anda dapat menampilkan layer jalan dan batas administrasi pada proyek QGIS, sehingga pada tampilan <em>basemap</em> OMK akan membantu <em>data entry</em> dalam pengenalan survei lapangan. Langkah - langkah yang dilakukan untuk membuat mbtiles dengan <em>plugin</em> QTiles, sebagai berikut:</p>
+
+<p><strong>a. Instal <em>Plugin</em> QTiles</strong></p>
+
+<ul>
+<li>Buka QGIS dan <em>install plugin</em> dengan klik <strong><em>Menu Plugin → Manage and Install Plugin</em>.</strong>Tuliskan pada kotak pencarian (<strong><em>Search</em></strong>) “qtiles” maka akan tampil di bawah ini, berikan tanda centang dan klik <strong><em>Install Plugin</em></strong>. Jika <em>download plugin</em> tidak berhasil, maka Anda dapat memeriksa jaringan internet.</li>
+</ul>
+
+<p><p align="center">
+  <img width=80% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0812_qtiles.png">
+</p>
+<p align="center"><i>Instal Plugin QTiles</i><p align="center"></p>
+
+<ul>
+<li>QTiles akan muncul pada <strong><em>Menu Plugin → QTiles → QTiles</em></strong></li>
+</ul>
+
+<p><p align="center">
+  <img width=50% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0813_pluginqtiles.png">
+</p>
+<p align="center"><i>Plugin QTiles</i><p align="center"></p>
+
+<p><strong>b. Persiapan Data <em>Layer</em></strong></p>
+
+<ul>
+<li>Tambahkan data layer administrasi dan jaringan jalan yang dihasilkan dari pemetaan survei lapang. Klik <strong><em>Add Vector Layer</em></strong>  →  arahkan ke direktori penyimpanan file <strong><em>→ Open → Open</em></strong>. Data <em>layer</em> akan tampil pada peta kanvas dan panel <em>layer</em>.</li>
+</ul>
+
+<p><p align="center">
+  <img src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0814_menambahkanlayer.png">
+</p>
+<p align="center"><i>Menambahkan layer</i><p align="center"></p>
+
+<ul>
+<li>Lakukan simbologi dan pemberian label pada <em>layer</em> tersebut agar memudahkan <em>data entry</em> dalam pengenalan survei lapangan.</li>
+</ul>
+
+<p><p align="center">
+  <img src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0815_Simbologidanpemberianlabel.png">
+</p>
+<p align="center"><i>Simbologi dan pemberian label</i><p align="center"></p>
+
+<ul>
+<li>Sekarang Anda dapat menambahkan data <em>layer</em> yang berbentuk <em>tilemap</em> untuk menampilkan citra satelit pada peta kanvas QGIS, dengan cara klik <strong><em>Menu Web → QuickMapServices → Search QMS</em></strong></li>
+</ul>
+
+<p><p align="center">
+  <img width=40% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0816_QMS.png">
+</p>
+<p align="center"><i>Plugin QuickMapServices</i><p align="center"></p>
+
+<ul>
+<li>Pada kotak pencarian <strong><em>Search QMS</em></strong> ketikkan <strong>DigitalGlobe Premium Imagery</strong>, kemudian klik <strong><em>Add</em></strong></li>
+</ul>
+
+<p><p align="center">
+  <img width=40% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0817_basemap.png">
+</p>
+<p align="center"><i>Pemilihan basemap</i><p align="center"></p>
+
+<ul>
+<li>Basemap citra satelit akan muncul pada daftar <em>layer</em> dan <em>map canvas</em></li>
+</ul>
+
+<p><p align="center">
+  <img src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0818_tampilangab.png">
+</p>
+<p align="center"><i>Tampilan citra satelit DigitalGlobe Imagery</i><p align="center"></p>
+
+<p><strong>c. Penggunaan <em>Plugin</em> QTiles</strong></p>
+
+<ul>
+<li>Anda dapat mengatur tampilan data <em>layer</em>, misalnya disesuaikan dengan tampilan batas administrasi, agar mempercepat proses pembuatan mbtiles</li>
+</ul>
+
+<p><p align="center">
+  <img src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0819_tampilanbatas.png">
+</p>
+<p align="center"><i>Pengaturan Tampilan Batas Administrasi</i><p align="center"></p>
+
+<ul>
+<li>Untuk menampilkan <em>plugin</em> QTiles, klik <strong><em>Menu Plugin → QTiles → QTiles</em></strong>.  Kemudian akan tampil kotak dialog QTiles, klik <strong><em>Browse</em></strong> pada <strong><em>Directory</em></strong> dan buatlah folder baru dan nama <em>file</em> pada laptop/komputer Anda. Pada jenis <em>file</em> ganti dengan <strong><em>mbtiles</em></strong> dan simpan.</li>
+</ul>
+
+<p><p align="center">
+  <img width=60% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0820_savefile.png">
+</p>
+<p align="center"><i>Pengaturan penyimpanan file pada QTiles</i><p align="center"></p>
+
+<ul>
+<li>Anda dapat mengatur perbesaran pada <em>basemap digital globe</em> dengan pengaturan yang terletak di bawah kotak dialog QTiles. Lakukan pengaturan pada <strong><em>minimum zoom</em></strong> dan <strong><em>maximum zoom</em></strong>, sebaiknya jarak antara keduanya tidak terlalu jauh, untuk mempercepat proses pembuatan mbtiles. Klik <strong><em>Run</em></strong> untuk memulai proses pembuatan mbtiles, proses ini akan memerlukan jaringan internet.</li>
+</ul>
+
+<p><p align="center">
+  <img width=50% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0821_pengaturanqtiles.png">
+</p>
+<p align="center"><i>Pengaturan pada QTiles</i><p align="center"></p>
+
+<ul>
+<li>Jika proses sudah 100%, maka Anda dapat klik <em>Close</em>. Untuk memeriksa <em>file</em> mbtiles tersebut, Anda dapat memasukkan <em>file</em> tersebut ke dalam QGIS dengan menggunakan <strong><em>Add Raster Layer</em></strong>
+→ arahkan ke direktori penyimpanan → <em>Open</em>.</li>
+</ul>
+
+<p><p align="center">
+  <img width=70% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0822_searchmbtiles.png">
+</p>
+<p align="center"><i>Pencarian file mbtiles</i><p align="center"></p>
+
+<ul>
+<li>Tampilan mbtiles tersebut akan muncul pada peta kanvas QGIS, seperti gambar di bawah ini</li>
+</ul>
+
+<p><p align="center">
+  <img src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0823_tampilanhasilmbtiles.png">
+</p>
+<p align="center"><i>Tampilan hasil mbtiles</i><p align="center"></p>
+
+<h3 id="iv-memasukkan-mbtiles-ke-dalam-omk"><strong>IV. Memasukkan MBTiles ke dalam OMK</strong></h3>
+
+<p>Pada proses ini, Anda telah memiliki <em>file</em> dalam bentuk format mbtiles yang akan dimasukkan ke dalam aplikasi OMK pada <em>smartphone android</em>.</p>
+
+<ul>
+<li>Hubungkan perangkat <em>smartphone</em> dengan komputer untuk memindahkan kedua <em>file</em> tersebut ke dalam aplikasi OMK dengan kabel data.</li>
+<li>Temukan aplikasi OMK di dalam direktori internal <em>smartphone</em>, arahkan ke dalam <strong>folder mbtiles</strong>. Folder <strong>mbtiles</strong> digunakan untuk menyalin <em>file basemap</em> dalam format <em>.mbtiles</em> yang dihasilkan dari <em>export tool</em> atau dari <em>plugin</em> QTiles yang terdapat di QGIS.</li>
+</ul>
+
+<p><p align="center">
+  <img width=50% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0824_foldermbtiles.png">
+</p>
+<p align="center"><i>Direktori OpenMapKit (OMK)</i><p align="center"></p>
+
+<ul>
+<li>Buka aplikasi <em>OpenMapKit</em> pada <em>smartphone</em> Anda, dan aktifkan file <em>.mbtiles</em> yang telah dipindahkan dengan klik Menu <em>Basemap</em> pada aplikasi <em>OpenMapKit</em>. Anda dapat mempelajari modul <strong>Menggunakan Aplikasi <em>OpenMapKit</em></strong> untuk mengetahui bagaimana cara kerja aplikasi tersebut.</li>
+</ul>
+
+<p><p align="center">
+  <img width=70% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/images/0825_hasildiOMK.png">
+</p>
+<p align="center"><i>File .mbtiles saat di buka di OMK</i><p align="center"></p>
+
+<p><strong>RINGKASAN</strong></p>
+
+<p>Jika Anda telah menyelesaikan bab ini, Anda dapat membuat semua <em>basemap</em> berdasarkan wilayah administrasi yang diperlukan untuk aplikasi OMK yang akan digunakan dalam survei lapangan. Harap mengganti <em>file .mbtiles</em> per hari berdasarkan wilayah survei di dalam <em>smartphone</em> Anda agar tidak memberatkan kinerja <em>smartphone</em>.</p>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+    
+  <div>
+    <a href="https://github.com/hotosm/pdc-documentation/edit/master/content/pages/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/08_Membuat_MBTiles_untuk_OpenMapKit.md" target="_blank" rel="noopener">
+       Edit this page on GitHub
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/hotosm/pdc-documentation/commit/403d33b25d1248b275b2d2fc42988df6ad059b3f" title='Last modified May 15, 2019 05:36 UTC by dewisulistio' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> May 15, 2019
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    
+      
+  </aside>
+
+
+
+  </main>
+
+  
+  
+  <footer class="footer">
+
+    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
+    <a href="https://github.com/hotosm/pdc-documentation" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+    </svg></a>
+    
+
+  </footer>
+  
+</body>
+
+</html>

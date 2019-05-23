@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HOT Tasking Manager on HOT-PDC Training Site</title>
+    <link>/pages/02-hot-tasking-manager/</link>
+    <description>Recent content in HOT Tasking Manager on HOT-PDC Training Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/pages/02-hot-tasking-manager/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Membuat dan Mengelola Tasking Manager</title>
+      <link>/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/</guid>
+      <description>Tujuan Pembelajaran:
+ Menjelaskan fungsi dari Tasking Manager dalam Konteks Pemetaan Partisipatif Mengoperasikan cara membuat Tasking Manager Mengoperasikan cara mengatur Tasking manager yang sudah ada  Anda tentunya sudah mengetahui bagaimana cara menggunakan tasking manager untuk melakukan kegiatan pemetaan secara bersama-sama. Ketika Anda menggunakan tasking manager yang tidak sesuai dengan wilayah yang Anda inginkan, maka Anda ingin membuat tasking manager untuk wilayah Anda sendiri. Pada modul ini, Anda akan mempelajari bagaimana cara membuat tasking manager.</description>
+    </item>
+    
+    <item>
+      <title>Penggunaan Tasking Manager</title>
+      <link>/pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/</guid>
+      <description>Tujuan Pembelajaran:
+ Menjalankan fungsi dari tasking manager dalam konteks pemetaan partisipatif Mengoperasikan cara menggunakan tasking manager untuk kegiatan pemetaan  OpenStreetMap sebagai sebuah alternatif untuk melakukan pemetaan secara bebas dan terbuka memungkinkan semua orang tanpa terkecuali untuk dapat melakukan pemetaan dimanapun dan kapanpun. Namun, bagaimana jika Anda ingin melakukan pemetaan secara serentak yang dilakukan oleh banyak orang? Tentunya Anda membutuhkan sebuah alat untuk dapat membagi pekerjaan pemetaan tersebut supaya bisa dikerjakan oleh banyak orang.</description>
+    </item>
+    
+  </channel>
+</rss>

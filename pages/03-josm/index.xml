@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JOSM on HOT-PDC Training Site</title>
+    <link>/pages/03-josm/</link>
+    <description>Recent content in JOSM on HOT-PDC Training Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/pages/03-josm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pengenalan OpenStreetMap</title>
+      <link>/pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu menjelaskan pengertian OpenStreetMap Mampu menjelaskan sejarah terbentuknya OpenStreetMap Mampu menjelaskan keuntungan menggunakan OpenStreetMap Mampu menjelaskan pemanfaatan OpenStreetMap Mampu menjelaskan konsep dasar peta dan OpenStreetMap  Sekarang ini banyak orang yang menggunakan peta digital, namun masih sedikit yang menggunakan peta digital terbuka. Peta digital terbuka memiliki sifat yang gratis dan dapat diedit oleh siapa saja. Salah satu peta digital terbuka adalah OpenStreetMap. Pada modul ini, Anda akan mempelajari segala sesuatu mengenai OpenStreetMap.</description>
+    </item>
+    
+    <item>
+      <title>Memulai menggunakan OpenStreetMap</title>
+      <link>/pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu mengoperasikan dan melakukan navigasi situs OpenStreetMap Mampu melihat informasi objek di OpenStreetMap Mampu menerapkan pembuatan tautan OpenStreetMap Mampu menyimpan gambar dari peta OSM Mampu menerapkan pembuatan akun di OpenStreetMap Mampu memahami konsep dasar atribut OpenStreetMap Mampu memahami riwayat yang terdapat peta OSM di situs OSM  Setelah Anda memahami pengertian OpenStreetMap pada modul sebelumnya, Anda dapat langsung memulai untuk menggunakan OpenStreetMap. Pada modul ini Anda akan memulai untuk mengenal situs OpenStreetMap, membuat akun OSM, dan mengetahui tombol-tombol menu serta cara penggunaannya.</description>
+    </item>
+    
+    <item>
+      <title>Pengenalan Java OpenStreetMap (JOSM)</title>
+      <link>/pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/</guid>
+      <description>Tujuan Pembelajaran:
+ Mengerti cara download file instalasi JOSM Mampu melakukan instalasi JOSM Mampu mengubah pengaturan JOSM Memahami tampilan antarmuka JOSM  JOSM adalah singkatan dari Java OpenStreetMap yang merupakan perangkat editor OpenStreetMap berbasis desktop. JOSM memungkinkan Anda melakukan proses edit data pemetaan secara offline untuk sementara waktu atau tidak harus selalu terkoneksi dengan internet. Hal ini tentunya akan memudahkan Anda yang bekerja dalam keterbatasan koneksi internet. Anda hanya membutuhkan koneksi internet ketika akan men-download data dari OpenStreetMap dan ketika akan men-upload data ke server OpenStreetMap.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan Java OpenStreetMap (JOSM)</title>
+      <link>/pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami cara menggunakan alat dasar di JOSM Mampu mengoperasikan penggambaran tingkat lanjut di JOSM Memahami tips editing di JOSM Memahami cara menggambar objek khusus seperti jembatan, kompleks sekolah, dan jaringan jalan.  Java OpenStreetMap atau biasa yang disebut dengan JOSM adalah perangkat editor OpenStreetMap berbasis desktop. JOSM memungkinkan Anda melakukan proses edit data pemetaan secara offline untuk sementara waktu atau tidak harus selalu terkoneksi dengan internet. Jika pada modul sebelumnya Anda mempelajari pengoperasian JOSM, maka pada modul ini Anda akan mempelajari cara menggunakan JOSM.</description>
+    </item>
+    
+    <item>
+      <title>Menambahkan Data Hasil Survei ke OSM Menggunakan JOSM</title>
+      <link>/pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu menerapkan cara menginstal plugin Utilsplugin2 Mampu menerapkan cara menggabungkan data hasil survei Mampu menerapkan cara menyimpan file di JOSM Mampu menerapkan cara men-download data OpenStreetMap Mampu menerapkan cara memunculkan citra satelit di JOSM Mampu menerapkan, menambahkan dan mengubah data OSM menggunakan JOSM Mampu menerapkan cara meng-upload perubahan ke OSM Mampu menerapkan cara melihat perubahan data OSM di situs OSM  Data OSM dapat diperkaya dengan cara menambahkan atau memetakan objek di OSM.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan To-Do List di JOSM</title>
+      <link>/pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu melakukan instalasi alat tambahan untuk memasukkan data di JOSM Mampu mengoperasikan alat tambahan to-do list di JOSM untuk memasukkan data  Setelah melakukan kegiatan survei dengan menggunakan aplikasi OpenMapKit (OMK), langkah selanjutnya yang perlu Anda lakukan ialah memasukkan data survei berupa objek-objek titik lokasi tersebut ke dalam OpenStreetMap dengan menggunakan JOSM. Untuk memudahkan Anda dalam melakukan hal tersebut, Anda perlu menginstal perangkat tambahan pada JOSM yaitu plugin Todo list.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan Alat Filter di JOSM</title>
+      <link>/pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/</guid>
+      <description>Tujuan Pembelajaran:
+ Melakukan aktivasi mode penyaring data di JOSM Mengoperasikan alat untuk menyaring data di JOSM  JOSM memiliki berbagai macam alat yang dapat memudahkan penggunanya untuk melakukan pemetaan. Salah satu alat yang dapat digunakan adalah filter. Filter merupakan sebuah alat tambahan untuk memilih salah satu objek berdasarkan informasi (tag) objek di OpenStreetMap (key dan value), sehingga Anda dapat mengedit dan memeriksa data OSM berdasarkan informasi tertentu dari suatu objek.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan buildings tools di JOSM</title>
+      <link>/pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu menerapkan cara melakukan instalasi alat tambahan untuk membuat objek bangunan Mampu menerapkan cara mengoperasikan alat tambahan di JOSM untuk membuat objek bangunan  Jika Anda menambahkan data di JOSM tanpa melakukan survei lapangan, data yang ditambahkan akan memiliki informasi yang terbatas karena hanya menggunakan citra satelit sebagai acuan pemetaan. Salah satu objek yang dapat dipetakan menggunakan citra satelit adalah bangunan. Namun, Anda tidak dapat mengetahui fungsi spesifik bangunan yang dipetakan menggunakan citra satelit kecuali bentuk bangunannya cukup berbeda misalnya sekolah yang berbentuk seperti huruf L atau huruf U.</description>
+    </item>
+    
+    <item>
+      <title>Pembuatan Batas Administrasi dengan JOSM</title>
+      <link>/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu memahami pengertian dan contoh relasi data di OpenStreetMap Mampu memahami konsep batas administrasi di OpenStreetMap Mampu memahami syarat dan ketentuan membuat batas administrasi di OpenStreetMap Mampu membuat batas administrasi di OpenStreetMap  Pemetaan batas administrasi di dalam OpenStreetMap merupakan hal yang rumit dan disarankan pengguna yang sudah mahir atau terbiasa menggunakan OSM yang melakukan digitasi dan meng-upload ke dalam OSM. Sumber data yang digunakan dalam penarikan batas administrasi dan penentuan wilayah administrasi harus melibatkan pihak pemerintah yang mengetahui batas tersebut.</description>
+    </item>
+    
+    <item>
+      <title>Mengatasi Konflik pada Data OpenStreetMap (OSM)</title>
+      <link>/pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu menjelaskan pengertian konflik data OSM pada JOSM Mampu menjelaskan jenis-jenis konflik data di JOSM Mampu melakukan cara memperbaiki konflik data di JOSM Mampu memahami cara menghindari konflik data di JOSM  Saat Anda meng-upload objek dengan menggunakan JOSM, beberapa kontributor OSM mungkin saja sedang mengedit wilayah yang sama dengan Anda. Hal ini dapat menimbulkan konflik pada saat Anda meng-upload objek OSM. Untuk itu, pada modul ini Anda akan mempelajari apa itu konflik pada JOSM, jenis konflik, dan cara menyelesaikan konflik pada JOSM.</description>
+    </item>
+    
+  </channel>
+</rss>

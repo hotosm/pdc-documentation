@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Integrasi data OpenStreetMap ke InAWARE on HOT-PDC Training Site</title>
+    <link>/pages/08-osm-data-integration-to-inaware/</link>
+    <description>Recent content in Integrasi data OpenStreetMap ke InAWARE on HOT-PDC Training Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/pages/08-osm-data-integration-to-inaware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Integrasi Data OpenStreetMap di InAWARE</title>
+      <link>/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/</guid>
+      <description>Tujuan Pembelajaran:
+ Mengetahui Cara Membuat Membuat Akun di InAWARE Memasukkan Data OpenStreetMap ke dalam InAWARE  Salah satu tujuan dari kegiatan pemetaan yang dilakukan dalam Proyek HOT - PDC InAWARE adalah untuk melengkapi data di OpenStreetMap sekaligus untuk membantu pemerintah khususnya Badan Nasional Penanggulangan Bencana (BNPB) dan Badan Penanggulangan Bencana Daerah (BPBD) dalam melengkapi data mereka di InAWARE, platform yang dibuat oleh Pacific Disaster Center (PDC), sebuah lembaga dari University of Hawaii, untuk melakukan manajemen penanggulangan bencana.</description>
+    </item>
+    
+  </channel>
+</rss>

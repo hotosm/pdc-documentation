@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Validasi Data dan Penjaminan Kualitas on HOT-PDC Training Site</title>
+    <link>/pages/04-data-validation-and-quality-assurance/</link>
+    <description>Recent content in Validasi Data dan Penjaminan Kualitas on HOT-PDC Training Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/pages/04-data-validation-and-quality-assurance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Konsep Penjaminan Kualitas</title>
+      <link>/pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami pengertian penjaminan kualitas Memahami pengertian penjaminan kualitas data di OpenStreetMap  OpenStreetMap (OSM) merupakan peta dunia yang bersifat bebas dan terbuka. OSM memiliki banyak data dan informasi mengenai berbagai macam objek yang ada di permukaan bumi. Data tersebut dikumpulkan dan dimasukkan oleh pengguna OSM yang tersebar di seluruh dunia. Beragamnya data yang dimasukkan dan dikumpulkan oleh pengguna OSM seringkali mengakibatkan kualitas data yang dimiliki menjadi berbeda satu dengan yang lain dan kurangnya pemahaman pengguna OSM mengenai kualitas data juga mempengaruhi hasil data yang ada di di OSM.</description>
+    </item>
+    
+    <item>
+      <title>Penggunaan JOSM untuk Validasi Data Survei</title>
+      <link>/pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/02_penggunaan_josm_untuk_validasi_data_survei/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/02_penggunaan_josm_untuk_validasi_data_survei/</guid>
+      <description>Tujuan Pembelajaran:
+ Menerapkan cara pengecekkan awal data hasil survei lapangan di JOSM Menerapkan cara penjaminan kualitas data hasil survei dengan JOSM Memahami jenis-jenis kesalahan dan peringatan yang harus diperbaiki di JOSM  JOSM merupakan software yang paling sering digunakan untuk melakukan pemetaan dan menambahkan data OpenStreetMap. JOSM lebih banyak digunakan karena dapat digunakan secara offline dan memiliki banyak fitur pendukung untuk memudahkan dalam melakukan pemetaan. Salah satu fitur unggulan yang dimiliki oleh JOSM adalah melakukan validasi data.</description>
+    </item>
+    
+    <item>
+      <title>Penjaminan Kualitas Data dengan Tasking Manager</title>
+      <link>/pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami penjaminan kualitas data dengan menggunakan Tasking Manager  Sebelumnya Anda pasti sudah pernah editing data OpenStreetMap menggunakan tasking manager. Tasking manager memudahkan Anda untuk mengedit data OpenStreetMap secara bersama-sama tanpa harus khawatir akan terjadi konflik dengan orang lain karena mengerjakan area yang sama. Selain untuk mengedit data OpenStreetMap, Anda juga dapat melakukan validasi menggunakan tasking manager sehingga Anda dapat melakukan validasi secara bersama-sama.
+1. Penjaminan Kualitas Data dengan Tasking Manager a.</description>
+    </item>
+    
+    <item>
+      <title>JOSM untuk Perhitungan Kualitas Data</title>
+      <link>/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami cara memilih dan menghitung jumlah objek dalam suatu batas administrasi Mengetahui cara menghitung jumlah error dan warning dalam suatu batas administrasi Mengetahui cara melakukan validasi batas-batas administrasi  Dalam melakukan kegiatan pemetaan salah satu targetnya adalah menghasilkan peta yang berkualitas. Salah satu kualitas yang dimaksud berupa kelengkapan jumlah data dan informasi yang diperoleh dalam kegiatan pengumpulan data di lapangan. Pemanfaatan OpenStreetMap sebagai peta dasar yang digunakan untuk menampilkan hasil pengumpulan data di lapangan dapat membantu Anda dalam melakukan perhitungan baik dari banyaknya data objek yang ada kumpulkan dan juga informasi yang terdapat di dalamnya.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,648 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOT-PDC Training Site</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../../../../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../../favicon-16x16.png">
+<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+
+
+
+<link rel="stylesheet" href="../../../../normalize.min.css">
+
+<link rel="stylesheet" href="../../../../book.min.eef33454e9c5a767233b17f85141d9e41283b74cf9b6aad8a63ba7849076a025.css">
+
+<!--
+Made with Book Theme
+https://github.com/hotosm/hugo-book
+-->
+  
+</head>
+
+<body>
+  <header class="header-nav" id="nav">
+    <div class="nav-container">
+      <a class="nav-title with-logo" href="../../../../">
+        <img class="logo" src="../../../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
+        <span>HOT-PDC Training Site</span>
+      </a>
+      <a class="nav-guide-link guide-active" href="../../../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/" >Guide</a>
+      <div class="hr-v"></div>
+      <a class="nav-pdf-download" href="../../../../pdfs/HOT-PDC_Training_Site.pdf">Download PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+      </a>
+      <input type="checkbox" style="display: none" id="menu-control" />      
+    </div>
+    <div class="nav-right">
+    
+    
+    
+    
+    <div class="hr-v"></div>
+    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../../svg/icon-external-red.svg" alt=""></a>
+    </div>
+  </header>
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+
+
+
+
+<a href="../../../../" >Introduction</a>  
+
+    
+
+
+  
+  
+    
+  
+ 
+  
+  <ul>
+    
+    <li>
+    
+    Panduan OpenStreetMap untuk Surveyor 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/">
+    Metodologi Pengumpulan Data</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/">
+    Menggunakan Aplikasi ODK Collect</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/">
+    Menggunakan Aplikasi OpenMapKit</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/">
+    Menggunakan Aplikasi OSMTracker</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/">
+    Menggunakan GPS</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    HOT Tasking Manager 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/">
+    Membuat dan Mengelola Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/" class="active">
+    Penggunaan Tasking Manager</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    JOSM 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/">
+    Pengenalan OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/">
+    Memulai menggunakan OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/">
+    Pengenalan Java OpenStreetMap (JOSM)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/">
+    Menggunakan Java OpenStreetMap (JOSM)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/">
+    Menambahkan Data Hasil Survei ke OSM Menggunakan JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/">
+    Menggunakan To-Do List di JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/">
+    Menggunakan Alat Filter di JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/">
+    Menggunakan buildings tools di JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/">
+    Pembuatan Batas Administrasi dengan JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/">
+    Mengatasi Konflik pada Data OpenStreetMap (OSM)</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Validasi Data dan Penjaminan Kualitas 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/">
+    Konsep Penjaminan Kualitas</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/02_penggunaan_josm_untuk_validasi_data_survei/">
+    Penggunaan JOSM untuk Validasi Data Survei</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/">
+    Penjaminan Kualitas Data dengan Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/">
+    JOSM untuk Perhitungan Kualitas Data</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Penggunaan HOT Export 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/">
+    Download Data OSM dengan Menggunakan Export Tool</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Panduan Pemetaan Lapangan untuk Manajer Proyek 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/">
+    Metodologi Kerangka Kerja Pemetaan PDC InAWARE</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/">
+    Model Data OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/">
+    Membuat Presets</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04_penggunaan_yaml_pada_export_tool/">
+    Penggunaan YAML pada Export Tool</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/">
+    Membuat Formulir Survei untuk Aplikasi ODK Collect &amp; OpenMapKit</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/">
+    Meletakkan Formulir Survei ke Ona.io</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07.pembuatan_peta_survey_dengan_qgis/">
+    Pembuatan Peta Survei dengan Menggunakan QGIS</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/">
+    Pembuatan MBTiles untuk OpenMapKit (OMK)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09_perhitungan_kuantitas_data_dengan_group_stats/">
+    Perhitungan Kuantitas Data Menggunakan Plugin Group Stats</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/">
+    Konversi Data Shapefile ke GeoJSON</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Menggunakan Map Campaigner 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/">
+    Membuat dan Mengelola Map Campaigner untuk Pemetaan</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Integrasi data OpenStreetMap ke InAWARE 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/">
+    Integrasi Data OpenStreetMap di InAWARE</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+
+
+
+
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="../../../../svg/menu.svg" />
+  </label>
+  <strong>
+    Penggunaan Tasking Manager</strong>
+</header>
+
+      
+<article class="markdown">
+  <div class="markdown__header">  <h1>Penggunaan Tasking Manager</h1>
+    <a href="../../../../pdfs/02_Penggunaan_Tasking_Manager.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+    </a>
+  </div>
+
+<p><strong>Tujuan Pembelajaran:</strong></p>
+
+<ul>
+<li>Menjalankan fungsi dari <em>tasking manager</em> dalam konteks pemetaan partisipatif</li>
+<li>Mengoperasikan cara menggunakan <em>tasking manager</em> untuk kegiatan pemetaan</li>
+</ul>
+
+<p><em>OpenStreetMap</em> sebagai sebuah alternatif untuk melakukan pemetaan secara bebas dan terbuka memungkinkan semua orang tanpa terkecuali untuk dapat melakukan pemetaan dimanapun dan kapanpun. Namun, bagaimana jika Anda ingin melakukan pemetaan secara serentak yang dilakukan oleh banyak orang? Tentunya Anda membutuhkan sebuah alat untuk dapat membagi pekerjaan pemetaan tersebut supaya bisa dikerjakan oleh banyak orang. <em>Tasking manager</em> memungkinkan Anda untuk melakukan hal itu. Dalam modul ini, Anda akan mempelajari lebih lanjut mengenai <em>Tasking Manager</em> dan bagaimana cara memetakan data OSM melalui <em>Tasking Manager</em>.</p>
+
+<h3 id="i-apa-itu-tasking-manager">I. Apa itu <em>Tasking Manager</em>?</h3>
+
+<ol>
+<li><p><strong>Definisi <em>Tasking Manager</em></strong>
+<br><em>Tasking manager</em> merupakan sebuah alat yang dibuat secara khusus untuk melakukan pemetaan secara kolaboratif dan partisipatif. <em>Tasking manager</em> memungkinkan Anda untuk melakukan pemetaan di suatu wilayah secara bersama-sama dengan pembagian wilayah yang berbeda.  Fungsi <em>Tasking manager</em> adalah untuk membagi pekerjaan pemetaan ke dalam beberapa grid/kotak yang berbeda sehingga setiap orang dapat memilih grid/kotak untuk dikerjakan. Selain itu, <em>Tasking manager</em> juga dapat memudahkan Anda dalam memantau proses pengerjaan pemetaan. Anda dapat mengetahui wilayah mana yang masih butuh dipetakan, sedang dipetakan, dan wilayah mana yang sudah selesai dipetakan.</p>
+
+<p>Bayangkan Anda ingin melakukan pemetaan pada suatu wilayah tertentu dimana Anda harus memetakan secara bersama-sama dengan 20 orang lainnya. Jika tidak ada pembagian tugas dan wilayah, maka akan ada kemungkinan beberapa orang memetakan di wilayah yang sama. Dengan adanya <em>Tasking manager</em>, hal seperti ini dapat dihindari dan pekerjaan pemetaan akan dapat diselesaikan secara lebih cepat dan efisien.</p></li>
+
+<li><p><strong>Contoh Penggunaan <em>Tasking Manager</em></strong>
+<br><em>Tasking manager</em> pernah digunakan sebagai bentuk respon ketika bencana Topan Haiyan terjadi di Filipina pada 8 November 2013. Pemetaan menggunakan <em>tasking manager</em> dilakukan di Kota Tacloban, salah satu kota yang terdampak sangat parah ketika bencana terjadi. Dalam kurun waktu 24 jam setelah dibuatnya proyek <em>tasking manager</em>, sebanyak 10.000 bangunan telah terpetakan atau sekitar 25% dari total jumlah bangunan yang ada di Kota Tacloban. Seluruh pemetaan ini dilakukan oleh 33 orang relawan.</p>
+
+<p align="center"><img width=70% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0201_Kondisi_bangunan_sebelum_dan_setelah_dipetakan_menggunakan_Tasking_Manager.png"</p>
+<p align="center"><i>Kondisi bangunan sebelum dan setelah dipetakan menggunakan Tasking Manager</i></p>
+    
+
+<p><em>Tasking manager</em> juga digunakan di Indonesia untuk respon ketika bencana terjadi. Salah satu contohnya adalah ketika bencana gempa dan tsunami terjadi di Selat Sunda pada Desember 2018. Dalam kurun waktu 1 bulan, seluruh daerah terdampak sudah selesai dipetakan oleh sekitar 60 orang relawan.</p>
+
+<p align="center"><img width=70% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0202_Tasking_manager_yang_dibuat_sebagai_respon_bencana_gempa_dan_tsunami_di_Selat_Sunda.png"</p>
+<p align="center"><i>Tasking Manager yang dibuat sebagai respon bencana gempa dan tsunami di Selat Sunda</i></p></li>
+</ol>
+
+<h3 id="ii-memulai-tasking-manager">II. Memulai <em>Tasking Manager</em></h3>
+
+<p>Anda dapat mengakses halaman <em>tasking manager</em> di alamat <a href="https://tasks.hotosm.org/">https://tasks.hotosm.org/</a>. Ketika Anda membuka halaman tersebut, akan muncul tampilan seperti berikut:</p>
+
+<p align="center"><img width=70% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0203_Halaman_utama_Taksing_Manager.png"</p>
+<p align="center"><i>Halaman utama Tasking Manager</i></p>
+
+<p>Pada halaman utama, Anda dapat melihat beberapa menu yang bisa Anda pilih. Untuk mengganti bahasa yang ingin ditampilkan Anda dapat memilih tombol tanda panah di sebelah kiri tombol <em><strong>Login</strong></em> pada kanan atas layar. Anda juga bisa mempelajari lebih lanjut mengenai tutorial penggunaan <em>tasking manager</em> pada menu <strong><em>Learn</em></strong> di bagian atas layar.</p>
+
+<p align="center"><img width=70% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0204_Tombol_untuk_mengganti_bahasa_di_sebelah_kanan_dan_tombol_Learn_di_sebelah_kiri.png"</p>
+<p align="center"><i>Tombol untuk mengganti bahasa di sebelah kanan dan tombol Learn di sebelah kiri</i></p>
+
+<p>Sebelum dapat memetakan menggunakan <em>Tasking Manager</em>, ada beberapa hal yang perlu Anda perhatikan, seperti:</p>
+
+<ol>
+<li><p><strong><em>Login</em>/Masuk ke dalam <em>Tasking Manager</em></strong>
+<br>Sebelum Anda dapat melakukan memetakan, Anda harus melakukan <em>login</em> atau masuk dengan menggunakan akun <em>OpenStreetMap</em> yang Anda miliki. Silakan Anda pilih menu <strong><em>Login</em></strong> yang berada di sebelah kanan atas layar kemudian masukkan akun <em>OpenStreetMap</em> yang telah Anda miliki. Pada pilihan <strong><em>Authorize access to  your account</em></strong> silakan Anda centang pilihan <strong><em>read your user preferences</em></strong> kemudian pilih <strong><em>Grant Access</em></strong>. Untuk lebih jelasnya, silakan Anda lihat gambar berikut:</p>
+
+<p align="center"><img width=70% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0205_Pilihan_untuk_mengizinkan_otorisasi_pada_akun_Anda.png"</p>
+<p align="center"><i>Pilihan untuk mengizinkan otorisasi pada akun Anda</i></p>
+
+<p>Setelah Anda <em>login</em> maka Anda akan diarahkan kembali pada halaman <em>Tasking Manager</em>. Anda dapat melihat nama akun <em>OpenStreetMap</em> di bagian kanan atas halaman yang menandakan bahwa Anda telah berhasil melakukan <em>login</em>. Untuk memulai memetakan, silakan pilih tombol <strong><em>Start Mapping</em></strong> atau tombol <strong><em>Contribute</em></strong> yang terletak di sebelah kiri atas layar.</p>
+
+<p align="center"><img width=70% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0206_Tombol_Contribute_dan_Start_Mapping_pada_halaman_Tasking_Manager.png"</p>
+<p align="center"><i>Tombol Contribute dan Start Mapping pada halaman Tasking Manager</i></p></li>
+
+<li><p><strong>Mencari Proyek <em>Tasking Manager</em> di Kolom Pencarian</strong>
+<br>Setelah Anda menekan tombol <strong><em>Start Mapping</em></strong> atau <strong><em>Contribute</em></strong> akan muncul halaman <em>Contribute</em>. Di halaman ini Anda dapat memilih tampilan <em>Grid View</em> dan <em>Map View</em>. Di dalam tampilan <em>Grid View</em> ada beberapa hal yang perlu Anda perhatikan, seperti:</p>
+
+<p align="center"><img width=70% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0207_Beberapa_pengaturan_yang_dapat_dilakukan_pada_tampilan_Grid_View.png"</p>
+<p align="center"><i>Beberapa pengaturan yang dapat dilakukan pada tampilan Grid View</i></p>
+
+<ol>
+<li><p><strong><em>Search</em></strong> (Kotak Pencarian)
+<br>Pada bagian ini, Anda dapat melakukan pencarian proyek <em>tasking manager.</em> Silakan Anda ketik kata kunci yang diinginkan seperti nama kecamatan, kabupaten, provinsi, atau nama kegiatan yang menjadi judul proyek yang telah dibuat.</p></li>
+
+<li><p><strong>Proyek</strong> <strong><em>Tasking</em></strong>
+<br>Di bagian ini, Anda dapat melihat berbagai proyek <em>tasking manager</em> yang telah dibuat sebelumnya oleh para kontributor.</p></li>
+
+<li><p><strong><em>Mapping Difficulty</em></strong>
+<br>Pada bagian ini, Anda dapat memilih tingkat kesulitan dari proyek <em>tasking manager</em> yang ingin Anda cari. Tingkat kesulitan yang dapat dipilih dibagi menjadi 3 kategori, <em>beginner</em>, <em>intermediate</em>, dan <em>advance</em>. Jika Anda masih pemula silakan Anda pilih <em>beginner</em>, jika Anda sudah mahir memetakan silakan Anda pilih <em>Intermediate</em>, dan jika Anda sudah ahli dalam memetakan maka Anda dapat memilih <em>Advance</em>. Jika Anda ingin melihat seluruh tasking pilih <strong><em>All</em></strong></p></li>
+
+<li><p><strong><em>Organization</em></strong>
+<br>Anda dapat memilih proyek <em>tasking manager</em> berdasarkan organisasi pembuat proyek tersebut seperti <em>American Red Cross</em>, <em>Missing Maps</em>, HOTOSM, dan HOT Indonesia.</p></li>
+
+<li><p><strong><em>Campaign</em></strong>
+<br>Anda juga dapat memilih proyek <em>tasking manager</em> berdasarkan kegiatan tertentu. Sebagai contoh, Anda dapat memilih proyek <em>tasking manager</em> untuk kegiatan <em>Malaria Elimination</em>.</p></li>
+</ol>
+
+<p>Anda dapat mengubah tampilan dari <em>Grid View</em> menjadi <em>Map View</em>. Pada tampilan <em>Grid View</em>, Anda akan melihat daftar proyek <em>tasking manager</em> dalam bentuk grid atau kotak. Jika Anda memilih tampilan <em>Map</em> <em>View</em>, tampilan utama yang akan Anda lihat adalah tampilan peta dunia dengan banyak bulatan kecil berwarna biru di atasnya.</p>
+
+<p align="center"><img width=70% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0208_Tombol_untuk_mengubah_tampilan_Grid_View_atau_Map_View.png"</p>
+<p align="center"><i>Tombol untuk mengubah tampilan Grid View atau Map View</i></p>
+
+<p>Jika Anda telah mengubah tampilan Anda menjadi <em>Map View</em>, akan muncul halaman seperti berikut:</p>
+
+<p align="center"><img width=70% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0209_Tampilan Map_View_pada_Tasking_Manager.png"
+<br><p align="center"><i>Tampilan Map View pada Tasking Manager</i></p>
+
+<p>Berbeda dengan tampilan <em>Grid View</em>, tampilan <em>Map View</em> akan  memperlihatkan tampilan peta dunia dengan banyak bulatan biru. Anda dapat menggunakan tombol dengan tanda plus dan minus yang ada di sebelah kiri atas bidang peta untuk memperbesar dan memperkecil tampilan peta. Ketika tampilan peta diperbesar, maka akan muncul berbagai proyek <em>tasking manager</em> yang ada di berbagai tempat ditandai dengan adanya titik-titik berwarna. Masing-masing warna tersebut mewakili tingkat prioritas proyek <em>tasking</em> mulai dari <em>urgent</em> hingga <em>low</em>.</p>
+
+<p align="center"><img width=70% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0210_Prioritas_tasking_manager.png"</p>
+    
+
+<p>Jika Anda ingin mulai melakukan pencarian, maka Anda dapat mengubah tampilan menjadi <em>Grid View</em>. Ubah kembali tampilan <em>Tasking Manager</em> Anda menjadi tampilan <em>Grid View</em>. Untuk dapat mencari proyek <em>tasking,</em> silakan Anda arahkan kursor Anda pada kotak pencarian. Pada contoh kali ini kita akan mencari proyek <em>tasking manager</em> dengan kata kunci ‘Penjaringan’ kemudian tekan <strong><em>Enter</em></strong>. Untuk parameter lain seperti <em>mapping difficulty</em>, <em>organization</em>, dan <em>campaign</em> tidak perlu diubah.</p>
+
+<p align="center"><img width=70% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0211_Hasil pencarian_proyek_tasking_manager_dengan_kata_pencarian_‘penjaringan’.png"</p>
+<p align="center"><i>Hasil pencarian proyek tasking manager dengan kata pencarian ‘penjaringan’</i></p>
+
+<p><em>Tasking Manager</em> akan menampilkan proyek dengan kata kunci ‘Penjaringan’. Silakan Anda pilih proyek <em>tasking</em> yang ada di sebelah kanan dengan judul <em>‘#781 - INSIST II (Integrated Services for Infrastructure and Sanitation Technology) II - Kelurahan Penjaringan’.</em></p></li>
+
+<li><p><strong>Mengenal Tampilan <em>Tasking Manager</em></strong>
+<br>Ketika Anda telah memilih satu proyek <em>tasking</em>, maka akan muncul tampilan sebagai berikut:</p>
+
+<p align="center"><img width=70% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0212_Tasking_Kelurahan_Penjaringan.png"</p>
+<p align="center"><i>Tasking manager #781 INSIST - Kelurahan Penjaringan</i></p>
+
+<p>Tampilan ini menunjukkan deskripsi proyek <em>tasking manager</em> yang sedang kita buka. Pada bagian deskripsi, Anda dapat membaca latar belakang proyek pemetaan infrastruktur dan sanitasi di Penjaringan. Di bagian bawah kita dapat melihat informasi lebih detail mengenai proyek ini, mulai dari tingkat prioritas, organisasi pembuat, nama pembuat proyek, tingkat kesulitan, hingga objek apa yang harus dipetakan. Jika Anda ingin membuat proyek <em>tasking manager</em> Anda sendiri, Anda dapat membacanya di modul <strong>Membuat dan Mengelola Tasking Manager</strong>.</p>
+
+<p align="center"><img width=70% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0213_Tampilan_proyek_tasking_manager.png"</p>
+<p align="center"><i>Tampilan proyek tasking manager</i></p>
+    
+
+<p>Di bagian bawah deskripsi Anda dapat melihat tampilan peta di sebelah kanan dan beberapa informasi yang dapat Anda lihat di sebelah kiri. Jika Anda perhatikan pada bidang peta, terdapat beberapa kotak dengan warna yang berbeda. Warna tersebut mewakili informasi:</p>
+
+<p align="center"><img width=20% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0214_Legenda_tasking_manager.png"</p>
+    </li>
+</ol>
+
+<ul>
+<li><p><strong><em>Ready</em> (Siap)</strong>
+    <br>Menunjukkan kotak tersebut dapat Anda kerjakan</p></li>
+
+<li><p><strong><em>Mapped</em> (Dipetakan)</strong>
+    <br>Kotak berwarna kuning menunjukkan bahwa kotak tersebut telah selesai dipetakan</p></li>
+
+<li><p><strong><em>Bad Imagery</em> (Citra Satelit Buruk)</strong>
+    <br>Kotak berwarna abu-abu kehitaman ditandai sebagai daerah dengan citra satelit yang buruk</p></li>
+
+<li><p><strong><em>Validated</em> (Tervalidasi)</strong>
+    <br>Kotak berwarna hijau menunjukkan bahwa kotak tersebut telah tervalidasi</p></li>
+
+<li><p><strong><em>Invalidated</em> (Tidak Tervalidasi)</strong>
+    <br>Kotak berwarna merah menunjukkan bahwa kotak tersebut masih perlu diperiksa ulang sebelum dilakukan validasi kembali</p></li>
+
+<li><p><strong><em>Locked</em> (Terkunci)</strong>
+    <br>Kotak berwarna abu-abu menunjukkan bahwa kotak tersebut telah dipilih oleh pengguna lain</p></li>
+
+<li><p><strong><em>Locked by you</em> (Dikunci oleh Anda)</strong>
+    <br>Kotak berwarna dengan garis berwarna biru tua menunjukkan kotak yang sedang Anda pilih dan kerjakan</p></li>
+</ul>
+
+<ol>
+<li><strong>Memulai Berkontribusi di Proyek <em>Tasking Manager</em></strong>
+<br>Anda dapat melakukan dua jenis kontribusi pada proyek <em>tasking manager</em>, yaitu melakukan digitasi objek dan melakukan validasi data yang sudah dipetakan. Untuk mulai berkontribusi dan melakukan pemetaan silakan ikuti langkah-langkah berikut:</li>
+</ol>
+
+<ul>
+<li><p>Pilih tombol <strong><em>Map</em></strong>.
+<p align="center"><img width=50% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0215_Ready_to_get_started.png"</p></p></li>
+
+<li><p>Selanjutnya, tugas Anda adalah memilih grid/kotak proyek <em>tasking manager</em> mana yang akan Anda kerjakan dengan cara memilih langsung grid/kotak pada proyek <em>tasking manager</em> atau Anda juga dapat memilih kotak secara acak dengan menekan tombol <strong><em>Select a Random Task</em>.</strong>
+<p align="center"><img width=30% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0216_Choose_a_task.png"</p></p></li>
+</ul>
+
+<p>Anda  juga dapat mengganti <em>basemap</em> atau peta dasar agar  area pemetaan di citra satelit yang terkena awan atau hutan dapat terlihat, sehingga tidak perlu dipilih.
+<p align="center"><img width=70% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0217_mengganti_citra_pada_tasking.png"</p></p>
+
+<p>Jika Anda menemukan grid/kotak yang tertutup awan, silakan Anda pilih tombol <strong><em>Mark as Bad Imagery</em></strong>. Jika Anda melihat bahwa area pemetaan tersebut hanya terdapat hutan, silakan Anda pilih <strong><em>Mark as Completely Mapped</em></strong>.
+<p align="center"><img width=40% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0218_mark_as_bad_imagery.png"</p></p>
+
+<ul>
+<li><p>Jika sudah terpilih kotak yang diinginkan, silakan pilih tombol <strong><em>Start Mapping</em></strong>.
+<p align="center"><img width=30% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0219_Start_mapping.png"</p></p></li>
+
+<li><p>Silakan Anda pilih JOSM sebagai <em>editor</em> yang akan digunakan untuk memetakan, kemudian pilih tombol <strong><em>Start Editor</em></strong>. Pastikan bahwa <em>software</em> JOSM Anda telah dibuka sebelumnya.
+<p align="center"><img width=50% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0220_start_editor.png"</p></p></li>
+
+<li><p>Secara otomatis <em>tasking manager</em> akan mengunduh data ke dalam JOSM. Anda dapat langsung memetakan menggunakan JOSM dan citra satelit yang telah disesuaikan dengan petunjuk yang ada di halaman proyek <em>tasking</em>. Jika Anda ingin mengetahui bagaimana cara memetakan dengan menggunakan JOSM, silakan Anda buka kembali modul <strong>Menggunakan JOSM</strong>. Petakan seluruh objek yang ada di grid/kotak tersebut.</p>
+
+<p align="center"><img width=70% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0221_Data_OSM_yang_telah_berhasil_di-download_melalui_tasking_manager.png"</p>
+<p align="center"><i>Data OSM yang telah berhasil di-download melalui tasking manager</i></p></li>
+
+<li><p>Setelah selesai, jangan lupa untuk meng-<em>upload</em> hasil pemetaan Anda secara berkala. Hal ini bertujuan untuk mencegah terlalu banyaknya beban data yang akan di-<em>upload</em>. Ketika Anda ingin meng-<em>upload</em>, jangan lupa untuk menambahkan komentar. Jika Anda perhatikan pada kolom komentar, Anda akan melihat komentar bawaan yang sama dengan penomeran proyek <em>tasking manager</em> tersebut. Silakan Anda tambahkan komentar Anda di belakang komentar <em>tasking manager</em> tersebut.</p>
+
+<p align="center"><img width=70% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0222_Kolom_komentar_pada_saat_upload_data_dari_JOSM.png"</p>
+<p align="center"><i>Kolom komentar pada saat upload data dari JOSM</i></p></li>
+
+<li><p>Setelah Anda selesai melakukan pemetaan dan telah mengunggah data ke dalam server <em>OpenStreetMap</em>, silakan Anda kembali pada halaman <em>tasking manager</em>. Anda dapat memberikan komentar mengenai perubahan yang telah dikerjakan. Jika telah selesai memetakan seluruh objek di dalam proyek <em>tasking manager</em>, pilih tombol <strong><em>Mark as Completely Mapped</em></strong>. Namun, jika masih ada beberapa objek yang belum terpetakan, Anda dapat memilih tombol <strong><em>Stop Mapping</em></strong> untuk berhenti melakukan pemetaan dan dapat melanjutkan pemetaan nanti atau membiarkan kontributor lain untuk melengkapi dan memetakan objek tersebut.</p>
+
+<p align="center"><img width=50% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0223_Menambahkan_komentar_pada_grid_tasking_manager_yang_telah_dipetakan.png"</p>
+<p align="center"><i>Menambahkan komentar pada grid/kotak tasking manager yang telah dipetakan</i></p></li>
+</ul>
+
+<ol>
+<li><strong>Hal-hal yang Harus Diperhatikan saat Sudah Memilih Area di Proyek <em>Tasking</em></strong>
+<br>Ada beberapa hal yang harus Anda perhatikan jika Anda telah memilih proyek dalam <em>Tasking Manager</em>.</li>
+</ol>
+
+<ul>
+<li><p><strong>Batas waktu pengerjaan maksimal 120 menit</strong>
+<br>Ketika Anda telah memilih satu kotak untuk dikerjakan, kotak tersebut akan menjadi milik Anda dalam jangka waktu 120 menit atau 2 jam. Pastikan Anda tidak terlalu lama mengerjakan dan segera lakukan <em>upload</em> data secara berkala.</p>
+
+<p align="center"><img width=50% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0224_Pemberitahuan_batas_waktu_pengerjaan_tasking_manager.png"</p>
+<p align="center"><i>Pemberitahuan batas waktu pengerjaan tasking manager</i></p></li>
+
+<li><p><strong>Jangan lupa untuk membuka kembali kotak yang telah Anda pilih</strong>
+    <br>Jika Anda telah selesai memetakan, jangan lupa gunakan tombol <strong><em>Stop Mapping</em></strong> jika kotak belum selesai dipetakan. Tombol <strong><em>Mark as Completely Mapped</em></strong> digunakan jika kotak yang Anda pilih telah betul-betul selesai Anda petakan dan sudah tidak ada objek apapun yang dapat Anda petakan.</p>
+
+<p align="center"><img width=50% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0225_Tombol_Stop_Mapping_digunakan_jika_grid_Anda_belum_selesai_dipetakan.png"</p>
+    <p align="center"><i>Tombol Stop Mapping digunakan jika grid/kotak Anda belum selesai dipetakan</i></p></li>
+
+<li><p><strong>Jangan memetakan objek di luar area <em>tasking</em> terpilh</strong></p>
+
+<p align="center"><img width=70% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0226_Area_yang_terarsir_tidak_boleh_Anda_petakan.png"</p>
+    <p align="center"><i>Area yang  terarsir tidak boleh Anda petakan</i></p>
+    
+
+<p>Ketika grid/kotak <em>tasking manager</em> yang Anda pilih telah terbuka di dalam JOSM,  terdapat area yang terarsir dan area tidak terarsir. Maksud dari area tidak terarsir menandakan bahwa area tersebut merupakan area pemetaan Anda, sementara area yang terarsir merupakan area yang tidak boleh Anda petakan. Hal ini dimaksudkan supaya tidak terjadi konflik antara pengguna <em>tasking manager</em>.</p></li>
+
+<li><p><strong>Perlakuan khusus untuk objek yang berada di perbatasan antar kotak</strong>
+    <br>Seringkali ketika memetakan menggunakan <em>tasking manager</em>, Anda menemukan objek-objek yang terletak di perbatasan antar dua grid/kotak <em>tasking manager</em> yang berbeda seperti contoh berikut:</p>
+
+<p align="center"><img width=70% src="../../../../pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/images/0227_Objek_yang_terletak_di_perbatasan_grid_tasking_manager.png"</p>
+    <p align="center"><i>Objek yang terletak di perbatasan grid/kotak tasking manager</i></p>
+
+<p>Jika menemukan contoh objek seperti gambar di atas, silakan Anda petakan objek tersebut sedikit melewati batas grid/kotak <em>tasking manager</em> yang Anda pilih. Hal ini dilakukan terutama pada objek jalan untuk memberi panduan bagi  kontributor lain yang memetakan di proyek <em>tasking manager</em> berbeda dan bersebelahan dengan area Anda.</p></li>
+</ul>
+
+<p><strong>RINGKASAN</strong>
+<br>Saat ini Anda telah berhasil mempelajari definisi serta fungsi dari <em>tasking manager</em>. <em>Tasking manager</em> merupakan sebuah alat yang sangat berguna untuk melakukan pemetaan secara kolaboratif dan partisipatif. Ketika suatu wilayah perlu untuk dipetakan secara masif dan perlu dilakukan secara cepat, <em>Tasking manager</em> menjadi alat yang sangat berguna untuk digunakan. Anda juga telah mempelajari bagaimana cara menggunakan <em>Tasking Manager</em> untuk kegiatan pemetaan. Diharapkan dengan menggunakan <em>Tasking Manager</em> pekerjaan pemetaan yang Anda lakukan dapat diselesaikan dengan lebih cepat dan dapat diorganisir dengan baik.</p>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+    
+  <div>
+    <a href="https://github.com/hotosm/pdc-documentation/edit/master/content/pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/02_Penggunaan_Tasking_Manager.md" target="_blank" rel="noopener">
+       Edit this page on GitHub
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/hotosm/pdc-documentation/commit/4bc5d8f56240a7aa8e344801d7546a61b36fc22c" title='Last modified May 16, 2019 09:09 UTC by adhityadido' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> May 16, 2019
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    
+      
+  </aside>
+
+
+
+  </main>
+
+  
+  
+  <footer class="footer">
+
+    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
+    <a href="https://github.com/hotosm/pdc-documentation" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+    </svg></a>
+    
+
+  </footer>
+  
+</body>
+
+</html>

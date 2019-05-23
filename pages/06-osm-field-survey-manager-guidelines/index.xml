@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Panduan Pemetaan Lapangan untuk Manajer Proyek on HOT-PDC Training Site</title>
+    <link>/pages/06-osm-field-survey-manager-guidelines/</link>
+    <description>Recent content in Panduan Pemetaan Lapangan untuk Manajer Proyek on HOT-PDC Training Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/pages/06-osm-field-survey-manager-guidelines/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Metodologi Kerangka Kerja Pemetaan PDC InAWARE</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami cara membuat kerangka kegiatan pemetaan Memahami cara pembagian arsip untuk masing-masing kelompok survei Memahami cara pembagian area survei berdasarkan batas administrasi Mengetahui cara pembagian kelompok yang efektif  Perencanaan proyek pemetaan memerlukan metodologi survei yang tepat dan efisien untuk mencapai target dan tujuan pemetaan. Indikator-indikator yang perlu diperhatikan dalam pembuatan metodologi survei meliputi: luas wilayah survei, jumlah tim pemetaan, jumlah objek yang dikumpulkan, dan pendanaan proyek.</description>
+    </item>
+    
+    <item>
+      <title>Model Data OpenStreetMap</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami konsep tag, key, dan value di OpenStreetMap Mengenal halaman Wikipedia OpenStreetMap untuk melihat key dan value Memahami objek yang dapat dipetakan di dalam OpenStreetMap Mengetahui dan memahami model data sebagai rencana persiapan pemetaan Mengecek penggunaan key dan value tertentu di Situs TagInfo  Dalam modul ini, Anda akan mempelajari tentang konsep key dan value yang ada di OpenStreetMap (OSM) kemudian anda juga akan mengetahui tentang model data yang ada di OSM.</description>
+    </item>
+    
+    <item>
+      <title>Membuat Presets</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami pengertian dan konsep Presets di OpenStreetMap Mengerti dan memahami Bahasa XML di Presets OpenStreetMap Mengerti Membuat Presets Khusus di OpenStreetMap Memahami dan mengerti elemen-elemen penyusun presets  Seperti yang telah dipahami bahwa OpenStreetMap merupakan peta partisipatif yang bersifat terbuka untuk seluruh dunia. Hal ini menjelaskan bahwa pemanfaatan OpenStreetMap untuk pemetaan akan beragam pula. Semakin banyak pemetaan dengan tujuan yang berbeda-beda maka akan menimbulkan banyaknya variasi informasi yang dihasilkan.</description>
+    </item>
+    
+    <item>
+      <title>Penggunaan YAML pada Export Tool</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04_penggunaan_yaml_pada_export_tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04_penggunaan_yaml_pada_export_tool/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu memahami konsep YAML Mampu membuat YAML untuk struktur data OSM Mampu mengoperasikan YAML untuk men-download data OSM pada Export Tool  Pada bab sebelumnya, Anda telah mempelajari bagaimana mengenal tag informasi objek di dalam OpenStreetMap. Anda juga telah menentukan objek-objek yang akan dikumpulkan pada saat survei lapang. Pada saat proses pengambilan data OSM yang telah di upload ke server menggunakan Export Tool, Anda menemukan kendala karena beberapa data atribut yang berasal dari tag info tidak dapat di download melalui tag yang disediakan Export Tool.</description>
+    </item>
+    
+    <item>
+      <title>Membuat Formulir Survei untuk Aplikasi ODK Collect &amp; OpenMapKit</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/</guid>
+      <description>Tujuan pembelajaran:
+ Menjelaskan konsep XLSForm Mengoperasikan pembuatan XLSForm untuk ODK Collect Mengoperasikan pembuatan XLSForm untuk OpenMapKit  Dalam kegiatan survei lapangan terkadang Anda membutuhkan sebuah formulir survei. Bayangkan apabila Anda membutuhkan formulir survei dengan puluhan pertanyaan untuk setiap responden, Anda tentunya akan mengalami kesulitan pada saat pengisian data dan juga pada saat memasukkan data ke dalam laptop. Pada materi ini Anda akan belajar bagaimana cara membuat sebuah formulir survei dalam format digital yang nantinya akan dimasukkan ke dalam perangkat telepon genggam Anda.</description>
+    </item>
+    
+    <item>
+      <title>Meletakkan Formulir Survei ke Ona.io</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu menjelaskan manfaat penggunaan Ona.io Menjelaskan cara mengunggah formulir survei ke server Ona.io  Setelah kita berhasil membuat formulir survei yang telah dipelajari pada modul Membuat Form Survey untuk Aplikasi ODK Collect &amp;amp; OpenMapKit, Anda akan mempelajari platform yang digunakan untuk mengunggah formulir survei ke salah satu platform. Platform yang digunakan pada materi ini adalah Ona.io. Ona.io merupakan salah satu platform yang dapat digunakan untuk meletakkan formulir survei yang akan digunakan untuk kegiatan survei lapangan menggunakan ODK Collect atau OpenMapKit.</description>
+    </item>
+    
+    <item>
+      <title>Pembuatan Peta Survei dengan Menggunakan QGIS</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07.pembuatan_peta_survey_dengan_qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07.pembuatan_peta_survey_dengan_qgis/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami cara instalasi QGIS pada komputer/laptop Memahami cara mengoperasikan QGIS untuk memasang plugin Memahami cara mengoperasikan QGIS untuk membuat peta survei  Peta survei digunakan untuk memudahkan data entry dalam pengenalan dan identifikasi lokasi saat survei lapangan. Jika Anda ingin melakukan pemetaan batas administrasi, peta survei ini dapat juga digunakan untuk menggambarkan batas administrasi terbaru yang dihasilkan dari diskusi dengan pihak kelurahan atau pemerintahan yang mengetahui batas wilayah tersebut.</description>
+    </item>
+    
+    <item>
+      <title>Pembuatan MBTiles untuk OpenMapKit (OMK)</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami konsep MBTiles Mengoperasikan cara membuat MBTiles dengan menggunakan Export Tool Mengoperasikan cara membuat MBTiles dengan menggunakan Plugin QTiles Memahami cara memindahkan file MBTiles ke dalam OMK pada smartphone  Pada saat Anda menggunakan aplikasi OpenMapKit (OMK) untuk melakukan survei lapangan, terkadang Anda akan mengalami kesulitan dalam menentukan objek di aplikasi tersebut. Hal ini dikarenakan, latar belakang peta yang digunakan belum dipetakan di dalam OpenStreetMap dan Anda tidak memiliki waktu untuk mendigitasi objek di wilayah survei.</description>
+    </item>
+    
+    <item>
+      <title>Perhitungan Kuantitas Data Menggunakan Plugin Group Stats</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09_perhitungan_kuantitas_data_dengan_group_stats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09_perhitungan_kuantitas_data_dengan_group_stats/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami cara melakukan instalasi tambahan (plugin) untuk menghitung jumlah objek menggunakan QGIS Memahami cara mengoperasikan group stats untuk menghitung jumlah objek di QGIS  Kuantitas adalah kualitas sesuatu hal yang terbentuk dari proses perhitungan dan pengukuran (Thompson:1990). Perhitungan kuantitas data dapat menjadi indikator dalam pencapaian proyek pemetaan yang dapat dituangkan ke dalam sebuah laporan pemetaan. Proses perhitungan kuantitas data OSM dapat dilakukan dengan menginstal plugin group stats di QGIS secara gratis, plugin ini dapat digunakan untuk menghitung jumlah objek berdasarkan kategori tertentu.</description>
+    </item>
+    
+    <item>
+      <title>Konversi Data Shapefile ke GeoJSON</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/</guid>
+      <description>Tujuan Pembelajaran: * Memahami Pengertian Data GeoJSON * Mengetahui Melakukan Konversi Shapefile ke GeoJSON dengan QGIS * Mengetahui Cara Mendapatkan GeoJSON dengan Overpass Turbo * Mengetahui Melakukan Konversi Shapefile ke GeoJSON dengan GeoData Converter
+Jika Anda tidak memiliki latar belakang pendidikan di bidang geografi ataupun tidak terlalu familier dengan Sistem Informasi Geografi (SIG) maka format GeoJSON ini mungkin terdengar asing bagi Anda. Akan tetapi, Anda tidak perlu khawatir dengan hal tersebut karena mendapatkan data spasial dengan format GeoJSON tidak sesulit yang Anda kira.</description>
+    </item>
+    
+  </channel>
+</rss>

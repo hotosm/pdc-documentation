@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Menggunakan Map Campaigner on HOT-PDC Training Site</title>
+    <link>/pages/07-map-campaigner/</link>
+    <description>Recent content in Menggunakan Map Campaigner on HOT-PDC Training Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/pages/07-map-campaigner/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Membuat dan Mengelola Map Campaigner untuk Pemetaan</title>
+      <link>/pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/</guid>
+      <description>Tujuan pembelajaran:
+ Mengetahui dan memahami cara kerja Map Campaigner Mengoperasikan Map Campaigner untuk membuat kegiatan pemetaan Mengoperasikan Map Campaigner untuk memantau kegiatan pemetaan  Dalam melaksanakan proyek pemetaan seringkali Anda membutuhkan sebuah laporan terkait progres kegiatan tersebut dalam sebuah data statistik mengenai seberapa banyak objek yang telah terpetakan dalam kegiatan tersebut. Terdapat beberapa alat yang bisa digunakan untuk mendapatkan data statistik tersebut. Salah satu alat yang akan kita pelajari saat ini adalah Map Campaigner.</description>
+    </item>
+    
+  </channel>
+</rss>

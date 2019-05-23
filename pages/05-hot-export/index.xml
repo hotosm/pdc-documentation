@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Penggunaan HOT Export on HOT-PDC Training Site</title>
+    <link>/pages/05-hot-export/</link>
+    <description>Recent content in Penggunaan HOT Export on HOT-PDC Training Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/pages/05-hot-export/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Download Data OSM dengan Menggunakan Export Tool</title>
+      <link>/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/</guid>
+      <description>Tujuan Pembelajaran
+ Memahami pengertian Export Tool Mempraktikkan cara mendapatkan data OSM dengan Export Tool  Setelah Anda belajar bagaimana menambahkan dan mengedit data pada OpenStreetMap (OSM), sekarang Anda akan mempelajari tentang bagaimana cara mendapatkan data OpenStreetMap yang telah di-upload ke server OSM. Data tersebut dapat digunakan untuk analisis data, kustomisasi simbologi data, membuat peta, dan lainnya sesuai kebutuhan Anda.
+I. Pengertian Export Tool Export tool adalah sebuah layanan terbuka yang digunakan untuk men-download data OSM terbaru yang memberikan kebebasan bagi pengguna untuk memilih data yang akan mereka download di area tertentu.</description>
+    </item>
+    
+  </channel>
+</rss>

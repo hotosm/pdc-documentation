@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Panduan OpenStreetMap untuk Surveyor on HOT-PDC Training Site</title>
+    <link>/pages/01-osm-field-surveyor-guideliness/</link>
+    <description>Recent content in Panduan OpenStreetMap untuk Surveyor on HOT-PDC Training Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/pages/01-osm-field-surveyor-guideliness/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Metodologi Pengumpulan Data</title>
+      <link>/pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami persiapan pengumpulan data Mengetahui alur kerja dalam pengumpulan data Mengetahui peralatan yang digunakan dalam pengumpulan data Mengetahui cara mengambil data di lapangan  Melakukan pengumpulan data atau yang disebut survei lapangan merupakan sesuatu penting khususnya dalam kegiatan pemetaan. Dalam melakukan pemetaan khususnya dalam konteks kebencanaan pengumpulan informasi adalah hal yang tidak dapat diabaikan. Meskipun saat ini perkembangan teknologi sudah dapat membantu Anda dalam melakukan pemetaan jarak jauh akan tetapi tidak semua informasi dapat dikumpulkan hanya dengan mengandalkan citra satelit atau foto udara.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan Aplikasi ODK Collect</title>
+      <link>/pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu menjelaskan ODK Collect sebagai salah satu alat mengambil data infrastruktur Mampu mengoperasikan cara pengaturan awal untuk aplikasi ODK Collect Mampu menerapkan cara penggunaan ODK Collect untuk pengumpulan data survei  I. Apa itu ODK Collect Open Data Kit Collect (ODK Collect) merupakan aplikasi pengumpulan data di lapangan berbasis android. ODK Collect dapat menggantikan formulir survei dalam bentuk kertas menjadi bentuk digital. Oleh karena itu, aplikasi ini dapat membantu kegiatan pemetaan dan pengumpulan data di lapangan yang juga memungkinkan menyimpan informasi lokasi dan foto sekaligus.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan Aplikasi OpenMapKit</title>
+      <link>/pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu menjelaskan OpenMapkit sebagai salah satu alat mengambil data infrastruktur Mampu mengoperasikan cara pengaturan awal untuk aplikasi OpenMapKit Mampu mengoperasikan cara memasukkan offline basemap untuk OpenMapKit Mampu menerapkan cara penggunaan OpenMapKit  Sebelumnya Anda sudah mempelajari aplikasi ODK (OpenDataKit) Collect, sebuah aplikasi berbasis android pengganti formulir kertas untuk survei. ODK Collect memiliki ekstensi tambahan yang dinamakan OpenMapKit (OMK). Ekstensi tambahan ini digunakan untuk menambahkan informasi posisi atau letak objek yang disurvei.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan Aplikasi OSMTracker</title>
+      <link>/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/</guid>
+      <description>Tujuan Pembelajaran:
+ Menjelaskan OSMTracker sebagai salah satu alat mengambil rute perjalanan dan pengambilan gambar objek Mengoperasikan cara pengaturan awal untuk OSMTracker Menerapkan cara penggunaan OSMTracker  1. Apa itu OSMTracker? OSMTracker adalah sebuah aplikasi android yang memungkinkan kita untuk mengambil data saat melakukan saat survei lapangan. Sama seperti GPS, OSMTracker mampu untuk merekam waypoint dan juga track survei. Jika Anda ingin mengetahui tentang penggunaan GPS untuk survei lapangan, silakan Anda lihat Modul Penggunaan GPS.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan GPS</title>
+      <link>/pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/</guid>
+      <description>Tujuan Pembelajaran:
+ Mengetahui bagian-bagian yang ada di GPS Memahami cara menyalakan GPS Memahami cara menggunakan GPS Memahami definisi dari rute perjalanan dan titik objek pada GPS Memahami cara menyalakan perekaman rute perjalanan pada GPS Memahami cara menyimpan titik pada GPS Memahami cara menyalin rute perjalanan dan titik ke laptop  Dalam melakukan survei lapangan, dibutuhkan suatu alat navigasi yang memiliki fungsi sebagai perekam jejak dan titik. Alat yang sering digunakan adalah Global Positioning System atau GPS.</description>
+    </item>
+    
+  </channel>
+</rss>

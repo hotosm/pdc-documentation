@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HOT-PDC Training Site</title>
+    <link>/</link>
+    <description>Recent content on HOT-PDC Training Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Download Data OSM dengan Menggunakan Export Tool</title>
+      <link>/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/</guid>
+      <description>Tujuan Pembelajaran
+ Memahami pengertian Export Tool Mempraktikkan cara mendapatkan data OSM dengan Export Tool  Setelah Anda belajar bagaimana menambahkan dan mengedit data pada OpenStreetMap (OSM), sekarang Anda akan mempelajari tentang bagaimana cara mendapatkan data OpenStreetMap yang telah di-upload ke server OSM. Data tersebut dapat digunakan untuk analisis data, kustomisasi simbologi data, membuat peta, dan lainnya sesuai kebutuhan Anda.
+I. Pengertian Export Tool Export tool adalah sebuah layanan terbuka yang digunakan untuk men-download data OSM terbaru yang memberikan kebebasan bagi pengguna untuk memilih data yang akan mereka download di area tertentu.</description>
+    </item>
+    
+    <item>
+      <title>Integrasi Data OpenStreetMap di InAWARE</title>
+      <link>/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/</guid>
+      <description>Tujuan Pembelajaran:
+ Mengetahui Cara Membuat Membuat Akun di InAWARE Memasukkan Data OpenStreetMap ke dalam InAWARE  Salah satu tujuan dari kegiatan pemetaan yang dilakukan dalam Proyek HOT - PDC InAWARE adalah untuk melengkapi data di OpenStreetMap sekaligus untuk membantu pemerintah khususnya Badan Nasional Penanggulangan Bencana (BNPB) dan Badan Penanggulangan Bencana Daerah (BPBD) dalam melengkapi data mereka di InAWARE, platform yang dibuat oleh Pacific Disaster Center (PDC), sebuah lembaga dari University of Hawaii, untuk melakukan manajemen penanggulangan bencana.</description>
+    </item>
+    
+    <item>
+      <title>Konsep Penjaminan Kualitas</title>
+      <link>/pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami pengertian penjaminan kualitas Memahami pengertian penjaminan kualitas data di OpenStreetMap  OpenStreetMap (OSM) merupakan peta dunia yang bersifat bebas dan terbuka. OSM memiliki banyak data dan informasi mengenai berbagai macam objek yang ada di permukaan bumi. Data tersebut dikumpulkan dan dimasukkan oleh pengguna OSM yang tersebar di seluruh dunia. Beragamnya data yang dimasukkan dan dikumpulkan oleh pengguna OSM seringkali mengakibatkan kualitas data yang dimiliki menjadi berbeda satu dengan yang lain dan kurangnya pemahaman pengguna OSM mengenai kualitas data juga mempengaruhi hasil data yang ada di di OSM.</description>
+    </item>
+    
+    <item>
+      <title>Membuat dan Mengelola Tasking Manager</title>
+      <link>/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/</guid>
+      <description>Tujuan Pembelajaran:
+ Menjelaskan fungsi dari Tasking Manager dalam Konteks Pemetaan Partisipatif Mengoperasikan cara membuat Tasking Manager Mengoperasikan cara mengatur Tasking manager yang sudah ada  Anda tentunya sudah mengetahui bagaimana cara menggunakan tasking manager untuk melakukan kegiatan pemetaan secara bersama-sama. Ketika Anda menggunakan tasking manager yang tidak sesuai dengan wilayah yang Anda inginkan, maka Anda ingin membuat tasking manager untuk wilayah Anda sendiri. Pada modul ini, Anda akan mempelajari bagaimana cara membuat tasking manager.</description>
+    </item>
+    
+    <item>
+      <title>Metodologi Kerangka Kerja Pemetaan PDC InAWARE</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami cara membuat kerangka kegiatan pemetaan Memahami cara pembagian arsip untuk masing-masing kelompok survei Memahami cara pembagian area survei berdasarkan batas administrasi Mengetahui cara pembagian kelompok yang efektif  Perencanaan proyek pemetaan memerlukan metodologi survei yang tepat dan efisien untuk mencapai target dan tujuan pemetaan. Indikator-indikator yang perlu diperhatikan dalam pembuatan metodologi survei meliputi: luas wilayah survei, jumlah tim pemetaan, jumlah objek yang dikumpulkan, dan pendanaan proyek.</description>
+    </item>
+    
+    <item>
+      <title>Metodologi Pengumpulan Data</title>
+      <link>/pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami persiapan pengumpulan data Mengetahui alur kerja dalam pengumpulan data Mengetahui peralatan yang digunakan dalam pengumpulan data Mengetahui cara mengambil data di lapangan  Melakukan pengumpulan data atau yang disebut survei lapangan merupakan sesuatu penting khususnya dalam kegiatan pemetaan. Dalam melakukan pemetaan khususnya dalam konteks kebencanaan pengumpulan informasi adalah hal yang tidak dapat diabaikan. Meskipun saat ini perkembangan teknologi sudah dapat membantu Anda dalam melakukan pemetaan jarak jauh akan tetapi tidak semua informasi dapat dikumpulkan hanya dengan mengandalkan citra satelit atau foto udara.</description>
+    </item>
+    
+    <item>
+      <title>Pengenalan OpenStreetMap</title>
+      <link>/pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu menjelaskan pengertian OpenStreetMap Mampu menjelaskan sejarah terbentuknya OpenStreetMap Mampu menjelaskan keuntungan menggunakan OpenStreetMap Mampu menjelaskan pemanfaatan OpenStreetMap Mampu menjelaskan konsep dasar peta dan OpenStreetMap  Sekarang ini banyak orang yang menggunakan peta digital, namun masih sedikit yang menggunakan peta digital terbuka. Peta digital terbuka memiliki sifat yang gratis dan dapat diedit oleh siapa saja. Salah satu peta digital terbuka adalah OpenStreetMap. Pada modul ini, Anda akan mempelajari segala sesuatu mengenai OpenStreetMap.</description>
+    </item>
+    
+    <item>
+      <title>Memulai menggunakan OpenStreetMap</title>
+      <link>/pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu mengoperasikan dan melakukan navigasi situs OpenStreetMap Mampu melihat informasi objek di OpenStreetMap Mampu menerapkan pembuatan tautan OpenStreetMap Mampu menyimpan gambar dari peta OSM Mampu menerapkan pembuatan akun di OpenStreetMap Mampu memahami konsep dasar atribut OpenStreetMap Mampu memahami riwayat yang terdapat peta OSM di situs OSM  Setelah Anda memahami pengertian OpenStreetMap pada modul sebelumnya, Anda dapat langsung memulai untuk menggunakan OpenStreetMap. Pada modul ini Anda akan memulai untuk mengenal situs OpenStreetMap, membuat akun OSM, dan mengetahui tombol-tombol menu serta cara penggunaannya.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan Aplikasi ODK Collect</title>
+      <link>/pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu menjelaskan ODK Collect sebagai salah satu alat mengambil data infrastruktur Mampu mengoperasikan cara pengaturan awal untuk aplikasi ODK Collect Mampu menerapkan cara penggunaan ODK Collect untuk pengumpulan data survei  I. Apa itu ODK Collect Open Data Kit Collect (ODK Collect) merupakan aplikasi pengumpulan data di lapangan berbasis android. ODK Collect dapat menggantikan formulir survei dalam bentuk kertas menjadi bentuk digital. Oleh karena itu, aplikasi ini dapat membantu kegiatan pemetaan dan pengumpulan data di lapangan yang juga memungkinkan menyimpan informasi lokasi dan foto sekaligus.</description>
+    </item>
+    
+    <item>
+      <title>Model Data OpenStreetMap</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami konsep tag, key, dan value di OpenStreetMap Mengenal halaman Wikipedia OpenStreetMap untuk melihat key dan value Memahami objek yang dapat dipetakan di dalam OpenStreetMap Mengetahui dan memahami model data sebagai rencana persiapan pemetaan Mengecek penggunaan key dan value tertentu di Situs TagInfo  Dalam modul ini, Anda akan mempelajari tentang konsep key dan value yang ada di OpenStreetMap (OSM) kemudian anda juga akan mengetahui tentang model data yang ada di OSM.</description>
+    </item>
+    
+    <item>
+      <title>Penggunaan JOSM untuk Validasi Data Survei</title>
+      <link>/pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/02_penggunaan_josm_untuk_validasi_data_survei/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/02_penggunaan_josm_untuk_validasi_data_survei/</guid>
+      <description>Tujuan Pembelajaran:
+ Menerapkan cara pengecekkan awal data hasil survei lapangan di JOSM Menerapkan cara penjaminan kualitas data hasil survei dengan JOSM Memahami jenis-jenis kesalahan dan peringatan yang harus diperbaiki di JOSM  JOSM merupakan software yang paling sering digunakan untuk melakukan pemetaan dan menambahkan data OpenStreetMap. JOSM lebih banyak digunakan karena dapat digunakan secara offline dan memiliki banyak fitur pendukung untuk memudahkan dalam melakukan pemetaan. Salah satu fitur unggulan yang dimiliki oleh JOSM adalah melakukan validasi data.</description>
+    </item>
+    
+    <item>
+      <title>Penggunaan Tasking Manager</title>
+      <link>/pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/</guid>
+      <description>Tujuan Pembelajaran:
+ Menjalankan fungsi dari tasking manager dalam konteks pemetaan partisipatif Mengoperasikan cara menggunakan tasking manager untuk kegiatan pemetaan  OpenStreetMap sebagai sebuah alternatif untuk melakukan pemetaan secara bebas dan terbuka memungkinkan semua orang tanpa terkecuali untuk dapat melakukan pemetaan dimanapun dan kapanpun. Namun, bagaimana jika Anda ingin melakukan pemetaan secara serentak yang dilakukan oleh banyak orang? Tentunya Anda membutuhkan sebuah alat untuk dapat membagi pekerjaan pemetaan tersebut supaya bisa dikerjakan oleh banyak orang.</description>
+    </item>
+    
+    <item>
+      <title>Membuat Presets</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami pengertian dan konsep Presets di OpenStreetMap Mengerti dan memahami Bahasa XML di Presets OpenStreetMap Mengerti Membuat Presets Khusus di OpenStreetMap Memahami dan mengerti elemen-elemen penyusun presets  Seperti yang telah dipahami bahwa OpenStreetMap merupakan peta partisipatif yang bersifat terbuka untuk seluruh dunia. Hal ini menjelaskan bahwa pemanfaatan OpenStreetMap untuk pemetaan akan beragam pula. Semakin banyak pemetaan dengan tujuan yang berbeda-beda maka akan menimbulkan banyaknya variasi informasi yang dihasilkan.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan Aplikasi OpenMapKit</title>
+      <link>/pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu menjelaskan OpenMapkit sebagai salah satu alat mengambil data infrastruktur Mampu mengoperasikan cara pengaturan awal untuk aplikasi OpenMapKit Mampu mengoperasikan cara memasukkan offline basemap untuk OpenMapKit Mampu menerapkan cara penggunaan OpenMapKit  Sebelumnya Anda sudah mempelajari aplikasi ODK (OpenDataKit) Collect, sebuah aplikasi berbasis android pengganti formulir kertas untuk survei. ODK Collect memiliki ekstensi tambahan yang dinamakan OpenMapKit (OMK). Ekstensi tambahan ini digunakan untuk menambahkan informasi posisi atau letak objek yang disurvei.</description>
+    </item>
+    
+    <item>
+      <title>Pengenalan Java OpenStreetMap (JOSM)</title>
+      <link>/pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/</guid>
+      <description>Tujuan Pembelajaran:
+ Mengerti cara download file instalasi JOSM Mampu melakukan instalasi JOSM Mampu mengubah pengaturan JOSM Memahami tampilan antarmuka JOSM  JOSM adalah singkatan dari Java OpenStreetMap yang merupakan perangkat editor OpenStreetMap berbasis desktop. JOSM memungkinkan Anda melakukan proses edit data pemetaan secara offline untuk sementara waktu atau tidak harus selalu terkoneksi dengan internet. Hal ini tentunya akan memudahkan Anda yang bekerja dalam keterbatasan koneksi internet. Anda hanya membutuhkan koneksi internet ketika akan men-download data dari OpenStreetMap dan ketika akan men-upload data ke server OpenStreetMap.</description>
+    </item>
+    
+    <item>
+      <title>Penjaminan Kualitas Data dengan Tasking Manager</title>
+      <link>/pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami penjaminan kualitas data dengan menggunakan Tasking Manager  Sebelumnya Anda pasti sudah pernah editing data OpenStreetMap menggunakan tasking manager. Tasking manager memudahkan Anda untuk mengedit data OpenStreetMap secara bersama-sama tanpa harus khawatir akan terjadi konflik dengan orang lain karena mengerjakan area yang sama. Selain untuk mengedit data OpenStreetMap, Anda juga dapat melakukan validasi menggunakan tasking manager sehingga Anda dapat melakukan validasi secara bersama-sama.
+1. Penjaminan Kualitas Data dengan Tasking Manager a.</description>
+    </item>
+    
+    <item>
+      <title>JOSM untuk Perhitungan Kualitas Data</title>
+      <link>/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami cara memilih dan menghitung jumlah objek dalam suatu batas administrasi Mengetahui cara menghitung jumlah error dan warning dalam suatu batas administrasi Mengetahui cara melakukan validasi batas-batas administrasi  Dalam melakukan kegiatan pemetaan salah satu targetnya adalah menghasilkan peta yang berkualitas. Salah satu kualitas yang dimaksud berupa kelengkapan jumlah data dan informasi yang diperoleh dalam kegiatan pengumpulan data di lapangan. Pemanfaatan OpenStreetMap sebagai peta dasar yang digunakan untuk menampilkan hasil pengumpulan data di lapangan dapat membantu Anda dalam melakukan perhitungan baik dari banyaknya data objek yang ada kumpulkan dan juga informasi yang terdapat di dalamnya.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan Aplikasi OSMTracker</title>
+      <link>/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/</guid>
+      <description>Tujuan Pembelajaran:
+ Menjelaskan OSMTracker sebagai salah satu alat mengambil rute perjalanan dan pengambilan gambar objek Mengoperasikan cara pengaturan awal untuk OSMTracker Menerapkan cara penggunaan OSMTracker  1. Apa itu OSMTracker? OSMTracker adalah sebuah aplikasi android yang memungkinkan kita untuk mengambil data saat melakukan saat survei lapangan. Sama seperti GPS, OSMTracker mampu untuk merekam waypoint dan juga track survei. Jika Anda ingin mengetahui tentang penggunaan GPS untuk survei lapangan, silakan Anda lihat Modul Penggunaan GPS.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan Java OpenStreetMap (JOSM)</title>
+      <link>/pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami cara menggunakan alat dasar di JOSM Mampu mengoperasikan penggambaran tingkat lanjut di JOSM Memahami tips editing di JOSM Memahami cara menggambar objek khusus seperti jembatan, kompleks sekolah, dan jaringan jalan.  Java OpenStreetMap atau biasa yang disebut dengan JOSM adalah perangkat editor OpenStreetMap berbasis desktop. JOSM memungkinkan Anda melakukan proses edit data pemetaan secara offline untuk sementara waktu atau tidak harus selalu terkoneksi dengan internet. Jika pada modul sebelumnya Anda mempelajari pengoperasian JOSM, maka pada modul ini Anda akan mempelajari cara menggunakan JOSM.</description>
+    </item>
+    
+    <item>
+      <title>Penggunaan YAML pada Export Tool</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04_penggunaan_yaml_pada_export_tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04_penggunaan_yaml_pada_export_tool/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu memahami konsep YAML Mampu membuat YAML untuk struktur data OSM Mampu mengoperasikan YAML untuk men-download data OSM pada Export Tool  Pada bab sebelumnya, Anda telah mempelajari bagaimana mengenal tag informasi objek di dalam OpenStreetMap. Anda juga telah menentukan objek-objek yang akan dikumpulkan pada saat survei lapang. Pada saat proses pengambilan data OSM yang telah di upload ke server menggunakan Export Tool, Anda menemukan kendala karena beberapa data atribut yang berasal dari tag info tidak dapat di download melalui tag yang disediakan Export Tool.</description>
+    </item>
+    
+    <item>
+      <title>Membuat Formulir Survei untuk Aplikasi ODK Collect &amp; OpenMapKit</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/</guid>
+      <description>Tujuan pembelajaran:
+ Menjelaskan konsep XLSForm Mengoperasikan pembuatan XLSForm untuk ODK Collect Mengoperasikan pembuatan XLSForm untuk OpenMapKit  Dalam kegiatan survei lapangan terkadang Anda membutuhkan sebuah formulir survei. Bayangkan apabila Anda membutuhkan formulir survei dengan puluhan pertanyaan untuk setiap responden, Anda tentunya akan mengalami kesulitan pada saat pengisian data dan juga pada saat memasukkan data ke dalam laptop. Pada materi ini Anda akan belajar bagaimana cara membuat sebuah formulir survei dalam format digital yang nantinya akan dimasukkan ke dalam perangkat telepon genggam Anda.</description>
+    </item>
+    
+    <item>
+      <title>Menambahkan Data Hasil Survei ke OSM Menggunakan JOSM</title>
+      <link>/pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu menerapkan cara menginstal plugin Utilsplugin2 Mampu menerapkan cara menggabungkan data hasil survei Mampu menerapkan cara menyimpan file di JOSM Mampu menerapkan cara men-download data OpenStreetMap Mampu menerapkan cara memunculkan citra satelit di JOSM Mampu menerapkan, menambahkan dan mengubah data OSM menggunakan JOSM Mampu menerapkan cara meng-upload perubahan ke OSM Mampu menerapkan cara melihat perubahan data OSM di situs OSM  Data OSM dapat diperkaya dengan cara menambahkan atau memetakan objek di OSM.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan GPS</title>
+      <link>/pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/</guid>
+      <description>Tujuan Pembelajaran:
+ Mengetahui bagian-bagian yang ada di GPS Memahami cara menyalakan GPS Memahami cara menggunakan GPS Memahami definisi dari rute perjalanan dan titik objek pada GPS Memahami cara menyalakan perekaman rute perjalanan pada GPS Memahami cara menyimpan titik pada GPS Memahami cara menyalin rute perjalanan dan titik ke laptop  Dalam melakukan survei lapangan, dibutuhkan suatu alat navigasi yang memiliki fungsi sebagai perekam jejak dan titik. Alat yang sering digunakan adalah Global Positioning System atau GPS.</description>
+    </item>
+    
+    <item>
+      <title>Meletakkan Formulir Survei ke Ona.io</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu menjelaskan manfaat penggunaan Ona.io Menjelaskan cara mengunggah formulir survei ke server Ona.io  Setelah kita berhasil membuat formulir survei yang telah dipelajari pada modul Membuat Form Survey untuk Aplikasi ODK Collect &amp;amp; OpenMapKit, Anda akan mempelajari platform yang digunakan untuk mengunggah formulir survei ke salah satu platform. Platform yang digunakan pada materi ini adalah Ona.io. Ona.io merupakan salah satu platform yang dapat digunakan untuk meletakkan formulir survei yang akan digunakan untuk kegiatan survei lapangan menggunakan ODK Collect atau OpenMapKit.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan To-Do List di JOSM</title>
+      <link>/pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu melakukan instalasi alat tambahan untuk memasukkan data di JOSM Mampu mengoperasikan alat tambahan to-do list di JOSM untuk memasukkan data  Setelah melakukan kegiatan survei dengan menggunakan aplikasi OpenMapKit (OMK), langkah selanjutnya yang perlu Anda lakukan ialah memasukkan data survei berupa objek-objek titik lokasi tersebut ke dalam OpenStreetMap dengan menggunakan JOSM. Untuk memudahkan Anda dalam melakukan hal tersebut, Anda perlu menginstal perangkat tambahan pada JOSM yaitu plugin Todo list.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan Alat Filter di JOSM</title>
+      <link>/pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/</guid>
+      <description>Tujuan Pembelajaran:
+ Melakukan aktivasi mode penyaring data di JOSM Mengoperasikan alat untuk menyaring data di JOSM  JOSM memiliki berbagai macam alat yang dapat memudahkan penggunanya untuk melakukan pemetaan. Salah satu alat yang dapat digunakan adalah filter. Filter merupakan sebuah alat tambahan untuk memilih salah satu objek berdasarkan informasi (tag) objek di OpenStreetMap (key dan value), sehingga Anda dapat mengedit dan memeriksa data OSM berdasarkan informasi tertentu dari suatu objek.</description>
+    </item>
+    
+    <item>
+      <title>Pembuatan Peta Survei dengan Menggunakan QGIS</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07.pembuatan_peta_survey_dengan_qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07.pembuatan_peta_survey_dengan_qgis/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami cara instalasi QGIS pada komputer/laptop Memahami cara mengoperasikan QGIS untuk memasang plugin Memahami cara mengoperasikan QGIS untuk membuat peta survei  Peta survei digunakan untuk memudahkan data entry dalam pengenalan dan identifikasi lokasi saat survei lapangan. Jika Anda ingin melakukan pemetaan batas administrasi, peta survei ini dapat juga digunakan untuk menggambarkan batas administrasi terbaru yang dihasilkan dari diskusi dengan pihak kelurahan atau pemerintahan yang mengetahui batas wilayah tersebut.</description>
+    </item>
+    
+    <item>
+      <title>Menggunakan buildings tools di JOSM</title>
+      <link>/pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu menerapkan cara melakukan instalasi alat tambahan untuk membuat objek bangunan Mampu menerapkan cara mengoperasikan alat tambahan di JOSM untuk membuat objek bangunan  Jika Anda menambahkan data di JOSM tanpa melakukan survei lapangan, data yang ditambahkan akan memiliki informasi yang terbatas karena hanya menggunakan citra satelit sebagai acuan pemetaan. Salah satu objek yang dapat dipetakan menggunakan citra satelit adalah bangunan. Namun, Anda tidak dapat mengetahui fungsi spesifik bangunan yang dipetakan menggunakan citra satelit kecuali bentuk bangunannya cukup berbeda misalnya sekolah yang berbentuk seperti huruf L atau huruf U.</description>
+    </item>
+    
+    <item>
+      <title>Pembuatan MBTiles untuk OpenMapKit (OMK)</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami konsep MBTiles Mengoperasikan cara membuat MBTiles dengan menggunakan Export Tool Mengoperasikan cara membuat MBTiles dengan menggunakan Plugin QTiles Memahami cara memindahkan file MBTiles ke dalam OMK pada smartphone  Pada saat Anda menggunakan aplikasi OpenMapKit (OMK) untuk melakukan survei lapangan, terkadang Anda akan mengalami kesulitan dalam menentukan objek di aplikasi tersebut. Hal ini dikarenakan, latar belakang peta yang digunakan belum dipetakan di dalam OpenStreetMap dan Anda tidak memiliki waktu untuk mendigitasi objek di wilayah survei.</description>
+    </item>
+    
+    <item>
+      <title>Pembuatan Batas Administrasi dengan JOSM</title>
+      <link>/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu memahami pengertian dan contoh relasi data di OpenStreetMap Mampu memahami konsep batas administrasi di OpenStreetMap Mampu memahami syarat dan ketentuan membuat batas administrasi di OpenStreetMap Mampu membuat batas administrasi di OpenStreetMap  Pemetaan batas administrasi di dalam OpenStreetMap merupakan hal yang rumit dan disarankan pengguna yang sudah mahir atau terbiasa menggunakan OSM yang melakukan digitasi dan meng-upload ke dalam OSM. Sumber data yang digunakan dalam penarikan batas administrasi dan penentuan wilayah administrasi harus melibatkan pihak pemerintah yang mengetahui batas tersebut.</description>
+    </item>
+    
+    <item>
+      <title>Perhitungan Kuantitas Data Menggunakan Plugin Group Stats</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09_perhitungan_kuantitas_data_dengan_group_stats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09_perhitungan_kuantitas_data_dengan_group_stats/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami cara melakukan instalasi tambahan (plugin) untuk menghitung jumlah objek menggunakan QGIS Memahami cara mengoperasikan group stats untuk menghitung jumlah objek di QGIS  Kuantitas adalah kualitas sesuatu hal yang terbentuk dari proses perhitungan dan pengukuran (Thompson:1990). Perhitungan kuantitas data dapat menjadi indikator dalam pencapaian proyek pemetaan yang dapat dituangkan ke dalam sebuah laporan pemetaan. Proses perhitungan kuantitas data OSM dapat dilakukan dengan menginstal plugin group stats di QGIS secara gratis, plugin ini dapat digunakan untuk menghitung jumlah objek berdasarkan kategori tertentu.</description>
+    </item>
+    
+    <item>
+      <title>Konversi Data Shapefile ke GeoJSON</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/</guid>
+      <description>Tujuan Pembelajaran: * Memahami Pengertian Data GeoJSON * Mengetahui Melakukan Konversi Shapefile ke GeoJSON dengan QGIS * Mengetahui Cara Mendapatkan GeoJSON dengan Overpass Turbo * Mengetahui Melakukan Konversi Shapefile ke GeoJSON dengan GeoData Converter
+Jika Anda tidak memiliki latar belakang pendidikan di bidang geografi ataupun tidak terlalu familier dengan Sistem Informasi Geografi (SIG) maka format GeoJSON ini mungkin terdengar asing bagi Anda. Akan tetapi, Anda tidak perlu khawatir dengan hal tersebut karena mendapatkan data spasial dengan format GeoJSON tidak sesulit yang Anda kira.</description>
+    </item>
+    
+    <item>
+      <title>Mengatasi Konflik pada Data OpenStreetMap (OSM)</title>
+      <link>/pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/</guid>
+      <description>Tujuan Pembelajaran:
+ Mampu menjelaskan pengertian konflik data OSM pada JOSM Mampu menjelaskan jenis-jenis konflik data di JOSM Mampu melakukan cara memperbaiki konflik data di JOSM Mampu memahami cara menghindari konflik data di JOSM  Saat Anda meng-upload objek dengan menggunakan JOSM, beberapa kontributor OSM mungkin saja sedang mengedit wilayah yang sama dengan Anda. Hal ini dapat menimbulkan konflik pada saat Anda meng-upload objek OSM. Untuk itu, pada modul ini Anda akan mempelajari apa itu konflik pada JOSM, jenis konflik, dan cara menyelesaikan konflik pada JOSM.</description>
+    </item>
+    
+    <item>
+      <title>Membuat dan Mengelola Map Campaigner untuk Pemetaan</title>
+      <link>/pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/</guid>
+      <description>Tujuan pembelajaran:
+ Mengetahui dan memahami cara kerja Map Campaigner Mengoperasikan Map Campaigner untuk membuat kegiatan pemetaan Mengoperasikan Map Campaigner untuk memantau kegiatan pemetaan  Dalam melaksanakan proyek pemetaan seringkali Anda membutuhkan sebuah laporan terkait progres kegiatan tersebut dalam sebuah data statistik mengenai seberapa banyak objek yang telah terpetakan dalam kegiatan tersebut. Terdapat beberapa alat yang bisa digunakan untuk mendapatkan data statistik tersebut. Salah satu alat yang akan kita pelajari saat ini adalah Map Campaigner.</description>
+    </item>
+    
+  </channel>
+</rss>

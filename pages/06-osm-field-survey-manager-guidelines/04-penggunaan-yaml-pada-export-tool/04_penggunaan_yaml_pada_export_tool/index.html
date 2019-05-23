@@ -1,0 +1,725 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOT-PDC Training Site</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../../../../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../../favicon-16x16.png">
+<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+
+
+
+<link rel="stylesheet" href="../../../../normalize.min.css">
+
+<link rel="stylesheet" href="../../../../book.min.eef33454e9c5a767233b17f85141d9e41283b74cf9b6aad8a63ba7849076a025.css">
+
+<!--
+Made with Book Theme
+https://github.com/hotosm/hugo-book
+-->
+  
+</head>
+
+<body>
+  <header class="header-nav" id="nav">
+    <div class="nav-container">
+      <a class="nav-title with-logo" href="../../../../">
+        <img class="logo" src="../../../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
+        <span>HOT-PDC Training Site</span>
+      </a>
+      <a class="nav-guide-link guide-active" href="../../../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/" >Guide</a>
+      <div class="hr-v"></div>
+      <a class="nav-pdf-download" href="../../../../pdfs/HOT-PDC_Training_Site.pdf">Download PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+      </a>
+      <input type="checkbox" style="display: none" id="menu-control" />      
+    </div>
+    <div class="nav-right">
+    
+    
+    
+    
+    <div class="hr-v"></div>
+    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../../svg/icon-external-red.svg" alt=""></a>
+    </div>
+  </header>
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+
+
+
+
+<a href="../../../../" >Introduction</a>  
+
+    
+
+
+  
+  
+    
+  
+ 
+  
+  <ul>
+    
+    <li>
+    
+    Panduan OpenStreetMap untuk Surveyor 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/">
+    Metodologi Pengumpulan Data</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/">
+    Menggunakan Aplikasi ODK Collect</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/">
+    Menggunakan Aplikasi OpenMapKit</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/">
+    Menggunakan Aplikasi OSMTracker</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/">
+    Menggunakan GPS</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    HOT Tasking Manager 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/">
+    Membuat dan Mengelola Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/">
+    Penggunaan Tasking Manager</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    JOSM 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/">
+    Pengenalan OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/">
+    Memulai menggunakan OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/">
+    Pengenalan Java OpenStreetMap (JOSM)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/">
+    Menggunakan Java OpenStreetMap (JOSM)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/">
+    Menambahkan Data Hasil Survei ke OSM Menggunakan JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/">
+    Menggunakan To-Do List di JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/">
+    Menggunakan Alat Filter di JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/">
+    Menggunakan buildings tools di JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/">
+    Pembuatan Batas Administrasi dengan JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/">
+    Mengatasi Konflik pada Data OpenStreetMap (OSM)</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Validasi Data dan Penjaminan Kualitas 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/">
+    Konsep Penjaminan Kualitas</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/02_penggunaan_josm_untuk_validasi_data_survei/">
+    Penggunaan JOSM untuk Validasi Data Survei</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/">
+    Penjaminan Kualitas Data dengan Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/">
+    JOSM untuk Perhitungan Kualitas Data</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Penggunaan HOT Export 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/">
+    Download Data OSM dengan Menggunakan Export Tool</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Panduan Pemetaan Lapangan untuk Manajer Proyek 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/">
+    Metodologi Kerangka Kerja Pemetaan PDC InAWARE</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/">
+    Model Data OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/">
+    Membuat Presets</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04_penggunaan_yaml_pada_export_tool/" class="active">
+    Penggunaan YAML pada Export Tool</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/">
+    Membuat Formulir Survei untuk Aplikasi ODK Collect &amp; OpenMapKit</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/">
+    Meletakkan Formulir Survei ke Ona.io</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07.pembuatan_peta_survey_dengan_qgis/">
+    Pembuatan Peta Survei dengan Menggunakan QGIS</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/">
+    Pembuatan MBTiles untuk OpenMapKit (OMK)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09_perhitungan_kuantitas_data_dengan_group_stats/">
+    Perhitungan Kuantitas Data Menggunakan Plugin Group Stats</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/">
+    Konversi Data Shapefile ke GeoJSON</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Menggunakan Map Campaigner 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/">
+    Membuat dan Mengelola Map Campaigner untuk Pemetaan</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Integrasi data OpenStreetMap ke InAWARE 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/">
+    Integrasi Data OpenStreetMap di InAWARE</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+
+
+
+
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="../../../../svg/menu.svg" />
+  </label>
+  <strong>
+    Penggunaan YAML pada Export Tool</strong>
+</header>
+
+      
+<article class="markdown">
+  <div class="markdown__header">  <h1>Penggunaan YAML pada Export Tool</h1>
+    <a href="../../../../pdfs/04_Penggunaan_YAML_pada_Export_Tool.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+    </a>
+  </div>
+
+<p><strong>Tujuan Pembelajaran:</strong></p>
+
+<ul>
+<li>Mampu memahami konsep YAML</li>
+<li>Mampu membuat YAML untuk struktur data OSM</li>
+<li>Mampu mengoperasikan YAML untuk men-<em>download</em> data OSM pada <em>Export Tool</em></li>
+</ul>
+
+<p>Pada bab sebelumnya, Anda telah mempelajari bagaimana mengenal <em>tag</em> informasi objek di dalam <em>OpenStreetMap</em>. Anda juga telah menentukan objek-objek yang akan dikumpulkan pada saat survei lapang. Pada saat proses pengambilan data OSM yang telah di <em>upload</em> ke server menggunakan <em>Export Tool</em>, Anda menemukan kendala karena beberapa data atribut yang berasal dari <em>tag</em> info tidak dapat di <em>download</em> melalui <em>tag</em> yang disediakan  <em>Export Tool</em>. Oleh karena itu, Anda dapat menggunakan YAML untuk men-<em>download</em> data dengan atribut yang sama seperti atribut yang dimasukkan saat pemetaan.</p>
+
+<h3 id="i-pengertian-yaml"><strong>I. Pengertian YAML</strong></h3>
+
+<p>YAML (<em>YAML Ain&rsquo;t Markup Language)</em> adalah sebuah struktur data sederhana yang dapat digunakan pada semua bahasa pemrograman. YAML dapat digunakan untuk membuat struktur data yang disesuaikan dengan <em>tag</em> (<em>key</em> dan <em>value</em>) data OSM, yang nantinya dapat berfungsi untuk menyaring data OSM berdasarkan <em>presets</em> yang digunakan saat proses memasukkan data OSM.</p>
+
+<h3 id="ii-pembuatan-yaml-untuk-filter-data-di-export-tool"><strong>II. Pembuatan YAML untuk Filter Data di <em>Export Tool</em></strong></h3>
+
+<p>Cara membuat YAML untuk struktur data OSM dapat dibagi menjadi empat bagian, yaitu :</p>
+
+<ul>
+<li>Judul <em>file</em> = menunjukkan nama <em>file</em></li>
+<li><em>Types</em>     = menunjukkan tipe data pemetaan, terdiri dari <em>points, lines</em>, dan <em>polygons</em></li>
+<li><em>Select</em>        = menunjukkan <em>key</em> yang berasal dari objek OSM</li>
+<li><em>Where</em> = menunjukkan letak objek pada data OSM, terdiri dari <em>key</em> dan <em>value</em> dari objek tersebut</li>
+</ul>
+
+<p><p align="center">
+  <img width=60% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0401_Struktur_format_YAML.png">
+</p>
+<p align="center"><i>Struktur format YAML untuk data OSM</i><p align="center"></p>
+
+<p>Dalam pembuatan YAML, Anda membutuhkan suatu editor tambahan untuk mempermudah dalam penulisan struktur data YAML. Editor tersebut adalah Notepad++, silakan <em>donwload</em>  <a href="https://notepad-plus-plus.org/download/v7.6.4.html">https://notepad-plus-plus.org/download/v7.6.4.html</a> lalu instal. Anda dapat membuka modul <strong>Pembuatan Model Data OSM</strong> untuk melihat daftar model data objek OSM yang akan dipetakan. Kemudian dari daftar tabel-tabel tersebut akan dibuat ke dalam struktur data YAML.  Langkah-langkah untuk membuat YAML, yaitu:</p>
+
+<ul>
+<li>Buka <strong>Notepad++</strong></li>
+<li>Buat daftar objek yang dipetakan yang sudah dibuat sebelumnya pada model data OSM</li>
+</ul>
+
+<p>Tabel Model Data OSM untuk Objek Bank</p>
+
+<table>
+  <tr>
+   <td><strong>key</strong>
+   </td>
+   <td><strong>possible values</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>amenity
+   </td>
+   <td>bank
+   </td>
+  </tr>
+  <tr>
+   <td>building
+   </td>
+   <td>bank
+   </td>
+  </tr>
+  <tr>
+   <td>name
+   </td>
+   <td><building name>
+   </td>
+  </tr>
+  <tr>
+   <td>addr:full
+   </td>
+   <td><address>
+   </td>
+  </tr>
+  <tr>
+   <td>capacity
+   </td>
+   <td><50, 50-100, 100-250, 250-500, >500
+   </td>
+  </tr>
+  <tr>
+   <td>building:levels
+   </td>
+   <td>1, 2, 3, 4-7, >7
+   </td>
+  </tr>
+  <tr>
+   <td>building:structure
+   </td>
+   <td>confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)
+   </td>
+  </tr>
+  <tr>
+   <td>building:walls
+   </td>
+   <td>brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca)
+   </td>
+  </tr>
+  <tr>
+   <td>buildings:floor
+   </td>
+   <td>ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)
+   </td>
+  </tr>
+  <tr>
+   <td>building:roof
+   </td>
+   <td>tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton)
+   </td>
+  </tr>
+  <tr>
+   <td>access:roof
+   </td>
+   <td>yes (Ada), no (Tidak ada)
+   </td>
+  </tr>
+  <tr>
+   <td>building: condition
+   </td>
+   <td>poor (Buruk), good (Baik)
+   </td>
+  </tr>
+  <tr>
+   <td>backup_generator
+   </td>
+   <td>yes (Ada), no (Tidak ada)
+   </td>
+  </tr>
+</table>
+
+<ul>
+<li><p>Pada baris pertama ketikkan <strong>nama <em>file</em> yang akan dijadikan judul <em>file</em></strong>, misalnya bank</p>
+
+<pre><code>  bank:
+</code></pre></li>
+
+<li><p>Pada baris kedua <strong>tekan enter + tab</strong> dan ketikkan <strong>types:</strong>, kemudian <strong>tekan enter + tab</strong>  dan isi tipe data tersebut berdasarkan model data OSM dengan mengetikkan ke bawah baris</p>
+
+<pre><code> types:
+    - points
+    - polygons
+</code></pre></li>
+
+<li><p>Tekan enter dan sesuaikan dengan baris types:, kemudian ketikkan <strong>select: → tekan enter + tab</strong> ketikkan daftar <strong>key</strong> yang terdapat pada objek “bank”.</p>
+
+<pre><code>select:
+    - amenity
+    - name
+    - addr:full
+    - addr:city
+    - capacity:persons
+    - building
+    - building:levels
+    - building:structure
+    - building:walls
+    - building:floor
+    - building:roof
+    - access:roof
+    - building:condition
+    - backup_generator
+    - source
+</code></pre></li>
+
+<li><p>Tahap terakhir, tekan enter dan sesuaikan dengan posisi types dan select <strong>→ ketikkan where: key dan value</strong>.</p>
+
+<pre><code>     where: amenity='bank'
+</code></pre></li>
+
+<li><p>Anda dapat meneruskan pembuatan YAML sampai seluruh objek pemetaan dimasukkan, yang disamakan dengan format seperti sebelumnya.</p></li>
+
+<li><p>Simpan struktur YAML tersebut dalam format <em>.txt</em> di dalam direktori komputer/laptop Anda.</p>
+
+<pre><code>   bank:
+    types:
+        - points
+        - polygons
+    select:
+        - amenity
+        - name
+        - addr:full
+        - addr:city
+        - capacity:persons
+        - building
+        - building:levels
+        - building:structure
+        - building:walls
+        - building:floor
+        - building:roof
+        - access:roof
+        - building:condition
+        - backup_generator
+        - source
+</code></pre></li>
+</ul>
+
+<h3 id="iii-penggunaan-yaml-pada-export-tool"><strong>III. Penggunaan YAML pada <em>Export Tool</em></strong></h3>
+
+<ul>
+<li>Buka halaman situs Anda, dan ketikkan link berikut ini <a href="https://export.hotosm.org">https://export.hotosm.org</a></li>
+</ul>
+
+<p><p align="center">
+  <img width=95% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0402_Halaman_Situs_Export.png">
+</p>
+<p align="center"><i>Halaman muka situs Export Tool</i><p align="center"></p>
+
+<ul>
+<li>Anda harus masuk menggunakan akun OSM dengan klik <strong><em>Login</em></strong> di sudut kanan atas. Apabila muncul <em>‘Authorize access to your account’</em> klik <strong><em>Grant Access</em></strong>. Periksa alamat email Anda untuk mengkonfirmasi pembuatan akun pada email yang masih aktif. Klik tautan pada email tersebut untuk konfirmasi pembuatan akun.</li>
+</ul>
+
+<p><p align="center">
+  <img width=95% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0403_Izin_akses_akun_OSM.png">
+</p>
+<p align="center"><i>Izin akses akun OSM</i><p align="center"></p>
+
+<ul>
+<li>Sekarang Anda sudah masuk dengan menggunakan akun OSM, kemudian klik <strong><em>Start Exporting</em></strong> untuk memulai proses <em>download</em> data OSM</li>
+<li>Pada <strong><em>Menu Describe</em></strong> akan muncul formulir isian dan gambar peta seperti gambar di bawah ini, formulir isian yang wajib diisi dan Anda dapat memilih area yang diinginkan pada gambar peta di sebelah kanan.</li>
+</ul>
+
+<p><p align="center">
+  <img width=90% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0404_Lembar_kerja_Export_Tool.png">
+</p>
+<p align="center"><i>Lembar kerja Export Tool</i><p align="center"></p>
+
+<ul>
+<li>Ada beberapa cara untuk menggambarkan area yang akan dipilih :</li>
+</ul>
+
+<p><strong><em>Box</em></strong> = Menggambar area dengan menggunakan kotak. Jika Anda ingin mengulang untuk pembuatan kotak klik tanda X pada kolom <em>Box</em>.</p>
+
+<p><p align="center">
+  <img width=80% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0405_Penentuan_area_box.png">
+</p>
+<p align="center"><i>Penentuan area dengan bentuk kotak</i><p align="center"></p>
+
+<p><strong><em>Draw</em></strong> = Menggambar area yang dipilih secara manual, Anda dapat klik pada area yang ingin digambar dan diakhiri dengan klik dua kali.</p>
+
+<p><p align="center">
+  <img width=80% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0406_Penentuan_area_dengan_bentuk_manual.png">
+</p>
+<p align="center"><i>Penentuan area dengan bentuk manual</i><p align="center"></p>
+
+<p><strong><em>Import</em></strong> = Menggunakan poligon dalam format <em>.geojson</em> untuk memilih area yang akan di <em>download</em>. Syarat format data <em>.geojson</em> yang dapat ditambahkan ke dalam <em>Export Tool</em> adalah harus satu fitur (satu baris) pada data atribut. Anda dapat membuka modul <strong>Menggunakan GeoJSON</strong> untuk mengetahui cara mendapatkan data <em>.geojson.</em></p>
+
+<p><p align="center">
+  <img width=80% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0407_Penentuan_area_dengan_import.png">
+</p>
+<p align="center"><i>Penentuan area dengan berdasarkan batas administrasi</i><p align="center"></p>
+
+<ul>
+<li>Jika sudah menyelesaikan formulir isian dan menentukan area yang akan di <em>download</em>, pilih menu <strong><em>Format</em></strong>. Pilih data spasial yang Anda inginkan, misalnya <em>.shapefile</em></li>
+</ul>
+
+<p><p align="center">
+  <img width=50% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0408_Format_data_spasial.png">
+</p>
+<p align="center"><i>Format data spasial</i><p align="center"></p>
+
+<ul>
+<li>Selanjutnya klik Menu <strong>Data → YAML</strong>. Salin struktur data YAML yang telah dibuat, tempelkan/<em>paste</em> ke kotak YAML</li>
+</ul>
+
+<p><p align="center">
+  <img width=70% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0409_Menu_YAML.png">
+</p>
+<p align="center"><i>Menu YAML</i><p align="center"></p>
+
+<ul>
+<li>Klik Menu <strong><em>Summary</em></strong>, Anda harus memilih apakah <em>file</em> ekspor ini akan dipublikasikan kepada umum atau hanya ada pada akun Anda. Kemudian klik <strong><em>Create Export</em></strong> untuk memulai proses ekspor data OSM.</li>
+</ul>
+
+<p><p align="center">
+  <img width=70% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0410_Menu_summary.png">
+</p>
+<p align="center"><i>Menu summary</i><p align="center"></p>
+
+<ul>
+<li>Tunggu beberapa saat sampai proses selesai. Jika <em>file export</em> Anda sudah selesai, <em>Export Tool</em> akan memberikan pemberitahuan melalui <em>email</em>, atau Anda dapat melihat hasilnya di Menu <strong><em>Export.</em></strong> Jika Anda ingin melihat hasil <em>export</em> yang dilakukan oleh pengguna lainnya, maka beri tanda centang <strong><em>Show all Export</em></strong>.</li>
+</ul>
+
+<p><p align="center">
+  <img width=90% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0411_Menu_export.png">
+</p>
+<p align="center"><i>Menu Export</i><p align="center"></p>
+
+<ul>
+<li>Jika proses sudah selesai akan muncul kotak dialog seperti di bawah ini dengan status <strong><em>COMPLETED</em></strong>, klik tulisan berwarna biru seperti <strong>nama file.shp.zip</strong> untuk menyimpan hasil ekspor data OSM.</li>
+</ul>
+
+<p><p align="center">
+  <img width=80% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0412_Done.png">
+</p>
+<p align="center"><i>Proses export tool telah selesai</i><p align="center"></p>
+
+<p><strong>Latihan!</strong></p>
+
+<p>Buatlah 2 (dua) proyek baru di <em>Export Tool</em> dan <em>download</em> data OSM dengan menggunakan tautan YAML berikut <a href="https://tinyurl.com/group-stats">https://tinyurl.com/group-stats</a>. Data OSM tersebut akan digunakan pada bab selanjutnya mengenai perhitungan jumlah objek menggunakan <em>plugin Group Stats</em>. Jika Anda telah berhasil, maka akan ada 2 (dua) <em>shapefile</em> yaitu fasum dan jalan.</p>
+
+<p><strong>RINGKASAN</strong></p>
+
+<p>Anda telah menyelesaikan proses men-<em>download</em> data spasial dengan menggunakan <em>Export Tool</em>. Dengan menggunakan YAML, data yang dihasilkan akan sesuai dengan data yang dimasukkan pada proyek pemetaan. Sehingga <em>file</em> tersebut sudah tertata rapi dan teratur, Anda dapat membuka <em>file</em> tersebut, untuk melihat data-data yang sudah dihasilkan dari pemetaan. <em>File</em> yang sudah di-<em>download</em> dapat dibuka di <em>software</em> pemetaan seperti QGIS.</p>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+    
+  <div>
+    <a href="https://github.com/hotosm/pdc-documentation/edit/master/content/pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/04_Penggunaan_YAML_pada_Export_Tool.md" target="_blank" rel="noopener">
+       Edit this page on GitHub
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/hotosm/pdc-documentation/commit/d05595e3a23f353c68459e6cc5869a4a8c70c8a7" title='Last modified May 16, 2019 00:25 UTC by dewisulistio' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> May 16, 2019
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    
+      
+  </aside>
+
+
+
+  </main>
+
+  
+  
+  <footer class="footer">
+
+    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
+    <a href="https://github.com/hotosm/pdc-documentation" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+    </svg></a>
+    
+
+  </footer>
+  
+</body>
+
+</html>

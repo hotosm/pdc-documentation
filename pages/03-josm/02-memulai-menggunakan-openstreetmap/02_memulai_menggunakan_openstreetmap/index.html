@@ -1,0 +1,727 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOT-PDC Training Site</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../../../../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../../favicon-16x16.png">
+<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+
+
+
+<link rel="stylesheet" href="../../../../normalize.min.css">
+
+<link rel="stylesheet" href="../../../../book.min.eef33454e9c5a767233b17f85141d9e41283b74cf9b6aad8a63ba7849076a025.css">
+
+<!--
+Made with Book Theme
+https://github.com/hotosm/hugo-book
+-->
+  
+</head>
+
+<body>
+  <header class="header-nav" id="nav">
+    <div class="nav-container">
+      <a class="nav-title with-logo" href="../../../../">
+        <img class="logo" src="../../../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
+        <span>HOT-PDC Training Site</span>
+      </a>
+      <a class="nav-guide-link guide-active" href="../../../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/" >Guide</a>
+      <div class="hr-v"></div>
+      <a class="nav-pdf-download" href="../../../../pdfs/HOT-PDC_Training_Site.pdf">Download PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+      </a>
+      <input type="checkbox" style="display: none" id="menu-control" />      
+    </div>
+    <div class="nav-right">
+    
+    
+    
+    
+    <div class="hr-v"></div>
+    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../../svg/icon-external-red.svg" alt=""></a>
+    </div>
+  </header>
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+
+
+
+
+<a href="../../../../" >Introduction</a>  
+
+    
+
+
+  
+  
+    
+  
+ 
+  
+  <ul>
+    
+    <li>
+    
+    Panduan OpenStreetMap untuk Surveyor 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/">
+    Metodologi Pengumpulan Data</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/">
+    Menggunakan Aplikasi ODK Collect</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/">
+    Menggunakan Aplikasi OpenMapKit</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/">
+    Menggunakan Aplikasi OSMTracker</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/">
+    Menggunakan GPS</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    HOT Tasking Manager 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/">
+    Membuat dan Mengelola Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/">
+    Penggunaan Tasking Manager</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    JOSM 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/">
+    Pengenalan OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/" class="active">
+    Memulai menggunakan OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/">
+    Pengenalan Java OpenStreetMap (JOSM)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/">
+    Menggunakan Java OpenStreetMap (JOSM)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/">
+    Menambahkan Data Hasil Survei ke OSM Menggunakan JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/">
+    Menggunakan To-Do List di JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/">
+    Menggunakan Alat Filter di JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/">
+    Menggunakan buildings tools di JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/">
+    Pembuatan Batas Administrasi dengan JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/">
+    Mengatasi Konflik pada Data OpenStreetMap (OSM)</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Validasi Data dan Penjaminan Kualitas 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/">
+    Konsep Penjaminan Kualitas</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/02_penggunaan_josm_untuk_validasi_data_survei/">
+    Penggunaan JOSM untuk Validasi Data Survei</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/">
+    Penjaminan Kualitas Data dengan Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/">
+    JOSM untuk Perhitungan Kualitas Data</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Penggunaan HOT Export 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/">
+    Download Data OSM dengan Menggunakan Export Tool</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Panduan Pemetaan Lapangan untuk Manajer Proyek 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/">
+    Metodologi Kerangka Kerja Pemetaan PDC InAWARE</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/">
+    Model Data OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/">
+    Membuat Presets</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04_penggunaan_yaml_pada_export_tool/">
+    Penggunaan YAML pada Export Tool</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/">
+    Membuat Formulir Survei untuk Aplikasi ODK Collect &amp; OpenMapKit</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/">
+    Meletakkan Formulir Survei ke Ona.io</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07.pembuatan_peta_survey_dengan_qgis/">
+    Pembuatan Peta Survei dengan Menggunakan QGIS</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/">
+    Pembuatan MBTiles untuk OpenMapKit (OMK)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09_perhitungan_kuantitas_data_dengan_group_stats/">
+    Perhitungan Kuantitas Data Menggunakan Plugin Group Stats</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/">
+    Konversi Data Shapefile ke GeoJSON</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Menggunakan Map Campaigner 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/">
+    Membuat dan Mengelola Map Campaigner untuk Pemetaan</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Integrasi data OpenStreetMap ke InAWARE 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/">
+    Integrasi Data OpenStreetMap di InAWARE</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+
+
+
+
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="../../../../svg/menu.svg" />
+  </label>
+  <strong>
+    Memulai menggunakan OpenStreetMap</strong>
+</header>
+
+      
+<article class="markdown">
+  <div class="markdown__header">  <h1>Memulai menggunakan OpenStreetMap</h1>
+    <a href="../../../../pdfs/02_Memulai_menggunakan_OpenStreetMap.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+    </a>
+  </div>
+
+<p><strong>Tujuan Pembelajaran:</strong></p>
+
+<ul>
+<li>Mampu mengoperasikan dan melakukan navigasi situs <em>OpenStreetMap</em></li>
+<li>Mampu melihat informasi objek di <em>OpenStreetMap</em></li>
+<li>Mampu menerapkan pembuatan tautan <em>OpenStreetMap</em></li>
+<li>Mampu menyimpan gambar dari peta OSM</li>
+<li>Mampu menerapkan pembuatan akun di <em>OpenStreetMap</em></li>
+<li>Mampu memahami konsep dasar atribut <em>OpenStreetMap</em></li>
+<li>Mampu memahami riwayat yang terdapat peta OSM di situs OSM</li>
+</ul>
+
+<p>Setelah Anda memahami pengertian <em>OpenStreetMap</em> pada modul sebelumnya, Anda dapat langsung memulai untuk menggunakan <em>OpenStreetMap</em>. Pada modul ini Anda akan memulai untuk mengenal situs <em>OpenStreetMap</em>, membuat akun OSM, dan mengetahui tombol-tombol menu serta cara penggunaannya.</p>
+
+<h3 id="i-mengunjungi-situs-openstreetmap"><strong>I. Mengunjungi situs OpenStreetMap</strong></h3>
+
+<p>Untuk dapat mengunjungi situs <em>OpenStreetMap (OSM)</em>, pastikan komputer Anda telah terkoneksi dengan jaringan internet. Tahap untuk mengunjungi situs <em>OpenStreetMap</em> adalah sebagai berikut:</p>
+
+<ul>
+<li>Buka <em>web browser</em> pada komputer Anda seperti <strong>Mozilla Firefox</strong>, <strong>Google Chrome</strong>, <strong>Internet Explorer</strong>, <strong>Safari,</strong> dan lain-lain.</li>
+<li>Pada bar alamat (<em>address bar</em>) di bagian atas <em>browser</em> Anda, ketikkan<a href="http://www.openstreetmap.org/"> www.openstreetmap.org</a> dan tekan <strong><em>Enter</em></strong>.</li>
+<li>Ketika halaman situs sudah muncul, maka Anda akan melihat tampilan sebagai berikut:</li>
+</ul>
+
+<p align="center">
+<img width=80% src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0201_peta_osm.png" alt="peta_osm" title="Peta OSM"></p>
+<p align="center"><i>Tampilan awal situs OpenStreetMap</i></p>
+
+<h3 id="ii-menavigasikan-peta"><strong>II. Menavigasikan Peta</strong></h3>
+
+<p>Pada tampilan utama halaman situs <em>OpenStreetMap</em>, Anda akan melihat tampilan satu peta besar di dalamnya. Anda harus dapat menavigasikan peta tersebut agar Anda bisa pergi ke suatu lokasi yang Anda inginkan. Berikut adalah cara-cara untuk menavigasikan peta pada <em>OpenStreetMap</em>:</p>
+
+<ul>
+<li>Menggeser tampilan peta. Anda dapat menggunakan perangkat <em>mouse</em> Anda. Klik kiri pada perangkat <em>mouse</em> Anda, kemudian tahan dan geser peta ke tempat yang Anda inginkan. Apabila Anda tidak mempunyai <em>mouse</em>, Anda dapat tekan dan tahan <em>touchpad</em> kanan pada peta lalu geser kursor ke lokasi yang Anda inginkan.</li>
+</ul>
+
+<p align="center">
+<img src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0202_mouse.png" alt="navigasi_mouse" title="Navigasi menggunakan mouse"></p>
+<p align="center"><i>Cara menggeser tampilan peta</i></p>
+
+<ul>
+<li>Memperkecil dan memperbesar tampilan peta. Anda dapat menggunakan tombol <strong>(+)</strong> dan <strong>(-)</strong> yang ada pada panel di sebelah kanan layar Anda. Apabila perangkat <em>mouse</em> Anda memiliki <em>scroll-wheel</em> atau roda gulir, Anda dapat menggunakannya untuk dapat memperbesar dan memperkecil peta. Gulirkan <em>scroll-wheel</em> atau roda gulir <em>mouse</em> Anda ke atas untuk memperbesar, sedangkan gulirkan ke bawah untuk memperkecil.</li>
+</ul>
+
+<p align="center">
+<img width=50% src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0203_0204_tombol_zoom.png" alt="tombol_zoom" title="Tombol zoom"></p>
+<p align="center"><i>Cara memperbesar dan memperkecil tampilan peta</i></p>
+
+<ul>
+<li>Mencari lokasi yang Anda inginkan. Anda dapat menggunakan kotak pencarian <strong><em>Search</em></strong> yang berada di sebelah kiri layar. Anda dapat mengetikkan lokasi yang ingin Anda cari pada kolom pencarian ini, kemudian tekan <strong><em>Enter</em></strong> atau klik <strong><em>Go</em></strong>. Setelah itu akan muncul kotak <strong><em>Search Results</em></strong> di bawah kolom pencarian. Anda dapat memilih dan mengklik pada hasil pencarian untuk dapat langsung menuju ke titik lokasi yang Anda inginkan tersebut.</li>
+</ul>
+
+<p align="center">
+<img width=80% src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0205_pencarian_lokasi.png" alt="pencarian_lokasi" title="Pencarian lokasi"></p>
+<p align="center"><i>Langkah pencarian lokasi dengan kotak Search</i></p>
+
+<ul>
+<li>Menampilkan titik lokasi Anda saat ini. Anda dapat menuju panel peta di sebelah kanan peta dan klik tombol <strong><em>Show My Location</em></strong>. Lalu, secara otomatis peta akan menampilkan titik lokasi Anda saat ini (titik berwarna biru). Pastikan GPS pada laptop/komputer Anda telah aktif dan Anda mengizinkan OSM untuk mendapatkan lokasi Anda.</li>
+</ul>
+
+<p align="center">
+<img src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0206_0207_tombol_show_loc.png" alt="tombol_show_loc" title="Pencarian lokasi"></p>
+<p align="center"><i>Tampilan Show My Location pada peta OpenStreetMap</i></p>
+
+<h3 id="iii-melihat-peta-dengan-tampilan-yang-berbeda"><strong>III. Melihat peta dengan tampilan yang berbeda</strong></h3>
+
+<p>Peta <em>OpenStreetMap</em> berisi data geografis dari seluruh dunia. Walaupun disimpan dalam satu <em>database</em>, data tersebut dapat ditampilkan dalam beberapa tampilan <em>layer</em> yang berbeda. Langkah-langkah untuk mengganti <em>layer</em> peta pada OSM adalah sebagai berikut:</p>
+
+<ul>
+<li>Silakan klik pada tombol <strong><em>Layers</em></strong> di sebelah kanan pada peta Anda.</li>
+</ul>
+
+<p align="center">
+<img src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0208_tombol_layer.png" alt="tombol_layer" title="Tombol layer"></p>
+<p align="center"><i>Tombol untuk mengganti layer di situs OpenStreetMap</i></p>
+
+<p>OSM memiliki empat macam <em>layer</em> dengan fungsi yang berbeda-beda, yaitu:
+*   <em>Standard</em>: <em>Layer</em> yang menampilkan semua objek pada peta OSM.</p>
+
+<p align="center">
+<img src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0209_standard_layer.png" alt="standard_layer" title="standard_layer"></p>
+<p align="center"><i>Tampilan Standard Layer</i></p>
+
+<ul>
+<li><em>Cycle Map</em>: <em>Layer</em> yang hanya menampilkan jalur sepeda dan jalan untuk pejalan kaki.</li>
+</ul>
+
+<p align="center">
+<img src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0210_cycle_map.png" alt="cycle_map" title="cycle_map"></p>
+<p align="center"><i>Tampilan Cycle Layer</i></p>
+
+<ul>
+<li><em>Transport Map</em>: <em>Layer</em> yang menampilkan rute transportasi yang ada pada peta seperti jalan raya ataupun halte bis.</li>
+</ul>
+
+<p align="center">
+<img src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0211_transport_layer.png" alt="transport_layer" title="transport_layer"></p>
+<p align="center"><i>Tampilan Transport Map Layer</i></p>
+
+<ul>
+<li><em>Humanitarian</em>: Layer yang menampilkan bangunan objek penting atau fasilitas umum yang ada pada peta seperti sekolah, rumah sakit, dan lain-lain.</li>
+</ul>
+
+<p align="center">
+<img src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0212_humanitarian_layer.png" alt="humanitarian_layer" title="humanitarian_layer"></p>
+<p align="center"><i>Tampilan Humanitarian Layer</i></p>
+
+<h3 id="iv-melihat-informasi-objek-di-openstreetmap"><strong>IV. Melihat informasi objek di OpenStreetMap</strong></h3>
+
+<p>Pada halaman utama situs <em>OpenStreetMap</em>, selain melihat lokasi dan menavigasikan peta, Anda juga dapat mengetahui informasi objek yang ada pada peta dengan menggunakan <em>Query Features</em>. Adapun langkah-langkah menggunakannya adalah sebagai berikut:</p>
+
+<ul>
+<li>Klik pada tombol <strong><em>Query Features</em></strong> di sebelah kanan layar. Setelah diklik maka akan muncul ikon tanda tanya pada sebelah kanan kursor Anda. Hal ini menandakan bahwa <em>query features</em> telah aktif.</li>
+</ul>
+
+<p align="center">
+<img src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0213_query_features.png" alt="query_features" title="query_features"></p>
+<p align="center"><i>Tombol untuk Mengaktifkan Query Features</i></p>
+
+<ul>
+<li>Pilih objek atau lokasi yang ingin diidentifikasi. Misalnya pada contoh ini akan dipilih objek bangunan Dinas Kesehatan di Jakarta.</li>
+<li>Akan muncul kotak di sebelah kiri layar yang menampilkan <strong><em>Nearby Features</em></strong> dan <strong><em>Enclosing Features</em></strong>. <em>Nearby features</em> atau fitur terdekat menunjukan keterangan objek apa saja yang berada paling dekat dengan lokasi titik yang Anda pilih, sedangkan <em>Enclosing features</em> atau fitur sekitar menunjukan keterangan objek apa saja yang berada di sekitar lokasi titik yang Anda pilih. Pilih keterangan <strong><em>Governmental office</em> Dinas Kesehatan</strong>.</li>
+</ul>
+
+<p align="center">
+<img width=80% src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0214_nearby_features.png" alt="nearby_features" title="nearby features"></p>
+<p align="center"><i>Tampilan pilihan Nearby features dan Enclosing features</i></p>
+
+<ul>
+<li>Setelah dipilih, akan muncul informasi detail mengenai bangunan Dinas Kesehatan pada kotak sebelah kiri. Informasi yang ditampilkan tersebut merupakan <em>tag</em> atau atribut mengenai informasi umum objek seperti nama objek, alamat, tingkat bangunan, dan lain-lain.</li>
+</ul>
+
+<p align="center">
+<img width=80% src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0215_hasil_query.png" alt="hasil_query" title="hasil query"></p>
+<p align="center"><i>Hasil Identifikasi Objek menggunakan Query Features pada OpenStreetMap</i></p>
+
+<h3 id="v-membagikan-tautan-openstreetmap"><strong>V. Membagikan tautan <em>OpenStreetMap</em></strong></h3>
+
+<p>Anda dapat membagikan tautan peta <em>OpenStreetMap</em> kepada orang lain untuk berbagai keperluan, seperti membagikan lokasi posisi Anda saat ini kepada rekan Anda dan lain sebagainya. Untuk dapat membagikan peta <em>OpenStreetMap</em>, langkah-langkahnya adalah sebagai berikut :</p>
+
+<ul>
+<li>Klik tombol <strong><em>Share</em></strong> pada bagian kanan layar Anda. Lalu akan muncul kolom <strong><em>Share</em></strong> di sebelah kanan layar Anda.</li>
+<li>Beri tanda centang pada <strong><em>Include marker</em></strong> untuk menambahkan titik penanda lokasi. Titik penanda lokasi ini dapat Anda pindahkan atau geser sesuai dengan lokasi yang diinginkan. Caranya, klik dan tahan penanda lokasi tersebut kemudian Anda geser ke titik lokasi yang diinginkan. Cara lainnya ialah dengan menggeser peta sehingga titik penanda lokasi berada pada posisi yang Anda inginkan.</li>
+</ul>
+
+<p align="center">
+<img width=80% src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0216_include_marker.png" alt="include_marker" title="Memasukkan Marker"></p>
+<p align="center"><i>Menambahkan penanda lokasi</i></p>
+
+<ul>
+<li>Setelah sesuai, Anda dapat menyalin tautan yang ada pada kotak <strong><em>Link</em></strong> dan bagikan tautan ini sesuai dengan keperluan Anda. Anda juga dapat menyalin versi lebih pendek dari tautan pada kotak <strong><em>Short Link</em></strong> atau menyalin kode HTML pada kotak <strong><em>HTML</em></strong>.</li>
+</ul>
+
+<p align="center">
+<img width=80% src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0217_membagikan_tautan.png" alt="membagikan_tautan" title="membagikan tautan"></p>
+<p align="center"><i>Membagikan Tautan Peta OpenStreetMap</i></p>
+
+<h3 id="vi-mengekspor-peta-menjadi-sebuah-gambar"><strong>VI.  Mengekspor peta menjadi sebuah gambar</strong></h3>
+
+<p>Selain bisa mengganti layer di peta <em>OpenStreetMap</em>, Anda juga bisa mengambil peta tersebut dalam  bentuk gambar dengan format yang diinginkan seperti <em>.png</em>, <em>.jpg</em>, <em>.svg</em>, dan <em>.pdf</em>. Langkah mengekspor peta menjadi gambar adalah sebagai berikut:</p>
+
+<ul>
+<li>Silakan klik pada label <strong><em>Share</em></strong> pada ikon sebelah kanan dari peta Anda. Lalu akan muncul kolom <strong><em>Share</em></strong> di sebelah kanan layar Anda.</li>
+</ul>
+
+<p align="center">
+<img src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0218_tombol_ekspor.png" alt="tombol_ekspor" title="tombol_ekspor"></p>
+<p align="center"><i>Tombol untuk mengekspor Peta OpenStreetMap</i></p>
+
+<ul>
+<li>Setelah itu tentukan area pada peta yang ingin Anda ekspor sebagai gambar. Caranya dengan centang pada kotak <strong><em>Set custom dimensions</em></strong> pada bagian <strong><em>Image</em></strong> kemudian atur perbesaran kotaknya sesuai dengan yang diinginkan atau Anda juga mengatur skalanya pada bagian <strong><em>Scale</em></strong>.</li>
+</ul>
+
+<blockquote>
+<p>Catatan :
+Anda hanya dapat mengekspor peta dalam bentuk gambar dengan menggunakan tampilan peta <em>Standard</em>. Apabila tampilan peta Anda tidak menggunakan <em>Standard Layer</em>, Anda dapat merubahnya terlebih dahulu pada menu <em>Layers</em>.</p>
+</blockquote>
+
+<ul>
+<li>Anda dapat memilih format hasil ekspor gambar pada menu <em>dropdown</em> <strong><em>Format</em></strong>. Setelah itu klik <strong><em>Download</em></strong> untuk men-<em>download</em> gambar dan simpan gambar pada <em>folder</em> yang diinginkan.</li>
+</ul>
+
+<p align="center">
+<img src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0219_ekspor_gambar.png" alt="ekspor_gambar" title="ekspor_gambar"></p>
+<p align="center"><i>Tampilan Opsi untuk mengekspor peta OpenStreetMap dalam bentuk gambar</i></p>
+
+<h3 id="vii-cara-melihat-riwayat-perubahan-pada-openstreetmap"><strong>VII. Cara melihat riwayat perubahan pada <em>OpenStreetMap</em></strong></h3>
+
+<p>Ketika Anda mengedit objek atau membuat perubahan pada <em>OpenStreetMap</em>, Anda dapat melihat riwayat pengeditan objek yang berada pada wilayah tersebut. Langkah-langkah untuk melihat riwayat pengeditan adalah sebagai berikut:</p>
+
+<ul>
+<li>Anda dapat melihat informasi tersebut dengan mengklik tombol menu <strong><em>History</em></strong> di bagian kiri atas peta.</li>
+<li>Setelah itu, akan muncul kolom <strong><em>Changesets</em></strong> di bagian bawah kotak <em>Search</em> dan akan muncul kotak-kotak berwarna oranye pada peta yang menandakan area mana saja yang baru saja dilakukan pengeditan. <strong><em>Changeset</em></strong> merupakan versi setiap perubahan yang di-<em>upload</em> oleh setiap pengguna OSM. Keterangan yang dapat kita lihat pada kolom <em>Changesets</em> adalah sebagai berikut:</li>
+<li>Komentar <em>changeset</em>. Anda dianjurkan untuk mengisi kolom komentar singkat ketika meng-<em>upload</em> perubahan/<em>changeset</em>. Komentar dapat berisikan keterangan perubahan apa saja yang dilakukan atau <em>hashtag</em> tertentu.</li>
+<li>Keterangan waktu <em>upload</em>.</li>
+<li><em>Username</em> OSM yang mengedit <em>changeset</em>.</li>
+<li>Nomor <em>changeset</em>. Nomor ini merupakan nomor unik sebagai identitas <em>changeset</em>.</li>
+</ul>
+
+<p align="center">
+<img width=80% src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0220_melihat_history.png" alt="melihat_history" title="Melihat history"></p>
+<p align="center"><i>Tampilan untuk melihat History pada OpenStreetMap</i></p>
+
+<ul>
+<li>Anda dapat klik salah satu <em>changeset</em> pada daftar <em>changeset</em> atau Anda dapat langsung memilih kotak berwarna oranye pada peta. Setelah Anda memilih salah satu <em>changeset</em>, Anda akan mendapatkan detail informasi mengenai <em>changeset</em> tersebut.</li>
+</ul>
+
+<p align="center">
+<img width=80% src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0221_detail_changeset.png" alt="detail_changeset" title="detail changeset"></p>
+<p align="center"><i>Tampilan detail informasi pada changeset</i></p>
+
+<h3 id="viii-cara-membuat-akun-openstreetmap"><strong>VIII. Cara membuat akun <em>OpenStreetMap</em></strong></h3>
+
+<p>Anda telah melihat tampilan serta menu-menu utama dari situs <em>OpenStreetMap</em>, sekarang Anda akan mempelajari bagaimana membuat akun di <em>OpenStreetMap</em> dan membuat kontribusi pertama di <em>OpenStreetMap</em>. Berikut adalah langkah-langkahnya:</p>
+
+<ul>
+<li>Pada sebelah kanan atas dari situs <em>OpenStreetMap</em>, klik <strong><em>Sign Up</em></strong>. Anda akan melihat tampilan seperti berikut:</li>
+</ul>
+
+<p align="center">
+<img width=80% src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0222_membuat_akun.png" alt="membuat_akun" title="membuat_akun"></p>
+<p align="center"><i>Tampilan awal membuat akun di OpenStreetMap</i></p>
+
+<ul>
+<li>Akan ada lima kotak yang harus Anda isi untuk mendaftarkan akun Anda di OSM. Pertama, masukkan <strong>alamat email</strong> Anda pada kotak pertama dan kotak kedua. Anda harus memasukkan alamat email yang sama di kedua kotak tersebut. Fungsinya adalah untuk melakukan konfirmasi akun Anda yang pesannya akan dikirim pada email yang telah Anda daftarkan.</li>
+<li>Pada kotak ketiga, masukkan <strong>tampilan nama</strong> yang akan Anda gunakan. Jika Anda mencoba menggunakan nama Anda sebagai nama pengguna kemungkinan sudah ada yang menggunakannya dan Anda tidak dapat menggunakan nama pengguna yang telah digunakan oleh pengguna lain sebelumnya, jadi silahkan cari nama pengguna yang masih tersedia.</li>
+<li>Masukkan juga <strong><em>password</em></strong> yang Anda inginkan pada kotak keempat dan kelima. Anda harus memasukkan kata sandi yang sama di kedua kotak dan kata kunci tersebut tidak harus sama dengan kata kunci email Anda. Jika Anda sudah selesai mengisi kotak-kotak tersebut, klik <strong><em>Sign Up</em></strong> di bagian bawah pada situs Anda.</li>
+</ul>
+
+<p>Pada tahap ini, Anda telah berhasil mendaftarkan diri Anda pada situs <em>OpenStreetMap</em>, namun Anda belum bisa mengaktifkan akun Anda. Untuk mengaktifkannya, langkah yang harus dilakukan adalah sebagai berikut :</p>
+
+<ul>
+<li>Buka tab baru pada <em>browser</em> Anda dan silahkan buka email Anda.</li>
+<li>Masukkan alamat email dan kata kunci Anda.</li>
+<li>Jika berhasil, Anda seharusnya melihat email dari <em>OpenStreetMap</em> di kotak masuk email Anda.</li>
+<li>Buka email tersebut. Klik tautan seperti gambar di bawah ini.</li>
+</ul>
+
+<p align="center">
+<img src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0223_verifikasi_email.png" alt="verifikasi_email" title="verifikasi email"></p>
+<p align="center"><i>Notifikasi Pendaftaran akun OSM yang muncul di email</i></p>
+
+<ul>
+<li>Sebuah tab baru akan otomatis muncul di browser Anda. Jika semuanya lancar, selamat Anda sudah memiliki akun OSM!</li>
+</ul>
+
+<blockquote>
+<p>Catatan :
+Jika terjadi suatu masalah, akan ada sebuah pesan yang muncul. Pastikan bahwa email yang Anda masukkan sama di dua kotak awal tadi begitu juga dengan kata sandi Anda. Jika kotak untuk nama pengguna berwarna merah maka sudah ada orang lain yang menggunakan nama tersebut dan Anda harus mencari nama lain.</p>
+</blockquote>
+
+<ul>
+<li>Pada halaman OpenStreetMap, klik <strong><em>Log In</em></strong> di pojok kanan atas. Masukkan nama pengguna OpenStreetMap dan kata kunci Anda kemudian tekan <strong><em>Enter</em></strong>. Anda seharusnya bisa masuk dan Anda akan melihat nama pengguna Anda di sebelah kanan atas dari situs <em>OpenStreetMap</em>.</li>
+</ul>
+
+<p>Selamat! Jika semua tahapan dari bagian ini sudah Anda lakukan dengan baik maka Anda telah memiliki akun <em>OpenStreetMap</em> serta sudah mengetahui dan bisa menavigasi situs <em>OpenStreetMap</em>.</p>
+
+<h3 id="viii-konsep-dasar-atribut-openstreetmap"><strong>VIII. Konsep dasar atribut <em>OpenStreetMap</em></strong></h3>
+
+<p><strong>a. Konsep atribut pada objek</strong></p>
+
+<p>Ketika Anda menggambarkan objek berupa titik, garis, atau poligon pada OSM, Anda perlu menambahkan informasi mengenai objek tersebut seperti, nama objek, alamat, ataupun informasi pendukung lainnya. Informasi pada objek inilah yang akan membantu pengguna lain ketika menggunakan data OSM untuk berbagai keperluan. Informasi yang diberikan pengguna pada objek OSM disebut dengan atribut/<em>tag</em>.</p>
+
+<p>Sebuah atribut/<em>tag</em> adalah seperti sebuah label yang Anda dapat letakkan ke suatu objek. Misalnya, jika Anda menggambar sebuah persegi, ini hanya sebuah persegi tanpa ada informasi objek apa. Tetapi Anda dapat menambahkan atribut untuk mendeskripsikannya, misalnya persegi ini adalah sebuah bangunan; nama bangunan adalah “Rumah Sakit Tebet”; bangunan 10 tingkat.</p>
+
+<p><strong>b. Komponen pada data atribut OpenStreetMap</strong></p>
+
+<p>Anda dapat menambahkan sebanyak mungkin atribut/<em>tag</em> yang Anda inginkan ke sebuah objek. Atribut disimpan sebagai sepasang teks, bernama <strong><em>Key</em></strong> dan <strong><em>Values</em></strong>. <em>Key</em> merupakan informasi umum yang menjelaskan mengenai fungsi dari suatu objek. Dalam satu <em>key</em>, bisa terdiri atas banyak <em>value</em>. Misalnya sekolah, masjid, dan rumah sakit memiliki <em>key=amenity</em> (amenitas/fasilitas penting). Walaupun ketiga objek tersebut memiliki jenis fungsi yang berbeda, tapi ketiga objek memiliki <em>key</em> yang sama. Sedangkan <em>Values</em> adalah informasi yang lebih spesifik menjelaskan jenis dari suatu objek. Karena <em>value</em> ini menjelaskan informasi yang spesifik mengenai suatu objek, maka dalam 1 jenis <em>value</em> tersebut hanya menjelaskan jenis objek itu sendiri. Tidak sama seperti <em>key</em> yang dapat menjelaskan beberapa informasi mengenai objek tersebut. Pada <em>OpenStreetMap</em>, atribut ditambahkan dengan format sepasang <strong><em>key = value</em></strong> dan berdasarkan keadaan objek sesungguhnya, contohnya seperti berikut:</p>
+
+<p align="center">
+<img src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0224_atribut_objek_osm.png" alt="atribut_objek_osm" title="atribut objek osm"></p>
+<p align="center"><i>Contoh atribut objek</i></p>
+
+<p>Pada contoh diatas terdapat 4 macam atribut <strong><em>key &amp; value</em></strong>, diantaranya key amenitas objek berupa rumah sakit (<em>amenity = hospital</em>), objek bangunan (<em>building = yes</em>), bangunan tingkat 10 (<em>building:levels</em> = 10) dan nama objek Rumah Sakit Tebet (<em>name</em> = Rumah Sakit Tebet).</p>
+
+<p><strong>c. Panduan referensi atribut <em>OpenStreetMap</em> di dunia dan Indonesia</strong></p>
+
+<p>Dalam memberikan informasi terhadap objek yang dipetakan Anda perlu memastikan bahwa informasi tersebut sudah benar dan sesuai dengan ketentuan dari <em>OpenStreetMap</em>. Untuk itu, Anda perlu memastikan acuan yang benar apabila ingin memberikan atribut pada objek tertentu. <em>OpenStreetMap</em> telah menyediakan halaman Wikipedia khusus yang dapat Anda jadikan acuan secara umum. Halaman tersebut dapat Anda lihat pada halaman <em>Wiki Map Features</em> di <a href="https://wiki.openstreetmap.org/wiki/Map_Features">https://wiki.openstreetmap.org/wiki/Map_Features</a>.</p>
+
+<p align="center">
+<img width=90% src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0225_map_features.png" alt="map_features" title="map features"></p>
+<p align="center"><i>Tampilan awal halaman Wiki Map Features dan daftar tabel fitur</i></p>
+
+<p>Halaman dari <em>Map Features</em> yang berisikan informasi terhadap objek-objek di <em>OpenStreetMap</em> dianggap tidak cukup untuk membantu terutama untuk objek spesifik yang biasanya hanya terdapat di suatu negara termasuk di Indonesia. Seringkali para pengguna tidak mendapatkan informasi tag terhadap objek yang mereka cari di <em>Map Features</em> ataupun melewatkan objek tersebut karena berbeda nama.</p>
+
+<p>Biasanya objek di Indonesia memiliki nama lokal sendiri seperti posyandu, pesantren, dan lain-lain. Anda tidak perlu kebingungan dalam mencari dan menghafal daftar atribut karena Anda dapat melihat daftar atribut objek yang dapat Anda lihat di halaman Wikipedia <a href="https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines">https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines</a>.</p>
+
+<p align="center">
+<img width=90% src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0226_indo_tagging_guidelines.png" alt="indo_tagging_guidelines" title="indo tagging guidelines"></p>
+<p align="center"><i>Tampilan awal halaman Wiki panduan referensi atribut objek Indonesia</i></p>
+
+<p>Halaman Wikipedia tersebut dibuat khusus untuk memberikan referensi atribut objek-objek OSM yang ada di Indonesia. Dalam halaman tersebut objek-objek yang ada akan dibagi ke dalam beberapa kategori dimana akan disesuaikan dengan objek-objek yang ada di Indonesia.</p>
+
+<p align="center">
+<img width=90% src="../../../../pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0227_tampilan_dftr_tabel.png" alt="daftar_tabel" title="daftar tabel"></p>
+<p align="center"><i>Tampilan daftar tabel atribut objek Indonesia</i></p>
+
+<p><strong>RINGKASAN</strong></p>
+
+<p>Jika Anda dapat mengikuti dan mempraktekkan seluruh tahapan dalam bab ini, maka Anda telah berhasil membuat akun OSM dan mengoperasikan dan menavigasikan situs <em>OpenStreetMap</em>. Selain itu, Anda juga telah berhasil membagikan gambar peta OSM dan membagikan tautan ke orang lain. Pada bab selanjutnya Anda akan mempelajari bagaimana cara menggunakan <em>Java OpenStreetMap</em> (JOSM).</p>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+    
+  <div>
+    <a href="https://github.com/hotosm/pdc-documentation/edit/master/content/pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/02_Memulai_menggunakan_OpenStreetMap.md" target="_blank" rel="noopener">
+       Edit this page on GitHub
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/hotosm/pdc-documentation/commit/62a1e8ebabfd45630d94c081319ca3ba65c3640c" title='Last modified May 23, 2019 08:29 UTC by Nate Smith' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> May 23, 2019
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    
+      
+  </aside>
+
+
+
+  </main>
+
+  
+  
+  <footer class="footer">
+
+    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
+    <a href="https://github.com/hotosm/pdc-documentation" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+    </svg></a>
+    
+
+  </footer>
+  
+</body>
+
+</html>

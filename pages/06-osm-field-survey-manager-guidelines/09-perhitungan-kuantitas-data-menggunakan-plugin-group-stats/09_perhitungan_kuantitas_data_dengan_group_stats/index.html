@@ -1,0 +1,966 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOT-PDC Training Site</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../../../../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../../favicon-16x16.png">
+<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+
+
+
+<link rel="stylesheet" href="../../../../normalize.min.css">
+
+<link rel="stylesheet" href="../../../../book.min.eef33454e9c5a767233b17f85141d9e41283b74cf9b6aad8a63ba7849076a025.css">
+
+<!--
+Made with Book Theme
+https://github.com/hotosm/hugo-book
+-->
+  
+</head>
+
+<body>
+  <header class="header-nav" id="nav">
+    <div class="nav-container">
+      <a class="nav-title with-logo" href="../../../../">
+        <img class="logo" src="../../../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
+        <span>HOT-PDC Training Site</span>
+      </a>
+      <a class="nav-guide-link guide-active" href="../../../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/" >Guide</a>
+      <div class="hr-v"></div>
+      <a class="nav-pdf-download" href="../../../../pdfs/HOT-PDC_Training_Site.pdf">Download PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+      </a>
+      <input type="checkbox" style="display: none" id="menu-control" />      
+    </div>
+    <div class="nav-right">
+    
+    
+    
+    
+    <div class="hr-v"></div>
+    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../../svg/icon-external-red.svg" alt=""></a>
+    </div>
+  </header>
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+
+
+
+
+<a href="../../../../" >Introduction</a>  
+
+    
+
+
+  
+  
+    
+  
+ 
+  
+  <ul>
+    
+    <li>
+    
+    Panduan OpenStreetMap untuk Surveyor 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/">
+    Metodologi Pengumpulan Data</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/">
+    Menggunakan Aplikasi ODK Collect</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/">
+    Menggunakan Aplikasi OpenMapKit</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/">
+    Menggunakan Aplikasi OSMTracker</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/">
+    Menggunakan GPS</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    HOT Tasking Manager 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/">
+    Membuat dan Mengelola Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/">
+    Penggunaan Tasking Manager</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    JOSM 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/">
+    Pengenalan OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/">
+    Memulai menggunakan OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/">
+    Pengenalan Java OpenStreetMap (JOSM)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/">
+    Menggunakan Java OpenStreetMap (JOSM)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/">
+    Menambahkan Data Hasil Survei ke OSM Menggunakan JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/">
+    Menggunakan To-Do List di JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/">
+    Menggunakan Alat Filter di JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/">
+    Menggunakan buildings tools di JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/">
+    Pembuatan Batas Administrasi dengan JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/">
+    Mengatasi Konflik pada Data OpenStreetMap (OSM)</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Validasi Data dan Penjaminan Kualitas 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/">
+    Konsep Penjaminan Kualitas</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/02_penggunaan_josm_untuk_validasi_data_survei/">
+    Penggunaan JOSM untuk Validasi Data Survei</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/">
+    Penjaminan Kualitas Data dengan Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/">
+    JOSM untuk Perhitungan Kualitas Data</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Penggunaan HOT Export 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/">
+    Download Data OSM dengan Menggunakan Export Tool</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Panduan Pemetaan Lapangan untuk Manajer Proyek 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/">
+    Metodologi Kerangka Kerja Pemetaan PDC InAWARE</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/">
+    Model Data OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/">
+    Membuat Presets</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04_penggunaan_yaml_pada_export_tool/">
+    Penggunaan YAML pada Export Tool</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/">
+    Membuat Formulir Survei untuk Aplikasi ODK Collect &amp; OpenMapKit</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/">
+    Meletakkan Formulir Survei ke Ona.io</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07.pembuatan_peta_survey_dengan_qgis/">
+    Pembuatan Peta Survei dengan Menggunakan QGIS</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/">
+    Pembuatan MBTiles untuk OpenMapKit (OMK)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09_perhitungan_kuantitas_data_dengan_group_stats/" class="active">
+    Perhitungan Kuantitas Data Menggunakan Plugin Group Stats</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/">
+    Konversi Data Shapefile ke GeoJSON</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Menggunakan Map Campaigner 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/">
+    Membuat dan Mengelola Map Campaigner untuk Pemetaan</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Integrasi data OpenStreetMap ke InAWARE 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/">
+    Integrasi Data OpenStreetMap di InAWARE</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+
+
+
+
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="../../../../svg/menu.svg" />
+  </label>
+  <strong>
+    Perhitungan Kuantitas Data Menggunakan Plugin Group Stats</strong>
+</header>
+
+      
+<article class="markdown">
+  <div class="markdown__header">  <h1>Perhitungan Kuantitas Data Menggunakan Plugin Group Stats</h1>
+    <a href="../../../../pdfs/09_Perhitungan_Kuantitas_Data_dengan_Group_Stats.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+    </a>
+  </div>
+
+<p><strong>Tujuan Pembelajaran:</strong></p>
+
+<ul>
+<li>Memahami cara melakukan instalasi tambahan (<em>plugin</em>) untuk menghitung jumlah objek menggunakan QGIS</li>
+<li>Memahami cara mengoperasikan <em>group stats</em> untuk menghitung jumlah objek di QGIS</li>
+</ul>
+
+<p>Kuantitas adalah kualitas sesuatu hal yang terbentuk dari proses perhitungan dan pengukuran <em>(Thompson:1990)</em>. Perhitungan kuantitas data dapat menjadi indikator dalam pencapaian proyek pemetaan yang dapat dituangkan ke dalam sebuah laporan pemetaan. Proses perhitungan kuantitas data OSM dapat dilakukan dengan menginstal <em>plugin</em> <em>group stats</em> di QGIS secara gratis, <em>plugin</em> ini dapat digunakan untuk menghitung jumlah objek berdasarkan kategori tertentu.</p>
+
+<h3 id="i-instalasi-group-stats"><strong>I. Instalasi <em>Group Stats</em></strong></h3>
+
+<ul>
+<li><p>Jika Anda belum memiliki QGIS, Anda dapat download di situs tautan berikut : <a href="http://download.osgeo.org/qgis/win64/QGIS-OSGeo4W-2.14.22-1-Setup-x86.exe">http://download.osgeo.org/qgis/win64/QGIS-OSGeo4W-2.14.22-1-Setup-x86.exe</a> untuk Windows 32 bit dan <a href="http://download.osgeo.org/qgis/win64/QGIS-OSGeo4W-2.14.22-1-Setup-x86_64.exe">http://download.osgeo.org/qgis/win64/QGIS-OSGeo4W-2.14.22-1-Setup-x86_64.exe</a> untuk Windows 64 bit.</p></li>
+
+<li><p>Setelah selesai di <em>download</em>, kemudian klik Instal dan Buka QGIS</p></li>
+
+<li><p>Klik menu <strong><em>Plugins → Manage and Install Plugins</em></strong></p></li>
+</ul>
+
+<p><p align="center">
+  <img src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0901_menuplugin.png">
+</p>
+<p align="center"><i>Tampilan Menu Plugins</i><p align="center"></p>
+
+<ul>
+<li>Anda memerlukan koneksi internet untuk menginstal <em>plugin</em>, pada kotak <strong><em>Search</em></strong> ketikkan <strong><em>Group Stats</em></strong>. <strong>Berikan tanda centang pada <em>group stats</em> <em>→ Install Plugin</em></strong>. Tunggu beberapa saat hingga proses instalasi <em>plugin</em> selesai.</li>
+</ul>
+
+<p><p align="center">
+  <img width=70% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0902_plugingroupstats.png">
+</p>
+<p align="center"><i>Plugin Group Stats</i><p align="center"></p>
+
+<ul>
+<li>Jika sudah berhasil, <em>plugin</em> akan muncul pada <strong><em>Menu Vector → GroupStats</em></strong></li>
+</ul>
+
+<p><p align="center">
+  <img src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0903_menugroupstats.png">
+</p>
+<p align="center"><i>Tampilan Plugin GroupStats</i><p align="center"></p>
+
+<h3 id="ii-cara-menghitung-jumlah-objek-dengan-plugin-group-stats"><strong>II. Cara Menghitung Jumlah Objek dengan <em>Plugin Group Stats</em></strong></h3>
+
+<p>Kalkulasi kuantitas data dapat dihitung berdasarkan batas administrasi agar memudahkan dalam membuat laporan bulanan dan memantau <em>timeline</em> pemetaan. Dalam perhitungan jumlah objek membutuhkan dua jenis data yaitu: <em>file .shapefile</em> objek OSM dan <em>file .shapefile</em> batas administrasi. Sebelum melakukan perhitungan, Anda harus mempunyai kedua <em>file .shapefile</em> tersebut.</p>
+
+<p>Data batas administrasi yang akan digunakan pada bab ini dapat di <em>download</em> pada tautan <a href="http://tinyurl.com/admin-smg">http://tinyurl.com/admin-smg</a> dan data objek OSM dapat di <em>download</em> dengan menggunakan <em>Export Tool</em> yang terdapat pada modul <strong>Penggunaan YAML pada <em>Export Tool</em></strong>. Anda dapat melakukan perhitungan jumlah objek sebelum dan sesudah pemetaan, agar terlihat kalkulasi data yang dihasilkan dari proyek pemetaan. Hasil <em>download</em> data OSM pada pada modul <strong>Penggunaan YAML pada <em>Export Tool</em></strong> akan digunakan untuk perhitungan jumlah objek. Ada 2 (dua) kategori .<em>shapefile</em> yang dihasilkan, yaitu:</p>
+
+<ul>
+<li><p><strong>Fasum :</strong></p>
+
+<ol>
+<li>Semua objek yang masuk ke dalam <em>amenity</em>=*</li>
+<li>Instalasi Kelistrikan (<em>power</em>=*)</li>
+<li>Rekreasi dan RTH (<em>leisure</em>=*)</li>
+<li>Kantor pemerintahan (<em>office</em>=*)</li>
+<li>Supermarket (<em>shop=supermarket</em>)</li>
+</ol></li>
+
+<li><p><strong>Jalan :</strong> <em>highway</em>=*</p></li>
+</ul>
+
+<p>Jika Anda telah memiliki data .<em>shapefile</em> seperti di atas, maka dapat melanjutkan langkah di bawah ini mengenai bagaimana menghitung kuantitas data OSM. Langkah - langkah dalam menghitung kuantitas data OSM, yaitu:</p>
+
+<p><strong>a. Persiapan <em>Data Layer</em></strong></p>
+
+<ul>
+<li>Persiapkan data objek OSM hasil <em>download</em> dari <em>Export Tool</em> yang sudah dilakukan <strong><em>Extract</em></strong>.  Kemudian gunakan <strong>QGIS desktop</strong> untuk membuka data tersebut dengan klik <strong><em>Add Vector Layer → Browse</em></strong> yang berada di sisi sebelah kiri QGIS atau klik <strong><em>Menu Layer → Add Layer → Add Vector Layer → Browse</em></strong>.</li>
+</ul>
+
+<p><p align="center">
+  <img width=50% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0904_addvector.png">
+</p>
+<p align="center"><i>Tampilan Add Vector Layer</i><p align="center"></p>
+
+<ul>
+<li>Arahkan ke direktori tempat penyimpanan <em>file</em> → <strong><em>Pilih semua → Open → Open</em></strong></li>
+</ul>
+
+<p><p align="center">
+  <img width=70% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0905_daftarfileshp.png">
+</p>
+<p align="center"><i>Daftar file .shp hasil download data OSM</i><p align="center"></p>
+
+<ul>
+<li><em>Layer-layer</em> tersebut akan tampil pada <em>map canvas</em> (kanvas peta) dan daftar <em>layer</em> akan tampil pada <strong><em>Layers Panel</em></strong>.</li>
+</ul>
+
+<p><p align="center">
+  <img src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0906_tampilanlayer.png">
+</p>
+<p align="center"><i>Tampilan peta pada QGIS</i><p align="center"></p>
+
+<ul>
+<li>Tambahkan data vektor batas kelurahan ke QGIS dengan klik <strong><em>Add Vector Layer</em></strong></li>
+</ul>
+
+<p><p align="center">
+  <img src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0907_tampilanbatas.png">
+</p>
+<p align="center"><i>Tampilan batas administrasi kelurahan</i><p align="center"></p>
+
+<p><strong>b. Penggabungan Layer Objek dan Batas Administrasi</strong></p>
+
+<ul>
+<li>Gabungkan <em>layer</em> batas administrasi dengan <em>layer</em> objek OSM agar data objek memiliki atribut nama kelurahan. Klik <strong><em>Menu Vector → Geoprocessing Tool → Intersect</em></strong> untuk memulai penggabungan <em>layer</em>. Pada bagian  <strong><em>input vector layer</em></strong> (<em>layer</em> objek OSM) pilih satu per satu objek untuk digabungkan dengan <strong><em>Intersect layer</em></strong> (<em>layer</em> kelurahan). Pilih <strong><em>Browse</em></strong> untuk menentukan lokasi penyimpanan <strong><em>output shapefile</em></strong> di direktori Anda, lalu klik <strong>OK</strong>.</li>
+</ul>
+
+<p><p align="center">
+  <img width=50% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0908_intersectproses.png">
+</p>
+<p align="center"><i>Intersect penggabungan layer</i><p align="center"></p>
+
+<ul>
+<li>Setelah berhasil akan ada <em>layer</em> baru sebagai hasil gabungan keduanya. Untuk melihat hasilnya, Anda dapat membuka atribut tabel, dengan <strong>klik kanan pada <em>layer</em> fasum</strong> dan pilih <strong><em>Open Attribute Table</em></strong>. Pada tabel atribut akan terlihat nama kelurahan pada kolom <strong>name_2</strong> di setiap objek OSM pada <em>layer</em> “<strong>fasum_point_admin”</strong>.</li>
+</ul>
+
+<p><p align="center">
+  <img src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0909_tabelatribut.png">
+</p>
+<p align="center"><i>Tabel atribut fasum point</i><p align="center"></p>
+
+<ul>
+<li>Lakukan kembali proses <strong><em>intersect</em></strong> kepada <em>layer</em> <strong>“jalan”</strong> dan <em>layer</em> <strong>“fasum polygon”</strong>, sehingga Anda memiliki 3 (tiga) <em>layer</em> baru dari hasil penggabungan batas administrasi dan objek.</li>
+
+<li><p>Buka atribut tabel di setiap <em>layer</em> dan periksa kolom yang dapat dijadikan acuan untuk perhitungan data OSM. Apakah di dalam tabel atribut tersebut sudah ada nama kolom seperti di bawah ini:</p>
+
+<ol>
+<li>Fasum <em>point</em> = <em>amenity, power, office</em> dan <em>supermarket</em></li>
+<li>Fasum <em>polygon</em> = <em>amenity, power, office, supermarket,</em> dan <em>leisure</em></li>
+<li>Jalan = <em>highway</em></li>
+</ol></li>
+</ul>
+
+<p><strong>c. Perhitungan Data Objek OSM</strong></p>
+
+<p>Data OSM yang dihasilkan dari proyek pemetaan terdiri dari <em>points, lines,</em> dan <em>polygons</em>. Anda akan melakukan perhitungan dengan dua formula yang berbeda pada saat menggunakan <em>plugin Group Stats</em>. Data OSM dalam bentuk <strong><em>points</em> dan <em>polygons</em></strong> akan dihitung dengan menggunakan formula <strong>“count”</strong>, formula tersebut akan menghitung atribut objek  berdasarkan banyaknya atribut yang terdapat di kolom atribut. Sedangkan data OSM dalam bentuk <strong><em>lines</em></strong> akan dihitung menggunakan formula <strong>“sum”</strong>,  dimana formula tersebut atribut akan menjumlahkan segmen panjang jalan.</p>
+
+<p><strong>1. Perhitungan Data OSM dalam bentuk <em>Points dan Polygon</em></strong></p>
+
+<ul>
+<li>Jika Anda melakukan pemetaan dalam ruang lingkup kota, maka akan lebih mudah melakukan perhitungan kuantitas data per kecamatan. Lakukan <em>filter</em> pada <em>layer</em> “<strong>fasum_point_admin”</strong>, agar data yang ditampilkan  hanya untuk kecamatan tertentu, dengan <strong>klik kanan pada layer fasum_point_admin</strong> → <strong><em>Filter</em></strong>. Kemudian, lakukan langkah seperti gambar di bawah ini.</li>
+</ul>
+
+<p><p align="center">
+  <img width=60% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0910_filtermenu.png">
+</p>
+<p align="center"><i>Langkah-langkah filter data</i><p align="center"></p>
+
+<ul>
+<li>Ketika Anda klik <strong>OK</strong> akan tampil objek OSM yang hanya ada di Kecamatan Candisari</li>
+</ul>
+
+<p><p align="center">
+  <img src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0911_filtercandisari.png">
+</p>
+<p align="center"><i>Tabel atribut hasil filter</i><p align="center"></p>
+
+<ul>
+<li>Sekarang Anda akan memulai proses perhitungan dengan <em>plugin</em> <strong><em>Group Stats</em></strong>. Buka <strong><em>Menu Vector → Group Stats → GroupStats</em></strong></li>
+</ul>
+
+<p><p align="center">
+  <img src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0912_menugroupstats.png">
+</p>
+<p align="center"><i>Group Stats</i><p align="center"></p>
+
+<ul>
+<li><p>Lakukan seperti langkah di bawah ini:</p>
+
+<ul>
+<li><strong><em>Layers</em></strong>= menunjukkan <em>layer</em> yang akan dihitung jumlah objeknya. <strong><em>Fields</em></strong> = secara otomatis menunjukkan kolom yang ada pada tabel atribut <em>layers</em> yang dipilih<br /></li>
+<li><strong><em>Columns</em></strong>= akan menjadi kategori kolom pada saat proses perhitungan, isi dengan kolom yang ada pada <em>Fields</em>, dengan cara pilih dan pindahkan ke kotak <em>Columns</em>.</li>
+<li><strong><em>Rows</em></strong>= akan menjadi kategori baris pada saat proses perhitungan, isi dengan kolom yang akan dijadikan baris, dengan cara pilih dan pindahkan ke kotak <em>Rows.</em><br /></li>
+<li><strong><em>Value</em></strong>= sebagai acuan dasar perhitungan, pilih formula + kolom <em>Layers</em></li>
+<li>Klik <strong><em>Calculate</em></strong> untuk memulai proses perhitungan</li>
+</ul></li>
+</ul>
+
+<p><p align="center">
+  <img width=80% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0913_langkahgroupstats.png">
+</p>
+<p align="center"><i>Langkah-langkah Group Stats</i><p align="center"></p>
+
+<ul>
+<li><p>Tabel yang muncul pada <strong><em>Group Stats</em></strong>, akan di <em>copy</em> dan di <em>paste</em> ke tempat yang lebih mudah untuk dimodifikasi misalnya menjadi bentuk grafik. Anda dapat memindahkan tabel tersebut ke <strong>Excel</strong> atau <strong>Google Sheets</strong>.</p>
+
+<p>Caranya : Klik <strong><em>Data → Copy all to clipboard.</em></strong></p></li>
+</ul>
+
+<p><p align="center">
+  <img width=70% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0914_clipboard.png">
+</p>
+<p align="center"><i>Copy dan paste tabel atribut</i><p align="center"></p>
+
+<ul>
+<li>Buka <em>Microsoft</em> <em>Excel</em> atau <em>Google Sheet</em> untuk memindahkan isi dari tabel hasil perhitungan <strong><em>Group Stats</em></strong> tersebut.</li>
+<li>Lakukan langkah yang sama untuk perhitungan objek-objek lainnya. Anda dapat melihat contoh tabel hasil perhitungan objek di Kota Semarang pada <a href="http://tinyurl.com/kuantitas-data">http://tinyurl.com/kuantitas-data</a></li>
+</ul>
+
+<p><strong>2. Perhitungan Objek Garis dengan Perhitungan Panjang Jalan</strong></p>
+
+<p>Perhitungan objek jalan berbeda dengan perhitungan objek dalam bentuk <em>point</em> dan <em>polygon</em>. Jika Anda ingin menghitung panjang jalan, maka data <em>shapefile</em> jalan Anda harus  diatur ataupun diubah ke dalam koordinat UTM. Langkah-langkah untuk menghitung panjang jalan adalah sebagai berikut :</p>
+
+<p><strong>Mengubah Sistem Koordinat</strong></p>
+
+<ul>
+<li><strong>Klik kanan pada <em>layer</em> jalan → <em>Save as</em> → pilih Format ESRI Shapefile → <em>Save as</em> dalam direktori → CRS</strong> pilih sistem koordinat UTM sesuai dengan wilayah Anda <strong>→</strong> OK.</li>
+</ul>
+
+<p><p align="center">
+  <img width=60% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0915_simpanfile.png">
+</p>
+<p align="center"><i>Simpan file dengan CRS berbeda</i><p align="center"></p>
+
+<ul>
+<li>Jika Anda memberikan tanda centang pada <strong><em>Add saved file to map</em></strong>, maka <em>layer</em> jalan yang baru akan langsung muncul di <strong><em>Layers Panel</em></strong> dan kanvas peta.</li>
+</ul>
+
+<p><strong>Membuat Kolom Baru untuk Perhitungan Panjang Jalan</strong></p>
+
+<ul>
+<li>Klik kanan pada <em>Layers</em> <strong>“Jalan_Admin_UTM”</strong> → <strong><em>Open Attribute Table</em></strong>. Aktifkan <em>toolbar</em> yang terletak di atas dengan klik <strong><em>Toggle editing mode</em></strong> untuk mengaktifkan semua <em>toolbar</em>.<br /></li>
+</ul>
+
+<p><p align="center">
+  <img width=50% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0916_toggleediting.png">
+</p>
+<p align="center"><i>Toolbar Toggle editing mode</i><p align="center"></p>
+
+<ul>
+<li>Untuk menambahkan kolom baru, klik <strong><em>New Field</em></strong> yang terletak pada <em>toolbar</em>.</li>
+</ul>
+
+<p><p align="center">
+  <img width=60% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0917_newfield.png">
+</p>
+<p align="center"><i>Toolbar New Field</i><p align="center"></p>
+
+<ul>
+<li><p>Tampilan kotak dialog <strong><em>Add field</em></strong> akan nampak seperti gambar di bawah ini, ada beberapa pengaturan isian, yaitu :</p>
+
+<ul>
+<li><strong><em>Name</em></strong>  = menampilkan judul kolom</li>
+<li><strong><em>Type</em></strong>  = menunjukkan tipe data yang dapat dipilih sesuai dengan jenis data isi kolom. Tipe <em>decimal number (real)</em> akan menunjukkan bilangan desimal.</li>
+<li><strong><em>Provider type double</em></strong> = <em>Length</em> menunjukkan jumlah angka di setiap baris dan <em>precision</em> menunjukkan jumlah desimal di belakang koma.</li>
+<li>Klik OK = untuk menyelesaikan pengaturan<br /></li>
+</ul></li>
+</ul>
+
+<p><p align="center">
+  <img src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0918_pengaturanfield.png">
+</p>
+<p align="center"><i>Pengaturan Add field</i><p align="center"></p>
+
+<p><strong>Perhitungan Panjang Jalan (meter) dengan <em>Field Calculator</em></strong></p>
+
+<ul>
+<li><p>Anda dapat memeriksa kolom yang sudah dibuat yang terletak di baris paling akhir pada tabel atribut. Untuk melakukan pengisian kolom perhitungan panjang jalan, Anda dapat mengaktifkan <strong><em>Open field calculator</em></strong>.</p></li>
+
+<li><p>Ada beberapa pengaturan untuk pengisian <em>field calculator</em>, yaitu :</p>
+
+<ul>
+<li>Berikan tanda centang pada bagian <strong><em>Update existing field</em></strong> untuk memperbarui isian kolom</li>
+<li>Pilih kolom yang akan diperbaharui datanya</li>
+<li>Anda dapat mengetikkan <strong><em>“length”</em></strong> untuk menghitung panjang jalan secara otomatis.</li>
+<li>Klik dua kali pada bagian <strong><em>Geometry → length</em></strong> sebagai formula untuk menghitung panjang jalan, kata <strong><em>$length</em></strong> akan muncul pada kotak <strong><em>Expression.</em></strong></li>
+<li>Klik OK untuk menyelesaikan pengaturan <em>field calculator</em></li>
+</ul></li>
+</ul>
+
+<p><p align="center">
+  <img width=70% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0919_fieldpj.png">
+</p>
+<p align="center"><i>Pengaturan Field Calculator untuk panjang jalan</i><p align="center"></p>
+
+<ul>
+<li>Periksa kolom paling akhir di tabel atribut untuk mengetahui panjang jalan  untuk setiap segmen jalan.</li>
+</ul>
+
+<p><p align="center">
+  <img src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0920_hasilpj.png">
+</p>
+<p align="center"><i>Panjang jalan untuk segmen jalan</i><p align="center"></p>
+
+<ul>
+<li>Simpan hasil perhitungan jalan tersebut dengan cara klik <em>toolbar <strong>Save Edits</strong></em>. Untuk mengakhiri mode pengeditan klik <strong><em>Toggle Editing</em></strong>.</li>
+</ul>
+
+<p><p align="center">
+  <img width=50% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0921_savechange.png">
+</p>
+<p align="center"><i>Simpan perubahan</i><p align="center"></p>
+
+<p><strong>Menghitung Jumlah Panjang Jalan Berdasarkan Jenis Jalan dengan <em>Group Stats</em></strong></p>
+
+<ul>
+<li>Untuk memudahkan proses perhitungan kuantitas data untuk panjang jalan, Anda akan melakukan filter perhitungan berdasarkan administrasi kecamatan, langkah yang diperlukan yaitu klik kanan pada <strong><em>layer</em> “jalan_admin_utm” → Filter → (ikuti  langkah-langkah seperti gambar di bawah) → OK</strong>.</li>
+</ul>
+
+<p><p align="center">
+  <img width=60% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0922_langkahfilterdata.png">
+</p>
+<p align="center"><i>Filter berdasarkan Kecamatan</i><p align="center"></p>
+
+<ul>
+<li>Buka <em>plugin <strong>Group Stats</strong></em> dengan klik <strong><em>Menu Vector → Group Stats → Group Stats</em></strong>.</li>
+<li>Pada bagian <strong><em>Value</em></strong>, Anda dapat menggunakan formula <strong>“sum”</strong> untuk menghitung panjang jalan yang terdapat di kolom <strong>Panjang_Jl</strong> yang telah dihitung sebelumnya.</li>
+</ul>
+
+<p><p align="center">
+  <img width=80% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0923_groupstatspj.png">
+</p>
+<p align="center"><i>Pengaturan Group Stats untuk panjang jalan</i><p align="center"></p>
+
+<ul>
+<li><p>Sama seperti sebelumnya, tabel yang muncul pada <em>Group Stats</em> akan disalin dan  <em>paste</em> ke tempat yang lebih mudah untuk dimodifikasi misalnya menjadi bentuk grafik. Anda dapat memindahkan tabel tersebut ke <em>Microsoft</em> <em>Excel</em> atau <em>Google Sheets</em>.</p>
+
+<p>Caranya : Klik <strong><em>Data → Copy all to clipboard.</em></strong></p></li>
+</ul>
+
+<p><p align="center">
+  <img width=70% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/images/0924_copyhasilpj.png">
+</p>
+<p align="center"><i>Copy dan paste tabel atribut</i><p align="center"></p>
+
+<ul>
+<li>Siapkan <em>Microsoft Excel</em> atau <em>Google Sheet</em> untuk memindahkan tabel tersebut</li>
+</ul>
+
+<p>Tabel Data Statistik Jaringan Jalan (meter)
+<table>
+  <tr>
+   <td><strong>Kategori Jalan</strong>
+   </td>
+   <td><strong>Candi</strong>
+   </td>
+   <td><strong>Jatingaleh</strong>
+   </td>
+   <td><strong>Jomblang</strong>
+   </td>
+   <td><strong>Kaliwiru</strong>
+   </td>
+   <td><strong>Karanganyar Gunung</strong>
+   </td>
+   <td><strong>Tegalsari</strong>
+   </td>
+   <td><strong>Wonotingal</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Motorway
+   </td>
+   <td>
+   </td>
+   <td>1313.88
+   </td>
+   <td>163.85
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Trunk
+   </td>
+   <td>
+   </td>
+   <td>1571.20
+   </td>
+   <td>
+   </td>
+   <td>1602.19
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>228.14
+   </td>
+  </tr>
+  <tr>
+   <td>Primary
+   </td>
+   <td>1389.34
+   </td>
+   <td>1264.54
+   </td>
+   <td>
+   </td>
+   <td>206.96
+   </td>
+   <td>
+   </td>
+   <td>1130.27
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Secondary
+   </td>
+   <td>1065.13
+   </td>
+   <td>
+   </td>
+   <td>24.17
+   </td>
+   <td>2353.86
+   </td>
+   <td>
+   </td>
+   <td>888.05
+   </td>
+   <td>1809.81
+   </td>
+  </tr>
+  <tr>
+   <td>Tertiary
+   </td>
+   <td>271.49
+   </td>
+   <td>3920.71
+   </td>
+   <td>1612.78
+   </td>
+   <td>
+   </td>
+   <td>836.18
+   </td>
+   <td>2.01
+   </td>
+   <td>925.43
+   </td>
+  </tr>
+  <tr>
+   <td>Service
+   </td>
+   <td>500.24
+   </td>
+   <td>2567.00
+   </td>
+   <td>226.11
+   </td>
+   <td>116.68
+   </td>
+   <td>150.03
+   </td>
+   <td>301.93
+   </td>
+   <td>851.94
+   </td>
+  </tr>
+  <tr>
+   <td>Residential
+   </td>
+   <td>8486.45
+   </td>
+   <td>14300.66
+   </td>
+   <td>20972.41
+   </td>
+   <td>5424.36
+   </td>
+   <td>13322.03
+   </td>
+   <td>15234.38
+   </td>
+   <td>11635.03
+   </td>
+  </tr>
+  <tr>
+   <td>Pedestrian
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>141.93
+   </td>
+   <td>344.38
+   </td>
+  </tr>
+  <tr>
+   <td>Path
+   </td>
+   <td>
+   </td>
+   <td>14.68
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>601.85
+   </td>
+   <td>26.40
+   </td>
+  </tr>
+  <tr>
+   <td>Living Street
+   </td>
+   <td>5913.74
+   </td>
+   <td>2841.22
+   </td>
+   <td>6588.17
+   </td>
+   <td>451.66
+   </td>
+   <td>4401.59
+   </td>
+   <td>3509.38
+   </td>
+   <td>2576.71
+   </td>
+  </tr>
+</table></p>
+
+<ul>
+<li>Lakukan langkah-langkah yang sama untuk melakukan perhitungan objek-objek lainnya. Contoh tabel perhitungan objek OSM yang ada di Kota Semarang <a href="http://tinyurl.com/kuantitas-data">http://tinyurl.com/kuantitas-data</a></li>
+</ul>
+
+<p><strong>RINGKASAN</strong></p>
+
+<p>Anda telah menyelesaikan perhitungan data OSM dengan menggunakan <em>plugin Group Stats</em> pada QGIS untuk mendapatkan kuantitas data objek yang dihasilkan dari proyek pemetaan. Data statistik tersebut dapat dikembangkan dalam bentuk laporan untuk mengetahui progres dan memantau kinerja pemetaan yang sedang Anda lakukan.</p>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+    
+  <div>
+    <a href="https://github.com/hotosm/pdc-documentation/edit/master/content/pages/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/09_Perhitungan_Kuantitas_Data_dengan_Group_Stats.md" target="_blank" rel="noopener">
+       Edit this page on GitHub
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/hotosm/pdc-documentation/commit/72cf8f801e7ab34d4ec15d5c2137a31aad437516" title='Last modified May 16, 2019 00:50 UTC by dewisulistio' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> May 16, 2019
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    
+      
+  </aside>
+
+
+
+  </main>
+
+  
+  
+  <footer class="footer">
+
+    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
+    <a href="https://github.com/hotosm/pdc-documentation" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+    </svg></a>
+    
+
+  </footer>
+  
+</body>
+
+</html>
