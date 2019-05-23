@@ -42,7 +42,7 @@ _OpenMapKit_ menyediakan peta OSM sebagai _basemap_ yang harus diakses menggunak
 
 *   Format data yang digunakan sebagai _offline basemap_ dalam aplikasi _OpenMapKit_ harus berformat _.mbtiles_. Cara pembuatan _.mbtiles_ dapat dilihat pada modul **Membuat Mbtiles untuk OMK (OpenMapKit)**. Setelah Anda memiliki _file .mbtiles_, sambungkan _smartphone_ Anda ke komputer/laptop. Buka folder yang berisi _file .mbtiles_ yang akan dimasukkan. Pilih _file .mbtiles_ nya kemudian salin ke folder **openmapkit →** **mbtiles** yang ada di internal _storage smartphone_ Anda.
 
-![Proses menambahkan file .mbtiles ke dalam OpenMapKit](/pages/01-OSM-Field-Surveyor-Guideliness/03-Menggunakan-Aplikasi-OMK/images/0303_omk_mbtiles.png "Proses menambahkan file .mbtiles ke dalam OpenMapKit")
+![Proses menambahkan file mbtiles ke dalam OpenMapKit](/pages/01-OSM-Field-Surveyor-Guideliness/03-Menggunakan-Aplikasi-OMK/images/0303_omk_mbtiles.png "Proses menambahkan file mbtiles ke dalam OpenMapKit")
 <p align="center"><i>Proses menambahkan file .mbtiles ke dalam OpenMapKit</i></p>
 
 *   Jika sudah berhasil memasukkan _.mbtiles_, Anda dapat mengubah _basemap OpenMapKit_ dengan cara tekan **tombol pengaturan** yang terletak di pojok kanan atas dan tekan **_Basemap_** kemudian pilih _.mbtiles_ yang baru saja Anda masukkan. Lalu tekan **_OK_**.
@@ -65,7 +65,7 @@ Data OSM yang sudah ada dapat memudahkan Anda untuk menambahkan informasi bangun
 *   Tekan **tombol pengaturan** yang ada di pojok kanan atas
 *   Pilih **_OSM XML Downloader_** untuk men-_download_ data OSM sesuai dengan tampilan di layar _smartphone_ Anda (lama tidaknya waktu _download_ bergantung pada besar kecilnya area). Pastikan Anda tersambung dengan koneksi internet saat men-_download_ data OSM. Perhatikan warna bangunan, bangunan pada _basemap_ OSM berwarna cokelat dan bangunan hasil _download_ berwarna ungu.
 
-![Warna bangunan pada basemap OSM (kiri) dan Warna bangunan hasil download (kanan)](/pages/01-OSM-Field-Surveyor-Guideliness/03-Menggunakan-Aplikasi-OMK/images/0306_warna_bangunan.png "Warna bangunan pada basemap OSM (kiri) dan Warna bangunan hasil download (kanan)")
+![Warna bangunan pada basemap OSM kiri dan Warna bangunan hasil download (kanan)](/pages/01-OSM-Field-Surveyor-Guideliness/03-Menggunakan-Aplikasi-OMK/images/0306_warna_bangunan.png "Warna bangunan pada basemap OSM kiri dan Warna bangunan hasil download (kanan)")
 <p align="center"><i>Warna bangunan pada basemap OSM (kiri) dan Warna bangunan hasil download (kanan)</i></p>
 
 *   Data OSM yang baru saja di-_download_ akan tersimpan dalam format _.osm_ yang dapat diaktifkan atau dinonaktifkan melalui **tombol pengaturan** **→ _OSM XML Layer_**.
@@ -93,7 +93,7 @@ Jika lokasi survei Anda masih belum tersedia data bangunannya di dalam OSM, Anda
 *   Gunakan _.mbtiles_ yang sudah Anda masukkan sebelumnya untuk membantu menandai objek secara akurat dengan cara tekan **tombol pengaturan** **→ _Basemap_**
 *   Tekan **ikon plus (+)** yang ada di pojok kanan bawah layar Anda hingga berubah warna menjadi hijau. Akan muncul _marker_ atau penanda warna hijau dengan tulisan _Add Node_ di atasnya. Geser peta hingga lokasi penanda akurat dengan objek yang disurvei.
 
-![Menambahkan penanda menggunakan ikon plus (+)](/pages/01-OSM-Field-Surveyor-Guideliness/03-Menggunakan-Aplikasi-OMK/images/0310_add_node_omk.png "Menambahkan penanda menggunakan ikon plus (+)")
+![Menambahkan penanda menggunakan ikon plus](/pages/01-OSM-Field-Surveyor-Guideliness/03-Menggunakan-Aplikasi-OMK/images/0310_add_node_omk.png "Menambahkan penanda menggunakan ikon plus")
 <p align="center"><i>Menambahkan penanda menggunakan ikon plus (+)</i></p>
 
 *   Tekan **_Add Node_** jika titik sudah akurat

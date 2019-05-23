@@ -17,14 +17,14 @@ Dalam kegiatan survei lapangan terkadang Anda membutuhkan sebuah formulir survei
 
 _XLSForm_ merupakan sebuah formulir standar yang dibuat untuk membantu mempercepat proses pembuatan formulir survei di **Excel.** Pembuatan formulir survei ini dilakukan dalam format yang mudah dibaca dan menggunakan alat yang familiar - **Excel/Google Spreadsheet**. _XLSForm_ menghasilkan standar baku untuk berbagi dan bekerja sama dalam pembuatan formulir survei. _XLSForm_ sangat mudah untuk digunakan tetapi bisa juga menjadi sangat rumit apabila Anda sudah familiar dalam membuatnya. 
 
-![Contoh format XLSForm](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0501_contoh_format_XLSForm.png "Contoh format XLSForm")
+![Contoh format XLSForm](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0501_contoh_format_XLSForm.png)
 <p align="center"><i>Contoh format XLSForm</i></p>
 
 
 
 _XLSForm_ ini kemudian akan diubah menjadi bentuk _XForm_, sebuah format standar yang bersifat terbuka, dimana format tersebut memungkinkan Anda untuk membuat sebuah formulir dengan fungsi yang sangat kompleks, seperti pertanyaan bertingkat, ke dalam format yang sudah dikenali oleh perangkat pengumpulan data baik itu dalam bentuk situs di internet, maupun dalam perangkat telepon genggam.
 
-![Contoh format XForm](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0502_contoh_format_XForm.png "Contoh format XForm")
+![Contoh format XForm](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0502_contoh_format_XForm.png)
 <p align="center"><i>Contoh format XForm</i></p>
 
 Syarat utama dalam membuat _XLSForm_ adalah berkas akhir formulir survei Anda harus dalam jenis **Microsoft Excel** (format _.xls_ atau _.xls_). Apabila Anda membuat formulir survei menggunakan aplikasi lain seperti **Google Spreadsheet** atau **Libre Office**, Anda harus memastikan bahwa hasil akhir berkas tersebut disimpan dalam format _.xls_ atau _.xlsx_.
@@ -43,7 +43,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
     *   **Tiga lembar kerja/_sheet_ utama.**
 
     Pada dokumen _spreadsheet_ yang kita buat, harus terdiri dari 3 lembar kerja utama, yaitu lembar kerja yang bernama _**survey, choices, settings.**_ Penamaan lembar kerja ini harus sesuai dan tidak boleh salah karena nanti akan gagal pada saat meng-_upload_ formulir survei Anda.
-    ![Tiga Lembar Kerja Utama di setiap XLSForm](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0503_tiga_lembar_kerja_utama.png "Tiga Lembar Kerja Utama di setiap XLSForm")
+    ![Tiga Lembar Kerja Utama di setiap XLSForm](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0503_tiga_lembar_kerja_utama.png)
     <p align="center"><i>Tiga Lembar Kerja Utama di setiap XLSForm</i></p>
 
     Lembar kerja pertama yaitu **_survey_.** Pada lembar kerja ini semua pertanyaan yang akan kita buat harus kita letakkan pada lembar kerja ini. Semua pertanyaan yang kita buat tidak perlu disertakan dengan daftar jawaban. Semua daftar jawaban yang kita butuhkan akan mengacu ke lembar kerja berikutnya.
@@ -63,7 +63,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
 
         Kolom dengan nama **label** menunjukkan tulisan pertanyaan yang akan muncul pada perangkat ponsel pengguna. Tidak ada format baku untuk kolom ini, Anda bebas menggunakan huruf, angka, dan karakter spesial pada kolom ini.
         
-        ![Contoh kolom untuk lembar kerja survey](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0504_ct_kolom_survey.png "Contoh kolom untuk lembar kerja survey")
+        ![Contoh kolom untuk lembar kerja survey](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0504_ct_kolom_survey.png)
         <p align="center"><i>Contoh kolom untuk lembar kerja survey</i></p>
 
         * **Lembar kerja choices**
@@ -74,7 +74,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
 
         Kolom dengan nama **_label_** memiliki aturan yang sama dengan kolom **label** pada lembar kerja **survey**. Pada kolom ini berisikan teks jawaban yang akan muncul pada ponsel pengguna. Anda bisa bebas menggunakan spasi, karakter khusus maupun huruf pada bagian kolom ini.
         
-        ![Contoh penamaan kolom pada lembar kerja choices](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0505_penamaan_kolom_choices.png "Contoh penamaan kolom pada lembar kerja choices")
+        ![Contoh penamaan kolom pada lembar kerja choices](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0505_penamaan_kolom_choices.png)
         <p align="center"><i>Contoh penamaan kolom pada lembar kerja **choices**</i></p>
 
         *   **Lembar kerja settings**
@@ -84,14 +84,14 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
         Sementara untuk kolom **form_id**, Anda bisa memberikan id formulir Anda. Syarat penamaan pada kolom ini adalah Anda tidak boleh memiliki id yang sama seperti formulir lainnya, tidak menggunakan spasi, dan tidak menggunakan karakter spesial.
         Untuk kolom **version**, Anda bisa memberikan versi formulir Anda. Penambahan kolom **version** ini tidak wajib. Apabila Anda sering menambah/mengubah formulir survei Anda, dengan memberikan kolom **version** ini, akan memudahkan Anda dalam mengunggah formulirnya pada server.
         
-        ![Contoh penamaan kolom pada lembar kerja settings](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0506_pengaturan_settings.png "Contoh penamaan kolom pada lembar kerja settings")
+        ![Contoh penamaan kolom pada lembar kerja settings](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0506_pengaturan_settings.png)
         <p align="center"><i>Contoh penamaan kolom pada lembar kerja settings</i></p>
 
         *   **Semua isian harus dengan format standar dan dimulai dari kotak paling pertama.**
 
         Salah satu syarat yang paling utama adalah ketika kita membuat formulir survei, semua harus dimulai pada _field_/kuadran _**A-1.**_
         
-        ![Posisi awal membuat formulir survei](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0507_posisi_awal_membuat_formulir_survei.png "Posisi awal membuat formulir survei")
+        ![Posisi awal membuat formulir survei](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0507_posisi_awal_membuat_formulir_survei.png)
         <p align="center"><i>Posisi awal membuat formulir survei</i></p>
 
         Semua isian formulir harus dimulai pada kuadran/_field_ tersebut karena nantinya sistem akan mengkonversi berkas _spreadsheet_ ini menjadi dalam bentuk _XForm_, sehingga apabila Anda tidak memulai dari posisi tersebut, akan terjadi _error_ pada sistem.
@@ -106,48 +106,48 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
 
         Tipe pertanyaan jenis ini akan menghasilkan format pertanyaan dengan jawaban bebas. Pengguna bisa dengan bebas memasukkan angka, huruf, dan karakter spesial apabila kita menggunakan tipe pertanyaan ini.
         
-        ![Contoh tipe pertanyaan text](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0508_contoh_tipe_pertanyaan_text.png "Contoh tipe pertanyaan text")
+        ![Contoh tipe pertanyaan text](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0508_contoh_tipe_pertanyaan_text.png)
         <p align="center"><i>Contoh tipe pertanyaan text</i></p>
 
     *   Tipe pertanyaan **integer/decimal**
 
         Tipe pertanyaan jenis ini akan menghasilkan format pertanyaan dengan jawaban berupa angka bilangan bulat (khusus untuk tipe **integer**) atau angka bilangan desimal (khusus untuk tipe **decimal**). Pengguna hanya bisa memasukkan angka saja dengan tipe pertanyaan ini, gabungan dari angka dan huruf tidak akan bisa dimasukkan apabila kita menggunakan tipe pertanyaan ini.
         
-        ![Contoh tipe pertanyaan integer](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0509_contoh_tipe_pertanyaan_integer.png "Contoh tipe pertanyaan integer")
+        ![Contoh tipe pertanyaan integer](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0509_contoh_tipe_pertanyaan_integer.png
         <p align="center"><i>Contoh tipe pertanyaan integer</i></p>
 
     *   Tipe pertanyaan **select_one**
 
         Tipe pertanyaan jenis ini akan memberikan pengguna sebuah pilihan jawaban dimana pengguna hanya boleh memilih satu jawaban saja. Dalam membuat tipe pertanyaan ini, Anda harus menggunakan format seperti **select_one [opsi]**. Dimana **[opsi]** merupakan variabel grup yang akan dimasukkan ke dalam lembar kerja **choices** di dalam kolom **list_name**.
         
-        ![Contoh tipe pertanyaan select_one opsi. Perhatikan bahwa pada  list_name sesuai dengan apa yang ada pada  opsi di lembar kerja survey](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0510_contoh_select_one.png "Contoh tipe pertanyaan select_one [opsi]. Perhatikan bahwa pada  list_name sesuai dengan apa yang ada pada  [opsi] di lembar kerja survey")
+        ![Contoh tipe pertanyaan select_one](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0510_contoh_select_one.png)
         <p align="center"><i>Contoh tipe pertanyaan select_one [opsi]. Perhatikan bahwa pada  list_name sesuai dengan apa yang ada pada  [opsi] di lembar kerja survey.</i></p>
 
     *   Tipe pertanyaan **select_multiple**
 
         Tipe pertanyaan jenis ini sama seperti tipe pertanyaan sebelumnya. Jawaban yang disajikan ke pengguna merupakan beberapa pilihan dan pengguna boleh memilih lebih dari satu jawaban. Aturan dalam pembuatan tipe pertanyaan ini juga sama seperti **select_one**. Anda harus menggunakan format seperti **select_multiple [opsi],** dimana **[opsi]** merupakan variabel grup yang akan dimasukkan ke dalam lembar kerja **choices** dalam kolom **list_name**.
         
-        ![Contoh tipe pertanyaan select_multiple [opsi]. Opsi pada gambar diatas adalah floodcause yang juga muncul didalam lembar kerja choices](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0511_contoh_select_multiple.png "Contoh tipe pertanyaan select_multiple [opsi]. Opsi pada gambar diatas adalah floodcause yang juga muncul didalam lembar kerja choices")
+        ![Contoh tipe pertanyaan select_multiple](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0511_contoh_select_multiple.png)
         <p align="center"><i>Contoh tipe pertanyaan select_multiple [opsi]. Opsi pada gambar diatas adalah floodcause yang juga muncul didalam lembar kerja choices</i></p>
         
     *   Tipe pertanyaan **geopoint**
 
         Tipe pertanyaan ini akan meminta pengguna untuk merekam koordinat posisi mereka dan akan menghasilkan data berbentuk koordinat lintang dan bujur.
         
-        ![Contoh penggunaan tipe pertanyaan geopoint](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0512_contoh_geopoint.png "Contoh penggunaan tipe pertanyaan geopoint")
+        ![Contoh penggunaan tipe pertanyaan geopoint](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0512_contoh_geopoint.png)
         <p align="center"><i>Contoh penggunaan tipe pertanyaan geopoint</i></p>
 
     *   Tipe **note**
 
         Tipe ini digunakan untuk menambahkan halaman catatan atau pemberitahuan. Pengguna akan disajikan satu halaman yang berisikan tampilan tulisan saja tanpa harus mengisi informasi apapun. Untuk format penulisan masih mengikuti kaidah penulisan pada kolom **label**, dimana kita bebas memberikan format tulisan apapun.
     
-    ![Contoh penggunaan tipe note](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0513_contoh_note.png "Contoh penggunaan tipe note")
+    ![Contoh penggunaan tipe note](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0513_contoh_note.png)
     <p align="center"><i>Contoh penggunaan tipe note</i></p>
     
     *   Tipe **image, video** atau **audio**
         Tipe pertanyaan ini akan meminta pengguna untuk mengambil gambar, suara atau video. 
     
-    ![Contoh penggunaan tipe image](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0514_contoh_image.png "Contoh penggunaan tipe image")
+    ![Contoh penggunaan tipe image](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0514_contoh_image.png)
     <p align="center"><i>Contoh penggunaan tipe image</i></p>
     
 
@@ -159,14 +159,14 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
 
         Hint merupakan salah satu fitur tambahan yang bisa kita tambahkan pada formulir survei digital kita. Dengan menggunakan fitur ini, kita bisa memberikan informasi tambahan atau petunjuk tentang bagaimana cara mengisi sebuah pertanyaan yang kita buat. Untuk membuat fitur ini, kita harus menambahkan kolom baru pada lembar kerja **survey** yang bernama **hint**. Dengan menambahkan kolom ini, setiap tipe pertanyaan yang kita buat, bisa kita tambahkan dengan petunjuk informasi pengisian dengan mengisi pada kolom **hint** ini.
         
-        ![Contoh penggunaan kolom hint](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0515_contoh_kolom_hint.png "Contoh penggunaan kolom hint")
+        ![Contoh penggunaan kolom hint](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0515_contoh_kolom_hint.png)
         <p align="center"><i>Contoh penggunaan kolom hint</i></p>
 
     *   **Required**
 
         Fitur ini dibutuhkan apabila pada formulir survei Anda, terdapat pertanyaan yang wajib untuk dijawab. Dengan menggunakan fitur ini, pengguna tidak akan bisa mengisi pertanyaan selanjutnya apabila mereka belum menjawab pertanyaan tersebut. Tipe pertanyaan yang menggunakan fitur ini juga akan memiliki tanda bintang berwarna merah ( * ) apabila dilihat pada ponsel Anda. Untuk menggunakan fitur ini, Anda cukup membuat sebuah kolom baru yang bernama **required** yang terletak pada lembar kerja **survey**. Setiap tipe pertanyaan yang Anda akan atur menjadi wajib, harus anda tambahkan nilai **yes** pada kolom required ini.
         
-        ![Contoh penggunaan fitur required. Setiap pertanyaan yang mengaktifkan fitur ini tidak dapat dilewati oleh pengguna apabila belum diisi](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0516_contoh_penggunaan_fitur_required.png "Contoh penggunaan fitur required. Setiap pertanyaan yang mengaktifkan fitur ini tidak dapat dilewati oleh pengguna apabila belum diisi")
+        ![Contoh penggunaan fitur required](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0516_contoh_penggunaan_fitur_required.png)
         <p align="center"><i>Contoh penggunaan fitur required. Setiap pertanyaan yang mengaktifkan fitur ini tidak dapat dilewati oleh pengguna apabila belum diisi</i></p>
 
     *   **Field-list**
@@ -176,7 +176,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
         1.  Anda harus menyelipkan format **begin_group** pada bagian awal pertanyaan yang ingin Anda tampilkan ke dalam satu halaman dan **end_group** pada bagian akhir pertanyaan yang ingin Anda tampilkan dalam satu halaman. Format **begin_group** dan **end_group** ini harus berada di dalam kolom **type**. Dengan menyelipkan format ini, sistem akan membaca bahwa semua pertanyaan yang berada setelah format **begin_group** dan sebelum format **end_group** merupakan satu grup pertanyaan.
         2. Setelah anda membuat grup pertanyaan tersebut, Anda harus menambahkan kolom **appearance** dan disikan dengan format **field-list**. Dengan menambahkan kolom tersebut, Anda memberitahukan kepada sistem bahwa semua grup pertanyaan yang telah Anda buat, akan dimasukkan ke dalam daftar satu halaman saja.
         
-        ![Contoh penggunaan fitur field-list pada beberapa kelompok pertanyaan](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0517_contoh_field-list.png "Contoh penggunaan fitur field-list pada beberapa kelompok pertanyaan")
+        ![Contoh penggunaan fitur field-list pada beberapa kelompok pertanyaan](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0517_contoh_field-list.png)
         <p align="center"><i>Contoh penggunaan fitur field-list pada beberapa kelompok pertanyaan</i></p>
 
     *   **Relevant**
@@ -185,13 +185,13 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
         1. Membuat tipe pertanyaan awal
         
             Sebelum menggunakan fitur **relevant**, Anda terlebih dahulu harus membuat pertanyaan Awal yang akan Anda masukkan kedalam format fitur **relevant**. Misalnya dengan menggunakan tipe pertanyaan **select_one**:
-        ![Contoh pertanyaan pada lembar kerja survey](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0518_contoh_lembar_kerja_survey.png "Contoh pertanyaan pada lembar kerja survey")
+        ![Contoh pertanyaan pada lembar kerja survey](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0518_contoh_lembar_kerja_survey.png)
         <p align="center"><i>Contoh pertanyaan pada lembar kerja survey</i></p>
 
         1. Membuat pilihan jawaban pada lembar kerja **choices**
         
             Setelah Anda membuat pertanyaan awal, langkah selanjutnya adalah Anda harus membuat pilihan jawaban pada lembar kerja **choices**.
-        ![Contoh pilihan jawaban pada lembar kerja choices](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0519_contoh_pilihan_jawaban_choices.png "Contoh pilihan jawaban pada lembar kerja choices")
+        ![Contoh pilihan jawaban pada lembar kerja choices](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0519_contoh_pilihan_jawaban_choices.png)
         <p align="center"><i>Contoh pilihan jawaban pada lembar kerja choices</i></p>
 
         1. Memasukkan fitur **relevant** pada pertanyaan selanjutnya
@@ -204,7 +204,7 @@ Anda tentunya sudah memahami cara penggunaan aplikasi _ODK Collect_ yang dijelas
             |selected(${field_name}, ‘choice’) | Untuk tipe select_multiple & select_one|
 
             Untuk **field_name** mengacu kepada variabel yang Anda tentukan sebelumnya di kolom **name** pada lembar kerja **survey.** Sementara itu untuk **choice** mengacu kepada variabel pilihan jawaban yang tersedia pada lembar kerja **choices**.
-            ![Contoh pembuatan fitur relevant](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0520_contoh_pembuatan_fitur_relevant.png "Contoh pembuatan fitur relevant")
+            ![Contoh pembuatan fitur relevant](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0520_contoh_pembuatan_fitur_relevant.png)
             <p align="center"><i>Contoh pembuatan fitur relevant</i></p>
 
 
@@ -218,7 +218,7 @@ Secara umum, pembuatan formulir survei untuk _OpenMapKit_ mengikuti aturan seper
 
     Secara umum, kebutuhan lembar kerja untuk membuat _OpenMapKit_ tidak jauh berbeda dengan format _ODK Collect_. Lembar kerja yang dibutuhkan oleh _ODK Collect_ adalah **survey, choices,** & **settings**. Namun untuk _OpenMapKit_, kita harus **menambahkan lembar kerja baru bernama** **osm**. 
     
-    ![Lembar kerja utama untuk OpenMapKit](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0521_lembar_kerja_utama_untuk_openmapkit.png "Lembar kerja utama untuk OpenMapKit")
+    ![Lembar kerja utama untuk OpenMapKit](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0521_lembar_kerja_utama_untuk_openmapkit.png)
     <p align="center"><i>Lembar kerja utama untuk OpenMapKit</i></p>
 
     Lembar kerja **osm** berisikan tentang pertanyaan dan pilihan jawaban yang akan muncul pada _OpenMapKit_. Pada lembar kerja inilah kita harus memasukkan semua daftar pertanyaan yang akan muncul di _OpenMapKit_. Sementara itu, tiga lembar kerja lainnya mengikuti pengaturan dalam pembuatan _ODK Collect_.
@@ -228,14 +228,14 @@ Secara umum, pembuatan formulir survei untuk _OpenMapKit_ mengikuti aturan seper
     Agar pertanyaan yang kita buat berhasil dimunculkan ke dalam _OpenMapKit_, kita harus memasukkan tipe pertanyaan khusus, yaitu **osm**. Dengan memasukkan pertanyaan ini ke dalam lembar kerja **survey**, sistem akan memunculkan semua pertanyaan di _OpenMapKit_ yang telah kita buat pada lembar kerja **osm**.
     Tipe pertanyaan ini harus diikuti dengan variabel yang nantinya akan terhubung dengan variabel yang ada pada kolom **list name** di lembar kerja **osm.**
     
-    ![Tipe pertanyaan osm dengan variabel yang sama di lembar kerja osm](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0522_tipe_pertanyaan_osm.png "Tipe pertanyaan osm dengan variabel yang sama di lembar kerja osm")
+    ![Tipe pertanyaan osm dengan variabel yang sama di lembar kerja osm](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0522_tipe_pertanyaan_osm.png)
     <p align="center"><i>Tipe pertanyaan osm dengan variabel yang sama di lembar kerja osm</i></p>
 
 3. Tiga kolom utama
 
     Pada lembar kerja **osm**, kita harus memasukkan tiga kolom utama, yaitu kolom **list name**, **name**, dan **label**. Kolom **list name** berisi tentang pertanyaan dan pilihan jawaban. Kolom **name** berisi tentang variabel unik yang mengikuti standar _key_ dan _value_ dari _OpenStreetMap._ Untuk daftar _key_ dan _value,_ Anda bisa melihat pada modul **Model Data _OpenStreetMap_** atau bisa langsung menuju situs [https://wiki.openstreetmap.org/wiki/Map_Features](https://wiki.openstreetmap.org/wiki/Map_Features) dan [https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines](https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines).
     
-    ![Kolom **name** mengikuti aturan key dan value pada OSM](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0523_aturan_key_dan_value_pada_osm.png "Kolom **name** mengikuti aturan key dan value pada OSM")
+    ![Kolom **name** mengikuti aturan key dan value pada OSM](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0523_aturan_key_dan_value_pada_osm.png)
     <p align="center"><i>Kolom **name** mengikuti aturan key dan value pada OSM</i></p>
 
 4. Pertanyaan dan pilihan jawaban didalam satu lembar kerja
@@ -261,23 +261,23 @@ Pertama-tama, kita harus membuat formulir survei untuk _ODK Collect_. Seperti sy
 
 Setelah itu, pada lembar kerja **survey** kita harus memberikan kolom utama kita, yaitu kolom **type, name** & **label**. Jenis tipe pertanyaan yang harus kita buat untuk formulir survei ini adalah **text, select_one** & **geopoint**. 
     
-  ![Tipe pertanyaan untuk lembar kerja **survey**](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0524_tipe_pertanyaan_untuk_lembar_kerja_survey.png "Tipe pertanyaan untuk lembar kerja **survey**")
+  ![Tipe pertanyaan untuk lembar kerja survey](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0524_tipe_pertanyaan_untuk_lembar_kerja_survey.png)
   <p align="center"><i>Tipe pertanyaan untuk lembar kerja **survey**</i></p>
 
 
 Pada lembar kerja **choices** kita memasukkan pilihan jawaban untuk tipe pertanyaan **select_one** yang sudah kita buat pada lembar kerja **survey**. Disini kita harus membuat tiga kolom utama yaitu **list_name, name,** & **label**.
     
-  ![Pilihan jawaban yang dimasukkan pada lembar kerja choices](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0525_pilihan_jawaban_lembar_kerja_choices.png "Pilihan jawaban yang dimasukkan pada lembar kerja choices")
+  ![Pilihan jawaban yang dimasukkan pada lembar kerja choices](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0525_pilihan_jawaban_lembar_kerja_choices.png)
   <p align="center"><i>Pilihan jawaban yang dimasukkan pada lembar kerja choices_</i></p>
 
 Karena kita ingin menggunakan _OpenMapKit_ untuk pengumpulan data lapangan kita, kita harus menambahkan tipe pertanyaan yang nantinya akan mengarahkan kita ke aplikasi _OpenMapKit_, tipe pertanyaan yang harus kita masukkan adalah **osm**. Pada lembar kerja **osm** kita memasukkan semua pertanyaan yang berkaitan dengan _OpenMapKit_. Pada variabel **name** kita harus mengacu kepada _key_ dan _value_ di wikipedia _OpenStreetMap_.
   
-  ![Isi lembar kerja survey dan osm](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0526_isi_lembar_kerja_survey_dan_osm.png "Isi lembar kerja survey dan osm")
+  ![Isi lembar kerja survey dan osm](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0526_isi_lembar_kerja_survey_dan_osm.png)
   <p align="center"><i>Isi lembar kerja survey dan osm</i></p>
 
 Terakhir, pada lembar kerja **settings** kita memasukkan id formulir kita dan judul formulir kita. Pada lembar kerja ini, hanya dibutuhkan dua kolom utama, yaitu **form_id** dan **title.**
   
-  ![Contoh pengaturan pada lembar kerja settings](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0527_contoh_pengaturan_pada_lembar_kerja_settings.png "Contoh pengaturan pada lembar kerja settings")
+  ![Contoh pengaturan pada lembar kerja settings](/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&-OpenMapKit/images/0527_contoh_pengaturan_pada_lembar_kerja_settings.png)
   <p align="center"><i>Contoh pengaturan pada lembar kerja settings</i></p>
 
 

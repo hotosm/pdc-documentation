@@ -41,14 +41,14 @@ Seperti yang sudah dijelaskan di sub-bab sebelumnya, komunitas _OpenStreetMap_ t
 
 Oleh karena itu solusi untuk mengatasi masalah-masalah tersebut adalah dengan membuat Presets Khusus sesuai dengan kebutuhan pemetaan Anda sendiri. Dengan membuat _presets_ sendiri Anda juga dapat menyesuaikan informasi-informasi apa saja yang ingin Anda kumpulkan dalam kegiatan pemetaan Anda dan juga label serta bahasa apa yang ingin Anda tampilkan untuk _presets_ Anda di JOSM. 
 
-![Tampilan presets bawaan JOSM (kiri) dan tampilan presets buatan / khusus (kanan)](/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0303_presets_3.png "Tampilan presets bawaan JOSM (kiri) dan tampilan presets buatan / khusus (kanan)")
+![Tampilan presets bawaan JOSM dan tampilan presets buatan / khusus](/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0303_presets_3.png)
 <p align="center"><i>Tampilan presets bawaan JOSM (kiri) dan tampilan presets buatan / khusus (kanan)</i></p>
 
 ### **II. Penggunaan Bahasa XML untuk Presets di OpenStreetMap**
 
 Sebelum memulai membuat _presets_ ada baiknya Anda memahami terlebih dahulu bahasa yang digunakan untuk membuat _presets_ itu sendiri. _Presets_ yang dimasukkan ke dalam JOSM menggunakan bahasa yang disebut _Extensible Markup Language_ atau disingkat XML. Bahasa XML merupakan bahasa yang berfungsi untuk membawa data-data yang nantinya dapat ditampilkan di JOSM dan _OpenStreetMap_. Bahasa XML menggunakan elemen-elemen penyusun yang memiliki hierarki dimana elemen tersebut akan mempunyai sub-elemen dan sub-elemen akan memiliki sub-sub-elemen. 
 
-![Contoh tampilan XML di Notepad ++](/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0304_presets_4.png "Contoh tampilan XML di Notepad ++")
+![Contoh tampilan XML](/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0304_presets_4.png)
 <p align="center"><i>Contoh tampilan XML di Notepad ++</i></p>
 
 Berikut adalah hierarki dan terminologi dalam bahasa XML yang digunakan untuk membuat _presets _di _OpenStreetMap_:
@@ -65,7 +65,7 @@ Berikut adalah hierarki dan terminologi dalam bahasa XML yang digunakan untuk me
 
 Berikut contoh hierarki tentang terminologi XML untuk _preset OpenStreetMap_
 
-![Hierarki file XML pada sebuah presets di OpenStreetMap](/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0305_presets_5.png "Hierarki file XML pada sebuah presets di OpenStreetMap")
+![Hierarki file XML pada sebuah presets di OpenStreetMap](/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0305_presets_5.png)
 <p align="center"><i>Hierarki file XML pada sebuah presets di OpenStreetMap</i></p>
 
 ### III. Membuat Presets Khusus 
@@ -119,7 +119,7 @@ Struktur dasar : <combo key="......" text="......" values="...,...,..." display_
 Ini merupakan elemen yang menampilkan informasi dalam bentuk pilihan. Elemen ini biasanya digunakan untuk informasi seperti tipe atap ataupun jenis dinding. Jika ingin mengumpulkan seperti itu Anda dapat menuliskannya di _presets_ seperti berikut:
 
 <p align="center">
-  <img width=120% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0314_presets.png "penulisan elemen combo key di xml">
+  <img width=120% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0314_presets.png">
 </p>
 
 Elemen yang terlihat pada contoh di atas tersebut berfungsi untuk menentukan informasi jenis dinding sehingga _key_ yang digunakan adalah “_building:walls”_ dan kata “_text”_ untuk menampilkan label _key_ dalam Bahasa Indonesia.
@@ -127,7 +127,7 @@ Elemen yang terlihat pada contoh di atas tersebut berfungsi untuk menentukan inf
 Anda juga dapat melihat _value_ yang ada ditambahkan (s) dibelakangnya karena pilihan informasi yang disediakan lebih dari 1 dan kata “_display_values_” adalah label _value_ yang bisa dituliskan dalam Bahasa Indonesia. Berikut adalah contoh tampilan di JOSM dari elemen di atas:
 
 <p align="center">
-  <img width="300" height="200" src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0307_presets_7.png "Tampilan elemen combo key di JOSM">
+  <img width="300" height="200" src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0307_presets_7.png">
 </p>
 <p align="center"><i>Tampilan elemen combo key di JOSM</i></p>
 
@@ -142,13 +142,13 @@ Struktur dasar : <multiselect key="......" text="......" values="...;...;...;...
 Elemen ini dapat menampilkan informasi dalam bentuk pilihan. Elemen ini mirip dengan _combo key_ dimana Anda dapat memasukkan pilihan informasi yang akan dipilih, akan tetapi perbedaannya adalah dengan elemen ini Anda dapat memilih lebih dari satu pilihan. Elemen ini biasanya digunakan untuk informasi seperti sumber air di suatu bangunan dimana kadang bisa memiliki lebih dari 1 sumber air. Berikut penulisan elemen ini dalam _presets_:
 
 <p align="center">
-  <img width=120% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0315_presets.png "penulisan elemen multiselect key di xml">
+  <img width=120% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0315_presets.png">
 </p>
 
 Penulisan elemen ini mirip dengan _combo key_ dimana perbedaannya adalah kata _multiselect_ menggantikan kata _combo_ dan pemisah antara _value_ menggunakan titik koma (;) sedangkan label _key_ dan _value_ yang dapat ditulis dalam Bahasa Indonesia sama-sama menggunakan kata _text_ dan _display_values_. Ini merupakan contoh tampilan elemen _multiselect key_ di JOSM:
 
 <p align="center">
-  <img width="300" height="200" src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0308_presets_8.png "Tampilan elemen multiselect key di JOSM">
+  <img width="300" height="200" src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0308_presets_8.png">
 </p>
 <p align="center"><i>Tampilan elemen multiselect key di JOSM</i></p>
 
@@ -160,13 +160,13 @@ Penulisan elemen ini mirip dengan _combo key_ dimana perbedaannya adalah kata _m
 Elemen ini biasanya digunakan untuk menampilkan isian informasi yang berupa tanda centang. Biasanya elemen ini digunakan untuk pertanyaan yang jawabannya iya atau tidak seperti akses ke atap dan jalan satu arah. Anda dapat menuliskan elemen ini di _preset_ seperti berikut:
 
 <p align="center">
-  <img width=90% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0316_presets.png "penulisan elemen check key di xml">
+  <img width=90% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0316_presets.png">
 </p>
 
 Penulisan elemen menggunakan _value_on_ dan _value_off_ dimana masing-masing dapat sesuai dengan nilai dimana _value_on_ artinya jika informasi itu dicentang dan _value_off_ jika tidak dicentang. Adapun _default_ atau pengaturan awal dari elemen ini adalah perintah bahwa jika tidak dicentang maka informasi ini akan tetap muncul di jendela _membership_ di JOSM. Berikut adalah contoh tampilan elemen ini di JOSM:
 
 <p align="center">
-  <img width="200" height="100" src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0309_presets_9.png "Tampilan elemen check key di JOSM">
+  <img width="200" height="100" src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0309_presets_9.png">
 </p>
 <p align="center"><i>Tampilan elemen check key di JOSM</i></p>
 
@@ -182,7 +182,7 @@ Jika Anda ingin menggunakan ikon yang sudah ada di JOSM maka Anda dapat melihatn
 Silahkan _download_ contoh presets HOT-PDC InAWARE sebagai acuan Anda dalam mempelajari materi _presets_ di https://bit.ly/presetshotpdcid
 
 <p align="center">
-  <img width="400" height="300" src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0311_presets_11.png "Contoh tampilan ikon di Presets JOSM">
+  <img width="400" height="300" src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0311_presets_11.png">
 </p>
 <p align="center"><i>Contoh tampilan ikon di Presets JOSM</i></p>
 
