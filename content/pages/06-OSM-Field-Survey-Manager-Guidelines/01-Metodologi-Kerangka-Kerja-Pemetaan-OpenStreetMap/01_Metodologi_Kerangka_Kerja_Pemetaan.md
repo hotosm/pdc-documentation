@@ -37,7 +37,7 @@ Perencanaan pemetaan memerlukan suatu kerangka kerja yang disesuaikan dengan ind
 Sebagai contoh, dibawah ini merupakan kerangka kerja yang disusun untuk pemetaan di Kota Semarang tahun 2018 yang memiliki luas wilayah 373,8 km<sup>2</sup> dengan jumlah _data entry_ 16 orang dan jumlah _quality assurance_ 4 orang. Infrastruktur yang dikumpulkan berjumlah 58 kategori objek meliputi jaringan jalan, sungai, tanggul dan fasilitas umum. Semua tahapan-tahapan pemetaan dilakukan selama 6 bulan.
 
 
-![kerangka_kerja]("/pages/06-OSM-Field-Survey-Manager-Guidelines/01-Metodologi-Kerangka-Kerja-Pemetaan-OpenStreetMap/images/0101_Kerangka_kerja_pemetaan.png")
+![kerangka_kerja](/pages/06-OSM-Field-Survey-Manager-Guidelines/01-Metodologi-Kerangka-Kerja-Pemetaan-OpenStreetMap/images/0101_Kerangka_kerja_pemetaan.png)
 <p align="center"><i>Kerangka kerja pemetaan</i></p>
 
 #### **a. Pelatihan _OpenStreetMap_ dan QGIS untuk tim Pemetaan**
