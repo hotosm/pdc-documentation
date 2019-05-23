@@ -104,7 +104,7 @@ Berikut ini adalah langkah-langkah dalam mengaktifkan perekaman _track_:
 
 *   Pergi ke **_Main Menu_**, pilih **_Setup_**.
 
-![Tampilan Main Menu, Setup](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0511_Tampilan_Main_Menu_Setup.png "Tampilan Main Menu Setup")
+![Tampilan Main Menu Setup](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0511_Tampilan_Main_Menu_Setup.png "Tampilan Main Menu Setup")
 <p align="center"><i>Tampilan Main Menu, Setup</i></p>
 
 *   Pilih **_Tracks_**.
@@ -124,7 +124,7 @@ _Track_ disimpan setelah survei lapangan selesai dilakukan. Umumnya _track_ disi
 
 *   Pergi ke **_Main Menu_**, pilih **_Track Manager_**.
 
-![Tampilan Main Menu, Track Manager](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0514_Tampilan_Main_Menu_Track_Manager.png "Tampilan Main Menu Track Manager")
+![Tampilan Main Menu Track Manager](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0514_Tampilan_Main_Menu_Track_Manager.png "Tampilan Main Menu Track Manager")
 <p align="center"><i>Tampilan Main Menu, Track Manager</i></p>
 
 *   Pilih **_Current Track_**, yaitu perekaman rute yang baru saja dilakukan.  
