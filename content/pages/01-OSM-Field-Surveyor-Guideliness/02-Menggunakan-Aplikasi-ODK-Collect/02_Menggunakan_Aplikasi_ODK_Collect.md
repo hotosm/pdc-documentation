@@ -72,7 +72,7 @@ Selain titik lokasi, Anda juga dapat mengambil foto sebagai keterangan tambahan.
 
 *   Geser layar ke kanan atau ke kiri untuk berpindah halaman pengisian formulir dan untuk berpindah ke isian formulir selanjutnya. Pertanyaan yang mempunyai tanda bintang merah di sisi kiri atas merupakan pertanyaan yang wajib diisi dan tidak dapat dilewati apabila jawaban kosong.
 
-![Contoh pertanyaan yang wajib diisi (tanda bintang merah)](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0214_fill_blank_form.png "Contoh pertanyaan yang wajib diisi (tanda bintang merah)")
+![Contoh pertanyaan yang wajib diisi (tanda bintang merah)](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0214_fill_blank_form.png "Contoh pertanyaan yang wajib diisi tanda bintang merah")
 <p align="center"><i>Contoh pertanyaan yang wajib diisi (tanda bintang merah)</i></p>
 
 *   Anda dapat mengambil foto langsung dengan tekan pilihan **_Take Picture_** atau pilih foto dari galeri foto Anda dengan memilih pilihan **_Choose Image_**.
