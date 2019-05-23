@@ -105,7 +105,11 @@ Formulir yang telah disimpan akan otomatis tersimpan pada aplikasi _ODK Collect_
 ![Tampilan halaman Edit Saved Form untuk memilih formulir yang akan diubah](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0219_edit_saved_form.png "Tampilan halaman Edit Saved Form untuk memilih formulir yang akan diubah")
 <p align="center"><i>Tampilan halaman Edit Saved Form untuk memilih formulir yang akan diubah</i></p>
 
-*   Setelah itu, simpan formulir dengan cara tekan ikon disket  ![disk_icon](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0220_disk_icon.png "disk_icon") untuk simpan perubahan pada formulir survei.
+*   Setelah itu, simpan formulir dengan cara tekan ikon disket
+
+![disk_icon](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0220_disk_icon.png "disk_icon") 
+
+untuk simpan perubahan pada formulir survei.
 
 ![Tampilan formulir survei yang sudah diisi dan ikon untuk simpan perubahan formulir](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0221_0222_edit_saved_form.png "Tampilan formulir survei yang sudah diisi dan ikon untuk simpan perubahan formulir")
 <p align="center"><i>Tampilan formulir survei yang sudah diisi dan ikon untuk simpan perubahan formulir</i></p>
@@ -157,17 +161,17 @@ Setelah Anda meng-_upload_ semua formulir survei kembali ke server, Anda perlu m
 
 *   Sebelum memindahkan folder **instances** ke dalam folder komputer Anda, Anda perlu mengubah folder **instances** tersebut menjadi format _.zip_ dengan cara tekan pada folder **instances** dan tekan **_Compress_** dan Anda dapat ubah nama _file_ _.zip_ tersebut.
 
-![Langkah untuk kompresi file menjadi format *.zip](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0233_0234_compress.png "Langkah untuk kompresi file menjadi format *.zip")
+![Langkah untuk kompresi file menjadi format zip](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0233_0234_compress.png "Langkah untuk kompresi file menjadi format zip")
 <p align="center"><i>Langkah untuk kompresi file menjadi format *.zip</i></p>
 
 *   Setelah itu Anda dapat memindahkan _file_ _.zip_ ke dalam komputer dan Anda dapat meng-_upload_ _file_ tersebut ke folder _Google Drive_ yang telah disediakan oleh _Mapping Supervisor_.
 
-![File .zip yang siap untuk dipindahkan ke komputer](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0235_zip.png "File .zip yang siap untuk dipindahkan ke komputer")
+![File zip yang siap untuk dipindahkan ke komputer](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0235_zip.png "File zip yang siap untuk dipindahkan ke komputer")
 <p align="center"><i>File .zip yang siap untuk dipindahkan ke komputer</i></p>
 
 *   Anda dapat meng-_upload_ _file_ ke folder Hasil survei dengan cara klik kanan pada _mouse_ lalu pilih ***Upload Files*** dan pilih _file_ yang ingin Anda _upload_. 
 
-![Tampilan folder pada Google Drive untuk upload file .zip](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0236_gdrive.png "Tampilan folder pada Google Drive untuk upload file .zip")
+![Tampilan folder pada Google Drive untuk upload file zip](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0236_gdrive.png "Tampilan folder pada Google Drive untuk upload file zip")
 <p align="center"><i>Tampilan folder pada Google Drive untuk upload file .zip</i></p>
 
 **RINGKASAN**

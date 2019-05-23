@@ -65,7 +65,7 @@ Data OSM yang sudah ada dapat memudahkan Anda untuk menambahkan informasi bangun
 *   Tekan **tombol pengaturan** yang ada di pojok kanan atas
 *   Pilih **_OSM XML Downloader_** untuk men-_download_ data OSM sesuai dengan tampilan di layar _smartphone_ Anda (lama tidaknya waktu _download_ bergantung pada besar kecilnya area). Pastikan Anda tersambung dengan koneksi internet saat men-_download_ data OSM. Perhatikan warna bangunan, bangunan pada _basemap_ OSM berwarna cokelat dan bangunan hasil _download_ berwarna ungu.
 
-![Warna bangunan pada basemap OSM kiri dan Warna bangunan hasil download (kanan)](/pages/01-OSM-Field-Surveyor-Guideliness/03-Menggunakan-Aplikasi-OMK/images/0306_warna_bangunan.png "Warna bangunan pada basemap OSM kiri dan Warna bangunan hasil download (kanan)")
+![Warna bangunan pada basemap OSM kiri dan Warna bangunan hasil download kanan](/pages/01-OSM-Field-Surveyor-Guideliness/03-Menggunakan-Aplikasi-OMK/images/0306_warna_bangunan.png "Warna bangunan pada basemap OSM kiri dan Warna bangunan hasil download kanan")
 <p align="center"><i>Warna bangunan pada basemap OSM (kiri) dan Warna bangunan hasil download (kanan)</i></p>
 
 *   Data OSM yang baru saja di-_download_ akan tersimpan dalam format _.osm_ yang dapat diaktifkan atau dinonaktifkan melalui **tombol pengaturan** **→ _OSM XML Layer_**.
