@@ -1,5 +1,7 @@
 # HOT-PDC Documentation Site
 
+[![CircleCI](https://circleci.com/gh/hotosm/pdc-documentation.svg?style=svg)](https://circleci.com/gh/hotosm/pdc-documentation)
+
 Welcome to HOT-PDC documentation sites. 
 
 This project uses the [Hugo](https://gohugo.io/) site generator for static HTML generation for Markdown content.

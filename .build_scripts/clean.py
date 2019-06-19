@@ -46,7 +46,7 @@ def main():
                         contents.append({'name':filename, 'content': content})
                 else:
                     continue
-        full_pdf_content = ""
+        full_pdf_content = "\n\n\pagebreak\n\n"
         content = clean_markdown("content", "_index.md", images)
         if content:
             full_pdf_content += content
@@ -54,7 +54,7 @@ def main():
         for item in sorted(contents, key=lambda k: k['name']):
             full_pdf_content += item['content']
             full_pdf_content += "\n\n\pagebreak\n\n"
-        with open('pdf-build/' + site_name + ".md", 'w') as f:
+        with open('pdf-build/' + site_name + ".fullsite.md", 'w') as f:
             f.write(full_pdf_content)
         
     else:
@@ -69,12 +69,12 @@ def main():
                 for filename in files:
                     ext = os.path.splitext(filename)[1]
                     if ext == '.md':
-                        content = clean_markdown(path, filename, lang_key ,default_lang)
+                        content = clean_markdown(path, filename, lang_key, default_lang)
                         if content:
                             contents.append({'name':filename, 'content': content})
                     else:
                         copyfile(os.path.join(path,filename), os.path.join('pdf-build',lang_key,filename))
-            full_pdf_content = ""
+            full_pdf_content = "\n\n\pagebreak\n\n"
             for item in sorted(contents, key=lambda k: k['name']):
                 full_pdf_content += item['content']
                 full_pdf_content += "\n\n\pagebreak\n\n"
@@ -91,7 +91,6 @@ def clean_markdown(path, filename, images, lang="", default_lang = "en"):
         content = post.content
         for image in images:
             replace_regex = r'(\!\[.*\]).*(\().*\/(' + re.escape(image) + r')([A-Za-z\s\"\'\-\,\.\;\:]*)(\))'
-            print(replace_regex)
             content = re.sub(replace_regex, r'\1\2\3\5', content)
         guide['content'] = ''
         if title:
