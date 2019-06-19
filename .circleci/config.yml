@@ -64,7 +64,7 @@ jobs:
       - persist_to_workspace:
           root: .
           paths: [public, pdf-build]
-    pdf:
+  pdf:
     working_directory: ~/build
     docker:
       - image: dalibo/pandocker
