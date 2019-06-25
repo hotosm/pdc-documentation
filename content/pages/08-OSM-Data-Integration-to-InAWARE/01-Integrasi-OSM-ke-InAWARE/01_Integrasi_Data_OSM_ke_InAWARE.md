@@ -23,24 +23,24 @@ Saat disetujui, prosesnya kemungkinan memakan waktu hingga 24 jam, tergantung da
 
 ### **II. Memasukkan Data _OpenStreetMap_ ke InAWARE**
 
-Setelah Anda mengetahui apa itu InAWARE serta langkah-langkah untuk mendapatkan akun, sekarang Anda akan mempelajari tentang bagaimana cara memasukkan hasil pemetaan dan pengumpulan data Anda di lapangan yang telah dimasukkan ke dalam _OpenStreetMap _ke dalam InAWARE. Format data yang dapat kita masukkan ke dalam InAWARE adalah **_GeoJSON._** Untuk mendapatkan data _OpenStreetMap _dalam format tersebut, Anda dapat melihat Modul **Konversi Data Shapefile ke GeoJSON**. Berikut adalah langkah-langkah dalam memasukkan data _OpenStreetMap _ ke dalam InAWARE:
+Setelah Anda mengetahui apa itu InAWARE serta langkah-langkah untuk mendapatkan akun, sekarang Anda akan mempelajari tentang bagaimana cara memasukkan hasil pemetaan dan pengumpulan data Anda di lapangan yang telah dimasukkan ke dalam _OpenStreetMap _ke dalam InAWARE. Format data yang dapat kita masukkan ke dalam InAWARE adalah **_GeoJSON._** Untuk mendapatkan data _OpenStreetMap _dalam format tersebut, Anda dapat melihat Modul **Konversi Data Shapefile ke GeoJSON**. Berikut adalah langkah-langkah dalam memasukkan data _OpenStreetMap_ ke dalam InAWARE:
 
 *   Silahkan klik menu **_Layers_** di InAWARE
 *   Pilih **_Edit_** kemudian pilih **_Add Layer_**
 
-![Memasukkan layer untuk data OpenStreetMap](/pages/08-OSM-Data-Integration-to-InAWARE/01-Integrasi-OSM-ke-InAWARE/images/0101_osm_to_inaware.PNG "Memasukkan layer untuk data OpenStreetMap")
+![Memasukkan layer untuk data OpenStreetMap](/pages/08-OSM-Data-Integration-to-InAWARE/01-Integrasi-OSM-ke-InAWARE/images/0101_osm_to_inaware.png)
 <p align="center"><i>Memasukkan layer untuk data OpenStreetMap</i></p>
 
 *   Kemudian pilih **_File_** dan klik **_Please Choose the File_**
 *   Cari dan pilih data _OpenStreetMap_ yang telah dikonversi menjadi GeoJSON
 *   Layer data OSM Anda akan tampil di InAWARE dan berada di Folder **_KML & External Layers_** dengan nama **_GeoJSON_ _Feature_**
 
-![Tampilan layer OpenStreetMap di InAWARE](/pages/08-OSM-Data-Integration-to-InAWARE/01-Integrasi-OSM-ke-InAWARE/images/0102_osm_to_inaware.PNG "Tampilan layer OpenStreetMap di InAWARE")
+![Tampilan layer OpenStreetMap di InAWARE](/pages/08-OSM-Data-Integration-to-InAWARE/01-Integrasi-OSM-ke-InAWARE/images/0102_osm_to_inaware.png)
 <p align="center"><i>Tampilan layer OpenStreetMap di InAWARE</i></p>
 
 *   Anda dapat melihat informasi untuk setiap fitur / objek dari data _OpenStreetMap_ yang telah dimasukkan. Anda klik pada fitur yang mau Anda lihat informasinya kemudian pilih **_info_**
 
-![Tampilan Informasi Fitur Data OpenStreetMap di InAWARE](/pages/08-OSM-Data-Integration-to-InAWARE/01-Integrasi-OSM-ke-InAWARE/images/0103_osm_to_inaware.PNG "Tampilan Informasi Fitur Data OpenStreetMap di InAWARE")
+![Tampilan Informasi Fitur Data OpenStreetMap di InAWARE](/pages/08-OSM-Data-Integration-to-InAWARE/01-Integrasi-OSM-ke-InAWARE/images/0103_osm_to_inaware.png)
 <p align="center"><i>Tampilan Informasi Fitur Data OpenStreetMap di InAWARE</i></p>
 
 **RINGKASAN**

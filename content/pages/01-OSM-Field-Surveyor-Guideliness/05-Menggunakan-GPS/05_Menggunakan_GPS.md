@@ -19,21 +19,15 @@ Dalam melakukan survei lapangan, dibutuhkan suatu alat navigasi yang memiliki fu
 ### I. Pengertian dan Bagian-bagian GPS
 _Global Positioning System_ atau GPS adalah sebuah alat atau sistem berbasis satelit yang dapat digunakan untuk memberikan informasi kepada penggunanya dimana pengguna berada (secara global) di permukaan bumi. Pada dasarnya, cara kerja GPS sama seperti ponsel. Bedanya adalah ponsel menerima sinyal radio dari menara telekomunikasi, sedangkan GPS menerima sinyal dari satelit yang berputar mengelilingi bumi. Dengan menerima sinyal-sinyal dari satelit, sebuah GPS dapat memperhitungkan letak atau lokasi pada permukaan bumi. GPS merekam lokasi ini dalam bentuk koordinat, dimana terdapat dua deret nomor yang panjang. Deret nomor yang pertama menunjukkan posisi Anda dari Timur atau Barat, atau biasa disebut sebagai posisi bujur. Deret nomor yang kedua menunjukkan posisi Anda dari utara atau selatan, atau biasa disebut sebagai posisi lintang. Koordinat bujur dan lintang merupakan koordinat geografis dan setiap tempat di bumi memiliki koordinat geografis yang berbeda-beda.
 
-<p align="center">
- <img src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0501_Ilustrasi_garis_lintang_dan_garis_bujur.png"
-</p>
+![Ilustrasi garis lintang dan garis bujur](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0501_Ilustrasi_garis_lintang_dan_garis_bujur.png "Ilustrasi garis lintang dan garis bujur")
 <p align="center"><i>Ilustrasi garis lintang dan garis bujur</i></p>
 
 Berikut ini adalah bagian-bagian dari GPS Garmin 64s. Jika Anda menggunakan GPS tipe lain tidak perlu khawatir, karena pada dasarnya semua GPS memiliki prinsip yang sama.
 
-<p align="center">
- <img width=75% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0502_Bagian_depan_pada_GPS.png"
-</p>
+![Bagian depan pada GPS](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0502_Bagian_depan_pada_GPS.png "Bagian depan pada GPS")
 <p align="center"><i>Bagian depan pada GPS</i></p>
 
-<p align="center">
- <img width=50% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0503_Bagian_belakang_pada_GPS.png"
-</p>
+![Bagian belakang pada GPS](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0503_Bagian_belakang_pada_GPS.png "Bagian belakang pada GPS")
 <p align="center"><i>Bagian belakang pada GPS</i></p>
 
 
@@ -55,56 +49,42 @@ _Global Positioning System_ atau GPS adalah sebuah alat yang berbasis satelit se
 
 *   Pada bagian atas sisi kanan GPS Anda, tekan dan tahan tombol _Power_ selama beberapa detik hingga layar menyala dan memunculkan logo “Garmin”. Proses dengan logo Garmin ini memang agak lama, tapi Anda tidak perlu khawatir karena GPS sedang memproses _waypoints, tracks,_ dan _routes_ yang ada di dalam GPS Anda sehingga memerlukan waktu lebih lama.
 
-<p align="center">
- <img width=25% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0504_GPS_dalam_keadaan_baru_nyala_dengan_logo_Garmin.png"
-</p>
+![GPS dalam keadaan baru nyala dengan logo Garmin](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0504_GPS_dalam_keadaan_baru_nyala_dengan_logo_Garmin.png "GPS dalam keadaan baru nyala dengan logo Garmin")
 <p align="center"><i>GPS dalam keadaan baru nyala dengan logo Garmin</i></p>
 
 *   Setelah GPS nyala, GPS akan otomatis menunjukkan lokasi dimana Anda berada, seperti gambar di bawah ini.
 
-<p align="center">
- <img width=25% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0505_GPS_menunjukkan_lokasi_dimana_Anda_berada.png"
-</p>
+![GPS menunjukkan lokasi dimana Anda berada](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0505_GPS_menunjukkan_lokasi_dimana_Anda_berada.png "GPS menunjukkan lokasi dimana Anda berada")
 <p align="center"><i>GPS menunjukkan lokasi dimana Anda berada</i></p>
 
 ### III. Menggunakan GPS
 GPS memiliki banyak fungsi yang bermanfaat bagi kehidupan sehari-hari, seperti untuk menentukan arah perjalanan ataupun untuk mengukur jarak, membuat peta, dan dapat dijadikan sebagai referensi pengukuran suatu wilayah. GPS juga memiliki beberapa pengaturan yang dapat disesuaikan dengan keinginan, salah satunya adalah mengatur tingkat kecerahan dari layar GPS itu sendiri. Untuk mengatur tingkat kecerahan, Anda dapat tekan sekali tombol _power_ di sisi kanan atas GPS, kemudian pada layar GPS akan muncul seperti gambar di bawah ini:
 
-<p align="center">
- <img width=70% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0506_Tampilan_layar_GPS_untuk_pengaturan_tingkat_kecerahan_layar.png"
-</p>
+![Tampilan layar GPS untuk pengaturan tingkat kecerahan layar](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0506_Tampilan_layar_GPS_untuk_pengaturan_tingkat_kecerahan_layar.png "Tampilan layar GPS untuk pengaturan tingkat kecerahan layar")
 <p align="center"><i>Tampilan layar GPS untuk pengaturan tingkat kecerahan layar</i></p>
 
 Di layar GPS pada bagian atas dapat dilihat keterangan mengenai hari dan jam Anda menggunakan GPS saat ini. Selanjutnya di bagian bawahnya terdapat pengaturan _Backlight_ atau tingkat kecerahan yang dapat anda atur dengan cara menekan tombol _power_ sekali hingga menemukan tingkat kecerahan yang sesuai dengan keinginan Anda, atau dengan menekan tombol navigasi. Di bagian bawah _Backlight_, terdapat status baterai GPS Anda dan juga keterangan sinyal GPS Anda. Anda juga dapat melihat berapa banyak satelit yang telah ditangkap oleh GPS Anda dengan cara tekan tombol **_Page → Satellite_**. Kemudian layar GPS Anda akan seperti gambar di bawah ini:
 
-<p align="center">
- <img width=70% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0507_Tampilan_layar_GPS_yang_menunjukkan_satelit_yang_sudah_ditangkap.png"
-</p>
+![Tampilan layar GPS yang menunjukkan satelit yang sudah ditangkap](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0507_Tampilan_layar_GPS_yang_menunjukkan_satelit_yang_sudah_ditangkap.png "Tampilan layar GPS yang menunjukkan satelit yang sudah ditangkap")
 <p align="center"><i>Tampilan layar GPS yang menunjukkan satelit yang sudah ditangkap</i></p>
 
 Pada layar GPS dapat dilihat bagian _Satellite_, Anda dapat melihat koordinat dimana Anda berada, akurasi dari GPS, titik ketinggian, jumlah satelit yang sudah ditangkap GPS, dan sinyal satelitnya. Gambar diatas menunjukkan bahwa GPS Anda sedang mencari sinyal satelit. Ketika sudah terhubung dengan tiga satelit atau lebih, GPS akan mendapatkan lokasi Anda.
 
 Di GPS Anda juga dapat mengetahui arah mata angin dari titik lokasi Anda pada pilihan _Compass_. Anda dapat mencobanya dengan cara menekan tombol **_Page → Compass_**. Kompas ini bertujuan untuk menunjukkan arah mata angin pada saat survei.
 
-<p align="center">
- <img width=50% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0508_Kompas_untuk_membantu_sebagai_penunjuk_arah_pada_saat_survei.png"
-</p>
+![Kompas untuk membantu sebagai penunjuk arah pada saat survei](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0508_Kompas_untuk_membantu_sebagai_penunjuk_arah_pada_saat_survei.png "Kompas untuk membantu sebagai penunjuk arah pada saat survei")
 <p align="center"><i>Kompas untuk membantu sebagai penunjuk arah pada saat survei</i></p>
 
 Pada GPS Anda juga dapat mengetahui lokasi dimana Anda berada dan melihat tempat-tempat di sekitar lokasi Anda. Anda dapat mencobanya dengan cara menekan tombol **_Page → Map_**. Pada opsi map ini, Anda juga dapat melihat _track_ dan _waypoint_ jika Anda sudah mulai merekam _track_ dan _waypoint_. 
 
-<p align="center">
- <img width=25% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0509_Tampilan_layar_GPS_pada_pilihan_menu_Map.png"
-</p>
+![Tampilan layar GPS pada pilihan menu Map](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0509_Tampilan_layar_GPS_pada_pilihan_menu_Map.png "Tampilan layar GPS pada pilihan menu Map")
 <p align="center"><i>Tampilan layar GPS pada pilihan menu Map</i></p>
 
 Tampilan layar GPS Anda mungkin tidak akan seperti gambar di atas karena GPS akan menunjukkan sesuai dengan lokasi Anda saat ini. Jika pada layar GPS Anda lokasinya terlalu besar, maka Anda dapat memperkecil dengan menekan tombol _OUT_ pada GPS beberapa kali hingga tampilan layarnya sesuai dengan yang Anda inginkan. Sebaliknya, jika pada layar GPS Anda lokasinya terlalu kecil, maka anda dapat memperbesarnya dengan menekan tombol _IN_ pada GPS Anda hingga tampilan layarnya sesuai dengan yang Anda inginkan.
 
 Pada GPS Anda terdapat berbagai macam menu utama lainnya pada tombol **MENU**. Jika Anda menekan tombol **MENU**, maka akan keluar tampilan pilihan menu seperti gambar di bawah ini.
 
-<p align="center">
- <img width=50% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0510_Pilihan_menu_utama_pada_tombol_MENU.png"
-</p>
+![Pilihan menu utama pada tombol MENU](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0510_Pilihan_menu_utama_pada_tombol_MENU.png "Pilihan menu utama pada tombol MENU")
 <p align="center"><i>Pilihan menu utama pada tombol MENU</i></p>
 
 
@@ -124,23 +104,17 @@ Berikut ini adalah langkah-langkah dalam mengaktifkan perekaman _track_:
 
 *   Pergi ke **_Main Menu_**, pilih **_Setup_**.
 
-<p align="center">
- <img width=25% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0511_Tampilan_Main_Menu_Setup.png"
-</p>
+![Tampilan Main Menu Setup](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0511_Tampilan_Main_Menu_Setup.png "Tampilan Main Menu Setup")
 <p align="center"><i>Tampilan Main Menu, Setup</i></p>
 
 *   Pilih **_Tracks_**.
 
-<p align="center">
- <img width=10% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0512_Tampilan_ikon_Tracks.png"
-</p>
+![Tampilan ikon Tracks](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0512_Tampilan_ikon_Tracks.png "Tampilan ikon Tracks")
 <p align="center"><i>Tampilan ikon Tracks</i></p>
 
 *   Pada **_Track Log_**, ubah menjadi: **_Record, Show on Map_**.
 
-<p align="center">
- <img width=25% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0513_Tampilan_Track_Log.png"
-</p>
+![Tampilan Track Log](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0513_Tampilan_Track_Log.png "Tampilan Track Log")
 <p align="center"><i>Tampilan Track Log</i></p>
 
 *   Pastikan perekaman rute atau _track_ pada GPS Anda dalam keadaan aktif sebelum Anda melakukan survei.
@@ -150,62 +124,46 @@ _Track_ disimpan setelah survei lapangan selesai dilakukan. Umumnya _track_ disi
 
 *   Pergi ke **_Main Menu_**, pilih **_Track Manager_**.
 
-<p align="center">
- <img width=25% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0514_Tampilan_Main_Menu_Track_Manager.png"
-</p>
+![Tampilan Main Menu Track Manager](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0514_Tampilan_Main_Menu_Track_Manager.png "Tampilan Main Menu Track Manager")
 <p align="center"><i>Tampilan Main Menu, Track Manager</i></p>
 
 *   Pilih **_Current Track_**, yaitu perekaman rute yang baru saja dilakukan.  
 
-<p align="center">
- <img width=25% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0515_Tampilan_Curent_Track.png"
-</p>
+![Tampilan Curent Track](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0515_Tampilan_Curent_Track.png "Tampilan Curent Track")
 <p align="center"><i>Tampilan Curent Track</i></p>
 
 *   Pilih **_Save Track_**, untuk menyimpan rute perjalanan atau _track_.  
 
-<p align="center">
- <img width=25% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0516_Tampilan_Save_Track.png"
-</p>
+![Tampilan Save Track](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0516_Tampilan_Save_Track.png "Tampilan Save Track")
 <p align="center"><i>Tampilan Save Track</i></p>
 
 *   Masukkan nama _track_, umumnya dalam bentuk Tanggal dan waktu survei kemudian pilih **_Done_**.
 
-<p align="center">
- <img width=25% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0517_Tampilan_Enter_Name_pada_GPS.png"
-</p>
+![Tampilan Enter Name pada GPS](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0517_Tampilan_Enter_Name_pada_GPS.png "Tampilan Enter Name pada GPS")
 <p align="center"><i>Tampilan Enter Name pada GPS</i></p>
 
 *   Bersihkan perekam _track_ dari perekaman sebelumnya, pilih **_Yes_**.
 
-<p align="center">
- <img width=25% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0518_Tampilan_menghapus_track_sebelumnya.png"
-</p>
+![Tampilan menghapus track sebelumnya](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0518_Tampilan_menghapus_track_sebelumnya.png "Tampilan menghapus track sebelumnya")
 <p align="center"><i>Tampilan menghapus track sebelumnya</i></p>
 
 *   Perhatikan akan muncul nama _track_ yang Anda simpan. Ini membuktikan bahwa _track_ survei Anda sudah berhasil tersimpan.  
 
-<p align="center">
- <img width=25% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0519_Tampilan_track_yang_telah_berhasil_disimpan.png"
-</p>
+![Tampilan track yang telah berhasil disimpan](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0519_Tampilan_track_yang_telah_berhasil_disimpan.png "Tampilan track yang telah berhasil disimpan")
 <p align="center"><i>Tampilan track yang telah berhasil disimpan</i></p>
 
 ### VI. Menyimpan Titik
 Langkah-langkah untuk menyimpan _waypoint_ (titik lokasi) adalah sebagai berikut:  
 *   Tekan tombol **_Mark_** pada GPS dan akan muncul tampilan sebagai berikut:
 
-<p align="center">
- <img width=50% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0520_Menyimpan_titik_pada_GPS.png"
-</p>
+![Menyimpan titik pada GPS](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0520_Menyimpan_titik_pada_GPS.png "Menyimpan titik pada GPS")
 <p align="center"><i>Menyimpan titik pada GPS</i></p>
 
 *   Pilih **_Done_** untuk menyimpan _Waypoint_.  
 
 Untuk melihat daftar _waypoint_ yang sudah Anda simpan, silakan Anda pergi ke **_Main Menu_** dan pilih **_Waypoint Manager_**. Kemudian akan muncul daftar _waypoint_ yang sudah Anda simpan.
 
-<p align="center">
- <img width=50% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0521_Tampilan_daftar_waypoint_yang_tersimpan_pada_GPS.png"
-</p>
+![Tampilan daftar waypoint yang tersimpan pada GPS](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0521_Tampilan_daftar_waypoint_yang_tersimpan_pada_GPS.png "Tampilan daftar waypoint yang tersimpan pada GPS")
 <p align="center"><i>Tampilan daftar waypoint yang tersimpan pada GPS</i></p>
 
 Untuk menghapus satu _Waypoint_ yang sudah Anda simpan, tekan **_Enter_** pada salah satu titik _Waypoint_ yang akan dihapus, kemudian tekan tombol **_Menu_** dan pilih **_Delete_**.
@@ -217,23 +175,17 @@ Selanjutnya data yang sudah dikumpulkan dengan GPS akan di-_copy_ atau salin ke 
 *   Sambungkan GPS ke komputer dengan menggunakan kabel data.
 *   Pastikan GPS dalam keadaan menyala.
 
-<p align="center">
- <img width=75% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0522_Menyambungkan_GPS_dengan_kabel_ke_Laptop.png"
-</p>
+![Menyambungkan GPS dengan kabel ke Laptop](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0522_Menyambungkan_GPS_dengan_kabel_ke_Laptop.png "Menyambungkan GPS dengan kabel ke Laptop")
 <p align="center"><i>Menyambungkan GPS dengan kabel ke Laptop</i></p>
 
 *   Pergi ke direktori **Garmin GPSMAP** kemudian pilih folder **_Garmin → GPX_**
 
-<p align="center">
- <img width=50% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0523_Tampilan_pada_komputer_setelah_disambungkan_dengan_GPS.png"
-</p>
+![Tampilan pada komputer setelah disambungkan dengan GPS](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0523_Tampilan_pada_komputer_setelah_disambungkan_dengan_GPS.png "Tampilan pada komputer setelah disambungkan dengan GPS")
 <p align="center"><i>Tampilan pada komputer setelah disambungkan dengan GPS</i></p>
 
 *   Pilih data dengan keterangan tanggal Anda survei (_Track & Waypoint_) dan salin data tersebut ke komputer Anda.
 
-<p align="center">
- <img width=25% src="/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0524_Tampilan_setelah_data_di_GPS_dipindahkan_ke_komputer.png"
-</p>
+![Tampilan setelah data di GPS dipindahkan ke komputer](/pages/01-OSM-Field-Surveyor-Guideliness/05-Menggunakan-GPS/images/0524_Tampilan_setelah_data_di_GPS_dipindahkan_ke_komputer.png "Tampilan setelah data di GPS dipindahkan ke komputer")
 <p align="center"><i>Tampilan setelah data di GPS dipindahkan ke komputer</i></p>
 
 

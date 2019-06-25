@@ -23,31 +23,38 @@ def main():
                     os.mkdir(os.path.join('pdf-build', key))
     guides = []
     if 'pages' in os.listdir('content'):
-        # single language 
+        # single language
         contents = []
         for item in os.listdir('content'):
             if os.path.isfile(os.path.join('content',item)):
                 ext = os.path.splitext(item)[1]
                 if ext != '.md':
                     copyfile(os.path.join('content', item), os.path.join('pdf-build',item))
+        # move image files
+        for path, _, files in os.walk('content/pages'):
+            for filename in files:
+                ext = os.path.splitext(filename)[1]
+                if ext != '.md':
+                    copyfile(os.path.join(path, filename), os.path.join('pdf-build',filename))
+        images = [f for f in os.listdir('pdf-build') if re.search(r'.*\.(jpe?g|png|gif)$', f)]
         for path, _, files in os.walk('content/pages'):
             for filename in files:
                 ext = os.path.splitext(filename)[1]
                 if ext == '.md':
-                    content = clean_markdown(path, filename)
+                    content = clean_markdown(path, filename, images, default_lang=default_lang)
                     if content:
                         contents.append({'name':filename, 'content': content})
                 else:
-                    copyfile(os.path.join(path,filename), os.path.join('pdf-build',filename))
-        full_pdf_content = ""
-        content = clean_markdown("content", "_index.md")
+                    continue
+        full_pdf_content = "\n\n\pagebreak\n\n"
+        content = clean_markdown("content", "_index.md", images)
         if content:
             full_pdf_content += content
             full_pdf_content += "\n\n\pagebreak\n\n"
         for item in sorted(contents, key=lambda k: k['name']):
             full_pdf_content += item['content']
             full_pdf_content += "\n\n\pagebreak\n\n"
-        with open('pdf-build/' + site_name + ".md", 'w') as f:
+        with open('pdf-build/' + site_name + ".fullsite.md", 'w') as f:
             f.write(full_pdf_content)
         
     else:
@@ -62,12 +69,12 @@ def main():
                 for filename in files:
                     ext = os.path.splitext(filename)[1]
                     if ext == '.md':
-                        content = clean_markdown(path, filename)
+                        content = clean_markdown(path, filename, lang_key, default_lang)
                         if content:
                             contents.append({'name':filename, 'content': content})
                     else:
                         copyfile(os.path.join(path,filename), os.path.join('pdf-build',lang_key,filename))
-            full_pdf_content = ""
+            full_pdf_content = "\n\n\pagebreak\n\n"
             for item in sorted(contents, key=lambda k: k['name']):
                 full_pdf_content += item['content']
                 full_pdf_content += "\n\n\pagebreak\n\n"
@@ -75,19 +82,22 @@ def main():
                 f.write(full_pdf_content)
 
 
-def clean_markdown(path, filename, lang=""):
+def clean_markdown(path, filename, images, lang="", default_lang = "en"):
     post = frontmatter.load(os.path.join(path, filename))
     if post.content:
         title = post.metadata.get('title', '')
         guide = {}
         guide['filename'] = filename
-        content = re.sub(r'(\!\[.*\]\()(\/)(\w+\.\w+\))', r'\1\3', post.content)
+        content = post.content
+        for image in images:
+            replace_regex = r'(\!\[.*\]).*(\().*\/(' + re.escape(image) + r')([A-Za-z\s\"\'\-\,\.\;\:]*)(\))'
+            content = re.sub(replace_regex, r'\1\2\3\5', content)
         guide['content'] = ''
         if title:
             guide['content'] += '# {0} \n\n'.format(title)
         guide['content'] += content
         if lang and lang != default_lang:
-            out_file = os.path.join('pdf-build',lang, guide['filename'])
+            out_file = os.path.join('pdf-build', lang, guide['filename'])
         else: 
             out_file = os.path.join('pdf-build', guide['filename'])
         with open(out_file, 'w') as f:

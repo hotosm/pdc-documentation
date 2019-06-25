@@ -21,12 +21,12 @@ Untuk mengambil formulir survei dari server untuk pertama kalinya, pengguna perl
 
 *   Buka aplikasi **ODK Collect** dan tekan tombol titik tiga di pojok kanan atas, pilih **_General Settings → Server_**
 
-<p align="center"><img width=70% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0201_0202_general_settings.png" alt="server" title="server"></p>
+![Menu pilihan untuk memasukkan alamat URL pada ODK Collect](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0201_0202_general_settings.png "server")
 <p align="center"><i>Menu pilihan untuk memasukkan alamat URL pada ODK Collect</i></p>
 
 *   Ketikkan alamat _Server URL_ pada pilihan isian **_URL_ → _OK_**
 
-<p align="center"><img width=70% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0203_0204_URL.png" alt="input_URL" title="Memasukkan URL"></p>
+![Langkah untuk memasukkan alamat URL pada ODK Collect](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0203_0204_URL.png "Langkah untuk memasukkan alamat URL pada ODK Collect")
 <p align="center"><i>Langkah untuk memasukkan alamat URL pada ODK Collect</i></p>
 
 **b. Mengatur ukuran gambar**
@@ -35,12 +35,12 @@ Selain titik lokasi, Anda juga dapat mengambil foto sebagai keterangan tambahan.
 
 *   Tekan tombol titik tiga di pojok kanan atas dan pergi ke **_General Settings → Form Management_**.
 
-<p align="center"><img width=60% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0205_0206_form_management.png" alt="form_management" title="Form management"></p>
+![Menu pilihan untuk mengatur resolusi gambar](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0205_0206_form_management.png "Menu pilihan untuk mengatur resolusi gambar")
 <p align="center"><i>Menu pilihan untuk mengatur resolusi gambar</i></p>
 
 *   Pilih **_Image Size_** lalu pilih pilihan **_Very Small (640px)._**
 
-<p align="center"><img src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0207_0208_image_size.png" alt="image_size" title="Image size"></p>
+![Menu pilihan Image Size untuk menentukan besar resolusi gambar](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0207_0208_image_size.png "Menu pilihan Image Size untuk menentukan besar resolusi gambar")
 <p align="center"><i>Menu pilihan Image Size untuk menentukan besar resolusi gambar</i></p>
 
 ### **III. Pengoperasian dasar _ODK Collect_**
@@ -51,44 +51,44 @@ Selain titik lokasi, Anda juga dapat mengambil foto sebagai keterangan tambahan.
 
 *   Tekan **_Get Blank Form_** dan tunggu formulir ter-_download_ dari server dan pastikan internet Anda telah aktif.
 
-<p align="center"><img width=30% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0209_get_blank_form.png" alt="get_blank" title="get blank"></p>
+![Pilihan Get Blank Form untuk mengambil formulir pada server](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0209_get_blank_form.png "Pilihan Get Blank Form untuk mengambil formulir pada server")
 <p align="center"><i>Pilihan Get Blank Form untuk mengambil formulir pada server</i></p>
 
 *   Pilih formulir yang telah tersedia dengan tekan tanda centang di samping formulir atau jika memilih semua formulir pilih **_Select All_**. Jika formulir Anda tidak muncul, Anda dapat tekan **_Refresh_** untuk memuat ulang halaman.
 
-<p align="center"><img width=30% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0210_getblank_select.png" alt="get_blank" title="get blank"></p>
+![Tampilan halaman pada menu Get Blank Form](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0210_getblank_select.png "Tampilan halaman pada menu Get Blank Form")
 <p align="center"><i>Tampilan halaman pada menu Get Blank Form</i></p>
 
 *   Setelah Anda memilih formulir yang diinginkan, Anda dapat tekan **_Get Selected_** untuk men-_download_ formulir yang sudah terpilih.
 
-<p align="center"><img width=30% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0211_getblank_get.png" alt="get_blank" title="get blank"></p>
+![Tampilan halaman pada pilihan Get Blank Form untuk mengambil formulir survei](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0211_getblank_get.png "Tampilan halaman pada pilihan Get Blank Form untuk mengambil formulir survei")
 <p align="center"><i>Tampilan halaman pada pilihan Get Blank Form untuk mengambil formulir survei</i></p>
 
  **b. Mengisi formulir survei**
 *   Untuk mengisi formulir, kembali ke halaman awal dan pilih menu **_Fill Blank Form_**. Lalu pilih salah satu formulir kosong yang ingin Anda isi pada daftar formulir survei.
 
-<p align="center"><img img width=60% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0212_0213_fill_blank_form.png" alt="fill_blank" title="fill blank"></p>
+![Pilihan Fill Blank Form untuk mengisi formulir survei dan daftar formulir survei kosong](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0212_0213_fill_blank_form.png "Pilihan Fill Blank Form untuk mengisi formulir survei dan daftar formulir survei kosong")
 <p align="center"><i>Pilihan Fill Blank Form untuk mengisi formulir survei dan daftar formulir survei kosong</i></p>
 
 *   Geser layar ke kanan atau ke kiri untuk berpindah halaman pengisian formulir dan untuk berpindah ke isian formulir selanjutnya. Pertanyaan yang mempunyai tanda bintang merah di sisi kiri atas merupakan pertanyaan yang wajib diisi dan tidak dapat dilewati apabila jawaban kosong.
 
-<p align="center"><img width=30% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0214_fill_blank_form.png" alt="fill_blank" title="fill blank"></p>
+![Contoh pertanyaan yang wajib diisi tanda bintang merah](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0214_fill_blank_form.png "Contoh pertanyaan yang wajib diisi tanda bintang merah")
 <p align="center"><i>Contoh pertanyaan yang wajib diisi (tanda bintang merah)</i></p>
 
 *   Anda dapat mengambil foto langsung dengan tekan pilihan **_Take Picture_** atau pilih foto dari galeri foto Anda dengan memilih pilihan **_Choose Image_**.
 
-<p align="center"><img width=30% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0215_take_picture.png" alt="take_picture" title="take picture"></p>
+![Tampilan halaman pertanyaan pada formulir untuk mengambil foto](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0215_take_picture.png "Tampilan halaman pertanyaan pada formulir untuk mengambil foto")
 <p align="center"><i>Tampilan halaman pertanyaan pada formulir untuk mengambil foto</i></p>
 
 *   Untuk menambahkan titik lokasi objek sekaligus _tag_ OSM pada objek, Anda dapat menggunakan aplikasi tambahan yaitu **OpenMapKit (OMK)**. Anda dapat langsung beralih ke aplikasi **OMK** dengan cara menekan tombol **_Launch OpenMapKit_** pada formulir. Anda dapat mempelajari penggunaan aplikasi OMK lebih lanjut pada modul **Menggunakan Aplikasi OpenMapKit**. 
 
-<p align="center"><img width=30% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0216_launch_omk.png" alt="launch_omk" title="launch_omk"></p>
+![Tombol Launch OpenMapKit pada formulir survei](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0216_launch_omk.png "Tombol Launch OpenMapKit pada formulir survei")
 <p align="center"><i>Tombol Launch OpenMapKit pada formulir survei</i></p>
 
 
 *   Di akhir formulir Anda dapat memberi nama pada formulir, beri centang **_Mark form as finalized_** dan di akhir tekan **_Save Form and Exit_** untuk finalisasi akhir formulir survei.
 
-<p align="center"><img width=30% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0217_save_form.png" alt="save_form" title="save_form"></p>
+![Tampilan halaman finalisasi akhir pada formulir survei](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0217_save_form.png "Tampilan halaman finalisasi akhir pada formulir survei")
 <p align="center"><i>Tampilan halaman finalisasi akhir pada formulir survei</i></p>
 
  **c. Mengubah formulir survei yang sudah diisi**
@@ -97,17 +97,17 @@ Formulir yang telah disimpan akan otomatis tersimpan pada aplikasi _ODK Collect_
 
 *   Anda dapat kembali ke halaman awal dan tekan pilihan **_Edit Saved Form_**.
 
-<p align="center"><img width=30% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0218_edit_saved_form.png" alt="edit_saved_form" title="edit_saved_form"></p>
+![Pilihan Edit Saved Form untuk mengubah formulir survei](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0218_edit_saved_form.png "Pilihan Edit Saved Form untuk mengubah formulir survei")
 <p align="center"><i>Pilihan Edit Saved Form untuk mengubah formulir survei</i></p>
 
 *   Pilih formulir dengan cara tekan pada formulir yang akan Anda ubah dan lakukan perubahan pada formulir tersebut. 
 
-<p align="center"><img width=30% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0219_edit_saved_form.png" alt="edit_saved_form" title="edit_saved_form"></p>
+![Tampilan halaman Edit Saved Form untuk memilih formulir yang akan diubah](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0219_edit_saved_form.png "Tampilan halaman Edit Saved Form untuk memilih formulir yang akan diubah")
 <p align="center"><i>Tampilan halaman Edit Saved Form untuk memilih formulir yang akan diubah</i></p>
 
-*   Setelah itu, simpan formulir dengan cara tekan ikon disket  ![disk_icon](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0220_disk_icon.png "disk_icon") untuk simpan perubahan pada formulir survei.
+*   Setelah itu, simpan formulir dengan cara tekan ikon disket <img src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0220_disk_icon.png"> untuk simpan perubahan pada formulir survei.
 
-<p align="center"><img width=60% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0221_0222_edit_saved_form.png" alt="edit_saved_form" title="edit_saved_form"></p>
+![Tampilan formulir survei yang sudah diisi dan ikon untuk simpan perubahan formulir](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0221_0222_edit_saved_form.png "Tampilan formulir survei yang sudah diisi dan ikon untuk simpan perubahan formulir")
 <p align="center"><i>Tampilan formulir survei yang sudah diisi dan ikon untuk simpan perubahan formulir</i></p>
 
  **d. Mengupload formulir survei ke server**
@@ -116,33 +116,33 @@ Setelah Anda mengisi dan menyimpan formulir, langkah selanjutnya ialah meng-_upl
 
 *   Untuk meng-_upload_ formulir survei kembali ke server, Anda dapat memilih pilihan **_Send Finalized Form_** pada halaman awal.
 
-<p align="center"><img src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0223_send_finalized.png" alt="send_finalized" title="send_finalized"></p>
+![Pilihan Send Finalized Form untuk mengupload formulir survei ke server](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0223_send_finalized.png "Pilihan Send Finalized Form untuk mengupload formulir survei ke server")
 <p align="center"><i>Pilihan Send Finalized Form untuk mengupload formulir survei ke server</i></p>
 
 *   Pada halaman tersebut tersimpan formulir survei yang telah disimpan dan siap dikirim. Anda dapat memilih **_Select All_** untuk memilih semua formulir terlebih dahulu.
 *   Pastikan Anda telah terhubung di internet. Lalu tekan **_Send Selected_** dan tunggu sampai proses _upload_ formulir selesai.
 
-<p align="center"><img src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0224_send_selected.png" alt="send_finalized" title="send_finalized"></p>
+![Tampilan formulir survei yang siap dikirim pada pilihan Send Finalized Form](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0224_send_selected.png "Tampilan formulir survei yang siap dikirim pada pilihan Send Finalized Form")
 <p align="center"><i>Tampilan formulir survei yang siap dikirim pada pilihan Send Finalized Form</i></p>
 
 *   Semua formulir yang telah berhasil ter-_upload_ akan tersimpan di menu pilihan **_View Sent Form_** dan ikon formulir sudah berubah warna menjadi hijau.
 
-<p align="center"><img width=70% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0225_0226_view_sent_form.png" alt="view_sent_form" title="view_sent_form"></p>
+![Pilihan View Sent Form dan formulir survei yang telah berhasil di-upload ke server](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0225_0226_view_sent_form.png "Pilihan View Sent Form dan formulir survei yang telah berhasil di-upload ke server")
 <p align="center"><i>Pilihan View Sent Form dan formulir survei yang telah berhasil di-upload ke server</i></p>
 
 *   Setelah Anda selesai meng-_upload_ formulir ke server, Anda dapat menghapus formulir pada menu pilihan **_Delete Saved Form_**.
 
-<p align="center"><img width=30% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0227_delete_saved_form.png" alt="delete_saved_form" title="delete_saved_form"></p>
+![Pilihan Delete Saved Form untuk menghapus formulir](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0227_delete_saved_form.png "Pilihan Delete Saved Form untuk menghapus formulir")
 <p align="center"><i>Pilihan Delete Saved Form untuk menghapus formulir</i></p>
 
 *   Anda dapat menghapus formulir yang sudah diisi pada pilihan **_Saved Forms_** dan menghapus formulir yang kosong pada pilihan **_Blank Forms_**. Anda perlu memilih formulir yang akan dihapus atau pilih **_Select All_** untuk memilih semua formulir lalu tekan **_Delete Selected_** untuk menghapus formulir yang sudah terpilih.
 
-<p align="center"><img width=70% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0228_0229_delete_selected.png" alt="delete_selected" title="delete_selected"></p>
+![Tampilan pilihan Delete Saved Form](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0228_0229_delete_selected.png "Tampilan pilihan Delete Saved Form")
 <p align="center"><i>Tampilan pilihan Delete Saved Form</i></p>
 
 *   Selanjutnya Anda perlu mengkonfirmasi untuk menghapus formulir survei dengan tekan **_Delete Forms_**.
 
-<p align="center"><img width=30% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0230_delete_selected.png" alt="delete_selected" title="delete_selected"></p>
+![Kotak dialog untuk konfirmasi hapus formulir](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0230_delete_selected.png "Kotak dialog untuk konfirmasi hapus formulir")
 <p align="center"><i>Kotak dialog untuk konfirmasi hapus formulir</i></p>
 
  **e. Meng-_upload_ formulir survei ke Google Drive**
@@ -151,23 +151,23 @@ Setelah Anda meng-_upload_ semua formulir survei kembali ke server, Anda perlu m
 
 *   Pergi ke _File Manager_ atau _File Explorer_ pada _smartphone_ Anda dan buka penyimpanan internal Anda. Kemudian buka folder dengan nama **odk** yaitu folder yang berisikan semua _file_ hasil survei yang tersimpan pada aplikasi _ODK Collect_. Lalu tekan folder **instances** yang berisi folder yang didalamnya terdapat _file_ *.osm objek hasil survei.
 
-<p align="center"><img width=70% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0231_0232_instances.png" alt="instances" title="instances"></p>
+![Folder instances di dalam folder odk dan isi folder instances hasil survei](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0231_0232_instances.png "Folder instances di dalam folder odk dan isi folder instances hasil survei")
 <p align="center"><i>Folder instances di dalam folder odk dan isi folder instances hasil survei</i></p>
 
 
 *   Sebelum memindahkan folder **instances** ke dalam folder komputer Anda, Anda perlu mengubah folder **instances** tersebut menjadi format _.zip_ dengan cara tekan pada folder **instances** dan tekan **_Compress_** dan Anda dapat ubah nama _file_ _.zip_ tersebut.
 
-<p align="center"><img width=70% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0233_0234_compress.png" alt="compress" title="compress"></p>
+![Langkah untuk kompresi file menjadi format zip](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0233_0234_compress.png "Langkah untuk kompresi file menjadi format zip")
 <p align="center"><i>Langkah untuk kompresi file menjadi format *.zip</i></p>
 
 *   Setelah itu Anda dapat memindahkan _file_ _.zip_ ke dalam komputer dan Anda dapat meng-_upload_ _file_ tersebut ke folder _Google Drive_ yang telah disediakan oleh _Mapping Supervisor_.
 
-<p align="center"><img width=30% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0235_zip.png" alt="compress" title="compress"></p>
+![File zip yang siap untuk dipindahkan ke komputer](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0235_zip.png "File zip yang siap untuk dipindahkan ke komputer")
 <p align="center"><i>File .zip yang siap untuk dipindahkan ke komputer</i></p>
 
 *   Anda dapat meng-_upload_ _file_ ke folder Hasil survei dengan cara klik kanan pada _mouse_ lalu pilih ***Upload Files*** dan pilih _file_ yang ingin Anda _upload_. 
 
-<p align="center"><img width=90% src="/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0236_gdrive.png" alt="gdrive" title="gdrive"></p>
+![Tampilan folder pada Google Drive untuk upload file zip](/pages/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/images/0236_gdrive.png "Tampilan folder pada Google Drive untuk upload file zip")
 <p align="center"><i>Tampilan folder pada Google Drive untuk upload file .zip</i></p>
 
 **RINGKASAN**

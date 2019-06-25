@@ -1,6 +1,8 @@
-# HOT Documentation Site Template
+# HOT-PDC Documentation Site
 
-Template for creating HOT documentation sites. 
+[![CircleCI](https://circleci.com/gh/hotosm/pdc-documentation.svg?style=svg)](https://circleci.com/gh/hotosm/pdc-documentation)
+
+Welcome to HOT-PDC documentation sites. 
 
 This project uses the [Hugo](https://gohugo.io/) site generator for static HTML generation for Markdown content.
 
@@ -260,7 +262,7 @@ To build this site locally an installation of Hugo is required. Hugo binaries fo
 Clone this repo with the ``` --recurse-submodules ```:
 
 ```sh
-git clone --recurse-submodules https://github.com/hotosm/my-documentation-repo.git
+git clone --recurse-submodules https://github.com/hotosm/pdc-documentation.git
 ```
 
 change directory into the cloned repo and run Hugo
