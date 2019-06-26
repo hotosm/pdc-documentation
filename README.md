@@ -63,7 +63,7 @@ enableGitInfo = true
       ii. Add an SSH key to the github repository with 'write' access. follow this guide:
           [https://circleci.com/docs/2.0/add-ssh-key/](https://circleci.com/docs/2.0/add-ssh-key/)
       
-      iii. Add the SSH keygen fingerprint to the circleCI .circleci/config.yml file in your repo
+      iii. Add the SSH keygen fingerprint to the circleCI ```.circleci/config.yml``` file in your repo
       e.g. 
       ```
           - add_ssh_keys:
@@ -134,7 +134,7 @@ Read more about page bundling here:
 
 #### Front Matter
 
-By default the name of the file in the /content/pages directory will be listed in the menu and in the URL with spaces escaped with dashes `-`. 
+By default the name of the file in the ```/content/pages``` directory will be listed in the menu and in the URL with spaces escaped with dashes `-`. 
 
 e.g. ```content/pages/how-i-spent-my-summer-vacation.md``` will show as How I Spent My Summer Vacation in the menu and as 
 example.com/pages/how-i-spent-my-summer-vacation
@@ -161,7 +161,7 @@ aliqua. Ut enim ad minim veniam, quis nostrud exercitation
 
 #### Table of Contents
 
-By defualt in the main project config.toml file a right hand side Table of Contents is disabled.  If you need this enabled project-wide you can change this value to ``` true ``` in the TOML file or override in individual Markdown file by adding the ```  ``` option to the front matter. Table of contents will create a list of anchor points from the markdown header elements 
+By default in the main project ```config.toml``` file a right hand side Table of Contents is disabled.  If you need this enabled project-wide you can change this value to ``` true ``` in the TOML file or override in individual Markdown file by adding the ```  ``` option to the front matter. Table of contents will create a list of anchor points from the markdown header elements 
 (``` # ## ### ### ```) and clicking them will auto scroll you to that section of the page. 
 
 e.g
@@ -175,7 +175,7 @@ bookShowToC: True
 ```
 
 
-Alternatively if you wish to have the Table of Contents always on by default across the site you can add a ``` params ``` ``` BookShowToC ``` value in the site config.toml
+Alternatively if you wish to have the Table of Contents always on by default across the site you can add a ``` params ``` ``` BookShowToC ``` value in the site ```config.toml```
 
 e.g. 
 ```toml
@@ -206,7 +206,7 @@ aliqua. Ut enim ad minim veniam, quis nostrud exercitation
 
 ### Multi-language Sites
 
-This template allows for building multi-language sites by simply creating directories for each language needed, following the same directory structure as a single language site. an example folder structure is as follows:
+This template allows for building multi-language sites by simply creating directories for each language needed, following the same directory structure as a single language site. An example folder structure is as follows:
 
 ```
 content/
@@ -221,7 +221,7 @@ content/
 ```
 
 
-Then in your site config.toml tell Hugo how to find these directories:
+Then in your site ```config.toml``` tell Hugo how to find these directories:
 
 ```toml
 [languages]
@@ -235,7 +235,7 @@ Then in your site config.toml tell Hugo how to find these directories:
     weight = 20
 ```
 
-This will default the site to English but allow you to access the French content but suffixing a /fr to the base URL.
+This will default the site to English but allow you to access the French content but suffixing a ```/fr``` to the base URL.
 
 e.g.
 
@@ -246,7 +246,7 @@ https://example.com/fr/pages/a-propos
 
 ### CircleCI
 
-CircleCI manages the build and deployment process to allow continuous deployment of the site on new changes. In the default configuration listed here CircleCI will only fire on commits on the master branch and will deploy to the gh-pages branch.  Both these branches are required for this configuration to properly function.  If you wish to skip the build and deploy process on a commit simply add ``` [ci skip] ``` to you commit message in git. e.g.
+CircleCI manages the build and deployment process to allow continuous deployment of the site on new changes. In the default configuration listed here, CircleCI will only fire on commits on the master branch and will deploy to the gh-pages branch.  Both these branches are required for this configuration to properly function.  If you wish to skip the build and deploy process on a commit simply add ``` [ci skip] ``` to you commit message in git. e.g.
 
 ```
 git commit -m "added new content [ci skip]"
@@ -275,7 +275,7 @@ hugo serve
 This builds and runs a local webserver with hot-reloading for local content development.
 
 If the default port is available you can navigate to the built development site at http://localhost:1313 in your browser.
-If 1313 is already in use by another program hugo will choose another port and return it to the stdout of your terminal
+If ```1313``` is already in use by another program hugo will choose another port and return it to the stdout of your terminal
 e.g.
 
 ```sh
