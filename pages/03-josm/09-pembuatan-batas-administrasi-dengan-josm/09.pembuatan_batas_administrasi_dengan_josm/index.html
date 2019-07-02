@@ -396,112 +396,81 @@ https://github.com/hotosm/hugo-book
 <p>Tabel <em>Tags</em> pada Relasi Batas Administrasi</p>
 
 <table>
-  <tr>
-   <td><strong>Key</strong>
-   </td>
-   <td><strong>Value</strong>
-   </td>
-   <td><strong>Keterangan</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><em>admin_level</em>
-   </td>
-   <td>(1-11) Disesuaikan dengan level batas administrasi
-   </td>
-   <td>
-    <em>Tag </em>yang berguna untuk mengidentifikasi tingkat batas administrasi pada suatu daerah, misalnya <em>admin_level</em> = 4 di Indonesia merupakan tingkat batas administrasi untuk batas provinsi.
-   </td>
-  </tr>
-  <tr>
-   <td><em>boundary</em>
-   </td>
-   <td><em>administrative</em>
-   </td>
-   <td><em>Tag </em>ini merupakan <em>tag </em>batas administrasi yang sebenarnya.
-   </td>
-  </tr>
-  <tr>
-   <td><em>type</em>
-   </td>
-   <td><em>boundary</em>
-   </td>
-   <td>
-    <em>Tag </em>ini adalah <em>tag </em>utama untuk mengenali bahwa objek tersebut termasuk ke dalam batas administrasi.
-   </td>
-  </tr>
-  <tr>
-   <td><em>name</em>
-   </td>
-   <td>nama administrasi
-   </td>
-   <td><em>Tag </em>yang mendeskripsikan nama dari batas administrasi tersebut, misalnya: Provinsi Jawa Barat, Kota Depok, Kecamatan Sawangan, RW 03 ataupun RW 05. 
-   </td>
-  </tr>
-  <tr>
-   <td><em>place</em>
-   </td>
-   <td>contoh: <em>suburb, island</em>
-   </td>
-   <td>Ini merupakan <em>tag optional</em>, tidak wajib dipakai. <em>Tag </em>yang berguna untuk mendeskripsikan jenis area  yang ada di dalam batas administrasi tersebut apakah termasuk garis pantai dan penggunaan lahan lainnya.
-<p>
-Info lengkap lihat di: <a href="http://wiki.openstreetmap.org/wiki/Key:place">http://wiki.openstreetmap.org/wiki/Key:place</a>
-   </td>
-  </tr>
-  <tr>
-   <td><em>land_area</em>
-   </td>
-   <td><em>administrative</em>
-   </td>
-   <td><em>Tag </em>untuk menyatakan sebagai sebuah batas wilayah daratan
-   </td>
-  </tr>
-  <tr>
-   <td><em>is_in:province</em>
-   </td>
-   <td>nama provinsi
-   </td>
-   <td><em>Tag </em>yang mendeskripsikan nama Provinsi. <em>Tag </em>ini ini harus dimasukkan pada batas administrasi yang berada di tingkat bawah dari Provinsi (Kota/Kabupaten/Kotamadya, Kecamatan, Kelurahan/Desa, RW dan RT)
-   </td>
-  </tr>
-  <tr>
-   <td><strong>(Kota)</strong>
-<p>
-<em>is_in:city </em>
-<p>
-<strong>(Kab/Kotamadya)</strong>
-<p>
-<em>is_in:town </em>
-   </td>
-   <td>nama kabupaten/kotamadya
-   </td>
-   <td><em>Tag </em>yang mendeskripsikan nama Kota/Kabupaten/Kotamadya. <em>Tag </em>ini ini harus dimasukkan pada batas administrasi yang berada di tingkat bawah dari Kota/Kabupaten/kotamadya (Kecamatan, Kelurahan/Desa, RW dan RT)
-   </td>
-  </tr>
-  <tr>
-   <td><em>is_in:municipality</em>
-   </td>
-   <td>nama kecamatan
-   </td>
-   <td><em>Tag </em>yang mendeskripsikan nama Kecamatan. <em>Tag </em>ini ini harus dimasukkan pada batas administrasi yang berada di tingkat bawah dari Kecamatan (Kelurahan/Desa, RW dan RT)
-   </td>
-  </tr>
-  <tr>
-   <td><em>is_in:village</em>
-   </td>
-   <td>nama kelurahan/desa
-   </td>
-   <td><em>Tag </em>yang mendeskripsikan nama Kelurahan/Desa. <em>Tag </em>ini ini harus dimasukkan pada batas administrasi yang berada di tingkat bawah dari Kelurahan/Desa (RW dan RT)
-   </td>
-  </tr>
-  <tr>
-   <td><em>is_in:RW</em>
-   </td>
-   <td>nama RW
-   </td>
-   <td><em>Tag </em>yang mendeskripsikan nama RW. <em>Tag </em>ini harus dimasukkan pada batas administrasi yang berada di tingkat bawah dari RW (RT)
-   </td>
-  </tr>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><em>admin_level</em></td>
+<td>(1-11) Disesuaikan dengan level batas administrasi</td>
+<td><em>Tag</em> yang berguna untuk mengidentifikasi tingkat batas administrasi pada suatu daerah, misalnya <em>admin_level</em> = 4 di Indonesia merupakan tingkat batas administrasi untuk batas provinsi.</td>
+</tr>
+
+<tr>
+<td><em>boundary</em></td>
+<td><em>administrative</em></td>
+<td><em>Tag</em> ini merupakan <em>tag</em> batas administrasi yang sebenarnya.</td>
+</tr>
+
+<tr>
+<td><em>type</em></td>
+<td><em>boundary</em></td>
+<td><em>Tag</em> ini adalah <em>tag</em> utama untuk mengenali bahwa objek tersebut termasuk ke dalam batas administrasi.</td>
+</tr>
+
+<tr>
+<td><em>name</em></td>
+<td>nama administrasi</td>
+<td><em>Tag</em> yang mendeskripsikan nama dari batas administrasi tersebut, misalnya: Provinsi Jawa Barat, Kota Depok, Kecamatan Sawangan, RW 03 ataupun RW 05.</td>
+</tr>
+
+<tr>
+<td><em>place</em></td>
+<td>contoh: <em>suburb,island</em></td>
+<td>Ini merupakan <em>tag optional</em>, tidak wajib dipakai. <em>Tag</em> yang berguna untuk mendeskripsikan jenis area yang ada di dalam batas administrasi tersebut apakah termasuk garis pantai dan penggunaan lahan lainnya. Info lengkap lihat di: <a href="http://wiki.openstreetmap.org/wiki/Key:place">http://wiki.openstreetmap.org/wiki/Key:place</a></td>
+</tr>
+
+<tr>
+<td><em>land_area</em></td>
+<td><em>administrative</em></td>
+<td><em>Tag</em> untuk menyatakan sebagai sebuah batas wilayah daratan</td>
+</tr>
+
+<tr>
+<td><em>is_in:province</em></td>
+<td>nama provinsi</td>
+<td><em>Tag</em> yang mendeskripsikan nama Provinsi. <em>Tag</em> ini harus dimasukkan pada batas administrasi yang berada di tingkat bawah dari Provinsi (Kota/Kabupaten/Kotamadya, Kecamatan, Kelurahan/Desa, RW dan RT)</td>
+</tr>
+
+<tr>
+<td>Kota = <em>is_in:city</em> Kab/Kotamadya= <em>is_in:town</em></td>
+<td>nama kabupaten/kotamadya</td>
+<td><em>Tag</em> yang mendeskripsikan nama Kota/Kabupaten/Kotamadya.</td>
+</tr>
+
+<tr>
+<td><em>is_in:municipality</em></td>
+<td>nama kecamatan</td>
+<td><em>Tag</em> yang mendeskripsikan nama Kecamatan.<em>Tag</em> ini harus dimasukkan pada batas administrasi yang berada di tingkat bawah dari Kecamatan (Kelurahan/Desa, RW dan RT)</td>
+</tr>
+
+<tr>
+<td><em>is_in:village</em></td>
+<td>nama kelurahan/desa</td>
+<td><em>Tag</em> yang mendeskripsikan nama Kelurahan/Desa.<em>Tag</em> ini harus dimasukkan pada batas administrasi yang berada di tingkat bawah dari Kelurahan/Desa (RW dan RT)</td>
+</tr>
+
+<tr>
+<td><em>is_in:RW</em></td>
+<td>nama RW</td>
+<td><em>Tag</em> yang mendeskripsikan nama RW. <em>Tag</em> ini harus dimasukkan pada batas administrasi yang berada di tingkat bawah dari RW (RT)</td>
+</tr>
+</tbody>
 </table>
 
 <p><strong>b. <em>Relation Members</em></strong></p>
@@ -547,127 +516,86 @@ Rangkaian dari garis-garis yang terhubung menjadi suatu batas tertutup seperti p
 <p>Tabel Tingkat Administrasi di Indonesia</p>
 
 <table>
-  <tr>
-   <td><strong><em>value</em></strong>
-   </td>
-   <td><strong>Tingkat Administrasi</strong>
-   </td>
-   <td><strong>Tampilan di Mapnik</strong>
-   </td>
-   <td><strong><em>Place</em></strong>
-   </td>
-  </tr>
-  <tr>
-   <td>1
-   </td>
-   <td>-
-   </td>
-   <td>-
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>2
-   </td>
-   <td>Batas Negara
-   </td>
-   <td>
-<img src="../../../../pages/03-JOSM/09-Pembuatan-Batas-Administrasi-dengan-JOSM/images/0903_batasnegara.png" width="">
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td> 3
-   </td>
-   <td>-
-   </td>
-   <td>-
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td> 4
-   </td>
-   <td> Batas Provinsi
-   </td>
-   <td>
-<img src="../../../../pages/03-JOSM/09-Pembuatan-Batas-Administrasi-dengan-JOSM/images/0904_batasprovinsi.png" width="">
-   </td>
-   <td><em>Province</em>
-   </td>
-  </tr>
-  <tr>
-   <td>5
-   </td>
-   <td>Batas Kota / Kotamadya / Kabupaten 
-(<em><a href="https://id.wikipedia.org/wiki/Daftar_kabupaten_dan_kota_di_Indonesia">Daftar Kota & Kab. Indonesia</a></em>)
-   </td>
-   <td>
-<img src="../../../../pages/03-JOSM/09-Pembuatan-Batas-Administrasi-dengan-JOSM/images/0905_bataskota.png" width="">
-   </td>
-   <td>Kota = <em>City</em>
-<p>
-Kab/Kotamadya= <em>Town</em>
-   </td>
-  </tr>
-  <tr>
-   <td>6
-   </td>
-   <td>Batas Kecamatan
-   </td>
-   <td>
-<img src="../../../../pages/03-JOSM/09-Pembuatan-Batas-Administrasi-dengan-JOSM/images/0906_bataskec.png" width="">
-   </td>
-   <td><em>Municipality</em>
-   </td>
-  </tr>
-  <tr>
-   <td>7
-   </td>
-   <td>Batas Kelurahan/Desa
-   </td>
-   <td>
-<img src="../../../../pages/03-JOSM/09-Pembuatan-Batas-Administrasi-dengan-JOSM/images/0907_bataskel.png" width="">
-   </td>
-   <td><em>Village</em>
-   </td>
-  </tr>
-  <tr>
-   <td>8
-   </td>
-   <td>Batas Dusun
-   </td>
-   <td>
-<img src="../../../../pages/03-JOSM/09-Pembuatan-Batas-Administrasi-dengan-JOSM/images/0908_batasdusun.png" width="">
-   </td>
-   <td><em>Hamlet</em>
-   </td>
-  </tr>
-  <tr>
-   <td>9
-   </td>
-   <td>Batas Rukun Warga (RW)
-   </td>
-   <td>
-<img src="../../../../pages/03-JOSM/09-Pembuatan-Batas-Administrasi-dengan-JOSM/images/0910_batasrtrw.png" width="">
-   </td>
-   <td><em>Community Group </em>
-   </td>
-  </tr>
-  <tr>
-   <td>10
-   </td>
-   <td>Batas Rukun Tetangga (RT)
-   </td>
-   <td>
-<img src="../../../../pages/03-JOSM/09-Pembuatan-Batas-Administrasi-dengan-JOSM/images/0911_batasrtrw.png" width="">
-   </td>
-   <td><em>Neighborhood Unit </em>
-   </td>
-  </tr>
+<thead>
+<tr>
+<th><em>value</em></th>
+<th>Tingkat Administrasi</th>
+<th>Tampilan di Mapnik</th>
+<th><em>Place</em></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Batas Negara</td>
+<td><img src="../../../../pages/03-JOSM/09-Pembuatan-Batas-Administrasi-dengan-JOSM/images/0903_batasnegara.png" width=""></td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Batas Provinsi</td>
+<td><img src="../../../../pages/03-JOSM/09-Pembuatan-Batas-Administrasi-dengan-JOSM/images/0904_batasprovinsi.png" width=""></td>
+<td><em>Province</em></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>Batas Kota / Kotamadya / Kabupaten (_<a href="https://id.wikipedia.org/wiki/Daftar_kabupaten_dan_kota_di_Indonesia">Daftar Kota &amp; Kab. Indonesia</a>_)</td>
+<td><img src="../../../../pages/03-JOSM/09-Pembuatan-Batas-Administrasi-dengan-JOSM/images/0905_bataskota.png" width=""></td>
+<td>Kota=<em>City</em> Kab/Kotamadya=<em>Town</em></td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>Batas Kecamatan</td>
+<td><img src="../../../../pages/03-JOSM/09-Pembuatan-Batas-Administrasi-dengan-JOSM/images/0906_bataskec.png" width=""></td>
+<td><em>Municipality</em></td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>Batas Kelurahan/Desa</td>
+<td><img src="../../../../pages/03-JOSM/09-Pembuatan-Batas-Administrasi-dengan-JOSM/images/0907_bataskel.png" width=""></td>
+<td><em>Village</em></td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>Batas Dusun</td>
+<td><img src="../../../../pages/03-JOSM/09-Pembuatan-Batas-Administrasi-dengan-JOSM/images/0908_batasdusun.png" width=""></td>
+<td><em>Hamlet</em></td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>Batas Rukun Warga (RW)</td>
+<td><img src="../../../../pages/03-JOSM/09-Pembuatan-Batas-Administrasi-dengan-JOSM/images/0910_batasrtrw.png" width=""></td>
+<td><em>Community Group</em></td>
+</tr>
+
+<tr>
+<td>10</td>
+<td>Batas Rukun Tetangga (RT)</td>
+<td><img src="../../../../pages/03-JOSM/09-Pembuatan-Batas-Administrasi-dengan-JOSM/images/0911_batasrtrw.png" width=""></td>
+<td><em>Neighborhood Unit</em></td>
+</tr>
+</tbody>
 </table>
 
 <h3 id="iii-syarat-dan-ketentuan-menggambar-batas-administrasi-di-openstreetmap"><strong>III. Syarat dan Ketentuan Menggambar Batas Administrasi di <em>OpenStreetMap</em></strong></h3>
@@ -1069,8 +997,8 @@ Data yang dipakai pada tutorial ini hanyalah data contoh atau data fiktif untuk 
   
   
   <div>
-    <a href="https://github.com/hotosm/pdc-documentation/commit/6e45b8d1b6bce498a53589206bc6bf470e1007df" title='Last modified May 15, 2019 06:42 UTC by dewisulistio' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> May 15, 2019
+    <a href="https://github.com/hotosm/pdc-documentation/commit/8cb9e6f8027888a7044bd5edca37fe3052f890e9" title='Last modified July 2, 2019 02:32 UTC by Dewi Sulistioningrum' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Jul 2, 2019
     </a>
   </div>
   
