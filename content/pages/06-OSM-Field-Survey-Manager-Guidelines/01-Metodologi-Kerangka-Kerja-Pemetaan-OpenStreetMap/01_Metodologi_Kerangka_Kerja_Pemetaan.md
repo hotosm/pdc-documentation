@@ -1,5 +1,5 @@
 ﻿---
-title: Metodologi Kerangka Kerja Pemetaan PDC InAWARE
+title: Metodologi Perencanaan Proyek Pemetaan dengan OpenStreetMap
 weight: 1
 ---
 
@@ -91,7 +91,7 @@ Pada tahapan ini, kegiatan yang dilakukan akan berfokus pada persiapan peralatan
 
 Contoh Tabel _Timeline_ Pemetaan Tahap Sebelum Survei
 
-| No | Timeline | Tim *Surveyor* | Kecamatan | Jumlah Kel | Kelurahan | Jumlah RW | *MBTiles* | Peta Kel (satelit) | Peta Kel (OSM) |
+| No | Timeline | Tim *Surveyor* | Kec | Jumlah Kel | Kel | Jumlah RW | *MBTiles* | Peta Kel (satelit) | Peta Kel (OSM) |
 |---|---|---|---|---|---|---|---|---|---|
 |1| Feb - Mar| A | Candisari | 3 | Candi | 11 | v | v | v |
 || | |100% Dipetakan | | Jatingaleh | 10 | v | v | v |
@@ -114,7 +114,7 @@ Contoh Tabel *Timeline* Pemetaan Tahap Survei Pemetaan
 
 |PERSIAPAN HP|  | SURVEI |  |  |   |   |  INPUT | | | | | | 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**memasukkan mbtiles**|**clear file manager**|**Tanggal Survei**|**Tanggal Mendapat Batas RW**|**Infrastruktur**|**Lokasi Pengungsian**|**Jalur Evakuasi**|**Upload track**|**Kirim form ke OMK Server**|**Infrastruktur**|**RW**|**Jalur Evakuasi dan LP** | **Tanggal Validasi Infrastruktur**|
+|input mbtiles|*clear file manager*|Tgl Survei|Tgl Survey Batas RW|Infrastruktur|Posko|Jalur Evakuasi|Upload track|Kirim form ke OMK Server|Infrastruktur|RW|Jalur Evakuasi dan Posko|Tgl Validasi Data|
 | v | v | 1,5-6 Mar 2018 | 1 Mar 2018 | v | Ada | Tidak Ada | v | v | v | v | v | 26 Mar 2018 |
 | v | v | 12 Feb 2018 | 12 Feb 2018 | v | Ada | Tidak Ada | v | v | v | v | v | 14, 19 Feb 2018 |
 | v | v | 8,12-14 Mar 2018 | 12 Mar 2018 | v | Ada | Tidak Ada | v | v | v | v | v | 27-28 Mar 2018 |
