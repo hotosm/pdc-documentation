@@ -1,5 +1,5 @@
 ﻿---
-title: Metodologi Kerangka Kerja Pemetaan PDC InAWARE
+title: Metodologi Perencanaan Proyek Pemetaan dengan OpenStreetMap
 weight: 1
 ---
 
@@ -91,201 +91,14 @@ Pada tahapan ini, kegiatan yang dilakukan akan berfokus pada persiapan peralatan
 
 Contoh Tabel _Timeline_ Pemetaan Tahap Sebelum Survei
 
-
-<table>
-  <tr>
-   <td>
-<strong>NO</strong>
-   </td>
-   <td><strong>Estimasi Waktu / Tahap</strong>
-   </td>
-   <td><strong>Tim <em>Data Entry</em></strong>
-   </td>
-   <td rowspan="2" ><strong>KECAMATAN</strong>
-   </td>
-   <td><strong>Jml.</strong>
-<p>
-<strong>KEL</strong>
-   </td>
-   <td rowspan="2" ><strong>KELURAHAN</strong>
-   </td>
-   <td rowspan="2" ><strong>Jml. RW</strong>
-   </td>
-   <td colspan="3" ><strong>SEBELUM-SURVEI</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td><strong>mbtiles</strong>
-   </td>
-   <td><strong>PETA KEL (satelit)</strong>
-   </td>
-   <td><strong>PETA KEL (OSM)</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>1
-   </td>
-   <td>Feb - Mar
-   </td>
-   <td>A
-   </td>
-   <td><a href="https://tasks.hotosm.org/project/4045">CANDISARI</a>
-   </td>
-   <td>7
-   </td>
-   <td>CANDI
-   </td>
-   <td>11
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>JATINGALEH
-   </td>
-   <td>10
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>100% Mapped
-   </td>
-   <td>
-   </td>
-   <td>JOMBLANG
-   </td>
-   <td>15
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>100% Validated
-   </td>
-   <td>
-   </td>
-   <td>KALIWIRU
-   </td>
-   <td>4
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>KARANGANYAR GUNUNG
-   </td>
-   <td>6
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>TEGALSARI
-   </td>
-   <td>13
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>WONOTINGAL
-   </td>
-   <td>6
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-  </tr>
-</table>
-
+| No | Timeline | Tim *Surveyor* | Kec | Jumlah Kel | Kel | Jumlah RW | *MBTiles* | Peta Kel (satelit) | Peta Kel (OSM) |
+|---|---|---|---|---|---|---|---|---|---|
+|1| Feb - Mar| A | Candisari | 3 | Candi | 11 | v | v | v |
+|| | |100% Dipetakan | | Jatingaleh | 10 | v | v | v |
+|| | |100% Divalidasi | | Jomblang | 10 | v | v | v |
+|2| Feb - Mar| B | Banyumanik | 3 | Sumurboto | 5 | v | v | v |
+|| | |100% Dipetakan | | Ngesrep | 11 | v | v | v |
+|| | |100% Divalidasi | | Gedawang | 10 | v | v | v |
 
 _*Pengisian dilakukan oleh Mapping Supervisor_
 
@@ -299,246 +112,12 @@ Pada saat proses survei pemetaan, masing-masing tim memiliki peran agar survei p
 
 Contoh Tabel *Timeline* Pemetaan Tahap Survei Pemetaan
 
-<table>
-  <tr>
-   <td colspan="2" >
-<strong>PERSIAPAN HP</strong>
-   </td>
-   <td colspan="5" ><strong>SURVEI</strong>
-   </td>
-   <td colspan="5" ><strong>INPUT</strong>
-   </td>
-   <td rowspan="2" ><strong>Tanggal Validasi Infrastruktur</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>memasukkan mbtiles</strong>
-   </td>
-   <td><strong>clear file manager</strong>
-   </td>
-   <td><strong>Tanggal Survei</strong>
-   </td>
-   <td><strong>Tanggal Mendapat Batas RW</strong>
-   </td>
-   <td><strong>Infrastruktur</strong>
-   </td>
-   <td><strong>Lokasi Pengungsian</strong>
-   </td>
-   <td><strong>Jalur Evakuasi</strong>
-   </td>
-   <td><strong>Upload track</strong>
-   </td>
-   <td><strong>Kirim form ke OMK Server</strong>
-   </td>
-   <td><strong>Infrastruktur</strong>
-   </td>
-   <td><strong>RW</strong>
-   </td>
-   <td><strong>Jalur</strong>
-<p>
-<strong>Evakuasi</strong>
-<p>
-<strong>dan LP</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>1,5-6 Mar 18
-   </td>
-   <td>1 Mar 18
-   </td>
-   <td>v
-   </td>
-   <td>Ada
-   </td>
-   <td>Tidak Ada
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>26 Mar 18
-   </td>
-  </tr>
-  <tr>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>12 Feb 18
-   </td>
-   <td>12 Feb 18
-   </td>
-   <td>v
-   </td>
-   <td>Tidak Ada
-   </td>
-   <td>Tidak Ada
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>Tidak ada
-   </td>
-   <td>14,19 Feb 18
-   </td>
-  </tr>
-  <tr>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>8,12-14 Mar 18
-   </td>
-   <td>12 Mar 18
-   </td>
-   <td>v
-   </td>
-   <td>Ada
-   </td>
-   <td>Tidak Ada
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>27-28 Mar 18
-   </td>
-  </tr>
-  <tr>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>15 Feb 18
-   </td>
-   <td>15 Feb 18
-   </td>
-   <td>v
-   </td>
-   <td>Tidak Ada
-   </td>
-   <td>Tidak Ada
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>Tidak Ada
-   </td>
-   <td>23 Feb 18
-   </td>
-  </tr>
-  <tr>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>19,21 Mar, 4 Apr 18
-   </td>
-   <td>12 Mar 18
-   </td>
-   <td>v
-   </td>
-   <td>Tidak Ada
-   </td>
-   <td>Tidak Ada
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>Tidak Ada
-   </td>
-   <td>2,5 Apr 18
-   </td>
-  </tr>
-  <tr>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>26-27 Feb 18
-   </td>
-   <td>23 Feb 18
-   </td>
-   <td>v
-   </td>
-   <td>TIdak Ada
-   </td>
-   <td>TIdak Ada
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>Tidak Ada
-   </td>
-   <td>7 Mar 18
-   </td>
-  </tr>
-  <tr>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>20-21 Feb 18
-   </td>
-   <td>20 Feb 18
-   </td>
-   <td>v
-   </td>
-   <td>TIdak Ada
-   </td>
-   <td>TIdak Ada
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>Tidak Ada
-   </td>
-   <td>26 Feb 18
-   </td>
-  </tr>
-</table>
-
+|PERSIAPAN HP|  | SURVEI |  |  |   |   |  INPUT | | | | | | 
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|input mbtiles|*clear file manager*|Tgl Survei|Tgl Survey Batas RW|Infrastruktur|Posko|Jalur Evakuasi|Upload track|Kirim form ke OMK Server|Infrastruktur|RW|Jalur Evakuasi dan Posko|Tgl Validasi Data|
+| v | v | 1,5-6 Mar 2018 | 1 Mar 2018 | v | Ada | Tidak Ada | v | v | v | v | v | 26 Mar 2018 |
+| v | v | 12 Feb 2018 | 12 Feb 2018 | v | Ada | Tidak Ada | v | v | v | v | v | 14, 19 Feb 2018 |
+| v | v | 8,12-14 Mar 2018 | 12 Mar 2018 | v | Ada | Tidak Ada | v | v | v | v | v | 27-28 Mar 2018 |
 
 #### **c. Setelah Survei Pemetaan**
 
@@ -546,96 +125,11 @@ Jika seluruh proses pemetaan sudah selesai, maka _mapping supervisor_ dan _quali
 
 Contoh Tabel _Timeline_ Pemetaan Tahap Setelah Survei 
 
-
-<table>
-  <tr>
-   <td rowspan="2" ><strong>Validasi Batas Administrasi</strong>
-   </td>
-   <td rowspan="2" ><strong>Kuantitas Data </strong>
-<p>
-<strong>Rekap Objek Hasil Validasi</strong>
-   </td>
-   <td rowspan="2" ><strong>Kualitas  Data</strong>
-<p>
-<strong>Rekap Objek Hasil Validasi</strong>
-   </td>
-   <td rowspan="2" ><strong>Peta Cetak dan Distribusi</strong>
-   </td>
-  </tr>
-  <tr>
-  </tr>
-  <tr>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-  </tr>
-  <tr>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-  </tr>
-  <tr>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-  </tr>
-  <tr>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-  </tr>
-  <tr>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-  </tr>
-  <tr>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-  </tr>
-  <tr>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-   <td>v
-   </td>
-  </tr>
-</table>
-
+| **Validasi Batas Administrasi**| **Perhitungan Kuantitas Data**| **Perhitungan Kualitas Data** | **Peta Cetak dan Distribusi**|
+|---|---|---|---|
+| v | v | v | v |
+| v | v | v | v |
+| v | v | v | v |
 
 Contoh kelengkapan _timeline_ pemetaan dapat diunduh di tautan berikut [https://tinyurl.com/timeline-pemetaan](https://tinyurl.com/timeline-pemetaan)
 
@@ -649,76 +143,18 @@ Tempat penyimpanan yang mudah dari segi penggunaan dan pengaplikasian yaitu _goo
 
 Contoh Tabel Folder Proyek Pemetaan
 
-
-<table>
-  <tr>
-   <td><strong>Nama Folder</strong>
-   </td>
-   <td><strong>Deskripsi</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><em>Timeline</em>
-   </td>
-   <td>Kerangka kerja dan <em>timeline </em>survei pemetaan
-   </td>
-  </tr>
-  <tr>
-   <td><em>Training</em>
-   </td>
-   <td>Agenda pelatihan dan materi pelatihan
-   </td>
-  </tr>
-  <tr>
-   <td>Tim Pemetaan
-   </td>
-   <td>Daftar nama tim pemetaan (<em>data entry, quality assurance, dan mapping supervisor</em>)
-   </td>
-  </tr>
-  <tr>
-   <td>Data Survei
-   </td>
-   <td>Hasil pemetaan OpenMapKit (OMK) dan ODK Collect, batas administrasi, tempat pengungsian, jalur evakuasi, dll.
-   </td>
-  </tr>
-  <tr>
-   <td>Dokumentasi Survei
-   </td>
-   <td>Foto dan video selama kegiatan survei
-   </td>
-  </tr>
-  <tr>
-   <td>Peta
-   </td>
-   <td>Peta survei, <em>fieldpapers</em>, dan peta hasil
-   </td>
-  </tr>
-  <tr>
-   <td>Laporan
-   </td>
-   <td>Laporan perbulan yang dibuat oleh<em> quality assurance</em> dan <em>mapping supervisor </em>
-   </td>
-  </tr>
-  <tr>
-   <td>Kualitas Data
-   </td>
-   <td>Perhitungan kualitas data yang dihasilkan sebelum dan sesudah pemetaaan
-   </td>
-  </tr>
-  <tr>
-   <td>Kuantitas Data
-   </td>
-   <td>Perhitungan kuantitas data yang dihasilkan sebelum dan sesudah pemetaaan
-   </td>
-  </tr>
-  <tr>
-   <td>OMK <em>Equipment</em>
-   </td>
-   <td>Peralatan survei yang dibutuhkan oleh OMK seperti MBTiles
-   </td>
-  </tr>
-</table>
-
+| **Nama Folder**| **Deskripsi**|
+|---|---|
+|_Timeline_| Kerangka kerja dan _timeline_ survei pemetaan|
+|_Training_| Agenda pelatihan dan materi pelatihan|
+|Tim Pemetaan| Daftar nama tim pemetaan (_data entry, quality assurance, dan mapping supervisor_)|
+|Data Survei| Hasil pemetaan OpenMapKit (OMK) dan ODK Collect, batas administrasi, tempat pengungsian, jalur evakuasi, dll.|
+|Dokumentasi Survei| Foto dan video selama kegiatan survei|
+|Peta| Peta survei, _fieldpapers_, dan peta hasil|
+|Laporan| Laporan perbulan yang dibuat oleh _quality assurance_ dan _mapping supervisor_|
+|Kualitas Data| Perhitungan kualitas data yang dihasilkan sebelum dan sesudah pemetaaan|
+|Kuantitas Data|Perhitungan kuantitas data yang dihasilkan sebelum dan sesudah pemetaaan|
+|OMK _Equipment_| Peralatan survei yang dibutuhkan oleh OMK seperti MBTiles|
 
 Data-data digital harus di-_upload_ ke dalam folder tersebut seiring dengan berjalannya proyek pemetaan, agar data tersebut dapat di-_backup_ dengan baik dan tidak ada data yang hilang atau rusak.
 
@@ -748,66 +184,16 @@ Pada peta perencanaan pemetaan Kota Semarang dibawah ini, dibagi menjadi dua bag
 
 Contoh Tabel _Timeline_ Pembagian Wilayah
 
-
-<table>
-  <tr>
-   <td><strong><em>Timeline</em></strong>
-   </td>
-   <td><strong>Wilayah Kecamatan</strong>
-   </td>
-   <td><strong><em>Mapping Supervisor </em>Utara - Semarang Bawah</strong>
-   </td>
-   <td><strong><em>Mapping Supervisor</em> Selatan - </strong>
-<p>
-<strong>Semarang Atas</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Tahap 1 (1,5 Bulan)
-   </td>
-   <td>Kecamatan yang dekat dengan kantor/<em>basecamp</em>.  Misalnya berjarak kurang dari 20 km dari kantor
-   </td>
-   <td>Kec Semarang Barat
-<p>
-Kec Semarang Tengah
-<p>
-Kec Semarang Timur
-<p>
-Kec Semarang Utara
-   </td>
-   <td>Kec Candisari
-<p>
-Kec Semarang Selatan
-<p>
-Kec Gayamsari
-<p>
-Kec Gajah Mungkur
-   </td>
-  </tr>
-  <tr>
-   <td>Tahap 2 (2,5 Bulan)
-   </td>
-   <td>Kecamatan lebih dari 20 km 
-   </td>
-   <td>Kec Ngaliyan
-<p>
-Kec Pedurungan
-<p>
-Kec Tugu
-<p>
-Kec Genuk
-   </td>
-   <td>Kec Banyumanik
-<p>
-Kec Tembalang
-<p>
-Kec Mijen
-<p>
-Kec Gunung Pati
-   </td>
-  </tr>
-</table>
-
+|_Timeline_| Wilayah Kecamatan| _Mapping Supervisor_ Utara - Semarang Bawah| _Mapping Supervisor_ Selatan - Semarang Atas |
+|---|---|---|---|
+|Tahap 1 (1,5 Bulan)|Kecamatan yang dekat dengan kantor/_basecamp_. Misalnya berjarak kurang dari 20 km dari kantor| Kec Semarang Barat | Kec Candisari |
+|| | Kec Semarang Tengah | Kec Semarang Selatan |
+|| | Kec Semarang Timur | Kec Gayamsari |
+|| | Kec Semarang Utara | Kec Gajah Mungkur |
+|Tahap 2 (2,5 Bulan)|Kecamatan lebih dari 20 km| Kec Ngaliyan | Kec Banyumanik |
+|| | Kec Pedurungan | Kec Tembalang |
+|| | Kec Tugu | Kec Mijen |
+|| | Kec Genuk | Kec Gunung Pati |
 
 ### **V. Pembagian Kelompok Tim Pemetaan**
 
@@ -818,220 +204,24 @@ Aspek pembagian wilayah sangat menentukan dalam pembagian kelompok survei, terut
 
 Tabel Pembagian Kelompok Berdasarkan Wilayah Survei
 
-
-<table>
-  <tr>
-   <td><strong><em>Mapping Supervisor</em></strong>
-   </td>
-   <td><strong><em>Quality Assurance</em></strong>
-   </td>
-   <td><strong><em> data entry</em></strong>
-   </td>
-   <td><strong>Kecamatan</strong>
-   </td>
-   <td><strong>Jml Kelurahan</strong>
-   </td>
-   <td><strong>Total</strong>
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="8" >MSpv 1
-   </td>
-   <td>QA1
-   </td>
-   <td rowspan="2" >DE1
-<p>
-DE2
-   </td>
-   <td>Candi Sari
-   </td>
-   <td>7
-   </td>
-   <td>21
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>Mijen
-   </td>
-   <td>14
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td rowspan="2" >DE3
-<p>
-DE4
-   </td>
-   <td>Semarang Selatan
-   </td>
-   <td>10
-   </td>
-   <td>21
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>Banyumanik
-   </td>
-   <td>11
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>QA2
-   </td>
-   <td rowspan="2" >DE5
-<p>
-DE6
-   </td>
-   <td>Gayam Sari
-   </td>
-   <td>7
-   </td>
-   <td>23
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>Gunung Pati
-   </td>
-   <td>16
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td rowspan="2" >DE7
-<p>
-DE8
-   </td>
-   <td>Gajah Mungkur
-   </td>
-   <td>8
-   </td>
-   <td>20
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>Tembalang
-   </td>
-   <td>12
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="8" >MSpv 2
-   </td>
-   <td>QA2
-   </td>
-   <td rowspan="2" >DE9
-<p>
-DE10
-   </td>
-   <td>Semarang Barat
-   </td>
-   <td>16
-   </td>
-   <td>23
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>Tugu
-   </td>
-   <td>7
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td rowspan="2" >DE11
-<p>
-DE12
-   </td>
-   <td>Semarang Tengah
-   </td>
-   <td>15
-   </td>
-   <td>25
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>Ngaliyan
-   </td>
-   <td>10
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>QA2
-   </td>
-   <td rowspan="2" >DE13
-<p>
-DE14
-   </td>
-   <td>Semarang Timur
-   </td>
-   <td>10
-   </td>
-   <td>23
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>Genuk
-   </td>
-   <td>13
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td rowspan="2" >DE15
-<p>
-DE16
-   </td>
-   <td>Semarang Utara
-   </td>
-   <td>9
-   </td>
-   <td>21
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>Pedurungan
-   </td>
-   <td>12
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
-
+| **_Mapping Supervisor_**|**_Quality Assurance_**| **_data entry_**| **Kecamatan**| **Jml Kelurahan**| **Total Kelurahan**|
+|---|---|---|---|---|---|
+|**Mapping Supervisor 1**| QA1 | DE1 | Candisari | 7 | 21 |
+| | | DE2 | Mijen | 14 |  |
+| | | DE3 | Semarang Selatan | 10 | |
+| | | DE4 | Banyumanik | 11 | |
+| | QA2 | DE5 | Gayamsari | 7 | 23 |
+| | | DE6 | Gunung Pati | 16 | |
+| | | DE7 | Gajah Mungkur | 8 | 20 |
+| | | DE8 | Tembalang | 12 | |
+|**Mapping Supervisor 2**| QA3 | DE9 | Semarang Barat | 16 | 23 |
+| | | DE10 | Tugu | 7 |  |
+| | | DE11 | Semarang Tengah | 15 | 25 |
+| | | DE12 | Ngaliyan | 10 | |
+| | QA4 | DE13 | Semarang Timur | 10 | 23 |
+| | | DE14 | Genuk | 13 | |
+| | | DE15 | Semarang Utara | 9 | 21 |
+| | | DE16 | Pedurungan | 12 | |
 
 **RINGKASAN**
 
