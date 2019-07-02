@@ -390,7 +390,8 @@ https://github.com/hotosm/hugo-book
 
 <h3 id="ii-pembuatan-yaml-untuk-filter-data-di-export-tool"><strong>II. Pembuatan YAML untuk Filter Data di <em>Export Tool</em></strong></h3>
 
-<p>Cara membuat YAML untuk struktur data OSM dapat dibagi menjadi empat bagian, yaitu :</p>
+<p><strong>a. Struktur Data YAML</strong>
+Cara membuat YAML untuk struktur data OSM dapat dibagi menjadi empat bagian, yaitu :</p>
 
 <ul>
 <li>Judul <em>file</em> = menunjukkan nama <em>file</em></li>
@@ -404,116 +405,56 @@ https://github.com/hotosm/hugo-book
 </p>
 <p align="center"><i>Struktur format YAML untuk data OSM</i><p align="center"></p>
 
-<p>Dalam pembuatan YAML, Anda membutuhkan suatu editor tambahan untuk mempermudah dalam penulisan struktur data YAML. Editor tersebut adalah Notepad++, silakan <em>donwload</em>  <a href="https://notepad-plus-plus.org/download/v7.6.4.html">https://notepad-plus-plus.org/download/v7.6.4.html</a> lalu instal. Anda dapat membuka modul <strong>Pembuatan Model Data OSM</strong> untuk melihat daftar model data objek OSM yang akan dipetakan. Kemudian dari daftar tabel-tabel tersebut akan dibuat ke dalam struktur data YAML.  Langkah-langkah untuk membuat YAML, yaitu:</p>
+<p><strong>b. Syarat Format Penulisan Struktur Data YAML</strong></p>
+
+<p>Ada beberapa syarat yang harus diperhatikan dalam pembuatan struktur data YAML, yaitu :
+* Penulisan terdiri dari huruf kecil, tidak boleh kapital
+* Nama file/judul file diletakkan di awal dokumen dan tidak boleh ada spasi pada format penulisan judul file. Jika judul lebih dari dua kata, gunakan tanda _ sebagai pemisah kata
+* Antar elemen struktur data harus sejajar seperti pada contoh di atas.</p>
+
+<p><strong>c. Proses Pembuatan YAML</strong></p>
+
+<p>Anda dapat membuka modul Pembuatan Model Data OSM untuk melihat daftar model data objek OSM yang akan dipetakan. Kemudian dari daftar tabel-tabel tersebut akan dibuat ke dalam struktur data YAML. Langkah-langkah untuk membuat YAML, yaitu:</p>
 
 <ul>
-<li>Buka <strong>Notepad++</strong></li>
 <li>Buat daftar objek yang dipetakan yang sudah dibuat sebelumnya pada model data OSM</li>
 </ul>
 
 <p>Tabel Model Data OSM untuk Objek Bank</p>
 
-<table>
-  <tr>
-   <td><strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>amenity
-   </td>
-   <td>bank
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>bank
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><building name>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><address>
-   </td>
-  </tr>
-  <tr>
-   <td>capacity
-   </td>
-   <td><50, 50-100, 100-250, 250-500, >500
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td>1, 2, 3, 4-7, >7
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)
-   </td>
-  </tr>
-  <tr>
-   <td>building:walls
-   </td>
-   <td>brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca)
-   </td>
-  </tr>
-  <tr>
-   <td>buildings:floor
-   </td>
-   <td>ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton)
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes (Ada), no (Tidak ada)
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>poor (Buruk), good (Baik)
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes (Ada), no (Tidak ada)
-   </td>
-  </tr>
-</table>
+<p>| <em>key</em> | <em>possible values</em> |
+ |&mdash;|&mdash;|
+ |<em>amenity</em>|bank|
+ |<em>building</em>|bank|
+ |<em>amenity</em>|bank|
+ |<em>name</em>|isian nama|
+ |<em>addr:full</em>|isian alamat|
+ |<em>capacity</em>|<50, 50-100, 100-250, 250-500, >500|
+ |<em>building:levels</em>|isian dalam bentuk angka|
+ |<em>building:structure</em>|<em>confined_masonry</em> (Rangka beton bertulang), <em>steel_frame</em> (Rangka baja), <em>wood_frame</em> (Rangka kayu), <em>bamboo_frame</em> (Rangka bambu)|
+|<em>building:walls</em>|<em>brick</em> (Bata), <em>concrete</em> (Beton), <em>wood</em> (Papan kayu), <em>bamboo</em> (Bambu), <em>glass</em> (Kaca)|
+|<em>building:floor</em>|<em>ground</em> (Tanah), <em>wood</em> (Papan kayu), <em>cement</em> (Plester / Semen), <em>tekhel</em> (Tegel), <em>ceramics</em> (Keramik)|
+|<em>building:roof</em>|<em>tile</em> (Genteng), <em>tin</em> (Seng), <em>asbestos</em> (Asbes), <em>concrete</em> (Beton)|
+|<em>access:roof</em>|<em>yes</em> (Ada), <em>no</em> (Tidak ada)|
+|<em>building:condition</em>|<em>poor</em> (Buruk), <em>good</em> (Baik)|
+|<em>backup_generator</em>|<em>yes</em> (Ada), <em>no</em> (Tidak ada)|</p>
 
 <ul>
+<li>Buka <strong>Notepad</strong> yang tersedia pada laptop/komputer Anda.</li>
+
 <li><p>Pada baris pertama ketikkan <strong>nama <em>file</em> yang akan dijadikan judul <em>file</em></strong>, misalnya bank</p>
 
 <pre><code>  bank:
 </code></pre></li>
 
-<li><p>Pada baris kedua <strong>tekan enter + tab</strong> dan ketikkan <strong>types:</strong>, kemudian <strong>tekan enter + tab</strong>  dan isi tipe data tersebut berdasarkan model data OSM dengan mengetikkan ke bawah baris</p>
+<li><p>Pada baris kedua <strong>tekan enter + spasi empat kali</strong> dan ketikkan <strong>types:</strong>, kemudian <strong>tekan enter + spasi delapan kali + ketikkan - points/polygons/lines</strong>  dan isi tipe data tersebut berdasarkan model data OSM dengan mengetikkan ke bawah baris</p>
 
 <pre><code> types:
     - points
     - polygons
 </code></pre></li>
 
-<li><p>Tekan enter dan sesuaikan dengan baris types:, kemudian ketikkan <strong>select: → tekan enter + tab</strong> ketikkan daftar <strong>key</strong> yang terdapat pada objek “bank”.</p>
+<li><p>Tekan enter dan sesuaikan dengan baris types:, kemudian ketikkan <strong>select: → tekan enter + spasi delapan kali</strong> ketikkan daftar <strong>key</strong> yang terdapat pada objek “bank”.</p>
 
 <pre><code>select:
     - amenity
@@ -685,8 +626,8 @@ https://github.com/hotosm/hugo-book
   
   
   <div>
-    <a href="https://github.com/hotosm/pdc-documentation/commit/d05595e3a23f353c68459e6cc5869a4a8c70c8a7" title='Last modified May 16, 2019 00:25 UTC by dewisulistio' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> May 16, 2019
+    <a href="https://github.com/hotosm/pdc-documentation/commit/8c6374ccad57da92262d08e4ec411e05f13bbc05" title='Last modified July 2, 2019 03:54 UTC by Dewi Sulistioningrum' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Jul 2, 2019
     </a>
   </div>
   
