@@ -23,8 +23,7 @@ Untuk dapat mengunjungi situs _OpenStreetMap (OSM)_, pastikan komputer Anda tela
 *   Pada bar alamat (_address bar_) di bagian atas _browser_ Anda, ketikkan[ www.openstreetmap.org](http://www.openstreetmap.org/) dan tekan **_Enter_**.
 *   Ketika halaman situs sudah muncul, maka Anda akan melihat tampilan sebagai berikut: 
 
-<p align="center">
-<img width=80% src="/pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0201_peta_osm.png" alt="peta_osm" title="Peta OSM"></p>
+![tampilan_situs_OSM](/pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0201_peta_osm.png)
 <p align="center"><i>Tampilan awal situs OpenStreetMap</i></p>
 
 ### **II. Menavigasikan Peta**
@@ -33,26 +32,22 @@ Pada tampilan utama halaman situs _OpenStreetMap_, Anda akan melihat tampilan sa
 
 *   Menggeser tampilan peta. Anda dapat menggunakan perangkat _mouse_ Anda. Klik kiri pada perangkat _mouse_ Anda, kemudian tahan dan geser peta ke tempat yang Anda inginkan. Apabila Anda tidak mempunyai _mouse_, Anda dapat tekan dan tahan _touchpad_ kanan pada peta lalu geser kursor ke lokasi yang Anda inginkan. 
 
-<p align="center">
-<img src="/pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0202_mouse.png" alt="navigasi_mouse" title="Navigasi menggunakan mouse"></p>
+![menggeser_peta](/pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0202_mouse.png)
 <p align="center"><i>Cara menggeser tampilan peta</i></p>
 
 *   Memperkecil dan memperbesar tampilan peta. Anda dapat menggunakan tombol **(+)** dan **(-)** yang ada pada panel di sebelah kanan layar Anda. Apabila perangkat _mouse_ Anda memiliki _scroll-wheel_ atau roda gulir, Anda dapat menggunakannya untuk dapat memperbesar dan memperkecil peta. Gulirkan _scroll-wheel_ atau roda gulir _mouse_ Anda ke atas untuk memperbesar, sedangkan gulirkan ke bawah untuk memperkecil.
 
-<p align="center">
-<img width=50% src="/pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0203_0204_tombol_zoom.png" alt="tombol_zoom" title="Tombol zoom"></p>
+![memperbesar_memperkecil_peta](/pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0203_0204_tombol_zoom.png)
 <p align="center"><i>Cara memperbesar dan memperkecil tampilan peta</i></p>
 
 *   Mencari lokasi yang Anda inginkan. Anda dapat menggunakan kotak pencarian **_Search_** yang berada di sebelah kiri layar. Anda dapat mengetikkan lokasi yang ingin Anda cari pada kolom pencarian ini, kemudian tekan **_Enter_** atau klik **_Go_**. Setelah itu akan muncul kotak **_Search Results_** di bawah kolom pencarian. Anda dapat memilih dan mengklik pada hasil pencarian untuk dapat langsung menuju ke titik lokasi yang Anda inginkan tersebut.
 
-<p align="center">
-<img width=80% src="/pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0205_pencarian_lokasi.png" alt="pencarian_lokasi" title="Pencarian lokasi"></p>
+![langkah_pencarian_lokasi](/pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0205_pencarian_lokasi.png)
 <p align="center"><i>Langkah pencarian lokasi dengan kotak Search</i></p>
 
 *   Menampilkan titik lokasi Anda saat ini. Anda dapat menuju panel peta di sebelah kanan peta dan klik tombol **_Show My Location_**. Lalu, secara otomatis peta akan menampilkan titik lokasi Anda saat ini (titik berwarna biru). Pastikan GPS pada laptop/komputer Anda telah aktif dan Anda mengizinkan OSM untuk mendapatkan lokasi Anda.
 
-<p align="center">
-<img src="/pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0206_0207_tombol_show_loc.png" alt="tombol_show_loc" title="Pencarian lokasi"></p>
+![tampilan_show_my_loc](/pages/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/images/0206_0207_tombol_show_loc.png)
 <p align="center"><i>Tampilan Show My Location pada peta OpenStreetMap</i></p>
 
 ### **III. Melihat peta dengan tampilan yang berbeda**
