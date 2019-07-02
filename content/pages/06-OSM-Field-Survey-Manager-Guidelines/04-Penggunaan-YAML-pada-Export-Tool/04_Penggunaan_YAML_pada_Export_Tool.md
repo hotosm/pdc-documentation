@@ -17,6 +17,7 @@ YAML (_YAML Ain't Markup Language)_ adalah sebuah struktur data sederhana yang d
 
 ### **II. Pembuatan YAML untuk Filter Data di _Export Tool_**
 
+**a. Struktur Data YAML**
 Cara membuat YAML untuk struktur data OSM dapat dibagi menjadi empat bagian, yaitu :
 
 *   Judul _file_ = menunjukkan nama _file_
@@ -29,112 +30,50 @@ Cara membuat YAML untuk struktur data OSM dapat dibagi menjadi empat bagian, yai
 </p>
 <p align="center"><i>Struktur format YAML untuk data OSM</i><p align="center">
 
-Dalam pembuatan YAML, Anda membutuhkan suatu editor tambahan untuk mempermudah dalam penulisan struktur data YAML. Editor tersebut adalah Notepad++, silakan _donwload_  [https://notepad-plus-plus.org/download/v7.6.4.html](https://notepad-plus-plus.org/download/v7.6.4.html) lalu instal. Anda dapat membuka modul **Pembuatan Model Data OSM** untuk melihat daftar model data objek OSM yang akan dipetakan. Kemudian dari daftar tabel-tabel tersebut akan dibuat ke dalam struktur data YAML.  Langkah-langkah untuk membuat YAML, yaitu:
+**b. Syarat Format Penulisan Struktur Data YAML**
 
-*   Buka **Notepad++**
-*   Buat daftar objek yang dipetakan yang sudah dibuat sebelumnya pada model data OSM
+Ada beberapa syarat yang harus diperhatikan dalam pembuatan struktur data YAML, yaitu :
+* Penulisan terdiri dari huruf kecil, tidak boleh kapital
+* Nama file/judul file diletakkan di awal dokumen dan tidak boleh ada spasi pada format penulisan judul file. Jika judul lebih dari dua kata, gunakan tanda _ sebagai pemisah kata
+* Antar elemen struktur data harus sejajar seperti pada contoh di atas.
+
+**c. Proses Pembuatan YAML**
+
+Anda dapat membuka modul Pembuatan Model Data OSM untuk melihat daftar model data objek OSM yang akan dipetakan. Kemudian dari daftar tabel-tabel tersebut akan dibuat ke dalam struktur data YAML. Langkah-langkah untuk membuat YAML, yaitu:
+
+* Buat daftar objek yang dipetakan yang sudah dibuat sebelumnya pada model data OSM
 
 Tabel Model Data OSM untuk Objek Bank
 
+| *key* | *possible values* |
+ |---|---|
+ |*amenity*|bank|
+ |*building*|bank|
+ |*amenity*|bank|
+ |*name*|isian nama|
+ |*addr:full*|isian alamat|
+ |*capacity*|<50, 50-100, 100-250, 250-500, >500|
+ |*building:levels*|isian dalam bentuk angka|
+ |*building:structure*|*confined_masonry* (Rangka beton bertulang), *steel_frame* (Rangka baja), *wood_frame* (Rangka kayu), *bamboo_frame* (Rangka bambu)|
+|*building:walls*|*brick* (Bata), *concrete* (Beton), *wood* (Papan kayu), *bamboo* (Bambu), *glass* (Kaca)|
+|*building:floor*|*ground* (Tanah), *wood* (Papan kayu), *cement* (Plester / Semen), *tekhel* (Tegel), *ceramics* (Keramik)|
+|*building:roof*|*tile* (Genteng), *tin* (Seng), *asbestos* (Asbes), *concrete* (Beton)|
+|*access:roof*|*yes* (Ada), *no* (Tidak ada)|
+|*building:condition*|*poor* (Buruk), *good* (Baik)|
+|*backup_generator*|*yes* (Ada), *no* (Tidak ada)|
 
-<table>
-  <tr>
-   <td><strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>amenity
-   </td>
-   <td>bank
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>bank
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><building name>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><address>
-   </td>
-  </tr>
-  <tr>
-   <td>capacity
-   </td>
-   <td><50, 50-100, 100-250, 250-500, >500
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td>1, 2, 3, 4-7, >7
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)
-   </td>
-  </tr>
-  <tr>
-   <td>building:walls
-   </td>
-   <td>brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca)
-   </td>
-  </tr>
-  <tr>
-   <td>buildings:floor
-   </td>
-   <td>ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton)
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes (Ada), no (Tidak ada)
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>poor (Buruk), good (Baik)
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes (Ada), no (Tidak ada)
-   </td>
-  </tr>
-</table>
-
+*   Buka **Notepad** yang tersedia pada laptop/komputer Anda.
 *   Pada baris pertama ketikkan **nama _file_ yang akan dijadikan judul _file_**, misalnya bank
 
 		  bank:
 
-*   Pada baris kedua **tekan enter + tab** dan ketikkan **types:**, kemudian **tekan enter + tab**  dan isi tipe data tersebut berdasarkan model data OSM dengan mengetikkan ke bawah baris 
+*   Pada baris kedua **tekan enter + spasi empat kali** dan ketikkan **types:**, kemudian **tekan enter + spasi delapan kali + ketikkan - points/polygons/lines**  dan isi tipe data tersebut berdasarkan model data OSM dengan mengetikkan ke bawah baris 
 
 		 types:
             - points
             - polygons
 
-*   Tekan enter dan sesuaikan dengan baris types:, kemudian ketikkan **select: → tekan enter + tab** ketikkan daftar **key** yang terdapat pada objek “bank”.
+*   Tekan enter dan sesuaikan dengan baris types:, kemudian ketikkan **select: → tekan enter + spasi delapan kali** ketikkan daftar **key** yang terdapat pada objek “bank”.
 
 		select:
             - amenity
