@@ -52,16 +52,6 @@ I. Pengertian Export Tool Export tool adalah sebuah layanan terbuka yang digunak
     </item>
     
     <item>
-      <title>Metodologi Kerangka Kerja Pemetaan PDC InAWARE</title>
-      <link>/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/</guid>
-      <description>Tujuan Pembelajaran:
- Memahami cara membuat kerangka kegiatan pemetaan Memahami cara pembagian arsip untuk masing-masing kelompok survei Memahami cara pembagian area survei berdasarkan batas administrasi Mengetahui cara pembagian kelompok yang efektif  Perencanaan proyek pemetaan memerlukan metodologi survei yang tepat dan efisien untuk mencapai target dan tujuan pemetaan. Indikator-indikator yang perlu diperhatikan dalam pembuatan metodologi survei meliputi: luas wilayah survei, jumlah tim pemetaan, jumlah objek yang dikumpulkan, dan pendanaan proyek.</description>
-    </item>
-    
-    <item>
       <title>Metodologi Pengumpulan Data</title>
       <link>/pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -69,6 +59,16 @@ I. Pengertian Export Tool Export tool adalah sebuah layanan terbuka yang digunak
       <guid>/pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/</guid>
       <description>Tujuan Pembelajaran:
  Memahami persiapan pengumpulan data Mengetahui alur kerja dalam pengumpulan data Mengetahui peralatan yang digunakan dalam pengumpulan data Mengetahui cara mengambil data di lapangan  Melakukan pengumpulan data atau yang disebut survei lapangan merupakan sesuatu penting khususnya dalam kegiatan pemetaan. Dalam melakukan pemetaan khususnya dalam konteks kebencanaan pengumpulan informasi adalah hal yang tidak dapat diabaikan. Meskipun saat ini perkembangan teknologi sudah dapat membantu Anda dalam melakukan pemetaan jarak jauh akan tetapi tidak semua informasi dapat dikumpulkan hanya dengan mengandalkan citra satelit atau foto udara.</description>
+    </item>
+    
+    <item>
+      <title>Metodologi Perencanaan Proyek Pemetaan dengan OpenStreetMap</title>
+      <link>/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/</guid>
+      <description>Tujuan Pembelajaran:
+ Memahami cara membuat kerangka kegiatan pemetaan Memahami cara pembagian arsip untuk masing-masing kelompok survei Memahami cara pembagian area survei berdasarkan batas administrasi Mengetahui cara pembagian kelompok yang efektif  Perencanaan proyek pemetaan memerlukan metodologi survei yang tepat dan efisien untuk mencapai target dan tujuan pemetaan. Indikator-indikator yang perlu diperhatikan dalam pembuatan metodologi survei meliputi: luas wilayah survei, jumlah tim pemetaan, jumlah objek yang dikumpulkan, dan pendanaan proyek.</description>
     </item>
     
     <item>
