@@ -91,6 +91,7 @@ Setelah berhasil menghitung total data dalam area pemetaan atau dalam contoh ini
 *   Setelah memperbaiki _error_  dan _warning_ yang ada, Anda dapat melakukan rekapitulasi perhitungan kualitas data di **Microsoft Excel atau Google Sheet**. Hal ini bertujuan untuk melihat perbandingan kualitas data yang ada di kelurahan pemetaan, sebelum dan sesudah kegiatan pengumpulan data di lapangan, sehingga Anda dapat melihat progres dari kegiatan pemetaan tidak hanya dari sisi kuantitas tapi juga dari kualitas data yang dihasilkan. Jenis _error_ dan _Warning_ yang dihasilkan juga dimasukkan ke dalam tabel perhitungan.
 
 Tabel Rekapitulasi Perhitungan Kualitas Data
+
 ![Tabel Rekapitulasi Perhitungan Data](/pages/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/images/0411_josm_data_quality_11.png "Tabel Rekapitulasi Perhitungan Data")
 
 Seperti yang dapat Anda lihat pada tabel di atas, jumlah objek di Kelurahan Pleburan sebelum pemetaan adalah 1.863 dimana terdapat 4 _warning_ pada data yang ada. Kemudian setelah dilakukan kegiatan pengumpulan data di lapangan dan validasi data jumlah data yang ada di kelurahan tersebut meningkat menjadi 1.963 dimana tidak terdapat _error_ maupun _warning_ sama sekali.  Anda dapat melihat contoh tabel hasil perhitungan kualitas data di Kota Semarang secara keseluruhan di [http://bit.ly/tabeldatasemarang](http://bit.ly/tabeldatasemarang) 
@@ -127,9 +128,7 @@ Berikut adalah langkah-langkah yang harus Anda lakukan dalam menghitung jumlah R
 
 *   Anda dapat membandingkan jumlah RW yang ada di Kelurahan Pleburan yang merupakan hasil _selection_ di JOSM dengan tabel rekapitulasi hasil pengumpulan data di lapangan. 
 
-<p align="center">
-  <img width="300" height="400" src="/pages/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/images/0416_josm_data_quality_16.png">
-</p>
+![contoh_tabel](/pages/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/images/0416_josm_data_quality_16.png "Contoh tabel rekapitulasi jumlah RW di kelurahan pemetaan")
 <p align="center"><i>Contoh tabel rekapitulasi jumlah RW di kelurahan pemetaan</i></p>
 
 Anda dapat melihat pada tabel di atas bahwa jumlah RW yang ada di Kelurahan Pleburan sebanyak 6 RW dan pada gambar hasil seleksi batas RW di JOSM juga terlihat terdapat 6 RW yang terpilih mulai dari RW 01 hingga RW 06. Dengan begitu telah terdapat kesamaan data dan Anda dapat memvalidasi jumlah RW di Kelurahan Pleburan yang ada di _OpenStreetMap_. 
@@ -172,9 +171,7 @@ Untuk melakukan validasi _tag _batas-batas RW, Anda dapat mengikuti langkah-lang
 
 *   Setelah jendela terbuka silahkan Anda periksa kelengkapan informasi (_tag_) untuk **masing-masing** batas RW. Selain itu, periksa hubungan relasi dengan antar batas-batas RW lain dengan melihat alur relasi di bagian **_member_**. Relasi yang baik adalah jika hubungan antara member batas RW saling terhubung dan membentuk _loop_ atau lingkaran yang terhubung. Jika Anda ingin mengetahui hubungan antar relasi dan cara melakukan input batas-batas administrasi di JOSM dengan lebih lengkap, maka Anda dapat melihat Modul **Membuat Batas Administrasi di JOSM**.
 
-<p align="center">
-  <img width="400" height="500" src="/pages/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/images/0419_josm_data_quality_19.png">
- </p>                                                                                                                                   
+![kotak relasi dan informasi](/pages/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/images/0419_josm_data_quality_19.png)
 <p align="center"><i>Kotak relasi dan informasi batas administrasi di JOSM</i></p>
 
 Anda dapat menambahkan _tag_ jika di RW tersebut belum sesuai dengan model data yang telah ditentukan dan memperbaiki bentuk relasi dengan mengatur urutan member dan _rules_ masing-masing _member_.

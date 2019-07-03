@@ -141,80 +141,109 @@ Setelah Anda melakukan pengecekan data mentah atau _raw_ data yang telah dikumpu
 Seperti telah dijelaskan sebelumnya, ketika melakukan validasi menggunakan JOSM, Anda akan menemukan dua jenis hasil validasi:
 
 1. Kesalahan _(Error)_
-    <br>Kesalahan atau _Error_ merupakan jenis peringatan yang bersifat wajib untuk diperbaiki. Kesalahan atau _Error_ berguna untuk memberitahukan adanya objek yang tidak dipetakan sesuai kaidah _OpenStreetMap_. Anda tidak dapat melakukan _upload_ data jika Anda belum menyelesaikan kesalahan atau _error_ pada _changeset_ Anda. 
+    
+    Kesalahan atau _Error_ merupakan jenis peringatan yang bersifat wajib untuk diperbaiki. Kesalahan atau _Error_ berguna untuk memberitahukan adanya objek yang tidak dipetakan sesuai kaidah _OpenStreetMap_. Anda tidak dapat melakukan _upload_ data jika Anda belum menyelesaikan kesalahan atau _error_ pada _changeset_ Anda. 
 
 2. Peringatan _(Warning)_
-    <br>Berbeda dengan kesalahan atau _error_, peringatan atau _warning_ tidak bersifat wajib untuk diperbaiki. Sesuai dengan namanya, peringatan atau _warning_ diberikan untuk memberikan informasi bahwa terdapat ketidaksesuaian dalam pemetaan Anda. Peringatan ini dapat Anda abaikan dan Anda tetap dapat melakukan _upload_ data ke dalam server _OpenStreetMap_. Meskipun demikian, ada juga beberapa jenis _warning_ yang sebaiknya diperbaiki seperti _crossing building, building inside building, crossing ways,_ dan sebagainya. Anda akan mempelajari lebih lanjut mengenai jenis-jenis _warning_ yang harus diperbaiki pada bagian selanjutnya. 
-   <p align="center"><img width=40% src="/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0219_Contoh_error_warning_yang_muncul.png"></p>
+    
+    Berbeda dengan kesalahan atau _error_, peringatan atau _warning_ tidak bersifat wajib untuk diperbaiki. Sesuai dengan namanya, peringatan atau _warning_ diberikan untuk memberikan informasi bahwa terdapat ketidaksesuaian dalam pemetaan Anda. Peringatan ini dapat Anda abaikan dan Anda tetap dapat melakukan _upload_ data ke dalam server _OpenStreetMap_. Meskipun demikian, ada juga beberapa jenis _warning_ yang sebaiknya diperbaiki seperti _crossing building, building inside building, crossing ways,_ dan sebagainya. Anda akan mempelajari lebih lanjut mengenai jenis-jenis _warning_ yang harus diperbaiki pada bagian selanjutnya. 
+
+    ![contoh_kesalahan_warning](/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0219_Contoh_error_warning_yang_muncul.png)
     <p align="center"><i>Contoh kesalahan (errors) dan peringatan (warnings) yang muncul pada saat validasi</i></p>
 
    Untuk kesalahan atau _Error_, Anda dapat langsung memperbaikinya secara otomatis dengan menekan pada bagian _Error_, kemudian tekan tombol **Fix**. Namun, untuk peringatan atau _warning_, Anda harus menyelesaikannya satu per satu. 
-   <p align="center"><img width=40% src="/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0220_Kesalahan_atau_errors_diselesaikan.png"></p>
-<p align="center"><i>Kesalahan atau Errors dapat diselesaikan secara otomatis dengan menggunakan tombol Fix</i></p>
+
+   ![memperbaiki_error](/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0220_Kesalahan_atau_errors_diselesaikan.png)
+   <p align="center"><i>Kesalahan atau Errors dapat diselesaikan secara otomatis dengan menggunakan tombol Fix</i></p>
 
 ### IV. Jenis-jenis Kesalahan _(Error)_ dan Peringatan _(Warning)_ yang Harus Diperbaiki
 
 Terdapat banyak sekali kesalahan dan peringatan yang muncul ketika Anda melakukan validasi data _OpenStreetMap_. Anda dapat menggunakan _tools_ yang terdapat di JOSM (modul **Menggunakan JOSM**) untuk memperbaiki kesalahan dan peringatan yang muncul pada alat validasi. Anda tidak perlu mengingat setiap jenis kesalahan dan peringatan yang muncul, namun Anda perlu mengetahui jenis-jenis kesalahan dan peringatan apa yang seringkali muncul serta mana yang harus Anda perbaiki, seperti:
 
 1. Kesalahan _(Error)_
-*   _Duplicated Node_ (Titik Terduplikasi)
-        <br>Kesalahan ini biasanya muncul ketika sebuah objek secara tidak sengaja diunggah sebanyak 2 kali atau lebih sehingga menyebabkan adanya objek yang tumpang tindih pada posisi yang sama. Kesalahan ini biasanya terjadi ketika pengguna mengunggah data dengan menggunakan koneksi internet yang kurang stabil, sehingga menyebabkan adanya gangguan pada saat meng-_upload_ data. 
-<p align="center"><img width=50% src="/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0221_Error_duplicated_node.png"></p>
-        <p align="center"><i>Error: Duplicated Node</i></p>
+   
+   * _Duplicated Node_ (Titik Terduplikasi)
+        
+     Kesalahan ini biasanya muncul ketika sebuah objek secara tidak sengaja diunggah sebanyak 2 kali atau lebih sehingga menyebabkan adanya objek yang tumpang tindih pada posisi yang sama. Kesalahan ini biasanya terjadi ketika pengguna mengunggah data dengan menggunakan koneksi internet yang kurang stabil, sehingga menyebabkan adanya gangguan pada saat meng-_upload_ data. 
 
-*   _Duplicated Ways_ (Garis Terduplikasi)
-        <br>Kesalahan ini sama seperti kesalahan _duplicated node_, dimana terdapat dua atau lebih garis yang berada pada posisi yang sama. Kesalahan ini biasa terjadi pada objek jalan, namun seringkali juga terjadi pada objek bangunan yang bertumpuk pada satu tempat yang sama. Kesalahan ini juga disebabkan karena adanya objek yang terunggah sebanyak 2 kali dan disebabkan karena koneksi internet yang kurang stabil.
-<p align="center"><img width=50% src="/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0222_Error_duplicated_ways.png"></p>
-        <p align="center"><i>Error: Duplicated ways</i></p>
+     ![duplicated_node](/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0221_Error_duplicated_node.png)
+     <p align="center"><i>Error: Duplicated Node</i></p>
+
+   *  _Duplicated Ways_ (Garis Terduplikasi)
+        
+     Kesalahan ini sama seperti kesalahan _duplicated node_, dimana terdapat dua atau lebih garis yang berada pada posisi yang sama. Kesalahan ini biasa terjadi pada objek jalan, namun seringkali juga terjadi pada objek bangunan yang bertumpuk pada satu tempat yang sama. Kesalahan ini juga disebabkan karena adanya objek yang terunggah sebanyak 2 kali dan disebabkan karena koneksi internet yang kurang stabil.
+
+     ![duplicated_ways](/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0222_Error_duplicated_ways.png)
+     <p align="center"><i>Error: Duplicated ways</i></p>
 
 
 2. Peringatan _(Warning)_
-*   _Crossing Building_ (Bangunan Bersinggungan)
-        <br>Peringatan ini merupakan peringatan yang cukup sering muncul ketika melakukan validasi. Seringkali pengguna memetakan dua bangunan yang berbeda tetapi diletakkan secara bertumpuk. Untuk mengatasi _warning_ ini, Anda cukup memindahkan atau menghapus  salah satu bangunan yang bertumpukan.
-<p align="center"><img width=50% src="/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0223_Warning_Crossing_building.png"></p>
-        <p align="center"><i>Warning: Crossing building</i></p>   
+
+   *  _Crossing Building_ (Bangunan Bersinggungan)
+     
+     Peringatan ini merupakan peringatan yang cukup sering muncul ketika melakukan validasi. Seringkali pengguna memetakan dua bangunan yang berbeda tetapi diletakkan secara bertumpuk. Untuk mengatasi _warning_ ini, Anda cukup memindahkan atau menghapus  salah satu bangunan yang bertumpukan.
+
+     ![crossing_building](/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0223_Warning_Crossing_building.png)
+      <p align="center"><i>Warning: Crossing building</i></p>   
         
-*   _Crossing Ways_ (Garis Bersinggungan)
-        <br>_Warning_ ini muncul ketika terdapat dua buah objek garis atau jalan yang digambar tanpa adanya titik perpotongan antar jalan. Untuk mengatasi _warning_ ini, Anda cukup menambahkan titik perpotongan yang terletak pada percabangan kedua jalan tersebut.
-<p align="center"><img width=50% src="/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0224_Warning_Crossing_ways.png"></p>
-        <p align="center"><i>Warning: Crossing ways</i></p>
+   *  _Crossing Ways_ (Garis Bersinggungan)
+        
+     Warning_ ini muncul ketika terdapat dua buah objek garis atau jalan yang digambar tanpa adanya titik perpotongan antar jalan. Untuk mengatasi _warning_ ini, Anda cukup menambahkan titik perpotongan yang terletak pada percabangan kedua jalan tersebut.
+
+     ![crossing_ways](/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0224_Warning_Crossing_ways.png)
+     <p align="center"><i>Warning: Crossing ways</i></p>
     
-*   _Overlapping Highways_ (Jalan saling bertumpang tindih)
-        <br>_Warning_ ini muncul ketika terdapat bagian jalan yang bertumpukkan dengan bagian jalan lain. Untuk menyelesaikannya, Anda dapat menggeser atau menghapus bagian jalan yang bertumpukkan. 
-<p align="center"><img width=50% src="/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0225_Warning_Overlapping_highways.png"></p>
-        <p align="center"><i>Warning: Overlapping highways</i></p>
+   *  _Overlapping Highways_ (Jalan saling bertumpang tindih)
+
+     _Warning_ ini muncul ketika terdapat bagian jalan yang bertumpukkan dengan bagian jalan lain. Untuk menyelesaikannya, Anda dapat menggeser atau menghapus bagian jalan yang bertumpukkan. 
+
+     ![overlapping_highways](/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0225_Warning_Overlapping_highways.png)
+     <p align="center"><i>Warning: Overlapping highways</i></p>
     
-*   _Node connect highways and building_ (Titik bangunan dan jalan saling terhubung)
-        <br>_Warning_ ini muncul ketika titik objek bangunan dan titik objek jalan secara tidak sengaja saling terhubung satu sama lain. Untuk menyelesaikannya, silakan Anda pisahkan titik tersebut dengan menggunakan _tools **unglue node**_.
-<p align="center"><img width=50% src="/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0226_Warning_Node_connect_higways_and_building.png"></p>
-        <p align="center"><i>Warning: Node connect highways and building</i></p>
+   * _Node connect highways and building_ (Titik bangunan dan jalan saling terhubung)
+
+     _Warning_ ini muncul ketika titik objek bangunan dan titik objek jalan secara tidak sengaja saling terhubung satu sama lain. Untuk menyelesaikannya, silakan Anda pisahkan titik tersebut dengan menggunakan _tools **unglue node**_.
+
+     ![node_connect_highways](/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0226_Warning_Node_connect_higways_and_building.png)
+     <p align="center"><i>Warning: Node connect highways and building</i></p>
     
-*   _Untagged ways_ (Objek belum diberi tag) 
-        <br>_Untagged ways_ merupakan peringatan atau _warning_ yang  muncul disebabkan adanya objek yang belum diberi identitas atau _tag_. JOSM akan menandai objek tersebut sebagai objek tanpa identitas, mengingat pentingnya pemberian identitas atau atribut pada setiap objek yang dipetakan. Apabila Anda tetap mengabaikan peringatan ini, objek tersebut tetap dapat Anda _upload_ tetapi objek tersebut tidak akan muncul pada situs _OpenStreetMap_. Silakan Anda berikan _presets_ yang sesuai untuk objek yang belum diberikan informasi objek.
-<p align="center"><img width=50% src="/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0227_Warning_Untagged_ways.png"></>
-<p align="center"><i>Warning:Untagged ways</i></p>
+   * _Untagged ways_ (Objek belum diberi tag) 
+     
+     Untagged ways_ merupakan peringatan atau _warning_ yang  muncul disebabkan adanya objek yang belum diberi identitas atau _tag_. JOSM akan menandai objek tersebut sebagai objek tanpa identitas, mengingat pentingnya pemberian identitas atau atribut pada setiap objek yang dipetakan. Apabila Anda tetap mengabaikan peringatan ini, objek tersebut tetap dapat Anda _upload_ tetapi objek tersebut tidak akan muncul pada situs _OpenStreetMap_. Silakan Anda berikan _presets_ yang sesuai untuk objek yang belum diberikan informasi objek.
+
+     ![unttaged_ways](/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0227_Warning_Untagged_ways.png)
+     <p align="center"><i>Warning:Untagged ways</i></p>
     
-*   _Way end node near other highways_ (titik tidak terhubung dengan garis terdekat)
-        <br>_Warning_ ini muncul ketika ada titik dari objek jalan yang berdekatan dengan jalan lainnya namun tidak terhubung satu sama lain. Jika memang jalan tersebut merupakan jalan yang tidak dapat dilalui (jalan buntu) silakan gunakan tag **highway=block**. Namun jika ternyata jalan tersebut saling berhubungan, silakan Anda gabungkan jalan tersebut dengan menggunakan fungsi **Merge**.
-<p align="center"><img width=50% src="/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0228_Warning_Way_end_node_near_other_highways.png"></p>
-        <p align="center"><i>Warning: Way end node near other highways</i></p>
+   * _Way end node near other highways_ (titik tidak terhubung dengan garis terdekat)
     
-*   _Building inside building_ (bangunan di dalam bangunan)
-        <br>Peringatan atau _warning_ ini juga salah satu jenis _warning_ yang sering muncul ketika melakukan validasi. _Warning_ ini terjadi ketika ada poligon bangunan yang digambar di dalam poligon bangunan lain. Untuk menyelesaikannya, silakan Anda geser atau hapus salah satu bangunan yang ada di dalam poligon bangunan lain. 
-<p align="center"><img width=50% src="/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0229_Warning_Building_inside_building.png"></p>
-        <p align="center"><i>Warning: Building inside building</i></p>
+    _Warning_ ini muncul ketika ada titik dari objek jalan yang berdekatan dengan jalan lainnya namun tidak terhubung satu sama lain. Jika memang jalan tersebut merupakan jalan yang tidak dapat dilalui (jalan buntu) silakan gunakan tag **highway=block**. Namun jika ternyata jalan tersebut saling berhubungan, silakan Anda gabungkan jalan tersebut dengan menggunakan fungsi **Merge**.
+
+    ![node_end_near_highway](/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0228_Warning_Way_end_node_near_other_highways.png)
+    <p align="center"><i>Warning: Way end node near other highways</i></p>
     
-*   _Unnamed ways_ (Jalan belum diberi nama)
-        <br>_Unnamed ways_ menandakan adanya jalan yang belum diberi nama. Jenis _warning_ ini dapat diabaikan, karena bisa saja ketika Anda melakukan pemetaan jarak jauh, Anda hanya memetakan objek jalannya saja tanpa mengetahui nama jalan tersebut. 
-<p align="center"><img width=50% src="/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0230_Warning_Unnamed_ways.png"></p>
-        <p align="center"><i>Warning: Unnamed ways</i></p>
+   * _Building inside building_ (bangunan di dalam bangunan)
+     
+    Peringatan atau _warning_ ini juga salah satu jenis _warning_ yang sering muncul ketika melakukan validasi. _Warning_ ini terjadi ketika ada poligon bangunan yang digambar di dalam poligon bangunan lain. Untuk menyelesaikannya, silakan Anda geser atau hapus salah satu bangunan yang ada di dalam poligon bangunan lain. 
+
+    ![building_inside_building](/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0229_Warning_Building_inside_building.png)
+    <p align="center"><i>Warning: Building inside building</i></p>
     
-*   _Similarly named ways_ (Jalan memiliki nama yang sama)
-        <br>_Warning_ ini muncul ketika ada beberapa jalan yang memiliki nama jalan yang hampir mirip. Sebagai contoh, ada jalan dengan nama Jalan Tebet Timur I, Jalan Tebet Timur IA, Jalan Tebet Timur IAA, dan sebagainya. Jenis _warning_ ini dapat Anda abaikan jika memang pada kenyataannya jalan tersebut memiliki nama jalan yang hampir serupa. 
-<p align="center"><img width=50% src="/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0231_Warning_Similarly_named_ways.png"></p>
-        <p align="center"><i>Warning: Similarly named ways</i></p>
+   * _Unnamed ways_ (Jalan belum diberi nama)
+    
+    _Unnamed ways_ menandakan adanya jalan yang belum diberi nama. Jenis _warning_ ini dapat diabaikan, karena bisa saja ketika Anda melakukan pemetaan jarak jauh, Anda hanya memetakan objek jalannya saja tanpa mengetahui nama jalan tersebut. 
+
+    ![unnamed_ways](/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0230_Warning_Unnamed_ways.png)
+    <p align="center"><i>Warning: Unnamed ways</i></p>
+    
+   * _Similarly named ways_ (Jalan memiliki nama yang sama)
+    
+    _Warning_ ini muncul ketika ada beberapa jalan yang memiliki nama jalan yang hampir mirip. Sebagai contoh, ada jalan dengan nama Jalan Tebet Timur I, Jalan Tebet Timur IA, Jalan Tebet Timur IAA, dan sebagainya. Jenis _warning_ ini dapat Anda abaikan jika memang pada kenyataannya jalan tersebut memiliki nama jalan yang hampir serupa. 
+
+    ![similarly_named](/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/images/0231_Warning_Similarly_named_ways.png)
+    <p align="center"><i>Warning: Similarly named ways</i></p>
 
 
 **RINGKASAN**
-<br>Data _OpenStreetMap_ yang memiliki sifat data terbuka menyebabkan data _OpenStreetMap_ rawan mengalami kerusakan oleh orang yang kurang bertanggung jawab. Oleh karena itu, setiap relawan pemetaan yang memasukkan data OSM sangat penting untuk menjaga kualitas data OSM yaitu dengan melakukan validasi data. Dengan mempelajari bagian ini, Anda telah dapat melakukan pengecekan kualitas data baik data hasil survei maupun data yang telah dimasukkan ke dalam server _OpenStreetMap_ menggunakan alat validasi yang ada di dalam JOSM. Anda juga telah mengetahui jenis-jenis kesalahan _(error)_ dan peringatan _(warning)_ yang sering muncul ketika melakukan validasi. Setelah mempelajari modul ini, Anda diharapkan dapat memahami pentingnya menjaga kualitas data yang ada di _OpenStreetMap_. 
+
+Data _OpenStreetMap_ yang memiliki sifat data terbuka menyebabkan data _OpenStreetMap_ rawan mengalami kerusakan oleh orang yang kurang bertanggung jawab. Oleh karena itu, setiap relawan pemetaan yang memasukkan data OSM sangat penting untuk menjaga kualitas data OSM yaitu dengan melakukan validasi data. Dengan mempelajari bagian ini, Anda telah dapat melakukan pengecekan kualitas data baik data hasil survei maupun data yang telah dimasukkan ke dalam server _OpenStreetMap_ menggunakan alat validasi yang ada di dalam JOSM. Anda juga telah mengetahui jenis-jenis kesalahan _(error)_ dan peringatan _(warning)_ yang sering muncul ketika melakukan validasi. Setelah mempelajari modul ini, Anda diharapkan dapat memahami pentingnya menjaga kualitas data yang ada di _OpenStreetMap_. 
 
