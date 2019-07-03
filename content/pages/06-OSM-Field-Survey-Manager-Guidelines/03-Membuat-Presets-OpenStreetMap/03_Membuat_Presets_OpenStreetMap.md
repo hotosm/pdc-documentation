@@ -80,29 +80,24 @@ Untuk bisa membuat _presets_ Anda sendiri, ada beberapa hal yang perlu Anda pers
 
 Jika sudah mengetahui dan memahami aturan dalam pembuatan_ presets_ maka Anda juga perlu untuk mengetahui tentang elemen-elemen penyusun yang dapat menampilkan informasi di _presets_ Anda dengan bentuk yang beragam. Beberapa elemen-elemen _presets _tersebut adalah:
 
-<li> Elemen <font color= "red"><b>key</b></font> key 
+* Elemen <font color= "red"><b>key</b></font> key 
 
 ```
-                                   Struktur dasar  : <key key="......" value="......" /> 
+Struktur dasar  : <key key="......" value="......" /> 
 ```
 Ini merupakan _key_ wajib yang mendefinisikan informasi utama dari suatu objek walaupun informasi yang lain dikosongkan. Sebagai contoh jika dalam _presets_ Anda ingin menekankan bahwa itu informasi _tag_ ini adalah sekolah maka Anda dapat menuliskannya seperti:
 
-
-<p align="center">
-  <img width=35% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0312_presets.png "penulisan elemen key key di xml">
-</p>
+![](/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0312_presets.png)
 
 
-<li> Elemen <font color= "red"><b>text</b></font> key
+* Elemen <font color= "red"><b>text</b></font> key
 
 ```
-                                   Struktur dasar   : <text key="......" text="......" />
+Struktur dasar   : <text key="......" text="......" />
 ```
 Ini merupakan elemen yang mendefinisikan informasi objek dalam bentuk isian. Elemen ini biasanya digunakan untuk informasi nama dan alamat objek. Sebagai contoh jika Anda ingin memberikan informasi nama objek maka Anda dapat menuliskannya seperti: 
 
-<p align="center">
-  <img width=35% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0313_presets.png "penulisan elemen text key di xml">
-</p>
+![](/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0313_presets.png)
 
 Penambahan kata “text” pada contoh di atas adalah sebagai label informasi yang akan tampil di JOSM. Pada bagian “text” ini Anda dapat mengisinya dengan Bahasa Indonesia ataupun bahasa lain yang Anda inginkan. Contoh tampilan dari elemen ini di JOSM seperti berikut:
 
@@ -111,29 +106,25 @@ Penambahan kata “text” pada contoh di atas adalah sebagai label informasi ya
 
 
 
-<li> Elemen <font color= "red"><b>combo</b></font> key
+* Elemen <font color= "red"><b>combo</b></font> key
 
 ```
 Struktur dasar : <combo key="......" text="......" values="...,...,..." display_values="...,...,..."/>
 ```
 Ini merupakan elemen yang menampilkan informasi dalam bentuk pilihan. Elemen ini biasanya digunakan untuk informasi seperti tipe atap ataupun jenis dinding. Jika ingin mengumpulkan seperti itu Anda dapat menuliskannya di _presets_ seperti berikut:
 
-<p align="center">
-  <img width=120% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0314_presets.png">
-</p>
+![](/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0314_presets.png)
 
 Elemen yang terlihat pada contoh di atas tersebut berfungsi untuk menentukan informasi jenis dinding sehingga _key_ yang digunakan adalah “_building:walls”_ dan kata “_text”_ untuk menampilkan label _key_ dalam Bahasa Indonesia.
 
 Anda juga dapat melihat _value_ yang ada ditambahkan (s) dibelakangnya karena pilihan informasi yang disediakan lebih dari 1 dan kata “_display_values_” adalah label _value_ yang bisa dituliskan dalam Bahasa Indonesia. Berikut adalah contoh tampilan di JOSM dari elemen di atas:
 
-<p align="center">
-  <img width="300" height="200" src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0307_presets_7.png">
-</p>
+![elemen combo](/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0307_presets_7.png)
 <p align="center"><i>Tampilan elemen combo key di JOSM</i></p>
 
 
 
-<li> Elemen <font color= "red"><b>multiselect</b></font> key
+* Elemen <font color= "red"><b>multiselect</b></font> key
 
 ```
 Struktur dasar : <multiselect key="......" text="......" values="...;...;...;..." display_valuest="..;..;..;.." />
@@ -141,33 +132,26 @@ Struktur dasar : <multiselect key="......" text="......" values="...;...;...;...
 
 Elemen ini dapat menampilkan informasi dalam bentuk pilihan. Elemen ini mirip dengan _combo key_ dimana Anda dapat memasukkan pilihan informasi yang akan dipilih, akan tetapi perbedaannya adalah dengan elemen ini Anda dapat memilih lebih dari satu pilihan. Elemen ini biasanya digunakan untuk informasi seperti sumber air di suatu bangunan dimana kadang bisa memiliki lebih dari 1 sumber air. Berikut penulisan elemen ini dalam _presets_:
 
-<p align="center">
-  <img width=120% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0315_presets.png">
-</p>
+![](/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0315_presets.png)
 
 Penulisan elemen ini mirip dengan _combo key_ dimana perbedaannya adalah kata _multiselect_ menggantikan kata _combo_ dan pemisah antara _value_ menggunakan titik koma (;) sedangkan label _key_ dan _value_ yang dapat ditulis dalam Bahasa Indonesia sama-sama menggunakan kata _text_ dan _display_values_. Ini merupakan contoh tampilan elemen _multiselect key_ di JOSM:
 
-<p align="center">
-  <img width="300" height="200" src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0308_presets_8.png">
-</p>
+![elemen multiselect](/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0308_presets_8.png)
 <p align="center"><i>Tampilan elemen multiselect key di JOSM</i></p>
 
-<li> Elemen <font color= "red"><b>check</b></font> key
+* Elemen <font color= "red"><b>check</b></font> key
 
 ```
-          Struktur Dasar : <check key="......" text="......" value_on="yes" value_off="no" default="......" />
+truktur Dasar : <check key="......" text="......" value_on="yes" value_off="no" default="......" />
 ```
+
 Elemen ini biasanya digunakan untuk menampilkan isian informasi yang berupa tanda centang. Biasanya elemen ini digunakan untuk pertanyaan yang jawabannya iya atau tidak seperti akses ke atap dan jalan satu arah. Anda dapat menuliskan elemen ini di _preset_ seperti berikut:
 
-<p align="center">
-  <img width=90% src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0316_presets.png">
-</p>
+![](/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0316_presets.png)
 
 Penulisan elemen menggunakan _value_on_ dan _value_off_ dimana masing-masing dapat sesuai dengan nilai dimana _value_on_ artinya jika informasi itu dicentang dan _value_off_ jika tidak dicentang. Adapun _default_ atau pengaturan awal dari elemen ini adalah perintah bahwa jika tidak dicentang maka informasi ini akan tetap muncul di jendela _membership_ di JOSM. Berikut adalah contoh tampilan elemen ini di JOSM:
 
-<p align="center">
-  <img width="200" height="100" src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0309_presets_9.png">
-</p>
+![elemen check key](/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0309_presets_9.png)
 <p align="center"><i>Tampilan elemen check key di JOSM</i></p>
 
 **b. Memasukkan Ikon di Presets**
@@ -185,9 +169,7 @@ Jika Anda ingin menggunakan ikon yang sudah ada di JOSM maka Anda dapat melihatn
 
 Silahkan _download_ contoh presets HOT-PDC InAWARE sebagai acuan Anda dalam mempelajari materi _presets_ di https://bit.ly/presetshotpdcid
 
-<p align="center">
-  <img width="400" height="300" src="/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0311_presets_11.png">
-</p>
+![contoh tampilan ikon](/pages/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/images/0311_presets_11.png)
 <p align="center"><i>Contoh tampilan ikon di Presets JOSM</i></p>
 
 **RINGKASAN**
