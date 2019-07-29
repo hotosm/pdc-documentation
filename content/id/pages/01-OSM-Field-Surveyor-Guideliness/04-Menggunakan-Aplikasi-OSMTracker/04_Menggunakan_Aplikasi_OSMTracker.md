@@ -16,26 +16,26 @@ _OSMTracker_ adalah sebuah aplikasi android yang memungkinkan kita untuk mengamb
 
 Untuk dapat menggunakan _OSMTracker_ Anda harus melakukan instalasi terlebih dahulu melalui _Playstore_. Anda dapat membuka aplikasi _Google Playstore_ di perangkat _smartphone_ Anda kemudian ketik _“OSMTracker”_ pada kolom pencarian.
 
-![Aplikasi OSMTracker dapat Anda download di Google Playstore](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0401_Aplikasi_OSMTracker_dapat_Anda_download_di_Google_Playstore.png "Aplikasi OSMTracker dapat Anda download di Google Playstore")
+![Aplikasi OSMTracker dapat Anda download di Google Playstore](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0401_Aplikasi_OSMTracker_dapat_Anda_download_di_Google_Playstore.png "Aplikasi OSMTracker dapat Anda download di Google Playstore")
 <p align="center"><i>Aplikasi OSMTracker dapat Anda download di Google Playstore</i></p>
 
 Jika sudah selesai terpasang, silakan Anda buka aplikasi _OSMTracker_ pada _smartphone_ Anda.
 
-![Tampilan awal aplikasi OSMTracker](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0402_Tampilan_awal_aplikasi_OSMTracker.png "Tampilan awal aplikasi OSMTracker")
+![Tampilan awal aplikasi OSMTracker](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0402_Tampilan_awal_aplikasi_OSMTracker.png "Tampilan awal aplikasi OSMTracker")
 <p align="center"><i>Tampilan awal aplikasi OSMTracker</i></p>
 
 
 ### 2. Pengaturan Awal _OSMTracker_
 Sebelum Anda dapat menggunakan _OSMTracker_, ada beberapa pengaturan dasar yang harus Anda lakukan. Untuk dapat masuk ke dalam menu pengaturan silakan Anda pilih menu tombol 
 
-![Tombol Setting](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0403_Tombol_settings.png) di sebelah kanan atas kemudian pilih **_Settings_**. 
+![Tombol Setting](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0403_Tombol_settings.png) di sebelah kanan atas kemudian pilih **_Settings_**. 
 
-![Memilih menu Settings di aplikasi OSMTracker](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0404_Memilih_menu_Settings_di_aplikasi_OSMTracker.png "Memilih menu Settings di aplikasi OSMTracker")
+![Memilih menu Settings di aplikasi OSMTracker](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0404_Memilih_menu_Settings_di_aplikasi_OSMTracker.png "Memilih menu Settings di aplikasi OSMTracker")
 <p align="center"><i>Memilih menu Settings di aplikasi OSMTracker</i></p>
 
 Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti:
 
-![Beberapa pengaturan pada halaman Settings](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0405_Beberapa_pengaturan_pada_halaman_Settings.png "Beberapa pengaturan pada halaman Settings")
+![Beberapa pengaturan pada halaman Settings](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0405_Beberapa_pengaturan_pada_halaman_Settings.png "Beberapa pengaturan pada halaman Settings")
 <p align="center"><i>Beberapa pengaturan pada halaman Settings</i></p>
 
 1. _GPS logging interval_
@@ -67,12 +67,12 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
 1. **Merekam Rute Perjalanan**
     <br>Untuk dapat mulai melakukan perekaman rute perjalanan atau perekaman jalur, silakan Anda pilih tombol bertanda **+** yang ada di sebelah kanan atas layar. Setelah itu akan muncul tampilan _Track Logger_.
 
-    ![Tombol dengan icon yang digunakan untuk melakukan perekaman jalur atau merekam perjalanan Anda](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0406_Tombol_dengan_icon_+_yang_digunakan_untuk_melakukan_perekaman_jalur_atau_merekam_perjalanan_Anda.png "Tombol dengan icon yang digunakan untuk melakukan perekaman jalur atau merekam perjalanan Anda")
+    ![Tombol dengan icon yang digunakan untuk melakukan perekaman jalur atau merekam perjalanan Anda](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0406_Tombol_dengan_icon_+_yang_digunakan_untuk_melakukan_perekaman_jalur_atau_merekam_perjalanan_Anda.png "Tombol dengan icon yang digunakan untuk melakukan perekaman jalur atau merekam perjalanan Anda")
     <p align="center"><i>Tombol dengan icon + yang digunakan untuk melakukan perekaman jalur atau merekam perjalanan Anda</i></p>
 
     Satu hal penting yang perlu Anda perhatikan adalah tingkat keakurasian GPS. Seluruh fitur yang ada di _track logger_ tidak akan dapat Anda akses jika _smartphone_ Anda belum mendapatkan sinyal GPS dengan baik. Usahakan mendapatkan akurasi GPS semaksimal mungkin (_accuracy_ di bawah 10 meter) untuk menghindari kesalahan perekaman posisi yang dilakukan pada saat survei. Indikator sinyal GPS dapat dilihat pada _signal bar_ yang ada di sebelah kanan atas layar _OSMTracker_ Anda (lihat gambar). Sinyal akan semakin baik apabila indikator _signal bar_ semakin penuh dan berwarna hijau, sedangkan sinyal semakin buruk jika indikator ini masih belum terisi. Semakin penuh indikator sinyal akan semakin baik penangkapan sinyal GPS Anda. Untuk mendapatkan sinyal yang baik, posisikan diri Anda berada di luar ruangan dan tidak terhalang benda apapun seperti atap bangunan atau pepohonan lebat. 
 
-    ![Fitur track logger belum bisa diakses karena smartphone belum menangkap GPS dengan baik (Kiri); Fitur track logger dapat diakses setelah smartphone menangkap GPS (Kanan)](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0407_Fitur_trck_logger_belum_bisa_diakses_dan_bisa_diakses.png)
+    ![Fitur track logger belum bisa diakses karena smartphone belum menangkap GPS dengan baik (Kiri); Fitur track logger dapat diakses setelah smartphone menangkap GPS (Kanan)](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0407_Fitur_trck_logger_belum_bisa_diakses_dan_bisa_diakses.png)
     <p align="center"><i>Fitur track logger belum bisa diakses karena smartphone belum menangkap GPS dengan baik (Kiri); Fitur track logger dapat diakses setelah smartphone menangkap GPS (Kanan)</i></p>
 
     Ketika GPS sudah berhasil menangkap sinyal dengan baik, maka yang perlu Anda lakukan adalah mulai berjalan sesuai dengan rute survei Anda. Setelah Anda menekan tombol + dan _smartphone_ Anda telah menangkap GPS dengan baik, maka _OSMTracker_ secara otomatis telah merekam rute perjalanan atau jalur perjalanan Anda. 
@@ -80,19 +80,19 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
 2. **Merekam Objek dengan Titik dan Gambar**
     <br>Ada beragam tombol yang terdapat di dalam _track logger_, namun untuk mengambil titik survei atau _waypoint_, Anda cukup menggunakan 2 tombol berikut: 
 
-    ![Halaman Track Logger pada OSMTracker](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0408_Halaman_track_logger_pada_OSMTracker.png "Halaman Track Logger pada OSMTracker")
+    ![Halaman Track Logger pada OSMTracker](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0408_Halaman_track_logger_pada_OSMTracker.png "Halaman Track Logger pada OSMTracker")
     <p align="center"><i>Halaman Track Logger pada OSMTracker</i></p>
 
     1. _Text Note_
         <br>**_Text note_** digunakan untuk mengambil titik atau _waypoint_ pada saat melakukan survei. Jika Anda sudah berada di titik yang ingin Anda rekam, Anda cukup menekan tombol ini kemudian isi dengan keterangan yang Anda inginkan. Sebagai contoh, Anda dapat menggunakan penomoran diikuti dengan keterangan objeknya. 
 
-        ![Contoh penggunaan Text Note untuk merekam titik survei](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0409_Contoh_penggunaan_Text_Note_untuk_merekam_titik_survei.png "Contoh penggunaan Text Note untuk merekam titik survei")
+        ![Contoh penggunaan Text Note untuk merekam titik survei](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0409_Contoh_penggunaan_Text_Note_untuk_merekam_titik_survei.png "Contoh penggunaan Text Note untuk merekam titik survei")
         <p align="center"><i>Contoh penggunaan Text Note untuk merekam titik survei</i></p>
 
     2. _Take Photo_
         <br>**_Take Photo_** digunakan untuk mengambil gambar objek yang Anda survei. Anda dapat mengambil gambar secara langsung menggunakan kamera ataupun dapat mengambilnya dari galeri foto Anda. 
 
-        ![Anda dapat memilih untuk mengambil foto langsung menggunakan kamera atau memilih foto dari galeri foto Anda](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0410_Anda_dapat_memilih_foto_lansung_atau_galeri.png "Anda dapat memilih untuk mengambil foto langsung menggunakan kamera atau memilih foto dari galeri foto Anda")
+        ![Anda dapat memilih untuk mengambil foto langsung menggunakan kamera atau memilih foto dari galeri foto Anda](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0410_Anda_dapat_memilih_foto_lansung_atau_galeri.png "Anda dapat memilih untuk mengambil foto langsung menggunakan kamera atau memilih foto dari galeri foto Anda")
         <p align="center"><i>Anda dapat memilih untuk mengambil foto langsung menggunakan kamera atau memilih foto dari galeri foto Anda</i></p>
 
 3. **Menghentikan Sementara dan Memulai Kembali Mode Rekam Rute Perjalanan**
@@ -101,24 +101,24 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
 
     1. Pada halaman _Track logger_, silakan Anda kembali ke halaman utama, kemudian temukan satu _file track_ yang telah Anda kumpulkan. Pada _file_ tersebut silakan Anda tekan dan tahan beberapa saat hingga muncul menu tambahan. 
 
-        ![Pilihan untuk menghentikan perekaman jalur (Stop tracking)](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0411_Pilihan_untuk_menghentikan_perekaman_jalur.png)
+        ![Pilihan untuk menghentikan perekaman jalur (Stop tracking)](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0411_Pilihan_untuk_menghentikan_perekaman_jalur.png)
         <p align="center"><i>Pilihan untuk menghentikan perekaman jalur (Stop tracking)</i></p>
 
     2. Pilih menu _**Stop tracking.**_
-    3. Anda juga dapat menggunakan tombol ![Save](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0412_Tombol_save.png) yang berada di sebelah kanan atas halaman _Track logger_ Anda untuk berhenti melakukan perekaman dan menyimpan hasil perekaman Anda. 
+    3. Anda juga dapat menggunakan tombol ![Save](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0412_Tombol_save.png) yang berada di sebelah kanan atas halaman _Track logger_ Anda untuk berhenti melakukan perekaman dan menyimpan hasil perekaman Anda. 
 
     Jika Anda ingin melanjutkan kembali perekaman trek yang sudah Anda kumpulkan, langkah-langkah yang perlu Anda lakukan adalah: 
 
     1. Pada _file_ yang ingin Anda lanjutkan _track_-nya silakan Anda tekan dan tahan beberapa saat hingga muncul menu tambahan
 
-        ![Pilihan untuk melanjutkan kembali perekaman jalur (Resume tracking)](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0413_Pilihan_untuk_melanjutkan_kembali_perekaman_jalur.png )
+        ![Pilihan untuk melanjutkan kembali perekaman jalur (Resume tracking)](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0413_Pilihan_untuk_melanjutkan_kembali_perekaman_jalur.png )
         <p align="center"><i>Pilihan untuk melanjutkan kembali perekaman jalur (Resume tracking)</i></p>
 
     2. Kemudian pilih **_Resume Tracking_**
 
 >Catatan : 
 >
->![Ikon](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0414_ikon_tanda_jam_oranye.png)
+>![Ikon](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0414_ikon_tanda_jam_oranye.png)
 >
 >Jika File Anda memiliki ikon atau tanda jam berwarna oranye di sebelah kanan nama file menandakan bahwa file tersebut masih dalam mode perekaman jalur. Ikon ini akan hilang jika Anda telah menghentikan mode perekaman jalur. 
 
@@ -126,32 +126,32 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
 
 1. **Melihat Daftar Objek yang Dikumpulkan**
     
-    Anda dapat melihat objek-objek apa saja yang telah Anda kumpulkan pada saat survei. Pada halaman _Track logger_ pilih tombol ![Setting](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0403_Tombol_settings.png) yang berada di sebelah kanan atas, kemudian pilih **_Waypoints_**. 
+    Anda dapat melihat objek-objek apa saja yang telah Anda kumpulkan pada saat survei. Pada halaman _Track logger_ pilih tombol ![Setting](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0403_Tombol_settings.png) yang berada di sebelah kanan atas, kemudian pilih **_Waypoints_**. 
 
-    ![Tombol untuk menampilkan daftar waypoints yang telah dikumpulkan](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0415_Tombol_untuk_menampilkan_daftar_waypoints_yang_telah_dikumpulkan.png "Tombol untuk menampilkan daftar waypoints yang telah dikumpulkan")
+    ![Tombol untuk menampilkan daftar waypoints yang telah dikumpulkan](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0415_Tombol_untuk_menampilkan_daftar_waypoints_yang_telah_dikumpulkan.png "Tombol untuk menampilkan daftar waypoints yang telah dikumpulkan")
     <p align="center"><i>Tombol untuk menampilkan daftar waypoints yang telah dikumpulkan</i></p>
 
     Anda akan melihat daftar titik serta foto yang telah berhasil Anda kumpulkan pada halaman _Waypoint list._
 
-    ![Halaman Waypoint list untuk melihat daftar objek yang telah dikumpulkan](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0416_Halaman_waypoint_list_untuk_melihat_daftar_objek_yang_telah_dikumpulkan.png "Halaman Waypoint list untuk melihat daftar objek yang telah dikumpulkan")
+    ![Halaman Waypoint list untuk melihat daftar objek yang telah dikumpulkan](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0416_Halaman_waypoint_list_untuk_melihat_daftar_objek_yang_telah_dikumpulkan.png "Halaman Waypoint list untuk melihat daftar objek yang telah dikumpulkan")
     <p align="center"><i>Halaman Waypoint list untuk melihat daftar objek yang telah dikumpulkan</i></p>
 
 2. **Melihat Rute Perjalanan dan Objek yang Dikumpulkan pada Peta**
     
     Anda juga dapat melihat sejauh apa rute perjalanan yang telah Anda lewati dan titik-titik objek yang telah dikumpulkan. Pada halaman _Track logger_ pilih menu 
-    ![Setting](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0403_Tombol_settings.png) di sebelah kanan atas, kemudian pilih **_Display Track_**. 
+    ![Setting](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0403_Tombol_settings.png) di sebelah kanan atas, kemudian pilih **_Display Track_**. 
 
-    ![Tombol untuk melihat rute perjalanan dan objek yang telah dikumpulkan](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0417_Tombol_untuk_melihat_rute_perjalanan_dan_objek_yang_telah_dikumpulkan.png "Tombol untuk melihat rute perjalanan dan objek yang telah dikumpulkan")
+    ![Tombol untuk melihat rute perjalanan dan objek yang telah dikumpulkan](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0417_Tombol_untuk_melihat_rute_perjalanan_dan_objek_yang_telah_dikumpulkan.png "Tombol untuk melihat rute perjalanan dan objek yang telah dikumpulkan")
     <p align="center"><i>Tombol untuk melihat rute perjalanan dan objek yang telah dikumpulkan</i></p>
 
     Pada saat menampilkan menu _Display Track_, _OSMTracker_ akan bertanya apakah Anda mengizinkan akses untuk menampilkan peta. Pilih **_Display Background Map_.**
 
-    ![Pilihan untuk menampilkan latar belakang peta](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0418_Pilihan_untuk_menampilkan_latar_belakang_peta.png "Pilihan untuk menampilkan latar belakang peta")
+    ![Pilihan untuk menampilkan latar belakang peta](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0418_Pilihan_untuk_menampilkan_latar_belakang_peta.png "Pilihan untuk menampilkan latar belakang peta")
     <p align="center"><i>Pilihan untuk menampilkan latar belakang peta</i></p>
 
     Anda akan melihat tampilan halaman peta dengan simbol garis, bintang, dan orang di atasnya. Simbol bintang ini menunjukkan titik-titik yang telah Anda survei, sedangkan simbol garis menunjukkan rute perjalanan yang telah Anda lewati. Simbol orang menunjukkan lokasi Anda saat ini. 
 
-    ![Contoh hasil rute perjalanan dan titik survei yang sudah diambil pada saat survei](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0419_Contoh_hasil_rute_perjalanan_dan_titik_survei_yang_sudah_diambil_pada_saat_survei.png "Contoh hasil rute perjalanan dan titik survei yang sudah diambil pada saat survei")
+    ![Contoh hasil rute perjalanan dan titik survei yang sudah diambil pada saat survei](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0419_Contoh_hasil_rute_perjalanan_dan_titik_survei_yang_sudah_diambil_pada_saat_survei.png "Contoh hasil rute perjalanan dan titik survei yang sudah diambil pada saat survei")
     <p align="center"><i>Contoh hasil rute perjalanan dan titik survei yang sudah diambil pada saat survei</i></p>
 
 3. **Menyimpan _OSMTracker_**
@@ -164,14 +164,14 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
     
     Anda dapat menyimpan rute perjalanan dan objek yang telah Anda survei ke dalam format data _.gpx_. Data _.gpx_ dapat Anda pakai ketika Anda menggunakan aplikasi pemetaan seperti **QGIS** maupun **JOSM**. Pada _file_ survei Anda, silakan Anda tekan dan tahan kemudian pilih menu **_Export as GPX_**. Jika _file_ data survei telah berhasil disimpan dalam bentuk _.gpx_, maka akan muncul bulatan warna hijau di sebelah kanan nama _file_.
 
-    ![Menu untuk menyimpan data survei ke dalam file GPX](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0420_Menu_untuk_menyimpan_data_survei_ke_dalam_file_GPX.png "Menu untuk menyimpan data survei ke dalam file GPX")
+    ![Menu untuk menyimpan data survei ke dalam file GPX](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0420_Menu_untuk_menyimpan_data_survei_ke_dalam_file_GPX.png "Menu untuk menyimpan data survei ke dalam file GPX")
     <p align="center"><i>Menu untuk menyimpan data survei ke dalam file GPX</i></p>
 
 5. **Mengunggah _(Upload)_ Rute Perjalanan ke Server _OpenStreetMap_**
 
     Anda juga dapat meng-_upload_ data hasil survei ke dalam server _OpenStreetMap_. Pada _file_ hasil survei Anda, ketuk dan tahan beberapa saat, kemudian pilih **_Upload to OpenStreetMap_**. 
 
-    ![Menu untuk mengunggah hasil survei ke dalam server OpenStreetMap](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0421_Menu_untuk_mengunggah_hasil_survei_ke_dalam_server_OSM.png "Menu untuk mengunggah hasil survei ke dalam server OpenStreetMap")
+    ![Menu untuk mengunggah hasil survei ke dalam server OpenStreetMap](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0421_Menu_untuk_mengunggah_hasil_survei_ke_dalam_server_OSM.png "Menu untuk mengunggah hasil survei ke dalam server OpenStreetMap")
     <p align="center"><i>Menu untuk mengunggah hasil survei ke dalam server OpenStreetMap</i></p>
         
     Pada halaman _OpenStreetMap Upload_ Anda akan diminta untuk mengisi beberapa isian seperti nama dan deskripsi _file_. Pada isian _Tags_ bisa Anda abaikan. Pada bagian paling bawah, Anda dapat mengatur sifat dari trek yang akan Anda unggah sepeti _private, public, trackable, dan identifiable_.
@@ -193,7 +193,7 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
 
     Untuk pemilihan sifat _track_, Anda dapat memilih _Trackable_ atau _Public_ sehingga hasil _upload_ Anda dapat terlihat oleh pengguna lain. 
 
-    ![Contoh file hasil survei yang telah siap diunggah ke dalam server OpenStreetMap](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0422_Contoh_file_hasil_survei_yang_telah_siap_diungah_ke_dalam_server_OpenStreetMap.png "Contoh file hasil survei yang telah siap diunggah ke dalam server OpenStreetMap")
+    ![Contoh file hasil survei yang telah siap diunggah ke dalam server OpenStreetMap](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0422_Contoh_file_hasil_survei_yang_telah_siap_diungah_ke_dalam_server_OpenStreetMap.png "Contoh file hasil survei yang telah siap diunggah ke dalam server OpenStreetMap")
     <p align="center"><i>Contoh file hasil survei yang telah siap diunggah ke dalam server OpenStreetMap</i></p>
 
 6. **Mengambil Rute Perjalanan dan Titik ke Laptop/Komputer**
@@ -201,22 +201,22 @@ Pada halaman _settings_ ada beberapa pengaturan yang perlu diperhatikan, seperti
     Seluruh data yang sudah diekspor ke dalam data _.gpx_ akan tersimpan ke dalam folder internal _smartphone_ Anda. Anda dapat mencari data tersebut dengan menggunakan aplikasi _file manager_ Anda. Untuk dapat memindahkan data tersebut silakan ikuti langkah-langkah berikut:
      1. Hubungkan _smartphone_ Anda ke laptop dengan menggunakan kabel data kemudian cari folder bernama _“osmtracker”_ di media penyimpanan _smartphone_ Anda. 
 
-        ![Folder OSMTracker di media penyimpanan smartphone Anda](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0423_Folder_OSMTracker_di_media_penyimpanan_smartphone_Anda.png "Folder OSMTracker di media penyimpanan smartphone Anda")
+        ![Folder OSMTracker di media penyimpanan smartphone Anda](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0423_Folder_OSMTracker_di_media_penyimpanan_smartphone_Anda.png "Folder OSMTracker di media penyimpanan smartphone Anda")
         <p align="center"><i>Folder OSMTracker di media penyimpanan smartphone Anda</i></p>
     
      2. Dalam folder _OSMTracker_ Anda akan menemukan satu folder yang berisi data dengan format _.gpx_ dan data foto. Silakan Anda kemudian pindahkan satu folder yang berisi data tersebut ke dalam laptop Anda.
 
-        ![Contoh data OSMTracker yang berisikan file data .gpx dan foto-foto survei](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0424_Contoh_data_OSMTracker_yang_berisikan_file_data_gpx_dan_foto_survei.png "Contoh data OSMTracker yang berisikan file data .gpx dan foto-foto survei")
+        ![Contoh data OSMTracker yang berisikan file data .gpx dan foto-foto survei](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0424_Contoh_data_OSMTracker_yang_berisikan_file_data_gpx_dan_foto_survei.png "Contoh data OSMTracker yang berisikan file data .gpx dan foto-foto survei")
         <p align="center"><i>Contoh data OSMTracker yang berisikan file data .gpx dan foto-foto survei</i></p>
 
      3. Buka aplikasi JOSM Anda, kemudian masukkan _file_ GPX tersebut ke dalam JOSM. Anda dapat membukanya dengan cara **File → Open**, kemudian buka _file_ dengan format _.gpx_. 
 
-        ![Silakan Anda buka file dengan format .GPX pada JOSM](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0425_Silakan_Anda_buka_file_dengan_format_GPX_pada_JOSM.png "Silakan Anda buka file dengan format .GPX pada JOSM")
+        ![Silakan Anda buka file dengan format .GPX pada JOSM](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0425_Silakan_Anda_buka_file_dengan_format_GPX_pada_JOSM.png "Silakan Anda buka file dengan format .GPX pada JOSM")
         <p align="center"><i>Silakan Anda buka file dengan format .GPX pada JOSM</i></p>
 
      4. Pada saat Anda membuka _file_ _.gpx_ tersebut maka secara otomatis JOSM akan menampilkan rute perjalanan dan titik hasil survei lengkap dengan objek foto yang telah berhasil dikumpulkan.
 
-        ![Contoh hasil data survei pada saat dibuka menggunakan JOSM](/pages/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/images/0426_Contoh_hasil_data_survei_pada_saat_dibuka_menggunakan_JOSM.png "Contoh hasil data survei pada saat dibuka menggunakan JOSM")
+        ![Contoh hasil data survei pada saat dibuka menggunakan JOSM](/id/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0426_Contoh_hasil_data_survei_pada_saat_dibuka_menggunakan_JOSM.png "Contoh hasil data survei pada saat dibuka menggunakan JOSM")
         <p align="center"><i>Contoh hasil data survei pada saat dibuka menggunakan JOSM</i></p>
 
 

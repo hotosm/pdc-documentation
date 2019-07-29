@@ -7,9 +7,10 @@ enableGitInfo = true
 
 [params]
     BookRepo = "https://github.com/hotosm/pdc-documentation" #<-- change me
-    BookShowToC = false
+    BookShowToC = true
     BookEditPath = "/edit/master/content/"
 
 [imaging]
     resampleFilter = "box"
     quality = 75
+
