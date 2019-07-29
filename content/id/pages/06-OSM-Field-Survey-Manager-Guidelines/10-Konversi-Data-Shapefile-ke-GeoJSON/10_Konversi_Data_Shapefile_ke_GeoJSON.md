@@ -25,24 +25,24 @@ Jika sudah melakukan instalasi dan QGIS sudah terpasang di laptop/komputer Anda,
 
 *   Silakan buka QGIS Anda dan pilih **_Add Vector Layer_** untuk memasukkan data _shapefile_ Anda ke dalam QGIS.
 
-![Menambahkan data shapefile ke dalam QGIS](/pages/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/images/1001_shapefile_di_qgis.png)
+![Menambahkan data shapefile ke dalam QGIS](/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1001_shapefile_di_qgis.png)
 <p align="center"><i>Menambahkan data shapefile ke dalam QGIS</i></p>
 
 *   Kemudian cari dan masukan data _shapefile_ yang ingin Anda konversi ke dalam bentuk  _GeoJSON_ di QGIS dengan klik **_Browse_** dan klik **_Open_**
 
-![Tampilan data shapefile di QGIS](/pages/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/images/1002_shapefile_di_qgis_b.png)
+![Tampilan data shapefile di QGIS](/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1002_shapefile_di_qgis_b.png)
 <p align="center"><i>Tampilan data shapefile di QGIS</i></p>
 
 
 
 *   Klik kanan pada _layer _data _shapefile_ Anda kemudian pilih **_Save As..._**
 
-![Pilihan untuk konversi data shapefile](/pages/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/images/1003_shapefile_di_qgis_c.png)
+![Pilihan untuk konversi data shapefile](/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1003_shapefile_di_qgis_c.png)
 <p align="center"><i>Pilihan untuk konversi data shapefile</i></p>
 
 *   Anda akan melihat sebuah kotak dan aturlah seperti gambar di bawah ini:
 
-![tampilan pengaturan konversi]/pages/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/images/1004_pengaturan_geojson_di_qgis.png()
+![tampilan pengaturan konversi]/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1004_pengaturan_geojson_di_qgis.png()
 <p align="center"><i>Tampilan pengaturan konversi shapefile ke GeoJSON</i></p>
 
 *   **_Format_** : Pilihlah Format **_GeoJSON_**
@@ -51,7 +51,7 @@ Jika sudah melakukan instalasi dan QGIS sudah terpasang di laptop/komputer Anda,
 *   **_Add saved file to map_** : Memasukkan data _GeoJSON_ ke dalam QGIS setelah proses konversi selesai
 *   Jika sudah, maka klik **OK** dan Anda sudah berhasil melakukan konversi data GeoJSON yang akan muncul di QGIS komputer/laptop Anda.
 
-![Tampilan hasil konversi GeoJSON di QGIS](/pages/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/images/1005_hasil_geojson_di_qgis.png)
+![Tampilan hasil konversi GeoJSON di QGIS](/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1005_hasil_geojson_di_qgis.png)
 <p align="center"><i>Tampilan hasil konversi GeoJSON di QGIS</i></p>
 
 ### **III. Mendapatkan Data GeoJSON dengan _Overpass Turbo_**
@@ -60,33 +60,33 @@ Jika Anda tidak ingin atau tidak bisa menginstal QGIS di laptop/komputer Anda ak
 
 *   Silakan buka **_browser_** internet Anda kemudian buka situs [https://overpass-turbo.eu/](https://overpass-turbo.eu/) 
 
-![Tampilan awal situs Overpass Turbo](/pages/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/images/1006_overpass_1.png)
+![Tampilan awal situs Overpass Turbo](/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1006_overpass_1.png)
 <p align="center"><i>Tampilan awal situs Overpass Turbo</i></p>
 
 *   Setelah itu silakan cari area yang ingin Anda ambil datanya di _OpenStreetMap _dengan mengetikan nama area di kotak pencarian atau bisa juga dengan mengatur tampilan peta dengan memperbesar dan memperkecil peta dengan simbol ‘**+**' dan ‘**-**’
 
-![Pencarian area di situs Overpass Turbo](/pages/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/images/1007_overpass_2.png)
+![Pencarian area di situs Overpass Turbo](/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1007_overpass_2.png)
 <p align="center"><i>Pencarian area di situs Overpass Turbo</i></p>
 
 *   Setelah menemukan area di _OpenStreetMap_ yang ingin Anda ambil datanya sebagai GeoJSON, selanjutnya silakan pilih menu **_Wizard_** di sebelah atas dari situs _Overpass Turbo_.
 
-![Menu wizard di situs Overpass Turbo](/pages/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/images/1008_overpass_3.png)
+![Menu wizard di situs Overpass Turbo](/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1008_overpass_3.png)
 <p align="center"><i>Menu wizard di situs Overpass Turbo</i></p>
 
 *   Setelah itu masukkan **_query_** terhadap data yang ingin Anda dapatkan. _Query_ yang Anda masukkan merupakan _tag_ yang memiliki _key_ dan _value_ berdasarkan standar _OpenStreetMap_. Jika Anda belum mengetahui tentang _tag_ serta _key_ dan _value_ maka Anda dapat melihat Modul **Model Data _OpenStreetMap_** terlebih dahulu. Sebagai contoh _query_ di modul ini, Anda ingin mengambil batas administrasi Kota Semarang oleh karena itu Anda dapat menuliskan “**_admin_level=5 and name=Semarang”_** di _query wizard_ dan klik **_build and run query_**
 
-![tampilan query wizard](/pages/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/images/1009_overpass_4.png)
+![tampilan query wizard](/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1009_overpass_4.png)
 <p align="center"><i>Tampilan query wizard di situs Overpass Turbo</i></p>
 
 *   Setelah itu hasil _query_ akan muncul di _Overpass Turbo_
 
-![Tampilan query wizard di situs Overpass Turbo](/pages/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/images/1010_overpass_5.png")
+![Tampilan query wizard di situs Overpass Turbo](/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1010_overpass_5.png")
 <p align="center"><i>Tampilan hasil query wizard batas Kota Semarang</i></p>
 
 
 *   Setelah hasil _query_ muncul silakan klik **_Export_** di menu _Overpass Turbo_ kemudian pilih dan klik pilihan **_download/copy as GeoJSON._**
 
-![Pilihan export format data GeoJSON di Overpass Turbo](/pages/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/images/1011_overpass_6.png)
+![Pilihan export format data GeoJSON di Overpass Turbo](/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1011_overpass_6.png)
 <p align="center"><i>Pilihan export format data GeoJSON di Overpass Turbo</i></p>
 
 
@@ -96,28 +96,28 @@ Jika Anda ingin mengubah data _shapefile_ Anda sendiri bukan dari _OpenStreetMap
 
 *   Silakan buka **_browser_** internet Anda kemudian buka situs [https://mygeodata.cloud/converter/shp-to-geojson](https://mygeodata.cloud/converter/shp-to-geojson) 
 
-![Tampilan situs MyGeoData Converter](/pages/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/images/1012_geojson_converter_1.png)
+![Tampilan situs MyGeoData Converter](/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1012_geojson_converter_1.png)
 <p align="center"><i>Tampilan situs MyGeoData Converter</i></p>
 
 *   Masukkan data _shapefile_ Anda di kotak _Upload_ dengan klik kalimat **_Or browse file to convert_** kemudian pilih **+** **Add Files..**
 
-![Kotak untuk memasukkan Data Shapefile](/pages/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/images/1013_geojson_converter_2.png)
+![Kotak untuk memasukkan Data Shapefile](/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1013_geojson_converter_2.png)
 <p align="center"><i>Kotak untuk memasukkan Data Shapefile</i></p>
 
 *   Perlu Anda ketahui saat mengunggah data _shapefile_ jangan lupa ikut menyertakan _file_ yang terasosiasi dengan _shapefile_ seperti _.dbf_ dan _.shx_ agar data _shapefile_ Anda dapat dikonversi dengan sempurna. Jadi,  pastikan Anda sudah memilih semua _file_ seperti contoh di bawah ini:
 
-![Hasil memasukkan data shapefile ke situs GeoData Converter](/pages/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/images/1014_geojson_converter_3.png)
+![Hasil memasukkan data shapefile ke situs GeoData Converter](/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1014_geojson_converter_3.png)
 <p align="center"><i>Hasil memasukkan data shapefile ke situs GeoData Converter</i></p>
 
 *   Kemudian klik **_Continue_** dan Anda akan melihat kotak konfirmasi untuk data _shapefile_ yang ingin Anda konversi. Pastikan **_Output Format_** sudah _GeoJSON_ kemudian klik **_Convert Now!_**
 
-![Jendela ringkasan sebelum memulai konversi](/pages/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/images/1015_geojson_converter_4.png)
+![Jendela ringkasan sebelum memulai konversi](/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1015_geojson_converter_4.png)
 <p align="center"><i>Jendela ringkasan sebelum memulai konversi</i></p>
 
 
 *   Jika sudah silakan klik **_Download_** pada jendela yang muncul. Data GeoJSON hasil konversi akan otomatis diunduh ke dalam laptop/komputer Anda.
 
-![Jendela untuk mengunduh hasil konversi GeoJSON](/pages/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/images/1016_geojson_converter_5.png)
+![Jendela untuk mengunduh hasil konversi GeoJSON](/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1016_geojson_converter_5.png)
 <p align="center"><i>Jendela untuk mengunduh hasil konversi GeoJSON</i></p>
 
 **RINGKASAN**

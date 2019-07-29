@@ -39,7 +39,7 @@ Setelah Anda mengetahui apa itu platform _Ona.io_ dan batasannya, pada modul ini
 ### a. Membuat akun di _Ona.io_
 Sebelum Anda meng-_upload_ formulir survei Anda, Anda harus memiliki akun di _Ona.io_ terlebih dahulu. Untuk membuat akun di _Ona.io_ klik pada tombol **Get Free Account** dan kemudian masukkan nama Anda (huruf kecil) yang akan menjadi _url_ tempat Anda menyimpan formulir dan nantinya akan digunakan di dalam aplikasi _ODK Collect._
 
-![Tampilan membuat akun di Ona.io](/pages/06-OSM-Field-Survey-Manager-Guidelines/06-Meletakkan-form-survey-ke-Ona.io/images/0601_tampilan_ona.io.png)
+![Tampilan membuat akun di Ona.io](/id/images/06-OSM-Field-Survey-Manager-Guidelines/06-Meletakkan-form-survey-ke-Ona.io/0601_tampilan_ona.io.png)
 <p align="center"><i>Tampilan membuat akun di Ona.io</i></p>
 
 
@@ -47,18 +47,18 @@ Sebelum Anda meng-_upload_ formulir survei Anda, Anda harus memiliki akun di _On
 
 Saat pertama kali Anda berhasil membuat akun pada _Ona.io_, Anda akan secara otomatis membuat proyek pribadi dengan nama Anda sendiri. 
 
-![Proyek pribadi dengan nama akun Anda sendiri](/pages/06-OSM-Field-Survey-Manager-Guidelines/06-Meletakkan-form-survey-ke-Ona.io/images/0602_proyek_nama_akun_anda_sendiri.png)
+![Proyek pribadi dengan nama akun Anda sendiri](/id/images/06-OSM-Field-Survey-Manager-Guidelines/06-Meletakkan-form-survey-ke-Ona.io/0602_proyek_nama_akun_anda_sendiri.png)
 <p align="center"><i>Proyek pribadi dengan nama akun Anda sendiri</i></p>
 
 
 Untuk meng-_upload_ formulir Anda, klik pada nama proyek Anda sendiri. Setelah berhasil masuk ke dalam proyek Anda. Klik pada bagian **_Add a form_** dan sebuah jendela baru akan muncul. Disini Anda diminta untuk memasukkan _file XLSForm_. Pilih _file_ formulir survei Anda. Setelah Anda berhasil memilih _file_ formulir survei Anda, klik pada bagian **_Upload Selected File_**. Sistem akan mengecek apakah formulir Anda terdapat kesalahan dalam pembuatan ataupun tidak. 
 
-![Tampilan jendela saat meng-upload formulir survei](/pages/06-OSM-Field-Survey-Manager-Guidelines/06-Meletakkan-form-survey-ke-Ona.io/images/0603_tampilan_meng-upload_formulir_survei.png)
+![Tampilan jendela saat meng-upload formulir survei](/id/images/06-OSM-Field-Survey-Manager-Guidelines/06-Meletakkan-form-survey-ke-Ona.io/0603_tampilan_meng-upload_formulir_survei.png)
 <p align="center"><i>Tampilan jendela saat meng-upload formulir survei</i></p>
 
 Jika sudah berhasil mengunggah formulir survei, akan muncul keterangan **Form Verified!** Dan klik pada tombol **Save form** untuk langsung menyimpan formulir surveinya.
 
-![Pilih Save Form untuk menyimpan formulir yang sudah terverifikasi](/pages/06-OSM-Field-Survey-Manager-Guidelines/06-Meletakkan-form-survey-ke-Ona.io/images/0604_save_form_untuk_menyimpan_formulir.png)
+![Pilih Save Form untuk menyimpan formulir yang sudah terverifikasi](/id/images/06-OSM-Field-Survey-Manager-Guidelines/06-Meletakkan-form-survey-ke-Ona.io/0604_save_form_untuk_menyimpan_formulir.png)
 <p align="center"><i>Pilih Save Form untuk menyimpan formulir yang sudah terverifikasi</i></p>
 
 
@@ -67,12 +67,12 @@ Apabila Anda melakukan perubahan di dalam formulir survei yang telah berhasil di
 
 Untuk mengganti formulir survei Anda, klik pada tanda panah kebawah yang terletak di bagian paling kanan dari formulir survei Anda. Kemudian pilih **_Replace Form_**. 
 
-![Klik pada bagian kanan formulir survei Anda untuk memunculkan menu Replace Form](/pages/06-OSM-Field-Survey-Manager-Guidelines/06-Meletakkan-form-survey-ke-Ona.io/images/0605_replace_form.png)
+![Klik pada bagian kanan formulir survei Anda untuk memunculkan menu Replace Form](/id/images/06-OSM-Field-Survey-Manager-Guidelines/06-Meletakkan-form-survey-ke-Ona.io/0605_replace_form.png)
 <p align="center"><i>Klik pada bagian kanan formulir survei Anda untuk memunculkan menu Replace Form</i></p>
 
 Apabila formulir survei Anda telah berisikan beberapa isian. Akan muncul peringatan dari _Ona.io_. Peringatan tersebut muncul agar pengguna paham bahwa ketika mengganti formulir survei, terutama mengganti variabel, _Ona.io_ akan menggunakan variabel yang terdapat pada formulir survei yang baru.
 
-![Peringatan Ketika akan Mengganti Formulir Survei](/pages/06-OSM-Field-Survey-Manager-Guidelines/06-Meletakkan-form-survey-ke-Ona.io/images/0606_peringatan_saat_mengganti_formulir_survei.png)
+![Peringatan Ketika akan Mengganti Formulir Survei](/id/images/06-OSM-Field-Survey-Manager-Guidelines/06-Meletakkan-form-survey-ke-Ona.io/0606_peringatan_saat_mengganti_formulir_survei.png)
 <p align="center"><i>Peringatan Ketika akan Mengganti Formulir Survei</i></p>
 
 Setelah Anda mengklik tombol **_I Understand_**, Anda akan diarahkan ke jendela untuk mengunggah formulir survei. Pilih formulir survei baru Anda dan klik **_Upload Selected file_**. Setelah formulir berhasil tervalidasi, klik pada bagian tombol **Save form**.
@@ -82,7 +82,7 @@ Setelah Anda mengklik tombol **_I Understand_**, Anda akan diarahkan ke jendela 
 
 Apabila Anda memiliki formulir survei yang ingin Anda hapus/dinon-aktifkan. Anda bisa melakukannya dengan cara memilih tanda panah ↓ yang terletak pada bagian sebelah kanan formulir survei Anda dan kemudian pilih **_Delete Form_** untuk menghapus atau **_Make inactive_** untuk menonaktifkan formulir Anda.
 
-![Tampilan untuk menghapus atau menonaktifkan formulir survei](/pages/06-OSM-Field-Survey-Manager-Guidelines/06-Meletakkan-form-survey-ke-Ona.io/images/0607_menghapus_atau_menonaktifkan_formulir_survei.png)
+![Tampilan untuk menghapus atau menonaktifkan formulir survei](/id/images/06-OSM-Field-Survey-Manager-Guidelines/06-Meletakkan-form-survey-ke-Ona.io/0607_menghapus_atau_menonaktifkan_formulir_survei.png)
 <p align="center"><i>Tampilan untuk menghapus atau menonaktifkan formulir survei</i></p>
 
 
@@ -99,12 +99,12 @@ Anda bisa men-_download_ format XLSForm dari formulir survei yang telah Anda bua
 ### f. Men-_download_ Data Hasil Survei
 Untuk men-_download_ data hasil survei. Anda terlebih dahulu harus memilih formulir survei Anda. Setelah Anda berhasil memilih formulir survei, Anda akan diarahkan pada halaman manajemen formulir survei.
 
-![Tampilan untuk mengunduh data hasil survei](/pages/06-OSM-Field-Survey-Manager-Guidelines/06-Meletakkan-form-survey-ke-Ona.io/images/0608_mengunduh_data_hasil_survei.png)
+![Tampilan untuk mengunduh data hasil survei](/id/images/06-OSM-Field-Survey-Manager-Guidelines/06-Meletakkan-form-survey-ke-Ona.io/0608_mengunduh_data_hasil_survei.png)
 <p align="center"><i>Tampilan untuk mengunduh data hasil survei</i></p>
 
 Klik pada bagian tombol **_Prepare Data Export_** untuk memulai mengunduh data formulir survei Anda. Setelah itu Anda akan diarahkan untuk memilih tipe _file_ yang akan Anda unduh. 
 
-![Pilihan jenis file yang dapat Anda unduh](/pages/06-OSM-Field-Survey-Manager-Guidelines/06-Meletakkan-form-survey-ke-Ona.io/images/0609_pilihan_jenis_file_yang_dapat_anda_unduh.png)
+![Pilihan jenis file yang dapat Anda unduh](/id/images/06-OSM-Field-Survey-Manager-Guidelines/06-Meletakkan-form-survey-ke-Ona.io/0609_pilihan_jenis_file_yang_dapat_anda_unduh.png)
 <p align="center"><i>Pilihan jenis file yang dapat Anda unduh</i></p> 
 
 Apabila formulir survei Anda tidak menggunakan foto, Anda bisa memilih langsung tipe _file_ CSV. Namun jika formulir survei Anda menggunakan foto, Anda bisa memilih **_Zip folder of media attachment._** Lama tidaknya proses _download_ data survei tergantung dari berapa banyak data yang Anda hasilkan pada kegiatan pengumpulan data.

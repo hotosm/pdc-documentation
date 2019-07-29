@@ -19,7 +19,7 @@ Sekarang ini banyak orang yang menggunakan peta digital, namun masih sedikit yan
 
 _OpenStreetMap_ adalah peta digital seluruh dunia yang bersifat bebas, terbuka dan dapat diubah oleh siapapun. Dengan sifatnya yang digital, siapapun dapat mengakses _OpenStreetMap_ dimanapun secara gratis. Data _OpenStreetMap_ memiliki lisensi [ODbL](https://opendatacommons.org/licenses/odbl/), sedangkan kartografi/tampilan peta _OpenStreetMap_ memiliki lisensi [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/) yang memungkinkan para penggunanya untuk dapat membagikan, mencipta dan mengadaptasi data _OpenStreetMap_ selama mencantumkan sumber dengan cara menuliskan **“© OpenStreetMap contributors”** serta memiliki lisensi yang sama dan bersifat terbuka. Konsep berbagi data sangat berguna untuk masyarakat apalagi untuk data yang sulit diperoleh ataupun diakses. Dengan menggunakan _OpenStreetMap_, Anda dapat berbagi data spasial dimana data tersebut dibuat dan berasal dari pengguna lain dan sebaliknya pengguna lain pun dapat menggunakan data yang Anda buat. _OpenStreetMap_ juga memungkinkan Anda untuk menciptakan suatu produk dari data _OpenStreetMap_ hingga memodifikasi data tersebut.
 
-![logo_OSM](/pages/03-JOSM/01-Pengenalan-OSM/images/0101_logo_osm.png)
+![logo_OSM](/id/images/03-JOSM/01-Pengenalan-OSM/0101_logo_osm.png)
 <p align="center"><i>Logo OpenStreetMap</i></p>
 
 ### **II. Sejarah _OpenStreetMap_**
@@ -28,7 +28,7 @@ _OpenStreetMap_ pertama kali digagas oleh Steve Coast pada tahun 2004. Pada saat
 
 Tahun 2009, para sukarelawan berhasil memetakan Kibera di _OpenStreetMap_, sebuah kawasan kumuh kedua terbesar di Afrika. Tahun 2010, citra satelit Bing mulai dapat digunakan sebagai acuan pemetaan di _OpenStreetMap_. Tahun 2011, satu milyar titik/_nodes_ dari persimpangan jalan hingga pohon, berhasil terpetakan di _OpenStreetMap_. Tahun 2011 juga merupakan tahun dimana _OpenStreetMap_ mulai masuk ke Indonesia. Tahun 2012, ODbL mulai diaplikasikan ke _OpenStreetMap_ yang memungkinkan penggunanya untuk bebas berbagi, bebas mencipta dan bebas mengadaptasi data OSM. Tahun 2013, pengguna OpenStreetMap sudah mencapai satu juta orang. Hingga saat ini, _OpenStreetMap_ sudah memiliki lebih dari lima juta pengguna dari seluruh dunia.
 
-![sejarah_OSM](/pages/03-JOSM/01-Pengenalan-OSM/images/0102_alur_sejarah.png)
+![sejarah_OSM](/id/images/03-JOSM/01-Pengenalan-OSM/0102_alur_sejarah.png)
 <p align="center"><i>Alur sejarah terbentuknya OpenStreetMap</i></p>
 
 ### **III. Mengapa Memilih _OpenStreetMap_**
@@ -46,12 +46,12 @@ Beberapa alasan mengapa sebaiknya Anda memilih _OpenStreetMap_ adalah:
 
 Banyak sekali contoh penggunaan _OpenStreetMap_ dalam berbagai bidang. Dengan _OpenStreetMap_, Anda dapat melengkapi data peta dan membuat peta di lokasi yang sudah familier dengan Anda misalnya dalam skala desa. Anda dapat memetakan secara detail karena setiap pengguna dimungkinkan untuk melakukan survei secara mandiri pada wilayah yang akan dipetakan. Berikut ini adalah contoh peta Dusun Bodeh di D.I. Yogyakarta yang dibuat oleh salah satu pengguna _OpenStreetMap_ yang tinggal di dusun tersebut.
 
-![contoh_peta](/pages/03-JOSM/01-Pengenalan-OSM/images/0103_contoh_peta.png)
+![contoh_peta](/id/images/03-JOSM/01-Pengenalan-OSM/0103_contoh_peta.png)
 <p align="center"><i>Contoh peta yang dibuat menggunakan OpenStreetMap</i></p>
 
 Data _OpenStreetMap_ juga digunakan oleh salah satu _Android Developer_ untuk membuat aplikasi _android_ peta _offline_ dunia yang bernama _Maps Me._ Aplikasi ini menggunakan data _OpenStreetMap_ yang harus di-_download_ terlebih dahulu kemudian Anda dapat menggunakan data tersebut secara _offline_ untuk navigasi.
 
-![tampilan_aplikasi_Maps_me](/pages/03-JOSM/01-Pengenalan-OSM/images/0104_maps_me.png)
+![tampilan_aplikasi_Maps_me](/id/images/03-JOSM/01-Pengenalan-OSM/0104_maps_me.png)
 <p align="center"><i>Tampilan aplikasi android Maps Me</i></p>
 
 _OpenStreetMap_ juga dapat digunakan untuk membuat peta dampak suatu bencana. _OpenStreetMap_ sudah sering digunakan sebagai alat memetakan daerah bencana yang kemudian datanya digunakan untuk menaksir dampak dari bencana tersebut. _OpenStreetMap_ juga sering digunakan sebagai platform pemetaan untuk respon bencana karena sifat _OpenStreetMap_ mendukung pemetaan partisipatif. Data _OpenStreetMap_ juga dapat digunakan untuk membuat rute evakuasi serta titik-titik pengungsian, namun data OSM harus diolah terlebih dahulu menggunakan _software_ SIG.
@@ -70,13 +70,13 @@ Penggunaan peta kertas, selain sulit untuk meyampaikannya ke orang lain karena m
 
 Ketika menggambar objek-objek yang ada di permukaan bumi, objek-objek tersebut akan disimbolkan dengan titik, garis ataupun poligon tergantung dari objek yang digambarkan. Titik-titik penting (_point of interest_) seperti restoran, _fire hydrant_ dan bank biasanya disimbolkan dengan titik. Simbol garis biasanya diberikan pada objek seperti jalan, sungai dan rel kereta. Garis merupakan kumpulan dari beberapa titik yang saling menyambung. Poligon biasanya digunakan untuk menggambarkan objek area seperti bangunan, danau dan penggunaan lahan. Poligon merupakan garis yang tertutup, jadi jika Anda menggambar poligon, titik awal garis harus menyatu dengan titik akhir garis.
 
-![simbologi_titik](/pages/03-JOSM/01-Pengenalan-OSM/images/0105_simbol_titik.png)
+![simbologi_titik](/id/images/03-JOSM/01-Pengenalan-OSM/0105_simbol_titik.png)
 <p align="center"><i>Simbologi titik dari objek yang dipetakan di OpenStreetMap</i></p>
 
-![simbologi_garis](/pages/03-JOSM/01-Pengenalan-OSM/images/0106_simbol_garis.png)
+![simbologi_garis](/id/images/03-JOSM/01-Pengenalan-OSM/0106_simbol_garis.png)
 <p align="center"><i>Simbologi garis dari objek yang dipetakan di OpenStreetMap</i></p>
 
-![simbologi_poligon](/pages/03-JOSM/01-Pengenalan-OSM/images/0107_simbol_poligon.png)
+![simbologi_poligon](/id/images/03-JOSM/01-Pengenalan-OSM/0107_simbol_poligon.png)
 <p align="center"><i>Simbologi poligon dari objek yang dipetakan di OpenStreetMap</i></p>
 
 **RINGKASAN**
