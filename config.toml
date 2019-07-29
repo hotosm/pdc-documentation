@@ -14,3 +14,12 @@ enableGitInfo = true
     resampleFilter = "box"
     quality = 75
 
+[languages]
+  [languages.id]
+    contentDir = "content/id"
+    languageName = "Indonesia"
+    weight = 10
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 20
