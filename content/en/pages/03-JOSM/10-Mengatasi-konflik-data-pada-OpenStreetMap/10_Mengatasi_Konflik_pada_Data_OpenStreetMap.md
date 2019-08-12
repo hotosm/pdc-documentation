@@ -16,7 +16,7 @@ When you are uploading your changes in JSOM, some contributors  might also do ed
 
 When you have edited your changes and were uploading them in JOSM (learn more about this in **Using JOSM** module), maybe you ever received a message like this:
 
-![Example of Conflict Detection Window in JOSM](//en/images/03-JOSM/10-Mengatasi-konflik-data-pada-OpenStreetMap/1001_conflict.png)
+![Example of Conflict Detection Window in JOSM](/en/images/03-JOSM/10-Mengatasi-konflik-data-pada-OpenStreetMap/1001_conflict.png)
 <p align="center"><i>Example of Conflict Detection Window in JOSM</i></p>
 
 The picture above shows data conflict in OSM. Why that could possibly happen? This conflict happens because when you edit your data in JOSM, you edit the same data/object(s) with the other contributor in the same time. Thus, the other contributor have uploaded the changes first and have received by OSM server. After that, you also want to upload the same data/object(s) with your own changes. Therefore, your changes will automatically rejected by the server because it causes confusion.
