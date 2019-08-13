@@ -226,6 +226,6 @@ The Wikipedia page was specifically created to provide references to OSM objects
 ![List of Indonesia object attributes](/en/images/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/0227_indonesia_objek.png)
 <p align="center"><i>List of Indonesia object attributes</i></p>
 
-**RINGKASAN**
+**SUMMARY**
 
 If you can follow and practice all the sections in this chapter, then you have succeeded in creating an OSM account, operating and navigating the OpenStreetMap website. In addition, you have also successfully shared OSM map images and shared links to other people. In the next chapter you will learn how to use Java OpenStreetMap (JOSM).
