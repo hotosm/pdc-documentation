@@ -1,12 +1,12 @@
 ---
-title: Data Collecting Methodology
+title: Data Collection Methodology
 weight: 1
 ---
 
 **Objectives:**
-*   Understand Data Collecting Preparation
-*   Understand Data Collecting Workflow
-*   Knowing Tools that used in Data Collecting
+*   Understand Data Collection Preparation
+*   Understand Data Collection Workflow
+*   Knowing Tools that used in Data Collection
 *   Understand How to Collect Data in the Field
 
 Data collecting or commonly known as field survey is an important aspect in mapping activity especially in disaster management. Even though technology advancement nowadays such as aerial and satellite imagery is capable to help us to map remotely, there are some information that only can get by going to the mapping area.  Therefore, field survey is the only option which can help us to get some specific information that we need.
@@ -23,7 +23,7 @@ Dividing survey area means to narrow the focus for each survey team whereas they
 
 The importance of technical aspect such as have good understanding to use the survey tools while local knowledge such as know the mapping area well and can speak in local language will become a benefit that can help them to get information from people and community in their survey area. 
 
-![Divided Area in HOT PDC InAWARE Project Cities](/en/images/01-OSM-Field-Surveyor-Guideliness/01-Metodologi-Pengumpulan-Data/0101_metode_pengumpulan_data.png)
+![Data Collection Workflow](/en/images/01-OSM-Field-Surveyor-Guideliness/01-Metodologi-Pengumpulan-Data/0101_metode_pengumpulan_data.jpg)
 <p align="center"><i>Divided Area in HOT PDC InAWARE Project Cities</i></p>
 
 *   **Manage The Survey Permit Letter**
@@ -40,12 +40,12 @@ Generally, the purpose to determine priority mapping objects based on need of th
 
 Survey team training is an internal activity where _Quality Assurance_ and _Data Entry_ will be taught about technical things that they have to know during the mapping activity such as using survey application in their smartphone, using survey map, upload survey data to the server, input survey data into OSM using JOSM, validate the survey data, etc. Moreover, conducting mapathon, a remote mapping activity, with local universities could help to complete the baseline data such as roads and building footprint before the survey teams hit the field.
 
-### **II. Data Collecting Workflow**
+### **II. Data Collection Workflow**
 
-Field survey activity does not begin in mapping area, instead it started from _basecamp_ until come back to _basecamp_ before doing data input. The picture below shows the data collecting workflow:
+Field survey activity does not begin in mapping area, instead it started from _basecamp_ until come back to _basecamp_ before doing data input. The picture below shows the data collection workflow:
 
-![Data Collecting Workflow](/en/images/01-OSM-Field-Surveyor-Guideliness/01-Metodologi-Pengumpulan-Data/0102_metode_pengumpulan_data.png)
-<p align="center"><i>Data Collecting Workflow</i></p>
+![Data Collection Workflow](/en/images/01-OSM-Field-Surveyor-Guideliness/01-Metodologi-Pengumpulan-Data/0102_metode_pengumpulan_data.png)
+<p align="center"><i>Data Collection Workflow</i></p>
 
 *   **Stage 1**
 
@@ -65,7 +65,7 @@ After they finished, they have to **_upload_** their survey data into the server
 
 The next step is _Quality Assurance_ (QA) will _download_ the data and check its quality based on topology and information (tag). After that, the Mapping Supervisor will re-check the validated data from Quality Assurance. Therefore, the data quality keep maintained before re-upload back to the _OpenStreetMap_ and can be used by other users. The material and explanation related to OpenStreetMap data quality assurance will explained further in other modules.
 
-### **III. Data Collecting Tools**
+### **III. Data collection Tools**
 
 When doing field survey, the survey team need to know all the tools that they use in the field. Availability of the tools is a vital factor that can decide the field survey process and output. These are the tools that we use when doing field survey in the field:
 
@@ -97,11 +97,11 @@ GPS is an alternative tool if your smartphone has trouble and can not be used to
 
 1. **Infrastructure Data Collection**
 
-When doing data collecting in the field, the survey team have to use _android smartphone_ which has installed applications as follows:
+When doing data collection in the field, the survey team have to use _android smartphone_ which has installed applications as follows:
 
 *   **_ODK Collect_**
 
-This application is used to gathering information of objects that the survey team collecting in the field. You won’t need to print dozen of paper for survey form. Moreover, this application allows you to take pictures and coordinate location of your object.
+This application is used to gathering information of objects that the survey team collection in the field. You won’t need to print dozen of paper for survey form. Moreover, this application allows you to take pictures and coordinate location of your object.
 
 *   **_OpenMapKit_ (OMK)**
 
@@ -114,11 +114,11 @@ This application help the survey team to record field survey progress and covera
 Overall, collecting data for infrastructure is done by tracking all area of the team survey village are and collect all priority objects and its essential information in the survey area both by visual assessment and interact with local people. After that, the field survey will be uploaded to _google_ _drive folder_ that has been made before by _Quality Assurance_ and to _ona.io_ server as a _backup_ data if there is something happened with the data such as accidentally removed or deleted. Last step, input all the field survey data using JOSM. Below is a workflow for doing data collection for infrastructure:
 
 
-![Workflow of Infrastructure Data Collecting](/en/images/01-OSM-Field-Surveyor-Guideliness/01-Metodologi-Pengumpulan-Data/0103_metode_pengumpulan_data.png)
-<p align="center"><i>Workflow of Infrastructure Data Collecting</i></p>
+![Workflow of Infrastructure Data collection](/en/images/01-OSM-Field-Surveyor-Guideliness/01-Metodologi-Pengumpulan-Data/0103_metode_pengumpulan_data.png)
+<p align="center"><i>Workflow of Infrastructure Data collection</i></p>
 
 > Notes :
-> 1. Infrastructure Data Collecting usually takes 2-4 days to be finished for 1 village.
+> 1. Infrastructure Data collection usually takes 2-4 days to be finished for 1 village.
 > 2. Duration of field survey depends on area size and data density in the mapping area.
 > 3. All field data survey MUST BE UPLOADED daily every day to  ke google drive dan ona.io server and deleted in the smartphone after that. This need to be done to anticipate smartphone memory running of capacity and as a report to Quality Assurance who will be doing validation to the data.
 > 4. If there is rejection from the local people, the survey team should ask help from local government or BPBD to escort them in the field.
@@ -141,8 +141,8 @@ After the administration boundary have been updated, the survey team give the ma
 
 The picture below describes workflow about collecting data for administration boundary:
 
-![Workflow of Administration Boundary Data Collecting](/en/images/01-OSM-Field-Surveyor-Guideliness/01-Metodologi-Pengumpulan-Data/0106_metode_pengumpulan_data.png)
-<p align="center"><i>Workflow of Administration Boundary Data Collecting</i></p>
+![Workflow of Administration Boundary Data collection](/en/images/01-OSM-Field-Surveyor-Guideliness/01-Metodologi-Pengumpulan-Data/0106_metode_pengumpulan_data.png)
+<p align="center"><i>Workflow of Administration Boundary Data collection</i></p>
 
 > Notes :
 Collecting data of administration boundary have to involve village representative. If the village representative does not know the boundary, please ask the local head of mapping area (RW) to come to the village office.
@@ -151,4 +151,4 @@ If the local head refuse to help, the survey team should ask local disaster mana
 
 ### **SUMMARY**
 
-You have finished workflow and methodology of data collecting when doing the field survey. Knowing all the steps and methodology, you can do the field survey effectively and efficiently so the result can get as expected and have good quality and quantity based on OpenStreetMap standard.
+You have finished workflow and methodology of data collection when doing the field survey. Knowing all the steps and methodology, you can do the field survey effectively and efficiently so the result can get as expected and have good quality and quantity based on OpenStreetMap standard.
