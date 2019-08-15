@@ -16,7 +16,7 @@ The main goal of HOT-PDC InAWARE Mapping Project is to to complete and provide s
 InAWARE limit its access only to specific users such as National Disaster Management Agency (BNPB), Local Disaster Management Agency (BPBD), humanitarian worker and disaster expert / practitioner. This policy is to maintain and ensure InAWARE critical information and content access still clear and without any intervention during disaster management activities. You can send a request to create InAWARE account with these steps:
 
 *   Access InAWARE at **inaware.bnpb.go.id/**
-*   Click **Request InAWARE Access **in **_login _**page.
+*   Click **Request InAWARE Access** in **_login_** page.
 
 The process would take about 24 hours before your request being approved. It also depends on BNPB as approval of the request. When you account has been made, it will be sent to you by _e-mail_.
 
