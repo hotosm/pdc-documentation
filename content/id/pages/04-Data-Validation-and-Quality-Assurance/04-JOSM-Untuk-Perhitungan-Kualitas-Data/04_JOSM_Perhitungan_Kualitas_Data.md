@@ -24,12 +24,12 @@ Sebelum Anda memulai menghitung jumlah objek, tentu saja Anda harus men-_downloa
 *   Pilih menu **_Areas around Places_** kemudian masukkan nama kecamatan “**Pleburan**” di kotak pencarian dan pastikan Anda telah mencentang tipe data **_OpenStreetMap Data_** dan pilihan **_Download as New Layer_.**
 *   Setelah berhasil, pilih hasil pencarian yang paling sesuai dengan kecamatan yang ingin Anda _download_. Pilihlah yang berada di Semarang dan memiliki tipe _boundary=administrative_. Hasil pencarian yang anda pilih akan berwarna biru.
 
-![Kotak pencarian area download di JOSM](/id/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0401_josm_data_quality_1.png "Kotak pencarian area download di JOSM")
+![Kotak pencarian area download di JOSM](/id/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0401_josm_data_quality_1.jpg "Kotak pencarian area download di JOSM")
 <p align="center"><i>Kotak pencarian area download di JOSM</i></p>
 
 *   Setelah semua selesai diatur, kemudian klik **_Download._**
 
-![Hasil  download data di JOSM](/id/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0402_josm_data_quality_2.png "Hasil  download data di JOSM")
+![Hasil  download data di JOSM](/id/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0402_josm_data_quality_2.jpg "Hasil  download data di JOSM")
 <p align="center"><i>Hasil  download data di JOSM</i></p>
 
 >Catatan :
@@ -47,7 +47,7 @@ Jika Anda telah berhasil mendownload data di area pemetaan , maka langkah beriku
 
 *   Kemudian di kotak pencarian silahkan ketik “**admin_level=7**” kemudian klik **_Start Search_**
 
-![Jendela pencarian untuk memilih kelurahan di JOSM](/id/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0404_josm_data_quality_4.png "Jendela pencarian untuk memilih kelurahan di JOSM")
+![Jendela pencarian untuk memilih kelurahan di JOSM](/id/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0404_josm_data_quality_4.jpg "Jendela pencarian untuk memilih kelurahan di JOSM")
 <p align="center"><i>Jendela pencarian untuk memilih kelurahan di JOSM</i></p>
 
 *   Anda akan melihat semua obyek OSM yang memiliki _tag “admin_level=7_” akan terpilih di jendela **_selection_**.  Setelah itu silakan pilih Kelurahan Pleburan yang akan Anda hitung objek yang ada di dalam wilayah tersebut dan **klik 2 kali**. Anda akan melihat garis batas administrasi Kelurahan Pleburan akan berubah menjadi warna ungu di dalam layer data JOSM, hal ini menandakan kelurahan tersebut sudah terpilih. 
@@ -57,7 +57,7 @@ Jika Anda telah berhasil mendownload data di area pemetaan , maka langkah beriku
 
 *   Jika di JOSM Anda belum terdapat menu _Selection_ maka Anda harus menginstal _plugin utilsplugin_ di JOSM. Penjelasan tentang cara menginstal _plugin_ ini dapat Anda lihat di Modul **Menambahkan Data OSM menggunakan JOSM**. Setelah itu pilih menu **Selection → All inside [testing]**. Anda akan melihat seluruh data yang berada di Kelurahan Pleburan akan terpilih dan berwarna merah. 
 
-![Hasil seleksi data di JOSM](/id/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0406_josm_data_quality_6.png "Hasil seleksi data di JOSM")
+![Hasil seleksi data di JOSM](/id/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0406_josm_data_quality_6.jpg "Hasil seleksi data di JOSM")
 <p align="center"><i>Hasil seleksi data di JOSM</i></p>
 
 *   Kemudian pilih kembali menu **_Selection → Intersecting Ways_** untuk memilih kembali semua data yang di dalam maupun yang bersinggungan dengan Kelurahan Pleburan, seperti jaringan jalan dan sungai. Durasi dari proses ini berlangsung tergantung dari luas wilayah dan banyaknya data yang ada di dalamnya.
