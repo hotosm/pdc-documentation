@@ -205,7 +205,7 @@ Setelah melakukan perhitungan dan validasi untuk batas-batas administrasi, Anda 
 ![Menyimpan layer batas administrasi di JOSM](/id/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0423_josm_data_quality_23.png "Menyimpan layer batas administrasi di JOSM")
 <p align="center"><i>Menyimpan layer batas administrasi di JOSM</i></p>
 
-### **RINGKASAN**
+**RINGKASAN**
 
 Anda telah mempelajari cara untuk melakukan perhitungan kualitas data di JOSM. Materi ini merupakan salah satu dari kegiatan rekapitulasi sekaligus validasi dari data yang telah dimasukkan ke dalam _OpenStreetMap_ setelah melakukan pengumpulan data di lapangan oleh _Data Entry_ dan telah divalidasi oleh _Quality Assurance_. Dengan melakukan perhitungan kualitas data yang telah divalidasi oleh Quality Assurance, akan menghasilkan kualitas data yang semakin baik.  Berikut adalah beberapa hal yang telah Anda pelajari dalam modul ini:
 
