@@ -26,13 +26,13 @@ Before you start counting your mapping objects,  you need to _download_ _OpenStr
 *   Select **_Areas around Places_** menu and type village name “**Pleburan**” in the search box and remember to check **_OpenStreetMap Data_** and **_Download as New Layer_** option
 *   If it has finished, please choose the most relevant result with your mapping area. You can look at the city location and has  _boundary=administrative_ tag. Your result will be in blue color
 
-![Download Area Searching Window in JOSM](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0401_josm_data_quality_1.png)
+![Download Area Searching Window in JOSM](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0401_josm_data_quality_1.jpg)
 <p align="center"><i>Download Area Searching Window in JOSM</i></p>
 
 
 *   After set all the options like the picture above, you can click **_Download._**
 
-![JOSM Download Data Result](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0402_josm_data_quality_2.png)
+![JOSM Download Data Result](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0402_josm_data_quality_2.jpg)
 <p align="center"><i>JOSM Download Data Result</i></p>
 
 >Notes :
@@ -50,7 +50,7 @@ If you have successfully download data in your mapping area, the next step is co
 
 *   In search string, please type “**admin_level=7**” (village level) and click **_Start Search_**
 
-![Searching Window to select certain area in JOSM](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0404_josm_data_quality_4.png)
+![Searching Window to select certain area in JOSM](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0404_josm_data_quality_4.jpg)
 <p align="center"><i>Searching Window to select certain area in JOSM</i></p>
 
 *   You will see all objects that have _“admin_level=7_” tag will selected and listed in **_selection_** window. Then you can select **Pleburan Level** which you can count all object on it by **double click** it. You will see administration boundary of Pleburan Village will be shown in purple color in JOSM data layer which indicate that the village has been selected. 
@@ -60,7 +60,7 @@ If you have successfully download data in your mapping area, the next step is co
 
 *   If your JOSM has not _Selection_ menu, you have to install _utilsplugin_  plugin in your JOSM. The explanation about how to install the plugin can be seen in **Adding OSM Data using JOSM** module. After that, please select **Selection → All inside [testing]** menu. You will see all objects inside Pleburan Village will be selected and have red color. 
 
-![Data Selection Result in JOSM](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0406_josm_data_quality_6.png)
+![Data Selection Result in JOSM](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0406_josm_data_quality_6.jpg)
 <p align="center"><i>Data Selection Result in JOSM</i></p>
 
 
@@ -94,7 +94,7 @@ After successfully counting the total number of objects in your mapping area ( i
 
 Table of Data Quality Recapitulation
 
-![Data Validation Result](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0411_josm_data_quality_11.png)
+![Data Validation Result](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0411_josm_data_quality_11.jpg)
 
 As you can see on the table above, the number of objects in Pleburan Village before the mapping activity was 1.863 where there were 4 _warnings_. After the mapping activity and validation have done, the number of objects is increasing to 1.963 where there are no _error_ and _warning_ have been found.  You can see the whole recapitulation table for Data Quality in Semarang in this link: [http://bit.ly/tabeldatasemarang](http://bit.ly/tabeldatasemarang) 
 
@@ -118,24 +118,24 @@ These are steps that you have to do for counting number of sub-village (RW) in y
 
 *   You will see your data will change like the picture below:
 
-![Administration Boundary Filter in JOSM](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/00413_josm_data_quality_13.png)
+![Administration Boundary Filter in JOSM](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/00413_josm_data_quality_13.jpg)
 <p align="center"><i>Administration Boundary Filter in JOSM</i></p>
 
 
 *   Select all sub-village boundary in Pleburan Village with _search_ function. Click **_Edit → Search_**. You will see a search window and write _query_ “**admin_level=9**” then click **_Start Search_**.
 
-![Query for search sub-village boundary in JOSM](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0414_josm_data_quality_14.png)
+![Query for search sub-village boundary in JOSM](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0414_josm_data_quality_14.jpg)
 <p align="center"><i>Query for search sub-village boundary in JOSM</i></p>
 
 
 *   You will sub-village boundary in your village be selected. It is shown by purple color in the boundaries. In **_selection_** window you will see all sub-village list in Pleburan Village.
 
-![Selection Result for Sub-Village Boundary in Pleburan Village](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0415_josm_data_quality_15.png)
+![Selection Result for Sub-Village Boundary in Pleburan Village](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0415_josm_data_quality_15.jpg)
 <p align="center"><i>Selection Result for Sub-Village Boundary in Pleburan Village</i></p>
 
 *   You can compare number of sub-village (RW) in Pleburan Village which a result of selection function in JOSM in recapitulation table of field survey. 
 
-![Table of Sub-Village Boundary Recapitulation](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0416_josm_data_quality_16.png)
+![Table of Sub-Village Boundary Recapitulation](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0416_josm_data_quality_16.jpg)
 <p align="center"><i>Table of Sub-Village Boundary Recapitulation</i></p>
 
 As you can see on the table above, the number of sub-village (RW) in Pleburan Village is 6 sub-villages. This number is same with the selection result in JOSM which also select 6 sub-villages boundaries starting from RW 01 to RW 06. Therefore, there is no error on number of sub-villages in your mapping area. You can continue to validate the tag and relation of boundary administration. 
@@ -164,18 +164,18 @@ To validate tag of sub-village administration boundary, please follow these step
 
 *   Choose all sub-villages in **_selection_** list result from **_search_** feature in JOSM.
 
-![Select sub-villages in Pleburan Village](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0417_josm_data_quality_17.png)
+![Select sub-villages in Pleburan Village](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0417_josm_data_quality_17.jpg)
 <p align="center"><i>Select sub-villages in Pleburan Village</i></p>
 
 
 *   **Right click** on sub-villages list and choose **Edit**. You will see a warning window that remind you where all information related the sub-village in Pleburan Village will be open in 6 windows. Clik **Ok.**
 
-![Notification to see Sub-Village Information](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0418_josm_data_quality_18.png)
+![Notification to see Sub-Village Information](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0418_josm_data_quality_18.jpg)
 <p align="center"><i>Notification to see Sub-Village Information</i></p>
 
 *   After the window is open, you need to check the tag completeness **for each** sub-villages. Moreover, the  boundary relation checking needs to be done by see the relation connection in **_member_** . You can see whether your relation is a good relation if connection between sub-village member all connected and creating _loop_ or circle. If you want to know more details about connection between relation and how to add it, please see **Membuat Batas Administrasi di JOSM** module.
 
-![Relation Window and Information of Administration Boundary](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0419_josm_data_quality_19.png)
+![Relation Window and Information of Administration Boundary](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0419_josm_data_quality_19.jpg)
 <p align="center"><i>Relation Window and Information of Administration Boundary</i></p>
 
 You can add another tag if there are some tag still not added in the sub-village based on tag list above. You also can fix the relation and member order and rules for each member.
