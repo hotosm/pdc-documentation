@@ -96,7 +96,7 @@ Tabel Rekapitulasi Perhitungan Kualitas Data
 
 Seperti yang dapat Anda lihat pada tabel di atas, jumlah objek di Kelurahan Pleburan sebelum pemetaan adalah 1.863 dimana terdapat 4 _warning_ pada data yang ada. Kemudian setelah dilakukan kegiatan pengumpulan data di lapangan dan validasi data jumlah data yang ada di kelurahan tersebut meningkat menjadi 1.963 dimana tidak terdapat _error_ maupun _warning_ sama sekali.  Anda dapat melihat contoh tabel hasil perhitungan kualitas data di Kota Semarang secara keseluruhan di [http://bit.ly/tabeldatasemarang](http://bit.ly/tabeldatasemarang) 
 
-**III. Melakukan Validasi Batas-Batas Administrasi**
+### **III. Melakukan Validasi Batas-Batas Administrasi**
 
 Setelah Anda melakukan rekapitulasi atau perhitungan jumlah objek dan kualitas data OSM di kelurahan pemetaan, hal yang tidak kalah penting untuk dilakukan adalah melakukan perhitungan untuk kualitas data terhadap batas-batas administrasi. Dalam perhitungan ini, Anda akan melakukan validasi terhadap batas-batas kelurahan dan rukun warga (RW) yang terdapat di kelurahan tersebut. Adapun validasi yang dilakukan adalah meliputi jumlah RW yang dipetakan, kelengkapan informasi (_tag_), relasi dari batas kelurahan dan RW, dan melakukan _backup_ batas administrasi dengan menyimpannya sebagai file _.osm_ yang baru. Kita kembali akan menggunakan **Kelurahan Pleburan** yang telah kita _download_ pada materi sebelumnya.
 
@@ -205,7 +205,7 @@ Setelah melakukan perhitungan dan validasi untuk batas-batas administrasi, Anda 
 ![Menyimpan layer batas administrasi di JOSM](/id/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0423_josm_data_quality_23.png "Menyimpan layer batas administrasi di JOSM")
 <p align="center"><i>Menyimpan layer batas administrasi di JOSM</i></p>
 
-**RINGKASAN**
+### **RINGKASAN**
 
 Anda telah mempelajari cara untuk melakukan perhitungan kualitas data di JOSM. Materi ini merupakan salah satu dari kegiatan rekapitulasi sekaligus validasi dari data yang telah dimasukkan ke dalam _OpenStreetMap_ setelah melakukan pengumpulan data di lapangan oleh _Data Entry_ dan telah divalidasi oleh _Quality Assurance_. Dengan melakukan perhitungan kualitas data yang telah divalidasi oleh Quality Assurance, akan menghasilkan kualitas data yang semakin baik.  Berikut adalah beberapa hal yang telah Anda pelajari dalam modul ini:
 
