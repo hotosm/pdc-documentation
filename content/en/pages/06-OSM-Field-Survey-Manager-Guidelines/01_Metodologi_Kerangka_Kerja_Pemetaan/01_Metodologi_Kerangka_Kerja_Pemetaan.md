@@ -33,7 +33,7 @@ We will create a framework for a mapping project that integrates with indicators
 
 An example, this image below is arranged as a framework for mapping in Semarang City. Semarang City has 373,8 km<sup>2</sup> area with 16 data entry and 4 quality assurance. The infrastructures were collected 58 categories consists of roads, rivers, embankment, and public facilities. The mapping project has finished for 6 months. 
 
-![The mapping framework](/en/images/06-OSM-Field-Survey-Manager-Guidelines/01-Metodologi-Kerangka-Kerja-Pemetaan-OpenStreetMap/0101_Kerangka_kerja_pemetaan.png)
+![The mapping framework](/en/images/06-OSM-Field-Survey-Manager-Guidelines/01_Metodologi_Kerangka_Kerja_Pemetaan/0101_Kerangka_kerja_pemetaan.png)
 <p align="center"><i>The mapping framework</i></p>
 
 **a. OSM and QGIS Training for Team Mapping**
@@ -158,7 +158,7 @@ Example Folder in Google Drive
 
 The digital data will be uploaded in each folder according to the mapping process so that we get the backup data and avoid losing the data. 
 
-![The folder in Google Drive](/en/images/06-OSM-Field-Survey-Manager-Guidelines/01-Metodologi-Kerangka-Kerja-Pemetaan-OpenStreetMap/0102_Contoh_folder_Google_Drive.png)
+![The folder in Google Drive](/en/images/06-OSM-Field-Survey-Manager-Guidelines/01_Metodologi_Kerangka_Kerja_Pemetaan/0102_Contoh_folder_Google_Drive.png)
 </p>
 <p align="center"><i>The folder in Google Drive</i><p align="center"> 
 
@@ -174,12 +174,12 @@ If we already know about the factors that impact the mapping timeline, we can di
 
 We can start the mapping area with nearby form the office because it is easy to coordinate between data entry and quality assurance about field survey. If data entry found the problem in the field likely problem with their smartphone or permission letter in the village office, they can ask the quality assurance or back to the office and resolve the problem with the team.   
 
-![Mapping Timeline in Semarang City](/en/images/06-OSM-Field-Survey-Manager-Guidelines/01-Metodologi-Kerangka-Kerja-Pemetaan-OpenStreetMap/0103_peta_timeline.png)
+![Mapping Timeline in Semarang City](/en/images/06-OSM-Field-Survey-Manager-Guidelines/01_Metodologi_Kerangka_Kerja_Pemetaan/0103_peta_timeline.png)
 <p align="center"><i>Mapping Timeline in Semarang City</i><p align="center">
 
 In the map below, we can divide the area into two sections based on characteristics area, so that we need two mapping supervisor to manage and monitory the mapping activities
 
-![Divide Area in Mapping Project](/en/images/06-OSM-Field-Survey-Manager-Guidelines/01-Metodologi-Kerangka-Kerja-Pemetaan-OpenStreetMap/0104_peta_survey.png)
+![Divide Area in Mapping Project](/en/images/06-OSM-Field-Survey-Manager-Guidelines/01_Metodologi_Kerangka_Kerja_Pemetaan/0104_peta_survey.png)
 <p align="center"><i>Divide Area in Mapping Project</i><p align="center">
 
 Example Table of Divide Area Survey
@@ -199,7 +199,7 @@ Example Table of Divide Area Survey
 
 We will choose the team data entry based on their knowledge about the area, it is a strategy to quickly in the understanding survey area. We can give the list question about the area in the recruitment process data entry. 
 
-![Team Mapping](/en/images/06-OSM-Field-Survey-Manager-Guidelines/01-Metodologi-Kerangka-Kerja-Pemetaan-OpenStreetMap/0105_bagan_kelompok.png)
+![Team Mapping](/en/images/06-OSM-Field-Survey-Manager-Guidelines/01_Metodologi_Kerangka_Kerja_Pemetaan/0105_bagan_kelompok.png)
 <p align="center"><i>Team Mapping</i><p align="center">
 
 Example table of Team Mapping based on Survey Area
