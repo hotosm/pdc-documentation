@@ -39,7 +39,7 @@ After you know about InAWARE and the steps to create an account, you will learn 
 ![OpenStreetMap Data Layer in InAWARE](/en/images/08-OSM-Data-Integration-to-InAWARE/01-Integrasi-OSM-ke-InAWARE/0102_osm_to_inaware.png)
 <p align="center"><i>OpenStreetMap Data Layer in InAWARE</i></p>
 
-*   You will see information of each feature / object from your OpenStreetMap data. You can select and click on the feature that you want to know its information and choose **_info _**option.
+*   You will see information of each feature / object from your OpenStreetMap data. You can select and click on the feature that you want to know its information and choose **_info_** option.
 
 
 ![OpenStreetMap Feature Information in InAWARE](/en/images/08-OSM-Data-Integration-to-InAWARE/01-Integrasi-OSM-ke-InAWARE/0103_osm_to_inaware.png)
