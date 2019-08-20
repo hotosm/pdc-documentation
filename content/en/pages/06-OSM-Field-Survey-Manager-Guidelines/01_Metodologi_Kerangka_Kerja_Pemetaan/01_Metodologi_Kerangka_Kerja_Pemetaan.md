@@ -120,7 +120,7 @@ Every mapping staff has a role in the implementation field survey. There are par
 | v | v | 8,12-14 Mar 2018 | 12 Mar 2018 | v | Ada | Tidak Ada | v | v | v | v | v | 27-28 Mar 2018 |
 
 
-**c. After Mapping Activity **
+**c. After Mapping Activity**
 
 If the mapping activities have finished, mapping supervisor and quality assurance have to ensure whole the survey data will be uploaded into OSM and validated. The next step is to create and prepare final maps for feedback to the government that involved in the mapping process. 
 
