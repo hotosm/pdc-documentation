@@ -109,10 +109,10 @@ You can not upload your changes until you have resolved all of your conflict and
 
 You can do some things to avoid conflict when uploading your data into OSM server, as follows:
 
-1. **Upload your changes continuously**
-*   To minimize conflict, you can upload your changes continuously. For instance, if you mapped 100 buildings but does not have a good internet connection, you should upload your changes for every 20 buildings or every 15 minutes. The reason for this is because the conflict would have bigger possibility to occur if you upload when it is finished. The longer you waiting to upload the more possibility the data could possibly have edited and uploaded to the server by other contributors. Therefore, the probability of conflict for your edit will increase.
+**a. Upload your changes continuously**
+* To minimize conflict, you can upload your changes continuously. For instance, if you mapped 100 buildings but does not have a good internet connection, you should upload your changes for every 20 buildings or every 15 minutes. The reason for this is because the conflict would have bigger possibility to occur if you upload when it is finished. The longer you waiting to upload the more possibility the data could possibly have edited and uploaded to the server by other contributors. Therefore, the probability of conflict for your edit will increase.
 
-*   If you want to save your OSM data and upload it later, you can update your OSM data first before you upload it. This should be done so you can get the latest OSM data from the server before you upload it. You can do that by click **_File → Update data_** or **_Update Modified_** then waiting until the updating process is finished. After that, you can upload your changes with **_Upload data_** options **_File_** menu  or just click 
+* If you want to save your OSM data and upload it later, you can update your OSM data first before you upload it. This should be done so you can get the latest OSM data from the server before you upload it. You can do that by click **_File → Update data_** or **_Update Modified_** then waiting until the updating process is finished. After that, you can upload your changes with **_Upload data_** options **_File_** menu  or just click 
 ![](/en/images/03-JOSM/10-Mengatasi-konflik-data-pada-OpenStreetMap/1018_ikon_upload.png)icon on _menu_ bar.
 
 
@@ -120,16 +120,16 @@ You can do some things to avoid conflict when uploading your data into OSM serve
 <p align="center"><i>Update data options in file menu</i></p>
 
 
-2. **Edit Only in Downloaded Area**
+**b. Edit Only in Downloaded Area**
 
-  You can do mapping in specific area to minimize risk of conflict with avoid editing objects outside your downloaded area in JOSM. This can prevent two or more users editing in same area. Notice that diagonal lines around your downloaded area is an area you need to avoid to edit in JOSM.  
+You can do mapping in specific area to minimize risk of conflict with avoid editing objects outside your downloaded area in JOSM. This can prevent two or more users editing in same area. Notice that diagonal lines around your downloaded area is an area you need to avoid to edit in JOSM.  
 
 ![Downloaded Area (black) dan Outside Downloaded Area (diagonal lines)](/en/images/03-JOSM/10-Mengatasi-konflik-data-pada-OpenStreetMap/1020_perbedaan_area_download.png)
 <p align="center"><i>Downloaded Area (black) dan Outside Downloaded Area (diagonal lines)</i></p>
 
 After you download the data, your editing area is only area inside which does not have diagonal lines. The area outside you editing area most likely currently editing or have been edited by other contributors. Avoid edit in the area will reduce the risk of getting conflict in your data.
 
-3. **Using _Tasking Manager_**
+**c. Using _Tasking Manager_**
 
 If you want to do collaborative mapping, you can use _Tasking Manager_. It will help you to divide your mapping area into task grids. Thus, you can choose your mapping area grid easily without worry getting same area with other OSM contributors because once you select certain grid, it will be locked and cannot choose by other contributors.
 
