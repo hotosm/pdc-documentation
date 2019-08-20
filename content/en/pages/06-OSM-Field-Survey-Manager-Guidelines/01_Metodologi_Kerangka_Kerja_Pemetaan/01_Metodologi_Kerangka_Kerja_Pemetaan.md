@@ -112,9 +112,9 @@ Every mapping staff has a role in the implementation field survey. There are par
 *   Mapping Supervisor = ensure the quality and quantity of survey data, monitory whole implementation the mapping activity adjusted to timeline.
 
    Example Table on Mapping Process
-|**PREPARING THE SMARTPHONE**|  | SURVEY|  |  |   |   |  **INPUT**| | | | | | 
+|**PREPARING THE SMARTPHONE**|  | SURVEY|  |  |   |   |**INPUT**| | | | | | 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-|input mbtiles|clear file manager|Survey Date|Getting RW Boundary|Collecting Infrastructure|Shelters|Route|Upload track|Send form to OMK Server|Objects|RW|Shelters and Route|Validation|
+|mbtiles|clear file manager|Survey|Getting RW Boundary|Survey Infrastructure|Shelters|Route|Upload track|Send form|Objects|RW|Shelters and Route|Validation|
 | v | v | 1,5-6 Mar 2018 | 1 Mar 2018 | v | Ada | Tidak Ada | v | v | v | v | v | 26 Mar 2018 |
 | v | v | 12 Feb 2018 | 12 Feb 2018 | v | Ada | Tidak Ada | v | v | v | v | v | 14, 19 Feb 2018 |
 | v | v | 8,12-14 Mar 2018 | 12 Mar 2018 | v | Ada | Tidak Ada | v | v | v | v | v | 27-28 Mar 2018 |
@@ -125,7 +125,7 @@ Every mapping staff has a role in the implementation field survey. There are par
 If the mapping activities have finished, mapping supervisor and quality assurance have to ensure whole the survey data will be uploaded into OSM and validated. The next step is to create and prepare final maps for feedback to the government that involved in the mapping process. 
 
 Example of the table after mapping activity
-| **Validate the admin boundary**| **Data Quantity**| **Data Quality** | **Print and Distribute the final maps**|
+|**Validate the admin boundary**|**Data Quantity**|**Data Quality**|**Print and Distribute the final maps**|
 |---|---|---|---|
 | v | v | v | v |
 | v | v | v | v |
@@ -140,7 +140,7 @@ We need the folder directory to save and share the data that folder will be orga
 We can upload and publish the data using Google Drive because everyone has a Gmail account and we usually use Google Drive in working. There is the example folder that we can use to save the data:
 
 Example Folder in Google Drive
-| **Folder Name**| **Description**|
+|**Folder Name**|**Description**|
 |---|---|
 |Timeline| Framework and table of the timeline the mapping activity|
 |Training| Training agenda and training material|
@@ -181,7 +181,7 @@ In the map below, we can divide the area into two sections based on characterist
 
 Example Table of Divide Area Survey
 
-|**Timeline**| **Sub-District**| **Mapping Supervisor North**| **Mapping Supervisor South**|
+|**Timeline**|**Sub-District**|**Mapping Supervisor North**|**Mapping Supervisor South**|
 |---|---|---|---|
 |Stage 1 (1,5 Months)|Near from the office less distance 20 km|Semarang Barat|Candisari|
 || |Semarang Tengah|Semarang Selatan|
@@ -201,7 +201,7 @@ We will choose the team data entry based on their knowledge about the area, it i
 
 Example table of Team Mapping based on Survey Area
 
-| **Mapping Supervisor**|**Quality Assurance**| **Data Entry**| **Sub-districts**| **Village**| **Total Villages**|
+|**Mapping Supervisor**|**Quality Assurance**|**Data Entry**|**Sub-districts**|**Village**|**Total Villages**|
 |---|---|---|---|---|---|
 |**Mapping Supervisor 1**| QA1 | DE1 | Candisari | 7 | 21 |
 | | | DE2 | Mijen | 14 |  |
