@@ -90,65 +90,76 @@ Dalam pemetaan di _OpenStreetMap_ Anda dapat memetakan segala macam objek yang a
 Memilih objek yang akan dipetakan di dalam _OpenStreetMap_ tergantung dari tujuan pemetaan itu sendiri. Tujuan pemetaan di dalam kegiatan HOT-PDC InAWARE adalah untuk melengkapi infrastruktur publik yang memiliki peran penting dalam kegiatan manajemen kebencanaan. Berikut adalah objek-objek yang dipetakan ke dalam _OpenStreetMap_ dalam pemetaan HOT-PDC InAWARE:
 
 **1.Fasilitas Ekonomi**
-*   Pasar
-*   Supermarket
-*   Bank
+
+* Pasar
+* Supermarket
+* Bank
 
 **2. Fasilitas Pendidikan**
-*   Universitas
-*   Sekolah Tinggi
-*   Sekolah (SD, SMP, SMA)
-*   Taman Kanak-Kanak
+
+* Universitas
+* Sekolah Tinggi
+* Sekolah (SD, SMP, SMA)
+* Taman Kanak-Kanak
 
 **3. Fasilitas Kesehatan**
-*   Rumah Sakit
-*   Klinik
+
+* Rumah Sakit
+* Klinik
 
 **4. Infrastruktur Komunikasi**
-*   Tower Komunikasi
+
+* Tower Komunikasi
 
 **5. Layanan Kedaruratan**
-*   Kantor Polisi
-*   Kantor Pemadam Kebakaran
-*   Tempat Evakuasi
-*   Hidran Air
+
+* Kantor Polisi
+* Kantor Pemadam Kebakaran
+* Tempat Evakuasi
+* Hidran Air
 
 **6. Kantor Pemerintahan**
-*   Kantor Pemerintah (Kantor Gubernur, Kantor Walikota, Kantor Kantor Kecamatan, Kantor Kelurahan, dan Kantor RW)
-*   Kedutaan Besar
-*   Instansi Pemerintah (Kementrian dan Lembaga)
+
+* Kantor Pemerintah (Kantor Gubernur, Kantor Walikota, Kantor Kantor Kecamatan, Kantor Kelurahan, dan Kantor RW)
+* Kedutaan Besar
+* Instansi Pemerintah (Kementrian dan Lembaga)
 
 **7. Infrastruktur Kelistrikan**
-*   Tower Listrik
-*   Gardu Listrik
-*   Pembangkit Listrik
+
+* Tower Listrik
+* Gardu Listrik
+* Pembangkit Listrik
 
 **8. Sarana Transportasi**
-*   Bandar Udara
-*   Terminal Bis
-*   Stasiun Kereta
-*   Pelabuhan/Dermaga
+
+* Bandar Udara
+* Terminal Bis
+* Stasiun Kereta
+* Pelabuhan/Dermaga
 
 **9. Fasilitas Publik**
-*   Tempat Ibadah (Masjid, Musala, Gereja, Capel, Pura, Vihara)
-*   Fasilitas Olahraga (GOR, Stadium, Lapangan Olahraga, Ruang Terbuka Hijau)
-*   Ruang Publik Terpadu Ramah Anak (RPTRA)
+
+* Tempat Ibadah (Masjid, Musala, Gereja, Capel, Pura, Vihara)
+* Fasilitas Olahraga (GOR, Stadium, Lapangan Olahraga, Ruang Terbuka Hijau)
+* Ruang Publik Terpadu Ramah Anak (RPTRA)
 
 **10. Sarana Perairan**
-*   Menara Air
-*   Pintu Air
-*   Rumah Pompa
-*   Tanggul
-*   Sungai
-*   Waduk / Danau
+
+* Menara Air
+* Pintu Air
+* Rumah Pompa
+* Tanggul
+* Sungai
+* Waduk / Danau
 
 **11. Stasiun Pengisian Bahan Bakar Umum (SPBU)**
 
 **12. Batas Wilayah Administrasi**
-*   Batas Kota
-*   Batas Kecamatan
-*   Batas Kelurahan
-*   Batas RW
+
+* Batas Kota
+* Batas Kecamatan
+* Batas Kelurahan
+* Batas RW
 
 **13. Jaringan Jalan**
 
@@ -837,7 +848,7 @@ Tabel Jenis Infrastruktur dan Tipe Data di _OpenStreetMap_
 ![Tabel Infrastruktur](/id/images/06-OSM-Field-Survey-Manager-Guidelines/02-Model-Data-OpenStreetMap/0207_tabel_infrastruktur.png "Tabel Infrastruktur")
 
 
-### V. Mengecek _key_ dan _value_ di _Tag Info_
+### **V. Mengecek _key_ dan _value_ di _Tag Info_**
 
 Pada bab sebelumnya sudah dijelaskan mengenai panduan untuk melihat _key_ dan _value_ pada objek di _OpenStreetMap_ dengan menggunakan halaman wikipedia _Map Features_ dan Referensi objek OSM Indonesia. Namun, ada beberapa _key_ dan _value_ yang tidak dijelaskan pada halaman tersebut khususnya informasi yang lebih rinci dan spesifik misalnya untuk **kapasitas orang pada sebuah bangunan** atau **jenis lantai bangunan**. Untuk melihat informasi (_tag_) tersebut Anda dapat melihat di halaman berikut: [https://taginfo.openstreetmap.org/](https://taginfo.openstreetmap.org/) 
 
