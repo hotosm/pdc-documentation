@@ -3511,7 +3511,7 @@ Table of Object and Its Data Type in _OpenStreetMap_
 ![Object Data Type Table](/en/images/06-OSM-Field-Survey-Manager-Guidelines/02-Model-Data-OpenStreetMap/0207_tabel_infrastruktur.png)
 
 
-**V. Search _key _and _value _in _Tag Info _Website**
+### **V. Search _key_ and _value_ in _Tag Info_ Website**
 
 On previous subchapter, you have been explained about a guideline to see key and value in _OpenStreetMap_ using _Map Features_ and Indonesia OpenStreetMap Wikipedia page. However, there are certain _key_ and _value_ that do not explained in the page especially detail and specific information of certain object. For instance, for **building capacity** or **building floor material**. To see the information (_tag_) you can visit a website called tag info: [https://taginfo.openstreetmap.org/](https://taginfo.openstreetmap.org/) 
 
