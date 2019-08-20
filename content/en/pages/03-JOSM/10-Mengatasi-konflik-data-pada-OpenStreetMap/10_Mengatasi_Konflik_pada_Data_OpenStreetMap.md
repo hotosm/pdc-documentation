@@ -30,7 +30,7 @@ The picture above is example of conflict that could happen because of different 
 
 ### **II. Types of Data Conflict in JOSM**
 
-**1. Conflict of Properties**
+**a. Conflict of Properties**
 
 Conflict of properties happens when an object(s) has been moved or deleted so one or more of its node has different location/position than the other version.
 
@@ -39,7 +39,7 @@ Conflict of properties happens when an object(s) has been moved or deleted so on
 
 The picture above is an example of conflict of properties in JOSM. As can be seen in the picture, in My Version the object has square shape and in the other version (their version) one of the node is deleted then change its shape become triangle. To fixed this, you need to choose which version that correct based on the location of the different nodes in both version.
 
-**2. Conflict of Tag**
+**b. Conflict of Tag**
 
 Conflict of tag happens because there are different information (tag) on on the object that has been edited by two or more contributors. The information could be deleted or changed on the other version.
 
@@ -50,7 +50,7 @@ Conflict of tag happens because there are different information (tag) on on the 
 The picture above shows differences between two versions on the same object in JOSM. **_My version_** has  Rumah Sakit _tag_ (_amenity = hospital_) with its name value is Rumah Sakit Tebet Raya while the other version (**_Their version_**) has tag klinik (_amenity = clinic_) with name RS Tebet Timur. You have to choose one of them that you think has correct information to fix it before upload it to the server.
 
  
-**3. Conflict of Node**
+**c. Conflict of Node**
 
 This conflict happens when there are differences order of the nodes in a way or closedway object(s) which have been removed or moved on one of the versions and has been uploaded to the OSM server. 
 
