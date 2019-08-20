@@ -188,11 +188,13 @@ Tabel _Tag_ Informasi Sekolah
 Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi terhadap masing-masing objek yang akan dipetakan. Oleh karena itu, Anda membutuhkan model data yang dapat membantu tim surveyor untuk melakukan pemetaan di lapangan dan input data ke dalam _OpenStreetMap_. Berikut adalah contoh model data untuk masing-masing objek dalam kegiatan Pemetaan HOT-PDC InAWARE:
 
 **Keterangan Warna:**
-*   <font color="99DBFF"> Warna biru </font> artinya _key_ dan _value_ tersebut wajib dimiliki oleh objek tersebut.
-*   <font color="#FF7278"> Warna merah </font> artinya _key_ dan _value_ merupakan informasi khusus untuk bangunan. Jika objek tersebut memiliki bangunan sendiri maka informasi tersebut perlu dimasukkan, jika objek  menumpang di bangunan lain dengan fungsi yang berbeda maka informasi tersebut tidak perlu dimasukkan.
-*   Warna hitam artinya _key_ dan _value_ tersebut **sebaiknya** dimasukkan ke dalam objek pemetaan baik objek tersebut  memiliki bangunan sendiri ataupun menumpang di bangunan yang lain.
+
+* <font color="99DBFF"> Warna biru </font> artinya _key_ dan _value_ tersebut wajib dimiliki oleh objek tersebut.
+* <font color="#FF7278"> Warna merah </font> artinya _key_ dan _value_ merupakan informasi khusus untuk bangunan. Jika objek tersebut memiliki bangunan sendiri maka informasi tersebut perlu dimasukkan, jika objek  menumpang di bangunan lain dengan fungsi yang berbeda maka informasi tersebut tidak perlu dimasukkan.
+* Warna hitam artinya _key_ dan _value_ tersebut **sebaiknya** dimasukkan ke dalam objek pemetaan baik objek tersebut  memiliki bangunan sendiri ataupun menumpang di bangunan yang lain.
 
 **1.Fasilitas Ekonomi**
+
 * Tabel Model Data Pasar
 
 | key  |  possible values |
@@ -367,6 +369,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 
 **3. Fasilitas Kesehatan**
+
 * Tabel Model Data Rumah Sakit
 
 | key  |  possible values |
@@ -424,6 +427,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 | toilets:number  |  (jumlah toilet) |
 
 **4. Infrastruktur Komunikasi**
+
 * Tabel Model Data Tower Komunikasi
 
 |key   | possible values  |
@@ -439,6 +443,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 | source  | HOT_InAWARESurvey_2018  |
 
 **5. Layanan Kedaruratan**
+
 * Tabel Model Data Kantor Polisi
 
 | key  |  possible values |
@@ -493,6 +498,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 | source  | HOT_InAWARESurvey_2018  |
 
 **6. Kantor Pemerintahan**
+
 * Tabel Model Data Kantor Pemerintah (Kantor Gubernur, Kantor Walikota, Kantor Camat, Kantor Lurah, Kantor RW)
 
 | key  |  possible values |
@@ -543,6 +549,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 |  source |  HOT_InAWARESurvey_2018 |
 
 **7. Infrastruktur Kelistrikan**
+
 * Tabel Model Data Tower Listrik
 
 |  key | possible values  |
@@ -579,6 +586,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 |  source | HOT_InAWARESurvey_2018  |
 
 **8. Sarana Transportasi**
+
 * Tabel Model Data Bandar Udara
 
 | key  |  possible values |
@@ -642,6 +650,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 |  source |  HOT_InAWARESurvey_2018 |
 
 **9. Fasilitas Publik**
+
 * Tabel Model Data Tempat Ibadah (Masjid, Musala, Gereja, Capel, Pura, Vihara)
 
 | key  |  possible values |
@@ -715,6 +724,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 | toilets:number  |  (jumlah toilet) |
 
 **10. Sarana Perairan**
+
 * Tabel Model Data Menara Air
 
 | key  |  possible values |
@@ -791,6 +801,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 |  source |  HOT_InAWARESurvey_2018 |
 
 **11. Stasiun Pengisian Bahan Bakar Umum (SPBU)**
+
 * Tabel Model Data SPBU
 
 | key  |  possible values |
@@ -840,6 +851,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 Setelah Anda mengetahui model data berdasarkan _tag_ yang diperlukan untuk masing-masing objek khususnya dalam kegiatan pemetaan kebencanaan, Anda juga perlu mengetahui pemetaan objek berdasarkan tipe data di _OpenStreetMap_. Berikut adalah tabel pembagian jenis-jenis objek berdasarkan tipe data yang dapat dipetakan:
 
 **Keterangan Warna:**
+
 *   <font color="#7EFF83">Warna hijau</font> artinya objek bisa dipetakan dalam tipe data tersebut.
 *   <font color="#FF7278">Warna merah</font> artinya objek tidak bisa dan tidak boleh dipetakan dalam tipe data tersebut
 
