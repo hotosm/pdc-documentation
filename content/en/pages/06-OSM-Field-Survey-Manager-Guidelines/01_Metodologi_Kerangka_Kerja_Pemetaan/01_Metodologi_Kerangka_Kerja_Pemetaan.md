@@ -111,7 +111,8 @@ Every mapping staff has a role in the implementation field survey. There are par
 *   Quality Assurance = ensure and manage the quality of data uploaded by data entry, monitory mapping activity in field, and manage the mapping strategy with data entry. 
 *   Mapping Supervisor = ensure the quality and quantity of survey data, monitory whole implementation the mapping activity adjusted to timeline.
 
-   Example Table on Mapping Process
+Example Table on Mapping Process
+   
 |PREPARING THE SMARTPHONE|  | SURVEY|  |  |   |   |INPUT| | | | | | 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 |mbtiles|clear file manager|Survey|Getting RW Boundary|Survey Infrastructure|Shelters|Route|Upload track|Send form|Objects|RW|Shelters and Route|Validation|
@@ -125,6 +126,7 @@ Every mapping staff has a role in the implementation field survey. There are par
 If the mapping activities have finished, mapping supervisor and quality assurance have to ensure whole the survey data will be uploaded into OSM and validated. The next step is to create and prepare final maps for feedback to the government that involved in the mapping process. 
 
 Example of the table after mapping activity
+
 |**Validate the admin boundary**|**Data Quantity**|**Data Quality**|**Print and Distribute the final maps**|
 |---|---|---|---|
 | v | v | v | v |
@@ -140,6 +142,7 @@ We need the folder directory to save and share the data that folder will be orga
 We can upload and publish the data using Google Drive because everyone has a Gmail account and we usually use Google Drive in working. There is the example folder that we can use to save the data:
 
 Example Folder in Google Drive
+
 |**Folder Name**|**Description**|
 |---|---|
 |Timeline| Framework and table of the timeline the mapping activity|
