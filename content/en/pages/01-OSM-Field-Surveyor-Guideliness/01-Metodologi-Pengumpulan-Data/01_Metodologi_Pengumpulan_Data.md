@@ -14,7 +14,7 @@ Data collecting or commonly known as field survey is an important aspect in mapp
 
 When doing field survey, you need to know the proper methodology to do it. This is an important thing as it will help you to complete your field survey efficiently and effectively. Moreover, a good data collecting will gives you good output both from quality and quantity aspect. In this chapter, you will learn about the methodology and workflow when doing field survey particularly in HOT-PDC InAWARE project.
 
-### **I. Data Collecting Preparation**
+### **I. Data Collection Preparation**
 
 Before doing mapping activity for HOT-PDC InAWARE, _Humanitarian OpenStreetMap Team_ (HOT) Indonesia have made organized and systematic plan. This needs to be done so the mapping activity can be run efficiently and effectively and also to maintain data quality. There are some preparation activities before going to the field as follows:
 
