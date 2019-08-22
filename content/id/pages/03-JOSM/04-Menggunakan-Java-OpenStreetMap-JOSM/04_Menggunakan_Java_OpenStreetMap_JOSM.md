@@ -394,7 +394,7 @@ Perhatikan arah panah pada kedua garis berbeda. Pada garis pertama, arah panah k
 
 Jika suatu jalan terdiri atas empat ruas yang berbeda (berarti terdapat 3 pembatas jalan), misalnya jalur lambat arah ke utara, jalur cepat arah ke utara, jalur lambat arah ke selatan, dan jalur cepat arah ke selatan; maka Anda harus menggambarkan jalan tersebut dengan 4 garis. Kondisi tersebut misalnya dijumpai di Jalan Sudirman, Jakarta Pusat.
 
-![jalan_sudirman](pages/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0465_Salah_satu_bagian_Jalan_Sudirman_Jakarta_Pusat.png)
+![jalan_sudirman](id/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0465_Salah_satu_bagian_Jalan_Sudirman_Jakarta_Pusat.png)
 <p align="center"><i>Salah satu bagian Jalan Sudirman, Jakarta Pusat, yang terdiri dari empat ruas (tiga pembatas jalan)</i></p>
 
 ![tampilan_ruas_jalan](/id/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0466_Tampilan_ruas_jalan_di_atas_pada_citra_satelit.png)

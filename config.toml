@@ -6,6 +6,7 @@ relativeurls = true
 enableGitInfo = true
 
 [params]
+    DefaultContentLanguage = "id"
     BookRepo = "https://github.com/hotosm/pdc-documentation" #<-- change me
     BookShowToC = true
     BookEditPath = "/edit/master/content/"

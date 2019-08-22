@@ -107,7 +107,7 @@ Anda dapat membagikan tautan peta _OpenStreetMap_ kepada orang lain untuk berbag
 *   Klik tombol **_Share_** pada bagian kanan layar Anda. Lalu akan muncul kolom **_Share_** di sebelah kanan layar Anda. 
 *   Beri tanda centang pada **_Include marker_** untuk menambahkan titik penanda lokasi. Titik penanda lokasi ini dapat Anda pindahkan atau geser sesuai dengan lokasi yang diinginkan. Caranya, klik dan tahan penanda lokasi tersebut kemudian Anda geser ke titik lokasi yang diinginkan. Cara lainnya ialah dengan menggeser peta sehingga titik penanda lokasi berada pada posisi yang Anda inginkan.
 
-![menambahkan_marker](/id/images/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/0216_include_marker.png")
+![menambahkan_marker](/id/images/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/0216_include_marker.png)
 <p align="center"><i>Menambahkan penanda lokasi</i></p>
 
 *   Setelah sesuai, Anda dapat menyalin tautan yang ada pada kotak **_Link_** dan bagikan tautan ini sesuai dengan keperluan Anda. Anda juga dapat menyalin versi lebih pendek dari tautan pada kotak **_Short Link_** atau menyalin kode HTML pada kotak **_HTML_**.

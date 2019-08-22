@@ -80,7 +80,7 @@ Jika Anda tidak ingin atau tidak bisa menginstal QGIS di laptop/komputer Anda ak
 
 *   Setelah itu hasil _query_ akan muncul di _Overpass Turbo_
 
-![Tampilan query wizard di situs Overpass Turbo](/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1010_overpass_5.png")
+![Tampilan query wizard di situs Overpass Turbo](/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1010_overpass_5.png)
 <p align="center"><i>Tampilan hasil query wizard batas Kota Semarang</i></p>
 
 
