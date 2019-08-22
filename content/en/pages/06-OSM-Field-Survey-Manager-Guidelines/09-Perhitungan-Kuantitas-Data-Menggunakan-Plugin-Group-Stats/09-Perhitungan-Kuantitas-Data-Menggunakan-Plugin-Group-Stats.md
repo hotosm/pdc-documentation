@@ -26,7 +26,7 @@ The calculation of the quantity of data can be an indicator of the achievement o
 ![Install the plugin](/en/images/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/0902_plugingroupstats.png)
 <p align="center"><i>Install the plugin</i><p align="center">
 
-*   If the installation has finished, the plugin will show up in** Vector Menu → GroupStats**
+*   If the installation has finished, the plugin will show up in **Vector Menu → GroupStats**
 
 ![GroupStats Interface](/en/images/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/0903_menugroupstats.png)
 <p align="center"><i>GroupStats Interface</i><p align="center">
@@ -51,7 +51,8 @@ We can use the data form PDC InaWARE project in Semarang City in this chapter, g
 The next step we will start to calculate the objects:
 
 **a. Preparing the Data**
-*   Open the layer in QGIS with click on **Add Vector Layer **→ Browse** or click **Layer Menu → Add Layer → Add Vector Layer → Browse**.
+
+*   Open the layer in QGIS with click on **Add Vector Layer → Browse** or click **Layer Menu → Add Layer → Add Vector Layer → Browse**.
 
 ![Add Vector Layer](/en/images/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/0904_addvector.png)
 <p align="center"><i>Add Vector Layer</i><p align="center">
@@ -59,7 +60,7 @@ The next step we will start to calculate the objects:
 *    Choose your directory that the objects file is saved → **Select All → Open → Open**
 
 ![shapefile](/en/images/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/0905_daftarfileshp.png)
-<p align="center"><i>open shapefile</i><p align="center">    
+<p align="center"><i>Open shapefile from directory</i><p align="center">    
 
 *   The layers will appear on map canvas and **Layers Panel**
 
@@ -100,12 +101,12 @@ The mapping results are points, lines, and polygons so that we can calculate wit
 <p align="center"><i>Group Stats</i><p align="center">
 
 *   Follow the instructions as below:
-1. **Layers**= show the layer will be calculated. **Fields** = an automatic show the column in attribute table that chooses
-2. **Filter**= use to show objects only in specific administrative boundary
-3. **Columns** = use to become column on the table, fill the column on the Fields, with a click and move the Columns box.
-4. **Rows** = use to become a row in the table, fill the column on the Fields, with a click and move the Row box.
-5. **Value**= use to select the formula 
-6. Click on **Calculate** to starting the calculation 
+1. **Layers** (1)= show the layer will be calculated. **Fields** = an automatic show the column in attribute table that chooses
+2. **Filter** (2) = use to show objects only in specific administrative boundary
+3. **Columns** (3) = use to become column on the table, fill the column on the Fields, with a click and move the Columns box.
+4. **Rows** (4) = use to become a row in the table, fill the column on the Fields, with a click and move the Row box.
+5. **Value** (5)= use to select the formula 
+6. Click on **Calculate** (6) to starting the calculation 
 
 ![Step by step the Group Stats](/en/images/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/0913_langkahgroupstats.png)
 <p align="center"><i>Step by step the Group Stats</i><p align="center">
