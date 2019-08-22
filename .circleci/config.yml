@@ -86,7 +86,8 @@ jobs:
           done &&
           for i in $(find ./*); do
               if [ -f "$i" ] && [ "${i: -3}" == ".md" ]; then
-              pdffilename=${i//\.md/.pdf}
+              pdfreplace=${i//\.md/.pdf}
+              pdffilename=${pdfreplace/\.\//}
               if [[ "${i: -12}" == ".fullsite.md" ]]; then
                   pandoc "$i" -o "$HOME/build/tmp/$pdffilename" --pdf-engine=xelatex -V geometry:margin=1in -V papersize:a4 -V mainfont:Archivo-Regular --toc --toc-depth=1
                   gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dPrinted=false -dNOPAUSE -dQUIET -dBATCH -sOutputFile="$HOME/build/public/pdfs/${pdffilename//\.fullsite/}" "$HOME/build/tmp/$pdffilename"
