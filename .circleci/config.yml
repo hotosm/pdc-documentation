@@ -83,7 +83,7 @@ jobs:
           cd pdf-build &&
           for d in $(find .  -mindepth 1  -type d); do
               mkdir ~/build/public/pdfs/"$d"
-              mkdir ~/tmp/"$d"
+              mkdir ~/tmp/${d/\.\//}
           done &&
           for i in $(find . -mindepth 1); do
               if [ -f "$i" ] && [ "${i: -3}" == ".md" ]; then
