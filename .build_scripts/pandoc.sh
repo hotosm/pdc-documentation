@@ -19,8 +19,6 @@ for i in $(find . -mindepth 1); do
         pdffilename=${pdfreplace/\.\//}
         filepath=${i//\.\//$HOME/pdf-build/}
         if [[ "${filepath: -12}" == ".fullsite.md" ]]; then
-            echo $filepath
-            echo $pdffilename 
             pandoc "$filepath" -o "$HOME/tmp/$pdffilename" --pdf-engine=xelatex -V geometry:margin=1in -V papersize:a4 -V mainfont:Archivo-Regular --toc --toc-depth=1
             gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dPrinted=false -dNOPAUSE -dQUIET -dBATCH -sOutputFile="$HOME/public/pdfs/${pdffilename//\.fullsite/}" "$HOME/tmp/$pdffilename"
         else
