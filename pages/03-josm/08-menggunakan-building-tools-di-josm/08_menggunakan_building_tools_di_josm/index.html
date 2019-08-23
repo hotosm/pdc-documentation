@@ -14,7 +14,7 @@
 
 <link rel="stylesheet" href="../../../../normalize.min.css">
 
-<link rel="stylesheet" href="../../../../book.min.eef33454e9c5a767233b17f85141d9e41283b74cf9b6aad8a63ba7849076a025.css">
+<link rel="stylesheet" href="../../../../book.min.b0e8214cbf05079a2aba369158e0410c2515a8def4c0b44254eefada553ab758.css">
 
 <!--
 Made with Book Theme
@@ -32,7 +32,11 @@ https://github.com/hotosm/hugo-book
       </a>
       <a class="nav-guide-link guide-active" href="../../../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/" >Guide</a>
       <div class="hr-v"></div>
-      <a class="nav-pdf-download" href="../../../../pdfs/HOT-PDC_Training_Site.pdf">Download PDF &nbsp;
+      <a class="nav-pdf-download" 
+      
+      href="../../../../pdfs/id/HOT-PDC_Training_Site.pdf">
+      
+      Download PDF &nbsp;
       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
         <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
           <polygon points="0 0 20 0 20 20 0 20"/>
@@ -46,6 +50,30 @@ https://github.com/hotosm/hugo-book
     
     
     
+    
+
+    
+    <div class="hr-v"></div>
+    <div class="language">
+      <button class="language-btn">Language: id</button>
+      <div class="language-dropdown">
+        
+          
+          
+          <a href="../../../../">Indonesia</a>
+          
+         
+          
+            <a href="../../../../en">English</a>
+          
+         
+      </div>
+    </div>
+    
+
+    <div class="language-select"></div>
+    <div class="languages">
+    </div>
     
     <div class="hr-v"></div>
     <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../../svg/icon-external-red.svg" alt=""></a>
@@ -340,6 +368,54 @@ https://github.com/hotosm/hugo-book
     
 
     
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/">
+    
+    Panduan OpenStreetMap untuk Surveyor</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/02-hot-tasking-manager/">
+    
+    HOT Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/">
+    
+    JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/">
+    
+    Validasi Data dan Penjaminan Kualitas</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/05-hot-export/">
+    
+    Penggunaan HOT Export</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/">
+    
+    Panduan Pemetaan Lapangan untuk Manajer Proyek</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/07-map-campaigner/">
+    
+    Menggunakan Map Campaigner</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/08-osm-data-integration-to-inaware/">
+    
+    Integrasi data OpenStreetMap ke InAWARE</a>
+    </li>
+    
   </ul>
 
 
@@ -364,7 +440,11 @@ https://github.com/hotosm/hugo-book
       
 <article class="markdown">
   <div class="markdown__header">  <h1>Menggunakan buildings tools di JOSM</h1>
-    <a href="../../../../pdfs/08_Menggunakan_Building_Tools_di_JOSM.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
+    <a 
+    
+    href="../../../../pdfs/id/08_Menggunakan_Building_Tools_di_JOSM.pdf">
+    
+    class="pdf-download-link"> Download page as PDF &nbsp;
       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
         <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
           <polygon points="0 0 20 0 20 20 0 20"/>
@@ -383,11 +463,8 @@ https://github.com/hotosm/hugo-book
 
 <p>Jika Anda menambahkan data di JOSM tanpa melakukan survei lapangan, data yang ditambahkan akan memiliki informasi yang terbatas karena hanya menggunakan citra satelit sebagai acuan pemetaan. Salah satu objek yang dapat dipetakan menggunakan citra satelit  adalah bangunan. Namun, Anda tidak dapat mengetahui fungsi spesifik bangunan yang dipetakan menggunakan citra satelit kecuali bentuk bangunannya cukup berbeda misalnya sekolah yang berbentuk seperti huruf L atau huruf U.</p>
 
-<p align="center">
-<img width=50% src="../../../../pages/03-JOSM/08-Menggunakan-building-tools-di-JOSM/images/0801_bangunan_sekolah.png" alt="Bangunan sekolah berbentuk seperti huruf U" title="Bangunan sekolah berbentuk seperti huruf U">
-</p>
-
-<p align="center"><i>Bangunan sekolah berbentuk seperti huruf U</i></p>
+<p><img src="../../../../id/images/03-JOSM/08-Menggunakan-building-tools-di-JOSM/0801_bangunan_sekolah.png" alt="bangunan_sekolah" />
+<p align="center"><i>Bangunan sekolah berbentuk seperti huruf U</i></p></p>
 
 <p>Dengan OSM, Anda dapat memetakan bangunan umum walaupun Anda tidak mengetahui fungsi spesifiknya. Objek bangunan tersebut dapat diberikan <em>preset/tag</em> <em><strong>building=yes</strong></em> untuk menunjukkan bahwa objek tersebut adalah bangunan. Tetapi jika Anda memetakan banyak bangunan, pasti cukup merepotkan juga jika Anda harus menambahkan <em>preset/tag</em> <em><strong>buidling=yes</strong></em> setiap kali Anda menggambarkan satu bangunan. JOSM memiliki <em>plugin</em> (alat tambahan) yang dapat memudahkan Anda  menggambar objek bangunan. Alat ini memungkinkan bangunan yang Anda digitasi/gambar otomatis memiliki <em>preset</em> <em><strong>building=yes</strong></em> dan memiliki bentuk bangunan yang relatif lebih rapi. <em>Plugin</em> ini bernama <em><strong>buildings tools</strong></em>.</p>
 
@@ -401,21 +478,15 @@ https://github.com/hotosm/hugo-book
 <li>Akan muncul jendela <strong><em>Preferences</em></strong> dan pilih menu <strong><em>Plugins</em></strong> (ikon steker) untuk menginstal <em>plugin</em> baru. Jika daftar <em>plugins</em> belum muncul, Anda dapat mengklik <strong><em>Download List</em></strong> dan pastikan komputer Anda terkoneksi dengan internet untuk dapat men-<em>download</em> <em>plugins</em> tersebut.</li>
 </ul>
 
-<p align="center">
-<img width=50% src="../../../../pages/03-JOSM/08-Menggunakan-building-tools-di-JOSM/images/0802_plugins_josm.png" alt="Tampilan jendela Preferences untuk menu Plugins" title="Tampilan jendela Preferences untuk menu Plugins">
-</p>
-
-<p align="center"><i>Tampilan jendela Preferences untuk menu Plugins</i></p>
+<p><img src="../../../../id/images/03-JOSM/08-Menggunakan-building-tools-di-JOSM/0802_plugins_josm.png" alt="jendela_preferences" />
+<p align="center"><i>Tampilan jendela Preferences untuk menu Plugins</i></p></p>
 
 <ul>
 <li>Pada  kotak <strong><em>Search</em></strong>, tuliskan <strong><em>buildings_tools</em></strong> untuk mencari <em>plugin <strong>buildings tools</strong></em>. Setelah berhasil menemukan <em>plugin <strong>buildings tools</strong></em>, silakan <strong>centang</strong> kotak kecil di samping <em>plugin <strong>buildings tools</strong></em>. Setelah itu klik <strong><em>OK</em></strong> dan tunggu hingga proses instalasi selesai.</li>
 </ul>
 
-<p align="center">
-<img width=50% src="../../../../pages/03-JOSM/08-Menggunakan-building-tools-di-JOSM/images/0803_pencarian_building_tools.png" alt="Tampilan hasil pencarian plugin buildings_tools" title="Tampilan hasil pencarian plugin buildings_tools">
-</p>
-
-<p align="center"><i>Tampilan hasil pencarian plugin buildings_tools</i></p>
+<p><img src="../../../../id/images/03-JOSM/08-Menggunakan-building-tools-di-JOSM/0803_pencarian_building_tools.png" alt="hasil_pencarian_plugin" />
+<p align="center"><i>Tampilan hasil pencarian plugin buildings_tools</i></p></p>
 
 <blockquote>
 <p>Catatan :
@@ -426,11 +497,8 @@ Terkadang JOSM meminta Anda untuk melakukan <em>Restart</em> setelah melakukan i
 <li>Jika <em>plugin</em> <strong><em>buildings_tools</em></strong> sudah berhasil diinstal, akan muncul <em>tool <strong>Draw buildings</strong></em> di sebelah kiri atas JOSM  Anda. Anda dapat menggunakannya untuk menggambar bangunan.</li>
 </ul>
 
-<p align="center">
-<img width=70% src="../../../../pages/03-JOSM/08-Menggunakan-building-tools-di-JOSM/images/0804_ikon_building_tools.png" alt="Ikon Draw buildings sudah muncul menandakan plugin buildings tools sudah berhasil terinstal" title="Ikon Draw buildings sudah muncul menandakan plugin buildings tools sudah berhasil terinstal">
-</p>
-
-<p align="center"><i>Ikon Draw buildings sudah muncul menandakan plugin buildings tools sudah berhasil terinstal</i></p>
+<p><img src="../../../../id/images/03-JOSM/08-Menggunakan-building-tools-di-JOSM/0804_ikon_building_tools.png" alt="ikon_draw_buildings" />
+<p align="center"><i>Ikon Draw buildings sudah muncul menandakan plugin buildings tools sudah berhasil terinstal</i></p></p>
 
 <h3 id="ii-menggunakan-alat-buildings-tools"><strong>II. Menggunakan alat <em>buildings tools</em></strong></h3>
 
@@ -444,41 +512,29 @@ Terkadang JOSM meminta Anda untuk melakukan <em>Restart</em> setelah melakukan i
 <li>Sekarang Anda sudah siap untuk menambahkan data OSM. Untuk memetakan bangunan, gunakan <em><strong>buildings tools</strong></em> untuk menggambarnya. Klik <em>plugin <strong>buildings tools</strong></em> (ikon <em>Draw buildings</em>) yang terletak di sebelah kiri atas JOSM atau <strong>tekan B</strong> pada <em>keyboard</em> Anda. Jika kursor <em>mouse</em> Anda sudah berubah menjadi tanda plus dengan ikon bangunan, berarti Anda sudah siap menggambar bangunan menggunakan <em>buildings tools</em>.</li>
 </ul>
 
-<p align="center">
-<img width=30% src="../../../../pages/03-JOSM/08-Menggunakan-building-tools-di-JOSM/images/0805_kursor_building_tools.png" alt="Tampilan kursor saat plugin buildings tools diaktifkan" title="Tampilan kursor saat plugin buildings tools diaktifkan">
-</p>
-
-<p align="center"><i>Tampilan kursor saat plugin buildings tools diaktifkan</i></p>
+<p><img src="../../../../id/images/03-JOSM/08-Menggunakan-building-tools-di-JOSM/0805_kursor_building_tools.png" alt="tampilan_kursor" />
+<p align="center"><i>Tampilan kursor saat plugin buildings tools diaktifkan</i></p></p>
 
 <ul>
 <li>Setelah itu, gambar bangunannya sesuai dengan bentuk yang terlihat pada citra satelit. <strong>Klik kiri satu kali</strong> pada salah satu titik pojok bangunan. <strong>Geser kursor</strong> ke titik pojok bangunan di sebelah titik pojok bangunan yang pertama, kemudian <strong>klik kiri satu kali</strong>. Terakhir, <strong>geser kursor</strong> ke titik pojok bangunan di sebelah titik pojok bangunan kedua lalu <strong>klik kiri satu kali</strong> pada titik tersebut. Untuk lebih jelasnya, lihat gambar di bawah ini:</li>
 </ul>
 
-<p align="center">
-<img src="../../../../pages/03-JOSM/08-Menggunakan-building-tools-di-JOSM/images/0806_menggambar_bangunan.png" alt="Proses menggambar bangunan menggunakan plugin buildings tools" title="Proses menggambar bangunan menggunakan plugin buildings tools">
-</p>
-
-<p align="center"><i>Proses menggambar bangunan menggunakan plugin buildings tools</i></p>
+<p><img src="../../../../id/images/03-JOSM/08-Menggunakan-building-tools-di-JOSM/0806_menggambar_bangunan.png" alt="proses_menggunakan_building_tools" />
+<p align="center"><i>Proses menggambar bangunan menggunakan plugin buildings tools</i></p></p>
 
 <ul>
 <li>Jika daerah yang Anda petakan terdapat bangunan-bangunan yang ukurannya dan bentuknya hampir sama seperti di kompleks perumahan, Anda dapat mengatur panjang dan lebar bangunan yang digambar dengan cara klik menu <em><strong>Data → Set Building Size</strong></em> lalu isikan lebar bangunan di kolom <em><strong>Buildings width/diameter</strong></em> dan isikan panjang bangunan di kolom <em><strong>Length step</strong></em> (masing-masing dalam satuan meter). Pada jendela <em><strong>Set Building Size</strong></em>, Anda juga dapat mengatur bentuk <em>default</em> bangunan yang digambar. Ada dua pilihan yaitu <em><strong>Rectangle</strong></em> (persegi empat) atau <em><strong>Circle</strong></em> (lingkaran), tetapi karena pada umumnya bangunan berbentuk persegi empat pilih <em><strong>Rectangle</strong></em>. Lalu klik <em><strong>OK</strong></em>.</li>
 </ul>
 
-<p align="center">
-<img width=30% src="../../../../pages/03-JOSM/08-Menggunakan-building-tools-di-JOSM/images/0807_set_building_size.png" alt="Tampilan jendela Set Building Size" title="Tampilan jendela Set Building Size">
-</p>
-
-<p align="center"><i>Tampilan jendela Set Building Size</i></p>
+<p><img src="../../../../id/images/03-JOSM/08-Menggunakan-building-tools-di-JOSM/0807_set_building_size.png" alt="set_buidling_size" />
+<p align="center"><i>Tampilan jendela Set Building Size</i></p></p>
 
 <ul>
 <li>Jika ada bangunan berbentuk kompleks atau tidak kotak seperti huruf L atau huruf U, gambar dua atau tiga bangunan tumpang tindih terlebih dahulu hingga membentuk L atau U. Pilih kedua atau ketiga bangunan yang tumpang tindih tersebut, kemudian klik menu <strong><em>Tools → Join Overlapping Areas</em></strong> atau tekan <strong><em>Shift + J</em></strong> pada <em>keyboard</em> untuk menggabungkan bagian yang tumpang tindih. Setelah bangunan tergabung, rapikan bangunan dengan cara pilih bangunan tersebut lalu klik menu <strong><em>Tools → Orthogonalize Shape</em></strong> atau <strong>tekan Q</strong> pada <em>keyboard</em>.</li>
 </ul>
 
-<p align="center">
-<img src="../../../../pages/03-JOSM/08-Menggunakan-building-tools-di-JOSM/images/0808_menggambar_bangunan_l.png" alt="Proses menggambar bangunan yang berbentuk seperti huruf L" title="Proses menggambar bangunan yang berbentuk seperti huruf L">
-</p>
-
-<p align="center"><i>Proses menggambar bangunan yang berbentuk seperti huruf L</i></p>
+<p><img src="../../../../id/images/03-JOSM/08-Menggunakan-building-tools-di-JOSM/0808_menggambar_bangunan_l.png" alt="bangunan_berbentuk_l" />
+<p align="center"><i>Proses menggambar bangunan yang berbentuk seperti huruf L</i></p></p>
 
 <ul>
 <li>Setelah objek-objek bangunan terpetakan, jangan lupa <em>upload</em> hasil pemetaan Anda dengan cara klik menu <strong><em>File → Upload Data</em></strong>. Tuliskan hal yang Anda lakukan pada kolom komentar, misalnya menambahkan bangunan serta tuliskan sumber pada kolom sumber misalnya nama citra yang digunakan sebagai acuan dan kemudian klik <strong><em>Upload Changes</em></strong>.</li>
@@ -505,8 +561,8 @@ Pastikan tidak ada objek yang terpilih saat Anda menggunakan <em>plugin</em> <em
   
   
   <div>
-    <a href="https://github.com/hotosm/pdc-documentation/commit/3cecd414d59e2f05d3885b7118a9c45c6326ecbd" title='Last modified May 15, 2019 04:53 UTC by Tri Selasa' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> May 15, 2019
+    <a href="https://github.com/hotosm/pdc-documentation/commit/6a2882ec62b66ea53333a84af97bd680642a45b0" title='Last modified July 29, 2019 05:48 UTC by Adityo Dwijananto' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Jul 29, 2019
     </a>
   </div>
   
@@ -522,6 +578,19 @@ Pastikan tidak ada objek yang terpilih saat Anda menggunakan <em>plugin</em> <em
   <aside class="book-toc fixed">
     
       
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#i-menginstal-buildings-tools-di-plugin-josm"><strong>I. Menginstal <em>buildings tools</em> di <em>plugin</em> JOSM</strong></a></li>
+<li><a href="#ii-menggunakan-alat-buildings-tools"><strong>II. Menggunakan alat <em>buildings tools</em></strong></a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    
   </aside>
 
 
@@ -539,6 +608,8 @@ Pastikan tidak ada objek yang terpilih saat Anda menggunakan <em>plugin</em> <em
     
 
   </footer>
+  
+
   
 </body>
 

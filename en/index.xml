@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HOT-PDC Training Site</title>
+    <link>/en/</link>
+    <description>Recent content on HOT-PDC Training Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Collection Methodology</title>
+      <link>/en/pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/</guid>
+      <description>Objectives: * Understand Data Collection Preparation * Understand Data Collection Workflow * Knowing Tools that used in Data Collection * Understand How to Collect Data in the Field
+Data collecting or commonly known as field survey is an important aspect in mapping activity especially in disaster management. Even though technology advancement nowadays such as aerial and satellite imagery is capable to help us to map remotely, there are some information that only can get by going to the mapping area.</description>
+    </item>
+    
+    <item>
+      <title>Getting started with OpenStreetMap</title>
+      <link>/en/pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/</guid>
+      <description>Objective:
+ To be able to operate and navigate the OpenStreetMap website To be able to see object information in OpenStreetMap To be able to create share link in OpenStreetMap To be able to save images from OpenStreetMap To be able to create user account in OpenStreetMap To be able to understand the basic concept of attribute in OpenStreetMap To be able to understand history in OpenStreetMap  After you understand the basic of OpenStreetMap in the previous module, you can immediately start using OpenStreetMap.</description>
+    </item>
+    
+    <item>
+      <title>Using ODK Collect</title>
+      <link>/en/pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/</guid>
+      <description>Objective:
+ Able to explain ODK Collect as one of the tools to collect infrastructure data Able to set the initial setup for ODK Collect Able to apply how to use ODK Collect for data collection survey  I. What is ODK Collect? Open Data Kit Collect (ODK Collect) is a data collection application on Android. ODK Collect can replace form survey from paper to digital. Therefore, this application will help the mapping and data collection activities in the field which also allow to save the location and photo information at once.</description>
+    </item>
+    
+    <item>
+      <title>Using the OpenMapKit Application</title>
+      <link>/en/pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/</guid>
+      <description>Objectives:
+ Able to explain OpenMapkit as one of the tools for collecting infrastructure data Able to operate the initial setup for OpenMapKit Able to operate how to enter offline basemap for OpenMapKit Able to operate OpenMapKit  Previously you already learn the ODK (OpenDataKit) Collect, an android-based application to replace paper form for surveys. ODK Collect has extension called OpenMapKit (OMK). This extension is used to add information on the position or location of the object surveyed.</description>
+    </item>
+    
+    <item>
+      <title>Using OSMTrackers</title>
+      <link>/en/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/</guid>
+      <description>Objectives:
+ Explain OSMTracker as one of survey tools for recording tracks and photos
+ How to set up the OSMTracker for the first time
+ Learn how to use OSMTracker
+  1. What is OSMTracker? OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoint and also track. If you want to learn more about GPS for field survey, you can see the GPS Module.</description>
+    </item>
+    
+    <item>
+      <title>Adding Survey Data into OSM Using JOSM</title>
+      <link>/en/pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/</guid>
+      <description>Objectives:
+ To be able to install plugin Utilsplugin2 To be able to merge all survey data To be able to save .osm file using JOSM To be able to download OSM data To be able to add satellite imagery layer on JOSM To be able to add and edit OSM data using JOSM To be able to upload changes into OSM To be able to view changes of OSM data in OSM website  Adding or mapping new objects in OSM is one way to enrich OSM data.</description>
+    </item>
+    
+    <item>
+      <title>Resolving Conflict on OpenStreetMap Data (OSM)</title>
+      <link>/en/pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/</guid>
+      <description>Objectives:
+ Participants can explain what is data conflict on OpenStreetMap Participants knowing about types of conflict in JOSM Participants can fix data conflicts using JOSM Participants know to avoid data conflict in JOSM  When you are uploading your changes in JSOM, some contributors might also do editing in your area. This might occur data conflict in your uploading process. Therefore, in this module, you will learn about data conflict in OpenStreetMap, types of conflict, and how to fix it using JOSM.</description>
+    </item>
+    
+  </channel>
+</rss>

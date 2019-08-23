@@ -14,7 +14,7 @@
 
 <link rel="stylesheet" href="../../../../normalize.min.css">
 
-<link rel="stylesheet" href="../../../../book.min.eef33454e9c5a767233b17f85141d9e41283b74cf9b6aad8a63ba7849076a025.css">
+<link rel="stylesheet" href="../../../../book.min.b0e8214cbf05079a2aba369158e0410c2515a8def4c0b44254eefada553ab758.css">
 
 <!--
 Made with Book Theme
@@ -32,7 +32,11 @@ https://github.com/hotosm/hugo-book
       </a>
       <a class="nav-guide-link guide-active" href="../../../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/" >Guide</a>
       <div class="hr-v"></div>
-      <a class="nav-pdf-download" href="../../../../pdfs/HOT-PDC_Training_Site.pdf">Download PDF &nbsp;
+      <a class="nav-pdf-download" 
+      
+      href="../../../../pdfs/id/HOT-PDC_Training_Site.pdf">
+      
+      Download PDF &nbsp;
       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
         <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
           <polygon points="0 0 20 0 20 20 0 20"/>
@@ -46,6 +50,30 @@ https://github.com/hotosm/hugo-book
     
     
     
+    
+
+    
+    <div class="hr-v"></div>
+    <div class="language">
+      <button class="language-btn">Language: id</button>
+      <div class="language-dropdown">
+        
+          
+          
+          <a href="../../../../">Indonesia</a>
+          
+         
+          
+            <a href="../../../../en">English</a>
+          
+         
+      </div>
+    </div>
+    
+
+    <div class="language-select"></div>
+    <div class="languages">
+    </div>
     
     <div class="hr-v"></div>
     <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../../svg/icon-external-red.svg" alt=""></a>
@@ -340,6 +368,54 @@ https://github.com/hotosm/hugo-book
     
 
     
+    <li>
+      <a href="../../../../pages/01-osm-field-surveyor-guideliness/">
+    
+    Panduan OpenStreetMap untuk Surveyor</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/02-hot-tasking-manager/">
+    
+    HOT Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/03-josm/">
+    
+    JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/04-data-validation-and-quality-assurance/">
+    
+    Validasi Data dan Penjaminan Kualitas</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/05-hot-export/">
+    
+    Penggunaan HOT Export</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/">
+    
+    Panduan Pemetaan Lapangan untuk Manajer Proyek</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/07-map-campaigner/">
+    
+    Menggunakan Map Campaigner</a>
+    </li>
+    
+    <li>
+      <a href="../../../../pages/08-osm-data-integration-to-inaware/">
+    
+    Integrasi data OpenStreetMap ke InAWARE</a>
+    </li>
+    
   </ul>
 
 
@@ -364,7 +440,11 @@ https://github.com/hotosm/hugo-book
       
 <article class="markdown">
   <div class="markdown__header">  <h1>Penggunaan YAML pada Export Tool</h1>
-    <a href="../../../../pdfs/04_Penggunaan_YAML_pada_Export_Tool.pdf" class="pdf-download-link"> Download page as PDF &nbsp;
+    <a 
+    
+    href="../../../../pdfs/id/04_Penggunaan_YAML_pada_Export_Tool.pdf">
+    
+    class="pdf-download-link"> Download page as PDF &nbsp;
       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
         <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
           <polygon points="0 0 20 0 20 20 0 20"/>
@@ -400,9 +480,7 @@ Cara membuat YAML untuk struktur data OSM dapat dibagi menjadi empat bagian, yai
 <li><em>Where</em> = menunjukkan letak objek pada data OSM, terdiri dari <em>key</em> dan <em>value</em> dari objek tersebut</li>
 </ul>
 
-<p><p align="center">
-  <img width=60% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0401_Struktur_format_YAML.png">
-</p>
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/0401_Struktur_format_YAML.png" alt="struktur yaml" />
 <p align="center"><i>Struktur format YAML untuk data OSM</i><p align="center"></p>
 
 <p><strong>b. Syarat Format Penulisan Struktur Data YAML</strong></p>
@@ -422,22 +500,86 @@ Cara membuat YAML untuk struktur data OSM dapat dibagi menjadi empat bagian, yai
 
 <p>Tabel Model Data OSM untuk Objek Bank</p>
 
-<p>| <em>key</em> | <em>possible values</em> |
- |&mdash;|&mdash;|
- |<em>amenity</em>|bank|
- |<em>building</em>|bank|
- |<em>amenity</em>|bank|
- |<em>name</em>|isian nama|
- |<em>addr:full</em>|isian alamat|
- |<em>capacity</em>|<50, 50-100, 100-250, 250-500, >500|
- |<em>building:levels</em>|isian dalam bentuk angka|
- |<em>building:structure</em>|<em>confined_masonry</em> (Rangka beton bertulang), <em>steel_frame</em> (Rangka baja), <em>wood_frame</em> (Rangka kayu), <em>bamboo_frame</em> (Rangka bambu)|
-|<em>building:walls</em>|<em>brick</em> (Bata), <em>concrete</em> (Beton), <em>wood</em> (Papan kayu), <em>bamboo</em> (Bambu), <em>glass</em> (Kaca)|
-|<em>building:floor</em>|<em>ground</em> (Tanah), <em>wood</em> (Papan kayu), <em>cement</em> (Plester / Semen), <em>tekhel</em> (Tegel), <em>ceramics</em> (Keramik)|
-|<em>building:roof</em>|<em>tile</em> (Genteng), <em>tin</em> (Seng), <em>asbestos</em> (Asbes), <em>concrete</em> (Beton)|
-|<em>access:roof</em>|<em>yes</em> (Ada), <em>no</em> (Tidak ada)|
-|<em>building:condition</em>|<em>poor</em> (Buruk), <em>good</em> (Baik)|
-|<em>backup_generator</em>|<em>yes</em> (Ada), <em>no</em> (Tidak ada)|</p>
+<table>
+<thead>
+<tr>
+<th><em>key</em></th>
+<th><em>possible values</em></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><em>amenity</em></td>
+<td>bank</td>
+</tr>
+
+<tr>
+<td><em>building</em></td>
+<td>bank</td>
+</tr>
+
+<tr>
+<td><em>amenity</em></td>
+<td>bank</td>
+</tr>
+
+<tr>
+<td><em>name</em></td>
+<td>isian nama</td>
+</tr>
+
+<tr>
+<td><em>addr:full</em></td>
+<td>isian alamat</td>
+</tr>
+
+<tr>
+<td><em>capacity</em></td>
+<td><50, 50-100, 100-250, 250-500, >500</td>
+</tr>
+
+<tr>
+<td><em>building:levels</em></td>
+<td>isian dalam bentuk angka</td>
+</tr>
+
+<tr>
+<td><em>building:structure</em></td>
+<td><em>confined_masonry</em> (Rangka beton bertulang), <em>steel_frame</em> (Rangka baja), <em>wood_frame</em> (Rangka kayu), <em>bamboo_frame</em> (Rangka bambu)</td>
+</tr>
+
+<tr>
+<td><em>building:walls</em></td>
+<td><em>brick</em> (Bata), <em>concrete</em> (Beton), <em>wood</em> (Papan kayu), <em>bamboo</em> (Bambu), <em>glass</em> (Kaca)</td>
+</tr>
+
+<tr>
+<td><em>building:floor</em></td>
+<td><em>ground</em> (Tanah), <em>wood</em> (Papan kayu), <em>cement</em> (Plester / Semen), <em>tekhel</em> (Tegel), <em>ceramics</em> (Keramik)</td>
+</tr>
+
+<tr>
+<td><em>building:roof</em></td>
+<td><em>tile</em> (Genteng), <em>tin</em> (Seng), <em>asbestos</em> (Asbes), <em>concrete</em> (Beton)</td>
+</tr>
+
+<tr>
+<td><em>access:roof</em></td>
+<td><em>yes</em> (Ada), <em>no</em> (Tidak ada)</td>
+</tr>
+
+<tr>
+<td><em>building:condition</em></td>
+<td><em>poor</em> (Buruk), <em>good</em> (Baik)</td>
+</tr>
+
+<tr>
+<td><em>backup_generator</em></td>
+<td><em>yes</em> (Ada), <em>no</em> (Tidak ada)</td>
+</tr>
+</tbody>
+</table>
 
 <ul>
 <li>Buka <strong>Notepad</strong> yang tersedia pada laptop/komputer Anda.</li>
@@ -512,18 +654,14 @@ Cara membuat YAML untuk struktur data OSM dapat dibagi menjadi empat bagian, yai
 <li>Buka halaman situs Anda, dan ketikkan link berikut ini <a href="https://export.hotosm.org">https://export.hotosm.org</a></li>
 </ul>
 
-<p><p align="center">
-  <img width=95% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0402_Halaman_Situs_Export.png">
-</p>
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/0402_Halaman_Situs_Export.png" alt="halaman depan export tool" />
 <p align="center"><i>Halaman muka situs Export Tool</i><p align="center"></p>
 
 <ul>
 <li>Anda harus masuk menggunakan akun OSM dengan klik <strong><em>Login</em></strong> di sudut kanan atas. Apabila muncul <em>‘Authorize access to your account’</em> klik <strong><em>Grant Access</em></strong>. Periksa alamat email Anda untuk mengkonfirmasi pembuatan akun pada email yang masih aktif. Klik tautan pada email tersebut untuk konfirmasi pembuatan akun.</li>
 </ul>
 
-<p><p align="center">
-  <img width=95% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0403_Izin_akses_akun_OSM.png">
-</p>
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/0403_Izin_akses_akun_OSM.png" alt="izin akses akun" />
 <p align="center"><i>Izin akses akun OSM</i><p align="center"></p>
 
 <ul>
@@ -531,9 +669,7 @@ Cara membuat YAML untuk struktur data OSM dapat dibagi menjadi empat bagian, yai
 <li>Pada <strong><em>Menu Describe</em></strong> akan muncul formulir isian dan gambar peta seperti gambar di bawah ini, formulir isian yang wajib diisi dan Anda dapat memilih area yang diinginkan pada gambar peta di sebelah kanan.</li>
 </ul>
 
-<p><p align="center">
-  <img width=90% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0404_Lembar_kerja_Export_Tool.png">
-</p>
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/0404_Lembar_kerja_Export_Tool.png" alt="lembar kerja export tool" />
 <p align="center"><i>Lembar kerja Export Tool</i><p align="center"></p>
 
 <ul>
@@ -542,68 +678,52 @@ Cara membuat YAML untuk struktur data OSM dapat dibagi menjadi empat bagian, yai
 
 <p><strong><em>Box</em></strong> = Menggambar area dengan menggunakan kotak. Jika Anda ingin mengulang untuk pembuatan kotak klik tanda X pada kolom <em>Box</em>.</p>
 
-<p><p align="center">
-  <img width=80% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0405_Penentuan_area_box.png">
-</p>
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/0405_Penentuan_area_box.png" alt="penentuan area" />
 <p align="center"><i>Penentuan area dengan bentuk kotak</i><p align="center"></p>
 
 <p><strong><em>Draw</em></strong> = Menggambar area yang dipilih secara manual, Anda dapat klik pada area yang ingin digambar dan diakhiri dengan klik dua kali.</p>
 
-<p><p align="center">
-  <img width=80% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0406_Penentuan_area_dengan_bentuk_manual.png">
-</p>
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/0406_Penentuan_area_dengan_bentuk_manual.png" alt="penentuan area manual" />
 <p align="center"><i>Penentuan area dengan bentuk manual</i><p align="center"></p>
 
 <p><strong><em>Import</em></strong> = Menggunakan poligon dalam format <em>.geojson</em> untuk memilih area yang akan di <em>download</em>. Syarat format data <em>.geojson</em> yang dapat ditambahkan ke dalam <em>Export Tool</em> adalah harus satu fitur (satu baris) pada data atribut. Anda dapat membuka modul <strong>Menggunakan GeoJSON</strong> untuk mengetahui cara mendapatkan data <em>.geojson.</em></p>
 
-<p><p align="center">
-  <img width=80% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0407_Penentuan_area_dengan_import.png">
-</p>
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/0407_Penentuan_area_dengan_import.png" alt="penentuan area batas admin" />
 <p align="center"><i>Penentuan area dengan berdasarkan batas administrasi</i><p align="center"></p>
 
 <ul>
 <li>Jika sudah menyelesaikan formulir isian dan menentukan area yang akan di <em>download</em>, pilih menu <strong><em>Format</em></strong>. Pilih data spasial yang Anda inginkan, misalnya <em>.shapefile</em></li>
 </ul>
 
-<p><p align="center">
-  <img width=50% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0408_Format_data_spasial.png">
-</p>
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/0408_Format_data_spasial.png" alt="format data spasial" />
 <p align="center"><i>Format data spasial</i><p align="center"></p>
 
 <ul>
 <li>Selanjutnya klik Menu <strong>Data → YAML</strong>. Salin struktur data YAML yang telah dibuat, tempelkan/<em>paste</em> ke kotak YAML</li>
 </ul>
 
-<p><p align="center">
-  <img width=70% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0409_Menu_YAML.png">
-</p>
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/0409_Menu_YAML.png" alt="menu yaml" />
 <p align="center"><i>Menu YAML</i><p align="center"></p>
 
 <ul>
 <li>Klik Menu <strong><em>Summary</em></strong>, Anda harus memilih apakah <em>file</em> ekspor ini akan dipublikasikan kepada umum atau hanya ada pada akun Anda. Kemudian klik <strong><em>Create Export</em></strong> untuk memulai proses ekspor data OSM.</li>
 </ul>
 
-<p><p align="center">
-  <img width=70% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0410_Menu_summary.png">
-</p>
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/0410_Menu_summary.png" alt="menu summary" />
 <p align="center"><i>Menu summary</i><p align="center"></p>
 
 <ul>
 <li>Tunggu beberapa saat sampai proses selesai. Jika <em>file export</em> Anda sudah selesai, <em>Export Tool</em> akan memberikan pemberitahuan melalui <em>email</em>, atau Anda dapat melihat hasilnya di Menu <strong><em>Export.</em></strong> Jika Anda ingin melihat hasil <em>export</em> yang dilakukan oleh pengguna lainnya, maka beri tanda centang <strong><em>Show all Export</em></strong>.</li>
 </ul>
 
-<p><p align="center">
-  <img width=90% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0411_Menu_export.png">
-</p>
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/0411_Menu_export.png" alt="menu export" />
 <p align="center"><i>Menu Export</i><p align="center"></p>
 
 <ul>
 <li>Jika proses sudah selesai akan muncul kotak dialog seperti di bawah ini dengan status <strong><em>COMPLETED</em></strong>, klik tulisan berwarna biru seperti <strong>nama file.shp.zip</strong> untuk menyimpan hasil ekspor data OSM.</li>
 </ul>
 
-<p><p align="center">
-  <img width=80% src="../../../../pages/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/images/0412_Done.png">
-</p>
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/0412_Done.png" alt="proses export selesai" />
 <p align="center"><i>Proses export tool telah selesai</i><p align="center"></p>
 
 <p><strong>Latihan!</strong></p>
@@ -626,8 +746,8 @@ Cara membuat YAML untuk struktur data OSM dapat dibagi menjadi empat bagian, yai
   
   
   <div>
-    <a href="https://github.com/hotosm/pdc-documentation/commit/8c6374ccad57da92262d08e4ec411e05f13bbc05" title='Last modified July 2, 2019 03:54 UTC by Dewi Sulistioningrum' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Jul 2, 2019
+    <a href="https://github.com/hotosm/pdc-documentation/commit/6a2882ec62b66ea53333a84af97bd680642a45b0" title='Last modified July 29, 2019 05:48 UTC by Adityo Dwijananto' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Jul 29, 2019
     </a>
   </div>
   
@@ -643,6 +763,20 @@ Cara membuat YAML untuk struktur data OSM dapat dibagi menjadi empat bagian, yai
   <aside class="book-toc fixed">
     
       
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#i-pengertian-yaml"><strong>I. Pengertian YAML</strong></a></li>
+<li><a href="#ii-pembuatan-yaml-untuk-filter-data-di-export-tool"><strong>II. Pembuatan YAML untuk Filter Data di <em>Export Tool</em></strong></a></li>
+<li><a href="#iii-penggunaan-yaml-pada-export-tool"><strong>III. Penggunaan YAML pada <em>Export Tool</em></strong></a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    
   </aside>
 
 
@@ -660,6 +794,8 @@ Cara membuat YAML untuk struktur data OSM dapat dibagi menjadi empat bagian, yai
     
 
   </footer>
+  
+
   
 </body>
 
