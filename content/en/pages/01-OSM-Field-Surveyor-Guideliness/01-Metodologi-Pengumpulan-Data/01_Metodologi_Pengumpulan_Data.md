@@ -4,6 +4,7 @@ weight: 1
 ---
 
 **Objectives:**
+
 *   Understand Data Collection Preparation
 *   Understand Data Collection Workflow
 *   Knowing Tools that used in Data Collection
@@ -118,6 +119,7 @@ Overall, collecting data for infrastructure is done by tracking all area of the 
 <p align="center"><i>Workflow of Infrastructure Data collection</i></p>
 
 > Notes :
+
 > 1. Infrastructure Data collection usually takes 2-4 days to be finished for 1 village.
 > 2. Duration of field survey depends on area size and data density in the mapping area.
 > 3. All field data survey MUST BE UPLOADED daily every day to  ke google drive dan ona.io server and deleted in the smartphone after that. This need to be done to anticipate smartphone memory running of capacity and as a report to Quality Assurance who will be doing validation to the data.
