@@ -112,10 +112,10 @@ Every mapping staff has a role in the implementation field survey. There are par
 *   Mapping Supervisor = ensure the quality and quantity of survey data, monitory whole implementation the mapping activity adjusted to timeline.
 
 Example Table on Mapping Process
-   
-|PREPARING THE SMARTPHONE|  | SURVEY|  |  |   |   |INPUT| | | | | | 
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
+    
+
 |mbtiles|clear file manager|Survey|Getting RW Boundary|Survey Infrastructure|Shelters|Route|Upload track|Send form|Objects|RW|Shelters and Route|Validation|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | v | v | 1,5-6 Mar 2018 | 1 Mar 2018 | v | v | x | v | v | v | v | v | 26 Mar 2018 |
 | v | v | 12 Feb 2018 | 12 Feb 2018 | v | v | x | v | v | v | v | v | 14, 19 Feb 2018 |
 | v | v | 8,12-14 Mar 2018 | 12 Mar 2018 | v | v | x | v | v | v | v | v | 27-28 Mar 2018 |
