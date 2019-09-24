@@ -90,65 +90,76 @@ Dalam pemetaan di _OpenStreetMap_ Anda dapat memetakan segala macam objek yang a
 Memilih objek yang akan dipetakan di dalam _OpenStreetMap_ tergantung dari tujuan pemetaan itu sendiri. Tujuan pemetaan di dalam kegiatan HOT-PDC InAWARE adalah untuk melengkapi infrastruktur publik yang memiliki peran penting dalam kegiatan manajemen kebencanaan. Berikut adalah objek-objek yang dipetakan ke dalam _OpenStreetMap_ dalam pemetaan HOT-PDC InAWARE:
 
 **1.Fasilitas Ekonomi**
-*   Pasar
-*   Supermarket
-*   Bank
+
+* Pasar
+* Supermarket
+* Bank
 
 **2. Fasilitas Pendidikan**
-*   Universitas
-*   Sekolah Tinggi
-*   Sekolah (SD, SMP, SMA)
-*   Taman Kanak-Kanak
+
+* Universitas
+* Sekolah Tinggi
+* Sekolah (SD, SMP, SMA)
+* Taman Kanak-Kanak
 
 **3. Fasilitas Kesehatan**
-*   Rumah Sakit
-*   Klinik
+
+* Rumah Sakit
+* Klinik
 
 **4. Infrastruktur Komunikasi**
-*   Tower Komunikasi
+
+* Tower Komunikasi
 
 **5. Layanan Kedaruratan**
-*   Kantor Polisi
-*   Kantor Pemadam Kebakaran
-*   Tempat Evakuasi
-*   Hidran Air
+
+* Kantor Polisi
+* Kantor Pemadam Kebakaran
+* Tempat Evakuasi
+* Hidran Air
 
 **6. Kantor Pemerintahan**
-*   Kantor Pemerintah (Kantor Gubernur, Kantor Walikota, Kantor Kantor Kecamatan, Kantor Kelurahan, dan Kantor RW)
-*   Kedutaan Besar
-*   Instansi Pemerintah (Kementrian dan Lembaga)
+
+* Kantor Pemerintah (Kantor Gubernur, Kantor Walikota, Kantor Kantor Kecamatan, Kantor Kelurahan, dan Kantor RW)
+* Kedutaan Besar
+* Instansi Pemerintah (Kementrian dan Lembaga)
 
 **7. Infrastruktur Kelistrikan**
-*   Tower Listrik
-*   Gardu Listrik
-*   Pembangkit Listrik
+
+* Tower Listrik
+* Gardu Listrik
+* Pembangkit Listrik
 
 **8. Sarana Transportasi**
-*   Bandar Udara
-*   Terminal Bis
-*   Stasiun Kereta
-*   Pelabuhan/Dermaga
+
+* Bandar Udara
+* Terminal Bis
+* Stasiun Kereta
+* Pelabuhan/Dermaga
 
 **9. Fasilitas Publik**
-*   Tempat Ibadah (Masjid, Musala, Gereja, Capel, Pura, Vihara)
-*   Fasilitas Olahraga (GOR, Stadium, Lapangan Olahraga, Ruang Terbuka Hijau)
-*   Ruang Publik Terpadu Ramah Anak (RPTRA)
+
+* Tempat Ibadah (Masjid, Musala, Gereja, Capel, Pura, Vihara)
+* Fasilitas Olahraga (GOR, Stadium, Lapangan Olahraga, Ruang Terbuka Hijau)
+* Ruang Publik Terpadu Ramah Anak (RPTRA)
 
 **10. Sarana Perairan**
-*   Menara Air
-*   Pintu Air
-*   Rumah Pompa
-*   Tanggul
-*   Sungai
-*   Waduk / Danau
+
+* Menara Air
+* Pintu Air
+* Rumah Pompa
+* Tanggul
+* Sungai
+* Waduk / Danau
 
 **11. Stasiun Pengisian Bahan Bakar Umum (SPBU)**
 
 **12. Batas Wilayah Administrasi**
-*   Batas Kota
-*   Batas Kecamatan
-*   Batas Kelurahan
-*   Batas RW
+
+* Batas Kota
+* Batas Kecamatan
+* Batas Kelurahan
+* Batas RW
 
 **13. Jaringan Jalan**
 
@@ -177,11 +188,13 @@ Tabel _Tag_ Informasi Sekolah
 Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi terhadap masing-masing objek yang akan dipetakan. Oleh karena itu, Anda membutuhkan model data yang dapat membantu tim surveyor untuk melakukan pemetaan di lapangan dan input data ke dalam _OpenStreetMap_. Berikut adalah contoh model data untuk masing-masing objek dalam kegiatan Pemetaan HOT-PDC InAWARE:
 
 **Keterangan Warna:**
-*   <font color="99DBFF"> Warna biru </font> artinya _key_ dan _value_ tersebut wajib dimiliki oleh objek tersebut.
-*   <font color="#FF7278"> Warna merah </font> artinya _key_ dan _value_ merupakan informasi khusus untuk bangunan. Jika objek tersebut memiliki bangunan sendiri maka informasi tersebut perlu dimasukkan, jika objek  menumpang di bangunan lain dengan fungsi yang berbeda maka informasi tersebut tidak perlu dimasukkan.
-*   Warna hitam artinya _key_ dan _value_ tersebut **sebaiknya** dimasukkan ke dalam objek pemetaan baik objek tersebut  memiliki bangunan sendiri ataupun menumpang di bangunan yang lain.
+
+* <font color="99DBFF"> Warna biru </font> artinya _key_ dan _value_ tersebut wajib dimiliki oleh objek tersebut.
+* <font color="#FF7278"> Warna merah </font> artinya _key_ dan _value_ merupakan informasi khusus untuk bangunan. Jika objek tersebut memiliki bangunan sendiri maka informasi tersebut perlu dimasukkan, jika objek  menumpang di bangunan lain dengan fungsi yang berbeda maka informasi tersebut tidak perlu dimasukkan.
+* Warna hitam artinya _key_ dan _value_ tersebut **sebaiknya** dimasukkan ke dalam objek pemetaan baik objek tersebut  memiliki bangunan sendiri ataupun menumpang di bangunan yang lain.
 
 **1.Fasilitas Ekonomi**
+
 * Tabel Model Data Pasar
 
 | key  |  possible values |
@@ -356,6 +369,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 
 
 **3. Fasilitas Kesehatan**
+
 * Tabel Model Data Rumah Sakit
 
 | key  |  possible values |
@@ -413,6 +427,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 | toilets:number  |  (jumlah toilet) |
 
 **4. Infrastruktur Komunikasi**
+
 * Tabel Model Data Tower Komunikasi
 
 |key   | possible values  |
@@ -428,6 +443,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 | source  | HOT_InAWARESurvey_2018  |
 
 **5. Layanan Kedaruratan**
+
 * Tabel Model Data Kantor Polisi
 
 | key  |  possible values |
@@ -482,6 +498,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 | source  | HOT_InAWARESurvey_2018  |
 
 **6. Kantor Pemerintahan**
+
 * Tabel Model Data Kantor Pemerintah (Kantor Gubernur, Kantor Walikota, Kantor Camat, Kantor Lurah, Kantor RW)
 
 | key  |  possible values |
@@ -532,6 +549,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 |  source |  HOT_InAWARESurvey_2018 |
 
 **7. Infrastruktur Kelistrikan**
+
 * Tabel Model Data Tower Listrik
 
 |  key | possible values  |
@@ -568,6 +586,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 |  source | HOT_InAWARESurvey_2018  |
 
 **8. Sarana Transportasi**
+
 * Tabel Model Data Bandar Udara
 
 | key  |  possible values |
@@ -631,6 +650,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 |  source |  HOT_InAWARESurvey_2018 |
 
 **9. Fasilitas Publik**
+
 * Tabel Model Data Tempat Ibadah (Masjid, Musala, Gereja, Capel, Pura, Vihara)
 
 | key  |  possible values |
@@ -704,6 +724,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 | toilets:number  |  (jumlah toilet) |
 
 **10. Sarana Perairan**
+
 * Tabel Model Data Menara Air
 
 | key  |  possible values |
@@ -780,6 +801,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 |  source |  HOT_InAWARESurvey_2018 |
 
 **11. Stasiun Pengisian Bahan Bakar Umum (SPBU)**
+
 * Tabel Model Data SPBU
 
 | key  |  possible values |
@@ -829,6 +851,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 Setelah Anda mengetahui model data berdasarkan _tag_ yang diperlukan untuk masing-masing objek khususnya dalam kegiatan pemetaan kebencanaan, Anda juga perlu mengetahui pemetaan objek berdasarkan tipe data di _OpenStreetMap_. Berikut adalah tabel pembagian jenis-jenis objek berdasarkan tipe data yang dapat dipetakan:
 
 **Keterangan Warna:**
+
 *   <font color="#7EFF83">Warna hijau</font> artinya objek bisa dipetakan dalam tipe data tersebut.
 *   <font color="#FF7278">Warna merah</font> artinya objek tidak bisa dan tidak boleh dipetakan dalam tipe data tersebut
 
@@ -837,7 +860,7 @@ Tabel Jenis Infrastruktur dan Tipe Data di _OpenStreetMap_
 ![Tabel Infrastruktur](/id/images/06-OSM-Field-Survey-Manager-Guidelines/02-Model-Data-OpenStreetMap/0207_tabel_infrastruktur.png "Tabel Infrastruktur")
 
 
-### V. Mengecek _key_ dan _value_ di _Tag Info_
+### **V. Mengecek _key_ dan _value_ di _Tag Info_**
 
 Pada bab sebelumnya sudah dijelaskan mengenai panduan untuk melihat _key_ dan _value_ pada objek di _OpenStreetMap_ dengan menggunakan halaman wikipedia _Map Features_ dan Referensi objek OSM Indonesia. Namun, ada beberapa _key_ dan _value_ yang tidak dijelaskan pada halaman tersebut khususnya informasi yang lebih rinci dan spesifik misalnya untuk **kapasitas orang pada sebuah bangunan** atau **jenis lantai bangunan**. Untuk melihat informasi (_tag_) tersebut Anda dapat melihat di halaman berikut: [https://taginfo.openstreetmap.org/](https://taginfo.openstreetmap.org/) 
 

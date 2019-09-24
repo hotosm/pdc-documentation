@@ -112,9 +112,8 @@ Pada saat proses survei pemetaan, masing-masing tim memiliki peran agar survei p
 
 Contoh Tabel *Timeline* Pemetaan Tahap Survei Pemetaan
 
-|PERSIAPAN HP|  | SURVEI |  |  |   |   |  INPUT | | | | | | 
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |input mbtiles|*clear file manager*|Tgl Survei|Tgl Survey Batas RW|Infrastruktur|Posko|Jalur Evakuasi|Upload track|Kirim form ke OMK Server|Infrastruktur|RW|Jalur Evakuasi dan Posko|Tgl Validasi Data|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | v | v | 1,5-6 Mar 2018 | 1 Mar 2018 | v | Ada | Tidak Ada | v | v | v | v | v | 26 Mar 2018 |
 | v | v | 12 Feb 2018 | 12 Feb 2018 | v | Ada | Tidak Ada | v | v | v | v | v | 14, 19 Feb 2018 |
 | v | v | 8,12-14 Mar 2018 | 12 Mar 2018 | v | Ada | Tidak Ada | v | v | v | v | v | 27-28 Mar 2018 |

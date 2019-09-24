@@ -135,7 +135,7 @@ Mengumpulkan data batas administrasi sedikit berbeda dengan mengumpulkan data in
 
 Pengumpulan data batas administrasi menggunakan pendekatan komunikasi dan melibatkan perwakilan kelurahan dan masyarakat setempat. Secara umum cara pengambilan batas administrasi adalah dengan datang ke kantor kelurahan yang menjadi area target pemetaan dengan membawa peta survei kemudian berdiskusi dengan pihak kelurahan tentang batas-batas kelurahan dan rukun warga (RW). Pihak kelurahan kemudian akan melihat peta survei dan setelah itu menggambar garis batas-batas kelurahan dengan alat tulis seperti pensil ataupun spidol di atas peta survei tersebut. 
 
-![Kegiatan pengumpulan batas administrasi di kantor kelurahan]/id(/images/01-OSM-Field-Surveyor-Guideliness/01-Metodologi-Pengumpulan-Data/0105_metode_pengumpulan_data.png "Kegiatan pengumpulan batas administrasi di kantor kelurahan")
+![Kegiatan pengumpulan batas administrasi di kantor kelurahan](/id/images/01-OSM-Field-Surveyor-Guideliness/01-Metodologi-Pengumpulan-Data/0105_metode_pengumpulan_data.png "Kegiatan pengumpulan batas administrasi di kantor kelurahan")
 <p align="center"><i>Kegiatan pengumpulan batas administrasi di kantor kelurahan</i></p>
 
 Setelah selesai, _data entry_ dapat memberikan hasil pengumpulan batas administrasi tersebut kepada _Quality Assurance_ untuk di-_input_ ke dalam _OpenStreetMap_ dengan menggunakan JOSM. Untuk penjelasan tentang bagaimana cara _input_ batas-batas administrasi dapat dilihat di Modul **Membuat Batas Administrasi di JOSM**.

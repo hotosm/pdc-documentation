@@ -5,16 +5,16 @@ weight: 1
 
 **Objectives:**
 
-*   Understand Data Collection Preparation
-*   Understand Data Collection Workflow
-*   Knowing Tools that used in Data Collection
-*   Understand How to Collect Data in the Field
+* Understand Data Collection Preparation
+* Understand Data Collection Workflow
+* Knowing Tools that used in Data Collection
+* Understand How to Collect Data in the Field
 
 Data collecting or commonly known as field survey is an important aspect in mapping activity especially in disaster management. Even though technology advancement nowadays such as aerial and satellite imagery is capable to help us to map remotely, there are some information that only can get by going to the mapping area.  Therefore, field survey is the only option which can help us to get some specific information that we need.
 
 When doing field survey, you need to know the proper methodology to do it. This is an important thing as it will help you to complete your field survey efficiently and effectively. Moreover, a good data collecting will gives you good output both from quality and quantity aspect. In this chapter, you will learn about the methodology and workflow when doing field survey particularly in HOT-PDC InAWARE project.
 
-### **I. Data Collecting Preparation**
+### **I. Data Collection Preparation**
 
 Before doing mapping activity for HOT-PDC InAWARE, _Humanitarian OpenStreetMap Team_ (HOT) Indonesia have made organized and systematic plan. This needs to be done so the mapping activity can be run efficiently and effectively and also to maintain data quality. There are some preparation activities before going to the field as follows:
 
@@ -151,6 +151,6 @@ Collecting data of administration boundary have to involve village representativ
 If the local head of mapping area can not come to the village office, the survey team HAVE TO visit his/her house and bring the survey map to discuss about the administration boundary in their area.
 If the local head refuse to help, the survey team should ask local disaster management agency (BPBD) to help them collecting administration boundary in that area.
 
-### **SUMMARY**
+**SUMMARY**
 
 You have finished workflow and methodology of data collection when doing the field survey. Knowing all the steps and methodology, you can do the field survey effectively and efficiently so the result can get as expected and have good quality and quantity based on OpenStreetMap standard.
