@@ -5,11 +5,31 @@
   <url>
     <loc>/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/</loc>
     <lastmod>2019-07-29T13:48:49+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/"
+                />
   </url>
   
   <url>
     <loc>/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/</loc>
     <lastmod>2019-07-29T13:48:49+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/"
+                />
   </url>
   
   <url>
@@ -24,7 +44,7 @@
   
   <url>
     <loc>/pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/</loc>
-    <lastmod>2019-07-29T11:47:59+08:00</lastmod>
+    <lastmod>2019-08-20T11:10:21+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -39,7 +59,7 @@
   
   <url>
     <loc>/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/</loc>
-    <lastmod>2019-07-29T13:48:49+08:00</lastmod>
+    <lastmod>2019-08-26T14:37:31+07:00</lastmod>
   </url>
   
   <url>
@@ -109,7 +129,17 @@
   
   <url>
     <loc>/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/</loc>
-    <lastmod>2019-07-29T13:48:49+08:00</lastmod>
+    <lastmod>2019-08-20T14:00:40+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/"
+                />
   </url>
   
   <url>
@@ -159,7 +189,17 @@
   
   <url>
     <loc>/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/</loc>
-    <lastmod>2019-07-29T13:48:49+08:00</lastmod>
+    <lastmod>2019-08-20T10:27:17+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/"
+                />
   </url>
   
   <url>
@@ -320,6 +360,16 @@
   <url>
     <loc>/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/</loc>
     <lastmod>2019-08-22T16:11:52-06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/"
+                />
   </url>
   
   <url>

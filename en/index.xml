@@ -21,6 +21,37 @@
     </item>
     
     <item>
+      <title>Download OSM Data using Export Tool</title>
+      <link>/en/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/</guid>
+      <description>Objectives:
+ To be able to explain the definition and function of Export Tools To be able to operate Export Tools  In this chapter, we can learn about how to download the OSM data that we have added and uploaded into OSM. The data can be used to analysis, customize with data symbology, create maps, and others depend on your necessary.
+I. Export Tool Concept The Export Tool is an open service that creates customized extracts of up-to-date OSM data in various file formats, such as ESRI shapefiles (.</description>
+    </item>
+    
+    <item>
+      <title>OpenStreetMap Data Integration to InAWARE</title>
+      <link>/en/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/</guid>
+      <description>Objectives:
+ Knowing to create an account in InAWARE Knowing Add OpenStreetMap Data into InAWARE  The main goal of HOT-PDC InAWARE Mapping Project is to to complete and provide spatial open data for public so it can be used for any disaster management sector by National Government (BNPB) and Local Disaster Management Agency (BPBD) in InAWARE, a platform that made by Pacific Disaster Center (PDC), an institution from University of Hawaii.</description>
+    </item>
+    
+    <item>
+      <title>The Mapping Methodology with OpenStreetMap</title>
+      <link>/en/pages/06-osm-field-survey-manager-guidelines/01_metodologi_kerangka_kerja_pemetaan/01_metodologi_kerangka_kerja_pemetaan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/06-osm-field-survey-manager-guidelines/01_metodologi_kerangka_kerja_pemetaan/01_metodologi_kerangka_kerja_pemetaan/</guid>
+      <description>Objectives:
+ To be able to explain how to create a timeline for mapping activity To be able to explain how to create a folder for each team mapping To be able to explain how to divide the survey area based on the administrative boundary To be able to explain how to create team mapping effectively  Planning a mapping project requires an appropriate and efficient survey methodology to achieve the target and purpose.</description>
+    </item>
+    
+    <item>
       <title>Getting started with OpenStreetMap</title>
       <link>/en/pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -28,6 +59,16 @@
       <guid>/en/pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/</guid>
       <description>Objective:
  To be able to operate and navigate the OpenStreetMap website To be able to see object information in OpenStreetMap To be able to create share link in OpenStreetMap To be able to save images from OpenStreetMap To be able to create user account in OpenStreetMap To be able to understand the basic concept of attribute in OpenStreetMap To be able to understand history in OpenStreetMap  After you understand the basic of OpenStreetMap in the previous module, you can immediately start using OpenStreetMap.</description>
+    </item>
+    
+    <item>
+      <title>OpenStreetMap Data Model</title>
+      <link>/en/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/</guid>
+      <description>Objectives:
+ Understanding Concept of tag, key, dan value in OpenStreetMap Knowing OpenStreetMap wiki page as a guideline for key and value Understanding Objects which can be mapped into OpenStreetMap Knowing and Understanding data model as a part of mapping preparation plan Checking specific key and value in TagInfo website  In this module, you will learn about key and value concept in OpenStreetMap (OSM) as well as data model in OSM objects.</description>
     </item>
     
     <item>
@@ -51,6 +92,16 @@
     </item>
     
     <item>
+      <title>JOSM for Data Quality</title>
+      <link>/en/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/</guid>
+      <description>Objectives:
+ Understanding how to select and count numbers of objects in certain administration boundary Understanding how to count numbers of error and warning in certain administration boundary Understanding how to validate administration boundary  One of the expected results in doing mapping activity is to produce a good quality map. The quality including object information completeness and right topology. Using OpenStreetMap as a base map to show the result of field survey could help you to monitor the progress of your mapping activity result by counting objects and information from the field.</description>
+    </item>
+    
+    <item>
       <title>Using OSMTrackers</title>
       <link>/en/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -64,6 +115,16 @@
     </item>
     
     <item>
+      <title>Using YAML</title>
+      <link>/en/pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04-penggunaan-yaml-pada-export-tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04-penggunaan-yaml-pada-export-tool/</guid>
+      <description>Objectives:
+ To be able to explain about YAML concept To be able to create YAML for export data in Export Tool To be able to demonstrate how to get OSM data in Export Tool using YAML  As explained before, we have learned how to create a customized presets on OpenStreetMap and determine the OpenStreetMap data model to use in the mapping process. In the chapter Using Export Tool, we found the result data attributes only show the attribute from the OSM format.</description>
+    </item>
+    
+    <item>
       <title>Adding Survey Data into OSM Using JOSM</title>
       <link>/en/pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -71,6 +132,36 @@
       <guid>/en/pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/</guid>
       <description>Objectives:
  To be able to install plugin Utilsplugin2 To be able to merge all survey data To be able to save .osm file using JOSM To be able to download OSM data To be able to add satellite imagery layer on JOSM To be able to add and edit OSM data using JOSM To be able to upload changes into OSM To be able to view changes of OSM data in OSM website  Adding or mapping new objects in OSM is one way to enrich OSM data.</description>
+    </item>
+    
+    <item>
+      <title>Creating Field Maps using QGIS</title>
+      <link>/en/pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07-pembuatan-peta-survey-dengan-qgis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07-pembuatan-peta-survey-dengan-qgis/</guid>
+      <description>Objectives:
+ To be able to operate QGIS to install QuicMapServices Plugin To be able to operate QGIS to create a field survey map  Field maps are used to advise data entry in identifying the locations during the field survey. If data entries have gotten the administrative boundary with the government in the village office, a field map can be used to delineation the administrative boundary. Then we can bring the map to our office and input the boundary using JOSM.</description>
+    </item>
+    
+    <item>
+      <title>Creating the Administrative Boundaries in JOSM</title>
+      <link>/en/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/</guid>
+      <description>Objectives:
+ To be able to explain the definition and example of relation in OpenStreetMap To be able to explain administrative boundary concept in OpenStreetMap To be able to explain term and condition to create an administrative boundary in OpenStreetMap To be able to create the administrative boundaries in OpenStreetMap  The mapping of administrative boundaries in OpenStreetMap was suggested to an advanced mapper or experienced user with regularly mapping in OpenStreetMap.</description>
+    </item>
+    
+    <item>
+      <title>Group Stats Plugin for Calculate The Objects</title>
+      <link>/en/pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/</guid>
+      <description>Objectives:
+ To be able to demonstrate how to install a plugin for calculate number of object in QGIS To be able to operate the Group Stats plugin for calculate number of OSM Object  The calculation of the quantity of data can be an indicator of the achievement of mapping projects that can be poured into a mapping report. The process of calculating the quantity of OSM data can be done by installing the plugin group stats in QGIS for free, this plugin can use to count the number of objects based on categories.</description>
     </item>
     
     <item>

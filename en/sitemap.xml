@@ -18,6 +18,36 @@
   </url>
   
   <url>
+    <loc>/en/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/</loc>
+    <lastmod>2019-08-22T10:54:26+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/</loc>
+    <lastmod>2019-08-20T10:42:33+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/"
+                />
+  </url>
+  
+  <url>
     <loc>/en/pages/01-osm-field-surveyor-guideliness/</loc>
     <lastmod>2019-08-12T14:36:00+07:00</lastmod>
     <xhtml:link
@@ -30,6 +60,11 @@
                 hreflang="en"
                 href="/en/pages/01-osm-field-surveyor-guideliness/"
                 />
+  </url>
+  
+  <url>
+    <loc>/en/pages/06-osm-field-survey-manager-guidelines/01_metodologi_kerangka_kerja_pemetaan/01_metodologi_kerangka_kerja_pemetaan/</loc>
+    <lastmod>2019-08-26T14:35:27+07:00</lastmod>
   </url>
   
   <url>
@@ -59,6 +94,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/pages/02-hot-tasking-manager/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/</loc>
+    <lastmod>2019-08-20T17:08:43+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/"
                 />
   </url>
   
@@ -98,6 +148,21 @@
   </url>
   
   <url>
+    <loc>/en/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/</loc>
+    <lastmod>2019-08-19T12:38:40+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/"
+                />
+  </url>
+  
+  <url>
     <loc>/en/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/</loc>
     <lastmod>2019-08-12T14:36:00+07:00</lastmod>
     <xhtml:link
@@ -110,6 +175,11 @@
                 hreflang="en"
                 href="/en/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/"
                 />
+  </url>
+  
+  <url>
+    <loc>/en/pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04-penggunaan-yaml-pada-export-tool/</loc>
+    <lastmod>2019-08-20T12:09:06+07:00</lastmod>
   </url>
   
   <url>
@@ -173,6 +243,11 @@
   </url>
   
   <url>
+    <loc>/en/pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07-pembuatan-peta-survey-dengan-qgis/</loc>
+    <lastmod>2019-08-22T12:43:29+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/en/pages/07-map-campaigner/</loc>
     <lastmod>2019-08-12T14:36:00+07:00</lastmod>
     <xhtml:link
@@ -203,6 +278,26 @@
   </url>
   
   <url>
+    <loc>/en/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/</loc>
+    <lastmod>2019-08-15T11:05:59+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/</loc>
+    <lastmod>2019-08-22T08:24:19+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/en/pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/</loc>
     <lastmod>2019-08-22T16:11:52-06:00</lastmod>
     <xhtml:link
@@ -219,7 +314,7 @@
   
   <url>
     <loc>/en/</loc>
-    <lastmod>2019-08-23T10:04:05-06:00</lastmod>
+    <lastmod>2019-08-26T14:35:27+07:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"

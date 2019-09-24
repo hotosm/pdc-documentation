@@ -10,5 +10,15 @@
 	<atom:link href="/en/pages/04-data-validation-and-quality-assurance/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>JOSM for Data Quality</title>
+      <link>/en/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/</guid>
+      <description>Objectives:
+ Understanding how to select and count numbers of objects in certain administration boundary Understanding how to count numbers of error and warning in certain administration boundary Understanding how to validate administration boundary  One of the expected results in doing mapping activity is to produce a good quality map. The quality including object information completeness and right topology. Using OpenStreetMap as a base map to show the result of field survey could help you to monitor the progress of your mapping activity result by counting objects and information from the field.</description>
+    </item>
+    
   </channel>
 </rss>
