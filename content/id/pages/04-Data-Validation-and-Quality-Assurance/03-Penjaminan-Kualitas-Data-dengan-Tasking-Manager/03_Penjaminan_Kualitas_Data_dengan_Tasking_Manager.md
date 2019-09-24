@@ -60,7 +60,7 @@ Cara untuk melakukan validasi dengan menggunakan _tasking manager_ tidak jauh be
 
 *   Sebagai informasi, kotak atau _grid_ yang akan Anda validasi adalah kotak yang sudah dipetakan yaitu kotak yang berwarna oranye. Ketika Anda sudah selesai melakukan validasi, kotak yang Anda kerjakan akan berubah menjadi warna hijau.
 
-*   Setelah Anda klik **_validate_**, terdapat beberapa pilihan untuk memilih kotak mana yang mau Anda pilih. Berikut ini adalah pilihan-pilihannya:
+*   Setelah Anda klik *_validate_*, terdapat beberapa pilihan untuk memilih kotak mana yang mau Anda pilih. Untuk yang perannya sebagai _mapper_ atau _validator_, pilihannya hanya ada dua pilihan, yaitu pilihan pertama dan pilihan kedua, sedangkankan untuk kelima pilihan ini hanya dapat dilakukan oleh yang perannya _project manager_. Berikut ini adalah pilihan-pilihannya:
 
     1. Pilihan yang pertama adalah memilih sendiri kotak warna oranye yang mana yang ingin Anda kerjakan. 
 
