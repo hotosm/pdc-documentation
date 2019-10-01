@@ -41,6 +41,26 @@
     </item>
     
     <item>
+      <title>Creating survey form for ODK Collect &amp; OpenMapKit</title>
+      <link>/en/pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/</guid>
+      <description>Objectives:
+ Explain the concept of XLSForm Operate the creation of an XLSForm for ODK Collect Operate the creation of an XLSForm for OpenMapKit  In field survey activities sometimes you need a survey form to collect the data. Imagine if you need a form survey with dozens of questions for each respondent, you will certainly experience difficulties when filling data and also when entering data into a laptop. In this material you will learn how to create a survey form in digital format which will later be entered into your mobile phone.</description>
+    </item>
+    
+    <item>
+      <title>Upload survey form to ona.io</title>
+      <link>/en/pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/</guid>
+      <description>Learning Objectives:
+ Able to explain the benefits of using Ona.io Explain how to upload survey forms to the Ona.io server  After we have successfully created the survey forms that have been studied in the module Making Survey Forms for the ODK Collect &amp;amp; OpenMapKit Application, You will learn the platform used to upload survey forms to one of the platforms. The platform used in this material are Ona.</description>
+    </item>
+    
+    <item>
       <title>Creating Field Maps using QGIS</title>
       <link>/en/pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07-pembuatan-peta-survey-dengan-qgis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

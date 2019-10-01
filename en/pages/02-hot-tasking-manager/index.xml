@@ -10,5 +10,18 @@
 	<atom:link href="/en/pages/02-hot-tasking-manager/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Creating and Managing Tasking Manager</title>
+      <link>/en/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/</guid>
+      <description>Objectives:
+ Explain the functions of Tasking Manager in the context of participatory mapping
+ Able to explain how to make Tasking Manager
+ Able to explain how to manage existing Tasking Manager
+  You must already know how to use tasking manager to perform mapping activities together. When you use a tasking manager that doesn&amp;rsquo;t suit the area you want, then you might want to make a tasking manager for your own area.</description>
+    </item>
+    
   </channel>
 </rss>

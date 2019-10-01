@@ -11,6 +11,19 @@
     
     
     <item>
+      <title>Creating and Managing Tasking Manager</title>
+      <link>/en/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/</guid>
+      <description>Objectives:
+ Explain the functions of Tasking Manager in the context of participatory mapping
+ Able to explain how to make Tasking Manager
+ Able to explain how to manage existing Tasking Manager
+  You must already know how to use tasking manager to perform mapping activities together. When you use a tasking manager that doesn&amp;rsquo;t suit the area you want, then you might want to make a tasking manager for your own area.</description>
+    </item>
+    
+    <item>
       <title>Data Collection Methodology</title>
       <link>/en/pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -39,6 +52,16 @@ I. Export Tool Concept The Export Tool is an open service that creates customize
       <guid>/en/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/</guid>
       <description>Objectives:
  Knowing to create an account in InAWARE Knowing Add OpenStreetMap Data into InAWARE  The main goal of HOT-PDC InAWARE Mapping Project is to to complete and provide spatial open data for public so it can be used for any disaster management sector by National Government (BNPB) and Local Disaster Management Agency (BPBD) in InAWARE, a platform that made by Pacific Disaster Center (PDC), an institution from University of Hawaii.</description>
+    </item>
+    
+    <item>
+      <title>Quality Assurance Concept</title>
+      <link>/en/pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/</guid>
+      <description>Learning Objectives:
+ Understanding the definition of quality assurance Understanding the meaning of data quality assurance in OpenStreetMap  OpenStreetMap (OSM) is a free and open source map. OSM has a lot of data and information about various types of objects that exist on the surface of the earth. The data is collected and entered by OSM users spread all over the world. The variety of data entered and collected by OSM users often results in the quality of the data being different from one another and the lack of understanding of OSM users regarding data quality also affects the results of data available in OSM.</description>
     </item>
     
     <item>
@@ -135,6 +158,26 @@ I. Export Tool Concept The Export Tool is an open service that creates customize
     </item>
     
     <item>
+      <title>Creating survey form for ODK Collect &amp; OpenMapKit</title>
+      <link>/en/pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/</guid>
+      <description>Objectives:
+ Explain the concept of XLSForm Operate the creation of an XLSForm for ODK Collect Operate the creation of an XLSForm for OpenMapKit  In field survey activities sometimes you need a survey form to collect the data. Imagine if you need a form survey with dozens of questions for each respondent, you will certainly experience difficulties when filling data and also when entering data into a laptop. In this material you will learn how to create a survey form in digital format which will later be entered into your mobile phone.</description>
+    </item>
+    
+    <item>
+      <title>Upload survey form to ona.io</title>
+      <link>/en/pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/</guid>
+      <description>Learning Objectives:
+ Able to explain the benefits of using Ona.io Explain how to upload survey forms to the Ona.io server  After we have successfully created the survey forms that have been studied in the module Making Survey Forms for the ODK Collect &amp;amp; OpenMapKit Application, You will learn the platform used to upload survey forms to one of the platforms. The platform used in this material are Ona.</description>
+    </item>
+    
+    <item>
       <title>Creating Field Maps using QGIS</title>
       <link>/en/pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07-pembuatan-peta-survey-dengan-qgis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -172,6 +215,16 @@ I. Export Tool Concept The Export Tool is an open service that creates customize
       <guid>/en/pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/</guid>
       <description>Objectives:
  Participants can explain what is data conflict on OpenStreetMap Participants knowing about types of conflict in JOSM Participants can fix data conflicts using JOSM Participants know to avoid data conflict in JOSM  When you are uploading your changes in JSOM, some contributors might also do editing in your area. This might occur data conflict in your uploading process. Therefore, in this module, you will learn about data conflict in OpenStreetMap, types of conflict, and how to fix it using JOSM.</description>
+    </item>
+    
+    <item>
+      <title>Membuat dan Mengelola Map Campaigner untuk Pemetaan</title>
+      <link>/en/pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/</guid>
+      <description>Learning Objectives:
+ Knowing and understanding how to work with Map Campaigners Operating Map Campaigners to create mapping activities Operate Map Campaigners to monitor mapping activities  In implementing a mapping project you often need a report regarding the progress of the activity in a statistical data about how many objects have been mapped in the activity. There are several tools that can be used to obtain statistical data. One of the tools that we will learn today is Map Campaigner.</description>
     </item>
     
   </channel>
