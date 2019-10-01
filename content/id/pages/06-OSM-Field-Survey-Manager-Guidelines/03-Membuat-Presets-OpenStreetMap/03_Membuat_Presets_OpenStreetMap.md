@@ -80,7 +80,7 @@ Untuk bisa membuat _presets_ Anda sendiri, ada beberapa hal yang perlu Anda pers
 
 Jika sudah mengetahui dan memahami aturan dalam pembuatan_ presets_ maka Anda juga perlu untuk mengetahui tentang elemen-elemen penyusun yang dapat menampilkan informasi di _presets_ Anda dengan bentuk yang beragam. Beberapa elemen-elemen _presets _tersebut adalah:
 
-* Elemen <font color= "red"><b>key</b></font> key 
+* Elemen <span style="color:red"><b>key</b></span> key 
 
 ```
 Struktur dasar  : <key key="......" value="......" /> 
@@ -90,7 +90,7 @@ Ini merupakan _key_ wajib yang mendefinisikan informasi utama dari suatu objek w
 ![](/id/images/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/0312_presets.png)
 
 
-* Elemen <font color= "red"><b>text</b></font> key
+* Elemen <span style="color:red"><b>text</b></span> key
 
 ```
 Struktur dasar   : <text key="......" text="......" />
@@ -106,7 +106,7 @@ Penambahan kata “text” pada contoh di atas adalah sebagai label informasi ya
 
 
 
-* Elemen <font color= "red"><b>combo</b></font> key
+* Elemen <span style="color:red"><b>combo</b></span> key
 
 ```
 Struktur dasar : <combo key="......" text="......" values="...,...,..." display_values="...,...,..."/>
@@ -124,7 +124,7 @@ Anda juga dapat melihat _value_ yang ada ditambahkan (s) dibelakangnya karena pi
 
 
 
-* Elemen <font color= "red"><b>multiselect</b></font> key
+* Elemen <span style="color:red"><b>multiselect</b></span> key
 
 ```
 Struktur dasar : <multiselect key="......" text="......" values="...;...;...;..." display_valuest="..;..;..;.." />
@@ -139,7 +139,7 @@ Penulisan elemen ini mirip dengan _combo key_ dimana perbedaannya adalah kata _m
 ![elemen multiselect](/id/images/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/0308_presets_8.png)
 <p align="center"><i>Tampilan elemen multiselect key di JOSM</i></p>
 
-* Elemen <font color= "red"><b>check</b></font> key
+* Elemen <span style="color:red"><b>check</b></span> key
 
 ```
 truktur Dasar : <check key="......" text="......" value_on="yes" value_off="no" default="......" />
