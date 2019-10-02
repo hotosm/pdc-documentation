@@ -1,4 +1,4 @@
 ---
-title: Panduan Pemetaan Lapangan untuk Manajer Proyek
+title: Field Mapping Project Guide for Project Manager
 weight: 6
 ---
