@@ -657,10 +657,10 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 |---|---|
 |  <span style="color:#3333cc"> amenity | <span style="color:#3333cc"> place_of_worship  |
 |  <span style="color:#3333cc"> religion | <span style="color:#3333cc">  muslim, christian, hindu, buddhist, confucian  |
-|  name | (nama kantor pemerintahan)  |
+|  name | (nama tempat ibadah)  |
 |  addr:full |(alamat)   |
 |  addr:city |  (kota pemetaan) |
-| <span style="color:#FF7278"> building | <span style="color:#FF7278"> mosque (Masjid), church (Gereja), temple (Pura), tempe (Vihara), temple (Klenteng)  |
+| <span style="color:#FF7278"> building | <span style="color:#FF7278"> mosque (Masjid), church (Gereja), temple (Pura), temple (Vihara), temple (Klenteng)  |
 | <span style="color:#FF7278"> capacity:persons |<span style="color:#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
 | <span style="color:#FF7278"> building:levels | <span style="color:#FF7278"> (jumlah lantai) |
 |<span style="color:#FF7278"> building:structure   | <span style="color:#FF7278">  confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)|
@@ -819,7 +819,7 @@ Pemetaan HOT-PDC InAWARE memiliki tujuan untuk mengumpulkan beberapa informasi t
 |---|---|
 |  <span style="color:#3333cc"> type | <span style="color:#3333cc"> boundary  |
 | <span style="color:#3333cc">  boundary |  <span style="color:#3333cc"> administrative |
-| <span style="color:#3333cc"> name | <span style="color:#3333cc"> (nama rumah pompa)  |
+| <span style="color:#3333cc"> name | <span style="color:#3333cc"> (nama batas admin)  |
 |  <span style="color:#3333cc"> admin_level |<span style="color:#3333cc"> 4 (Provinsi), 5 (Kota / Kotamadya / Kabupaten), 6 (Kecamatan), 7 (Kelurahan / Desa), 8 (Dusun), 9 (RW), 10 (RT)   |
 | <span style="color:#3333cc"> is_in:province | <span style="color:#3333cc"> (nama provinsi) |
 | <span style="color:#3333cc"> is_in:city (Kota) / is_in:town (Kabupaten)|<span style="color:#3333cc"> (nama kota/kabupaten)   |

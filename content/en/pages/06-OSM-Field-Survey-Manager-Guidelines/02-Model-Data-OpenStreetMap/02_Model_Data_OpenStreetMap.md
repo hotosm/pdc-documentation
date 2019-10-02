@@ -175,17 +175,17 @@ School Tag Information Table
 
 | key | (possible) values |
 |---|---|
-|<font  color="99DBFF"> amenity | <font  color="99DBFF"> school |
-|<font  color="#FF7278"> building | <font  color="#FF7278"> school |
+|<span style="color:#3333cc"> amenity  |  <span style="color:#3333cc"> school |
+|<span style="color:#FF7278"> building   | <span style="color:#FF7278"> school |
 | school:type_idn | sd [SD/MI (Elementary School)], smp [SMP/MTs (Junior High School)], sma [SMA/SMK/MA (Senior High School)] |
 | name | (building name) |
 |addr:full | (address) |
 | operator:type | government, private, community |
 | building:levels | (number of building floor) |
 
-<font  color="99DBFF">amenity=school</font>  is a compulsory tag for the school information. _Key_ and _value_ in this tag are main information that identify the object as a school.
+<span style="color:#3333cc">amenity=school</font>  is a compulsory tag for the school information. _Key_ and _value_ in this tag are main information that identify the object as a school.
 
-<font  color="#FF727dima8"> building=school</font> is a tag that show the school has its own building. Some schools are located in another building such as government office area therefore if that was the case then this tag is unnecessary.
+<span style="color:#FF7278"> building=school</font> is a tag that show the school has its own building. Some schools are located in another building such as government office area therefore if that was the case then this tag is unnecessary.
 
 
 **a. HOT-PDC InAWARE Data Model**
@@ -194,8 +194,8 @@ The purpose of HOT-PDC InAWARE mapping project is to gather information of criti
 
 **Color Information:**
 
-*  <font  color="99DBFF"> Warna biru </font> the _key_ and _value_ are compulsory for the object.
-*  <font  color="#FF7278"> Warna merah </font> the _key _and _value _are information for building of the object. This tag /information only collected if the object has its own building. Otherwise, the tag is unnecessary.
+*  <span style="color:#3333cc">  Warna biru </font> the _key_ and _value_ are compulsory for the object.
+*  <span style="color:#FF7278"> Warna merah </font> the _key _and _value _are information for building of the object. This tag /information only collected if the object has its own building. Otherwise, the tag is unnecessary.
 * Warna hitam artinya _key_ dan _value_ tersebut **sebaiknya** dimasukkan ke dalam objek pemetaan baik objek tersebut memiliki bangunan sendiri ataupun menumpang di bangunan yang lain.
 *   Black color means the _key_ and _value_ **should be** added regardless the object has its own building or not.
 
@@ -203,3308 +203,693 @@ The purpose of HOT-PDC InAWARE mapping project is to gather information of criti
 
 *   Table of Traditional Market Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>amenity
-   </td>
-   <td>marketplace
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>marketplace
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><traditional market name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>capacity:persons
-   </td>
-   <td><50, 50-100, 100-250, 250-500, >500
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td><em><building level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry, steel_frame, wood_frame, bamboo_frame
-   </td>
-  </tr>
-  <tr>
-   <td>building:material
-   </td>
-   <td>brick , concrete, wood, bamboo, glass
-   </td>
-  </tr>
-  <tr>
-   <td>building:floor
-   </td>
-   <td>ground, wood, cement, tekhel, ceramics
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile, tin, asbestos, concrete
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>poor, good
-   </td>
-  </tr>
-  <tr>
-   <td>ground_floor:height
-   </td>
-   <td>building ground floor to the surface in metre
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
-
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc">amenity | <span style="color:#3333cc">marketplace  |
+| <span style="color:#FF7278"> building | <span style="color:#FF7278"> marketplace |
+|  name | (traditional market name)  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+|  <span style="color:#FF7278"> capacity:persons |<span style="color:#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <span style="color:#FF7278"> building:levels | <span style="color:#FF7278"> (number of building floor) |
+|<span style="color:#FF7278"> building:structure   | <span style="color:#FF7278">  confined_masonry , steel_frame , wood_frame , bamboo_frame |
+| <span style="color:#FF7278"> building:material  | <span style="color:#FF7278"> brick , concrete , wood , bamboo , glass|
+| <span style="color:#FF7278"> building:floor  |<span style="color:#FF7278"> ground, wood, cement, tekhel, ceramics |
+| <span style="color:#FF7278"> building:roof  | <span style="color:#FF7278"> tile, tin, asbestos, concrete |
+| <span style="color:#FF7278"> access:roof | <span style="color:#FF7278"> yes, no |
+| <span style="color:#FF7278"> building: condition | <span style="color:#FF7278"> poor, good |
+| <span style="color:#FF7278"> ground_floor:height | <span style="color:#FF7278"> (building base floor height from the road  (meter unit)) |
+| backup_generator  | yes, no  |
+|  source |  HOT_InAWARESurvey_2018 |
 
 
 
 *   Table of Supermarket Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>shop
-   </td>
-   <td>supermarket
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>supermarket
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><supermarket name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>capacity:persons
-   </td>
-   <td><50, 50-100, 100-250, 250-500, >500
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td><em><building level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry, steel_frame, wood_frame, bamboo_frame
-   </td>
-  </tr>
-  <tr>
-   <td>building:material
-   </td>
-   <td>brick , concrete, wood, bamboo, glass
-   </td>
-  </tr>
-  <tr>
-   <td>building:floor
-   </td>
-   <td>ground, wood, cement, tekhel, ceramics
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile, tin, asbestos, concrete
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>ground_floor:height
-   </td>
-   <td>poor, good
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>building ground floor to the surface in metre
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
-
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc">amenity | <span style="color:#3333cc"> supermarket  |
+| <span style="color:#FF7278"> building | <span style="color:#FF7278"> supermarket |
+|  name | (supermarket name)  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+|  <span style="color:#FF7278"> capacity:persons |<span style="color:#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <span style="color:#FF7278"> building:levels | <span style="color:#FF7278"> (number of building floor) |
+|<span style="color:#FF7278"> building:structure   | <span style="color:#FF7278">  confined_masonry , steel_frame , wood_frame , bamboo_frame |
+| <span style="color:#FF7278"> building:material  | <span style="color:#FF7278"> brick , concrete , wood , bamboo , glass|
+| <span style="color:#FF7278"> building:floor  |<span style="color:#FF7278"> ground, wood, cement, tekhel, ceramics |
+| <span style="color:#FF7278"> building:roof  | <span style="color:#FF7278"> tile, tin, asbestos, concrete |
+| <span style="color:#FF7278"> access:roof | <span style="color:#FF7278"> yes, no |
+| <span style="color:#FF7278"> building: condition | <span style="color:#FF7278"> poor, good |
+| <span style="color:#FF7278"> ground_floor:height | <span style="color:#FF7278"> (building base floor height from the road  (meter unit)) |
+| backup_generator  | yes, no  |
+|  source |  HOT_InAWARESurvey_2018 |
 
 
 
 *   Table of Bank Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>amenity
-   </td>
-   <td>bank
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>bank
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><bank name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>capacity:persons
-   </td>
-   <td><50, 50-100, 100-250, 250-500, >500
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td><em><building level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry, steel_frame, wood_frame, bamboo_frame
-   </td>
-  </tr>
-  <tr>
-   <td>building:material
-   </td>
-   <td>brick , concrete, wood, bamboo, glass
-   </td>
-  </tr>
-  <tr>
-   <td>building:floor
-   </td>
-   <td>ground, wood, cement, tekhel, ceramics
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile, tin, asbestos, concrete
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>poor, good
-   </td>
-  </tr>
-  <tr>
-   <td>ground_floor:height=
-   </td>
-   <td>building ground floor to the surface in metre
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc">amenity | <span style="color:#3333cc"> bank  |
+| <span style="color:#FF7278"> building | <span style="color:#FF7278"> bank |
+|  name | (bank name)  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+|  <span style="color:#FF7278"> capacity:persons |<span style="color:#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <span style="color:#FF7278"> building:levels | <span style="color:#FF7278"> (number of building floor) |
+|<span style="color:#FF7278"> building:structure   | <span style="color:#FF7278">  confined_masonry , steel_frame , wood_frame , bamboo_frame |
+| <span style="color:#FF7278"> building:material  | <span style="color:#FF7278"> brick , concrete , wood , bamboo , glass|
+| <span style="color:#FF7278"> building:floor  |<span style="color:#FF7278"> ground, wood, cement, tekhel, ceramics |
+| <span style="color:#FF7278"> building:roof  | <span style="color:#FF7278"> tile, tin, asbestos, concrete |
+| <span style="color:#FF7278"> access:roof | <span style="color:#FF7278"> yes, no |
+| <span style="color:#FF7278"> building: condition | <span style="color:#FF7278"> poor, good |
+| <span style="color:#FF7278"> ground_floor:height | <span style="color:#FF7278"> (building base floor height from the road  (meter unit)) |
+| backup_generator  | yes, no  |
+|  source |  HOT_InAWARESurvey_2018 |
 
 
 **2. Education Facilities**
 
-
-
 *   Table of University Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>amenity
-   </td>
-   <td>university
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>university
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><university name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator:type
-   </td>
-   <td>government, private, community
-   </td>
-  </tr>
-  <tr>
-   <td>capacity:persons
-   </td>
-   <td><50, 50-100, 100-250, 250-500, >500
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td><em><building level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry, steel_frame, wood_frame, bamboo_frame
-   </td>
-  </tr>
-  <tr>
-   <td>building:material
-   </td>
-   <td>brick , concrete, wood, bamboo, glass
-   </td>
-  </tr>
-  <tr>
-   <td>building:floor
-   </td>
-   <td>ground, wood, cement, tekhel, ceramics
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile, tin, asbestos, concrete
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>poor, good
-   </td>
-  </tr>
-  <tr>
-   <td>ground_floor:height=
-   </td>
-   <td>building ground floor to the surface in metre
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-  <tr>
-   <td>evacuation_center
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>shelter_type
-   </td>
-   <td>tent, building
-   </td>
-  </tr>
-  <tr>
-   <td>water_source
-   </td>
-   <td>water_works, manual_pump, powered_pump
-   </td>
-  </tr>
-  <tr>
-   <td>kitchen:facilities
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>toilet:facilities
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>toilets:number
-   </td>
-   <td><em><number of toilet available></em>
-   </td>
-  </tr>
-</table>
-
-
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc">amenity | <span style="color:#3333cc"> university  |
+| <span style="color:#FF7278"> building | <span style="color:#FF7278"> university |
+|  name | (university name)  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+|  operator:type |  government, private, community |
+|  <span style="color:#FF7278"> capacity:persons |<span style="color:#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <span style="color:#FF7278"> building:levels | <span style="color:#FF7278"> (number of building floor) |
+|<span style="color:#FF7278"> building:structure   | <span style="color:#FF7278">  confined_masonry , steel_frame , wood_frame , bamboo_frame |
+| <span style="color:#FF7278"> building:material  | <span style="color:#FF7278"> brick , concrete , wood , bamboo , glass|
+| <span style="color:#FF7278"> building:floor  |<span style="color:#FF7278"> ground, wood, cement, tekhel, ceramics |
+| <span style="color:#FF7278"> building:roof  | <span style="color:#FF7278"> tile, tin, asbestos, concrete |
+| <span style="color:#FF7278"> access:roof | <span style="color:#FF7278"> yes, no |
+| <span style="color:#FF7278"> building: condition | <span style="color:#FF7278"> poor, good |
+| <span style="color:#FF7278"> ground_floor:height | <span style="color:#FF7278"> (building base floor height from the road  (meter unit)) |
+| backup_generator  | yes, no  |
+|  source |  HOT_InAWARESurvey_2018 |
+|  evacuation_center |  yes, no |
+|  shelter_type |  tent, building|
+| water_source  |  water_works, manual_pump, powered_pump|
+| kitchen:facilities   |  yes, no |
+| toilet:facilities |  yes, no|
+| toilets:number  |  (number of toilets) |
 
 
 *   Table of College Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>amenity
-   </td>
-   <td>college
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>college
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><college name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator:type
-   </td>
-   <td>government, private, community
-   </td>
-  </tr>
-  <tr>
-   <td>capacity:persons
-   </td>
-   <td><50, 50-100, 100-250, 250-500, >500
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td><em><building level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry, steel_frame, wood_frame, bamboo_frame
-   </td>
-  </tr>
-  <tr>
-   <td>building:material
-   </td>
-   <td>brick , concrete, wood, bamboo, glass
-   </td>
-  </tr>
-  <tr>
-   <td>building:floor
-   </td>
-   <td>ground, wood, cement, tekhel, ceramics
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile, tin, asbestos, concrete
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>poor, good
-   </td>
-  </tr>
-  <tr>
-   <td>ground_floor:height=
-   </td>
-   <td>building ground floor to the surface in metre
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-  <tr>
-   <td>evacuation_center
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>shelter_type
-   </td>
-   <td>tent, building
-   </td>
-  </tr>
-  <tr>
-   <td>water_source
-   </td>
-   <td>water_works, manual_pump, powered_pump
-   </td>
-  </tr>
-  <tr>
-   <td>kitchen:facilities
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>toilet:facilities
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>toilets:number
-   </td>
-   <td><em><number of toilet available></em>
-   </td>
-  </tr>
-</table>
-
-
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc">amenity | <span style="color:#3333cc"> college  |
+| <span style="color:#FF7278"> building | <span style="color:#FF7278"> college |
+|  name | (college name)  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+|  operator:type |  government, private, community |
+|  <span style="color:#FF7278"> capacity:persons |<span style="color:#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <span style="color:#FF7278"> building:levels | <span style="color:#FF7278"> (number of building floor) |
+|<span style="color:#FF7278"> building:structure   | <span style="color:#FF7278">  confined_masonry , steel_frame , wood_frame , bamboo_frame |
+| <span style="color:#FF7278"> building:material  | <span style="color:#FF7278"> brick , concrete , wood , bamboo , glass|
+| <span style="color:#FF7278"> building:floor  |<span style="color:#FF7278"> ground, wood, cement, tekhel, ceramics |
+| <span style="color:#FF7278"> building:roof  | <span style="color:#FF7278"> tile, tin, asbestos, concrete |
+| <span style="color:#FF7278"> access:roof | <span style="color:#FF7278"> yes, no |
+| <span style="color:#FF7278"> building: condition | <span style="color:#FF7278"> poor, good |
+| <span style="color:#FF7278"> ground_floor:height | <span style="color:#FF7278"> (building base floor height from the road  (meter unit)) |
+| backup_generator  | yes, no  |
+|  source |  HOT_InAWARESurvey_2018 |
+|  evacuation_center |  yes, no |
+|  shelter_type |  tent, building|
+| water_source  |  water_works, manual_pump, powered_pump|
+| kitchen:facilities   |  yes, no |
+| toilet:facilities |  yes, no|
+| toilets:number  |  (number of toilets) |
 
 
 *   Table of School Data Model (SD, SMP, SMA)
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>school:type_idn
-   </td>
-   <td>sd [SD/MI (Elementary School)], smp [SMP/MTs (Junior High School)], sma [SMA/SMK/MA (Senior High School)]
-   </td>
-  </tr>
-  <tr>
-   <td>amenity
-   </td>
-   <td>school
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>school
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><school name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator:type
-   </td>
-   <td>government, private, community
-   </td>
-  </tr>
-  <tr>
-   <td>capacity:persons
-   </td>
-   <td><50, 50-100, 100-250, 250-500, >500
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td><em><building level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry, steel_frame, wood_frame, bamboo_frame
-   </td>
-  </tr>
-  <tr>
-   <td>building:material
-   </td>
-   <td>brick , concrete, wood, bamboo, glass
-   </td>
-  </tr>
-  <tr>
-   <td>building:floor
-   </td>
-   <td>ground, wood, cement, tekhel, ceramics
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile, tin, asbestos, concrete
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>poor, good
-   </td>
-  </tr>
-  <tr>
-   <td>ground_floor:height=
-   </td>
-   <td>building ground floor to the surface in metre
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-  <tr>
-   <td>evacuation_center
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>shelter_type
-   </td>
-   <td>tent, building
-   </td>
-  </tr>
-  <tr>
-   <td>water_source
-   </td>
-   <td>water_works, manual_pump, powered_pump
-   </td>
-  </tr>
-  <tr>
-   <td>kitchen:facilities
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>toilet:facilities
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>toilets:number
-   </td>
-   <td><em><number of toilet available></em>
-   </td>
-  </tr>
-</table>
-
-
+| key  |  possible values |
+|---|---|
+| <span style="color:#3333cc"> school:type_idn |<span style="color:#3333cc"> sd (Elementary School)], smp (Junior High School)], sma (Senior High School)  |
+|  <span style="color:#3333cc">amenity | <span style="color:#3333cc"> school  |
+| <span style="color:#FF7278"> building | <span style="color:#FF7278"> school |
+|  name | (school name)  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+|  operator:type |  government, private, community |
+|  <span style="color:#FF7278"> capacity:persons |<span style="color:#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <span style="color:#FF7278"> building:levels | <span style="color:#FF7278"> (number of building floor) |
+|<span style="color:#FF7278"> building:structure   | <span style="color:#FF7278">  confined_masonry , steel_frame , wood_frame , bamboo_frame |
+| <span style="color:#FF7278"> building:material  | <span style="color:#FF7278"> brick , concrete , wood , bamboo , glass|
+| <span style="color:#FF7278"> building:floor  |<span style="color:#FF7278"> ground, wood, cement, tekhel, ceramics |
+| <span style="color:#FF7278"> building:roof  | <span style="color:#FF7278"> tile, tin, asbestos, concrete |
+| <span style="color:#FF7278"> access:roof | <span style="color:#FF7278"> yes, no |
+| <span style="color:#FF7278"> building: condition | <span style="color:#FF7278"> poor, good |
+| <span style="color:#FF7278"> ground_floor:height | <span style="color:#FF7278"> (building base floor height from the road  (meter unit)) |
+| backup_generator  | yes, no  |
+|  source |  HOT_InAWARESurvey_2018 |
+|  evacuation_center |  yes, no |
+|  shelter_type |  tent, building|
+| water_source  |  water_works, manual_pump, powered_pump|
+| kitchen:facilities   |  yes, no |
+| toilet:facilities |  yes, no|
+| toilets:number  |  (number of toilets) |
 
 
 *   Table of Kindergarten Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>amenity
-   </td>
-   <td>Kindergarten [PAUD/ Play Group / TK (Early education / Play group / Kindergarten)]
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>kindergarten
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><kindergarten name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator:type
-   </td>
-   <td>government, private, community
-   </td>
-  </tr>
-  <tr>
-   <td>capacity:persons
-   </td>
-   <td><50, 50-100, 100-250, 250-500, >500
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td><em><building level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry, steel_frame, wood_frame, bamboo_frame
-   </td>
-  </tr>
-  <tr>
-   <td>building:material
-   </td>
-   <td>brick , concrete, wood, bamboo, glass
-   </td>
-  </tr>
-  <tr>
-   <td>building:floor
-   </td>
-   <td>ground, wood, cement, tekhel, ceramics
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile, tin, asbestos, concrete
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>poor, good
-   </td>
-  </tr>
-  <tr>
-   <td>ground_floor:height=
-   </td>
-   <td>building ground floor to the surface in metre
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc">amenity | <span style="color:#3333cc"> kindergarten  |
+| <span style="color:#FF7278"> building (Early education / Play group / Kindergarten)| <span style="color:#FF7278"> school |
+|  name | (kindergarten name)  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+|  operator:type |  government, private, community |
+|  <span style="color:#FF7278"> capacity:persons |<span style="color:#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <span style="color:#FF7278"> building:levels | <span style="color:#FF7278"> (number of building floor) |
+|<span style="color:#FF7278"> building:structure   | <span style="color:#FF7278">  confined_masonry , steel_frame , wood_frame , bamboo_frame |
+| <span style="color:#FF7278"> building:material  | <span style="color:#FF7278"> brick , concrete , wood , bamboo , glass|
+| <span style="color:#FF7278"> building:floor  |<span style="color:#FF7278"> ground, wood, cement, tekhel, ceramics |
+| <span style="color:#FF7278"> building:roof  | <span style="color:#FF7278"> tile, tin, asbestos, concrete |
+| <span style="color:#FF7278"> access:roof | <span style="color:#FF7278"> yes, no |
+| <span style="color:#FF7278"> building: condition | <span style="color:#FF7278"> poor, good |
+| <span style="color:#FF7278"> ground_floor:height | <span style="color:#FF7278"> (building base floor height from the road  (meter unit)) |
+| backup_generator  | yes, no  |
+|  source |  HOT_InAWARESurvey_2018 |
+
 
 
 **3. Health Facilities**
 
-
-
 *   Table of Hospital Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>amenity
-   </td>
-   <td>hospital
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><hospital name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator:type
-   </td>
-   <td>government, private, community
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>hospital
-   </td>
-  </tr>
-  <tr>
-   <td>capacity:persons
-   </td>
-   <td><50, 50-100, 100-250, 250-500, >500
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td><em><building level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry, steel_frame, wood_frame, bamboo_frame
-   </td>
-  </tr>
-  <tr>
-   <td>building:material
-   </td>
-   <td>brick , concrete, wood, bamboo, glass
-   </td>
-  </tr>
-  <tr>
-   <td>building:floor
-   </td>
-   <td>ground, wood, cement, tekhel, ceramics
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile, tin, asbestos, concrete
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>poor, good
-   </td>
-  </tr>
-  <tr>
-   <td>ground_floor:height
-   </td>
-   <td>building ground floor to the surface in metre
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-  <tr>
-   <td>evacuation_center
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>shelter_type
-   </td>
-   <td>tent, building
-   </td>
-  </tr>
-  <tr>
-   <td>water_source
-   </td>
-   <td>water_works, manual_pump, powered_pump
-   </td>
-  </tr>
-  <tr>
-   <td>kitchen:facilities
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>toilet:facilities
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>toilets:number
-   </td>
-   <td><em><number of toilet available></em>
-   </td>
-  </tr>
-</table>
-
-
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc">amenity | <span style="color:#3333cc"> hospital  |
+| <span style="color:#FF7278"> building | <span style="color:#FF7278"> hospital |
+|  name | (hospital name)  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+|  operator:type |  government, private, community |
+|  <span style="color:#FF7278"> capacity:persons |<span style="color:#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <span style="color:#FF7278"> building:levels | <span style="color:#FF7278"> (number of building floor) |
+|<span style="color:#FF7278"> building:structure   | <span style="color:#FF7278">  confined_masonry , steel_frame , wood_frame , bamboo_frame |
+| <span style="color:#FF7278"> building:material  | <span style="color:#FF7278"> brick , concrete , wood , bamboo , glass|
+| <span style="color:#FF7278"> building:floor  |<span style="color:#FF7278"> ground, wood, cement, tekhel, ceramics |
+| <span style="color:#FF7278"> building:roof  | <span style="color:#FF7278"> tile, tin, asbestos, concrete |
+| <span style="color:#FF7278"> access:roof | <span style="color:#FF7278"> yes, no |
+| <span style="color:#FF7278"> building: condition | <span style="color:#FF7278"> poor, good |
+| <span style="color:#FF7278"> ground_floor:height | <span style="color:#FF7278"> (building base floor height from the road  (meter unit)) |
+| backup_generator  | yes, no  |
+|  source |  HOT_InAWARESurvey_2018 |
+|  evacuation_center |  yes, no |
+|  shelter_type |  tent, building|
+| water_source  |  water_works, manual_pump, powered_pump|
+| kitchen:facilities   |  yes, no |
+| toilet:facilities |  yes, no|
+| toilets:number  |  (number of toilets) |
 
 
 *   Table of Clinic Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>amenity
-   </td>
-   <td>clinic
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><clinic name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator:type
-   </td>
-   <td>government, private, community
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>clinic
-   </td>
-  </tr>
-  <tr>
-   <td>capacity:persons
-   </td>
-   <td><50, 50-100, 100-250, 250-500, >500
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td><em><building level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry, steel_frame, wood_frame, bamboo_frame
-   </td>
-  </tr>
-  <tr>
-   <td>building:material
-   </td>
-   <td>brick , concrete, wood, bamboo, glass
-   </td>
-  </tr>
-  <tr>
-   <td>building:floor
-   </td>
-   <td>ground, wood, cement, tekhel, ceramics
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile, tin, asbestos, concrete
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>poor, good
-   </td>
-  </tr>
-  <tr>
-   <td>ground_floor:height
-   </td>
-   <td>building ground floor to the surface in metre
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-  <tr>
-   <td>evacuation_center
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>shelter_type
-   </td>
-   <td>tent, building
-   </td>
-  </tr>
-  <tr>
-   <td>water_source
-   </td>
-   <td>water_works, manual_pump, powered_pump
-   </td>
-  </tr>
-  <tr>
-   <td>kitchen:facilities
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>toilet:facilities
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>toilets:number
-   </td>
-   <td><em><number of toilet available></em>
-   </td>
-  </tr>
-</table>
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc">amenity | <span style="color:#3333cc"> clinic  |
+| <span style="color:#FF7278"> building | <span style="color:#FF7278"> clinic |
+|  name | (clinic name)  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+|  operator:type |  government, private, community |
+|  <span style="color:#FF7278"> capacity:persons |<span style="color:#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <span style="color:#FF7278"> building:levels | <span style="color:#FF7278"> (number of building floor) |
+|<span style="color:#FF7278"> building:structure   | <span style="color:#FF7278">  confined_masonry , steel_frame , wood_frame , bamboo_frame |
+| <span style="color:#FF7278"> building:material  | <span style="color:#FF7278"> brick , concrete , wood , bamboo , glass|
+| <span style="color:#FF7278"> building:floor  |<span style="color:#FF7278"> ground, wood, cement, tekhel, ceramics |
+| <span style="color:#FF7278"> building:roof  | <span style="color:#FF7278"> tile, tin, asbestos, concrete |
+| <span style="color:#FF7278"> access:roof | <span style="color:#FF7278"> yes, no |
+| <span style="color:#FF7278"> building: condition | <span style="color:#FF7278"> poor, good |
+| <span style="color:#FF7278"> ground_floor:height | <span style="color:#FF7278"> (building base floor height from the road  (meter unit)) |
+| backup_generator  | yes, no  |
+|  source |  HOT_InAWARESurvey_2018 |
+|  evacuation_center |  yes, no |
+|  shelter_type |  tent, building|
+| water_source  |  water_works, manual_pump, powered_pump|
+| kitchen:facilities   |  yes, no |
+| toilet:facilities |  yes, no|
+| toilets:number  |  (number of toilets) |
 
 
 **4. Communication**
 
-
-
-*   Table of Communication Tower Data Model
-
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>man_made
-   </td>
-   <td>tower
-   </td>
-  </tr>
-  <tr>
-   <td>tower:type
-   </td>
-   <td>communication
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><tower name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>height
-   </td>
-   <td><em><tower height in metre></em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator
-   </td>
-   <td>Telkomsel, Indosat, XL, Tri, Smartfren
-   </td>
-  </tr>
-  <tr>
-   <td>communication:mobile
-   </td>
-   <td>yes,no
-   </td>
-  </tr>
-  <tr>
-   <td>communication:radio
-   </td>
-   <td>yes,no
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
+|key   | possible values  |
+|---|---|
+|<span style="color:#3333cc"> man_made  |<span style="color:#3333cc"> tower  |
+|<span style="color:#3333cc"> tower:type | <span style="color:#3333cc"> communication  |
+| name  | (tower name)  |
+| height | (tower height in meter unit)  |
+| operator   | Telkomsel, Indosat, XL, Tri, Smartfren  |
+| communication:mobile  | yes, no  |
+| communication:radio  | yes, no   |
+| addr:city  | (mapping city)  |
+| source  | HOT_InAWARESurvey_2018  |
 
 
 **5. Emergency Services**
 
 
-
 *   Table of Police Office Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>amenity
-   </td>
-   <td>police
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>police
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><Police Office name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>capacity:persons
-   </td>
-   <td><50, 50-100, 100-250, 250-500, >500
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td><em><building level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry, steel_frame, wood_frame, bamboo_frame
-   </td>
-  </tr>
-  <tr>
-   <td>building:material
-   </td>
-   <td>brick , concrete, wood, bamboo, glass
-   </td>
-  </tr>
-  <tr>
-   <td>building:floor
-   </td>
-   <td>ground, wood, cement, tekhel, ceramics
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile, tin, asbestos, concrete
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>poor, good
-   </td>
-  </tr>
-  <tr>
-   <td>ground_floor:height
-   </td>
-   <td>building ground floor to the surface in metre
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc">amenity | <span style="color:#3333cc"> police  |
+| <span style="color:#FF7278"> building | <span style="color:#FF7278"> police |
+|  name | (police office name)  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+|  <span style="color:#FF7278"> capacity:persons |<span style="color:#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <span style="color:#FF7278"> building:levels | <span style="color:#FF7278"> (number of building floor) |
+|<span style="color:#FF7278"> building:structure   | <span style="color:#FF7278">  confined_masonry , steel_frame , wood_frame , bamboo_frame |
+| <span style="color:#FF7278"> building:material  | <span style="color:#FF7278"> brick , concrete , wood , bamboo , glass|
+| <span style="color:#FF7278"> building:floor  |<span style="color:#FF7278"> ground, wood, cement, tekhel, ceramics |
+| <span style="color:#FF7278"> building:roof  | <span style="color:#FF7278"> tile, tin, asbestos, concrete |
+| <span style="color:#FF7278"> access:roof | <span style="color:#FF7278"> yes, no |
+| <span style="color:#FF7278"> building: condition | <span style="color:#FF7278"> poor, good |
+| <span style="color:#FF7278"> ground_floor:height | <span style="color:#FF7278"> (building base floor height from the road  (meter unit)) |
+| backup_generator  | yes, no  |
+|  source |  HOT_InAWARESurvey_2018 |
 
 
 
 
 *   Table of Fire Station Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>amenity
-   </td>
-   <td>fire_station
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>fire_station
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><fire station name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>capacity:persons
-   </td>
-   <td><50, 50-100, 100-250, 250-500, >500
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td><em><building level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry, steel_frame, wood_frame, bamboo_frame
-   </td>
-  </tr>
-  <tr>
-   <td>building:material
-   </td>
-   <td>brick , concrete, wood, bamboo, glass
-   </td>
-  </tr>
-  <tr>
-   <td>building:floor
-   </td>
-   <td>ground, wood, cement, tekhel, ceramics
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile, tin, asbestos, concrete
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>poor, good
-   </td>
-  </tr>
-  <tr>
-   <td>ground_floor:height
-   </td>
-   <td>building ground floor to the surface in metre
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
-
-
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc">amenity | <span style="color:#3333cc"> fire_station  |
+| <span style="color:#FF7278"> building | <span style="color:#FF7278"> fire_station |
+|  name | (fire station name)  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+|  <span style="color:#FF7278"> capacity:persons |<span style="color:#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <span style="color:#FF7278"> building:levels | <span style="color:#FF7278"> (number of building floor) |
+|<span style="color:#FF7278"> building:structure   | <span style="color:#FF7278">  confined_masonry , steel_frame , wood_frame , bamboo_frame |
+| <span style="color:#FF7278"> building:material  | <span style="color:#FF7278"> brick , concrete , wood , bamboo , glass|
+| <span style="color:#FF7278"> building:floor  |<span style="color:#FF7278"> ground, wood, cement, tekhel, ceramics |
+| <span style="color:#FF7278"> building:roof  | <span style="color:#FF7278"> tile, tin, asbestos, concrete |
+| <span style="color:#FF7278"> access:roof | <span style="color:#FF7278"> yes, no |
+| <span style="color:#FF7278"> building: condition | <span style="color:#FF7278"> poor, good |
+| <span style="color:#FF7278"> ground_floor:height | <span style="color:#FF7278"> (building base floor height from the road  (meter unit)) |
+| backup_generator  | yes, no  |
+|  source |  HOT_InAWARESurvey_2018 |
 
 
 *   Table of Hydrant Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>emergency
-   </td>
-   <td>fire_hydrant
-   </td>
-  </tr>
-  <tr>
-   <td>fire_hydrant:type
-   </td>
-   <td>underground, pillar, wall, pond
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><hydrant name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator
-   </td>
-   <td><em><operator name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
+|  key  | possible values  |
+|---|---|
+|<span style="color:#3333cc"> emergency  |<span style="color:#3333cc"> fire_hydrant  |
+|<span style="color:#3333cc"> fire_hydrant:type |<span style="color:#3333cc"> underground, pillar, wall, pond |
+| name  |  (hydrant name) |
+| operator  | (operator name)  |
+| addr:city  | (mapping city)  |
+| source  | HOT_InAWARESurvey_2018  |
 
 
 **6. Government**
 
 
-
 *   Table of Government Office Data Model Model (Governor, Mayor, District, Sub-district, village and sub-village office)
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>office
-   </td>
-   <td>government
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>governor_office, townhall, subdistrict_office, village_office , community_group_office
-   </td>
-  </tr>
-  <tr>
-   <td>admin_level
-   </td>
-   <td>4 (governor office), 5 (town hall), 6 (subdistrict office), 7 (village office), 9 (subvillage office) 
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><government office name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>capacity:persons
-   </td>
-   <td><50, 50-100, 100-250, 250-500, >500
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td><em><building level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry, steel_frame, wood_frame, bamboo_frame
-   </td>
-  </tr>
-  <tr>
-   <td>building:material
-   </td>
-   <td>brick , concrete, wood, bamboo, glass
-   </td>
-  </tr>
-  <tr>
-   <td>building:floor
-   </td>
-   <td>ground, wood, cement, tekhel, ceramics
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile, tin, asbestos, concrete
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>poor, good
-   </td>
-  </tr>
-  <tr>
-   <td>ground_floor:height
-   </td>
-   <td>building ground floor to the surface in metre
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-  <tr>
-   <td>evacuation_center
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>shelter_type
-   </td>
-   <td>tent, building
-   </td>
-  </tr>
-  <tr>
-   <td>water_source
-   </td>
-   <td>water_works, manual_pump, powered_pump
-   </td>
-  </tr>
-  <tr>
-   <td>kitchen:facilities
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>toilet:facilities
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>toilets:number
-   </td>
-   <td><em><number of toilet available></em>
-   </td>
-  </tr>
-</table>
-
-
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc"> office | <span style="color:#3333cc"> government  |
+| <span style="color:#FF7278"> building | <span style="color:#FF7278"> governor_office, townhall, subdistrict_office, village_office, community_group_office |
+| <span style="color:#3333cc"> admin_level | <span style="color:#3333cc"> 4 (for governor office), 5 (for townhall), 6 (for subdistrict office), 7 (for village office), 9 (for community group office)  |
+|  name | (government office name)  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+|  <span style="color:#FF7278"> capacity:persons |<span style="color:#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <span style="color:#FF7278"> building:levels | <span style="color:#FF7278"> (number of building floor) |
+|<span style="color:#FF7278"> building:structure   | <span style="color:#FF7278">  confined_masonry , steel_frame , wood_frame , bamboo_frame |
+| <span style="color:#FF7278"> building:material  | <span style="color:#FF7278"> brick , concrete , wood , bamboo , glass|
+| <span style="color:#FF7278"> building:floor  |<span style="color:#FF7278"> ground, wood, cement, tekhel, ceramics |
+| <span style="color:#FF7278"> building:roof  | <span style="color:#FF7278"> tile, tin, asbestos, concrete |
+| <span style="color:#FF7278"> access:roof | <span style="color:#FF7278"> yes, no |
+| <span style="color:#FF7278"> building: condition | <span style="color:#FF7278"> poor, good |
+| <span style="color:#FF7278"> ground_floor:height | <span style="color:#FF7278"> (building base floor height from the road  (meter unit)) |
+| backup_generator  | yes, no  |
+|  source |  HOT_InAWARESurvey_2018 |
+|  evacuation_center |  yes, no |
+|  shelter_type |  tent, building|
+| water_source  |  water_works, manual_pump, powered_pump|
+| kitchen:facilities   |  yes, no |
+| toilet:facilities |  yes, no|
+| toilets:number  |  (number of toilets) |
 
 
 *   Table of Government Institution Data Model (Ministry)
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>office
-   </td>
-   <td>government
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>government_office
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><government institution name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>admin_level
-   </td>
-   <td>7 (village level), 6 (sub district level), 5 (city level), 4 (Province level)
-   </td>
-  </tr>
-  <tr>
-   <td>capacity:persons
-   </td>
-   <td><50, 50-100, 100-250, 250-500, >500
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td><em><building level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry, steel_frame, wood_frame, bamboo_frame
-   </td>
-  </tr>
-  <tr>
-   <td>building:material
-   </td>
-   <td>brick , concrete, wood, bamboo, glass
-   </td>
-  </tr>
-  <tr>
-   <td>building:floor
-   </td>
-   <td>ground, wood, cement, tekhel, ceramics
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile, tin, asbestos, concrete
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>poor, good
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc"> office | <span style="color:#3333cc"> government  |
+| <span style="color:#FF7278"> building | <span style="color:#FF7278"> government_office |
+|  name | (government institution name)  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+| <span style="color:#3333cc"> admin_level | <span style="color:#3333cc"> 4 (provincial level), 5 (city level), 6 (subdistrict level), 7 (village level)  |
+|  <span style="color:#FF7278"> capacity:persons |<span style="color:#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <span style="color:#FF7278"> building:levels | <span style="color:#FF7278"> (number of building floor) |
+|<span style="color:#FF7278"> building:structure   | <span style="color:#FF7278">  confined_masonry , steel_frame , wood_frame , bamboo_frame |
+| <span style="color:#FF7278"> building:material  | <span style="color:#FF7278"> brick , concrete , wood , bamboo , glass|
+| <span style="color:#FF7278"> building:floor  |<span style="color:#FF7278"> ground, wood, cement, tekhel, ceramics |
+| <span style="color:#FF7278"> building:roof  | <span style="color:#FF7278"> tile, tin, asbestos, concrete |
+| <span style="color:#FF7278"> access:roof | <span style="color:#FF7278"> yes, no |
+| <span style="color:#FF7278"> building: condition | <span style="color:#FF7278"> poor, good |
+| <span style="color:#FF7278"> ground_floor:height | <span style="color:#FF7278"> (building base floor height from the road  (meter unit)) |
+| backup_generator  | yes, no  |
+|  source |  HOT_InAWARESurvey_2018 |
 
 
 **7. Electricity**
 
-
-
 *   Table of Power Tower Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>power
-   </td>
-   <td>tower
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><tower name>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator
-   </td>
-   <td><em><name of the electricity company></em>
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
-
-
+|  key | possible values  |
+|---|---|
+|  <span style="color:#3333cc"> power |<span style="color:#3333cc"> tower  |
+| name  |  (tower name) |
+| addr:city  | (mapping city)  |
+| operator  |  PT Perusahaan Listrik Negara |
+|  source | HOT_InAWARESurvey_2018  |
 
 
 *   Table of Power Sub Station Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>power
-   </td>
-   <td>substation
-   </td>
-  </tr>
-  <tr>
-   <td>substation
-   </td>
-   <td>transmission (Main substation), distribution (Distribution sub station)
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>power_substation
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><<em>power substation name</em>>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>rating
-   </td>
-   <td><<em>user define</em>>  
-   </td>
-  </tr>
-  <tr>
-   <td>operator
-   </td>
-   <td><em><name of the electricity company></em>
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
-
-
-
+|  key | possible values  |
+|---|---|
+| <span style="color:#3333cc"> power |<span style="color:#3333cc"> substation  |
+| <span style="color:#3333cc"> substation | <span style="color:#3333cc"> transmission, distribution |
+| <span style="color:#FF7278"> building |<span style="color:#FF7278"> power_substation  |
+| name  |  (power substation name) |
+| addr:city  | (mapping city)  |
+| rating  | (user defined)  |
+| operator  |  PT Perusahaan Listrik Negara |
+|  source | HOT_InAWARESurvey_2018  |
 
 *   Table of Power Plant Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>power
-   </td>
-   <td>plant
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>power_plant
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><power plant name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator
-   </td>
-   <td><em><operator name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator
-   </td>
-   <td><em><name of the electricity company></em>
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
+|  key | possible values  |
+|---|---|
+| <span style="color:#3333cc"> power | <span style="color:#3333cc"> plant  |
+| <span style="color:#FF7278"> building | <span style="color:#FF7278"> power_plant  |
+| name  |  (power plant name) |
+| operator  |  (power plant operator) |
+| addr:city  | (mapping city)  |
+| addr:full  | (address)  |
+|  source | HOT_InAWARESurvey_2018  |
 
 
 **8. Transportation**
 
-
-
 *   Table of Airport Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>aeroway
-   </td>
-   <td>aerodrome
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>aerodrome
-   </td>
-  </tr>
-  <tr>
-   <td>Name 
-   </td>
-   <td><em><airport name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>capacity:persons
-   </td>
-   <td><50, 50-100, 100-250, 250-500, >500
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td><em><building level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry, steel_frame, wood_frame, bamboo_frame
-   </td>
-  </tr>
-  <tr>
-   <td>building:material
-   </td>
-   <td>brick , concrete, wood, bamboo, glass
-   </td>
-  </tr>
-  <tr>
-   <td>building:floor
-   </td>
-   <td>ground, wood, cement, tekhel, ceramics
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile, tin, asbestos, concrete
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>poor, good
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
-
-
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc">amenity | <span style="color:#3333cc"> aerodrome  |
+| <span style="color:#FF7278"> building | <span style="color:#FF7278"> aerodrome |
+|  name | (airport name)  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+|  <span style="color:#FF7278"> capacity:persons |<span style="color:#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <span style="color:#FF7278"> building:levels | <span style="color:#FF7278"> (number of building floor) |
+|<span style="color:#FF7278"> building:structure   | <span style="color:#FF7278">  confined_masonry , steel_frame , wood_frame , bamboo_frame |
+| <span style="color:#FF7278"> building:material  | <span style="color:#FF7278"> brick , concrete , wood , bamboo , glass|
+| <span style="color:#FF7278"> building:floor  |<span style="color:#FF7278"> ground, wood, cement, tekhel, ceramics |
+| <span style="color:#FF7278"> building:roof  | <span style="color:#FF7278"> tile, tin, asbestos, concrete |
+| <span style="color:#FF7278"> access:roof | <span style="color:#FF7278"> yes, no |
+| <span style="color:#FF7278"> building: condition | <span style="color:#FF7278"> poor, good |
+| backup_generator  | yes, no  |
+|  source |  HOT_InAWARESurvey_2018 |
 
 
 *   Table of Bus Station Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>amenity
-   </td>
-   <td>bus_station
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><bus station name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
-
-
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc"> amenity |<span style="color:#3333cc">  bus_station  |
+|  name | (bus station name)  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+|  source |  HOT_InAWARESurvey_2018 |
 
 
 *   Table of Train Station Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>railway
-   </td>
-   <td>station
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><train station name>
-   </td>
-  </tr>
-  <tr>
-   <td>ele
-   </td>
-   <td><em><station height above sea level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator
-   </td>
-   <td><em><name of companye></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
-
-
+| key  |  possible values |
+|---|---|
+| <span style="color:#3333cc"> amenity | <span style="color:#3333cc"> station  |
+|  name | (train station name)  |
+| <span style="color:#3333cc"> ele | <span style="color:#3333cc"> (train station's height above sea level)  |
+|  operator | PT Kereta Api Indonesia  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+|  source |  HOT_InAWARESurvey_2018 |
 
 
 *   Table of Harbour / Dock Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>amenity
-   </td>
-   <td>ferry_terminal
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>ferry_terminal
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><Dock Name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><addresst></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>capacity:persons
-   </td>
-   <td><50, 50-100, 100-250, 250-500, >500
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td><em><building level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry, steel_frame, wood_frame, bamboo_frame
-   </td>
-  </tr>
-  <tr>
-   <td>building:material
-   </td>
-   <td>brick , concrete, wood, bamboo, glass
-   </td>
-  </tr>
-  <tr>
-   <td>building:floor
-   </td>
-   <td>ground, wood, cement, tekhel, ceramics
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile, tin, asbestos, concrete
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>poor, good
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc">amenity | <span style="color:#3333cc"> ferry_terminal  |
+| <span style="color:#FF7278"> building | <span style="color:#FF7278"> ferry_terminal |
+|  name | (ferry terminal name)  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+|  <span style="color:#FF7278"> capacity:persons |<span style="color:#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <span style="color:#FF7278"> building:levels | <span style="color:#FF7278"> (number of building floor) |
+|<span style="color:#FF7278"> building:structure   | <span style="color:#FF7278">  confined_masonry , steel_frame , wood_frame , bamboo_frame |
+| <span style="color:#FF7278"> building:material  | <span style="color:#FF7278"> brick , concrete , wood , bamboo , glass|
+| <span style="color:#FF7278"> building:floor  |<span style="color:#FF7278"> ground, wood, cement, tekhel, ceramics |
+| <span style="color:#FF7278"> building:roof  | <span style="color:#FF7278"> tile, tin, asbestos, concrete |
+| <span style="color:#FF7278"> access:roof | <span style="color:#FF7278"> yes, no |
+| <span style="color:#FF7278"> building: condition | <span style="color:#FF7278"> poor, good |
+| backup_generator  | yes, no  |
+|  source |  HOT_InAWARESurvey_2018 |
 
 
 **9. Public Facilities**
 
-
-
 *   Table of Place of Worship Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>amenity
-   </td>
-   <td>place_of_worship
-   </td>
-  </tr>
-  <tr>
-   <td>religion
-   </td>
-   <td>muslim, christian, hindu, buddhist, confucian
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><place of worship name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>mosque, church, temple
-   </td>
-  </tr>
-  <tr>
-   <td>capacity:persons
-   </td>
-   <td><50, 50-100, 100-250, 250-500, >500
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td><em><jumlah lantai></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry (Rangka beton bertulang), steel_frame (Rangka baja), wood_frame (Rangka kayu), bamboo_frame (Rangka bambu)
-   </td>
-  </tr>
-  <tr>
-   <td>building:material
-   </td>
-   <td>brick (Bata), concrete (Beton), wood (Papan kayu), bamboo (Bambu), glass (Kaca)
-   </td>
-  </tr>
-  <tr>
-   <td>building:floor
-   </td>
-   <td>ground (Tanah), wood (Papan kayu), cement (Plester / Semen), tekhel (Tegel), ceramics (Keramik)
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile (Genteng), tin (Seng), asbestos (Asbes), concrete (Beton)
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes (Ada), no (Tidak ada)
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>poor (Buruk), good (Baik)
-   </td>
-  </tr>
-  <tr>
-   <td>ground_floor:height=
-   </td>
-   <td>Tinggi bangunan dari jalan dalam satuan meter
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes (Ada), no (Tidak ada)
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-  <tr>
-   <td>evacuation_center
-   </td>
-   <td>yes (Ya), no (Bukan)
-   </td>
-  </tr>
-  <tr>
-   <td>shelter_type
-   </td>
-   <td>tent (Tenda), building (Bangunan)
-   </td>
-  </tr>
-  <tr>
-   <td>water_source
-   </td>
-   <td>water_works (PDAM), manual_pump (Pompa Tangan), powered_pump (Mesin Pompa)
-   </td>
-  </tr>
-  <tr>
-   <td>kitchen:facilities
-   </td>
-   <td>yes (Ada), no (Tidak ada)
-   </td>
-  </tr>
-  <tr>
-   <td>toilet:facilities
-   </td>
-   <td>yes (Ada), no (Tidak ada)
-   </td>
-  </tr>
-  <tr>
-   <td>toilets:number
-   </td>
-   <td><em><number of toilets></em>
-   </td>
-  </tr>
-</table>
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc">amenity | <span style="color:#3333cc"> place_of_worship  |
+|  <span style="color:#3333cc"> religion | <span style="color:#3333cc">  muslim, christian, hindu, buddhist, confucian  |
+|  name | (place of worhsip name)  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+| <span style="color:#FF7278"> building | <span style="color:#FF7278"> mosque, church, temple|
+|  <span style="color:#FF7278"> capacity:persons |<span style="color:#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <span style="color:#FF7278"> building:levels | <span style="color:#FF7278"> (number of building floor) |
+|<span style="color:#FF7278"> building:structure   | <span style="color:#FF7278">  confined_masonry , steel_frame , wood_frame , bamboo_frame |
+| <span style="color:#FF7278"> building:material  | <span style="color:#FF7278"> brick , concrete , wood , bamboo , glass|
+| <span style="color:#FF7278"> building:floor  |<span style="color:#FF7278"> ground, wood, cement, tekhel, ceramics |
+| <span style="color:#FF7278"> building:roof  | <span style="color:#FF7278"> tile, tin, asbestos, concrete |
+| <span style="color:#FF7278"> access:roof | <span style="color:#FF7278"> yes, no |
+| <span style="color:#FF7278"> building: condition | <span style="color:#FF7278"> poor, good |
+| <span style="color:#FF7278"> ground_floor:height | <span style="color:#FF7278"> (building base floor height from the road  (meter unit)) |
+| backup_generator  | yes, no  |
+|  source |  HOT_InAWARESurvey_2018 |
+|  evacuation_center |  yes, no |
+|  shelter_type |  tent, building|
+| water_source  |  water_works, manual_pump, powered_pump|
+| kitchen:facilities   |  yes, no |
+| toilet:facilities |  yes, no|
+| toilets:number  |  (number of toilets) |
 
+*   Table of Sport Facilities (Sports Center,Sport Field, Stadium)
 
-
-
-*   Tabel Model Data Fasilitas Olahraga (GOR,Lapangan Olahraga, Stadium)
-
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>leisure
-   </td>
-   <td>stadium (Stadion), sports_centre (Pusat Kegiatan Olahraga / GOR), pitch (Lapangan Olahraga)
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>stadium, sports_centre, yes (futsal field)
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><nama fasilitas olahraga></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><alamat></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><kota pemetaan></em>
-   </td>
-  </tr>
-  <tr>
-   <td>sport
-   </td>
-   <td>soccer,futsal,basketball,badminton,tennis,volleyball,swimming,athletics,
-<p>
-baseball,cycling,multi
-   </td>
-  </tr>
-  <tr>
-   <td>capacity:persons
-   </td>
-   <td><50, 50-100, 100-250, 250-500, >500
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td><em><building level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry, steel_frame, wood_frame, bamboo_frame
-   </td>
-  </tr>
-  <tr>
-   <td>building:material
-   </td>
-   <td>brick , concrete, wood, bamboo, glass
-   </td>
-  </tr>
-  <tr>
-   <td>building:floor
-   </td>
-   <td>ground, wood, cement, tekhel, ceramics
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile, tin, asbestos, concrete
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>poor, good
-   </td>
-  </tr>
-  <tr>
-   <td>ground_floor:height
-   </td>
-   <td>building ground floor to the surface in metre
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-  <tr>
-   <td>evacuation_center
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>shelter_type
-   </td>
-   <td>tent, building
-   </td>
-  </tr>
-  <tr>
-   <td>water_source
-   </td>
-   <td>water_works, manual_pump, powered_pump
-   </td>
-  </tr>
-  <tr>
-   <td>kitchen:facilities
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>toilet:facilities
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>toilets:number
-   </td>
-   <td><em><number of toilet available></em>
-   </td>
-  </tr>
-</table>
-
-
-
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc">leisure | <span style="color:#3333cc"> stadium, sports_centre, pitch |
+| <span style="color:#FF7278"> building | <span style="color:#FF7278"> stadium, sports_centre, yes (futsal field)  |
+|  name | (sport facility name)  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+| <span style="color:#FF7278"> sport | <span style="color:#FF7278"> soccer,futsal,basketball,badminton,tennis,volleyball,swimming,athletics, baseball,cycling, multi|
+|  <span style="color:#FF7278"> capacity:persons |<span style="color:#FF7278"> <50, 50-100, 100-250, 250-500, >500  |
+|  <span style="color:#FF7278"> building:levels | <span style="color:#FF7278"> (number of building floor) |
+|<span style="color:#FF7278"> building:structure   | <span style="color:#FF7278">  confined_masonry , steel_frame , wood_frame , bamboo_frame |
+| <span style="color:#FF7278"> building:material  | <span style="color:#FF7278"> brick , concrete , wood , bamboo , glass|
+| <span style="color:#FF7278"> building:floor  |<span style="color:#FF7278"> ground, wood, cement, tekhel, ceramics |
+| <span style="color:#FF7278"> building:roof  | <span style="color:#FF7278"> tile, tin, asbestos, concrete |
+| <span style="color:#FF7278"> access:roof | <span style="color:#FF7278"> yes, no |
+| <span style="color:#FF7278"> building: condition | <span style="color:#FF7278"> poor, good |
+| <span style="color:#FF7278"> ground_floor:height | <span style="color:#FF7278"> (building base floor height from the road  (meter unit)) |
+| backup_generator  | yes, no  |
+|  source |  HOT_InAWARESurvey_2018 |
+|  evacuation_center |  yes, no |
+|  shelter_type |  tent, building|
+| water_source  |  water_works, manual_pump, powered_pump|
+| kitchen:facilities   |  yes, no |
+| toilet:facilities |  yes, no|
+| toilets:number  |  (number of toilets) |
 
 *   Table of Park Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>leisure
-   </td>
-   <td>park
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><park name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td><em>HOT_InAWARESurvey_2018</em>
-   </td>
-  </tr>
-  <tr>
-   <td>evacuation_center
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>shelter_type
-   </td>
-   <td>tent, building
-   </td>
-  </tr>
-  <tr>
-   <td>water_source
-   </td>
-   <td>water_works, manual_pump, powered_pump
-   </td>
-  </tr>
-  <tr>
-   <td>kitchen:facilities
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>toilet:facilities
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>toilets:number
-   </td>
-   <td><em><number of toilet available></em>
-   </td>
-  </tr>
-</table>
+| key  |  possible values |
+|---|---|
+| <span style="color:#3333cc"> leisure |<span style="color:#3333cc"> park  |
+|  name | (park name)  |
+|  addr:full | (address)   |
+|  addr:city |  (mapping city) |
+|  source |  HOT_InAWARESurvey_2018 |
+|  evacuation_center |  yes, no |
+|  shelter_type |  tent, building |
+| water_source  |  water_works, manual_pump, powered_pump|
+|kitchen:facilities   |  yes, no |
+| toilet:facilities |  yes, no |
+| toilets:number  |  (number of toilets) |
 
 
-**10. Sarana Perairan**
-
-
+**10. Waterway Facilities**
 
 *   Table of Water Tower Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>man_made
-   </td>
-   <td>water_tower
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><water tower name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator
-   </td>
-   <td><em><operator name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
-
-
+| key  |  possible values |
+|---|---|
+| <span style="color:#3333cc"> man_made | <span style="color:#3333cc"> water_tower  |
+|  name | (water tower name)  |
+|  operator | (water tower operator)   |
+|  addr:city |  (mapping city) |
+|  source |  HOT_InAWARESurvey_2018 |
 
 
 *   Table of Flood Gate Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>waterway
-   </td>
-   <td>floodgate
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><flood gate name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator
-   </td>
-   <td><em><operator name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>floodgate:unit
-   </td>
-   <td><em><number of gate></em>
-   </td>
-  </tr>
-  <tr>
-   <td>elevation
-   </td>
-   <td><em><elevation above sea level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>condition
-   </td>
-   <td><em>good , poor</em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
-
-
-
+| key  |  possible values |
+|---|---|
+| <span style="color:#3333cc"> waterway |<span style="color:#3333cc"> floodgate  |
+|  name | (flood gate name)  |
+|  operator | (flood gate operator)   |
+|  floodgate:unit | (number of floodgate)   |
+|  elevation | (flood gate's height above sea level)   |
+|  <span style="color:#3333cc"> condition | <span style="color:#3333cc"> good, poor |
+|  addr:city |  (mapping city) |
+|  source |  HOT_InAWARESurvey_2018 |
 
 *   Tabel Model Data Rumah Pompa
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>man_made
-   </td>
-   <td>pumping_station
-   </td>
-  </tr>
-  <tr>
-   <td>building
-   </td>
-   <td>pumping_station
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><pumping station name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator
-   </td>
-   <td><em><operator name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>pump:unit
-   </td>
-   <td><em><number of pump></em>
-   </td>
-  </tr>
-  <tr>
-   <td>elevation
-   </td>
-   <td><em><elevation above sea level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>capacity:pump
-   </td>
-   <td><em><pump capacity (l/s)></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building:levels
-   </td>
-   <td><em><building level></em>
-   </td>
-  </tr>
-  <tr>
-   <td>building:structure
-   </td>
-   <td>confined_masonry, steel_frame, wood_frame, bamboo_frame
-   </td>
-  </tr>
-  <tr>
-   <td>building:material
-   </td>
-   <td>brick , concrete, wood, bamboo, glass
-   </td>
-  </tr>
-  <tr>
-   <td>building:floor
-   </td>
-   <td>ground, wood, cement, tekhel, ceramics
-   </td>
-  </tr>
-  <tr>
-   <td>building:roof
-   </td>
-   <td>tile, tin, asbestos, concrete
-   </td>
-  </tr>
-  <tr>
-   <td>access:roof
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>building: condition
-   </td>
-   <td>poor, good
-   </td>
-  </tr>
-  <tr>
-   <td>backup_generator
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
-
-
-
+| key  |  possible values |
+|---|---|
+| <span style="color:#3333cc"> man_made |<span style="color:#3333cc"> pumping_station  |
+| <span style="color:#FF7278"> building | <span style="color:#FF7278"> pumping_station |
+|  name | (pumping station name)  |
+|  addr:full |(address)   |
+|  addr:city |  (mapping city) |
+|  operator | (operator name)   |
+|  pump:unit | (number of pumping station)   |
+|  elevation | (pumping station's height above sea level)   |
+| <span style="color:#FF7278"> capacity:persons | <span style="color:#FF7278"> (pump's capacity (l/s))  |
+|  <span style="color:#FF7278"> building:levels | <span style="color:#FF7278"> (number of building floor) |
+|<span style="color:#FF7278"> building:structure   | <span style="color:#FF7278">  confined_masonry , steel_frame , wood_frame , bamboo_frame |
+| <span style="color:#FF7278"> building:material  | <span style="color:#FF7278"> brick , concrete , wood , bamboo , glass|
+| <span style="color:#FF7278"> building:floor  |<span style="color:#FF7278"> ground, wood, cement, tekhel, ceramics |
+| <span style="color:#FF7278"> building:roof  | <span style="color:#FF7278"> tile, tin, asbestos, concrete |
+| <span style="color:#FF7278"> access:roof | <span style="color:#FF7278"> yes, no |
+| <span style="color:#FF7278"> building: condition | <span style="color:#FF7278"> poor, good |
+| <span style="color:#FF7278"> ground_floor:height | <span style="color:#FF7278"> (building base floor height from the road  (meter unit)) |
+| backup_generator  | yes, no  |
+|  source |  HOT_InAWARESurvey_2018 |
 
 *   Table of Embankment Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>man_made
-   </td>
-   <td>embankment
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><embankment name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>material
-   </td>
-   <td><em>concrete, stone, soil, sand</em>
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td><em>HOT_InAWARESurvey_2018</em>
-   </td>
-  </tr>
-</table>
-
-
-
+| key  |  possible values |
+|---|---|
+| <span style="color:#3333cc"> man_made | <span style="color:#3333cc"> embankment  |
+|  name | (embankment name)  |
+| <span style="color:#3333cc"> material | <span style="color:#3333cc"> concrete, stone, soil, sand |
+|  source |  HOT_InAWARESurvey_2018 |
 
 *   Table of River Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>waterway
-   </td>
-   <td>river, riverbank, canal
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><nama sungai></em>
-   </td>
-  </tr>
-  <tr>
-   <td>width
-   </td>
-   <td><em><river name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td><em>HOT_InAWARESurvey_2018</em>
-   </td>
-  </tr>
-</table>
-
-
-
+| key  |  possible values |
+|---|---|
+| <span style="color:#3333cc"> waterway |<span style="color:#3333cc"> river, riverbank, canal |
+|  name | (river)  |
+| <span style="color:#3333cc"> width |<span style="color:#3333cc"> (river width)   |
+|  source |  HOT_InAWARESurvey_2018 |
 
 *   Table of Reservoir Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>landuse
-   </td>
-   <td>reservoir
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><reservoir name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator
-   </td>
-   <td><em><operator namer></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
-
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc"> landuse |<span style="color:#3333cc">  reservoir  |
+|  name | (resevoir/lake name)  |
+|  operator | (operator name)   |
+|  addr:city |  (mapping city) |
+|  source |  HOT_InAWARESurvey_2018 |
 
 **11. Gas Station**
 
-
-
 *   Table of Gas Station Data Model
 
-<table>
-  <tr>
-   <td>
-<strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>amenity
-   </td>
-   <td>fuel
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><gas station name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:full
-   </td>
-   <td><em><address></em>
-   </td>
-  </tr>
-  <tr>
-   <td>addr:city
-   </td>
-   <td><em><mapping city></em>
-   </td>
-  </tr>
-  <tr>
-   <td>operator
-   </td>
-   <td><em><PT Pertamina, Shell, etc></em>
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
-
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc"> amenity | <span style="color:#3333cc"> fuel  |
+|  name | (gas station name)  |
+|  addr:full |  (address) |
+|  addr:city |  (mapping city) |
+|  operator | (PT Pertamina, Shell, etc)   |
+|  source |  HOT_InAWARESurvey_2018 |
 
 **12. Administration Boundary**
 
-
-<table>
-  <tr>
-   <td><strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>type
-   </td>
-   <td>boundary
-   </td>
-  </tr>
-  <tr>
-   <td>boundary
-   </td>
-   <td>administrative
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><em><name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>admin_level
-   </td>
-   <td>4 (Province), 5 (City / District), 6 (Sub-district), 7 (Village), 8 (Hamlet), 9 (Sub-Village), 10 (Sub-sub Village)
-   </td>
-  </tr>
-  <tr>
-   <td>is_in:province
-   </td>
-   <td><em><province name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>is_in:city <strong>(City)</strong>
-<p>
-is_in:town <strong>(District)</strong>
-   </td>
-   <td><em><city / district name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>is_in:municipality
-   </td>
-   <td><em><sub-district name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>is_in:village
-   </td>
-   <td><em><village name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>is_in:RW
-   </td>
-   <td><em><sub-village name></em>
-   </td>
-  </tr>
-  <tr>
-   <td>flood_prone 
-<p>
-<strong>[*only for sub village relation]</strong>
-   </td>
-   <td>yes,no
-   </td>
-  </tr>
-  <tr>
-   <td>landslide_prone
-<p>
-<strong>[*only for sub village relation]</strong>
-   </td>
-   <td>yes,no
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td>HOT_InAWARESurvey_2018
-   </td>
-  </tr>
-</table>
+| key  |  possible values |
+|---|---|
+|  <span style="color:#3333cc"> type | <span style="color:#3333cc"> boundary  |
+| <span style="color:#3333cc">  boundary |  <span style="color:#3333cc"> administrative |
+| <span style="color:#3333cc"> name | <span style="color:#3333cc"> (boundary name)  |
+|  <span style="color:#3333cc"> admin_level |<span style="color:#3333cc"> 4 (Province), 5 (City / District), 6 (Sub-district), 7 (Village), 8 (Hamlet), 9 (Sub-village), 10 (Sub-sub village)   |
+| <span style="color:#3333cc"> is_in:province | <span style="color:#3333cc"> (province name) |
+| <span style="color:#3333cc"> is_in:city (city) / is_in:town (district)|<span style="color:#3333cc"> (city/subdistrict name) |
+| <span style="color:#3333cc"> is_in:municipality |<span style="color:#3333cc"> (sub-district name)   |
+| <span style="color:#3333cc"> is_in:village |<span style="color:#3333cc"> (village name)   |
+| <span style="color:#3333cc"> is_in:RW |<span style="color:#3333cc"> (sub village name)  |
+|  flood_prone *only for sub village relation |  yes, no|
+|  landslide_prone *only for sub village relation |  yes, no|
+|  source |  HOT_InAWARESurvey_2018 |
 
 
 **13. Road Network**
 
-
-<table>
-  <tr>
-   <td><strong>key</strong>
-   </td>
-   <td><strong>possible values</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>highway
-   </td>
-   <td>motorway , trunk , primary , secondary , tertiary , service , residential , pedestrian, path , living_street, track
-   </td>
-  </tr>
-  <tr>
-   <td>name
-   </td>
-   <td><road name>
-   </td>
-  </tr>
-  <tr>
-   <td>layer
-   </td>
-   <td>5,4,3,2,1,-1,-2,-3,-4,-5
-   </td>
-  </tr>
-  <tr>
-   <td>width
-   </td>
-   <td><em><road width></em>
-   </td>
-  </tr>
-  <tr>
-   <td>lanes
-   </td>
-   <td><em><number of lanes></em>
-   </td>
-  </tr>
-  <tr>
-   <td>surface
-   </td>
-   <td>asphalt , concrete, metal, wood, grass, ground, gravel, mud, sand, paving_stones
-   </td>
-  </tr>
-  <tr>
-   <td>smoothness
-   </td>
-   <td>good, intermediate, bad, impassable
-   </td>
-  </tr>
-  <tr>
-   <td>motorcycle
-   </td>
-   <td>yes,no
-   </td>
-  </tr>
-  <tr>
-   <td>oneway
-   </td>
-   <td>yes, no
-   </td>
-  </tr>
-  <tr>
-   <td>ref 
-   </td>
-   <td><em><reference></em>
-   </td>
-  </tr>
-  <tr>
-   <td>source
-   </td>
-   <td><em>HOT_InAWARESurvey_2018</em>
-   </td>
-  </tr>
-</table>
+| key  |  possible values |
+|---|---|
+| <span style="color:#3333cc"> highway |<span style="color:#3333cc"> motorway, trunk, primary, secondary, tertiary, service, residential, pedestrian, path, living_street, track |
+|  name | (street name)  |
+|  layer | 5,4,3,2,1,-1,-2,-3,-4,-5  |
+|  width |  (road width) |
+|  lanes | (number of road lanes)   |
+| <span style="color:#3333cc"> surface | <span style="color:#3333cc"> asphalt, concrete, metal, wood, grass, ground, gravel, mud, sand, paving_stones |
+|  smoothness | good, intermediate, bad, impassable |
+|  motorcycle | yes, no  |
+| <span style="color:#3333cc"> oneway | <span style="color:#3333cc"> yes, no |
+| ref  |  (refference) |
+|  source |  HOT_InAWARESurvey_2018 |
 
 
-** **
-
-**b. Data Type in OpenStreetMap Based on Object**
+**b. Data Type in _OpenStreetMap_ Based on Object**
 
 After knowing data model based on object tag in OpenStreetMap particularly in HOT-PDC InAWARE Project, you also need to know data type based on the object itself. The table below shows you what type of data for each object that you can add into OpenStreetMap:
 
 **Color Information:**
 
-
-
-*   Green Color means the object **allowed** to be mapped in that data type
-*   Red Color means the object **not allowed** and **prohibited** to be mapped in that data type
+*   <span style="color:#7EFF83">Green Color</span> means the object **allowed** to be mapped in that data type.
+*   <span style="color:#FF7278">Red Color</span> means the object **not allowed** and **prohibited** to be mapped in that data type.
 
 Table of Object and Its Data Type in _OpenStreetMap_
 
