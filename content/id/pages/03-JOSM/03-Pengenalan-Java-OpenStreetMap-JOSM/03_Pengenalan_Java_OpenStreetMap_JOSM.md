@@ -204,7 +204,7 @@ Pada JOSM terdapat bidang peta, _toolbar_, dan panel. Bidang peta adalah bidang 
 
 Jika ingin menghilangkan panel-panel tertentu, Anda dapat mengklik tanda **x** pada pojok kanan panel yang ingin hilangkan. Jika ingin menambahkan panel lainnya, Anda dapat mengaktifkannya di menu **_Windows_** dan setelah diaktifkan akan muncul pada panel di sebelah kanan JOSM.
 
-_Toolbar_ samping kiri pada JOSM adalah jendela alat yang berisi beberapa tombol untuk _editing_ seperti tombol **_Select object_** dan _**Draw nodes**_. Di bawahnya adalah alat-alat yang untuk **_zoom and move map, delete nodes or way,_** dan **_create areas_**. Untuk pilihan _toolbar_ lainnya, Anda dapat mengklik tombol dua panah ke kanan warna hitam. Kemudian klik _toolbar_ yang Anda inginkan dan akan muncul di _toolbar_.
+_Toolbar_ samping kiri pada JOSM adalah jendela alat yang berisi beberapa tombol untuk _editing_ seperti tombol **_Select object_** dan **_Draw nodes_**. Di bawahnya adalah alat-alat yang untuk **_zoom and move map, delete nodes or way,_** dan **_create areas_**. Untuk pilihan _toolbar_ lainnya, Anda dapat mengklik tombol dua panah ke kanan warna hitam. Kemudian klik _toolbar_ yang Anda inginkan dan akan muncul di _toolbar_.
 
 ![tombol_untuk_mengatur_toolbar](/id/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0328_Tombol_untuk_mengatur_toolbar_pada_JOSM.png)
 <p align="center"><i>Tombol untuk mengatur toolbar pada JOSM</i></p>
