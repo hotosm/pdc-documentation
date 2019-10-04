@@ -31,6 +31,16 @@
     </item>
     
     <item>
+      <title>Using To-Do List in JOSM</title>
+      <link>/en/pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/</guid>
+      <description>Objectives:
+ To be able to do plugin installation to input data in JOSM To be able to operate to-do list plugin in JOSM to input the data  After conducting a survey using the OpenMapKit (OMK) application, the next step you need to do is to input survey data as points in OpenStreetMap using JOSM. To make it easier for you to do that, you need to install JOSM plugin named Todo list plugin.</description>
+    </item>
+    
+    <item>
       <title>Creating the Administrative Boundaries in JOSM</title>
       <link>/en/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

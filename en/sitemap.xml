@@ -303,6 +303,21 @@
   </url>
   
   <url>
+    <loc>/en/pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/</loc>
+    <lastmod>2019-10-04T17:02:55+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="/pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/"
+                />
+  </url>
+  
+  <url>
     <loc>/en/pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07-pembuatan-peta-survey-dengan-qgis/</loc>
     <lastmod>2019-08-22T12:43:29+07:00</lastmod>
   </url>
@@ -374,7 +389,7 @@
   
   <url>
     <loc>/en/</loc>
-    <lastmod>2019-10-01T17:47:18+07:00</lastmod>
+    <lastmod>2019-10-04T17:02:55+07:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
