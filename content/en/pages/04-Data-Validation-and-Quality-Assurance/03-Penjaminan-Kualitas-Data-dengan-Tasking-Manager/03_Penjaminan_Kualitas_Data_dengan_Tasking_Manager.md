@@ -1,6 +1,6 @@
 ---
 title: Data Quality Assurance with Tasking Manager
-weight: 5
+weight: 3
 ---
 
 
