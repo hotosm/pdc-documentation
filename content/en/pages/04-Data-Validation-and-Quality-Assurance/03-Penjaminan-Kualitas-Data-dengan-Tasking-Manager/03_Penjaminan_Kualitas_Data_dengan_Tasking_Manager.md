@@ -14,7 +14,7 @@ Previously you have edited OpenStreetMap data using tasking manager. Tasking man
 
 
 
-## **1. Data Quality Assurance using Tasking Manager**
+### **I. Data Quality Assurance using Tasking Manager**
 **a. Validation Project Area Tasking**
 
 How to validating using tasking manager is similarly with editing with tasking manager. This is the step how to validate using tasking manager:

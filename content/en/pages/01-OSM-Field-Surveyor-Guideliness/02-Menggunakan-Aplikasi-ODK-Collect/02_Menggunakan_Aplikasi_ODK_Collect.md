@@ -139,7 +139,7 @@ After you fill and save the form, the next step is upload form survey to server.
 <p align="center"><i>View Sent Form and survey form that have been successfully uploaded to the server</i><p align="center">
 
 
-*   After upload the form, you can delete the form in **_Delete Saved Form _**menu.
+*   After upload the form, you can delete the form in **_Delete Saved Form_** menu.
 
 ![Delete Saved Form menu for delete the form](/en/images/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/0219_Delete_Saved_Form_menu_for_delete_the_form.png)
 <p align="center"><i>Delete Saved Form menu for delete the form</i><p align="center">

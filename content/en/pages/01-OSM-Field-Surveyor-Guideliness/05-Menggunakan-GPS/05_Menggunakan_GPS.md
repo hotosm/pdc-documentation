@@ -16,7 +16,7 @@ weight: 5
 When doing a field survey, a navigation tool that has a function to record track and point is needed. Global Positioning Syste or GPS is frequently used tool. In this module will explain what is GPS, how to use GPS, and how this survey result using GPS will help to make a map. In this module will explain about using Garmin GPSmap 62s/64s, that is GPS which commonly used for field survey. There are a lot of GPS type that can do the same thing. If you use another type of GPS, you don't need to worry because they have the same principal. If you don’t have a GPS, you can use OSMTracker as an alternative. You can learn in **Using OSMTracker** module.
 
 
-## **1. Definition and Parts of GPS**
+### **I. Definition and Parts of GPS**
 
 Global Positioning System or GPS is a device or satellite-based system that can be used to give information where the users are (globally) on the surface of the earth. Basically, GPS works like handphone, but handphone get the radio signal from telecommunication tower while GPS get the signal from satellite that revolves around the earth. By receiving signals from satellites, a GPS can calculate the location on the surface of the earth. GPS record the location in coordinates format, where there are two number series of coordinates. The first number series shows your position from East or West, or commonly referred to as longitude. The second series of numbers shows your position from north or south, or commonly referred to as latitude position. The coordinates of longitude and latitude are geographical coordinates and each place on earth has different geographical coordinates.
 
@@ -48,7 +48,7 @@ Here is the function of the buttons on the GPS:
 
 On the back of the top side of the GPS, there is a port USB to connect to the laptop using USB cable. At the bottom is for AA type battery.
 
-## **2. Turn On GPS**
+### **II. Turn On GPS**
 
 Global Positioning System or GPS is a satellite-based device, so when you turn on the GPS, make sure you are in outdoors where you can see the sky clearly. GPS can determine your location by receiving signals from satellites, so if you are indoors the GPS will not work. This is the step  to turn on the GPS:
 
@@ -64,7 +64,7 @@ Global Positioning System or GPS is a satellite-based device, so when you turn o
 <p align="center"><i>GPS shows your location</i></p>
 
 
-## **3. Using GPS**
+### **III. Using GPS**
 
 GPS has many functions that are useful for daily life, such as to show the direction or to measure distances, make maps, and can be used as reference measurements for an area. GPS has a setting that you can change as you want, one of them is to set the brightness of GPS screen. To set the brightness, you can press the power button on the right side once, then on the GPS screen will appear as shown below:
 
@@ -101,21 +101,19 @@ There are various main menu in GPS, you can press **MENU** button and the menu o
 
 
 
-## **4. Track and Waypoint**
+### **IV. Track and Waypoint**
 
 GPS record two types of information that are useful for make maps or save coordinate from a place. First, GPS can record the route you’re passed called a track. Second, GPS can record your object point location called waypoint.
 
-
-
-**1. Track**
+**a. Track**
 
  Track is a direction or path of your trip when it’s start record and will be saved in the form of a location series wherever you move. For example, the track will record your location every one second, or every one meter, and the result will be a series of points showing the path where you have been. Track is very useful for mapping lines or shapes object, such as a road or field.
 
-**2. Waypoint**
+**b. Waypoint**
 
 Waypoint is a reference point or set of coordinates that used for navigation purposes or to identify a point on a map. GPS can save your location in GPS memory. When you save a location, the coordinates will be saved with a name. For example, the first waypoint  will be named as 001, the second waypoint is 002, and so on. For more details, will be discussed in sub chapter VI, Save Waypoints.
 
-## **5. Turn On Track Mode**
+### **V. Turn On Track Mode**
 
 This is the step how to turn on the track mode on GPS:
 
@@ -178,7 +176,7 @@ _Track_ saved after the field survey is completed. Mostly tracks are saved per d
 <p align="center"><i>Saved track display</i></p>
 
 
-6. **Save Waypoints**
+### **6. Save Waypoints**
 
 This is the steps for save waypoints:
 
@@ -200,7 +198,7 @@ To delete one waypoint that you have saved, press **_Enter_** on waypoint that y
 
 
 
-7. **Copy Track and Waypoint to Computer**
+### **7. Copy Track and Waypoint to Computer**
 
 The next step is copying the data that has been collected by GPS to computer to be used as a mapping reference.  This is the step to copy the GPS data:
 
