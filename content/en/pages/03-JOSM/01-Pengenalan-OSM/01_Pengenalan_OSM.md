@@ -19,7 +19,7 @@ Nowadays a lot of people use digital map, but only a few use open source digital
 
 OpenStreetMap or OSM_ _is a free, open and editable digital map of the whole world. Since OpenStreetMap is a digital map, anyone can access it anywhere freely. OpenStreetMap data is licensed under [ODbL](https://opendatacommons.org/licenses/odbl/), whereas the cartography of the map tiles is under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/). This enables its user to  copy, distribute, transmit and adapt OpenStreetMap data, as long as credit given to OpenStreetMap and its contributors by citing “**© OpenStreetMap contributors**”. Sharing data is very useful especially for unreachable data. Using OpenStreetMap, you can share spatial data where the data created by other users and other users can also use the data you created. OpenStreetMap also enables its users to create a new product made from OpenStreetMap data and also enables users to modify the data.
 
-![OpenStreetMap Logo](/en/images/03-JOSM/01-Pengenalan-OSM/images/0101_logo_osm.png)
+![OpenStreetMap Logo](/en/images/03-JOSM/01-Pengenalan-OSM/0101_logo_osm.png)
 <p align="center"><i>OpenStreetMap Logo</i></p>
 
 **II. OpenStreetMap History**
@@ -28,7 +28,7 @@ OpenStreetMap is founded by Steve Coast in 2004. Steve initially focused on mapp
 
 In 2009, OpenStreetMap volunteers put Kibera, the second largest slum in Africa, in OpenStreetMap. In 2010, Bing satellite imagery can be used for OpenStreetMap mapping reference. In 2011, one billion nodes representing everything from intersections to trees were mapped in OpenStreetMap. 2011 is also the year when OpenStreetMap was first introduced in Indonesia. In 2012, ODbL applied to OpenStreetMap which enables OpenStreetMap users to share or to adapt OpenStreetMap data. In 2013, OpenStreetMap users reached one million. Up until now, OpenStreetMap has more than five millions registered users around the globe.
 
-![OpenStreetMap History](/en/images/03-JOSM/01-Pengenalan-OSM/images/0102_alur_sejarah.png)
+![OpenStreetMap History](/en/images/03-JOSM/01-Pengenalan-OSM/0102_alur_sejarah.png)
 <p align="center"><i>OpenStreetMap History</i></p>
 
 
@@ -47,12 +47,12 @@ The reasons why OpenStreetMap is the best choice:
 
 There are so many examples of the use of OpenStreetMap. You can complete the information of the map and create a map of a familiar area. You can make a detailed map since every user is able to do survey individually on the targeted area. Here is one example of Bodeh Hamlet map in Yogyakarta made by one of OpenStreetMap users who lives there.
 
-![Map made in OpenStreetMap](/en/images/03-JOSM/01-Pengenalan-OSM/images/0103_contoh_peta.png)
+![Map made in OpenStreetMap](/en/images/03-JOSM/01-Pengenalan-OSM/0103_contoh_peta.png)
 <p align="center"><i>Map made in OpenStreetMap</i></p>
 
 OpenStreetMap data is also used by one of Android Developers to make an offline map and navigation mobile app called [Maps.me](http://maps.me/). This app uses OpenStreetMap data which should be downloaded first then the OpenStreetMap data can be used offline for navigation.
 
-![Maps.me](/en/images/03-JOSM/01-Pengenalan-OSM/images/0104_maps_me.png)
+![Maps.me](/en/images/03-JOSM/01-Pengenalan-OSM/0104_maps_me.png)
 <p align="center"><i>Maps.me</i></p>
 
 OpenStreetMap can also be used to make a disaster-related map. OpenStreetMap is often used as tools to map disaster area then the data will be used for damage assessment. OpenStreetMap is often used mapping platform for disaster response since OpenStreetMap really suits for participatory mapping. OpenStreetMap data can be used for evacuation route planning as well as evacuation center, but OpenStreetMap data should be processed first using GIS software.
@@ -73,13 +73,13 @@ OpenStreetMap can also be used to make a disaster-related map. OpenStreetMap is 
 
     The objects that you map will be represented by point/node, line/way or polygon, depends on the object’s type. Point of interests such as restaurant, fire hydrant and bank are usually represented by point/node. Line/way is usually used to represent linear objects such as roads, river and railway. Line/way is actually an ordered list of nodes that connect to each other. Polygon is used to represent area such as building, lake or land use. Polygon is a closed way whose last node is also the first node.
 
-![Point symbology for point object on OpenStreetMap](/en/images/03-JOSM/01-Pengenalan-OSM/images/0105_simbol_titik.png)
+![Point symbology for point object on OpenStreetMap](/en/images/03-JOSM/01-Pengenalan-OSM/0105_simbol_titik.png)
 <p align="center"><i>Point symbology for point object on OpenStreetMap</i></p>
     
-![Line symbology for point object on OpenStreetMap](/en/images/03-JOSM/01-Pengenalan-OSM/images/0106_simbol_garis.png)
+![Line symbology for point object on OpenStreetMap](/en/images/03-JOSM/01-Pengenalan-OSM/0106_simbol_garis.png)
 <p align="center"><i>Line symbology for line object on OpenStreetMap</i></p>
 
-![Polygon symbology for point object on OpenStreetMap](/en/images/03-JOSM/01-Pengenalan-OSM/images/0107_simbol_poligon.png)
+![Polygon symbology for point object on OpenStreetMap](/en/images/03-JOSM/01-Pengenalan-OSM/0107_simbol_poligon.png)
 <p align="center"><i>Polygon symbology for polygon object on OpenStreetMap</i></p>
 
 **SUMMARY**
