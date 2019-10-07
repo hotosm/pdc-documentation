@@ -11,6 +11,7 @@ weight: 4
 *   Understanding editing tips in JOSM
 *   Understanding how to draw special objects such as bridge, school, and road networks
 
+
 Java OpenStreetMap or commonly called JOSM is a desktop-based editor for OpenStreetMap. JOSM allows you to edit OSM data offline for a while or not always connect to the internet. If in the previous module you learned about operating JOSM, then in this module you will learn how to use JOSM.
 
 ### **I. Basic Drawing Techniques with JOSM**
@@ -24,7 +25,7 @@ Please open an OSM sample file that we will use to learn how to draw a basic map
 
 ![Open a file icon](/en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0401_Ikon_Open_a_file.png)
 <p align="center"><i>Open a file icon</i></p>
-    _Open a file icon_
+
 
 *   Find and choose **sample.osm** in your computer that you have downloaded before, then click **Open**. Your computer screen will look like a picture below:
 
@@ -68,7 +69,7 @@ When you select an object, it will be red and a list appears in the tag panel on
 
 ![Object information in panel tags JOSM](/en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0405_Informasi_objek_di_panel_Tags_JOSM.png)
 <p align="center"><i>Object information in panel tags JOSM</i></p>
-_Object information in panel tags JOSM _
+
 
 
 
@@ -95,7 +96,7 @@ On the left side of JOSM, there are many toolbars that provide more information 
     
 ![Draw Tool icon](/en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0407_Ikon_Draw_Tool.png)
 <p align="center"><i>Draw Tool icon</i></p>
-    _Draw Tool icon_
+
 
 *   Find an empty area on the map, then double click with your mouse, and a single node will be drawn.
 
@@ -122,7 +123,7 @@ Now you understand how to draw nodes, ways, and polygons. However, you still hav
 
 *   Click **Select** toolbar on the left side of JOSM.
 *   Select the object that you want to add preset.
-*   Select **Presets **menu on the top side of JOSM. Move your mouse to the sub-menu of the object that you want to add preset.
+*   Select **Presets** menu on the top side of JOSM. Move your mouse to the sub-menu of the object that you want to add preset.
 
     
 ![Add preset](/en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0411_Memasukkan_preset.png)
@@ -161,7 +162,7 @@ JOSM has tools that will make it easier for you to edit either ways or polygons.
 
 ![Tools JOSM menu](/en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0415_Pilihan_yang_ada_di_menu_tools_JOSM.png)
 <p align="center"><i>Tools JOSM menu</i></p>
-_Tools JOSM menu_
+
 
 For applying the functions in this menu, you need to select a node, way, or polygon in the map area. The sample file that you downloaded contains various elements that are labeled with different tool names in the menu. You can try the tools using the file sample. Explanation about some tools are provided below:
 
@@ -191,7 +192,7 @@ After you have split way, you can add information about each road segments that 
 
 ![The results of combine line on JOSM](/en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0418_Hasil_menggabungkan_Garis_Way_JOSM.png)
 <p align="center"><i>The results of combine line on JOSM</i></p>
-_The results of combine line on JOSM_
+
 
 
 If you combine roads that have different directions, you will get a warning like the picture below. The warning means if the road is connected and it will has the same direction. If you are sure to combine the two roads, please click **_Reverse and Combine_**.
@@ -210,7 +211,7 @@ If you combine roads that have different directions, you will get a warning like
 
 ![Reverse way tool](/en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0420_Tampilan_reverse_ways.png)
 <p align="center"><i>Reverse way tool</i></p>
-_Reverse way tool_
+
 
 
 
@@ -244,7 +245,7 @@ _Reverse way tool_
 
 *   **Align Nodes in Line**
 
-    This tool function is to convert irregular line/way into straight shapes. Be careful if you use this tool because it has a slight tendency to shift lines/ways. Remember that this tool will straighten the shape of the line according to the location of the starting point and end of the line. To use this tool is click the line/way that you want to align, then go to tools menu and click **Align Nodes in Line**. The shortcut key for align nodes in line is **L **on your keyboard.
+    This tool function is to convert irregular line/way into straight shapes. Be careful if you use this tool because it has a slight tendency to shift lines/ways. Remember that this tool will straighten the shape of the line according to the location of the starting point and end of the line. To use this tool is click the line/way that you want to align, then go to tools menu and click **Align Nodes in Line**. The shortcut key for align nodes in line is **L** on your keyboard.
 
 
 ![Align nodes in line tool](/en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0424_Tampilan_align_nodes_in_line.png)
@@ -335,7 +336,6 @@ Previously you learn about object that should not connected. Now you will learn 
 
 ![Road should be connected to each other](/en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0438_Jalan_harus_terhubung_satu_sama_lain.png)
 <p align="center"><i>Road should be connected to each other</i></p>
-_Road should be connected to each other_
 
 
 
