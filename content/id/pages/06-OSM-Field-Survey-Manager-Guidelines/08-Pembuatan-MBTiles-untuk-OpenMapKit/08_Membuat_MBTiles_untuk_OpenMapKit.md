@@ -20,7 +20,7 @@ MBTiles merupakan format data spasial untuk menyimpan beberapa _tile_ peta yang 
 <p align="center"><i>Tampilan MBTiles pada QGIS</i><p align="center">
 
 
-**II. Membuat MBTiles dengan _Export Tool_**
+### **II. Membuat MBTiles dengan _Export Tool_**
 
 _Export Tool_ merupakan salah satu situs yang digunakan untuk men-_download_ data _OpenStreetMap_ secara gratis berdasarkan fitur dan wilayah tertentu. Dimana format data spasial yang sering digunakan, yaitu: _Shapefile (.shp), GeoPackage (.gpkg), dan MBTiles (.mbtiles)_. Langkah-langkah untuk membuat MBTiles dengan menggunakan _export tools_ yaitu :
 
