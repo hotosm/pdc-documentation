@@ -28,7 +28,7 @@ Please choose the installation file based on your computer's operating system. I
 
 
 
-### **2. Installing JOSM**
+### **II. Installing JOSM**
 
 After you successfully download JOSM, now you will install JOSM on your computer or laptop. Here are the steps:
 
@@ -213,7 +213,7 @@ To show the points, labels, and icons, you should change the map style in your J
 
 
 
-*   Click **File **→** New Layer** to bring up the windowl in JOSM.
+*   Click **File → New Layer** to bring up the windowl in JOSM.
 *   On the right side of the JOSM window, look at **Map Paint Styles** box.
 *   If there is no Map Paint Styles window in your JOSM, please click Windows menu on the top of your JOSM, then click Map Paint Styles to activate the Map Paint Styles window. 
 
