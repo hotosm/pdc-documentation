@@ -1,10 +1,6 @@
----
-title: Using Tasking Manager
-weight: 2
----
+**Using Tasking Manager**
 
 **Objectives:**
-
 *   Using functions of tasking manager  for participatory mapping
 *   Operating tasking manager for mapping
 
