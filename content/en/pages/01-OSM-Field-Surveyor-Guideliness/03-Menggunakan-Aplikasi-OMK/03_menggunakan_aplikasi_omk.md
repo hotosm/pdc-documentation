@@ -49,7 +49,7 @@ _OpenMapKit_ provides an OSM map as a _basemap_ that must be accessed using an i
 
 
 
-*   The format of the data used as a offline basemap in the application _OpenMapKit_ should be formatted as .mbtiles. To create _.mbtiles_ can be seen in the module **Make Mbtiles for OMK (_OpenMapKit_).** After you have the _.mbtiles_ file, connect your _smartphone_ to your computer / laptop. Open the folder containing _the .mbtiles _file that will be copied to your smartphone. Select the _.mbtiles_ file then copy it to **openmapkit** → **mbtiles** folder your internal storage.
+*   The format of the data used as a offline basemap in the application _OpenMapKit_ should be formatted as .mbtiles. To create _.mbtiles_ can be seen in the module **Make Mbtiles for OMK (_OpenMapKit_).** After you have the _.mbtiles_ file, connect your _smartphone_ to your computer / laptop. Open the folder containing _the .mbtiles_ file that will be copied to your smartphone. Select the _.mbtiles_ file then copy it to **openmapkit** → **mbtiles** folder your internal storage.
 
 ![The process of adding mbtiles files to OpenMapKit](/en/images/01-OSM-Field-Surveyor-Guideliness/03-Menggunakan-Aplikasi-OMK/0303_omk_mbtiles.png)
 <p align="center"><i>Process of adding .mbtiles files to OpenMapKit</i></p>
@@ -74,7 +74,7 @@ _OpenMapKit_ provides an OSM map as a _basemap_ that must be accessed using an i
 
    *   Press the **settings button** in the top right corner
 
-   *   Select **_OSM XML Downloader_** to start download OSM data according to the view on the screen of your smartphone (the duration depends on the size of the area). Make sure you are connected to an internet connection when downloading OSM data. Note the color of the building, the building on the OSM _basemap _have brown color and the building from **_OSM XML Downloader _** is purple.
+   *   Select **_OSM XML Downloader_** to start download OSM data according to the view on the screen of your smartphone (the duration depends on the size of the area). Make sure you are connected to an internet connection when downloading OSM data. Note the color of the building, the building on the OSM _basemap_ have brown color and the building from **_OSM XML Downloader_** is purple.
 
 
     ![Building colors](/en/images/01-OSM-Field-Surveyor-Guideliness/03-Menggunakan-Aplikasi-OMK/0306_warna_bangunan.png)

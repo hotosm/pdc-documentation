@@ -176,7 +176,7 @@ _Track_ saved after the field survey is completed. Mostly tracks are saved per d
 <p align="center"><i>Saved track display</i></p>
 
 
-### **6. Save Waypoints**
+### **VI. Save Waypoints**
 
 This is the steps for save waypoints:
 
@@ -198,7 +198,7 @@ To delete one waypoint that you have saved, press **_Enter_** on waypoint that y
 
 
 
-### **7. Copy Track and Waypoint to Computer**
+### **VII. Copy Track and Waypoint to Computer**
 
 The next step is copying the data that has been collected by GPS to computer to be used as a mapping reference.  This is the step to copy the GPS data:
 

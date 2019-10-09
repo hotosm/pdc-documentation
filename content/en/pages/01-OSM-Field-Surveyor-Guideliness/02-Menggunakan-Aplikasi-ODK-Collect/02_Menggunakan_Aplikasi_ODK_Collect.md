@@ -17,6 +17,7 @@ Open Data Kit Collect (ODK Collect) is a data collection application on Android.
 ### **II. Initial Setup for ODK Collect**
 
 **1. Set the URL Server**
+
 To take the form survey from the server for the first time, the user needs to set the URL server. There are the steps:
 
 *   Open ODK Collect and press the three point button in the upper right corner, select **General Settings → Server**
@@ -32,6 +33,7 @@ To take the form survey from the server for the first time, the user needs to se
 
 
 **2. Set the Image Size**
+
 In addition to the location point, you can also take a picture as additional information. You can set the picture resolution as desired. But, the picture resolution will also affect the amount of your phone memory or file which will be uploaded to the server later. It is recommended that you choose the smallest resolution of the image during initial setup. You can follow this step: 
 
 *   Open ODK Collect and press the three point button in the upper right corner, select **General Settings → Form Management**.
@@ -39,14 +41,16 @@ In addition to the location point, you can also take a picture as additional inf
 ![Option menu to set image resolution](/en/images/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/0203_Option_menu_to_set_image_resolution.png)
 <p align="center"><i>Option menu to set image resolution</i><p align="center">
 
-*   Select **Image Size** then select the **Very Small (640px) **option**.**
+*   Select **Image Size** then select the **Very Small (640px) option.**
 
 ![Image Size menu to set the image resolution](/en/images/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/0204_Image_size_menu_to_set_the_image_resolution.png)
 <p align="center"><i>Image Size menu to set the image resolution</i><p align="center">
 
 
 ### III. ODK Collect basic operations
+
 **1. How To Get a Blank Form Survey From Server**
+
 Before you fill-out the form survey that you made before, you need to download the blank survey form from specified server.  For further explanation about create a survey form in ODK, you can learn in **Making Survey Form for ODK & OMK applications** module. You can follow this step to take a blank survey from the server:
 
 *   Press **Get Blank Form** and wait for the form to download from the server and make sure your internet is active.
@@ -66,6 +70,7 @@ Before you fill-out the form survey that you made before, you need to download t
 
 
 **2. Fill the Survey Form**
+
 *   To fill the form, back to the start page and select **Fill Blank Form** menu. And then select one form blank that you want to fill in the survey form list.
 
 ![Fill Blank Form options for filling out the survey form and blank survey form list](/en/images/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/0208_Fill_Blank_Form_options_for_filling_out_the_survey_form_and_blank_survey_form_list.png)
@@ -97,6 +102,7 @@ Before you fill-out the form survey that you made before, you need to download t
 
 
 **3. Edit the Completed Survey Form**
+
 The saved form automatically save in ODK Collect. If you want to edit the completed form, you can follow this step:
 
 *   You can back to start page and choose **Edit Saved Form**.
@@ -118,6 +124,7 @@ The saved form automatically save in ODK Collect. If you want to edit the comple
 
 
 **4. Upload Survey Forms to Server**
+
 After you fill and save the form, the next step is upload form survey to server.  You can follow this step to upload form to server:
 
 *   To upload the form return to the server, you can choose **Send Finalized Form**.
@@ -127,7 +134,7 @@ After you fill and save the form, the next step is upload form survey to server.
 
 
 *   Form survey is saved on that page and ready to send. You can choose **Select All** to select all forms first. 
-*   Make sure you are connected on the internet. Then press **Send Selected** and wait until the process_ upload_ the form is complete.
+*   Make sure you are connected on the internet. Then press **Send Selected** and wait until the process _upload_ the form is complete.
 
 ![Survey forms that are ready to send in the Send Finalized Form](/en/images/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/0217_Survey_forms_that_are_ready_to_send_in_the_Send_Finalized_Form.png)
 <p align="center"><i>Survey forms that are ready to send in the Send Finalized Form</i><p align="center">
@@ -158,6 +165,7 @@ After you fill and save the form, the next step is upload form survey to server.
 
 
 **5. Upload Survey Form to Google Drive**
+
 After you upload all the survey form to server, you need to save and upload the survey result file in .zip format in Google Drive folder that was created by your mapping supervisor. This is the step:
 
 *   Go File Manager or File Explorer on your smartphone and open your internal storage. Then open ODK folder. This folder contains all the survey result file which stored on ODK Collect application. Then select instances folder which contains *.osm file from object survey result.
@@ -178,7 +186,7 @@ After you upload all the survey form to server, you need to save and upload the 
 <p align="center"><i>The .zip file that ready to move to computer</i><p align="center">
 
 
-*   You can upload the file to Survey Result folder (or another name that your mapping supervisor made) by click right on your mouse then choose **Upload Files **and choose the file that you want to upload.
+*   You can upload the file to Survey Result folder (or another name that your mapping supervisor made) by click right on your mouse then choose **Upload Files** and choose the file that you want to upload.
 
 ![The folder on Google Drive for upload .zip file](/en/images/01-OSM-Field-Surveyor-Guideliness/02-Menggunakan-Aplikasi-ODK-Collect/0225_The_folder_on_Google_Drive_for_upload_zip_file.png)
 <p align="center"><i>The folder on Google Drive for upload .zip file</i><p align="center">
