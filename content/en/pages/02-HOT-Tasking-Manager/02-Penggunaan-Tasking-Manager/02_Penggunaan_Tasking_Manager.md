@@ -28,7 +28,7 @@ Tasking manager used as a response when Haiyan typhoon occurred in the Philippin
    <p align="center"><i>Tasking Manager as a response of earthquake and tsunami on Sunda Strait</i></p>
 
 
-**II. Starting Tasking Manager**
+### **II. Starting Tasking Manager**
 
 You can open the tasking manager on [https://tasks.hotosm.org/](https://tasks.hotosm.org/). You should see the website looks exactly like the picture: 
 
@@ -195,11 +195,12 @@ You can also find your tasking manager project based on certain campaign. For ex
         Mostly when we mapping the area using tasking manager, you will see many objects located in between square boundary, like this:
 
        ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0227_Objek_yang_terletak_di_perbatasan_grid_tasking_manager.png "image_tooltip")
-        <p align="center"><i>Object located on the border of tasking manager grid</i></p>
+        <p align="center"><i>0Object located on the border of tasking manager grid</i></p>
 
         If you find those kind of object, you can draw the object slightly cross the boundary of your square. You need to draw the object like this especially for highway to give guidance for another user to continue your object. 
 
 
 **SUMMARY**
+
 Now you have learned the definition of tasking manager. Tasking manager is a tool that can be used to do the participatory and collaborative mapping with another user. When there is an area needed to be mapped quickly, tasking manager can help you to do so. Hopefully when you do mapping using tasking manager, your project will finish quicker and well organized. 
 
