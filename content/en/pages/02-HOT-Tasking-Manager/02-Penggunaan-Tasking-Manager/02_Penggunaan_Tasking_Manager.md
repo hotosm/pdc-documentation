@@ -1,12 +1,15 @@
-**Using Tasking Manager**
+---
+title: Using Tasking Manager
+weight: 1
+---
 
 **Objectives:**
-*   Using functions of tasking manager  for participatory mapping
-*   Operating tasking manager for mapping
+* Using functions of tasking manager  for participatory mapping
+* Operating tasking manager for mapping
 
 As an alternative for open source mapping platform, OpenStreetMap allows everyone to do mapping anytime, anywhere. The problem is, what if you want to do mapping along with the other mapper on the same time? Tasking Manager allows you to divide an area of mapping so everyone can do mapping together. In this module, you will learn more detail about Tasking Manager and how to mapping using Tasking Manager.
 
-**I. What is Tasking Manager?**
+### **I. What is Tasking Manager?**
 
 1. **The Definition of Tasking Manager**
     Tasking manager is a tool created specifically for participatory mapping. With Tasking Manager, you can simply do mapping together with the other on the same location, but with different area of mapping. Tasking manager can split the mapping area into separate grid or square. You can also use tasking manager to see your mapping progress, which are still need to map or which area is fully mapped. 
@@ -15,12 +18,12 @@ As an alternative for open source mapping platform, OpenStreetMap allows everyon
 2. **The example of Tasking Manager**
 Tasking manager used as a response when Haiyan typhoon occurred in the Philippines on November 8, 2013. Mapping area located in Tacloban city as one of the most severely damaged when the disaster happened. Within 24 hours after the tasking manager project was created. 10.000 buildings added or around 25% of the building amount in Tacloban City. This mapping project was carried out by 33 volunteers. 
 
-   ![alt_text](images/0201_Kondisi_bangunan_sebelum_dan_setelah_dipetakan_menggunakan_Tasking_Manager.png "image_tooltip")
+   ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0201_Kondisi_bangunan_sebelum_dan_setelah_dipetakan_menggunakan_Tasking_Manager.png "image_tooltip")
 _Density of the building before and after mapping using Tasking Manager_
 
    Tasking manager are also used in Indonesia as a response when disaster happened. One of the examples is when the earthquake and tsunami struck in the Sunda Strait in December 2018. Within a month, all affected areas were mapped by 60 volunteers. 
 
-   ![alt_text](images/0202_Tasking_manager_yang_dibuat_sebagai_respon_bencana_gempa_dan_tsunami_di_Selat_Sunda.png "image_tooltip")
+   ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0202_Tasking_manager_yang_dibuat_sebagai_respon_bencana_gempa_dan_tsunami_di_Selat_Sunda.png "image_tooltip")
 _Tasking Manager as a response of earthquake and tsunami on Sunda Strait_
 
 
@@ -28,12 +31,12 @@ _Tasking Manager as a response of earthquake and tsunami on Sunda Strait_
 
 You can open the tasking manager on [https://tasks.hotosm.org/](https://tasks.hotosm.org/). You should see the website looks exactly like the picture: 
 
-![alt_text](images/0203_Halaman_utama_Taksing_Manager.png "image_tooltip")
+![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0203_Halaman_utama_Taksing_Manager.png "image_tooltip")
 _Tasking Manager home page_
 
 On the main page, you can see several menu. If you want to change the language, you can choose the down-arrow button on the left side of the **Login** button. You can choose **Learn** button on the top side If you want to learn more detail about tasking manager.
 
-![alt_text](images/0204_Tombol_untuk_mengganti_bahasa_di_sebelah_kanan_dan_tombol_Learn_di_sebelah_kiri.png "image_tooltip")
+![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0204_Tombol_untuk_mengganti_bahasa_di_sebelah_kanan_dan_tombol_Learn_di_sebelah_kiri.png "image_tooltip")
 _You can change the language using button on your right side and Learn on your left side_
 
 Before you can start using Tasking Manager, there are a few things you need to know:
@@ -41,17 +44,17 @@ Before you can start using Tasking Manager, there are a few things you need to k
 1. **Login to Tasking Manager**
 You need to login with your OSM account. Choose **Login** button on the top right side of your screen, then write your OpenStreetMap account. On **Authorize access to your account** option, give checkmark on **read your user preferences**, then select **Grant Access**. Please check on the image for more detail:
 
-   ![alt_text](images/0205_Pilihan_untuk_mengizinkan_otorisasi_pada_akun_Anda.png "image_tooltip")
+   ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0205_Pilihan_untuk_mengizinkan_otorisasi_pada_akun_Anda.png "image_tooltip")
 _You must allow JOSM to read your user preferences_
 
    You will directed to the Tasking Manager homepage after you login with your OSM account. If you see your OSM account name, then you are successfully login to Tasking Manager. Choose **Start Mapping** or **Contribute** on the left side of the screen if you want to start mapping immediately. 
 
-   ![alt_text](images/0206_Tombol_Contribute_dan_Start_Mapping_pada_halaman_Tasking_Manager.png "image_tooltip")
+   ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0206_Tombol_Contribute_dan_Start_Mapping_pada_halaman_Tasking_Manager.png "image_tooltip")
 _Contribute and Start Mapping button on Tasking Manager page_
 
 2. **Searching Project on Tasking Manager search box**
 On this page, you will see two different view, Grid View and Map View. on the Grid View, there are few things you should notice, like:
-![alt_text](images/0207_Beberapa_pengaturan_yang_dapat_dilakukan_pada_tampilan_Grid_View.png "image_tooltip")
+![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0207_Beberapa_pengaturan_yang_dapat_dilakukan_pada_tampilan_Grid_View.png "image_tooltip")
 _You can change the setting on the Grid View layout_
 
    * **Search**
@@ -71,7 +74,7 @@ You can also find your tasking manager project based on certain campaign. For ex
 
    You can change the layout from Grid View to Map View. On the Grid View, you can see list of the project on grid/square layout. If you choose Map View, you can see the world map  with blue dots on the top of the map. 
 
-   ![alt_text](images/0208_Tombol_untuk_mengubah_tampilan_Grid_View_atau_Map_View.png "image_tooltip")
+   ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0208_Tombol_untuk_mengubah_tampilan_Grid_View_atau_Map_View.png "image_tooltip")
 _You can change the layout from Grid View to Map View using this button_
 
    After you change your layout into Map View, the page will be like this:
