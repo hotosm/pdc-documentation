@@ -62,7 +62,7 @@ In field survey, there are two different types of data needed to be collected, i
        ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0206_Geser_dan_buka_file_osm.png "image_tooltip")
 <p align="center"><i>Drag and open the .osm file on JOSM</i></p>
 
-   *   If it i succeed then you will see like this
+   *   If it succeed then you will see like this
 
        ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0207_Seluruh_file_osm_berhasil_dibuka_dalam_JOSM.png "image_tooltip")
 <p align="center"><i>All .osm file opened on JOSM</i></p>
