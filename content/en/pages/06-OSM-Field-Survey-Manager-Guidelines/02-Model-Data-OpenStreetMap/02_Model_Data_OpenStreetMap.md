@@ -19,7 +19,7 @@ In _OpenStreetMap_ there are 3 types of object. They are: _Nodes_, _Ways_, and _
 
 For instance, there is a school in your area. Therefore, the school should be **Tagged** as a school in OpenStreetMap. The school’s tag has some details information that make the school being different from other schools. Those information such as  name, address, building level, school type, etc. In OpenStreetMap, they are **_Key_** while each information of them called **_Value_**. 
 
-Example of School _Tag_: 
+Example of School _Tag_:
 
 name=SDN Kebon Manggis 11 Pagi  
 
@@ -183,9 +183,9 @@ School Tag Information Table
 | operator:type | government, private, community |
 | building:levels | (number of building floor) |
 
-<span style="color:#3333cc">amenity=school</font>  is a compulsory tag for the school information. _Key_ and _value_ in this tag are main information that identify the object as a school.
+<span style="color:#3333cc">amenity=school</span>  is a compulsory tag for the school information. _Key_ and _value_ in this tag are main information that identify the object as a school.
 
-<span style="color:#FF7278"> building=school</font> is a tag that show the school has its own building. Some schools are located in another building such as government office area therefore if that was the case then this tag is unnecessary.
+<span style="color:#FF7278"> building=school</span> is a tag that show the school has its own building. Some schools are located in another building such as government office area therefore if that was the case then this tag is unnecessary.
 
 
 **a. HOT-PDC InAWARE Data Model**
@@ -194,9 +194,8 @@ The purpose of HOT-PDC InAWARE mapping project is to gather information of criti
 
 **Color Information:**
 
-*  <span style="color:#3333cc">  Warna biru </font> the _key_ and _value_ are compulsory for the object.
-*  <span style="color:#FF7278"> Warna merah </font> the _key _and _value _are information for building of the object. This tag /information only collected if the object has its own building. Otherwise, the tag is unnecessary.
-* Warna hitam artinya _key_ dan _value_ tersebut **sebaiknya** dimasukkan ke dalam objek pemetaan baik objek tersebut memiliki bangunan sendiri ataupun menumpang di bangunan yang lain.
+*  <span style="color:#3333cc">  Blue color </span> means the _key_ and _value_ are compulsory for the object.
+*  <span style="color:#FF7278"> Red color </span> means the _key _and _value _are information for building of the object. This tag /information only collected if the object has its own building. Otherwise, the tag is unnecessary.
 *   Black color means the _key_ and _value_ **should be** added regardless the object has its own building or not.
 
 **1.Economic Facilities**
