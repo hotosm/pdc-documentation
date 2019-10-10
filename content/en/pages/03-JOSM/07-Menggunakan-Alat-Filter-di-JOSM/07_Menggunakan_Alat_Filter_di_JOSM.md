@@ -74,6 +74,7 @@ When you using filter on JOSM, the result of your filter will remain on your JOS
 ```
 
 
+
 **SUMMARY**
 
 After you managed to follow all these steps, now you already learn what is filter mode about on JOSM. You also already have knowledge of how to do filter on JOSM to select which data you only want to see. Use filter mode to help you and make your mapping things easier. 
