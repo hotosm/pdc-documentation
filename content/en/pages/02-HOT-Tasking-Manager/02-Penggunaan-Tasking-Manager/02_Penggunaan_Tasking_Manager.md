@@ -109,7 +109,7 @@ Before you can start using Tasking Manager, there are a few things you need to k
      
      When you select one project, you will see the project page like this:
 
-   ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0212_Tasking_manager_#781_INSIST_-_Kelurahan_Penjaringan.png "image_tooltip") <p align="center"><i>Tasking manager #781 INSIST - Kelurahan Penjaringan (Penjaringan District)</i></p>
+   ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0212_Tasking_Kelurahan_Penjaringan.png "image_tooltip") <p align="center"><i>Tasking manager #781 INSIST - Kelurahan Penjaringan (Penjaringan District)</i></p>
 
    This page shows you the information about tasking manager project we selected before. On the Project description, you can read the mapping background. Below the description, you can see more detail about the project, from priority level, organisation, creator name, difficulty, and list of objects needed to be mapped. If you want to create your own tasking manager project, you can read the guide on the **Creating and Managing Tasking Manager.**
 
@@ -124,28 +124,28 @@ Before you can start using Tasking Manager, there are a few things you need to k
    Shows that you can map the grid selected
 
    *   **Mapped**
-
-        Grid marked with yellow color shows you that the grid has already been mapped
+   
+   Grid marked with yellow color shows you that the grid has already been mapped
 
    *   **Bad Imagery**
-
-        Grey-blackish colored grid marked as an area with bad imagery
+   
+   Grey-blackish colored grid marked as an area with bad imagery
 
    *   **Validated**
-
-        Green colored grid shows that the grid has been validated
+   
+   Green colored grid shows that the grid has been validated
 
    *   **Invalidated**
-
-        Grid marked with  red color shows that the grid need to be re-checked before you can do validation again
+   
+   Grid marked with  red color shows that the grid need to be re-checked before you can do validation again
 
    *   **Locked**
-
-        Grey colored grid shows that the square has been selected by another user
+   
+   Grey colored grid shows that the square has been selected by another user
 
    *   **Locked by you**
-
-        Grid with blue outline colored shows that this grid is being selected by you
+   
+   Grid with blue outline colored shows that this grid is being selected by you
 
 4. **Contribute on Tasking Manager Project**
 
@@ -158,12 +158,12 @@ Before you can start using Tasking Manager, there are a few things you need to k
 
        ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0216_Choose_a_task.png "image_tooltip")
 
-        You can change the basemap so you can see which area covered by cloud. 
+     You can change the basemap so you can see which area covered by cloud. 
 
        ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0217_mengganti_citra_pada_tasking.png "image_tooltip")
 
         
-        If you find area covered by the cloud, please select **Mark as Bad Imagery** button. If you see there is only forest in most of your mapping area, you can choose **Mark as Completely Mapped**. 
+     If you find area covered by the cloud, please select **Mark as Bad Imagery** button. If you see there is only forest in most of your mapping area, you can choose **Mark as Completely Mapped**. 
 
        ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0218_mark_as_bad_imagery.png "image_tooltip")
 
