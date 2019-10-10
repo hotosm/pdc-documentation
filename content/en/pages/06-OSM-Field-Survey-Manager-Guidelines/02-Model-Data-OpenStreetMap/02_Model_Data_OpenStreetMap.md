@@ -195,7 +195,7 @@ The purpose of HOT-PDC InAWARE mapping project is to gather information of criti
 **Color Information:**
 
 *  <span style="color:#3333cc">  Blue color </span> means the _key_ and _value_ are compulsory for the object.
-*  <span style="color:#FF7278"> Red color </span> means the _key _and _value _are information for building of the object. This tag /information only collected if the object has its own building. Otherwise, the tag is unnecessary.
+*  <span style="color:#FF7278"> Red color </span> means the _key_ and _value_ are information for building of the object. This tag /information only collected if the object has its own building. Otherwise, the tag is unnecessary.
 *   Black color means the _key_ and _value_ **should be** added regardless the object has its own building or not.
 
 **1.Economic Facilities**

@@ -26,7 +26,7 @@ The process would take about 24 hours before your request being approved. It als
 
 After you know about InAWARE and the steps to create an account, you will learn about how to add your field survey data that have been uploaded on OpenStreetMap into InAWARE. Data spatial format which can be used in InAWARE is **_GeoJSON._** You can see **Converting Shapefile to GeoJSON** module. These are steps how to add OpenStreetMap data into  InAWARE:
 
-*   Please click **_Layers _**menu in InAWARE
+*   Please click **_Layers_** menu in InAWARE
 *   Click **_Edit_** and select **_Add Layer_**
 
 ![Add OpenStreetMap data as a New Layer](/en/images/08-OSM-Data-Integration-to-InAWARE/01-Integrasi-OSM-ke-InAWARE/0101_osm_to_inaware.png)

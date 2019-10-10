@@ -18,6 +18,7 @@ The Export Tool is an open service that creates customized extracts of up-to-dat
 ### **II. How to using Export Tool**
 
 **a. Login with OSM account**
+
 *   Open your browser, and type this link https://export.hotosm.org
 
 ![The interface of Export Tool](/en/images/05-HOT-Export/01-Penggunaan-Export-Tool/0101_tampilanexporttool.png)
@@ -34,27 +35,27 @@ The Export Tool is an open service that creates customized extracts of up-to-dat
 
 There are 5 ways to define an Area of Interest for your export:
 
-1. **Bounding Box: **Use the "Box" tool to the right to click and drag a rectangle, or use the "Current View" tool to match the map's viewport.
+1. **Bounding Box:** Use the "Box" tool to the right to click and drag a rectangle, or use the "Current View" tool to match the map's viewport.
 
-![Bounding box](/en/images/05-HOT-Export/01-Penggunaan-Export-Tool/0103_Penentuan_Area_dengan_Kotak.png)
-<p align="center"><i>Bounding box</i><p align="center">
+    ![Bounding box](/en/images/05-HOT-Export/01-Penggunaan-Export-Tool/0103_Penentuan_Area_dengan_Kotak.png)
+    <p align="center"><i>Bounding box</i><p align="center">
 
-2. **Draw Polygon:** Draw a freeform polygon. This must be a simple (not multi-) polygon.
+2. **Draw Polygon:** Draw a freeform polygon. This must be a simple (not multi-polygon).
 
-![Manually edit](/en/images/05-HOT-Export/01-Penggunaan-Export-Tool/0104_penentuan_manual.png)
-<p align="center"><i>Manually edit</i><p align="center">
+    ![Manually edit](/en/images/05-HOT-Export/01-Penggunaan-Export-Tool/0104_penentuan_manual.png)
+    <p align="center"><i>Manually edit</i><p align="center">
 
 3. **Upload:** By uploading a GeoJSON polygon in WGS84 (geographic) coordinates. If you have not the GeoJSON data, you can refer to this chapter **Using GeoJSON**.
 
   
-![Import the administrative boundary](/en/images/05-HOT-Export/01-Penggunaan-Export-Tool/0105_penentuangeojson.png)
-<p align="center"><i>Import the administrative boundary</i><p align="center">
+    ![Import the administrative boundary](/en/images/05-HOT-Export/01-Penggunaan-Export-Tool/0105_penentuangeojson.png)
+    <p align="center"><i>Import the administrative boundary</i><p align="center">
 
 4. **Search Bar:** input a minX,minY,maxX,maxY string into the search bar. This will define a rectangular area of interest.
 
 5. **Current View:** Use "Current View" to match the map's viewport.
 
-The maximum extent of export on the Export Tool is determined by the density of OSM data in the defined area. **The bounding box of the area can contain at most 10,000,000 OSM nodes. **This limitation means that a 10,000 square kilometer box over a heavily mapped area like Western Europe or North America will likely be rejected, but an equal-sized box over a sparsely mapped area will be accepted by the Export Tool. If you need larger exports, please Contact Us or use an alternative resource such as downloads from [Geofabrik](http://download.geofabrik.de/) or [Mapzen](https://mapzen.com/data/metro-extracts/).
+    The maximum extent of export on the Export Tool is determined by the density of OSM data in the defined area. **The bounding box of the area can contain at most 10,000,000 OSM nodes.** This limitation means that a 10,000 square kilometer box over a heavily mapped area like Western Europe or North America will likely be rejected, but an equal-sized box over a sparsely mapped area will be accepted by the Export Tool. If you need larger exports, please Contact Us or use an alternative resource such as downloads from [Geofabrik](http://download.geofabrik.de/) or [Mapzen](https://mapzen.com/data/metro-extracts/).
 
 **c. Naming and Describing your Export**
 

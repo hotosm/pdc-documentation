@@ -63,7 +63,7 @@ How to validating using tasking manager is similarly with editing with tasking m
 <p align="center"><i>General information about the tasking</i><p align="center">
 
 
-*   If you scroll down, you will see the **Instructions. **Above the instructions there are four tabs, one of them is validate.  You can start validation by click **Validate**. Besides by click validate, at the bottom there is a question box **"Ready to get started?"** with the Map and Validate options, please choose  **Validate**.
+*   If you scroll down, you will see the **Instructions.** Above the instructions there are four tabs, one of them is validate.  You can start validation by click **Validate**. Besides by click validate, at the bottom there is a question box **"Ready to get started?"** with the Map and Validate options, please choose  **Validate**.
 
 ![Option to start validation](/en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0308_Pilihan_untuk_memulai_validasi.png)
 <p align="center"><i>Option to start validation</i><p align="center">
@@ -116,7 +116,7 @@ How to validating using tasking manager is similarly with editing with tasking m
 
 **b. Things to Watch When Do Validation in Tasking Manager**
 
-When you do validation using tasking manager_ _there are things to watch, that is the time limit for working on the box you have chosen. If you have started validation, there is a time limit for working on the tasking you selected at the top like the picture below:
+When you do validation using tasking manager there are things to watch, that is the time limit for working on the box you have chosen. If you have started validation, there is a time limit for working on the tasking you selected at the top like the picture below:
 
 
 ![Time limit for validation](/en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0314_Contoh_batas_waktu_untuk_validasi.png)

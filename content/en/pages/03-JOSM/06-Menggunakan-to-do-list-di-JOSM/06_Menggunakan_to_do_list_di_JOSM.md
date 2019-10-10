@@ -13,6 +13,7 @@ After conducting a survey using the OpenMapKit (OMK) application, the next step 
 ### **I. Installing to-do list plugin in JOSM**
 
 Because the Todo list plugin is an additional tool in JOSM, you need to install the JOSM plugin first before using it. The steps to install the todo list plugin in JOSM are as follows:
+
 *   Click on the menu bar **Edit → Preferences**
 *   The **Preferences** window will appear and select the **Plugins** menu to install the new plugin. If the plugins list has not yet appeared, you can click **Download list** and make sure your internet is connected to download the plugin.
 
@@ -34,6 +35,7 @@ Because the Todo list plugin is an additional tool in JOSM, you need to install 
 ### **II. Using to-do list**
 
 The steps to use the to-do list plugin are as follows: 
+
 *   Firstly, you need to add all .osm files into that will be uploaded into JOSM. These .osm files contain survey point objects that have been exported from OpenMapKit (OMK). You should open the files by clicking **File → Open** on the menu bar.
 *   Because one file contains only one point object, you need to combine all the layers into one layer. You can merge the files by selecting all the layers on the **Layers** panel then right-click and choose **Merge** option. You can select several layers at one time by clicking on one layer then hold to select all layers on the panel or simply click layers one by one by pressing the **Ctrl** key on your keyboard.
 
@@ -46,7 +48,7 @@ The steps to use the to-do list plugin are as follows:
 <p align="center"><i>Add list objects into todo list panel</i></p>
 
 *   To zoom in on one of the objects you want to work on, you can use the **Zoom** option in the Todo list panel or double-click on the object in the list.
-*   
+ 
 ![Zoom in the objects through Todo list panel](/en/images/03-JOSM/06-Menggunakan-to-do-list-di-JOSM/0606_perbesar_objek.png)
 <p align="center"><i>Zoom in the objects through Todo list panel</i></p>
 
@@ -67,5 +69,6 @@ The steps to use the to-do list plugin are as follows:
 
 
 **SUMMARY**
+
 If you can follow and pay attention to all the stages in this chapter, then you have successfully installed the plugin in JOSM. In addition, you have also successfully learned and practiced how to operate the Todo list plugin in JOSM to facilitate your work.
 

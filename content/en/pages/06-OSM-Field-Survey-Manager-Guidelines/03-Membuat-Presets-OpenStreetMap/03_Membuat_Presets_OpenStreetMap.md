@@ -11,7 +11,7 @@ weight: 3
 *   To be able to comprehend presets concept on OpenStreetMap
 *   To be able to comprehend XML format to create presets on OpenStreetMap
 *   To be able to create a customized presets on OpenStreetMap
-*   To be able to comprehend presets’_ _elements
+*   To be able to comprehend presets elements
 
 As explained before, OpenStreetMap is a free, open,  participatory map of the whole world. This means that the use of OpenStreetMap can be very distinctive. The more distinct the mapping objectives are, the more diverse the information are. The needs of various information made OpenStreetMap user come to an agreement to standardize the information added into OpenStreetMap. This standardized information is called Tag. To learn more about Tag, please refer to **OpenStreetMap Model Data** module.
 
@@ -81,11 +81,11 @@ This is an example of a presets XML file:
 
 ### **III. Creating Customized Presets**
 
-To be able to create your own presets, there are several things you need to prepare first. You need to install additional software to create XML file. One of the software to create XML file is **Notepad ++ **which can be downloaded at [https://notepad-plus-plus.org/download/v7.6.3.html](https://notepad-plus-plus.org/download/v7.6.3.html). After downloading it, install the software. You also need to learn about the principle of making OSM presets, like:
+To be able to create your own presets, there are several things you need to prepare first. You need to install additional software to create XML file. One of the software to create XML file is **Notepad ++** which can be downloaded at [https://notepad-plus-plus.org/download/v7.6.3.html](https://notepad-plus-plus.org/download/v7.6.3.html). After downloading it, install the software. You also need to learn about the principle of making OSM presets, like:
 
 
 
-*   The object type you want to map. As explained in **Data Model OpenStreetMap** module, that there are three types of mapped objects in OpenStreetMap: **point (nodes), line (ways), **and** area (closedway)**. For example, if the mapped object is road, then the object type you write on your presets is ways, not other type.
+*   The object type you want to map. As explained in **Data Model OpenStreetMap** module, that there are three types of mapped objects in OpenStreetMap: **point (nodes), line (ways),** and **area (closedway)**. For example, if the mapped object is road, then the object type you write on your presets is ways, not other type.
 *   The standardized key and value for mapped objects on OpenStreetMap. You can refer to Map Features on Wikipedia Page, OSM Indonesia Object Reference and Tag Info. To know more about key and value, please refer to **Data Model OpenStreetMap** module.
 *   Key dan value should be written in English, but for the presets label can be written in Bahasa.
 
@@ -160,7 +160,7 @@ This element defines object’s information in multiselect format. This element 
 
 ![Multiselect key](/en/images/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/0315_presets.png)
 
-The multiselect key structure is very similar with combo key structure._ _The differences are the key ‘multiselect’ is used instead of key ‘combo’ and the separator used in between values is semicolon (;) while key and value labels can be written in Bahasa Indonesia, using ‘text’ and ‘display_values’. This picture is the presets appearance of multiselect key example above:
+The multiselect key structure is very similar with combo key structure. The differences are the key ‘multiselect’ is used instead of key ‘combo’ and the separator used in between values is semicolon (;) while key and value labels can be written in Bahasa Indonesia, using ‘text’ and ‘display_values’. This picture is the presets appearance of multiselect key example above:
 
 
 ![Element multiselect key on JOSM](/en/images/06-OSM-Field-Survey-Manager-Guidelines/03-Membuat-Presets-OpenStreetMap/0308_presets_8.png)

@@ -1,9 +1,10 @@
 ---
 title: Converting Shapefile Data to GeoJSON
-weight: 8
+weight: 10
 ---
 
 **Objectives:**
+
 *   To be able to understand the definition of GeoJSON data
 *   To be able to convert shapefile to GeoJSON with QGIS
 *   To be able to download GeoJSON from Overpass Turbo

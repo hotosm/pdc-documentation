@@ -20,6 +20,7 @@ As explained before, we have learned how to create a customized presets on OpenS
 **a. YAML Structure Data**
 
   There are 4 sections to define a YAML structure:
+
 1. Title 	   = define the name of file
 2. Types 	    = define the name of mapping, consist of points, lines, and polygons
 3. Select 	    = define key from OSM data
@@ -29,9 +30,10 @@ As explained before, we have learned how to create a customized presets on OpenS
 <p align="center"><i>YAML Structure for OSM data</i><p align="center">
 
 
-  **b. Requirements to Creating YAML Structures Data**
+**b. Requirements to Creating YAML Structures Data**
 
    There are some requirements that important to create the YAML structure:
+
 *   All formats are lowercase, Not allow the uppercase
 *   The position of the title has to put at the beginning of the document. Using the (_) sign to separate the title, an example bank_points  
 *   The position of all formats are equal, an example in the image above
@@ -42,55 +44,55 @@ We will create the YAML structure form OpenStreetMap Data Model that you can ope
 
 *   Open the lists OSM data model or you can create a table like below
 
-Bank Tag Information Table
+    Bank Tag Information Table
 
-| key | possible values |
-|---|---|
-|amenity|bank|
-|building|bank|
-|amenity|bank|
-|name|fill the name of bank|
-|addr:full|detail of address|
-|capacity|<50, 50-100, 100-250, 250-500, >500|
-|building:levels|number|
-|building:structure|confined_masonry, steel_frame, wood_frame, bamboo_frame|
-|building:walls|brick, concrete, wood, bamboo, glass|
-|building:floor|ground, wood, cement, tekhel, ceramics|
-|building:roof|tile, tin, asbestos, concrete|
-|access:roof|yes, no|
-|building:condition|poor, good|
-|backup_generator|yes, no|
+    | key | possible values |
+    |---|---|
+    |amenity|bank|
+    |building|bank|
+    |amenity|bank|
+    |name|fill the name of bank|
+    |addr:full|detail of address|
+    |capacity|<50, 50-100, 100-250, 250-500, >500|
+    |building:levels|number|
+    |building:structure|confined_masonry, steel_frame, wood_frame, bamboo_frame|
+    |building:walls|brick, concrete, wood, bamboo, glass|
+    |building:floor|ground, wood, cement, tekhel, ceramics|
+    |building:roof|tile, tin, asbestos, concrete|
+    |access:roof|yes, no|
+    |building:condition|poor, good|
+    |backup_generator|yes, no|
 
 
 *   Open Notepad that already on your computer
 *   The first line, type the name of title, an example bank
 
-                  bank:
+        bank:
 
 *   The second line, click enter + space four times and typing the **types:**, and click enter + space eight times + typing **- points/polygons/lines**, an example 
 
-                 types:
-                     - points
-                     - polygons
+             types:
+                 - points
+                 - polygons
 
 *   Click enter on your keyboard and suitable the position with “types:”, and type **select:** → enter + space eight times and type the lists of the key in the Bank Tag Information Table.
 
-                select:
-            - amenity
-            - name
-            - addr:full
-            - addr:city
-            - capacity:persons
-            - building
-            - building:levels
-            - building:structure
-            - building:walls
-            - building:floor
-            - building:roof
-            - access:roof
-            - building:condition
-            - backup_generator
-            - source
+            select:
+                - amenity
+                - name
+                - addr:full
+                - addr:city
+                - capacity:persons
+                - building
+                - building:levels
+                - building:structure
+                - building:walls
+                - building:floor
+                - building:roof
+                - access:roof
+                - building:condition
+                - backup_generator
+                - source
 
 *   The last step, click enter and suitable position types and select → type **where: key dan value**        
 
@@ -117,10 +119,13 @@ Bank Tag Information Table
                 - access:roof
                 - building:condition
                 - backup_generator               
-                - source                                                                                                                                                                                                                                                                              
+                - source
+            where: amenity='bank'                                                                                                                     
+
 ### **III. How to Using YAML in  Export Tool**
 
 **a. Login with OSM account**
+
 *   Open your browser, and type this link https://export.hotosm.org
 
 ![The interface of Export Tool ](/en/images/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/0402_Halaman_Situs_Export.png)
@@ -144,19 +149,19 @@ There are 5 ways to define an Area of Interest for your export:
 
 1. **Bounding Box:** Use the "Box" tool to the right to click and drag a rectangle, or use the "Current View" tool to match the map's viewport.
 
-![Bounding box](/en/images/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/0405_Penentuan_area_box.png)
-<p align="center"><i>Bounding box</i><p align="center">
+    ![Bounding box](/en/images/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/0405_Penentuan_area_box.png)
+    <p align="center"><i>Bounding box</i><p align="center">
 
 2. **Draw Polygon:** Draw a freeform polygon. This must be a simple (not multi-) polygon.
 
-![Manually edit](/en/images/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/0406_Penentuan_area_dengan_bentuk_manual.png)
-<p align="center"><i>Manually edit</i><p align="center">
+    ![Manually edit](/en/images/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/0406_Penentuan_area_dengan_bentuk_manual.png)
+    <p align="center"><i>Manually edit</i><p align="center">
 
 
 3. **Upload:** By uploading a GeoJSON polygon in WGS84 (geographic) coordinates. If you have not the GeoJSON data, you can refer to this chapter **Using GeoJSON**.
 
-![Import the administrative boundary](/en/images/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/0407_Penentuan_area_dengan_import.png)
-<p align="center"><i>Import the administrative boundary</i><p align="center">
+    ![Import the administrative boundary](/en/images/06-OSM-Field-Survey-Manager-Guidelines/04-Penggunaan-YAML-pada-Export-Tool/0407_Penentuan_area_dengan_import.png)
+    <p align="center"><i>Import the administrative boundary</i><p align="center">
 
 
 4. **Search Bar:** input a minX,minY,maxX,maxY string into the search bar. This will define a rectangular area of interest.

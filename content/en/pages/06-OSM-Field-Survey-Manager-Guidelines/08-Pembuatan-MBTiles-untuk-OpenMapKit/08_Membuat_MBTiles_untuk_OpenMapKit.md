@@ -4,6 +4,7 @@ weight: 8
 ---
 
 **Objectives:**
+
 *   To be able to understand the concept of MBTiles
 *   To be able to create MBTiles using Export Tool
 *   To be able to create MBTiles using Plugin QTiles
@@ -90,6 +91,7 @@ Export Tool is one of the sites that is used to download OpenStreetMap data for 
 The QTiles plugin is a plugin that can be used to produce tile rasters from QGIS project. This plugin can save the tile raster display settings from tilemap services such as Slippy map, TMS. You can use the QuickMapServices plugin in the previous module **Creating Field Maps with QGIS** to display tile raster services. Another advantage of using this plugin is that you can display the road layers and administrative boundaries in the QGIS project, so that the OMK basemap display will help data entry in the field surveys introduction. The steps to create .mbtiles with the QTiles plugin are as follows:
 
 **a. Installing Plugin QTiles**
+
 *   Open QGIS and_ _install the plugin by clicking **_Plugin Menu → Manage and Install Plugin._** Type “qtiles” in **Search** box so your display will be the same as the picture below, give a check mark and click **Install Plugin**. If your download process failed, check your internet connection immediately.
 
 ![Installing Plugin QTiles](/en/images/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/0812_qtiles.png)
@@ -102,6 +104,7 @@ The QTiles plugin is a plugin that can be used to produce tile rasters from QGIS
 
 
 **b. Preparing Data Layer**
+
 *   Add administrative data layer and road network that is taken from field survey mapping. Then, click **_Add Vector Layer_** → choose the directory file **_→ Open → Open_**. Data layer will appear in both map canvas and layer panel.
 
 ![Adding layer](/en/images/06-OSM-Field-Survey-Manager-Guidelines/08-Pembuatan-MBTiles-untuk-OpenMapKit/0814_menambahkanlayer.png)
