@@ -12,6 +12,8 @@ As an alternative for open source mapping platform, OpenStreetMap allows everyon
 
 ### **I. What is Tasking Manager?**
 
+
+
 1. **The Definition of Tasking Manager**
 
     Tasking manager is a tool created specifically for participatory mapping. With Tasking Manager, you can simply do mapping together with the other on the same location, but with different area of mapping. Tasking manager can split the mapping area into separate grid or square. You can also use tasking manager to see your mapping progress, which are still need to map or which area is fully mapped. 
@@ -19,7 +21,7 @@ As an alternative for open source mapping platform, OpenStreetMap allows everyon
 
 2. **The example of Tasking Manager**
 
-Tasking manager used as a response when Haiyan typhoon occurred in the Philippines on November 8, 2013. Mapping area located in Tacloban city as one of the most severely damaged when the disaster happened. Within 24 hours after the tasking manager project was created. 10.000 buildings added or around 25% of the building amount in Tacloban City. This mapping project was carried out by 33 volunteers. 
+     Tasking manager used as a response when Haiyan typhoon occurred in the Philippines on November 8, 2013. Mapping area located in Tacloban city as one of the most severely damaged when the disaster happened. Within 24 hours after the tasking manager project was created. 10.000 buildings added or around 25% of the building amount in Tacloban City. This mapping project was carried out by 33 volunteers. 
 
    ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0201_Kondisi_bangunan_sebelum_dan_setelah_dipetakan_menggunakan_Tasking_Manager.png "image_tooltip")
    <p align="center"><i>Density of the building before and after mapping using Tasking Manager</i></p>
@@ -46,7 +48,7 @@ Before you can start using Tasking Manager, there are a few things you need to k
 
 1. **Login to Tasking Manager**
 
-You need to login with your OSM account. Choose **Login** button on the top right side of your screen, then write your OpenStreetMap account. On **Authorize access to your account** option, give checkmark on **read your user preferences**, then select **Grant Access**. Please check on the image for more detail:
+     You need to login with your OSM account. Choose **Login** button on the top right side of your screen, then write your OpenStreetMap account. On **Authorize access to your account** option, give checkmark on **read your user preferences**, then select **Grant Access**. Please check on the image for more detail:
 
    ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0205_Pilihan_untuk_mengizinkan_otorisasi_pada_akun_Anda.png "image_tooltip")
    <p align="center"><i>You must allow JOSM to read your user preferences</i></p>
@@ -57,16 +59,14 @@ You need to login with your OSM account. Choose **Login** button on the top righ
    <p align="center"><i>Contribute and Start Mapping button on Tasking Manager page</i></p>
 
 2. **Searching Project on Tasking Manager search box**
-On this page, you will see two different view, Grid View and Map View. on the Grid View, there are few things you should notice, like:
-![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0207_Beberapa_pengaturan_yang_dapat_dilakukan_pada_tampilan_Grid_View.png "image_tooltip")
-<p align="center"><i>You can change the setting on the Grid View layout</i></p>
+     On this page, you will see two different view, Grid View and Map View. on the Grid View, there are few things you should notice, like:
+     ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0207_Beberapa_pengaturan_yang_dapat_dilakukan_pada_tampilan_Grid_View.png "image_tooltip")
+     <p align="center"><i>You can change the setting on the Grid View layout</i></p>
 
    * **Search**
-
      On the search box, you can search your tasking manager project using certain keyword like sub-village, village, province, or by project name. 
 
    * **Project**
-     
      On this part, you can see list of the tasking manager project created before.
 
    * **Mapping Difficulty**
