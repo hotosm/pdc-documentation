@@ -124,7 +124,7 @@ After doing a data validation on your raw data, then you need to do a validation
        ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0216_Contoh_data_OSM_yang_telah_didownload.png "image_tooltip")
  <p align="center"><i>Downloaded OpenStreetMap data</i></p>
 
-   *   Validate the data using validation tools on JOSM. for To activate the validation result, select **Window **then** Validation Result**. The validation window will shows up on the right bottom side of your JOSM screen. 
+   *   Validate the data using validation tools on JOSM. for To activate the validation result, select **Window** then **Validation Result**. The validation window will shows up on the right bottom side of your JOSM screen. 
 
        ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0217_Mengaktifkan_jendela_validasi_pada_JOSM.png "image_tooltip")
 <p align="center"><i>Activating validation window on JOSM</i></p>
@@ -161,7 +161,7 @@ There are many kinds of error and warning when you doing validation on OpenStree
 
 **a. Error**
 
-   *   Duplicated Node 
+    *   Duplicated Node 
 
 This type of error commonly show up when an object accidentally uploaded twice in the same time. It will cause two or more objects will overlap each other on the same location. This mostly happen when you upload the data using a bad and unstable internet connection.
        ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0221_Error_duplicated_node.png "image_tooltip")
@@ -176,7 +176,7 @@ This kind of error is similar with duplicated node, where there are two or more 
 
 **b. Warning**
 
-   *   Crossing Building
+    *   Crossing Building
 
         This warning is one of the most commonly found when doing a validation. Mostly OpenStreetMap user draw different building as an overlapping object. To fix this warning, you just need to move or delete one of the overlapping building. 
 
