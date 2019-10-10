@@ -28,7 +28,7 @@ In field survey, there are two different types of data needed to be collected, i
 
    *   After that, please open the administrative boundary you have. In this example, we will using the village boundary from BPS. This data still in the .shp data format, so you need to convert the data into GeoJSON file format if you want to open it using JOSM. If you want to see more information about using GeoJSON data format, you can read that on **Using GeoJSON** module. 
 
-        To open administrative boundary file, select **File → Open,** then insert your selected administrative boundary. 
+    To open administrative boundary file, select **File → Open,** then insert your selected administrative boundary. 
 
        ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0202_Overlay_data_survey_dengan_batas_admin.png "image_tooltip")
 
@@ -104,19 +104,19 @@ After doing a data validation on your raw data, then you need to do a validation
     For example, you have a set of data like this:
 
    ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0213_Contoh_data_hasil_survei.png "image_tooltip")
-<p align="center"><i>Example of survey data</i></p>
+    <p align="center"><i>Example of survey data</i></p>
 
     Those data collected by using ODK Collect and Open Map Kit (OMK). We need to check whether this data correct or not. Therefore, you need to download existing OSM data to check whether this data already mapped or not. After that, you can do some validation on your data, like spell checking or node placing. With this huge data set, it will be much easier if we use to do list plugin. 
 
     For example, you have an object called Port’s Health Office located in North Jakarta. Therefore, you need to download existing OSM data to do some validation. With these data, you can do a comparison between existing data and field survey data, like spell checking or if there is a wrong information on the existing data. On the example data, you can see that the field survey data object’s name written in lowercase. In fact, we want that the object’s name written with capital letter on each word. As you can see, on the existing OSM data, the object already written with capital on each word. It means that the data entry done their job very well. 
 
    ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0214_Perbandingan_antara_hasil_input_dan_mentah.png "image_tooltip")
-<p align="center"><i>Comparison between raw data and existing data attribute  on OSM</i></p>
+    <p align="center"><i>Comparison between raw data and existing data attribute  on OSM</i></p>
 
     On the other hand, you can also check the placement for each object. On the picture above, you can see that raw data (node with grey color) not located on the exact location where it should be placed, meanwhile on the existing data, the object is already placed on the exact location (colored node). You can use satellite imagery to help you determine where the node should be placed. 
 
    ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0215_Perbedaan_posisi_titik_data_hasil_input_dan_data_mentah.png "image_tooltip")
-<p align="center"><i>Node placement difference between raw data and existing OSM data</i></p>
+    <p align="center"><i>Node placement difference between raw data and existing OSM data</i></p>
 
 2. Using Validation Tool
    *   Download OpenStreetMap data on your selected location
