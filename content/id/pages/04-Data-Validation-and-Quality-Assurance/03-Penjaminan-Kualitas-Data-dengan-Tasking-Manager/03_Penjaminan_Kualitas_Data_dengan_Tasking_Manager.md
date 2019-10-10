@@ -10,7 +10,7 @@ weight: 3
 
 Sebelumnya Anda pasti sudah pernah _editing_ data _OpenStreetMap_ menggunakan _tasking manager_. _Tasking manager_ memudahkan Anda untuk mengedit data _OpenStreetMap_ secara bersama-sama tanpa harus khawatir akan terjadi konflik dengan orang lain karena mengerjakan area yang sama. Selain untuk mengedit data _OpenStreetMap_, Anda juga dapat melakukan validasi menggunakan _tasking manager_ sehingga Anda dapat melakukan validasi secara bersama-sama.
 
-### 1. Penjaminan Kualitas Data dengan Tasking Manager
+### I. Penjaminan Kualitas Data dengan Tasking Manager
 
 **a. Validasi Area Proyek _Tasking_**
 

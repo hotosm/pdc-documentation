@@ -142,12 +142,14 @@ You can only export map as image if you set the Standard Layer view. If your map
 When you edit objects or make changes to OpenStreetMap, you can see the editing history of objects in that area. The steps to see editing history are as follows:
 
 *   You can see the information by clicking on the **History** menu button on the top left of the map.
-*   After that, the **Changesets** column will appear at the bottom of the Search box and orange boxes will appear on the map that indicates which areas have just been edited. Changeset is a version of every change uploaded by OSM users. The information that we can see in the Changesets column is as follows:
+*   After that, the **Changesets** column will appear at the bottom of the Search box and orange boxes will appear on the map that indicates which areas have just been edited. 
+   
+Changeset is a version of every change uploaded by OSM users. The information that we can see in the Changesets column is as follows:
 
-1. Changeset comment. It is recommended that you write the short comment when uploading changes or changeset. Comments can contain information about any changes that you made or specific hashtags.
-2. Upload time information.
-3. OSM username.
-4. Changeset number. This number is a unique number as the changeset identity.
+  * Changeset comment. It is recommended that you write the short comment when uploading changes or changeset. Comments can contain information about any changes that you made or specific hashtags.
+  * Upload time information.
+  * OSM username.
+  * Changeset number. This number is a unique number as the changeset identity.
 
 ![Changeset history in OpenStreetMap](/en/images/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/0220_melihat_history.png)
 <p align="center"><i>Changeset history in OpenStreetMap</i></p>
@@ -190,41 +192,41 @@ If a problem occurs, a problem message will appear. Make sure that the email you
 
 Congratulations! If you have done all the steps in this section, you already have an OpenStreetMap account and already know how to navigate the OpenStreetMap website.
 
-### **VIII. The basic concept of OpenStreetMap attribute**
+### **IX. The basic concept of OpenStreetMap attribute**
 
 1. **The attribute concept on object**
 
-When you draw an object as a point, line, or polygon in OSM, you still need to add information about the object such as object name, address, or other supporting information. This information will help other users when using OSM data for various purposes. Information provided by users on OSM objects is called an **attribute** or **tag**.
+    When you draw an object as a point, line, or polygon in OSM, you still need to add information about the object such as object name, address, or other supporting information. This information will help other users when using OSM data for various purposes. Information provided by users on OSM objects is called an **attribute** or **tag**.
 
-An attribute/tag is like a label that you can place on an object. For example, if you draw a square, this is only a square without any object information. But you can add attributes to describe that object, for example you draw a square that is is a building; the name of the building is "Tebet Hospital";  10 level building.
+    An attribute/tag is like a label that you can place on an object. For example, if you draw a square, this is only a square without any object information. But you can add attributes to describe that object, for example you draw a square that is is a building; the name of the building is "Tebet Hospital";  10 level building.
 
 2. **Components in OpenStreetMap attribute data**
 
-You can add as many attributes / tags as you want to an object. Attributes are stored as a pair of text, named **Key** and **Value**. _Key_ is general information that explains the function of an object. In one key, it can consist of many values. For example schools, mosques, and hospitals have key=amenities (important facilities). Although the three objects have different types of functions, but all three objects have the same key. Whereas _Value_ ​​is information that more specifically explains the type of an object. Because this value describes specific information about an object, so that one type of value can only describes the type of the object itself. Not the same as a key that can explain general information about the object. In OpenStreetMap, an attribute is added by formatting a key-value pair that represents physical features on the ground, for example:
+    You can add as many attributes / tags as you want to an object. Attributes are stored as a pair of text, named **Key** and **Value**. _Key_ is general information that explains the function of an object. In one key, it can consist of many values. For example schools, mosques, and hospitals have key=amenities (important facilities). Although the three objects have different types of functions, but all three objects have the same key. Whereas _Value_ ​​is information that more specifically explains the type of an object. Because this value describes specific information about an object, so that one type of value can only describes the type of the object itself. Not the same as a key that can explain general information about the object. In OpenStreetMap, an attribute is added by formatting a key-value pair that represents physical features on the ground, for example:
 
-![The example of object attributes](/en/images/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/0224_atribut_objek_osm.png)
-<p align="center"><i>The example of object attributes</i></p>
+    ![The example of object attributes](/en/images/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/0224_atribut_objek_osm.png)
+    <p align="center"><i>The example of object attributes</i></p>
 
-In the example above, there are four kinds of key & value attributes, including object amenities for hospital (amenity = hospital), building objects (building = yes), building level 10 (building:levels = 10) and object name Tebet Hospital’ (name = Tebet Hospital).
+    In the example above, there are four kinds of key & value attributes, including object amenities for hospital (amenity = hospital), building objects (building = yes), building level 10 (building:levels = 10) and object name Tebet Hospital’ (name = Tebet Hospital).
 
 3. **World and Indonesian OpenStreetMap tagging guidelines**
 
-For providing information on the object that you mapped, you need to ensure that the information is correct and suitable with OpenStreetMap rules. You need to make sure the reference is correct if you want to describe features by tag. OpenStreetMap has provided a special Wikipedia page that you can refer to. You can see the page on the Map Features Wiki page at [https://wiki.openstreetmap.org/wiki/Map_Features](https://wiki.openstreetmap.org/wiki/Map_Features).
+    For providing information on the object that you mapped, you need to ensure that the information is correct and suitable with OpenStreetMap rules. You need to make sure the reference is correct if you want to describe features by tag. OpenStreetMap has provided a special Wikipedia page that you can refer to. You can see the page on the Map Features Wiki page at [https://wiki.openstreetmap.org/wiki/Map_Features](https://wiki.openstreetmap.org/wiki/Map_Features).
 
-![Main page of Wiki Map Features and list of feature table](/en/images/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/0225_map_features.png)
-<p align="center"><i>Main page of Wiki Map Features and list of feature table</i></p>
+    ![Main page of Wiki Map Features and list of feature table](/en/images/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/0225_map_features.png)
+    <p align="center"><i>Main page of Wiki Map Features and list of feature table</i></p>
 
-Pages from Map Features that contain inforation about objects in OpenStreetMap are considered not enough to help especially for specific objects that usually only exist in a certain country, including Indonesia. Sometimes users do not get enough information about the object tag and they end up skipping the object because of different names.
+    Pages from Map Features that contain inforation about objects in OpenStreetMap are considered not enough to help especially for specific objects that usually only exist in a certain country, including Indonesia. Sometimes users do not get enough information about the object tag and they end up skipping the object because of different names.
 
-Usually objects in Indonesia have their own local names such as Posyandu (health service for children and infants), Pesantren (islamic boarding school), and others. You do not need to be confused in searching for and memorizing attribute lists because you can see a list of object attributes that you can see on the Wikipedia page [https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines](https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines)
+    Usually objects in Indonesia have their own local names such as Posyandu (health service for children and infants), Pesantren (islamic boarding school), and others. You do not need to be confused in searching for and memorizing attribute lists because you can see a list of object attributes that you can see on the Wikipedia page [https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines](https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines)
 
-![Indonesia Wiki OSM Tagging Guideline](/en/images/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/0226_indonesia_wiki.png)
-<p align="center"><i>Indonesia Wiki OSM Tagging Guideline</i></p>
+    ![Indonesia Wiki OSM Tagging Guideline](/en/images/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/0226_indonesia_wiki.png)
+    <p align="center"><i>Indonesia Wiki OSM Tagging Guideline</i></p>
 
-The Wikipedia page was specifically created to provide references to OSM objects attributes in Indonesia. On that page, the objects will be divided into several categories which will be adapted from the objects in Indonesia.
+    The Wikipedia page was specifically created to provide references to OSM objects attributes in Indonesia. On that page, the objects will be divided into several categories which will be adapted from the objects in Indonesia.
 
-![List of Indonesia object attributes](/en/images/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/0227_indonesia_objek.png)
-<p align="center"><i>List of Indonesia object attributes</i></p>
+    ![List of Indonesia object attributes](/en/images/03-JOSM/02-Memulai-menggunakan-OpenStreetMap/0227_indonesia_objek.png)
+    <p align="center"><i>List of Indonesia object attributes</i></p>
 
 **SUMMARY**
 

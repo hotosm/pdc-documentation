@@ -1,4 +1,4 @@
 ---
-title: Integrasi data OpenStreetMap ke InAWARE
+title: OpenStreetMap Data Integration to InAWARE
 weight: 8
 ---

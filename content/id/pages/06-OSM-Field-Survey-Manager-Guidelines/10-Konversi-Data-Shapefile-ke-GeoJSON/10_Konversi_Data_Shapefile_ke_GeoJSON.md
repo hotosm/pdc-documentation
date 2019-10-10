@@ -42,7 +42,7 @@ Jika sudah melakukan instalasi dan QGIS sudah terpasang di laptop/komputer Anda,
 
 *   Anda akan melihat sebuah kotak dan aturlah seperti gambar di bawah ini:
 
-![tampilan pengaturan konversi]/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1004_pengaturan_geojson_di_qgis.png()
+![tampilan pengaturan konversi](/id/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1004_pengaturan_geojson_di_qgis.png()
 <p align="center"><i>Tampilan pengaturan konversi shapefile ke GeoJSON</i></p>
 
 *   **_Format_** : Pilihlah Format **_GeoJSON_**

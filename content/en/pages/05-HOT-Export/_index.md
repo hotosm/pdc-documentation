@@ -1,4 +1,4 @@
 ---
-title: Penggunaan HOT Export
+title: Using HOT Export
 weight: 5
 ---

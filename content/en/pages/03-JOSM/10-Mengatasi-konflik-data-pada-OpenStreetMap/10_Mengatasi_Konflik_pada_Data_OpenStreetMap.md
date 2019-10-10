@@ -135,7 +135,7 @@ After you download the data, your editing area is only area inside which does no
 If you want to do collaborative mapping, you can use _Tasking Manager_. It will help you to divide your mapping area into task grids. Thus, you can choose your mapping area grid easily without worry getting same area with other OSM contributors because once you select certain grid, it will be locked and cannot choose by other contributors.
 
 
-Any mapping volunteer in the area can choose one grid that they want and after finish they can mark the grid as completed mapped. This will allow  a lot of people to map certain area in same time without getting worried  to get conflict. You can read how to use _Tasking Manager_ in **Using[ Tasking Manager](https://docs.google.com/document/d/1vi9wnbM1fS76bK9k4KhHRVHo0pwdA7zQeUpcKTLfKYo/edit) **module**.**
+Any mapping volunteer in the area can choose one grid that they want and after finish they can mark the grid as completed mapped. This will allow  a lot of people to map certain area in same time without getting worried  to get conflict. You can read how to use _Tasking Manager_ in **Using[ Tasking Manager](https://docs.google.com/document/d/1vi9wnbM1fS76bK9k4KhHRVHo0pwdA7zQeUpcKTLfKYo/edit) module.**
 
 ![Tasking Manager Interface (tasks.openstreetmap.id)](/en/images/03-JOSM/10-Mengatasi-konflik-data-pada-OpenStreetMap/1021_tasking_manager.png)
 <p align="center"><i>Tasking Manager Interface (tasks.openstreetmap.id)</i></p>

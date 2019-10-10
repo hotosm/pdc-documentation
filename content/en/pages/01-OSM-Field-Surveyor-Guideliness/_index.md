@@ -1,4 +1,4 @@
 ---
-title: Panduan OpenStreetMap untuk Surveyor
+title: OpenStreetMap Guide for Surveyor
 weight: 1
 ---

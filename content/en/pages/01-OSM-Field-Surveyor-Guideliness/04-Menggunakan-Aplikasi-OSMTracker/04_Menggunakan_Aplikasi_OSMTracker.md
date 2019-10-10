@@ -12,7 +12,7 @@ weight: 4
 *   Learn how to use OSMTracker
 
 
-### 1. **What is OSMTracker?**
+### I. **What is OSMTracker?**
 
 OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoint and also track. If you want to learn more about GPS for field survey, you can see the **GPS Module**. What makes OSMTracker different with common GPS device is its capability to take pictures when you collect the survey data. With these images taken,  it will make your mapping more easier because you can track back what object you have been taken and take a look into your pictures for more detail. Waypoint and track that you have collected can be converted into .gpx file so you can open your survey data using JOSM or you can directly upload your data into OpenStreetMap. 
 
@@ -29,7 +29,7 @@ After the installation finished, open your OSMTracker application on your smartp
 
 
 
-### 2. **OSMTracker Setting**
+### II. **OSMTracker Setting**
 
 Before you can use the OSMTracker, there are few setting you have to do. Go to
 
@@ -77,12 +77,12 @@ After all the setting is done, then you are ready to use your OSMTracker. Always
 
 
 
-### 3. **OSMTracker Basic Operation**
+### III. **OSMTracker Basic Operation**
 1. **Recording Survey Track**
 
     If you want to start your track recording, you can select the button **+** on your top right of your screen. You will see the Track Logger page. 
 
-    ![Use button to start recording](/en/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0406_Tombol_dengan_icon_+_yang_digunakan_untuk_melakukan_perekaman_jalur_atau_merekam_perjalanan_Anda.png)
+    ![Use button to start recording](/en/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0406_Tombol_dengan_iconplus.png)
     <p align="center"><i>Use + button to start recording your track</i></p>
 
     Remember to always check your GPS accuracy. All feature on OSMTracker will not available if you are not receiving a good GPS signal. Try to get GPS accuracy as best as you can (below 10 meter) to prevent a mistake when recording your current position. You can see your GPS signal indicator on your top right corner of your screen (look at the picture). The signal bar color will change to green and become full when you receive a good signal. Make sure you are in a good position to receive signal. Locate yourself on the open field and make sure you are not under the roof or tree. 
@@ -121,8 +121,8 @@ After all the setting is done, then you are ready to use your OSMTracker. Always
 
    1. On the Track Logger page, please go back to your home page, then find one file track you have collected before. Press on that file for a while until additional menu is shows up. 
 
-     ![Option to set stop tracking](/en/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0411_Pilihan_untuk_menghentikan_perekaman_jalur.png)
-     <p align="center"><i>Option to set stop tracking</i></p>
+        ![Option to set stop tracking](/en/images/01-OSM-Field-Surveyor-Guideliness/04-Menggunakan-Aplikasi-OSMTracker/0411_Pilihan_untuk_menghentikan_perekaman_jalur.png)
+        <p align="center"><i>Option to set stop tracking</i></p>
 
    2. Choose **Stop tracking.**
    

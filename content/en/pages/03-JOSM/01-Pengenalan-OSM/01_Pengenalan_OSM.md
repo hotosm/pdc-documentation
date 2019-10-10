@@ -15,14 +15,14 @@ weight: 1
 
 Nowadays a lot of people use digital map, but only a few use open source digital map. Open source digital map is totally free and editable. One of open source digital maps is OpenStreetMap. In this module, you will learn all about OpenStreetMap.
 
-**I. What is OpenStreetMap?**
+## **I. What is OpenStreetMap?**
 
-OpenStreetMap or OSM_ _is a free, open and editable digital map of the whole world. Since OpenStreetMap is a digital map, anyone can access it anywhere freely. OpenStreetMap data is licensed under [ODbL](https://opendatacommons.org/licenses/odbl/), whereas the cartography of the map tiles is under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/). This enables its user to  copy, distribute, transmit and adapt OpenStreetMap data, as long as credit given to OpenStreetMap and its contributors by citing “**© OpenStreetMap contributors**”. Sharing data is very useful especially for unreachable data. Using OpenStreetMap, you can share spatial data where the data created by other users and other users can also use the data you created. OpenStreetMap also enables its users to create a new product made from OpenStreetMap data and also enables users to modify the data.
+OpenStreetMap or OSM is a free, open and editable digital map of the whole world. Since OpenStreetMap is a digital map, anyone can access it anywhere freely. OpenStreetMap data is licensed under [ODbL](https://opendatacommons.org/licenses/odbl/), whereas the cartography of the map tiles is under [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/). This enables its user to  copy, distribute, transmit and adapt OpenStreetMap data, as long as credit given to OpenStreetMap and its contributors by citing “**© OpenStreetMap contributors**”. Sharing data is very useful especially for unreachable data. Using OpenStreetMap, you can share spatial data where the data created by other users and other users can also use the data you created. OpenStreetMap also enables its users to create a new product made from OpenStreetMap data and also enables users to modify the data.
 
 ![OpenStreetMap Logo](/en/images/03-JOSM/01-Pengenalan-OSM/0101_logo_osm.png)
 <p align="center"><i>OpenStreetMap Logo</i></p>
 
-**II. OpenStreetMap History**
+## **II. OpenStreetMap History**
 
 OpenStreetMap is founded by Steve Coast in 2004. Steve initially focused on mapping UK since spatial data from Ordnance Survey is not distributed widely and freely. Then Steve and some other people founded OpenStreetMap so that all the people in the world could create a digital map for their communities and store it in a common database. In 2006, OpenStreetMap becomes a registered UK nonprofit organization. In 2007, OpenStreetMap’s first annual conference called “State of the Map” is held in Manchester. In 2008, 20 million ways representing everything from roads to streams to hedges were mapped in OpenStreetMap. 
 
@@ -32,7 +32,7 @@ In 2009, OpenStreetMap volunteers put Kibera, the second largest slum in Africa,
 <p align="center"><i>OpenStreetMap History</i></p>
 
 
-**III. Why OpenStreetMap?**
+## **III. Why OpenStreetMap?**
 
 The reasons why OpenStreetMap is the best choice:
 
@@ -43,7 +43,7 @@ The reasons why OpenStreetMap is the best choice:
 *   OpenStreetMap comes in handy. OpenStreetMap provides a lot of tutorials for new users. OpenStreetMap’s user friendly interface makes mapping experience easy even for those who do not have geography/mapping background.
 *   OpenStreetMap map can be modified as needed. All OpenStreetMap data can be used and modified for your needs. For example, you want to make a tourist objects map in your area, you can download OpenStreetMap data and make a tourist objects map out of it.
 
-**IV. The Use of OpenStreetMap**
+## **IV. The Use of OpenStreetMap**
 
 There are so many examples of the use of OpenStreetMap. You can complete the information of the map and create a map of a familiar area. You can make a detailed map since every user is able to do survey individually on the targeted area. Here is one example of Bodeh Hamlet map in Yogyakarta made by one of OpenStreetMap users who lives there.
 
@@ -57,7 +57,7 @@ OpenStreetMap data is also used by one of Android Developers to make an offline 
 
 OpenStreetMap can also be used to make a disaster-related map. OpenStreetMap is often used as tools to map disaster area then the data will be used for damage assessment. OpenStreetMap is often used mapping platform for disaster response since OpenStreetMap really suits for participatory mapping. OpenStreetMap data can be used for evacuation route planning as well as evacuation center, but OpenStreetMap data should be processed first using GIS software.
 
-**V. The Basic Concept of Map and OpenStreetMap**
+## **V. The Basic Concept of Map and OpenStreetMap**
 
 
 

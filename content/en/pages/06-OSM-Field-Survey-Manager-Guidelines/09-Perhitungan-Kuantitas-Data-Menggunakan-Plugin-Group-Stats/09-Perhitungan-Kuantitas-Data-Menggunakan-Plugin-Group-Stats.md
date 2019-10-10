@@ -39,11 +39,13 @@ We can overlay the administrative boundaries and the infrastructures to get the 
 We can use the data form PDC InaWARE project in Semarang City in this chapter, getting the administrative boundary data in this link [https://openstreetmap.id/data-semarang/](https://openstreetmap.id/data-semarang/) and the infrastructures data in [https://export.hotosm.org/en/v3/exports](https://export.hotosm.org/en/v3/exports) (follow this chapter **04.Using YAML** to the instructions). The list of the objects in the shapefile:   
 
 *   **Public Facilities: Points and Polygons**
-1. All objects in amenity=*
-2. Electrical Facility (power=*)
-3. Park (leisure=*)
-4. Government Office (office=*)
-5. Supermarket (shop=supermarket)
+    1. All objects in amenity=*
+    2. Electrical Facility (power=*)
+    3. Park (leisure=*)
+    4. Government Office (office=*)
+    5. Supermarket (shop=supermarket)
+
+
 *   **highways:** Lines
 
        highway=*
@@ -74,7 +76,7 @@ The next step we will start to calculate the objects:
 
 **b. Merge the Objects Layer and Administrative Boundary**
 
-*   Merge the layer between the objects and administrative boundary so that the objects have a new column from the administrative boundary. Click **Menu Vector → Geoprocessing Tool → Intersect **to merge the layer. In section,** input vector layer** selects the object layer with the **Intersect layer** (administrative boundary layer). Choose **Browse** to save the file **output shapefile** in your directory, and click **OK**. 
+*   Merge the layer between the objects and administrative boundary so that the objects have a new column from the administrative boundary. Click **Menu Vector → Geoprocessing Tool → Intersect** to merge the layer. In section, **input vector layer** selects the object layer with the **Intersect layer** (administrative boundary layer). Choose **Browse** to save the file **output shapefile** in your directory, and click **OK**. 
 
 ![intersect layer](/en/images/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/0908_intersectproses.png)
 <p align="center"><i>Intersect layer</i><p align="center">
@@ -95,18 +97,19 @@ The next step we will start to calculate the objects:
 The mapping results are points, lines, and polygons so that we can calculate with a different formula in Group Stats plugin based on the type of data. OSM data in points and polygons will be calculated with the formula  **“count”** that calculating the number of an attribute in the column. Although, OSM data in lines will be calculated with the formula **“sum”**, that calculating the number of length segments.
 
 1. **The Calculating Points and Polygons** 
+
 *   Open the plugin with **Menu Vector → Group Stats → GroupStats** 
 
 ![group stats](/en/images/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/0912_menugroupstats.png)
 <p align="center"><i>Group Stats</i><p align="center">
 
 *   Follow the instructions as below:
-1. **Layers** (1)= show the layer will be calculated. **Fields** = an automatic show the column in attribute table that chooses
-2. **Filter** (2) = use to show objects only in specific administrative boundary
-3. **Columns** (3) = use to become column on the table, fill the column on the Fields, with a click and move the Columns box.
-4. **Rows** (4) = use to become a row in the table, fill the column on the Fields, with a click and move the Row box.
-5. **Value** (5)= use to select the formula 
-6. Click on **Calculate** (6) to starting the calculation 
+    1. **Layers** (1)= show the layer will be calculated. **Fields** = an automatic show the column in attribute table that chooses
+    2. **Filter** (2) = use to show objects only in specific administrative boundary
+    3. **Columns** (3) = use to become column on the table, fill the column on the Fields, with a click and move the Columns box.
+    4. **Rows** (4) = use to become a row in the table, fill the column on the Fields, with a click and move the Row box.
+    5. **Value** (5)= use to select the formula 
+    6. Click on **Calculate** (6) to starting the calculation 
 
 ![Step by step the Group Stats](/en/images/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/0913_langkahgroupstats.png)
 <p align="center"><i>Step by step the Group Stats</i><p align="center">
@@ -128,7 +131,7 @@ The mapping results are points, lines, and polygons so that we can calculate wit
 
 The Calculation a type of lines different with points and polygon. If we calculate the length segments of highways, the shapefile will be changed in Universal Transverse Mercator (UTM) coordinate system. The steps to calculate the length of the highways: 
 
-**Change the Coordinate System**
+**a. Change the Coordinate System**
 
 *   Right-click on highways layer **→ Save as → choose the Format ESRI Shapefile → Save as in your directory → CRS** choose the reference system on your UTM area.  
 
@@ -137,7 +140,7 @@ The Calculation a type of lines different with points and polygon. If we calcula
 
 *   If you give the checkmark on the **Add saved the file to map**, the result will show up in the map canvas and **Layers Panel**.   
 
-**Create the New Column to Calculation Length of the highways**
+**b. Create the New Column to Calculation Length of the highways**
 
 *   Then right-click on the Layers **“Jalan_Admin_UTM”** → **Open Attribute Table**. Click on the **Toggle editing mode** to activate the attribute toolbar.    
 
@@ -158,7 +161,7 @@ The Calculation a type of lines different with points and polygon. If we calcula
 ![Add field setting](/en/images/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/0918_pengaturanfield.png)
 <p align="center"><i>Add field setting</i><p align="center">        
 
-**Calculation the Length (meter) with Field Calculator**
+**c. Calculation the Length (meter) with Field Calculator**
 
 *   To start the process click on  **Open field calculator**
 *   The settings in the Open field calculator:
@@ -182,7 +185,7 @@ The Calculation a type of lines different with points and polygon. If we calcula
 ![Save edits](/en/images/06-OSM-Field-Survey-Manager-Guidelines/09-Perhitungan-Kuantitas-Data-Menggunakan-Plugin-Group-Stats/0921_savechange.png)
 <p align="center"><i>Save edits</i><p align="center">
 
-**Calculation the length of highways based on the type of highways with Group Stats**
+**d. Calculation the length of highways based on the type of highways with Group Stats**
 
 *   Open **Group Stats** click on the **Menu Vector → Group Stats → Group Stats**. 
 *   We can use the **“sum” and Length** formula to calculate the number of length on the **Value box**

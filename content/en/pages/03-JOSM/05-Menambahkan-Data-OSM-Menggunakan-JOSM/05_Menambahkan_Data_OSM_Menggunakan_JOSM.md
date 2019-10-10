@@ -40,7 +40,7 @@ Before adding or editing OSM data using JOSM, install plugin you’ll be using f
 
 
 
-### **II. Merging All Survey Data**
+## **II. Merging All Survey Data**
 
 If you have finished conducting survey using field data collection toolkit such as ODK Collect and OpenMapKit, you can use the survey data as the reference to add object’s information when mapping it in OSM. Survey data file format from ODK Collect and OpenMapKit is .osm. The amount of .osm file from ODK Collect and OpenMapKit will be the same amount as the surveyed objects since information of one object will be saved in one .osm file. Merge all .osm file to make it easier to use the survey data as mapping reference by following these steps:
 
@@ -75,13 +75,13 @@ If you have finished conducting survey using field data collection toolkit such 
 <p align="center"><i>Saving the merged survey data layer</i><p align="center"> 
 
 
-*   JOSM provides a plugin named **to-do** to help you mark the mapped or unmapped object from the merged survey data layer. You can refer to **Using to-do list on JOSM **module to learn how to install and how to use **to-do **plugin in details. If you have already installed **to-do** plugin and activated Todo list Windows, select all objects nodes in the merged layer using **Select object icon**, then click **Add **on the Todo list Windows.
+*   JOSM provides a plugin named **to-do** to help you mark the mapped or unmapped object from the merged survey data layer. You can refer to **Using to-do list on JOSM** module to learn how to install and how to use **to-do** plugin in details. If you have already installed **to-do** plugin and activated Todo list Windows, select all objects nodes in the merged layer using **Select object icon**, then click **Add** on the Todo list Windows.
 
 ![Adding objects into Todo list](/en/images/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/0208_Adding_objects_into_Todo_list.png)
 <p align="center"><i>Adding objects into Todo list</i><p align="center"> 
 
 
-### **III. Downloading OSM Data**
+## **III. Downloading OSM Data**
 
 After successfully merging all survey data, you need to download existing OSM data. Downloading OSM data aims to discover which objects already mapped and which objects have not already mapped on OSM. These are the steps to download OSM data using JOSM:
 
@@ -113,7 +113,7 @@ After successfully merging all survey data, you need to download existing OSM da
 <p align="center"><i>Merging downloaded OSM data with survey data layer</i><p align="center">
 
 
-### **IV. Adding Satellite Imagery**
+## **IV. Adding Satellite Imagery**
 
 *   Add satellite imagery as another reference for mapping by clicking menu **Imagery → choose one of the available imagery you want to use, such as DigitalGlobe Premium Imagery.** After successfully adding satellite imagery, it is time to add OSM data. Your JOSM will look like this:
 
@@ -121,7 +121,7 @@ After successfully merging all survey data, you need to download existing OSM da
 <p align="center"><i>Adding satellite imagery on JOSM</i><p align="center">
 
 
-*   You can adjust the display of the satellite imagery. Select the satellite imagery layer, then click icon **Change visibility of selected layer **and adjust its display by sliding the blue button left or right.
+*   You can adjust the display of the satellite imagery. Select the satellite imagery layer, then click icon **Change visibility of selected layer** and adjust its display by sliding the blue button left or right.
 
 ![Changing the display of satellite imagery](/en/images/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/0214_Changing_the_display_of_satellite_imagery.png)
 <p align="center"><i>Changing the display of satellite imagery</i><p align="center">
@@ -133,12 +133,12 @@ After successfully merging all survey data, you need to download existing OSM da
 <p align="center"><i>Inactivating Auto zoom for satellite imagery</i><p align="center">
 
 
-### **V. Editing OSM Data Using JOSM**
+## **V. Editing OSM Data Using JOSM**
 
-Now you are ready to add or to edit OSM data using JOSM. You can draw new objects or you can edit the existing objects using the tools mentioned in **Using JOSM **module. Here are the steps on how to add or edit OSM data using survey data, downloaded OSM data and satellite imagery that you already added before on JOSM:
+Now you are ready to add or to edit OSM data using JOSM. You can draw new objects or you can edit the existing objects using the tools mentioned in **Using JOSM** module. Here are the steps on how to add or edit OSM data using survey data, downloaded OSM data and satellite imagery that you already added before on JOSM:
 
 
-*   After successfully following the steps mentioned in the previous sections, there will be two layers on your JOSM: **satellite imagery layer** (in the picture below, the layer meant is DigitalGlobe Premium Imagery layer) and **merged survey data with downloaded OSM data layer** (in the picture below, the layer meant is _hasil_survey_jakut.osm_ layer). It will look like this:
+*   After successfully following the steps mentioned in the previous sections, there will be two layers on your JOSM: **satellite imagery layer** (in the picture below, the layer meant is DigitalGlobe Premium Imagery layer) and **merged survey data with downloaded OSM data layer** (in the picture below, the layer meant is *hasil_survey_jakut.osm* layer). It will look like this:
 
 ![Satellite imagery layer and merged survey data with downloaded data layer](/en/images/03-JOSM/05-Menambahkan-Data-OSM-Menggunakan-JOSM/0216_Satellite_imagery_layer_and_merged_survey_data_with_downloaded_data_layer.png)
 <p align="center"><i>Satellite imagery layer and merged survey data with downloaded data layer</i><p align="center">
@@ -180,7 +180,7 @@ Now you are ready to add or to edit OSM data using JOSM. You can draw new object
 <p align="center"><i>Tags suitable for school area</i><p align="center">
 
 
-### **VI. Saving Changes**
+## **VI. Saving Changes**
 
 *   If you have already done mapping using JOSM, save changes to OSM server because the newly added objects are saved only in your computer. To save the changes you’ve made, click menu **File → Upload Data**.
 *   If you encounter warning/error after clicking Upload Data, it is better to fix warning/error first. You can find out more about fixing warning/error and common warning/errors found in **Survey Data Validation Using JOSM** module. However, if you don't have the time to learn how to fix warning/error, you can just go ahead and click **Continue Upload**. Upload Windows will appear.
@@ -192,7 +192,7 @@ Now you are ready to add or to edit OSM data using JOSM. You can draw new object
 > **Note:** You need to periodically upload your edits when mapping so that there won't be a hefty amount of edits to upload. The more edits you want to upload, the more time it takes to upload. If you already mapped a lot of edits and haven't done any upload, you can upload it by chunk. You can do it by clicking tab **Advanced** and select **Upload data in chunks of objects** in the Upload Windows. Type the **Chunk size** with how many changes you want to upload per chunk, such as 500. This can be done to avoid incomplete upload, especially when your internet connection is unstable that resulted in object duplication.
 
 
-### **VII. Saving .osm File**
+## **VII. Saving .osm File**
 
 *   You can also save your editing layer by **right clicking** on your editing layer and click **Save**. **Save OSM file** WIndows shown below will appear. Type the name of your file, then click **Save**. Your file will be saved in .osm format.
 
@@ -203,7 +203,7 @@ Now you are ready to add or to edit OSM data using JOSM. You can draw new object
 > **Note:** If you haven't finished mapping your area and you want to continue mapping it later, you can save your work as .osm file then you can continue mapping it later. You can open your saved .osm file by clicking menu File → Open, choose the file you want to open and click Open. After opening it, update the OSM data first by clicking menu File → Update Data and you can go ahead to continue mapping.
 
 
-### **VIII. Viewing Changes in the Map**
+## **VIII. Viewing Changes in the Map**
 
 *   You can view your changes by checking it on [OSM](https://www.openstreetmap.org/) website and directing it to your mapping area. Keep in mind, new changes can be viewed a while after uploading it to OSM server.
 

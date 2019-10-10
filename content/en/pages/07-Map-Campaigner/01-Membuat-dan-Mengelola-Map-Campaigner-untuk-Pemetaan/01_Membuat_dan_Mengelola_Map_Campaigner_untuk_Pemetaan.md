@@ -1,5 +1,5 @@
 ---
-title: Membuat dan Mengelola Map Campaigner untuk Pemetaan
+title: Using Map Campaigner to Manage Mapping Campaign
 ---
 
 **Learning Objectives:**
