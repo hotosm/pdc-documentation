@@ -115,7 +115,7 @@ Before you can start using Tasking Manager, there are a few things you need to k
 
    ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0213_Tampilan_proyek_tasking_manager.png "image_tooltip") <p align="center"><i>Tasking Manager’s project layout</i></p>
 
-    Under the description box, you can see the map on the right side and view information on the left side. If you see on the map field, you can see different grid/square with different color. Those colors represent:
+Under the description box, you can see the map on the right side and view information on the left side. If you see on the map field, you can see different grid/square with different color. Those colors represent:
 
    ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0214_Legenda_tasking_manager.png "image_tooltip")
 	
@@ -220,7 +220,7 @@ Before you can start using Tasking Manager, there are a few things you need to k
        ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0227_Objek_yang_terletak_di_perbatasan_grid_tasking_manager.png "image_tooltip")
         <p align="center"><i>Object located on the border of tasking manager grid</i></p>
 
-        If you find those kind of object, you can draw the object slightly cross the boundary of your square. You need to draw the object like this especially for highway to give guidance for another user to continue your object. 
+     If you find those kind of object, you can draw the object slightly cross the boundary of your square. You need to draw the object like this especially for highway to give guidance for another user to continue your object. 
 
 
 **SUMMARY**
