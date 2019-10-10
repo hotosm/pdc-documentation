@@ -84,26 +84,26 @@ Before you can start using Tasking Manager, there are a few things you need to k
 
      You can also find your tasking manager project based on certain campaign. For example, you can choose project for Malaria Elimination. 
 
-   You can change the layout from Grid View to Map View. On the Grid View, you can see list of the project on grid/square layout. If you choose Map View, you can see the world map  with blue dots on the top of the map. 
+     You can change the layout from Grid View to Map View. On the Grid View, you can see list of the project on grid/square layout. If you choose Map View, you can see the world map  with blue dots on the top of the map. 
 
-   ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0208_Tombol_untuk_mengubah_tampilan_Grid_View_atau_Map_View.png "image_tooltip")
-   <p align="center"><i>You can change the layout from Grid View to Map View using this button</i></p>
+     ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0208_Tombol_untuk_mengubah_tampilan_Grid_View_atau_Map_View.png "image_tooltip")
+     <p align="center"><i>You can change the layout from Grid View to Map View using this button</i></p>
 
-   After you change your layout into Map View, the page will be like this:
+     After you change your layout into Map View, the page will be like this:
 
-   ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0209_Tampilan Map_View_pada_Tasking_Manager.png "image_tooltip")
-   <p align="center"><i>Map View on Tasking Manager</i></p>
+     ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0209_Tampilan Map_View_pada_Tasking_Manager.png "image_tooltip")
+     <p align="center"><i>Map View on Tasking Manager</i></p>
 
-   You can use the plus and minus button on the left side of the map to change your zoom level. When the zoom level is upgraded, there will be a bunch of tasking manager project marked with coloured dots. Each different colors represent the priority of project from urgent to low. 
+     You can use the plus and minus button on the left side of the map to change your zoom level. When the zoom level is upgraded, there will be a bunch of tasking manager project marked with coloured dots. Each different colors represent the priority of project from urgent to low. 
 
-   ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0210_Prioritas_tasking_manager.png "image_tooltip")
+     ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0210_Prioritas_tasking_manager.png "image_tooltip")
 
-   If you want to search project, you can set your layout into the Grid View and move your pointer to the search box. In this module, we will try to search tasking manager project using keyword ‘Penjaringan’, and then press **Enter**. You can leave other configuration empty like mapping difficulty, organization, and campaign. 
+     If you want to search project, you can set your layout into the Grid View and move your pointer to the search box. In this module, we will try to search tasking manager project using keyword ‘Penjaringan’, and then press **Enter**. You can leave other configuration empty like mapping difficulty, organization, and campaign. 
 
-   ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0211_Hasil pencarian_proyek_tasking_manager_dengan_kata_pencarian_‘penjaringan’.png "image_tooltip")
-   <p align="center"><i>Result for tasking manager’s project with keyword of ‘penjaringan’</i></p>
+     ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0211_Hasil pencarian_proyek_tasking_manager_dengan_kata_pencarian_‘penjaringan’.png "image_tooltip")
+     <p align="center"><i>Result for tasking manager’s project with keyword of ‘penjaringan’</i></p>
 
-   Tasking manager will show list of all projects that contain the keyword ‘Penjaringan’. Chose the project on the top right corner labeled with_ ‘#781 - INSIST II ( Integrated Services for Infrastructure and Sanitation Technology ) II - Kelurahan Penjaringan’_.
+     Tasking manager will show list of all projects that contain the keyword ‘Penjaringan’. Chose the project on the top right corner labeled with_ ‘#781 - INSIST II ( Integrated Services for Infrastructure and Sanitation Technology ) II - Kelurahan Penjaringan’_.
 
 3. **Get to know about Tasking Manager Layout and Display**
      
@@ -120,8 +120,8 @@ Before you can start using Tasking Manager, there are a few things you need to k
    ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0214_Legenda_tasking_manager.png "image_tooltip")
 	
    *   **Ready**
-
-        Shows that you can map the grid selected
+   
+   Shows that you can map the grid selected
 
    *   **Mapped**
 
