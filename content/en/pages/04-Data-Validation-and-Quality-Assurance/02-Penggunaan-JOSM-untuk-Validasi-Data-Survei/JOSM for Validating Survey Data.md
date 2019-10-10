@@ -99,6 +99,7 @@ In field survey, there are two different types of data needed to be collected, i
 After doing a data validation on your raw data, then you need to do a validation on the OpenStreetMap data in server. You can do this validation using a plugin in JOSM called to do list and validation tool. 
 
 1. Using to do list plugin
+
     You can use to do list to do a validation on your data. To do list allows you to make a list of the objects you have collected on your survey. With this list, it will be easier to do a data checking on by one, so there will be no data missed. Please read **Using to-do list** in JOSM if you need to. 
 
     For example, you have a set of data like this:
@@ -141,9 +142,11 @@ On the other hand, you can also check the placement for each object. On the pict
 As mentioned before, when you're doing a validation using JOSM, you will find two kinds of validation results:
 
 1. Error
+    
     When you find an error on your validation result, you need to fix this as soon as possible. Error means that there are some objects on your data set that violate the regulation of OpenStreetMap mapping regulation. You will not be able to upload your data if you’re not finishing the error on your data set/changeset. 
 
 2. Warning
+    
     Quite different from error, you don’t need to fix the warning when you find it on your validation result. Same with the name, warning give you information that there are some things that needed to be repaired on your data. You can ignore this warning and continue to upload the data. Nevertheless, there are few kinds of warning you need to remember and you should need to fix this mistake. You will learn about it on the next chapter. 
 
    ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0219_Contoh_error_warning_yang_muncul.png "image_tooltip")
