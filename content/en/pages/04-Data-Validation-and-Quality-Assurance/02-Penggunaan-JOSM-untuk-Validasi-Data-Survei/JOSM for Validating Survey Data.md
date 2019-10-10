@@ -161,13 +161,13 @@ There are many kinds of error and warning when you doing validation on OpenStree
 
 **a. Error**
 
-    *   Duplicated Node 
+*   Duplicated Node 
 
 This type of error commonly show up when an object accidentally uploaded twice in the same time. It will cause two or more objects will overlap each other on the same location. This mostly happen when you upload the data using a bad and unstable internet connection.
        ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0221_Error_duplicated_node.png "image_tooltip")
 <p align="center"><i>Error: Duplicated Node</i></p>
 
-    *   Duplicated Ways 
+*   Duplicated Ways 
 
 This kind of error is similar with duplicated node, where there are two or more ways/line located on the same location/overlap. This error mostly happen for highway object, but this would likely found on same overlapping building.
         ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0222_Error_duplicated_ways.png "image_tooltip")
@@ -176,67 +176,67 @@ This kind of error is similar with duplicated node, where there are two or more 
 
 **b. Warning**
 
-    *   Crossing Building
+* Crossing Building
 
-        This warning is one of the most commonly found when doing a validation. Mostly OpenStreetMap user draw different building as an overlapping object. To fix this warning, you just need to move or delete one of the overlapping building. 
+This warning is one of the most commonly found when doing a validation. Mostly OpenStreetMap user draw different building as an overlapping object. To fix this warning, you just need to move or delete one of the overlapping building. 
 
-       ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0223_Warning_Crossing_building.png "image_tooltip")
+![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0223_Warning_Crossing_building.png "image_tooltip")
 <p align="center"><i>Warning: Crossing building</i></p>
 
-    *   Crossing Ways
+*   Crossing Ways
 
-        This warning will come up when there are two line or highway object without an intersection node between those line or highway. To fix this warning, you just need to add an intersection node between those line/highway. 
+This warning will come up when there are two line or highway object without an intersection node between those line or highway. To fix this warning, you just need to add an intersection node between those line/highway. 
 
-        ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0224_Warning_Crossing_ways.png "image_tooltip")
+![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0224_Warning_Crossing_ways.png "image_tooltip")
  <p align="center"><i>Warning: Crossing ways</i></p>
 
-    *   Overlapping Highways
+*   Overlapping Highways
 
-        This warning will show up when there is an overlapping  highway located on the same location. To fix this warning, you just need to move or delete the overlapping highways. 
+This warning will show up when there is an overlapping  highway located on the same location. To fix this warning, you just need to move or delete the overlapping highways. 
 
-        ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0225_Warning_Overlapping_highways.png "image_tooltip")
+![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0225_Warning_Overlapping_highways.png "image_tooltip")
 <p align="center"><i>Warning: Overlapping highways</i></p>
 
-    *   Node connect highways and building
+*   Node connect highways and building
 
-        This warning will show up when node from building object and node from highway object accidentally connected to each other. To fix this problem, you can separate the connected node using **unglue node**. 
+This warning will show up when node from building object and node from highway object accidentally connected to each other. To fix this problem, you can separate the connected node using **unglue node**. 
 
-        ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0226_Warning_Node_connect_higways_and_building.png "image_tooltip")
+![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0226_Warning_Node_connect_higways_and_building.png "image_tooltip")
 <p align="center"><i>Warning: Node connect highways and building</i></p>
 
-    *   Untagged ways
+*   Untagged ways
 
-        When there is an object drawn in JOSM but don’t have any information, JOSM will flagged that object as unidentified object or as untagged ways. This notification is important because when you mapping using JOSM, you need to give the information to your object. If you doing this mistake, your object will not come up on OpenStreetMap website so make sure don’t forget to add information/tag on your object. 
+When there is an object drawn in JOSM but don’t have any information, JOSM will flagged that object as unidentified object or as untagged ways. This notification is important because when you mapping using JOSM, you need to give the information to your object. If you doing this mistake, your object will not come up on OpenStreetMap website so make sure don’t forget to add information/tag on your object. 
 
-        ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0227_Warning_Untagged_ways.png "image_tooltip")
+![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0227_Warning_Untagged_ways.png "image_tooltip")
 <p align="center"><i>Warning:Untagged ways</i></p>
 
-    *   Way end node near other highways
+*   Way end node near other highways
 
-        This warning came up when there are two highways located very close to each other but each node not connected. This object will be identified as an end of the road or it means that the road is impassable. If it say so, please add tag **highway=block** on the object’s information. But, if the highway was supposed to be connected, you can combine them using **Merge**. 
+This warning came up when there are two highways located very close to each other but each node not connected. This object will be identified as an end of the road or it means that the road is impassable. If it say so, please add tag **highway=block** on the object’s information. But, if the highway was supposed to be connected, you can combine them using **Merge**. 
 
-        ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0228_Warning_Way_end_node_near_other_highways.png "image_tooltip")
+![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0228_Warning_Way_end_node_near_other_highways.png "image_tooltip")
 <p align="center"><i>Warning: Way end node near other highways</i></p>
 
-    *   Building inside building
+*   Building inside building
 
-        This is one of the most commonly found when doing validation. This mistake happen when there is a building polygon drawn inside another polygon. To finish this, you can move or delete the building inside another building. 
+This is one of the most commonly found when doing validation. This mistake happen when there is a building polygon drawn inside another polygon. To finish this, you can move or delete the building inside another building. 
 
-        ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0229_Warning_Building_inside_building.png "image_tooltip")
+![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0229_Warning_Building_inside_building.png "image_tooltip")
 <p align="center"><i>Warning: Building inside building</i></p>
 
-    *   Unnamed ways
+*   Unnamed ways
 
-        Unnamed ways shows there is a highway which don’t have name on it. Basically, you can ignore this warning because mostly all mapper do their mapping remotely, so they don’t know the name of the street.  
+Unnamed ways shows there is a highway which don’t have name on it. Basically, you can ignore this warning because mostly all mapper do their mapping remotely, so they don’t know the name of the street.  
 
-        ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0230_Warning_Unnamed_ways.png "image_tooltip")
+![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0230_Warning_Unnamed_ways.png "image_tooltip")
 <p align="center"><i>Warning: Unnamed ways</i></p>
 
-    *   Similarly named ways
+*   Similarly named ways
     
-        This warning will show up when there is a similar name on different highway. For example, there is a road called Jalan Tebet Timur I, Jalan Tebet Timur IA, Jalan Tebet Timur IAA, and else. You can ignore this warning if you sure the name is similar.  
+This warning will show up when there is a similar name on different highway. For example, there is a road called Jalan Tebet Timur I, Jalan Tebet Timur IA, Jalan Tebet Timur IAA, and else. You can ignore this warning if you sure the name is similar.  
 
-        ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0231_Warning_Similarly_named_ways.png "image_tooltip")
+![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0231_Warning_Similarly_named_ways.png "image_tooltip")
 <p align="center"><i>Warning: Similarly named ways</i></p>
 
 
