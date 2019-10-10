@@ -99,51 +99,55 @@ In field survey, there are two different types of data needed to be collected, i
 After doing a data validation on your raw data, then you need to do a validation on the OpenStreetMap data in server. You can do this validation using a plugin in JOSM called to do list and validation tool. 
 
 1. Using to do list plugin
-    You can use to do list to do a validation on your data. To do list allows you to make a list of the objects you have collected on your survey. With this list, it will be easier to do a data checking on by one, so there will be no data missed. Please read **Using to-do list** in JOSM if you need to. 
+    
+       You can use to do list to do a validation on your data. To do list allows you to make a list of the objects you have collected on your survey. With this list, it will be easier to do a data checking on by one, so there will be no data missed. Please read **Using to-do list** in JOSM if you need to. 
 
-    For example, you have a set of data like this:
+       For example, you have a set of data like this:
 
-   ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0213_Contoh_data_hasil_survei.png "image_tooltip")
-    <p align="center"><i>Example of survey data</i></p>
+       ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0213_Contoh_data_hasil_survei.png "image_tooltip")
+       <p align="center"><i>Example of survey data</i></p>
 
-    Those data collected by using ODK Collect and Open Map Kit (OMK). We need to check whether this data correct or not. Therefore, you need to download existing OSM data to check whether this data already mapped or not. After that, you can do some validation on your data, like spell checking or node placing. With this huge data set, it will be much easier if we use to do list plugin. 
+       Those data collected by using ODK Collect and Open Map Kit (OMK). We need to check whether this data correct or not. Therefore, you need to download existing OSM data to check whether this data already mapped or not. After that, you can do some validation on your data, like spell checking or node placing. With this huge data set, it will be much easier if we use to do list plugin. 
 
-    For example, you have an object called Port’s Health Office located in North Jakarta. Therefore, you need to download existing OSM data to do some validation. With these data, you can do a comparison between existing data and field survey data, like spell checking or if there is a wrong information on the existing data. On the example data, you can see that the field survey data object’s name written in lowercase. In fact, we want that the object’s name written with capital letter on each word. As you can see, on the existing OSM data, the object already written with capital on each word. It means that the data entry done their job very well. 
+       For example, you have an object called Port’s Health Office located in North Jakarta. Therefore, you need to download existing OSM data to do some validation. With these data, you can do a comparison between existing data and field survey data, like spell checking or if there is a wrong information on the existing data. On the example data, you can see that the field survey data object’s name written in lowercase. In fact, we want that the object’s name written with capital letter on each word. As you can see, on the existing OSM data, the object already written with capital on each word. It means that the data entry done their job very well. 
 
-   ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0214_Perbandingan_antara_hasil_input_dan_mentah.png "image_tooltip")
-    <p align="center"><i>Comparison between raw data and existing data attribute  on OSM</i></p>
+       ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0214_Perbandingan_antara_hasil_input_dan_mentah.png "image_tooltip")
+       <p align="center"><i>Comparison between raw data and existing data attribute  on OSM</i></p>
 
-    On the other hand, you can also check the placement for each object. On the picture above, you can see that raw data (node with grey color) not located on the exact location where it should be placed, meanwhile on the existing data, the object is already placed on the exact location (colored node). You can use satellite imagery to help you determine where the node should be placed. 
+       On the other hand, you can also check the placement for each object. On the picture above, you can see that raw data (node with grey color) not located on the exact location where it should be placed, meanwhile on the existing data, the object is already placed on the exact location (colored node). You can use satellite imagery to help you determine where the node should be placed. 
 
-   ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0215_Perbedaan_posisi_titik_data_hasil_input_dan_data_mentah.png "image_tooltip")
-    <p align="center"><i>Node placement difference between raw data and existing OSM data</i></p>
+       ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0215_Perbedaan_posisi_titik_data_hasil_input_dan_data_mentah.png "image_tooltip")
+        <p align="center"><i>Node placement difference between raw data and existing OSM data</i></p>
 
 2. Using Validation Tool
-   *   Download OpenStreetMap data on your selected location
+
+      * Download OpenStreetMap data on your selected location
 
        ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0216_Contoh_data_OSM_yang_telah_didownload.png "image_tooltip")
- <p align="center"><i>Downloaded OpenStreetMap data</i></p>
+       <p align="center"><i>Downloaded OpenStreetMap data</i></p>
 
-   *   Validate the data using validation tools on JOSM. for To activate the validation result, select **Window** then **Validation Result**. The validation window will shows up on the right bottom side of your JOSM screen. 
+      * Validate the data using validation tools on JOSM. for To activate the validation result, select **Window** then **Validation Result**. The validation window will shows up on the right bottom side of your JOSM screen. 
 
        ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0217_Mengaktifkan_jendela_validasi_pada_JOSM.png "image_tooltip")
-<p align="center"><i>Activating validation window on JOSM</i></p>
+       <p align="center"><i>Activating validation window on JOSM</i></p>
 
-   *   Click **Validation** on validation result window to start your validation. One thing you need to remember, please make sure you are not selecting any object in JOSM when you want to validate your data. If you doing this, JOSM will only validate your currently selected object. 
+      * Click **Validation** on validation result window to start your validation. One thing you need to remember, please make sure you are not selecting any object in JOSM when you want to validate your data. If you doing this, JOSM will only validate your currently selected object. 
 
-        ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0218_Hasil_validasi_menggunakan_JOSM.png "image_tooltip")
-<p align="center"><i>Validation result using JOSM</i></p>
+       ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0218_Hasil_validasi_menggunakan_JOSM.png "image_tooltip")
+       <p align="center"><i>Validation result using JOSM</i></p>
 
-   *   You need to fix the data when you find an error and warning on your validation result. After that, don’t forget to upload your data into OpenStreetMap server. 
+      * You need to fix the data when you find an error and warning on your validation result. After that, don’t forget to upload your data into OpenStreetMap server. 
 
 ### **III. Definition of Error and Warning on JOSM**
 
 As mentioned before, when you're doing a validation using JOSM, you will find two kinds of validation results:
 
-1. Error
+1. **Error**
+   
     When you find an error on your validation result, you need to fix this as soon as possible. Error means that there are some objects on your data set that violate the regulation of OpenStreetMap mapping regulation. You will not be able to upload your data if you’re not finishing the error on your data set/changeset. 
 
-2. Warning
+2. **Warning**
+
     Quite different from error, you don’t need to fix the warning when you find it on your validation result. Same with the name, warning give you information that there are some things that needed to be repaired on your data. You can ignore this warning and continue to upload the data. Nevertheless, there are few kinds of warning you need to remember and you should need to fix this mistake. You will learn about it on the next chapter. 
 
    ![alt_text](/en/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0219_Contoh_error_warning_yang_muncul.png "image_tooltip")
