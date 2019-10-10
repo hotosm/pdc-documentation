@@ -59,14 +59,17 @@ Before you can start using Tasking Manager, there are a few things you need to k
    <p align="center"><i>Contribute and Start Mapping button on Tasking Manager page</i></p>
 
 2. **Searching Project on Tasking Manager search box**
+     
      On this page, you will see two different view, Grid View and Map View. on the Grid View, there are few things you should notice, like:
      ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0207_Beberapa_pengaturan_yang_dapat_dilakukan_pada_tampilan_Grid_View.png "image_tooltip")
      <p align="center"><i>You can change the setting on the Grid View layout</i></p>
 
    * **Search**
+   
      On the search box, you can search your tasking manager project using certain keyword like sub-village, village, province, or by project name. 
 
    * **Project**
+     
      On this part, you can see list of the tasking manager project created before.
 
    * **Mapping Difficulty**
@@ -191,6 +194,7 @@ Before you can start using Tasking Manager, there are a few things you need to k
 
     There are few things you need to know when you choose a tasking manager project. 
    *   **You only have 120 minutes to do your mapping**
+
         When you select one grid/square, you will own the grid/square for 120 minutes or 2 hours. Make sure you still in time to mapping your area and upload your data periodically. 
 
        ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0224_Pemberitahuan_batas_waktu_pengerjaan_tasking_manager.png "image_tooltip")
@@ -214,7 +218,7 @@ Before you can start using Tasking Manager, there are a few things you need to k
         Mostly when we mapping the area using tasking manager, you will see many objects located in between square boundary, like this:
 
        ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0227_Objek_yang_terletak_di_perbatasan_grid_tasking_manager.png "image_tooltip")
-        <p align="center"><i>0Object located on the border of tasking manager grid</i></p>
+        <p align="center"><i>Object located on the border of tasking manager grid</i></p>
 
         If you find those kind of object, you can draw the object slightly cross the boundary of your square. You need to draw the object like this especially for highway to give guidance for another user to continue your object. 
 
