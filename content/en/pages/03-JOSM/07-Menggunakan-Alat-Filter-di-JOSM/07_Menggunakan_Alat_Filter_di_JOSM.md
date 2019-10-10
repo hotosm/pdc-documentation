@@ -28,7 +28,7 @@ JOSM has many tools that can be used by the user to make mapping things easier, 
 
 Imagine that you have data set like the picture above. Most people will get confused when they see complicated data like that. To make it simpler, you can use filters to select which object you want to see on the JOSM. For example, we will do filtering for highway. For doing so, you need to follow these steps:
 
-*   On filter window, click **Add **menu. 
+*   On filter window, click **Add** menu. 
 ![alt_text](/en/images/03-JOSM/07-Menggunakan-Alat-Filter-di-JOSM/0704_Tombol_Add_di_jendela_filter.png "image_tooltip")
 <p align="center"><i>Add button on window filter</i></p>
 
