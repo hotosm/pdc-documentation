@@ -219,9 +219,8 @@ Under the description box, you can see the map on the right side and view inform
 
        ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0227_Objek_yang_terletak_di_perbatasan_grid_tasking_manager.png "image_tooltip")
         <p align="center"><i>Object located on the border of tasking manager grid</i></p>
-
-     
-          If you find those kind of object, you can draw the object slightly cross the boundary of your square. You need to draw the object like this especially for highway to give guidance for another user to continue your object. 
+        
+        If you find those kind of object, you can draw the object slightly cross the boundary of your square. You need to draw the object like this especially for highway to give guidance for another user to continue your object. 
 
 
 **SUMMARY**
