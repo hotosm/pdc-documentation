@@ -41,7 +41,7 @@ By using QGIS, you can convert shapefile data from both OpenStreetMap (OSM) data
 
 *   You should see a window and make sure you set it as the picture below:
 
-![The conversion settings from shapefile to GeoJSON](/en/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1004_pengaturan_geojson_di_qgis.png()
+![The conversion settings from shapefile to GeoJSON](/en/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1004_pengaturan_geojson_di_qgis.png)
 <p align="center"><i>The conversion settings from shapefile to GeoJSON</i></p>
 
 *   **_Format_:** Choose **GeoJSON** format
