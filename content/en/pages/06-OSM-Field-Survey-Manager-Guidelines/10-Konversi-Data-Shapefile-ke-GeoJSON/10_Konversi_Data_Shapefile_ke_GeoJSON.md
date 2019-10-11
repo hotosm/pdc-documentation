@@ -40,7 +40,7 @@ By using QGIS, you can convert shapefile data from both OpenStreetMap (OSM) data
 <p align="center"><i>Option for shapefile data conversion</i></p>
 
 *   You should see a window and make sure you set it as the picture below:
-*   
+
 ![The conversion settings from shapefile to GeoJSON](/en/images/06-OSM-Field-Survey-Manager-Guidelines/10-Konversi-Data-Shapefile-ke-GeoJSON/1004_pengaturan_geojson_di_qgis.png()
 <p align="center"><i>The conversion settings from shapefile to GeoJSON</i></p>
 
@@ -118,4 +118,5 @@ If you want to change your own shapefile data instead of OpenStreetMap data then
 <p align="center"><i>Window to download GeoJSON conversion result</i></p>
 
 **SUMMARY**
+
 You have learned about spatial data with GeoJSON format and also know how to convert shapefile data to GeoJSON by using several tools such as QGIS, Overpass Turbo, and GeoData Converter. You can use all of these tools according to your needs and the availability of shapefile data that you have. Your GeoJSON data can be used as visualization on WebGIS or sites that can display spatial data such as Mapbox, Leaflets, HOT Export and Tasking Manager.
