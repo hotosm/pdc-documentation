@@ -4,10 +4,11 @@ weight: 10
 ---
 
 **Objectives:**
-* To be able to understand the definition of GeoJSON data
-* To be able to convert shapefile to GeoJSON with QGIS
-* To be able to download GeoJSON from Overpass Turbo
-* To be able to convert shapefile to GeoJSON using GeoData Converter
+
+*   To be able to understand the definition of GeoJSON data
+*   To be able to convert shapefile to GeoJSON with QGIS
+*   To be able to download GeoJSON from Overpass Turbo
+*   To be able to convert shapefile to GeoJSON using GeoData Converter
 
 If you do not have an educational background in geography or you are not too familiar with Geographic Information Systems (GIS), then this GeoJSON format may sound familiar to you. However, you do not need to worry about that because getting spatial data with GeoJSON format is not as difficult as you think. GeoJSON can be obtained by changing or converting from spatial data that you already have such as shapefiles, keyhole markup language (.kml) or GPS results, .gpx. In this module you will learn the definition of GeoJSON data and several tools that can help you to convert spatial data especially shapefiles into GeoJSON format.
 
