@@ -24,7 +24,7 @@ Dividing survey area means to narrow the focus for each survey team whereas they
 
 The importance of technical aspect such as have good understanding to use the survey tools while local knowledge such as know the mapping area well and can speak in local language will become a benefit that can help them to get information from people and community in their survey area. 
 
-![Data Collection Workflow](/en/images/01-OSM-Field-Surveyor-Guideliness/01-Metodologi-Pengumpulan-Data/0101_metode_pengumpulan_data.jpg)
+![Data Collection Workflow](/en/images/01-OSM-Field-Surveyor-Guideliness/01-Metodologi-Pengumpulan-Data/0101_metode_pengumpulan_data.png)
 <p align="center"><i>Divided Area in HOT PDC InAWARE Project Cities</i></p>
 
 *   **Manage The Survey Permit Letter**
