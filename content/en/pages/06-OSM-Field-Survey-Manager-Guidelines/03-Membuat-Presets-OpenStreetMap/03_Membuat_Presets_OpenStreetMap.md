@@ -193,7 +193,10 @@ Yo can also add icons for your presets. Icons are used to represent the objects 
 
 
 If you want to use icon available on JOSM, you can see it at **[https://josm.openstreetmap.de/browser/josm/trunk/images/presets ](https://josm.openstreetmap.de/browser/josm/trunk/images/presets)**. You can use other set of icons you made or icons on your computer/laptop that you got from another source. However, when someone makes a copy of your preset or when you share the presets to others, the icon won’t show up since you use offline icon that’s only stored in your computer/laptop. Here is the example for offline icon path:  
- **C:\Users\(your computer/laptop name)\Desktop\icon presets\building.png** 
+
+```
+C:\Users\(your computer/laptop name)\Desktop\icon presets\building.png
+```
 
 You can download HOT-PDC InAWARE presets as reference at [bit.ly/presetshotpdcid](https://bit.ly/presetshotpdcid)
 
