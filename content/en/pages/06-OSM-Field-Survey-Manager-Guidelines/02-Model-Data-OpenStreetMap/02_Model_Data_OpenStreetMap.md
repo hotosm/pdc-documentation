@@ -68,14 +68,14 @@ In this module, you have been explained about data types in OpenStreetMap: point
 
 Point usually being used to represent position or location of certain object. For instance, objects which drawn as a point (nodes) in OpenStreetMap such as traffic light, gas station or restaurant in a mall or shopping center.
 
-![Example of Points in OpenStreetMap](/en/images/06-OSM-Field-Survey-Manager-Guidelines/02-Model-Data-OpenStreetMap/0204_objek_titik.jpg)
+![Example of Points in OpenStreetMap](/en/images/06-OSM-Field-Survey-Manager-Guidelines/02-Model-Data-OpenStreetMap/0204_objek_titik.png)
 <p align="center"><i>Example of Points in OpenStreetMap</i></p>
 
 *   **Line (_Ways_)**
 
 Line is an object that is formed by sequence of  points (_nodes_) which connect one to another. Some objects which usually drawn as a line in OpenStreetMap such as road, river, railway and administration boundary.
 
-![Example of lines in OpenStreetMap](/en/images/06-OSM-Field-Survey-Manager-Guidelines/02-Model-Data-OpenStreetMap/0205_objek_garis.jpg)
+![Example of lines in OpenStreetMap](/en/images/06-OSM-Field-Survey-Manager-Guidelines/02-Model-Data-OpenStreetMap/0205_objek_garis.png)
 <p align="center"><i>Example of lines in OpenStreetMap</i></p>
 
 
@@ -83,7 +83,7 @@ Line is an object that is formed by sequence of  points (_nodes_) which connect 
 
 Area is formed by sequence of lines (_ways_) which connect one to another. Some objects in OpenStreetMap such as building, park, land use and lake are drawn as area.
 
-![Example of area (polygon) in OpenStreetMap](/en/images/06-OSM-Field-Survey-Manager-Guidelines/02-Model-Data-OpenStreetMap/0206_objek_area.jpg)
+![Example of area (polygon) in OpenStreetMap](/en/images/06-OSM-Field-Survey-Manager-Guidelines/02-Model-Data-OpenStreetMap/0206_objek_area.png)
 <p align="center"><i>Example of area (polygon) in OpenStreetMap</i></p>
 
 
