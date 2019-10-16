@@ -118,7 +118,7 @@ These are steps that you have to do for counting number of sub-village (RW) in y
 
 *   You will see your data will change like the picture below:
 
-![Administration Boundary Filter in JOSM](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/00413_josm_data_quality_13.png)
+![Administration Boundary Filter in JOSM](/en/images/04-Data-Validation-and-Quality-Assurance/04-JOSM-Untuk-Perhitungan-Kualitas-Data/0413_josm_data_quality_13.png)
 <p align="center"><i>Administration Boundary Filter in JOSM</i></p>
 
 
