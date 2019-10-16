@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Panduan OpenStreetMap untuk Surveyor on HOT-PDC Training Site</title>
+    <title>OpenStreetMap Guide for Surveyor on HOT-PDC Training Site</title>
     <link>/en/pages/01-osm-field-surveyor-guideliness/</link>
-    <description>Recent content in Panduan OpenStreetMap untuk Surveyor on HOT-PDC Training Site</description>
+    <description>Recent content in OpenStreetMap Guide for Surveyor on HOT-PDC Training Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -50,7 +50,17 @@
  Explain OSMTracker as one of survey tools for recording tracks and photos
  How to set up the OSMTracker for the first time
  Learn how to use OSMTracker
-  1. What is OSMTracker? OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoint and also track. If you want to learn more about GPS for field survey, you can see the GPS Module.</description>
+  I. What is OSMTracker? OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoint and also track. If you want to learn more about GPS for field survey, you can see the GPS Module.</description>
+    </item>
+    
+    <item>
+      <title>Using GPS</title>
+      <link>/en/pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/</guid>
+      <description>Objectives:
+ Understand parts of GPS Understand how to turn on GPS Understand how to use GPS Understand definition of track and waypoint in GPS Understand how to turn on track in GPS Understand how to save waypoint in GPS Understand how to copy track and waypoint to computer  When doing a field survey, a navigation tool that has a function to record track and point is needed. Global Positioning Syste or GPS is frequently used tool.</description>
     </item>
     
   </channel>

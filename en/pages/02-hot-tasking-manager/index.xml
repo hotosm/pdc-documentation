@@ -23,5 +23,15 @@
   You must already know how to use tasking manager to perform mapping activities together. When you use a tasking manager that doesn&amp;rsquo;t suit the area you want, then you might want to make a tasking manager for your own area.</description>
     </item>
     
+    <item>
+      <title>Using Tasking Manager</title>
+      <link>/en/pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/</guid>
+      <description>Objectives:
+ Using functions of tasking manager for participatory mapping Operating tasking manager for mapping  As an alternative for open source mapping platform, OpenStreetMap allows everyone to do mapping anytime, anywhere. The problem is, what if you want to do mapping along with the other mapper on the same time? Tasking Manager allows you to divide an area of mapping so everyone can do mapping together. In this module, you will learn more detail about Tasking Manager and how to mapping using Tasking Manager.</description>
+    </item>
+    
   </channel>
 </rss>

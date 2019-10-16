@@ -45,6 +45,16 @@ I. Export Tool Concept The Export Tool is an open service that creates customize
     </item>
     
     <item>
+      <title>Introduction to OpenStreetMap</title>
+      <link>/en/pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/</guid>
+      <description>Objectives:
+ To be able to explain what OpenStreetMap is To be able to explain the history of OpenStreetMap To be able to explain the benefits of using OpenStreetMap To be able to explain the use of OpenStreetMap To be able to explain the basic concept of map and OpenStreetMap  Nowadays a lot of people use digital map, but only a few use open source digital map. Open source digital map is totally free and editable.</description>
+    </item>
+    
+    <item>
       <title>OpenStreetMap Data Integration to InAWARE</title>
       <link>/en/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -66,10 +76,10 @@ I. Export Tool Concept The Export Tool is an open service that creates customize
     
     <item>
       <title>The Mapping Methodology with OpenStreetMap</title>
-      <link>/en/pages/06-osm-field-survey-manager-guidelines/01_metodologi_kerangka_kerja_pemetaan/01_metodologi_kerangka_kerja_pemetaan/</link>
+      <link>/en/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/pages/06-osm-field-survey-manager-guidelines/01_metodologi_kerangka_kerja_pemetaan/01_metodologi_kerangka_kerja_pemetaan/</guid>
+      <guid>/en/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/</guid>
       <description>Objectives:
  To be able to explain how to create a timeline for mapping activity To be able to explain how to create a folder for each team mapping To be able to explain how to divide the survey area based on the administrative boundary To be able to explain how to create team mapping effectively  Planning a mapping project requires an appropriate and efficient survey methodology to achieve the target and purpose.</description>
     </item>
@@ -82,6 +92,16 @@ I. Export Tool Concept The Export Tool is an open service that creates customize
       <guid>/en/pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/</guid>
       <description>Objective:
  To be able to operate and navigate the OpenStreetMap website To be able to see object information in OpenStreetMap To be able to create share link in OpenStreetMap To be able to save images from OpenStreetMap To be able to create user account in OpenStreetMap To be able to understand the basic concept of attribute in OpenStreetMap To be able to understand history in OpenStreetMap  After you understand the basic of OpenStreetMap in the previous module, you can immediately start using OpenStreetMap.</description>
+    </item>
+    
+    <item>
+      <title>JOSM for Validating Survey Data</title>
+      <link>/en/pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/josm-for-validating-survey-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/josm-for-validating-survey-data/</guid>
+      <description>Objectives:
+ To do initial checking on field survey data using JOSM To do a quality assurance on field survey data using JOSM To understand the type of error and warning on JOSM  JOSM is a software that has a function to do mapping and editing in OpenStreetMap. Why JOSM? Because JOSM has many functions to support your mapping and editing in OpenStreetMap. One of the features is its capability of doing data validation.</description>
     </item>
     
     <item>
@@ -105,6 +125,46 @@ I. Export Tool Concept The Export Tool is an open service that creates customize
     </item>
     
     <item>
+      <title>Using Tasking Manager</title>
+      <link>/en/pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/</guid>
+      <description>Objectives:
+ Using functions of tasking manager for participatory mapping Operating tasking manager for mapping  As an alternative for open source mapping platform, OpenStreetMap allows everyone to do mapping anytime, anywhere. The problem is, what if you want to do mapping along with the other mapper on the same time? Tasking Manager allows you to divide an area of mapping so everyone can do mapping together. In this module, you will learn more detail about Tasking Manager and how to mapping using Tasking Manager.</description>
+    </item>
+    
+    <item>
+      <title>Creating Presets</title>
+      <link>/en/pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/</guid>
+      <description>Objectives:
+ To be able to comprehend presets concept on OpenStreetMap To be able to comprehend XML format to create presets on OpenStreetMap To be able to create a customized presets on OpenStreetMap To be able to comprehend presets elements  As explained before, OpenStreetMap is a free, open, participatory map of the whole world. This means that the use of OpenStreetMap can be very distinctive. The more distinct the mapping objectives are, the more diverse the information are.</description>
+    </item>
+    
+    <item>
+      <title>Data Quality Assurance with Tasking Manager</title>
+      <link>/en/pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/</guid>
+      <description>Objective:
+ Understand data quality assurance by using tasking manager  Previously you have edited OpenStreetMap data using tasking manager. Tasking manager make you easier to edit OpenStreetMap data without have to worry about conflict with other people because you are working in the same area. Beside for edit OpenStreetMap data, you can also validate using the tasking manager, so you and the others can do validation together at the same time.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Java OpenStreetMap (JOSM)</title>
+      <link>/en/pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/</guid>
+      <description>Objectives:
+ Understand how to download JOSM installation file Able to install JOSM Able to change JOSM settings Understand JOSM interface  Java OpenStreetMap (JOSM) is a OpenStreetMap desktop-based editor. JOSM allows you to edit the mapping data in offline mode for some time, so you don’t always need to connect to the internet. It will certainly make it easier for everyone who works within limited internet connections. You only need an internet connection when downloading data from OpenStreetMap and when uploading data to OpenStreetMap server.</description>
+    </item>
+    
+    <item>
       <title>Using the OpenMapKit Application</title>
       <link>/en/pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -125,6 +185,16 @@ I. Export Tool Concept The Export Tool is an open service that creates customize
     </item>
     
     <item>
+      <title>Using Java OpenStreetMap (JOSM)</title>
+      <link>/en/pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/</guid>
+      <description>Objective:
+ Understanding how to use basic tools in JOSM Able to operate advance editing in JOSM Understanding editing tips in JOSM Understanding how to draw special objects such as bridge, school, and road networks  Java OpenStreetMap or commonly called JOSM is a desktop-based editor for OpenStreetMap. JOSM allows you to edit OSM data offline for a while or not always connect to the internet. If in the previous module you learned about operating JOSM, then in this module you will learn how to use JOSM.</description>
+    </item>
+    
+    <item>
       <title>Using OSMTrackers</title>
       <link>/en/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -134,7 +204,7 @@ I. Export Tool Concept The Export Tool is an open service that creates customize
  Explain OSMTracker as one of survey tools for recording tracks and photos
  How to set up the OSMTracker for the first time
  Learn how to use OSMTracker
-  1. What is OSMTracker? OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoint and also track. If you want to learn more about GPS for field survey, you can see the GPS Module.</description>
+  I. What is OSMTracker? OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoint and also track. If you want to learn more about GPS for field survey, you can see the GPS Module.</description>
     </item>
     
     <item>
@@ -168,6 +238,16 @@ I. Export Tool Concept The Export Tool is an open service that creates customize
     </item>
     
     <item>
+      <title>Using GPS</title>
+      <link>/en/pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/</guid>
+      <description>Objectives:
+ Understand parts of GPS Understand how to turn on GPS Understand how to use GPS Understand definition of track and waypoint in GPS Understand how to turn on track in GPS Understand how to save waypoint in GPS Understand how to copy track and waypoint to computer  When doing a field survey, a navigation tool that has a function to record track and point is needed. Global Positioning Syste or GPS is frequently used tool.</description>
+    </item>
+    
+    <item>
       <title>Upload survey form to ona.io</title>
       <link>/en/pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -198,6 +278,36 @@ I. Export Tool Concept The Export Tool is an open service that creates customize
     </item>
     
     <item>
+      <title>Using Filter on JOSM</title>
+      <link>/en/pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/</guid>
+      <description>Objectives:
+ To be able to activate data filtering mode on JOSM To be able to operate a data filtering tool on JOSM  JOSM has many tools that can be used by the user to make mapping things easier, like a filter tool. Filter tool is an additional tool that allows you to select or shown only certain objects on JOSM based on key and value on OpenStreetMap. With these tools, you can edit or check specific data on OSM.</description>
+    </item>
+    
+    <item>
+      <title>Creating MBTiles for OpenMapKit (OMK)</title>
+      <link>/en/pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/</guid>
+      <description>Objectives:
+ To be able to understand the concept of MBTiles To be able to create MBTiles using Export Tool To be able to create MBTiles using Plugin QTiles To be able to add file MBTiles into OMK in smartphone  When you use the OpenMapKit (OMK) application to conduct field surveys, sometimes you will have difficulty in determining objects in the application. It may happen because the background map is not yet mapped in OpenStreetMap and you do not have time to digitize objects in the survey area.</description>
+    </item>
+    
+    <item>
+      <title>Using buildings tools on JOSM</title>
+      <link>/en/pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/</guid>
+      <description>Objectives:
+ To be able to install plugin for drawing buildings To be able to use JOSM plugin to draw buildings  When you map using JOSM without conducting field survey, the information mapped on OSM will be very limited since you only use satellite imagery as reference. One of the objects that can be mapped using satellite imagery as reference is building. However, you won’t be able to figure out the specific function of the mapped buildings unless the building has a unique shape such as an L-shaped or a U-shaped school building.</description>
+    </item>
+    
+    <item>
       <title>Creating the Administrative Boundaries in JOSM</title>
       <link>/en/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -218,6 +328,16 @@ I. Export Tool Concept The Export Tool is an open service that creates customize
     </item>
     
     <item>
+      <title>Converting Shapefile Data to GeoJSON</title>
+      <link>/en/pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/</guid>
+      <description>Objectives:
+ To be able to understand the definition of GeoJSON data To be able to convert shapefile to GeoJSON with QGIS To be able to download GeoJSON from Overpass Turbo To be able to convert shapefile to GeoJSON using GeoData Converter  If you do not have an educational background in geography or you are not too familiar with Geographic Information Systems (GIS), then this GeoJSON format may sound familiar to you.</description>
+    </item>
+    
+    <item>
       <title>Resolving Conflict on OpenStreetMap Data (OSM)</title>
       <link>/en/pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -228,7 +348,7 @@ I. Export Tool Concept The Export Tool is an open service that creates customize
     </item>
     
     <item>
-      <title>Membuat dan Mengelola Map Campaigner untuk Pemetaan</title>
+      <title>Using Map Campaigner to Manage Mapping Campaign</title>
       <link>/en/pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Panduan Pemetaan Lapangan untuk Manajer Proyek on HOT-PDC Training Site</title>
+    <title>Field Mapping Project Guide for Project Manager on HOT-PDC Training Site</title>
     <link>/en/pages/06-osm-field-survey-manager-guidelines/</link>
-    <description>Recent content in Panduan Pemetaan Lapangan untuk Manajer Proyek on HOT-PDC Training Site</description>
+    <description>Recent content in Field Mapping Project Guide for Project Manager on HOT-PDC Training Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -12,10 +12,10 @@
     
     <item>
       <title>The Mapping Methodology with OpenStreetMap</title>
-      <link>/en/pages/06-osm-field-survey-manager-guidelines/01_metodologi_kerangka_kerja_pemetaan/01_metodologi_kerangka_kerja_pemetaan/</link>
+      <link>/en/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en/pages/06-osm-field-survey-manager-guidelines/01_metodologi_kerangka_kerja_pemetaan/01_metodologi_kerangka_kerja_pemetaan/</guid>
+      <guid>/en/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/</guid>
       <description>Objectives:
  To be able to explain how to create a timeline for mapping activity To be able to explain how to create a folder for each team mapping To be able to explain how to divide the survey area based on the administrative boundary To be able to explain how to create team mapping effectively  Planning a mapping project requires an appropriate and efficient survey methodology to achieve the target and purpose.</description>
     </item>
@@ -28,6 +28,16 @@
       <guid>/en/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/</guid>
       <description>Objectives:
  Understanding Concept of tag, key, dan value in OpenStreetMap Knowing OpenStreetMap wiki page as a guideline for key and value Understanding Objects which can be mapped into OpenStreetMap Knowing and Understanding data model as a part of mapping preparation plan Checking specific key and value in TagInfo website  In this module, you will learn about key and value concept in OpenStreetMap (OSM) as well as data model in OSM objects.</description>
+    </item>
+    
+    <item>
+      <title>Creating Presets</title>
+      <link>/en/pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/</guid>
+      <description>Objectives:
+ To be able to comprehend presets concept on OpenStreetMap To be able to comprehend XML format to create presets on OpenStreetMap To be able to create a customized presets on OpenStreetMap To be able to comprehend presets elements  As explained before, OpenStreetMap is a free, open, participatory map of the whole world. This means that the use of OpenStreetMap can be very distinctive. The more distinct the mapping objectives are, the more diverse the information are.</description>
     </item>
     
     <item>
@@ -71,6 +81,16 @@
     </item>
     
     <item>
+      <title>Creating MBTiles for OpenMapKit (OMK)</title>
+      <link>/en/pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/</guid>
+      <description>Objectives:
+ To be able to understand the concept of MBTiles To be able to create MBTiles using Export Tool To be able to create MBTiles using Plugin QTiles To be able to add file MBTiles into OMK in smartphone  When you use the OpenMapKit (OMK) application to conduct field surveys, sometimes you will have difficulty in determining objects in the application. It may happen because the background map is not yet mapped in OpenStreetMap and you do not have time to digitize objects in the survey area.</description>
+    </item>
+    
+    <item>
       <title>Group Stats Plugin for Calculate The Objects</title>
       <link>/en/pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -78,6 +98,16 @@
       <guid>/en/pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/</guid>
       <description>Objectives:
  To be able to demonstrate how to install a plugin for calculate number of object in QGIS To be able to operate the Group Stats plugin for calculate number of OSM Object  The calculation of the quantity of data can be an indicator of the achievement of mapping projects that can be poured into a mapping report. The process of calculating the quantity of OSM data can be done by installing the plugin group stats in QGIS for free, this plugin can use to count the number of objects based on categories.</description>
+    </item>
+    
+    <item>
+      <title>Converting Shapefile Data to GeoJSON</title>
+      <link>/en/pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/</guid>
+      <description>Objectives:
+ To be able to understand the definition of GeoJSON data To be able to convert shapefile to GeoJSON with QGIS To be able to download GeoJSON from Overpass Turbo To be able to convert shapefile to GeoJSON using GeoData Converter  If you do not have an educational background in geography or you are not too familiar with Geographic Information Systems (GIS), then this GeoJSON format may sound familiar to you.</description>
     </item>
     
   </channel>

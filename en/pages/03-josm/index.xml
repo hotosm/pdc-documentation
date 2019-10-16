@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>Introduction to OpenStreetMap</title>
+      <link>/en/pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/</guid>
+      <description>Objectives:
+ To be able to explain what OpenStreetMap is To be able to explain the history of OpenStreetMap To be able to explain the benefits of using OpenStreetMap To be able to explain the use of OpenStreetMap To be able to explain the basic concept of map and OpenStreetMap  Nowadays a lot of people use digital map, but only a few use open source digital map. Open source digital map is totally free and editable.</description>
+    </item>
+    
+    <item>
       <title>Getting started with OpenStreetMap</title>
       <link>/en/pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -18,6 +28,26 @@
       <guid>/en/pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/</guid>
       <description>Objective:
  To be able to operate and navigate the OpenStreetMap website To be able to see object information in OpenStreetMap To be able to create share link in OpenStreetMap To be able to save images from OpenStreetMap To be able to create user account in OpenStreetMap To be able to understand the basic concept of attribute in OpenStreetMap To be able to understand history in OpenStreetMap  After you understand the basic of OpenStreetMap in the previous module, you can immediately start using OpenStreetMap.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Java OpenStreetMap (JOSM)</title>
+      <link>/en/pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/</guid>
+      <description>Objectives:
+ Understand how to download JOSM installation file Able to install JOSM Able to change JOSM settings Understand JOSM interface  Java OpenStreetMap (JOSM) is a OpenStreetMap desktop-based editor. JOSM allows you to edit the mapping data in offline mode for some time, so you don’t always need to connect to the internet. It will certainly make it easier for everyone who works within limited internet connections. You only need an internet connection when downloading data from OpenStreetMap and when uploading data to OpenStreetMap server.</description>
+    </item>
+    
+    <item>
+      <title>Using Java OpenStreetMap (JOSM)</title>
+      <link>/en/pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/</guid>
+      <description>Objective:
+ Understanding how to use basic tools in JOSM Able to operate advance editing in JOSM Understanding editing tips in JOSM Understanding how to draw special objects such as bridge, school, and road networks  Java OpenStreetMap or commonly called JOSM is a desktop-based editor for OpenStreetMap. JOSM allows you to edit OSM data offline for a while or not always connect to the internet. If in the previous module you learned about operating JOSM, then in this module you will learn how to use JOSM.</description>
     </item>
     
     <item>
@@ -38,6 +68,26 @@
       <guid>/en/pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/</guid>
       <description>Objectives:
  To be able to do plugin installation to input data in JOSM To be able to operate to-do list plugin in JOSM to input the data  After conducting a survey using the OpenMapKit (OMK) application, the next step you need to do is to input survey data as points in OpenStreetMap using JOSM. To make it easier for you to do that, you need to install JOSM plugin named Todo list plugin.</description>
+    </item>
+    
+    <item>
+      <title>Using Filter on JOSM</title>
+      <link>/en/pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/</guid>
+      <description>Objectives:
+ To be able to activate data filtering mode on JOSM To be able to operate a data filtering tool on JOSM  JOSM has many tools that can be used by the user to make mapping things easier, like a filter tool. Filter tool is an additional tool that allows you to select or shown only certain objects on JOSM based on key and value on OpenStreetMap. With these tools, you can edit or check specific data on OSM.</description>
+    </item>
+    
+    <item>
+      <title>Using buildings tools on JOSM</title>
+      <link>/en/pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/</guid>
+      <description>Objectives:
+ To be able to install plugin for drawing buildings To be able to use JOSM plugin to draw buildings  When you map using JOSM without conducting field survey, the information mapped on OSM will be very limited since you only use satellite imagery as reference. One of the objects that can be mapped using satellite imagery as reference is building. However, you won’t be able to figure out the specific function of the mapped buildings unless the building has a unique shape such as an L-shaped or a U-shaped school building.</description>
     </item>
     
     <item>

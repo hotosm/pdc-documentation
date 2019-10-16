@@ -1,0 +1,610 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOT-PDC Training Site</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../../../../../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../../../favicon-16x16.png">
+<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+
+
+
+<link rel="stylesheet" href="../../../../../normalize.min.css">
+
+<link rel="stylesheet" href="../../../../../book.min.b0e8214cbf05079a2aba369158e0410c2515a8def4c0b44254eefada553ab758.css">
+
+<!--
+Made with Book Theme
+https://github.com/hotosm/hugo-book
+-->
+  
+</head>
+
+<body>
+  <header class="header-nav" id="nav">
+    <div class="nav-container">
+      <a class="nav-title with-logo" href="//en">
+        <img class="logo" src="../../../../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
+        <span>HOT-PDC Training Site</span>
+      </a>
+      <a class="nav-guide-link guide-active" href="../../../../../en/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/" >Guide</a>
+      <div class="hr-v"></div>
+      <a class="nav-pdf-download" 
+      
+      href="../../../../../pdfs/en/HOT-PDC_Training_Site.pdf">
+      
+      Download PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+      </a>
+      <input type="checkbox" style="display: none" id="menu-control" />      
+    </div>
+    <div class="nav-right">
+    
+    
+    
+    <div> <label for="search"></label> <input type="text" name="search" class="search-input" placeholder="Search…"></div>
+    <div class="search-results">
+      <ul class="results-list"></ul>
+    </div>
+    
+    
+
+    
+    <div class="hr-v"></div>
+    <div class="language">
+      <button class="language-btn">Language: en</button>
+      <div class="language-dropdown">
+        
+          
+          
+          <a href="../../../../../">Indonesia</a>
+          
+         
+          
+            <a href="../../../../../en">English</a>
+          
+         
+      </div>
+    </div>
+    
+
+    <div class="language-select"></div>
+    <div class="languages">
+    </div>
+    
+    <div class="hr-v"></div>
+    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../../../svg/icon-external-red.svg" alt=""></a>
+    </div>
+  </header>
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+
+
+
+
+<a href="//en" >Introduction</a>  
+
+    
+
+
+  
+  
+    
+  
+ 
+  
+  <ul>
+    
+    <li>
+    
+    OpenStreetMap Guide for Surveyor 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/">
+    Data Collection Methodology</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/">
+    Using ODK Collect</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/">
+    Using the OpenMapKit Application</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/">
+    Using OSMTrackers</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/">
+    Using GPS</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    HOT Tasking Manager 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../../en/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/">
+    Creating and Managing Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/">
+    Using Tasking Manager</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    JOSM 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/" class="active">
+    Introduction to OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/">
+    Getting started with OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/">
+    Introduction to Java OpenStreetMap (JOSM)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/">
+    Using Java OpenStreetMap (JOSM)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/">
+    Adding Survey Data into OSM Using JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/">
+    Using To-Do List in JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/">
+    Using Filter on JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/">
+    Using buildings tools on JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/">
+    Creating the Administrative Boundaries in JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/">
+    Resolving Conflict on OpenStreetMap Data (OSM)</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Data Validation and Quality Assurance 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/">
+    Quality Assurance Concept</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/josm-for-validating-survey-data/">
+    JOSM for Validating Survey Data</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/">
+    Data Quality Assurance with Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/">
+    JOSM for Data Quality</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Using HOT Export 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../../en/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/">
+    Download OSM Data using Export Tool</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Field Mapping Project Guide for Project Manager 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/">
+    The Mapping Methodology with OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/">
+    OpenStreetMap Data Model</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/">
+    Creating Presets</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04-penggunaan-yaml-pada-export-tool/">
+    Using YAML</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/">
+    Creating survey form for ODK Collect &amp; OpenMapKit</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/">
+    Upload survey form to ona.io</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07-pembuatan-peta-survey-dengan-qgis/">
+    Creating Field Maps using QGIS</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/">
+    Creating MBTiles for OpenMapKit (OMK)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/">
+    Group Stats Plugin for Calculate The Objects</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/">
+    Converting Shapefile Data to GeoJSON</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Using Map Campaigner 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../../en/pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/">
+    Using Map Campaigner to Manage Mapping Campaign</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    OpenStreetMap Data Integration to InAWARE 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../../en/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/">
+    OpenStreetMap Data Integration to InAWARE</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+    <li>
+      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/">
+    
+    OpenStreetMap Guide for Surveyor</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/02-hot-tasking-manager/">
+    
+    HOT Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/">
+    
+    JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/">
+    
+    Data Validation and Quality Assurance</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/05-hot-export/">
+    
+    Using HOT Export</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/">
+    
+    Field Mapping Project Guide for Project Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/07-map-campaigner/">
+    
+    Using Map Campaigner</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/08-osm-data-integration-to-inaware/">
+    
+    OpenStreetMap Data Integration to InAWARE</a>
+    </li>
+    
+  </ul>
+
+
+
+
+
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="../../../../../svg/menu.svg" />
+  </label>
+  <strong>
+    Introduction to OpenStreetMap</strong>
+</header>
+
+      
+<article class="markdown">
+  <div class="markdown__header">  <h1>Introduction to OpenStreetMap</h1>
+    <a 
+    
+    href="../../../../../pdfs/en/01_Pengenalan_OSM.pdf"
+    
+    class="pdf-download-link"> Download page as PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+    </a>
+  </div>
+
+<p><strong>Objectives:</strong></p>
+
+<ul>
+<li>To be able to explain what OpenStreetMap is</li>
+<li>To be able to explain the history of OpenStreetMap</li>
+<li>To be able to explain the benefits of using OpenStreetMap</li>
+<li>To be able to explain the use of OpenStreetMap</li>
+<li>To be able to explain the basic concept of map and OpenStreetMap</li>
+</ul>
+
+<p>Nowadays a lot of people use digital map, but only a few use open source digital map. Open source digital map is totally free and editable. One of open source digital maps is OpenStreetMap. In this module, you will learn all about OpenStreetMap.</p>
+
+<h2 id="i-what-is-openstreetmap"><strong>I. What is OpenStreetMap?</strong></h2>
+
+<p>OpenStreetMap or OSM is a free, open and editable digital map of the whole world. Since OpenStreetMap is a digital map, anyone can access it anywhere freely. OpenStreetMap data is licensed under <a href="https://opendatacommons.org/licenses/odbl/">ODbL</a>, whereas the cartography of the map tiles is under <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>. This enables its user to  copy, distribute, transmit and adapt OpenStreetMap data, as long as credit given to OpenStreetMap and its contributors by citing “<strong>© OpenStreetMap contributors</strong>”. Sharing data is very useful especially for unreachable data. Using OpenStreetMap, you can share spatial data where the data created by other users and other users can also use the data you created. OpenStreetMap also enables its users to create a new product made from OpenStreetMap data and also enables users to modify the data.</p>
+
+<p><img src="../../../../../en/images/03-JOSM/01-Pengenalan-OSM/0101_logo_osm.png" alt="OpenStreetMap Logo" />
+<p align="center"><i>OpenStreetMap Logo</i></p></p>
+
+<h2 id="ii-openstreetmap-history"><strong>II. OpenStreetMap History</strong></h2>
+
+<p>OpenStreetMap is founded by Steve Coast in 2004. Steve initially focused on mapping UK since spatial data from Ordnance Survey is not distributed widely and freely. Then Steve and some other people founded OpenStreetMap so that all the people in the world could create a digital map for their communities and store it in a common database. In 2006, OpenStreetMap becomes a registered UK nonprofit organization. In 2007, OpenStreetMap’s first annual conference called “State of the Map” is held in Manchester. In 2008, 20 million ways representing everything from roads to streams to hedges were mapped in OpenStreetMap.</p>
+
+<p>In 2009, OpenStreetMap volunteers put Kibera, the second largest slum in Africa, in OpenStreetMap. In 2010, Bing satellite imagery can be used for OpenStreetMap mapping reference. In 2011, one billion nodes representing everything from intersections to trees were mapped in OpenStreetMap. 2011 is also the year when OpenStreetMap was first introduced in Indonesia. In 2012, ODbL applied to OpenStreetMap which enables OpenStreetMap users to share or to adapt OpenStreetMap data. In 2013, OpenStreetMap users reached one million. Up until now, OpenStreetMap has more than five millions registered users around the globe.</p>
+
+<p><img src="../../../../../en/images/03-JOSM/01-Pengenalan-OSM/0102_alur_sejarah.png" alt="OpenStreetMap History" />
+<p align="center"><i>OpenStreetMap History</i></p></p>
+
+<h2 id="iii-why-openstreetmap"><strong>III. Why OpenStreetMap?</strong></h2>
+
+<p>The reasons why OpenStreetMap is the best choice:</p>
+
+<ul>
+<li>OpenStreetMap is free and open so you won’t be charged anything to use it. A lot of spatial data providers charge a great amount of money to obtain spatial data from them. OpenStreetMap can be your alternative free of charge source. With OpenStreetMap, you do not need to depend on government agency/institution or other spatial data providers to obtain spatial data.</li>
+<li>OpenStreetMap data is richer and more update. This is possible because every OpenStreetMap user can add, edit or delete OpenStreetMap data anywhere anytime. For example, there is a restaurant that is no longer exists, but it is still mapped on OpenStreetMap. You, as an OpenStreetMap user, can easily delete the restaurant mapped on OpenStreetMap since it is no longer exists. In some big cities, the OpenStreetMap data tends to be richer than remote small cities because there is no users mapping it. So, data availability and data update depend on OpenStreetMap users.</li>
+<li>OpenStreetMap comes in handy. OpenStreetMap provides a lot of tutorials for new users. OpenStreetMap’s user friendly interface makes mapping experience easy even for those who do not have geography/mapping background.</li>
+<li>OpenStreetMap map can be modified as needed. All OpenStreetMap data can be used and modified for your needs. For example, you want to make a tourist objects map in your area, you can download OpenStreetMap data and make a tourist objects map out of it.</li>
+</ul>
+
+<h2 id="iv-the-use-of-openstreetmap"><strong>IV. The Use of OpenStreetMap</strong></h2>
+
+<p>There are so many examples of the use of OpenStreetMap. You can complete the information of the map and create a map of a familiar area. You can make a detailed map since every user is able to do survey individually on the targeted area. Here is one example of Bodeh Hamlet map in Yogyakarta made by one of OpenStreetMap users who lives there.</p>
+
+<p><img src="../../../../../en/images/03-JOSM/01-Pengenalan-OSM/0103_contoh_peta.png" alt="Map made in OpenStreetMap" />
+<p align="center"><i>Map made in OpenStreetMap</i></p></p>
+
+<p>OpenStreetMap data is also used by one of Android Developers to make an offline map and navigation mobile app called <a href="http://maps.me/">Maps.me</a>. This app uses OpenStreetMap data which should be downloaded first then the OpenStreetMap data can be used offline for navigation.</p>
+
+<p><img src="../../../../../en/images/03-JOSM/01-Pengenalan-OSM/0104_maps_me.png" alt="Maps.me" />
+<p align="center"><i>Maps.me</i></p></p>
+
+<p>OpenStreetMap can also be used to make a disaster-related map. OpenStreetMap is often used as tools to map disaster area then the data will be used for damage assessment. OpenStreetMap is often used mapping platform for disaster response since OpenStreetMap really suits for participatory mapping. OpenStreetMap data can be used for evacuation route planning as well as evacuation center, but OpenStreetMap data should be processed first using GIS software.</p>
+
+<h2 id="v-the-basic-concept-of-map-and-openstreetmap"><strong>V. The Basic Concept of Map and OpenStreetMap</strong></h2>
+
+<ol>
+<li><p><strong>Paper Map Concept</strong></p>
+
+<p>Map is an effective tool to deliver information. Map can represent information better than words especially information regarding location. Answering several questions will be more effective by map visualization, such as “Where is elementary school 01 located?” or “Where is the nearest hospital?”. When this kind of questions come up, it is easier to answer it by drawing it in a piece of paper as a paper map. Roads usually drawn as lines and buildings usually drawn as a rectangle. However, different people may have different drawing style depends on who draws the map.</p></li>
+
+<li><p><strong>Why Digital Map?</strong></p>
+
+<p>Paper map is really hard to share since may be it is the only copy you have, or if there are more than one copy, other people may not be able to interpret what the creator means since not everyone has the same drawing sense. Paper map is also easily damaged by water and needs special storage so that the map is not damaged or lost. This is why map is better stored in a digital form so that people can easily access it. Using computer, map data can be easily understood, stored and shared. Digital map enables you to do map symbology as desired. Digital map makes adding unlimited information to the mapped objects possible. It’s different with paper map, you can only put a limited number of information since paper map has a very limited space. Most importantly, when mapping using computer, the mapped objects will have coordinates (latitude and longitude), locating precisely where the objects are on earth.</p></li>
+
+<li><p><strong>Digital Map Component</strong></p>
+
+<p>The objects that you map will be represented by point/node, line/way or polygon, depends on the object’s type. Point of interests such as restaurant, fire hydrant and bank are usually represented by point/node. Line/way is usually used to represent linear objects such as roads, river and railway. Line/way is actually an ordered list of nodes that connect to each other. Polygon is used to represent area such as building, lake or land use. Polygon is a closed way whose last node is also the first node.</p></li>
+</ol>
+
+<p><img src="../../../../../en/images/03-JOSM/01-Pengenalan-OSM/0105_simbol_titik.png" alt="Point symbology for point object on OpenStreetMap" />
+<p align="center"><i>Point symbology for point object on OpenStreetMap</i></p></p>
+
+<p><img src="../../../../../en/images/03-JOSM/01-Pengenalan-OSM/0106_simbol_garis.png" alt="Line symbology for point object on OpenStreetMap" />
+<p align="center"><i>Line symbology for line object on OpenStreetMap</i></p></p>
+
+<p><img src="../../../../../en/images/03-JOSM/01-Pengenalan-OSM/0107_simbol_poligon.png" alt="Polygon symbology for point object on OpenStreetMap" />
+<p align="center"><i>Polygon symbology for polygon object on OpenStreetMap</i></p></p>
+
+<p><strong>SUMMARY</strong></p>
+
+<p>If you can comprehend and follow through all the explanation above, then you are able to explain what OpenStreetMap is, explain OpenStreetMap history and explain the benefits of using OpenStreetMap. You are also able to explain the use of OpenStreetMap and explain the basic concept of map and OpenStreetMap.</p>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+    
+  <div>
+    <a href="https://github.com/hotosm/pdc-documentation/edit/master/content/pages/03-JOSM/01-Pengenalan-OSM/01_Pengenalan_OSM.md" target="_blank" rel="noopener">
+       Edit this page on GitHub
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/hotosm/pdc-documentation/commit/222dae640cc159c5c4d52198bf10e9906ac2771f" title='Last modified October 9, 2019 09:52 UTC by Adityo Dwijananto' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Oct 9, 2019
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    
+      
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#i-what-is-openstreetmap"><strong>I. What is OpenStreetMap?</strong></a></li>
+<li><a href="#ii-openstreetmap-history"><strong>II. OpenStreetMap History</strong></a></li>
+<li><a href="#iii-why-openstreetmap"><strong>III. Why OpenStreetMap?</strong></a></li>
+<li><a href="#iv-the-use-of-openstreetmap"><strong>IV. The Use of OpenStreetMap</strong></a></li>
+<li><a href="#v-the-basic-concept-of-map-and-openstreetmap"><strong>V. The Basic Concept of Map and OpenStreetMap</strong></a></li>
+</ul></li>
+</ul>
+</nav>
+    
+  </aside>
+
+
+
+  </main>
+
+  
+  
+  <footer class="footer">
+
+    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
+    <a href="https://github.com/hotosm/pdc-documentation" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+    </svg></a>
+    
+
+  </footer>
+  
+  <script src="../../../../../js/search.js"></script>
+  
+
+  
+</body>
+
+</html>

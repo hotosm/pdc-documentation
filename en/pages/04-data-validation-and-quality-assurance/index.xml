@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Validasi Data dan Penjaminan Kualitas on HOT-PDC Training Site</title>
+    <title>Data Validation and Quality Assurance on HOT-PDC Training Site</title>
     <link>/en/pages/04-data-validation-and-quality-assurance/</link>
-    <description>Recent content in Validasi Data dan Penjaminan Kualitas on HOT-PDC Training Site</description>
+    <description>Recent content in Data Validation and Quality Assurance on HOT-PDC Training Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -18,6 +18,26 @@
       <guid>/en/pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/</guid>
       <description>Learning Objectives:
  Understanding the definition of quality assurance Understanding the meaning of data quality assurance in OpenStreetMap  OpenStreetMap (OSM) is a free and open source map. OSM has a lot of data and information about various types of objects that exist on the surface of the earth. The data is collected and entered by OSM users spread all over the world. The variety of data entered and collected by OSM users often results in the quality of the data being different from one another and the lack of understanding of OSM users regarding data quality also affects the results of data available in OSM.</description>
+    </item>
+    
+    <item>
+      <title>JOSM for Validating Survey Data</title>
+      <link>/en/pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/josm-for-validating-survey-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/josm-for-validating-survey-data/</guid>
+      <description>Objectives:
+ To do initial checking on field survey data using JOSM To do a quality assurance on field survey data using JOSM To understand the type of error and warning on JOSM  JOSM is a software that has a function to do mapping and editing in OpenStreetMap. Why JOSM? Because JOSM has many functions to support your mapping and editing in OpenStreetMap. One of the features is its capability of doing data validation.</description>
+    </item>
+    
+    <item>
+      <title>Data Quality Assurance with Tasking Manager</title>
+      <link>/en/pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/</guid>
+      <description>Objective:
+ Understand data quality assurance by using tasking manager  Previously you have edited OpenStreetMap data using tasking manager. Tasking manager make you easier to edit OpenStreetMap data without have to worry about conflict with other people because you are working in the same area. Beside for edit OpenStreetMap data, you can also validate using the tasking manager, so you and the others can do validation together at the same time.</description>
     </item>
     
     <item>

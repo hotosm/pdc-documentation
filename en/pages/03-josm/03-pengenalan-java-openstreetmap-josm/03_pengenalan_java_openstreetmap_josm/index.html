@@ -1,0 +1,806 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOT-PDC Training Site</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../../../../../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../../../favicon-16x16.png">
+<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+
+
+
+<link rel="stylesheet" href="../../../../../normalize.min.css">
+
+<link rel="stylesheet" href="../../../../../book.min.b0e8214cbf05079a2aba369158e0410c2515a8def4c0b44254eefada553ab758.css">
+
+<!--
+Made with Book Theme
+https://github.com/hotosm/hugo-book
+-->
+  
+</head>
+
+<body>
+  <header class="header-nav" id="nav">
+    <div class="nav-container">
+      <a class="nav-title with-logo" href="//en">
+        <img class="logo" src="../../../../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
+        <span>HOT-PDC Training Site</span>
+      </a>
+      <a class="nav-guide-link guide-active" href="../../../../../en/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/" >Guide</a>
+      <div class="hr-v"></div>
+      <a class="nav-pdf-download" 
+      
+      href="../../../../../pdfs/en/HOT-PDC_Training_Site.pdf">
+      
+      Download PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+      </a>
+      <input type="checkbox" style="display: none" id="menu-control" />      
+    </div>
+    <div class="nav-right">
+    
+    
+    
+    <div> <label for="search"></label> <input type="text" name="search" class="search-input" placeholder="Search…"></div>
+    <div class="search-results">
+      <ul class="results-list"></ul>
+    </div>
+    
+    
+
+    
+    <div class="hr-v"></div>
+    <div class="language">
+      <button class="language-btn">Language: en</button>
+      <div class="language-dropdown">
+        
+          
+          
+          <a href="../../../../../">Indonesia</a>
+          
+         
+          
+            <a href="../../../../../en">English</a>
+          
+         
+      </div>
+    </div>
+    
+
+    <div class="language-select"></div>
+    <div class="languages">
+    </div>
+    
+    <div class="hr-v"></div>
+    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../../../svg/icon-external-red.svg" alt=""></a>
+    </div>
+  </header>
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+
+
+
+
+<a href="//en" >Introduction</a>  
+
+    
+
+
+  
+  
+    
+  
+ 
+  
+  <ul>
+    
+    <li>
+    
+    OpenStreetMap Guide for Surveyor 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/">
+    Data Collection Methodology</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/">
+    Using ODK Collect</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/">
+    Using the OpenMapKit Application</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/">
+    Using OSMTrackers</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/">
+    Using GPS</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    HOT Tasking Manager 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../../en/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/">
+    Creating and Managing Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/">
+    Using Tasking Manager</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    JOSM 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/">
+    Introduction to OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/">
+    Getting started with OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/" class="active">
+    Introduction to Java OpenStreetMap (JOSM)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/">
+    Using Java OpenStreetMap (JOSM)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/">
+    Adding Survey Data into OSM Using JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/">
+    Using To-Do List in JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/">
+    Using Filter on JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/">
+    Using buildings tools on JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/">
+    Creating the Administrative Boundaries in JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/">
+    Resolving Conflict on OpenStreetMap Data (OSM)</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Data Validation and Quality Assurance 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/">
+    Quality Assurance Concept</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/josm-for-validating-survey-data/">
+    JOSM for Validating Survey Data</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/">
+    Data Quality Assurance with Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/">
+    JOSM for Data Quality</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Using HOT Export 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../../en/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/">
+    Download OSM Data using Export Tool</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Field Mapping Project Guide for Project Manager 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/">
+    The Mapping Methodology with OpenStreetMap</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/">
+    OpenStreetMap Data Model</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/">
+    Creating Presets</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04-penggunaan-yaml-pada-export-tool/">
+    Using YAML</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/">
+    Creating survey form for ODK Collect &amp; OpenMapKit</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/">
+    Upload survey form to ona.io</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07-pembuatan-peta-survey-dengan-qgis/">
+    Creating Field Maps using QGIS</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/">
+    Creating MBTiles for OpenMapKit (OMK)</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/">
+    Group Stats Plugin for Calculate The Objects</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/">
+    Converting Shapefile Data to GeoJSON</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    Using Map Campaigner 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../../en/pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/">
+    Using Map Campaigner to Manage Mapping Campaign</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+    <li>
+    
+    OpenStreetMap Data Integration to InAWARE 
+  
+  <ul>
+    
+
+    
+    <li>
+      <a href="../../../../../en/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/">
+    OpenStreetMap Data Integration to InAWARE</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+    <li>
+      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/">
+    
+    OpenStreetMap Guide for Surveyor</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/02-hot-tasking-manager/">
+    
+    HOT Tasking Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/03-josm/">
+    
+    JOSM</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/">
+    
+    Data Validation and Quality Assurance</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/05-hot-export/">
+    
+    Using HOT Export</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/">
+    
+    Field Mapping Project Guide for Project Manager</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/07-map-campaigner/">
+    
+    Using Map Campaigner</a>
+    </li>
+    
+    <li>
+      <a href="../../../../../en/pages/08-osm-data-integration-to-inaware/">
+    
+    OpenStreetMap Data Integration to InAWARE</a>
+    </li>
+    
+  </ul>
+
+
+
+
+
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="../../../../../svg/menu.svg" />
+  </label>
+  <strong>
+    Introduction to Java OpenStreetMap (JOSM)</strong>
+</header>
+
+      
+<article class="markdown">
+  <div class="markdown__header">  <h1>Introduction to Java OpenStreetMap (JOSM)</h1>
+    <a 
+    
+    href="../../../../../pdfs/en/03_Pengenalan_Java_OpenStreetMap_JOSM.pdf"
+    
+    class="pdf-download-link"> Download page as PDF &nbsp;
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
+        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
+          <polygon points="0 0 20 0 20 20 0 20"/>
+          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
+        </g>
+      </svg>
+    </a>
+  </div>
+
+<p><strong>Objectives:</strong></p>
+
+<ul>
+<li>Understand how to download JOSM installation file</li>
+<li>Able to install JOSM</li>
+<li>Able to change JOSM settings</li>
+<li>Understand JOSM interface</li>
+</ul>
+
+<p>Java OpenStreetMap (JOSM) is a OpenStreetMap desktop-based editor. JOSM allows you to edit the mapping data in offline mode for some time, so you don’t always need to connect to the internet. It will certainly make it easier for everyone who works within limited internet connections. You only need an internet connection when downloading data from OpenStreetMap and when uploading data to OpenStreetMap server. In addition, this module will also learn how to change some settings in JOSM so that later you can use it. You will also learn and understand the parts of the interface in JOSM. By understanding the part of JOSM, at the end of this module you will get an understanding and some basic settings in JOSM.</p>
+
+<h3 id="i-download-josm"><strong>I. Download JOSM</strong></h3>
+
+<p>If you have a copy of JOSM installation file on CD or flashdisk, you can go to next sub-module that is Installing JOSM. But if you don’t have JOSM installation or if you want to have the latest version of JOSM, please open your <strong>web browser</strong> (you can use Firefox, Chrome, Opera, or Internet Explorer). In the address column at the top of the window, then type <strong>josm.openstreetmap.de</strong> then press <strong>enter</strong>. You can also find the JOSM site by typing the search word &ldquo;JOSM&rdquo; on the search engine. The JOSM website will look like below.</p>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0301_Tampilan_situs_JOSM.png" alt="JOSM site" />
+<p align="center"><i>JOSM site</i></p></p>
+
+<p>Please choose the installation file based on your computer&rsquo;s operating system. If you are using a computer with operating Windows system operation, click <strong>Windows JOSM Installer</strong> to download JOSM. If you have another operating system, click on the link that matches your computer&rsquo;s operating system. Then you can download it. In this module we will assume you are using Windows, but the instructions are almost the same as other operating systems.</p>
+
+<h3 id="ii-installing-josm"><strong>II. Installing JOSM</strong></h3>
+
+<p>After you successfully download JOSM, now you will install JOSM on your computer or laptop. Here are the steps:</p>
+
+<ul>
+<li>Find JOSM installation file on your computer. Double-click on the file to start the installation. Then a window will appear &ldquo;Do you want to allow this app from an unknown publisher to make changes to your device?&rdquo;, then click <strong>Yes</strong>.</li>
+<li>Then a window will appear to choose the language. This module will only discuss JOSM in English. If the language has been selected, please click <strong>OK</strong>.
+
+<br /></li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0302_Tampilan_jendela_installer_language.png" alt="Installer language" />
+<p align="center"><i>Installer language</i></p></p>
+
+<ul>
+<li>The next window will appear about the JOSM Setup Wizard. Click <strong>Next</strong>.</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0303_Tampilan_JOSM_Setup_Wizard.png" alt="JOSM Setup Wizard" />
+<p align="center"><i>JOSM Setup Wizard</i></p></p>
+
+<ul>
+<li>License Agreement window will appear. Click <strong>I Agree</strong>.</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0304_Tampilan_jendela_License_Agreement.png" alt="License Agreement window" />
+<p align="center"><i>License Agreement window</i></p></p>
+
+<ul>
+<li>The window will appear <strong>Choose Components</strong>. Here you can choose whatever part of the JOSM you want to install. Then click <strong>Next</strong>.</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0305_Tampilan_jendela_choose_components.png" alt="Choose components window" />
+<p align="center"><i>Choose components window</i></p></p>
+
+<ul>
+<li>Next, the window will appear Choose Install Location. Here you can choose the folder where you want to install JOSM. Then click <strong>Install</strong>.</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0306_Tampilan_jendela_choose_install_location.png" alt="Choose install location window" />
+<p align="center"><i>Choose install location window</i></p></p>
+
+<ul>
+<li>When the installation is complete, click <strong>Finish</strong> to open JOSM for the first time. Then, when you want to start JOSM, you can do this by clicking on the Start Menu in the lower left corner of your computer, and clicking the JOSM program.</li>
+<li>When JOSM opens, it will look like this:</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0307_Tampilan_awal_JOSM.png" alt="JOSM display" />
+<p align="center"><i>JOSM display</i></p></p>
+
+<blockquote>
+<p><strong>Note:</strong>
+You may have problems installing JOSM if Java is not already installed on your computer. If you have problems when installing in this section, try downloading and installing Java. You candownloadit here: <a href="http://www.java.com/en/download/">http://www.java.com/en/download/</a>
+You may see a window appear when you open JOSM, asking to update the software. You don&rsquo;t need to update it because the one you just downloaded is new software. Press the &ldquo;Cancel&rdquo; button. If you don&rsquo;t want to see this message again, check the box below before pressing &ldquo;Cancel&rdquo;.
+JOSM in this module is version 14760. The display may be different if you use another version of JOSM. JOSM yang digunakan dalam modul ini versi 14760. Tampilan mungkin berbeda jika Anda menggunakan JOSM versi yang lain.</p>
+</blockquote>
+
+<h3 id="iii-changing-setting-in-josm"><strong>III. Changing Setting in JOSM</strong></h3>
+
+<p><strong>a. Changing Languages</strong></p>
+
+<p>There are so many setting that you can change in JOSM. One of them is the language.  JOSM has been translated into various languages, and you can choose the language you want. There are the steps to change the language in JOSM:</p>
+
+<ul>
+<li>Go to Preferences, click <strong>Edit</strong> → <strong>Preferences</strong>.</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0308_Menu_preferences_di_JOSM.png" alt="Preferences icon in JOSM" />
+<p align="center"><i>Preferences icon in JOSM</i></p></p>
+
+<ul>
+<li>On the left side, click <strong>Display Setting</strong> icon that looks like a can and paint brush.</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0309_Ikon_display_setting.png" alt="Display setting icon" />
+<p align="center"><i>Display setting icon</i></p></p>
+
+<ul>
+<li>At the top of the window, click the tab that says <strong>Look and Feel</strong>.</li>
+<li>Select the language you want in the list of choices that says <strong>Language</strong>. Click <strong>OK</strong> and then <strong>restart</strong> to change your JOSM language.</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0310_Tampilan_display_setting_untuk_mengganti_bahasa.png" alt="Display setting for change language" />
+<p align="center"><i>Display setting for change language</i></p></p>
+
+<p><strong>b. Setting Account</strong></p>
+
+<p>After changing the language, you must enter your OSM account name and password in JOSM. The aim is when you edit or add data on OSM map, the server will know that the edit was made by you. If you do not enter an account name, you can not upload the data that you have edited or added to the OSM map. There are the steps to enter your OSM account in JOSM:</p>
+
+<ul>
+<li>Go to Preferences window, click <strong>Edit</strong> → <strong>Preferences</strong>.</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0311_Ikon_preferences_di_JOSM.png" alt="Preferences icon in JOSM" />
+<p align="center"><i>Preferences icon in JOSM</i></p></p>
+
+<ul>
+<li>On the left side, click <strong>Connection Setting</strong> icon that looks like a globe.
+
+<br /></li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0312_Ikon_connection_setting.png" alt="Icon connection setting" />
+<p align="center"><i>Icon connection setting</i></p></p>
+
+<ul>
+<li>Select <strong>Authentication</strong> → <strong>Use Basic Autentication</strong>.</li>
+<li>Enter your OSM account name and password.</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0313_Tampilan_connection_setting_untuk_memasukkan_nama_akun_dan_kata_sandi.png" alt="Connection setting for enter you OSM account" />
+<p align="center"><i>Connection setting for enter you OSM account</i></p></p>
+
+<ul>
+<li>Click <strong>OK</strong> and <strong>restart</strong> your JOSM.</li>
+</ul>
+
+<p><strong>c. Adding Preset</strong></p>
+
+<p>Now you have entered your OSM account. Next is setting to put preset in JOSM. Preset are files that can provide information about objects that you mapped on OpenStreetMap. For more detailed explanation of preset and how to make preset, you can see them in <strong>Creating OpenStreetMap Preset</strong> module. There are the steps to put preset in JOSM:</p>
+
+<ul>
+<li>Go to Preferences window, click <strong>Edit</strong> → <strong>Preferences</strong>.</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0314_Menu_preferences_di_JOSM.png" alt="Preferences icon in JOSM" />
+<p align="center"><i>Preferences icon in JOSM</i></p></p>
+
+<ul>
+<li>On the left side, click <strong>Map Settings</strong> icon that looks like a grid or boxes.</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0315_Ikon_Map_Setting.png" alt="Map Setting icon" />
+<p align="center"><i>Map Setting icon</i></p></p>
+
+<ul>
+<li>Under Available Preset box search and select the preset named <strong>HOT PDC InAWARE Indonesian Project</strong>. Then click the blue arrow located to the right of the box.</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0316_Menambahkan_preset_di_JOSM.png" alt="Add Preset" />
+<p align="center"><i>Add Preset</i></p></p>
+
+<p>If you have your own file presets in your computer, you can add it by:</p>
+
+<ul>
+<li>Please click <strong>+</strong> sign next to the box active presets.</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0317_Tanda_+_untuk_menambahkan_preset_dari_komputer.png" alt="Plus (+) sign to add preset from computer" />
+<p align="center"><i>Plus (+) sign to add preset from computer</i></p></p>
+
+<ul>
+<li>Then click <strong>Open a File</strong> to search your presets file.</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0318_Ikon_Open_a_File.png" alt="Open a File icon" />
+<p align="center"><i>Open a File icon</i></p></p>
+
+<ul>
+<li>Click <strong>Open</strong> and then <strong>OK</strong>.</li>
+</ul>
+
+<p><strong>d. Adding Satellite Imagery</strong></p>
+
+<p>You will use satellite imagery when editing OSM maps. If your internet connection is stable when you open JOSM setting, then in section <strong><em>Edit → Preferences → Imagery Preferences</em></strong>, satellite images that are often used will automatically selected. If the internet connection has a trouble and when you see the imagery preferences section, there is no satellite image selected. You can try to restart JOSM and look again at imagery preferences section whether the satellite image has been selected or not. If still not selected, there are the steps to add imagery satellite in JOSM:</p>
+
+<ul>
+<li>Go to Preferences window, click <strong>Edit</strong> → <strong>Preferences</strong>.</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0319_Ikon_preferences_di_JOSM.png" alt="Preferences icon in JOSM" />
+<p align="center"><i>Preferences icon in JOSM</i></p></p>
+
+<ul>
+<li>On the left side, click <strong>Imagery Preferences</strong> icon or that reads <strong>WMS TMS</strong>.</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0320_Ikon_imagery_preferences.png" alt="Imagery preferences icon" />
+<p align="center"><i>Imagery preferences icon</i></p></p>
+
+<ul>
+<li>Then click the satellite image that you want to choose (for example Bing, Digital Globe, Mapbox, and Esri) in <strong>Available default entries box</strong>.</li>
+<li>Then click <strong>Activate</strong> button under Available default entries box.</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0321_Tombol_Activate.png" alt="Activate button" />
+<p align="center"><i>Activate button</i></p></p>
+
+<ul>
+<li>Then you will see satellite imagery that you have previously selected already in <strong>Selected Entries</strong> box as shown below. Then click <strong>OK</strong> and JOSM will request to restart.</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0322_Tampilan_citra_yang_sudah_dipilih.png" alt="Selected satellite imagery" />
+<p align="center"><i>Selected satellite imagery</i></p></p>
+
+<p><strong>e. Set Display Image of the Object</strong></p>
+
+<p>In the initial settings in JOSM, each OpenStreetMap object in JOSM does not show the points, labels, and icons like a picture shown below.</p>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0323_Contoh_tampilan_awal_JOSM_yang_pengaturannya_belum_diubah.png" alt="JOSM display example" />
+<p align="center"><i>JOSM display example</i></p></p>
+
+<p>To show the points, labels, and icons, you should change the map style in your JOSM. there are the steps:</p>
+
+<ul>
+<li>Click <strong>File → New Layer</strong> to bring up the windowl in JOSM.</li>
+<li>On the right side of the JOSM window, look at <strong>Map Paint Styles</strong> box.</li>
+<li>If there is no Map Paint Styles window in your JOSM, please click Windows menu on the top of your JOSM, then click Map Paint Styles to activate the Map Paint Styles window.
+
+<br /></li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0324_Tampilan_untuk_mengaktifkan_Map_Paint_Styles.png" alt="To activate Map Paint Styles" />
+<p align="center"><i>To activate Map Paint Styles</i></p></p>
+
+<ul>
+<li>After click, map paint styles window will shown on the right side of your JOSM.</li>
+<li>Right click on <strong>JOSM default (Map CSS)</strong> and choose Style Settings.</li>
+<li>Match it with the view below.</li>
+</ul>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0325_Pengaturan_Map_Paint_Styles_di_JOSM.png" alt="Map Paint Styles setting in JOSM" />
+<p align="center"><i>Map Paint Styles setting in JOSM</i></p></p>
+
+<p>If you already set all settings like steps before, the display of your JOSM image will show the points, labels, and icons for object in OpenStreetMap like the picture below:</p>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0326_Contoh_tampilan_awal_JOSM_yang_pengaturannya_sudah_diubah.png" alt="JOSM display after settings changed" />
+<p align="center"><i>JOSM display after settings changed</i></p></p>
+
+<h3 id="iv-josm-interface"><strong>IV. JOSM Interface</strong></h3>
+
+<p>Now you have set some settings in JOSM. To make it easier for you to do editing, you need to look at some important parts of JOSM. To see JOSM interface, click on the menu <strong><em>File → New Layer</em></strong>. There are some parts on the interface in JOSM.</p>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0327_Bagian_bagian_pada_tampilan_JOSM.png" alt="Parts of JOSM interface" />
+<p align="center"><i>Parts of JOSM interface</i></p></p>
+
+<p>In JOSM there are mapping area, toolbars, and windows. Mapping area is for view, edit, and add data OpenStreetMap. On the right side of JOSM, there is a series of window that have specific functions. Usually the first time you install JOSM, several windows will shown with default setting, such as Layers, Selections, Tags / Memberships, and Author.</p>
+
+<ul>
+<li><strong>Layers</strong> window will show any layers that added to JOSM, such as satellite imagery, downloads OSM data, and so on.<br /></li>
+<li>When you select an object, either a point, line, or polygon in the map area, it will be shown on <strong>selections</strong> window.</li>
+<li>Information about objects that will be shown in <strong>Tags / Memberships</strong> window.</li>
+<li>The name of the object creator will be shown in <strong>author</strong> window.</li>
+</ul>
+
+<p>If you want to remove some windows, you can click the <strong>x</strong> in the right corner of the window you want to remove. If you want to add another window, you can activate it in <strong>Windows</strong> menu and once activated it will appear in windows on the right side of JOSM.</p>
+
+<p>The left side toolbar on JOSM is window tools that contains several buttons for editing, such as <strong>Select object</strong> and <strong>Draw nodes</strong> button. Underneath are tools for <strong>zoom and move map</strong>, <strong>delete nodes or way</strong>, and <strong>create areas</strong>. For other toolbar, you can click the two right black arrow button. Then click the tool that you want and it will appear on the toolbar.</p>
+
+<p><img src="../../../../../en/images/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/0328_Tombol_untuk_mengatur_toolbar_pada_JOSM.png" alt="Two right black arrow button on JOSM" />
+<p align="center"><i>Two right black arrow button on JOSM</i></p></p>
+
+<p><strong>SUMMARY</strong></p>
+
+<p>If you able to follow and practice all the steps in this module, you have successfully installed JOSM on your laptop or computer. In addition, you have also succeeded in learning and practicing how to do standard settings in JOSM to facilitate your work. In the next module you will learn how to add data in JOSM from beginner to advanced levels.</p>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+    
+  <div>
+    <a href="https://github.com/hotosm/pdc-documentation/edit/master/content/pages/03-JOSM/03-Pengenalan-Java-OpenStreetMap-JOSM/03_Pengenalan_Java_OpenStreetMap_JOSM.md" target="_blank" rel="noopener">
+       Edit this page on GitHub
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/hotosm/pdc-documentation/commit/222dae640cc159c5c4d52198bf10e9906ac2771f" title='Last modified October 9, 2019 09:52 UTC by Adityo Dwijananto' target="_blank" rel="noopener">
+      <strong>Last Modified:</strong> Oct 9, 2019
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    
+      
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#i-download-josm"><strong>I. Download JOSM</strong></a></li>
+<li><a href="#ii-installing-josm"><strong>II. Installing JOSM</strong></a></li>
+<li><a href="#iii-changing-setting-in-josm"><strong>III. Changing Setting in JOSM</strong></a></li>
+<li><a href="#iv-josm-interface"><strong>IV. JOSM Interface</strong></a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    
+  </aside>
+
+
+
+  </main>
+
+  
+  
+  <footer class="footer">
+
+    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
+    <a href="https://github.com/hotosm/pdc-documentation" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+    </svg></a>
+    
+
+  </footer>
+  
+  <script src="../../../../../js/search.js"></script>
+  
+
+  
+</body>
+
+</html>
