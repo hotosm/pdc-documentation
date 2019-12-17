@@ -1,15 +1,14 @@
 languageCode = "en-us"
 title = "HOT-PDC Training Site" #<-- change me
-theme = "book"
+theme = "hotdocs"
 DefaultContentLanguage = "id"
 relativeurls = true
 enableGitInfo = true
 
 [params]
     DefaultContentLanguage = "id"
-    BookRepo = "https://github.com/hotosm/pdc-documentation" #<-- change me
-    BookShowToC = true
-    BookEditPath = "/edit/master/content/"
+    GithubRepo = "https://github.com/hotosm/pdc-documentation"
+    SiteURL = "https://hotosm.github.io/pdc-documentation"
 
 [imaging]
     resampleFilter = "box"
