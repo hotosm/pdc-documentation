@@ -1,494 +1,361 @@
-<!DOCTYPE html><html>
-
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HOT-PDC Training Site</title>
-<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
-<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
-<script src="https://unpkg.com/lunr/lunr.js"></script>
-
-
-
-<link rel="stylesheet" href="../../normalize.min.css">
-
-<link rel="stylesheet" href="../../book.min.b0e8214cbf05079a2aba369158e0410c2515a8def4c0b44254eefada553ab758.css">
-
-<!--
-Made with Book Theme
-https://github.com/hotosm/hugo-book
--->
-  
-</head>
-
-<body>
-  <header class="header-nav" id="nav">
-    <div class="nav-container">
-      <a class="nav-title with-logo" href="../../">
-        <img class="logo" src="../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
-        <span>HOT-PDC Training Site</span>
-      </a>
-      <a class="nav-guide-link guide-active" href="../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/" >Guide</a>
-      <div class="hr-v"></div>
-      <a class="nav-pdf-download" 
-      
-      href="../../pdfs/id/HOT-PDC_Training_Site.pdf">
-      
-      Download PDF &nbsp;
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
-        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
-          <polygon points="0 0 20 0 20 20 0 20"/>
-          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
-        </g>
-      </svg>
-      </a>
-      <input type="checkbox" style="display: none" id="menu-control" />      
-    </div>
-    <div class="nav-right">
-    
-    
-    
-    
-
-    
-    <div class="hr-v"></div>
-    <div class="language">
-      <button class="language-btn">Language: id</button>
-      <div class="language-dropdown">
+<!DOCTYPE html>
+<html><head>
+   <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
+   <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+   <script src="../../js/vendor/lunr/lunr.min.js"></script>
+   
+   
+   
+   
+   <link rel="stylesheet" href="../../scss/main.css">
+   <title>HOT-PDC Training Site</title>
+</head><body data-site-url='https://hotosm.github.io/pdc-documentation'  data-default-lang='id' data-lang='id'   ><header class="header" >
+    <div class="header__container">
+        <img src="https://hotosm.github.io/pdc-documentation/svg/hot-logo-red.svg" alt="hot logo"><a href="https://hotosm.github.io/pdc-documentation" class="no-underline"><h4 class="title site-title">HOT-PDC Training Site</h4></a>
+        <div>
         
-          
-          
-          <a href="../../">Indonesia</a>
-          
-         
-          
-            <a href="../../en">English</a>
-          
-         
-      </div>
+    </div><ul class="browse-select-options browse-select-options--hidden js-browse-select-options">
+
+</ul></div>
+        
+        <a class="hotosm-link" href="https://hotosm.org">hotosm.org</a> 
+        <div class="hamburger-icon"></div>
     </div>
-    
-
-    <div class="language-select"></div>
-    <div class="languages">
-    </div>
-    
-    <div class="hr-v"></div>
-    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../svg/icon-external-red.svg" alt=""></a>
-    </div>
-  </header>
-  <main class="flex container">
-
-    <aside class="book-menu fixed">
-      <nav role="navigation">
-
-
-
-
-<a href="../../" >Introduction</a>  
-
-    
-
-
-  
-  
-    
-  
- 
-  
-  <ul>
-    
-    <li>
-    
-    Panduan OpenStreetMap untuk Surveyor 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/">
-    Metodologi Pengumpulan Data</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/">
-    Menggunakan Aplikasi ODK Collect</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/">
-    Menggunakan Aplikasi OpenMapKit</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/">
-    Menggunakan Aplikasi OSMTracker</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/">
-    Menggunakan GPS</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    HOT Tasking Manager 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/">
-    Membuat dan Mengelola Tasking Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/">
-    Penggunaan Tasking Manager</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    JOSM 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/">
-    Pengenalan OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/">
-    Memulai menggunakan OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/">
-    Pengenalan Java OpenStreetMap (JOSM)</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/">
-    Menggunakan Java OpenStreetMap (JOSM)</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/">
-    Menambahkan Data Hasil Survei ke OSM Menggunakan JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/">
-    Menggunakan To-Do List di JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/">
-    Menggunakan Alat Filter di JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/">
-    Menggunakan buildings tools di JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/">
-    Pembuatan Batas Administrasi dengan JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/">
-    Mengatasi Konflik pada Data OpenStreetMap (OSM)</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Validasi Data dan Penjaminan Kualitas 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/">
-    Konsep Penjaminan Kualitas</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/02_penggunaan_josm_untuk_validasi_data_survei/">
-    Penggunaan JOSM untuk Validasi Data Survei</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/">
-    Penjaminan Kualitas Data dengan Tasking Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/">
-    JOSM untuk Perhitungan Kualitas Data</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Penggunaan HOT Export 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/">
-    Download Data OSM dengan Menggunakan Export Tool</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Panduan Pemetaan Lapangan untuk Manajer Proyek 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/">
-    Metodologi Perencanaan Proyek Pemetaan dengan OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/">
-    Model Data OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/">
-    Membuat Presets</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04_penggunaan_yaml_pada_export_tool/">
-    Penggunaan YAML pada Export Tool</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/">
-    Membuat Formulir Survei untuk Aplikasi ODK Collect &amp; OpenMapKit</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/">
-    Meletakkan Formulir Survei ke Ona.io</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07.pembuatan_peta_survey_dengan_qgis/">
-    Pembuatan Peta Survei dengan Menggunakan QGIS</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/">
-    Pembuatan MBTiles untuk OpenMapKit (OMK)</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09_perhitungan_kuantitas_data_dengan_group_stats/">
-    Perhitungan Kuantitas Data Menggunakan Plugin Group Stats</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/">
-    Konversi Data Shapefile ke GeoJSON</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Menggunakan Map Campaigner 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/">
-    Membuat dan Mengelola Map Campaigner untuk Pemetaan</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Integrasi data OpenStreetMap ke InAWARE 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/">
-    Integrasi Data OpenStreetMap di InAWARE</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-
-    
-    <li>
-      <a href="../../pages/01-osm-field-surveyor-guideliness/" class="active">
-    
-    Panduan OpenStreetMap untuk Surveyor</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/02-hot-tasking-manager/">
-    
-    HOT Tasking Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/03-josm/">
-    
-    JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/04-data-validation-and-quality-assurance/">
-    
-    Validasi Data dan Penjaminan Kualitas</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/05-hot-export/">
-    
-    Penggunaan HOT Export</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/06-osm-field-survey-manager-guidelines/">
-    
-    Panduan Pemetaan Lapangan untuk Manajer Proyek</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/07-map-campaigner/">
-    
-    Menggunakan Map Campaigner</a>
-    </li>
-    
-    <li>
-      <a href="../../pages/08-osm-data-integration-to-inaware/">
-    
-    Integrasi data OpenStreetMap ke InAWARE</a>
-    </li>
-    
-  </ul>
-
-
-
-
-
-
-
-
-</nav>
-    </aside>
-
-    <div class="book-page">
-      <header class="align-center justify-between book-header">
-  <label for="menu-control">
-    <img src="../../svg/menu.svg" />
-  </label>
-  <strong>
-    
-    Panduan OpenStreetMap untuk Surveyor</strong>
 </header>
 
-      
-<article class="markdown"></article>
+<div class="main">
+    <aside class="menu">
+        <div class="menu__container">
 
-      
-<div class="align-center book-git-footer justify-between">
+
+<h2 class="title">HOT-PDC Training Site</h2> 
+
+<div>
     
-  <div>
-    <a href="https://github.com/hotosm/pdc-documentation/edit/master/content/pages/01-OSM-Field-Surveyor-Guideliness/_index.md" target="_blank" rel="noopener">
-       Edit this page on GitHub
-    </a>
-  </div>
-  
-  
-  <div>
-    <a href="https://github.com/hotosm/pdc-documentation/commit/2d09f1d25a105b62a2f01860613d878e34bb4a07" title='Last modified July 29, 2019 03:13 UTC by Adityo Dwijananto' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Jul 29, 2019
-    </a>
-  </div>
-  
-
+    
+    <div class="js-language-select language-select">
+        
+            
+                Indonesia 
+            
+        
+            
+        
+    </div>
+    
+    <ul class="js-language-select-options language-select-options language-select-options--hidden">
+            
+            
+            <li>
+            
+        <a href="https://hotosm.github.io/pdc-documentation/pages/01-osm-field-surveyor-guideliness/" class="language-select-option 
+        
+        language-select-option--selected
+        
+        ">Indonesia</a>
+        
+    </li>
+        
+            
+            <li>
+            
+        <a href="https://hotosm.github.io/pdc-documentation/en/pages/01-osm-field-surveyor-guideliness/" class="language-select-option
+        
+        ">English  </a>
+        
+    </li>
+        
+    </ul>
 </div>
 
 
+
+
+
+
+
+
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Panduan OpenStreetMap untuk Surveyor
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/" class="menu-link">Metodologi Pengumpulan Data</a></li>
+                    
+                        <li class="page"><a href="../../pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/" class="menu-link">Menggunakan Aplikasi ODK Collect</a></li>
+                    
+                        <li class="page"><a href="../../pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/" class="menu-link">Menggunakan Aplikasi OpenMapKit</a></li>
+                    
+                        <li class="page"><a href="../../pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/" class="menu-link">Menggunakan Aplikasi OSMTracker</a></li>
+                    
+                        <li class="page"><a href="../../pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/" class="menu-link">Menggunakan GPS</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            HOT Tasking Manager
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/" class="menu-link">Membuat dan Mengelola Tasking Manager</a></li>
+                    
+                        <li class="page"><a href="../../pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/" class="menu-link">Penggunaan Tasking Manager</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            JOSM
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/" class="menu-link">Pengenalan OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/" class="menu-link">Memulai menggunakan OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/" class="menu-link">Pengenalan Java OpenStreetMap (JOSM)</a></li>
+                    
+                        <li class="page"><a href="../../pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/" class="menu-link">Menggunakan Java OpenStreetMap (JOSM)</a></li>
+                    
+                        <li class="page"><a href="../../pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/" class="menu-link">Menambahkan Data Hasil Survei ke OSM Menggunakan JOSM</a></li>
+                    
+                        <li class="page"><a href="../../pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/" class="menu-link">Menggunakan To-Do List di JOSM</a></li>
+                    
+                        <li class="page"><a href="../../pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/" class="menu-link">Menggunakan Alat Filter di JOSM</a></li>
+                    
+                        <li class="page"><a href="../../pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/" class="menu-link">Menggunakan buildings tools di JOSM</a></li>
+                    
+                        <li class="page"><a href="../../pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/" class="menu-link">Pembuatan Batas Administrasi dengan JOSM</a></li>
+                    
+                        <li class="page"><a href="../../pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/" class="menu-link">Mengatasi Konflik pada Data OpenStreetMap (OSM)</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Validasi Data dan Penjaminan Kualitas
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/" class="menu-link">Konsep Penjaminan Kualitas</a></li>
+                    
+                        <li class="page"><a href="../../pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/02_penggunaan_josm_untuk_validasi_data_survei/" class="menu-link">Penggunaan JOSM untuk Validasi Data Survei</a></li>
+                    
+                        <li class="page"><a href="../../pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/" class="menu-link">Penjaminan Kualitas Data dengan Tasking Manager</a></li>
+                    
+                        <li class="page"><a href="../../pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/" class="menu-link">JOSM untuk Perhitungan Kualitas Data</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Penggunaan HOT Export
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/" class="menu-link">Download Data OSM dengan Menggunakan Export Tool</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Panduan Pemetaan Lapangan untuk Manajer Proyek
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/" class="menu-link">Metodologi Perencanaan Proyek Pemetaan dengan OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/" class="menu-link">Model Data OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/" class="menu-link">Membuat Presets</a></li>
+                    
+                        <li class="page"><a href="../../pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04_penggunaan_yaml_pada_export_tool/" class="menu-link">Penggunaan YAML pada Export Tool</a></li>
+                    
+                        <li class="page"><a href="../../pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/" class="menu-link">Membuat Formulir Survei untuk Aplikasi ODK Collect &amp; OpenMapKit</a></li>
+                    
+                        <li class="page"><a href="../../pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/" class="menu-link">Meletakkan Formulir Survei ke Ona.io</a></li>
+                    
+                        <li class="page"><a href="../../pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07.pembuatan_peta_survey_dengan_qgis/" class="menu-link">Pembuatan Peta Survei dengan Menggunakan QGIS</a></li>
+                    
+                        <li class="page"><a href="../../pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/" class="menu-link">Pembuatan MBTiles untuk OpenMapKit (OMK)</a></li>
+                    
+                        <li class="page"><a href="../../pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09_perhitungan_kuantitas_data_dengan_group_stats/" class="menu-link">Perhitungan Kuantitas Data Menggunakan Plugin Group Stats</a></li>
+                    
+                        <li class="page"><a href="../../pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/" class="menu-link">Konversi Data Shapefile ke GeoJSON</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Menggunakan Map Campaigner
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/" class="menu-link">Membuat dan Mengelola Map Campaigner untuk Pemetaan</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Integrasi data OpenStreetMap ke InAWARE
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/" class="menu-link">Integrasi Data OpenStreetMap di InAWARE</a></li>
+                    
+                </ul>
+            </div>
+    
+
+<a class="pdf-download"  
+    
+    href="../../pdfs/id/HOT-PDC_Training_Site.pdf">
+    
+
+    <div>
+        <div class="title">Unduh semua berkas</div>
+        <div class="sub-title sub-title-12">pdf</div>
     </div>
+</a></div>
+    </aside>
+    <main class="article"><div class="article__container">
+
+ 
+   <div class="git-info">
+<div class="">
+  
+  <div>
+    
+    <a href="https://github.com/hotosm/pdc-documentation/commit/2d09f1d25a105b62a2f01860613d878e34bb4a07" class="sub-title sub-title-14" title='Last modified July 29, 2019 by Adityo Dwijananto' target="_blank" rel="noopener">
+      Pembaharuan terakhir: July 29, 2019
+    </a>
+  </div>
+  
+</div>
+</div>
+    <div class="article-body">
+           <h1 class="page-title">Panduan OpenStreetMap untuk Surveyor</h1></div>
+
+
+
 
     
-  
-  
-  <aside class="book-toc fixed">
-    
-      
-  </aside>
-
-
-
-  </main>
-
-  
-  
-  <footer class="footer">
-
-    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
-    <a href="https://github.com/hotosm/pdc-documentation" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-    </svg></a>
+     
     
 
-  </footer>
-  
 
-  
-</body>
 
+
+
+
+<a class="next-page" href="../../pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/">
+    <div class="next-page__container">
+            <div class="sub-title sub-title-10">BACA BERIKUTNYA</div>
+            <div class="next-title">Membuat dan Mengelola Tasking Manager</div>
+    </div>
+    <img src="../../svg/forward-arrow.svg" alt="">
+</a>
+
+</div></main>
+    <aside class="toc">
+        <div class="toc__container"><div class="toc__container">
+    
+    
+    
+    
+    <div class="toc-list">
+        <h4 class="sub-title sub-title-10">DI HALAMAN INI</h4>
+        <nav id="TableOfContents"></nav>
+    </div>
+    <hr class="toc-divider">
+    
+    
+    <a href="https://github.com/hotosm/pdc-documentation/edit/master/content/id/pages/01-OSM-Field-Surveyor-Guideliness/_index.md" class="sub-title sub-title-12 toc-item"> <img src="../../svg/pencil.svg" class="edit-icon" alt="">Sunting halaman ini pada github</a>
+    <a 
+    
+    href="../../pdfs/id/_index.pdf"
+    
+    class="sub-title sub-title-12 toc-item"> <img src="../../svg/download.svg" class="download-icon" alt="">Unduh halaman ini</a>
+</div></div>
+    </aside>
+</div>
+<script src="../../js/main.js"></script>
+<script src="../../js/search.js"></script>
+<script src="../../js/toc.js"></script></body>
 </html>

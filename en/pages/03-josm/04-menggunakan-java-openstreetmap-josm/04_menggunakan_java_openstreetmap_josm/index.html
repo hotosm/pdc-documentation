@@ -1,745 +1,522 @@
-<!DOCTYPE html><html>
-
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HOT-PDC Training Site</title>
-<link rel="icon" type="image/png" sizes="32x32" href="../../../../../favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../../../../../favicon-16x16.png">
-<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
-<script src="https://unpkg.com/lunr/lunr.js"></script>
-
-
-
-<link rel="stylesheet" href="../../../../../normalize.min.css">
-
-<link rel="stylesheet" href="../../../../../book.min.b0e8214cbf05079a2aba369158e0410c2515a8def4c0b44254eefada553ab758.css">
-
-<!--
-Made with Book Theme
-https://github.com/hotosm/hugo-book
--->
-  
-</head>
-
-<body>
-  <header class="header-nav" id="nav">
-    <div class="nav-container">
-      <a class="nav-title with-logo" href="//en">
-        <img class="logo" src="../../../../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
-        <span>HOT-PDC Training Site</span>
-      </a>
-      <a class="nav-guide-link guide-active" href="../../../../../en/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/" >Guide</a>
-      <div class="hr-v"></div>
-      <a class="nav-pdf-download" 
-      
-      href="../../../../../pdfs/en/HOT-PDC_Training_Site.pdf">
-      
-      Download PDF &nbsp;
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
-        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
-          <polygon points="0 0 20 0 20 20 0 20"/>
-          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
-        </g>
-      </svg>
-      </a>
-      <input type="checkbox" style="display: none" id="menu-control" />      
-    </div>
-    <div class="nav-right">
-    
-    
-    
-    <div> <label for="search"></label> <input type="text" name="search" class="search-input" placeholder="Search…"></div>
-    <div class="search-results">
-      <ul class="results-list"></ul>
-    </div>
-    
-    
-
-    
-    <div class="hr-v"></div>
-    <div class="language">
-      <button class="language-btn">Language: en</button>
-      <div class="language-dropdown">
+<!DOCTYPE html>
+<html><head>
+   <link rel="icon" type="image/png" sizes="32x32" href="../../../../../favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="../../../../../favicon-16x16.png">
+   <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+   <script src="../../../../../js/vendor/lunr/lunr.min.js"></script>
+   
+   
+   
+   
+   <link rel="stylesheet" href="../../../../../scss/main.css">
+   <title>HOT-PDC Training Site</title>
+</head><body data-site-url='https://hotosm.github.io/pdc-documentation'  data-default-lang='id' data-lang='en'   ><header class="header" >
+    <div class="header__container">
+        <img src="https://hotosm.github.io/pdc-documentation/svg/hot-logo-red.svg" alt="hot logo"><a href="https://hotosm.github.io/pdc-documentation" class="no-underline"><h4 class="title site-title">HOT-PDC Training Site</h4></a>
+        <div>
         
-          
-          
-          <a href="../../../../../">Indonesia</a>
-          
-         
-          
-            <a href="../../../../../en">English</a>
-          
-         
-      </div>
+    </div><ul class="browse-select-options browse-select-options--hidden js-browse-select-options">
+
+</ul></div>
+        
+        <a class="hotosm-link" href="https://hotosm.org">hotosm.org</a> 
+        <div class="hamburger-icon"></div>
     </div>
-    
-
-    <div class="language-select"></div>
-    <div class="languages">
-    </div>
-    
-    <div class="hr-v"></div>
-    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../../../svg/icon-external-red.svg" alt=""></a>
-    </div>
-  </header>
-  <main class="flex container">
-
-    <aside class="book-menu fixed">
-      <nav role="navigation">
-
-
-
-
-<a href="//en" >Introduction</a>  
-
-    
-
-
-  
-  
-    
-  
- 
-  
-  <ul>
-    
-    <li>
-    
-    OpenStreetMap Guide for Surveyor 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/">
-    Data Collection Methodology</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/">
-    Using ODK Collect</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/">
-    Using the OpenMapKit Application</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/">
-    Using OSMTrackers</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/">
-    Using GPS</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    HOT Tasking Manager 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/">
-    Creating and Managing Tasking Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/">
-    Using Tasking Manager</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    JOSM 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/">
-    Introduction to OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/">
-    Getting started with OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/">
-    Introduction to Java OpenStreetMap (JOSM)</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/" class="active">
-    Using Java OpenStreetMap (JOSM)</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/">
-    Adding Survey Data into OSM Using JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/">
-    Using To-Do List in JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/">
-    Using Filter on JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/">
-    Using buildings tools on JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/">
-    Creating the Administrative Boundaries in JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/">
-    Resolving Conflict on OpenStreetMap Data (OSM)</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Data Validation and Quality Assurance 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/">
-    Quality Assurance Concept</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/josm-for-validating-survey-data/">
-    JOSM for Validating Survey Data</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/">
-    Data Quality Assurance with Tasking Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/">
-    JOSM for Data Quality</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Using HOT Export 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/">
-    Download OSM Data using Export Tool</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Field Mapping Project Guide for Project Manager 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/">
-    The Mapping Methodology with OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/">
-    OpenStreetMap Data Model</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/">
-    Creating Presets</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04-penggunaan-yaml-pada-export-tool/">
-    Using YAML</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/">
-    Creating survey form for ODK Collect &amp; OpenMapKit</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/">
-    Upload survey form to ona.io</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07-pembuatan-peta-survey-dengan-qgis/">
-    Creating Field Maps using QGIS</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/">
-    Creating MBTiles for OpenMapKit (OMK)</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/">
-    Group Stats Plugin for Calculate The Objects</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/">
-    Converting Shapefile Data to GeoJSON</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Using Map Campaigner 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/">
-    Using Map Campaigner to Manage Mapping Campaign</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    OpenStreetMap Data Integration to InAWARE 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/">
-    OpenStreetMap Data Integration to InAWARE</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/">
-    
-    OpenStreetMap Guide for Surveyor</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/02-hot-tasking-manager/">
-    
-    HOT Tasking Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/">
-    
-    JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/">
-    
-    Data Validation and Quality Assurance</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/05-hot-export/">
-    
-    Using HOT Export</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/">
-    
-    Field Mapping Project Guide for Project Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/07-map-campaigner/">
-    
-    Using Map Campaigner</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/08-osm-data-integration-to-inaware/">
-    
-    OpenStreetMap Data Integration to InAWARE</a>
-    </li>
-    
-  </ul>
-
-
-
-
-
-
-
-
-</nav>
-    </aside>
-
-    <div class="book-page">
-      <header class="align-center justify-between book-header">
-  <label for="menu-control">
-    <img src="../../../../../svg/menu.svg" />
-  </label>
-  <strong>
-    Using Java OpenStreetMap (JOSM)</strong>
 </header>
 
-      
-<article class="markdown">
-  <div class="markdown__header">  <h1>Using Java OpenStreetMap (JOSM)</h1>
-    <a 
+<div class="main">
+    <aside class="menu">
+        <div class="menu__container">
+
+
+<h2 class="title">HOT-PDC Training Site</h2> 
+
+<div>
     
-    href="../../../../../pdfs/en/04_Menggunakan_Java_OpenStreetMap_JOSM.pdf"
     
-    class="pdf-download-link"> Download page as PDF &nbsp;
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
-        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
-          <polygon points="0 0 20 0 20 20 0 20"/>
-          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
-        </g>
-      </svg>
+    <div class="js-language-select language-select">
+        
+            
+        
+            
+                English 
+            
+        
+    </div>
+    
+    <ul class="js-language-select-options language-select-options language-select-options--hidden">
+            
+            
+            <li>
+            
+        <a href="https://hotosm.github.io/pdc-documentation/pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/" class="language-select-option 
+        
+        ">Indonesia</a>
+        
+    </li>
+        
+            
+            <li>
+            
+        <a href="https://hotosm.github.io/pdc-documentation/en/pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/" class="language-select-option
+        
+        language-select-option--selected
+        
+        ">English  </a>
+        
+    </li>
+        
+    </ul>
+</div>
+
+
+
+
+
+
+<input class="search" type="text" placeholder="Search documentation">
+<div class="search-results">
+    <ul class="results-list"></ul>
+</div>
+
+
+
+
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            OpenStreetMap Guide for Surveyor
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/" class="menu-link">Data Collection Methodology</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/" class="menu-link">Using ODK Collect</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/" class="menu-link">Using the OpenMapKit Application</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/" class="menu-link">Using OSMTrackers</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/" class="menu-link">Using GPS</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            HOT Tasking Manager
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/" class="menu-link">Creating and Managing Tasking Manager</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/" class="menu-link">Using Tasking Manager</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--open
+        
+        ">
+            JOSM
+        </div>
+        <div class="panel
+        
+        panel--open
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/" class="menu-link">Introduction to OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/" class="menu-link">Getting started with OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/" class="menu-link">Introduction to Java OpenStreetMap (JOSM)</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/" class="menu-link menu-link--active">Using Java OpenStreetMap (JOSM)</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/" class="menu-link">Adding Survey Data into OSM Using JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/" class="menu-link">Using To-Do List in JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/" class="menu-link">Using Filter on JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/" class="menu-link">Using buildings tools on JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/" class="menu-link">Creating the Administrative Boundaries in JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/" class="menu-link">Resolving Conflict on OpenStreetMap Data (OSM)</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Data Validation and Quality Assurance
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/" class="menu-link">Quality Assurance Concept</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/josm-for-validating-survey-data/" class="menu-link">JOSM for Validating Survey Data</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/" class="menu-link">Data Quality Assurance with Tasking Manager</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/" class="menu-link">JOSM for Data Quality</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Using HOT Export
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/" class="menu-link">Download OSM Data using Export Tool</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Field Mapping Project Guide for Project Manager
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/" class="menu-link">The Mapping Methodology with OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/" class="menu-link">OpenStreetMap Data Model</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/" class="menu-link">Creating Presets</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04-penggunaan-yaml-pada-export-tool/" class="menu-link">Using YAML</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/" class="menu-link">Creating survey form for ODK Collect &amp; OpenMapKit</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/" class="menu-link">Upload survey form to ona.io</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07-pembuatan-peta-survey-dengan-qgis/" class="menu-link">Creating Field Maps using QGIS</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/" class="menu-link">Creating MBTiles for OpenMapKit (OMK)</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/" class="menu-link">Group Stats Plugin for Calculate The Objects</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/" class="menu-link">Converting Shapefile Data to GeoJSON</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Using Map Campaigner
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/" class="menu-link">Using Map Campaigner to Manage Mapping Campaign</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            OpenStreetMap Data Integration to InAWARE
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/" class="menu-link">OpenStreetMap Data Integration to InAWARE</a></li>
+                    
+                </ul>
+            </div>
+    
+
+<a class="pdf-download"  
+    
+    href="../../../../../pdfs/en/HOT-PDC_Training_Site.pdf">
+    
+
+    <div>
+        <div class="title">Download the entire file</div>
+        <div class="sub-title sub-title-12">pdf</div>
+    </div>
+</a></div>
+    </aside>
+    <main class="article"><div class="article__container">
+
+ 
+   <div class="git-info">
+<div class="">
+  
+  <div>
+    
+    <a href="https://github.com/hotosm/pdc-documentation/commit/9eb715f57f792d4e6a32fdf9d7b13b87efddac22" class="sub-title sub-title-14" title='Last modified October 7, 2019 by Fatisya Ilani Yusuf' target="_blank" rel="noopener">
+      Last modified: October 7, 2019
     </a>
   </div>
-
-<p><strong>Objective:</strong></p>
-
+  
+</div>
+</div>
+    <div class="article-body">
+           <h1 class="page-title">Using Java OpenStreetMap (JOSM)</h1><p><strong>Objective:</strong></p>
 <ul>
 <li>Understanding how to use basic tools in JOSM</li>
 <li>Able to operate advance editing in JOSM</li>
 <li>Understanding editing tips in JOSM</li>
 <li>Understanding how to draw special objects such as bridge, school, and road networks</li>
 </ul>
-
 <p>Java OpenStreetMap or commonly called JOSM is a desktop-based editor for OpenStreetMap. JOSM allows you to edit OSM data offline for a while or not always connect to the internet. If in the previous module you learned about operating JOSM, then in this module you will learn how to use JOSM.</p>
-
 <h3 id="i-basic-drawing-techniques-with-josm"><strong>I. Basic Drawing Techniques with JOSM</strong></h3>
-
 <p>Please open an OSM sample file that we will use to learn how to draw a basic map with JOSM. Note that this data is only a sample with an unreal place, so please do not save and upload that data into OpenStreetMap.</p>
-
 <ul>
-<li>Download the sample file here: www.bit.ly/osmsampel</li>
+<li>Download the sample file here: <a href="http://www.bit.ly/osmsampel">www.bit.ly/osmsampel</a></li>
 <li>Open the sample file OSM in JOSM. Click the <strong>Open a File</strong> button at the top left.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0401_Ikon_Open_a_file.png" alt="Open a file icon" />
-<p align="center"><i>Open a file icon</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0401_Ikon_Open_a_file.png" alt="Open a file icon"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>Find and choose <strong>sample.osm</strong> in your computer that you have downloaded before, then click <strong>Open</strong>. Your computer screen will look like a picture below:</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0402_Tampilan_file_latihan_di_JOSM.png" alt="Sample file in JOSM" />
-<p align="center"><i>Sample file in JOSM</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0402_Tampilan_file_latihan_di_JOSM.png" alt="Sample file in JOSM"></p>
+<!-- raw HTML omitted -->
 <p><strong>a. Basic Operation</strong></p>
-
 <p>To move the map right or left and up or down, you can do that by right click on your mouse then hold and move the mouse. There are two ways to zoom in and zoom out the map. First, you can use the scroll wheel on your mouse. Scroll forward to zoom in the map and scroll back to zoom out the map. Second, use scale bar in the upper left corner on your map. Click and hold then swipe right or left with your mouse.</p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0403_Skala_baris_di_JOSM.png" alt="The scale bar on JOSM" />
-<p align="center"><i>The scale bar on JOSM</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0403_Skala_baris_di_JOSM.png" alt="The scale bar on JOSM"></p>
+<!-- raw HTML omitted -->
 <p><strong>b. Nodes, Ways, and Polygons</strong></p>
-
 <p>In OpenStreetMap there are three types of objects. There are nodes, ways, and polygons.</p>
-
 <ul>
-<li>Node is a location represented by a symbol. In this sample data, there are two points: the shoe store and supermarket. The shoe shop is represented by shoe symbol and supermarket is represented by the shopping basket symbol. If you can&rsquo;t see it clearly, please zoom in on your map.</li>
+<li>Node is a location represented by a symbol. In this sample data, there are two points: the shoe store and supermarket. The shoe shop is represented by shoe symbol and supermarket is represented by the shopping basket symbol. If you can't see it clearly, please zoom in on your map.</li>
 <li>There are several ways object on maps, such as roads, rivers, and river embankments. If you look closer, you will see in the way that there are nodes. These nodes do not have a symbol or information, but they form a line.</li>
 <li>There are some polygons in the sample map that show different places such as forests, rivers, and buildings. A polygon generally represents an area such as a building or a field. Polygons are the same as lines, but the difference is that polygons consist of several lines that form where the endpoint meets the starting point of the line.</li>
 </ul>
-
 <p><strong>c. Selecting Object</strong></p>
-
 <p>To edit an object, you need to select the object. There is the step to select an object:</p>
-
 <ul>
 <li>Click <strong>select, move, scale, and rotate object</strong> tool for select object.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0404_Ikon_tool_select_move_scale_and_rotate_object.png" alt="tool select, move, scale, and rotate object icon" />
-<p align="center"><i>Tool select, move, scale, and rotate object icon</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0404_Ikon_tool_select_move_scale_and_rotate_object.png" alt="tool select, move, scale, and rotate object icon"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>Then click on an object you want to select.</li>
 </ul>
-
 <p>When you select an object, it will be red and a list appears in the tag panel on the right side of your JOSM. Tags are a part of a node, way, or polygon that tell information about the object. Now what you need is to know the information to explain whether the object on the map is a forest, river, building, or other forms.</p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0405_Informasi_objek_di_panel_Tags_JOSM.png" alt="Object information in panel tags JOSM" />
-<p align="center"><i>Object information in panel tags JOSM</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0405_Informasi_objek_di_panel_Tags_JOSM.png" alt="Object information in panel tags JOSM"></p>
+<!-- raw HTML omitted -->
 <p><strong>d. Change Object Position</strong></p>
-
 <p>You can change the position of objects that have been drawn in JOSM. There are steps:</p>
-
 <ul>
 <li>Select an object in the sample, for example forest object. Make sure you click the line in the forest, not the point. Then click and hold the object then slide it. You have just moved the forest to a new location on the map.</li>
 <li>Click one node on the forest line. Click and hold then move the node. By moving this node you can change the shape of an object.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0406_Contoh_mengubah_objek.png" alt="Change object position" />
-<p align="center"><i>Change object position</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0406_Contoh_mengubah_objek.png" alt="Change object position"></p>
+<!-- raw HTML omitted -->
 <p><strong>e. Drawing an Object</strong></p>
-
 <p>On the left side of JOSM, there are many toolbars that provide more information about the map. It can change the command when you click the mouse, one of them is to draw an object. There are the steps for drawing an object:</p>
-
 <ul>
 <li>Before you draw an object, make sure that is no object is selected. Click outside the object where there are no objects, to make sure no object is selected.</li>
-<li>Then click on the <strong>Draw Tool</strong> button for drawing an object.
-
-<br /></li>
+<li>Then click on the <strong>Draw Tool</strong> button for drawing an object.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0407_Ikon_Draw_Tool.png" alt="Draw Tool icon" />
-<p align="center"><i>Draw Tool icon</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0407_Ikon_Draw_Tool.png" alt="Draw Tool icon"></p>
+<!-- raw HTML omitted -->
 <ul>
-<li>Find an empty area on the map, then double click with your mouse, and a single node will be drawn.
-
-<br /></li>
+<li>Find an empty area on the map, then double click with your mouse, and a single node will be drawn.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0408_Contoh_menggambar_objek_titik.png" alt="Draw a node object" />
-<p align="center"><i>Draw a node object</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0408_Contoh_menggambar_objek_titik.png" alt="Draw a node object"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>To draw a line, click once your mouse and move your mouse and click again. Continue until it forms a way/line. To end the line, double click on your mouse.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0409_Contoh_menggambar_objek_garis.png" alt="Draw a way/line object" />
-<p align="center"><i>Draw a way/line object</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0409_Contoh_menggambar_objek_garis.png" alt="Draw a way/line object"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>The way to make polygons is the same as how to make ways, but to end the polygon you should double click on the first node you made.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0410_Contoh_menggambar_objek_poligon.png" alt="Draw a polygon object" />
-<p align="center"><i>Draw a polygon object</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0410_Contoh_menggambar_objek_poligon.png" alt="Draw a polygon object"></p>
+<!-- raw HTML omitted -->
 <p><strong>f. How to Add Preset</strong></p>
-
 <p>Now you understand how to draw nodes, ways, and polygons. However, you still have not given information about the object. In OpenStreetMap, giving information about the object is required, whether the object is a school, hospital, government office, or something else. This is required so the others can find out information about the object. To give information on the object that you draw or edit, you need to add preset on the object. There are steps:</p>
-
 <ul>
 <li>Click <strong>Select</strong> toolbar on the left side of JOSM.</li>
 <li>Select the object that you want to add preset.</li>
-<li>Select <strong>Presets</strong> menu on the top side of JOSM. Move your mouse to the sub-menu of the object that you want to add preset.
-
-<br /></li>
+<li>Select <strong>Presets</strong> menu on the top side of JOSM. Move your mouse to the sub-menu of the object that you want to add preset.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0411_Memasukkan_preset.png" alt="Add preset" />
-<p align="center"><i>Add preset</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0411_Memasukkan_preset.png" alt="Add preset"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>If you have a problem to find the sub-menu, you can click on <strong>Search preset</strong> or by pressing <strong>F3</strong> on your keyboard.</li>
 <li>Then search preset window will appear. You can type the name object, such as a dentist. Then click <strong>Select</strong>.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0412_Jendela_search_preset.png" alt="Search preset window" />
-<p align="center"><i>Search preset window</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0412_Jendela_search_preset.png" alt="Search preset window"></p>
+<!-- raw HTML omitted -->
 <ul>
-<li>Next will appear a window about object information that you want to add preset. This information is not required for all, only the information that you know. If you know all the information please fill in. If you don&rsquo;t know, just skip it, then click <strong>Apply Preset</strong>. If everything goes smoothly, the color of nodes, ways, or polygons will change or have a symbol. This change depends on the information you put in the object.</li>
+<li>Next will appear a window about object information that you want to add preset. This information is not required for all, only the information that you know. If you know all the information please fill in. If you don't know, just skip it, then click <strong>Apply Preset</strong>. If everything goes smoothly, the color of nodes, ways, or polygons will change or have a symbol. This change depends on the information you put in the object.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0413_Jendela_informasi_objek.png" alt="Object information window" />
-<p align="center"><i>Object information window</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0413_Jendela_informasi_objek.png" alt="Object information window"></p>
+<!-- raw HTML omitted -->
 <h3 id="ii-advance-drawing-technique-with-josm"><strong>II. Advance Drawing Technique with JOSM</strong></h3>
-
 <p>In previous session you already install JOSM and learn how to do basic drawing technique, such as draw nodes, ways, and polygons. You also already know how to add preset to object that you draw to provide information about the object. At the end, you can draw your own map on JOSM. in this session, you will learn the right step to edit OpenStreetMap map on JOSM and how you can maximize the tools that available in JOSM to help you in editing.</p>
-
 <p><strong>a. Advance Drawing Tools in JOSM</strong></p>
-
 <p>In this material you will learn some basic tools and the technique for drawing map feature in JOSM. You will learn more detail for advance tools that will help you to map in JOSM. You can download the sample here <a href="http://www.bit.ly/edittools">http://www.bit.ly/edittools</a> then open JOSM and open the sample file that you already downloaded. The JOSM will looks like this picture below:</p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0414_Tampilan_file_latihan_mengedit_di_JOSM.png" alt="Sample file for editing in JOSM" />
-<p align="center"><i>Sample file for editing in JOSM</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0414_Tampilan_file_latihan_mengedit_di_JOSM.png" alt="Sample file for editing in JOSM"></p>
+<!-- raw HTML omitted -->
 <p>JOSM has tools that will make it easier for you to edit either ways or polygons. These can be found in <strong>Tools</strong> menu at the top of JOSM. If you click on <strong>Tools</strong> menu, you will see that there are many functions that can help you draw ways, polygons, and also edit objects on the map.</p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0415_Pilihan_yang_ada_di_menu_tools_JOSM.png" alt="Tools JOSM menu" />
-<p align="center"><i>Tools JOSM menu</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0415_Pilihan_yang_ada_di_menu_tools_JOSM.png" alt="Tools JOSM menu"></p>
+<!-- raw HTML omitted -->
 <p>For applying the functions in this menu, you need to select a node, way, or polygon in the map area. The sample file that you downloaded contains various elements that are labeled with different tool names in the menu. You can try the tools using the file sample. Explanation about some tools are provided below:</p>
-
 <ul>
-<li><p><strong>Split Way</strong></p>
-
-<p>Split Way is used to split a line segment into two separate line segments. This is useful if you want to add attributes to different parts of the road, such as a bridge or a different road name. To use this function, select a point in the middle of the line segment you want to split, then click <strong>Split Way</strong> from Tools menu, and the line will split. The shortcut key for split way  is <strong>P</strong> on the keyboard after you select a point on the line.</p></li>
+<li>
+<p><strong>Split Way</strong></p>
+<p>Split Way is used to split a line segment into two separate line segments. This is useful if you want to add attributes to different parts of the road, such as a bridge or a different road name. To use this function, select a point in the middle of the line segment you want to split, then click <strong>Split Way</strong> from Tools menu, and the line will split. The shortcut key for split way  is <strong>P</strong> on the keyboard after you select a point on the line.</p>
+</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0416_Tampilan_split_way.png" alt="Split way menu" />
-<p align="center"><i>Split way menu</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0416_Tampilan_split_way.png" alt="Split way menu"></p>
+<!-- raw HTML omitted -->
 <p>After you have split way, you can add information about each road segments that have been split, for example giving the name of a road to both roads.</p>
-
 <ul>
-<li><p><strong>Combine Way</strong></p>
-
-<p>Combine way is the opposite of Split Way. Combine way used to join two line segments into one line segment. These two line segments must be connected to the same node. To use this function, select the two lines that you want to join. You can select more than one object by press shift on your keyboard and click on the both lines. When you have selected the two lines, click <strong>Combine Way</strong> from Tools menu. The two line segments will merge into one line segment. The shortcut key for combine way  is <strong>C</strong> on the keyboard after you select two lines.</p></li>
+<li>
+<p><strong>Combine Way</strong></p>
+<p>Combine way is the opposite of Split Way. Combine way used to join two line segments into one line segment. These two line segments must be connected to the same node. To use this function, select the two lines that you want to join. You can select more than one object by press shift on your keyboard and click on the both lines. When you have selected the two lines, click <strong>Combine Way</strong> from Tools menu. The two line segments will merge into one line segment. The shortcut key for combine way  is <strong>C</strong> on the keyboard after you select two lines.</p>
+</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0417_Tampilan_combine_way.png" alt="Combine way tool" />
-<p align="center"><i>Combine way tool</i></p></p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0418_Hasil_menggabungkan_Garis_Way_JOSM.png" alt="The results of combine line on JOSM" />
-<p align="center"><i>The results of combine line on JOSM</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0417_Tampilan_combine_way.png" alt="Combine way tool"></p>
+<!-- raw HTML omitted -->
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0418_Hasil_menggabungkan_Garis_Way_JOSM.png" alt="The results of combine line on JOSM"></p>
+<!-- raw HTML omitted -->
 <p>If you combine roads that have different directions, you will get a warning like the picture below. The warning means if the road is connected and it will has the same direction. If you are sure to combine the two roads, please click <strong><em>Reverse and Combine</em></strong>.</p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0419_Peringatan_change_directions.png" alt="Warning to change directions" />
-<p align="center"><i>Warning to change directions</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0419_Peringatan_change_directions.png" alt="Warning to change directions"></p>
+<!-- raw HTML omitted -->
 <ul>
-<li><p><strong>Reverse Way</strong></p>
-
-<p>Reverse way is used to change the direction of the way. All ways in OSM have a direction which is shown in JOSM with arrows on the way. The direction is very useful for mapping roads that have one way direction and river flow (upstream to downstream). In this case, you need to reverse the direction of the way, so the way is in the right direction. How to use reverse way is click on the way that you want to change the direction, then go to tools menu and click <strong>Reverse Ways</strong>. The shortcut key to use reverse way is <strong>R</strong> on the keyboard.</p></li>
+<li>
+<p><strong>Reverse Way</strong></p>
+<p>Reverse way is used to change the direction of the way. All ways in OSM have a direction which is shown in JOSM with arrows on the way. The direction is very useful for mapping roads that have one way direction and river flow (upstream to downstream). In this case, you need to reverse the direction of the way, so the way is in the right direction. How to use reverse way is click on the way that you want to change the direction, then go to tools menu and click <strong>Reverse Ways</strong>. The shortcut key to use reverse way is <strong>R</strong> on the keyboard.</p>
+</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0420_Tampilan_reverse_ways.png" alt="Reverse way tool" />
-<p align="center"><i>Reverse way tool</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0420_Tampilan_reverse_ways.png" alt="Reverse way tool"></p>
+<!-- raw HTML omitted -->
 <ul>
-<li><p><strong>Simplify Way</strong></p>
-
-<p>If your way is has too many nodes and you want to make it simpler, simplify way menu will delete some of the nodes on the way. This tool also used to speed up when uploading data because it removes several nodes that are on the way. To use simplify way is click on the way that you want to simplify, then go to the menu tools and click <strong>Simplify Way</strong>. The shortcut key to simplify way is <strong>Shift + Y</strong> on your keyboard<em>.</em></p></li>
+<li>
+<p><strong>Simplify Way</strong></p>
+<p>If your way is has too many nodes and you want to make it simpler, simplify way menu will delete some of the nodes on the way. This tool also used to speed up when uploading data because it removes several nodes that are on the way. To use simplify way is click on the way that you want to simplify, then go to the menu tools and click <strong>Simplify Way</strong>. The shortcut key to simplify way is <strong>Shift + Y</strong> on your keyboard_._</p>
+</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0421_Tampilan_simplify_way.png" alt="Simplify way tool" />
-<p align="center"><i>Simplify way tool</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0421_Tampilan_simplify_way.png" alt="Simplify way tool"></p>
+<!-- raw HTML omitted -->
 <ul>
-<li><p><strong>Align Nodes in Circle</strong></p>
-
-<p>If you have difficulty to draw a circle in OSM, you can use align nodes in circle tool to create a perfect circle shape. To use this tool, you should draw a not perfect circle, click it, then go to tools menu and choose <strong>Align Nodes in Circle</strong>. The shortcut key for align nodes in circle is <strong>O</strong> on your keyboard.</p></li>
+<li>
+<p><strong>Align Nodes in Circle</strong></p>
+<p>If you have difficulty to draw a circle in OSM, you can use align nodes in circle tool to create a perfect circle shape. To use this tool, you should draw a not perfect circle, click it, then go to tools menu and choose <strong>Align Nodes in Circle</strong>. The shortcut key for align nodes in circle is <strong>O</strong> on your keyboard.</p>
+</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0422_Tampilan_Align_Nodes_in_Circle.png" alt="Align Nodes in Circle tool" />
-<p align="center"><i>Align Nodes in Circle tool</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0422_Tampilan_Align_Nodes_in_Circle.png" alt="Align Nodes in Circle tool"></p>
+<!-- raw HTML omitted -->
 <ul>
-<li><p><strong>Create Circle</strong></p>
-
-<p>As an alternative to create circles, you can use <strong>Create circle</strong> tool. It will make a circle from the diameter of the circle (only requires a line way of two nodes). To use this create circle is to draw a way or line that represents the diameter of the circle you want to draw, then go to tools menu and click <strong>Create Circle</strong>. The shortcut key for create circle is <strong>Shift+O</strong> on your keyboard.</p></li>
+<li>
+<p><strong>Create Circle</strong></p>
+<p>As an alternative to create circles, you can use <strong>Create circle</strong> tool. It will make a circle from the diameter of the circle (only requires a line way of two nodes). To use this create circle is to draw a way or line that represents the diameter of the circle you want to draw, then go to tools menu and click <strong>Create Circle</strong>. The shortcut key for create circle is <strong>Shift+O</strong> on your keyboard.</p>
+</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0423_Tampilan_create_cirle.png" alt="Create circle tool" />
-<p align="center"><i>Create circle tool</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0423_Tampilan_create_cirle.png" alt="Create circle tool"></p>
+<!-- raw HTML omitted -->
 <ul>
-<li><p><strong>Align Nodes in Line</strong></p>
-
-<p>This tool function is to convert irregular line/way into straight shapes. Be careful if you use this tool because it has a slight tendency to shift lines/ways. Remember that this tool will straighten the shape of the line according to the location of the starting point and end of the line. To use this tool is click the line/way that you want to align, then go to tools menu and click <strong>Align Nodes in Line</strong>. The shortcut key for align nodes in line is <strong>L</strong> on your keyboard.</p></li>
+<li>
+<p><strong>Align Nodes in Line</strong></p>
+<p>This tool function is to convert irregular line/way into straight shapes. Be careful if you use this tool because it has a slight tendency to shift lines/ways. Remember that this tool will straighten the shape of the line according to the location of the starting point and end of the line. To use this tool is click the line/way that you want to align, then go to tools menu and click <strong>Align Nodes in Line</strong>. The shortcut key for align nodes in line is <strong>L</strong> on your keyboard.</p>
+</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0424_Tampilan_align_nodes_in_line.png" alt="Align nodes in line tool" />
-<p align="center"><i>Align nodes in line tool</i></p></p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0425_Contoh_setelah_menggunakan_align_nodes_in_line.png" alt="Before and after using align nodes in line" />
-<p align="center"><i>Before and after using align nodes in line</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0424_Tampilan_align_nodes_in_line.png" alt="Align nodes in line tool"></p>
+<!-- raw HTML omitted -->
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0425_Contoh_setelah_menggunakan_align_nodes_in_line.png" alt="Before and after using align nodes in line"></p>
+<!-- raw HTML omitted -->
 <ul>
-<li><p><strong>Orthogonalize Shape</strong></p>
-
-<p>Orthogonalize shape is very useful to make a polygon that have irregular angles into rectangular shape, like building. After you draw a building, orthogonalize shape will form a building that has 90’ square angle. How to use orthogonalize shape is click on the object that you want to change the shape, then go to tools menu and select <strong>Orthogonalize Shape</strong>. The shortcut key for orthogonalize shapes is **Q **on your keyboard.</p></li>
+<li>
+<p><strong>Orthogonalize Shape</strong></p>
+<p>Orthogonalize shape is very useful to make a polygon that have irregular angles into rectangular shape, like building. After you draw a building, orthogonalize shape will form a building that has 90’ square angle. How to use orthogonalize shape is click on the object that you want to change the shape, then go to tools menu and select <strong>Orthogonalize Shape</strong>. The shortcut key for orthogonalize shapes is **Q **on your keyboard.</p>
+</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0426_Tampilan_orthogonalize_shape.png" alt="Orthogonalize shape tool" />
-<p align="center"><i>Orthogonalize shape tool</i></p></p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0427_Contoh_setelah_menggunakan_orthogonalize_shape.png" alt="Before and after using orthogonalize shape" />
-<p align="center"><i>Before and after using orthogonalize shape</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0426_Tampilan_orthogonalize_shape.png" alt="Orthogonalize shape tool"></p>
+<!-- raw HTML omitted -->
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0427_Contoh_setelah_menggunakan_orthogonalize_shape.png" alt="Before and after using orthogonalize shape"></p>
+<!-- raw HTML omitted -->
 <ul>
-<li><p><strong>Unglue Way</strong></p>
-
-<p>Unglue way has a function to release the connected nodes. Unglue way is useful when two objects are in the same nodes even though it should not. For example, a common mistake is that a road has the same node with building. Of course in the field, roads cannot join to buildings, so this is a mistake. To fix this, you can release one object from another. To use unglue way is to click the node that sticks together between two objects, and then go to the tools menu and select <strong>Unglue Way</strong>. The shortcut key for unglue way is <strong>G</strong> on the keyboard. You need to remember that if you use this tool, between two objects that you were unglue way before will not automatically separate, you should move one of the objects.</p></li>
+<li>
+<p><strong>Unglue Way</strong></p>
+<p>Unglue way has a function to release the connected nodes. Unglue way is useful when two objects are in the same nodes even though it should not. For example, a common mistake is that a road has the same node with building. Of course in the field, roads cannot join to buildings, so this is a mistake. To fix this, you can release one object from another. To use unglue way is to click the node that sticks together between two objects, and then go to the tools menu and select <strong>Unglue Way</strong>. The shortcut key for unglue way is <strong>G</strong> on the keyboard. You need to remember that if you use this tool, between two objects that you were unglue way before will not automatically separate, you should move one of the objects.</p>
+</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0428_Tampilan_unglue_way.png" alt="Unglue way tool" />
-<p align="center"><i>Unglue way tool</i></p></p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0429_Contoh_setelah_menggunakan_unglue_way.png" alt="Before and after using unglue way" />
-<p align="center"><i>Before and after using unglue way</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0428_Tampilan_unglue_way.png" alt="Unglue way tool"></p>
+<!-- raw HTML omitted -->
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0429_Contoh_setelah_menggunakan_unglue_way.png" alt="Before and after using unglue way"></p>
+<!-- raw HTML omitted -->
 <p>Sometimes there are questions about how to rotate a line or polygon after the object is drawn. There are the steps:</p>
-
 <ul>
 <li>To rotate an object, first select the object that you want to rotate.</li>
 <li>Hold <strong>SHIFT + CTRL</strong> on your keyboard.</li>
 <li>Click and drag the mouse to rotate.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0430_Konsep_memutar_objek_di_JOSM.png" alt="The concept of rotating objects in JOSM" />
-<p align="center"><i>The concept of rotating objects in JOSM</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0430_Konsep_memutar_objek_di_JOSM.png" alt="The concept of rotating objects in JOSM"></p>
+<!-- raw HTML omitted -->
 <p><strong>b. Shortcut in Keyboard</strong></p>
-
 <p>After editing in OpenStreetMap, you will realize that you have difficulty to find the tools location in tools menu. To resolve this, JOSM has shortcuts keyboard for everything. This aims to make it easier for you without having to click on the object and then go through a long menu and sub-menu process. You can choose the object then press the shortcut on your keyboard. There are some of the frequently used shortcut keys:</p>
-
 <p>Table of Some Shortcut Keys in JOSM</p>
-
 <table>
 <thead>
 <tr>
@@ -748,82 +525,59 @@ https://github.com/hotosm/hugo-book
 <th>Symbol</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>1</td>
 <td>Activate Select Tool</td>
-<td><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0431_Select_Tool.png" alt="" /></td>
+<td><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0431_Select_Tool.png" alt=""></td>
 </tr>
-
 <tr>
 <td>2</td>
 <td>Activate Draw Tool</td>
-<td><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0432_Draw_Tool.png" alt="" /></td>
+<td><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0432_Draw_Tool.png" alt=""></td>
 </tr>
-
 <tr>
 <td>3</td>
 <td>Activate Zoom Tool</td>
-<td><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0433_Zoom_Tool.png" alt="" /></td>
+<td><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0433_Zoom_Tool.png" alt=""></td>
 </tr>
-
 <tr>
 <td>4</td>
 <td>Delete Selected Object</td>
-<td><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0434_Hapus.png" alt="" /></td>
+<td><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0434_Hapus.png" alt=""></td>
 </tr>
-
 <tr>
 <td>5</td>
 <td>Zoom In</td>
-<td><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0435_Zoom_In.png" alt="" /></td>
+<td><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0435_Zoom_In.png" alt=""></td>
 </tr>
-
 <tr>
 <td>6</td>
 <td>Zoom Out</td>
-<td><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0436_Zoom_Out.png" alt="" /></td>
+<td><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0436_Zoom_Out.png" alt=""></td>
 </tr>
 </tbody>
 </table>
-
 <h3 id="iii-editing-tips"><strong>III. Editing Tips</strong></h3>
-
 <p>There are some common mistakes that users made when start to use OpenStreetMap. Here are some mistakes that are often made and some tips or brief instructions to map better.</p>
-
 <p><strong>1. Objects That Should Not Connected</strong></p>
-
 <p>When you create polygons and lines/ways that should not connected, make sure that they are not connected by a node. For example, highway node should not connect to building node, even though in reality there are buildings located in front of road, but there is still a little space that separates the building and the road. If you want to separate two or more objects that are connected in one node, click on the node that sticks together between two or more objects, and then go to the <strong>Tools →  UnGlue Ways</strong>  or the shortcut is <strong>G</strong> on the keyboard, then move the object.</p>
-
-<p><img src="../../../../../id/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0437_Objek_bangunan_dan_jalan_yang_tersambung_dan_objek_bangunan_dan_jalan_yang_terpisah.png" alt="(Left) Building and road are connected and (right) building and road are separated" />
-<p align="center"><i>(Left) Building and road are connected and (right) building and road are separated</i></p></p>
-
+<p><img src="../../../../../id/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0437_Objek_bangunan_dan_jalan_yang_tersambung_dan_objek_bangunan_dan_jalan_yang_terpisah.png" alt="(Left) Building and road are connected and (right) building and road are separated"></p>
+<!-- raw HTML omitted -->
 <p><strong>2. Objects That Should Connected</strong></p>
-
 <p>Previously you learn about object that should not connected. Now you will learn about object that should connected, for example intersections that should always connected to node. If they are not connected at one node, then JOSM does not know that the road is actually connected to each other. Therefore, if there are roads not connected to each other, you can fix them by selecting the node of the road that you want to connect, then go to <strong>Tools</strong>→  <strong>Merge Nodes</strong> or press <strong>M</strong> on your keyboard.</p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0438_Jalan_harus_terhubung_satu_sama_lain.png" alt="Road should be connected to each other" />
-<p align="center"><i>Road should be connected to each other</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0438_Jalan_harus_terhubung_satu_sama_lain.png" alt="Road should be connected to each other"></p>
+<!-- raw HTML omitted -->
 <p><strong>3. Overlap Objects</strong></p>
-
 <p>One common mistake when drawing in JOSM are overlap object or polygon. A building cannot overlap with other buildings. For example, residential land use polygons should not overlap with garden polygons.</p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0439_Contoh_poligon_yang_saling_overlap.png" alt="Examples of overlapping polygons" />
-<p align="center"><i>Examples of overlapping polygons</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0439_Contoh_poligon_yang_saling_overlap.png" alt="Examples of overlapping polygons"></p>
+<!-- raw HTML omitted -->
 <p>There are some exceptions to this rule, for example school building. In the school area you may want to identify buildings using polygons, but maybe you also want to create a polygon that covers the entire school area include the yard. In this case, polygons are allowed to overlap, but the rule is all the buildings should inside school area polygon.</p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0440_Contoh_sekolah_dengan_poligon_keseluruhan_halaman_sekolah_dan_bangunannya.png" alt="Examples of schools with polygons include the school yard and building" />
-<p align="center"><i>Examples of schools with polygons include the school yard and building</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0440_Contoh_sekolah_dengan_poligon_keseluruhan_halaman_sekolah_dan_bangunannya.png" alt="Examples of schools with polygons include the school yard and building"></p>
+<!-- raw HTML omitted -->
 <p><strong>4. Other Tips</strong></p>
-
 <p>When drawing in JOSM, there are other mistakes that often happenned. There are the mistakes also the tips for avoiding it.</p>
-
 <p>Table of Mistakes and Tips</p>
-
 <table>
 <thead>
 <tr>
@@ -831,254 +585,195 @@ https://github.com/hotosm/hugo-book
 <th>Tips</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
-<td>Tags are given to nodes, not to objects (for example: buildings) <img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0441_Contoh_bangunan_yang_diberikan_tag_yang_salah_dan_benar.png" alt="" /></td>
+<td>Tags are given to nodes, not to objects (for example: buildings) <img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0441_Contoh_bangunan_yang_diberikan_tag_yang_salah_dan_benar.png" alt=""></td>
 <td>One common problem that often happen is adding tags to a node that a part of a line/way or polygon. This often happens when someone draws an object, then selects all objects (include select all nodes). Then someone add the preset, so the tag is in every nodes of the polygon, this is wrong.</td>
 </tr>
-
 <tr>
-<td>Intersections at a corner or intersection must be separated <img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0442_Contoh_pembuatan_simpangan_yang_salah_dan_benar.png" alt="" /></td>
+<td>Intersections at a corner or intersection must be separated <img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0442_Contoh_pembuatan_simpangan_yang_salah_dan_benar.png" alt=""></td>
 <td>When roads intersect with each other at a corner of the road, you should not make curved lines at the intersection. The line should have an angle of 90° and separate into two different line segments, as in actual conditions on the ground.</td>
 </tr>
-
 <tr>
-<td>No tag on object <img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0443_Contoh_tidak_ada_tag_pada_node_atau_garis.png" alt="" /></td>
-<td>To fix this error, select the object and go to presets menu to add the tag based on  object&rsquo;s information or it can be deleted if the object is a mistake. This is because, the OSM server cannot read the object that does not have tags/presets (object information).</td>
+<td>No tag on object <img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0443_Contoh_tidak_ada_tag_pada_node_atau_garis.png" alt=""></td>
+<td>To fix this error, select the object and go to presets menu to add the tag based on  object's information or it can be deleted if the object is a mistake. This is because, the OSM server cannot read the object that does not have tags/presets (object information).</td>
 </tr>
-
 <tr>
-<td>Line/way are close to other line/way but not connected <img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0444_Contoh_garis_jalan_yang_tidak_saling_terhubung.png" alt="" /></td>
+<td>Line/way are close to other line/way but not connected <img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0444_Contoh_garis_jalan_yang_tidak_saling_terhubung.png" alt=""></td>
 <td>To fix this, you can select the point of the line that you want to connect and then select Draw nodes tools to add points on the horizontal line/way in front of it. Alternatively, you can use Merge Node (if in front of the unconnected line is a node) there are the steps: Select the two adjacent nodes, which are inside the two lines/way that you want to connect. Select Merge Node in tools menu. If in front of the unconnected line there is no node, you can use Join Node to Way: Select the last node of the unconnected line and also select the line that is in front of the unconnected line. Select the Join Node to Way in the Tools menu.</td>
 </tr>
-
 <tr>
-<td>Line/way may not pass through buildings <img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0445_Contoh_salah_garis_melewati_bangunan.png" alt="" /></td>
+<td>Line/way may not pass through buildings <img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0445_Contoh_salah_garis_melewati_bangunan.png" alt=""></td>
 <td>To resolve this, you need to look at satellite imagery which objects in the wrong location. Then you can move the object to the appropriate place. Example of line/way that can not cross building is river.</td>
 </tr>
 </tbody>
 </table>
-
 <h3 id="iv-drawing-special-object"><strong>IV. Drawing Special Object</strong></h3>
-
 <p>Now you have learned how to draw an object in OSM using JOSM and what should you consider in drawing an object in JOSM. When you try to draw an object using satellite imagery, you will see several objects need special technique drawing, such as bridge, office, or large road that have barrier.</p>
-
 <p><strong>1. Drawing Bridge</strong></p>
-
 <p>Bridge can be found on a river network. However in OSM, you can not just draw a line/road over the river. If you do that, technically your editing in JOSM can still be uploaded on OSM, but it will be a warning in the system. Then, how to draw the correct bridge? There are the steps how to draw a bridge.</p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0446_Contoh_objek_jembatan.png" alt="Bridge object" />
-<p align="center"><i>Bridge object</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0446_Contoh_objek_jembatan.png" alt="Bridge object"></p>
+<!-- raw HTML omitted -->
 <p>There are the steps how to draw a bridge:</p>
-
 <ul>
 <li>First, draw a river network.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0447_Contoh_gambar_jaringan_sungai.png" alt="Example of river network" />
-<p align="center"><i>Example of river network</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0447_Contoh_gambar_jaringan_sungai.png" alt="Example of river network"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>Draw road network that cross above the river.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0448_Contoh_gambar_jaringan_jalan_di_atas_sungai.png" alt="Example of road network above the river" />
-<p align="center"><i>Example of road network above the river</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0448_Contoh_gambar_jaringan_jalan_di_atas_sungai.png" alt="Example of road network above the river"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>Zoom in the imagery satellite, you will see the left and right end of the bridge.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0449_Contoh_gambar_ujung_jembatan.png" alt="Example of the end of the bridge" />
-<p align="center"><i>Example of the end of the bridge</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0449_Contoh_gambar_ujung_jembatan.png" alt="Example of the end of the bridge"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>On the road line, make nodes that coincide with the left and right ends of the bridge.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0450_Gambar_titik_di_setiap_ujung_jembatan.png" alt="Nodes in the end of the bridge" />
-<p align="center"><i>Nodes in the end of the bridge</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0450_Gambar_titik_di_setiap_ujung_jembatan.png" alt="Nodes in the end of the bridge"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>Next, you will separate the line into bridge line and road line. Click on the two nodes you just created, which are the left and right end of the bridge, then go to <strong>Tools →  Split Way</strong>.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0451_Contoh_split_way.png" alt="Example of split way" />
-<p align="center"><i>Example of split way</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0451_Contoh_split_way.png" alt="Example of split way"></p>
+<!-- raw HTML omitted -->
 <ul>
-<li>So, the line that was only one segment line/road, now divided into three segments, that are (1) road network on the left side of the bridge, (2) the bridge, and (3) road network on the right side of the bridge.
-
-<br /></li>
+<li>So, the line that was only one segment line/road, now divided into three segments, that are (1) road network on the left side of the bridge, (2) the bridge, and (3) road network on the right side of the bridge.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0452_Jalan_sudah_terbagi_menjadi_tiga_segmen.png" alt="The road has been divided into three segments" />
-<p align="center"><i>The road has been divided into three segments</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0452_Jalan_sudah_terbagi_menjadi_tiga_segmen.png" alt="The road has been divided into three segments"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>Next step is to give a tag that the object is a bridge. Now, click on the bridge, then go to <strong>Preset →  Man Made → Bridges → Bridge</strong>.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0453_Cara_menambahkan_jembatan.png" alt="How to add bridge tag/preset" />
-<p align="center"><i>How to add bridge tag/preset</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0453_Cara_menambahkan_jembatan.png" alt="How to add bridge tag/preset"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>There is a bridge preset window will open. Just fill in the description <strong>Bridge=yes</strong> dan <strong>Layer=1</strong>. Layer=1 to add information that the bridge is one level higher than the ground.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0453_Cara_menambahkan_jembatan.png" alt="Information that you should fill for bridge" />
-<p align="center"><i>Information that you should fill for bridge</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0453_Cara_menambahkan_jembatan.png" alt="Information that you should fill for bridge"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>Finish.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0455_Contoh_gambar_jembatan_yang_sudah_berhasil_dibuat.png" alt="Examples of bridge that have been successfully created" />
-<p align="center"><i>Examples of bridge that have been successfully created</i></p></p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0456_Contoh_gambar_jembatan_dan_informasinya_di_bagian_panel_tags.png" alt="Examples of bridge and information on the tags panel" />
-<p align="center"><i>Examples of bridge and information on the tags panel</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0455_Contoh_gambar_jembatan_yang_sudah_berhasil_dibuat.png" alt="Examples of bridge that have been successfully created"></p>
+<!-- raw HTML omitted -->
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0456_Contoh_gambar_jembatan_dan_informasinya_di_bagian_panel_tags.png" alt="Examples of bridge and information on the tags panel"></p>
+<!-- raw HTML omitted -->
 <p><strong>2. Draw School, Offices, or Buildings</strong></p>
-
 <p>A school, hospital, or office building sometimes not stand alone, but consists of several buildings. In this sub-chapter, you will learn how to draw school area that has several buildings and objects. See the example image below:</p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0457_Contoh_beberapa_bangunan_sekolah.png" alt="Examples of school with several buildings" />
-<p align="center"><i>Examples of school with several buildings</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0457_Contoh_beberapa_bangunan_sekolah.png" alt="Examples of school with several buildings"></p>
+<!-- raw HTML omitted -->
 <p>Some people draw it as very large building, bounded by a circular fence (picture a). Others draw each building in one area separately, then each building given a tag (picture b). With the second way, it will be calculated more than one school. This is a wrong way to draw the school area.</p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0458_Gambar_a_dan_gambar_b.png" alt="Picture a and picture b" />
-<p align="center"><i>Picture a and picture b</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0458_Gambar_a_dan_gambar_b.png" alt="Picture a and picture b"></p>
+<!-- raw HTML omitted -->
 <p>So how to draw school or other building area that have several buildings in correct way? There are the steps:</p>
-
 <ul>
 <li>First, draw objects from the school area that are inside the school fence or outermost area, such as classrooms, parking lots, mosque, and field. Give them tags based on their object type.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0459_Contoh_gambar_objek_objek_yang_terdapat_di_dalam_sekolah.png" alt="Drawing of objects in the school" />
-<p align="center"><i>Drawing of objects in the school</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0459_Contoh_gambar_objek_objek_yang_terdapat_di_dalam_sekolah.png" alt="Drawing of objects in the school"></p>
+<!-- raw HTML omitted -->
 <ul>
-<li>After all the elements are drawn, draw the fence or outermost border of the school and giving the tag as <strong>amenity = school.</strong>
-<br /></li>
+<li>After all the elements are drawn, draw the fence or outermost border of the school and giving the tag as <strong>amenity = school.</strong></li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0460_Gambar_garis_terluar_dari_sekolah.png" alt="Draw the outer line of the school" />
-<p align="center"><i>Draw the outer line of the schoolh</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0460_Gambar_garis_terluar_dari_sekolah.png" alt="Draw the outer line of the school"></p>
+<!-- raw HTML omitted -->
 <p>If you draw it like the picture above, then you have successfully made a picture of the school area correctly.</p>
-
 <p><strong>3. Drawing a Road Network with Barrier</strong></p>
-
 <p>A road network can be found in simple form (1-3 meters wide and without barrier) (picture a), but can also be found in complex form, which are very wide (10-20 meters) and there is a barrier.</p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0461_Gambar_a_dan_Gambar_b.png" alt="Picture a and Picture b" />
-<p align="center"><i>Picture a and Picture b</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0461_Gambar_a_dan_Gambar_b.png" alt="Picture a and Picture b"></p>
+<!-- raw HTML omitted -->
 <p>To draw a simple road network, of course it is very easy, which is enough to draw it with one line. However, to draw a road network that has a barrier in the middle of the road, you must draw one way road that are separate with other roads. The picture below is part of the Thamrin road section, Central Jakarta. This road has a width of approximately 40 meters, and there is a barrier in the middle of the road, which separates vehicle from the north and from the south.</p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0462_Sebagian_Jalan_Thamrin.png" alt="Part of Thamrin road" />
-<p align="center"><i>Part of Thamrin road</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0462_Sebagian_Jalan_Thamrin.png" alt="Part of Thamrin road"></p>
+<!-- raw HTML omitted -->
 <p>To draw Thamrin road, you must draw two lines, which one road is passed by vehicles from the north and the other road is passed by vehicles from the south. There are the steps for draw a road like Thamrin road:</p>
-
 <ul>
 <li>First, draw a line from bottom to top (south to north), then give tag <strong>highway=primary</strong>, <strong>name=Jalan Thamrin</strong>, and <strong>oneway=yes</strong>. Then, draw a line from top to bottom (north to south), then give tag <strong>highway=primary</strong>, <strong>name=Jalan Thamrin</strong>, and <strong>oneway=yes</strong>.</li>
 </ul>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0462_Sebagian_Jalan_Thamrin.png" alt="Draw road from bottom to top (south to north)" />
-<p align="center"><i>Draw road from bottom to top (south to north)</i></p></p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0464_Gambar_jalan_dari_atas_ke_bawah_utara_ke_selatan.png" alt="Draw road from top to bottom (north to south)" />
-<p align="center"><i>Draw road from top to bottom (north to south)</i></p></p>
-
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0462_Sebagian_Jalan_Thamrin.png" alt="Draw road from bottom to top (south to north)"></p>
+<!-- raw HTML omitted -->
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0464_Gambar_jalan_dari_atas_ke_bawah_utara_ke_selatan.png" alt="Draw road from top to bottom (north to south)"></p>
+<!-- raw HTML omitted -->
 <p>Please pay attention to the direction of the arrow on both lines. On the first line, the direction of the up arrow means that the road segment is passed by vehicles from south to north. On the second line, the direction of the down arrow means the road segment is passed by vehicles from north to south.</p>
-
 <p>If a road has four different segments (that means have three barriers), for example a slow lane to the north, a fast lane to the north, a slow lane to the south, and a fast lane to the south; then you have to draw the road with four lines. For example on Jalan Sudirman, Central Jakarta.</p>
-
-<p><img src="en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0465_Salah_satu_bagian_Jalan_Sudirman_Jakarta_Pusat.png" alt="Part of Jalan Sudirman, Central Jakarta, which have four segments (three barriers)" />
-<p align="center"><i>Part of Jalan Sudirman, Central Jakarta, which have four segments (three barriers)</i></p></p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0466_Tampilan_ruas_jalan_di_atas_pada_citra_satelit.png" alt="Sudirman road segments on satellite imagery" />
-<p align="center"><i>Sudirman road segments on satellite imagery</i></p></p>
-
-<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0467_Ruas_jalan_tersebut_meskipun_merupakan_1_jalan_yang_sama_yaitu_jalan_sudirman.png" alt="road segments" />
-<p align="center"><i>That road segments, although it is the same road, namely Sudirman road, but have four segments; on OSM, illustrated with four different lines</i></p></p>
-
+<p><img src="en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0465_Salah_satu_bagian_Jalan_Sudirman_Jakarta_Pusat.png" alt="Part of Jalan Sudirman, Central Jakarta, which have four segments (three barriers)"></p>
+<!-- raw HTML omitted -->
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0466_Tampilan_ruas_jalan_di_atas_pada_citra_satelit.png" alt="Sudirman road segments on satellite imagery"></p>
+<!-- raw HTML omitted -->
+<p><img src="../../../../../en/images/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/0467_Ruas_jalan_tersebut_meskipun_merupakan_1_jalan_yang_sama_yaitu_jalan_sudirman.png" alt="road segments"></p>
+<!-- raw HTML omitted -->
 <p><strong>SUMMARY</strong></p>
-
 <p>Congratulations! You have learned how to use tools menu or any tools in JOSM that can help you to map objects in OSM. You have also learned editing tips that will be useful when you editing with JOSM. In the next module, you will learn more about the process to edit the OSM map in JOSM.</p>
-</article>
-
-      
-<div class="align-center book-git-footer justify-between">
-    
-  <div>
-    <a href="https://github.com/hotosm/pdc-documentation/edit/master/content/pages/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/04_Menggunakan_Java_OpenStreetMap_JOSM.md" target="_blank" rel="noopener">
-       Edit this page on GitHub
-    </a>
-  </div>
-  
-  
-  <div>
-    <a href="https://github.com/hotosm/pdc-documentation/commit/9eb715f57f792d4e6a32fdf9d7b13b87efddac22" title='Last modified October 7, 2019 09:26 UTC by Fatisya Ilani Yusuf' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Oct 7, 2019
-    </a>
-  </div>
-  
-
 </div>
 
 
+
+
+    
+
+    
+
+    
+     
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+<a class="next-page" href="../../../../../en/pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/">
+    <div class="next-page__container">
+            <div class="sub-title sub-title-10">READ NEXT</div>
+            <div class="next-title">Adding Survey Data into OSM Using JOSM</div>
     </div>
+    <img src="../../../../../svg/forward-arrow.svg" alt="">
+</a>
 
+</div></main>
+    <aside class="toc"><div class="toc__container">
     
-  
-  
-  <aside class="book-toc fixed">
     
-      
-    <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#i-basic-drawing-techniques-with-josm"><strong>I. Basic Drawing Techniques with JOSM</strong></a></li>
-<li><a href="#ii-advance-drawing-technique-with-josm"><strong>II. Advance Drawing Technique with JOSM</strong></a></li>
-<li><a href="#iii-editing-tips"><strong>III. Editing Tips</strong></a></li>
-<li><a href="#iv-drawing-special-object"><strong>IV. Drawing Special Object</strong></a></li>
-</ul></li>
-</ul></li>
-</ul>
+    
+    
+    <div class="toc-list">
+        <h4 class="sub-title sub-title-10">ON THIS PAGE</h4>
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#i-basic-drawing-techniques-with-josm">I. Basic Drawing Techniques with JOSM</a></li>
+        <li><a href="#ii-advance-drawing-technique-with-josm">II. Advance Drawing Technique with JOSM</a></li>
+        <li><a href="#iii-editing-tips">III. Editing Tips</a></li>
+        <li><a href="#iv-drawing-special-object">IV. Drawing Special Object</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
+    </div>
+    <hr class="toc-divider">
     
-  </aside>
-
-
-
-  </main>
-
-  
-  
-  <footer class="footer">
-
-    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
-    <a href="https://github.com/hotosm/pdc-documentation" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-    </svg></a>
     
-
-  </footer>
-  
-  <script src="../../../../../js/search.js"></script>
-  
-
-  
-</body>
-
+    <a href="https://github.com/hotosm/pdc-documentation/edit/master/content/en/pages/03-JOSM/04-Menggunakan-Java-OpenStreetMap-JOSM/04_Menggunakan_Java_OpenStreetMap_JOSM.md" class="sub-title sub-title-12 toc-item"> <img src="../../../../../svg/pencil.svg" class="edit-icon" alt="">Edit this page on Github</a>
+    <a 
+    
+    href="../../../../../pdfs/en/04_Menggunakan_Java_OpenStreetMap_JOSM.pdf"
+    
+    class="sub-title sub-title-12 toc-item"> <img src="../../../../../svg/download.svg" class="download-icon" alt="">Download this page</a>
+</div></aside>
+</div>
+<script src="../../../../../js/main.js"></script>
+<script src="../../../../../js/search.js"></script>
+<script src="../../../../../js/toc.js"></script></body>
 </html>

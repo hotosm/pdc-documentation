@@ -1,844 +1,620 @@
-<!DOCTYPE html><html>
-
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HOT-PDC Training Site</title>
-<link rel="icon" type="image/png" sizes="32x32" href="../../../../favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../../../../favicon-16x16.png">
-<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
-<script src="https://unpkg.com/lunr/lunr.js"></script>
-
-
-
-<link rel="stylesheet" href="../../../../normalize.min.css">
-
-<link rel="stylesheet" href="../../../../book.min.b0e8214cbf05079a2aba369158e0410c2515a8def4c0b44254eefada553ab758.css">
-
-<!--
-Made with Book Theme
-https://github.com/hotosm/hugo-book
--->
-  
-</head>
-
-<body>
-  <header class="header-nav" id="nav">
-    <div class="nav-container">
-      <a class="nav-title with-logo" href="../../../../">
-        <img class="logo" src="../../../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
-        <span>HOT-PDC Training Site</span>
-      </a>
-      <a class="nav-guide-link guide-active" href="../../../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/" >Guide</a>
-      <div class="hr-v"></div>
-      <a class="nav-pdf-download" 
-      
-      href="../../../../pdfs/id/HOT-PDC_Training_Site.pdf">
-      
-      Download PDF &nbsp;
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
-        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
-          <polygon points="0 0 20 0 20 20 0 20"/>
-          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
-        </g>
-      </svg>
-      </a>
-      <input type="checkbox" style="display: none" id="menu-control" />      
-    </div>
-    <div class="nav-right">
-    
-    
-    
-    
-
-    
-    <div class="hr-v"></div>
-    <div class="language">
-      <button class="language-btn">Language: id</button>
-      <div class="language-dropdown">
+<!DOCTYPE html>
+<html><head>
+   <link rel="icon" type="image/png" sizes="32x32" href="../../../../favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="../../../../favicon-16x16.png">
+   <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+   <script src="../../../../js/vendor/lunr/lunr.min.js"></script>
+   
+   
+   
+   
+   <link rel="stylesheet" href="../../../../scss/main.css">
+   <title>HOT-PDC Training Site</title>
+</head><body data-site-url='https://hotosm.github.io/pdc-documentation'  data-default-lang='id' data-lang='id'   ><header class="header" >
+    <div class="header__container">
+        <img src="https://hotosm.github.io/pdc-documentation/svg/hot-logo-red.svg" alt="hot logo"><a href="https://hotosm.github.io/pdc-documentation" class="no-underline"><h4 class="title site-title">HOT-PDC Training Site</h4></a>
+        <div>
         
-          
-          
-          <a href="../../../../">Indonesia</a>
-          
-         
-          
-            <a href="../../../../en">English</a>
-          
-         
-      </div>
+    </div><ul class="browse-select-options browse-select-options--hidden js-browse-select-options">
+
+</ul></div>
+        
+        <a class="hotosm-link" href="https://hotosm.org">hotosm.org</a> 
+        <div class="hamburger-icon"></div>
     </div>
-    
-
-    <div class="language-select"></div>
-    <div class="languages">
-    </div>
-    
-    <div class="hr-v"></div>
-    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../../svg/icon-external-red.svg" alt=""></a>
-    </div>
-  </header>
-  <main class="flex container">
-
-    <aside class="book-menu fixed">
-      <nav role="navigation">
-
-
-
-
-<a href="../../../../" >Introduction</a>  
-
-    
-
-
-  
-  
-    
-  
- 
-  
-  <ul>
-    
-    <li>
-    
-    Panduan OpenStreetMap untuk Surveyor 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/">
-    Metodologi Pengumpulan Data</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/">
-    Menggunakan Aplikasi ODK Collect</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/">
-    Menggunakan Aplikasi OpenMapKit</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/">
-    Menggunakan Aplikasi OSMTracker</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/">
-    Menggunakan GPS</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    HOT Tasking Manager 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/">
-    Membuat dan Mengelola Tasking Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/">
-    Penggunaan Tasking Manager</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    JOSM 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/">
-    Pengenalan OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/">
-    Memulai menggunakan OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/">
-    Pengenalan Java OpenStreetMap (JOSM)</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/">
-    Menggunakan Java OpenStreetMap (JOSM)</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/">
-    Menambahkan Data Hasil Survei ke OSM Menggunakan JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/">
-    Menggunakan To-Do List di JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/">
-    Menggunakan Alat Filter di JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/">
-    Menggunakan buildings tools di JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/">
-    Pembuatan Batas Administrasi dengan JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/">
-    Mengatasi Konflik pada Data OpenStreetMap (OSM)</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Validasi Data dan Penjaminan Kualitas 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/">
-    Konsep Penjaminan Kualitas</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/02_penggunaan_josm_untuk_validasi_data_survei/" class="active">
-    Penggunaan JOSM untuk Validasi Data Survei</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/">
-    Penjaminan Kualitas Data dengan Tasking Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/">
-    JOSM untuk Perhitungan Kualitas Data</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Penggunaan HOT Export 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/">
-    Download Data OSM dengan Menggunakan Export Tool</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Panduan Pemetaan Lapangan untuk Manajer Proyek 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/">
-    Metodologi Perencanaan Proyek Pemetaan dengan OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/">
-    Model Data OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/">
-    Membuat Presets</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04_penggunaan_yaml_pada_export_tool/">
-    Penggunaan YAML pada Export Tool</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/">
-    Membuat Formulir Survei untuk Aplikasi ODK Collect &amp; OpenMapKit</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/">
-    Meletakkan Formulir Survei ke Ona.io</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07.pembuatan_peta_survey_dengan_qgis/">
-    Pembuatan Peta Survei dengan Menggunakan QGIS</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/">
-    Pembuatan MBTiles untuk OpenMapKit (OMK)</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09_perhitungan_kuantitas_data_dengan_group_stats/">
-    Perhitungan Kuantitas Data Menggunakan Plugin Group Stats</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/">
-    Konversi Data Shapefile ke GeoJSON</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Menggunakan Map Campaigner 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/">
-    Membuat dan Mengelola Map Campaigner untuk Pemetaan</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Integrasi data OpenStreetMap ke InAWARE 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/">
-    Integrasi Data OpenStreetMap di InAWARE</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-
-    
-    <li>
-      <a href="../../../../pages/01-osm-field-surveyor-guideliness/">
-    
-    Panduan OpenStreetMap untuk Surveyor</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/02-hot-tasking-manager/">
-    
-    HOT Tasking Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/">
-    
-    JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/04-data-validation-and-quality-assurance/">
-    
-    Validasi Data dan Penjaminan Kualitas</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/05-hot-export/">
-    
-    Penggunaan HOT Export</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/">
-    
-    Panduan Pemetaan Lapangan untuk Manajer Proyek</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/07-map-campaigner/">
-    
-    Menggunakan Map Campaigner</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/08-osm-data-integration-to-inaware/">
-    
-    Integrasi data OpenStreetMap ke InAWARE</a>
-    </li>
-    
-  </ul>
-
-
-
-
-
-
-
-
-</nav>
-    </aside>
-
-    <div class="book-page">
-      <header class="align-center justify-between book-header">
-  <label for="menu-control">
-    <img src="../../../../svg/menu.svg" />
-  </label>
-  <strong>
-    Penggunaan JOSM untuk Validasi Data Survei</strong>
 </header>
 
-      
-<article class="markdown">
-  <div class="markdown__header">  <h1>Penggunaan JOSM untuk Validasi Data Survei</h1>
-    <a 
+<div class="main">
+    <aside class="menu">
+        <div class="menu__container">
+
+
+<h2 class="title">HOT-PDC Training Site</h2> 
+
+<div>
     
-    href="../../../../pdfs/id/02_Penggunaan_JOSM_untuk_Validasi_Data_Survei.pdf"
     
-    class="pdf-download-link"> Download page as PDF &nbsp;
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
-        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
-          <polygon points="0 0 20 0 20 20 0 20"/>
-          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
-        </g>
-      </svg>
+    <div class="js-language-select language-select">
+        
+            
+                Indonesia 
+            
+        
+            
+        
+    </div>
+    
+    <ul class="js-language-select-options language-select-options language-select-options--hidden">
+            
+            
+            <li>
+            
+        <a href="https://hotosm.github.io/pdc-documentation/pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/02_penggunaan_josm_untuk_validasi_data_survei/" class="language-select-option 
+        
+        language-select-option--selected
+        
+        ">Indonesia</a>
+        
+    </li>
+        
+            
+            <li>
+            
+        <a href="https://hotosm.github.io/pdc-documentation/en/pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/02_penggunaan_josm_untuk_validasi_data_survei/" class="language-select-option
+        
+        ">English  </a>
+        
+    </li>
+        
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Panduan OpenStreetMap untuk Surveyor
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/" class="menu-link">Metodologi Pengumpulan Data</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/" class="menu-link">Menggunakan Aplikasi ODK Collect</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/" class="menu-link">Menggunakan Aplikasi OpenMapKit</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/" class="menu-link">Menggunakan Aplikasi OSMTracker</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/" class="menu-link">Menggunakan GPS</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            HOT Tasking Manager
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/" class="menu-link">Membuat dan Mengelola Tasking Manager</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/" class="menu-link">Penggunaan Tasking Manager</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            JOSM
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/" class="menu-link">Pengenalan OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/" class="menu-link">Memulai menggunakan OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/" class="menu-link">Pengenalan Java OpenStreetMap (JOSM)</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/" class="menu-link">Menggunakan Java OpenStreetMap (JOSM)</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/" class="menu-link">Menambahkan Data Hasil Survei ke OSM Menggunakan JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/" class="menu-link">Menggunakan To-Do List di JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/" class="menu-link">Menggunakan Alat Filter di JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/" class="menu-link">Menggunakan buildings tools di JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/" class="menu-link">Pembuatan Batas Administrasi dengan JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/" class="menu-link">Mengatasi Konflik pada Data OpenStreetMap (OSM)</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--open
+        
+        ">
+            Validasi Data dan Penjaminan Kualitas
+        </div>
+        <div class="panel
+        
+        panel--open
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/" class="menu-link">Konsep Penjaminan Kualitas</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/02_penggunaan_josm_untuk_validasi_data_survei/" class="menu-link menu-link--active">Penggunaan JOSM untuk Validasi Data Survei</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/" class="menu-link">Penjaminan Kualitas Data dengan Tasking Manager</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/" class="menu-link">JOSM untuk Perhitungan Kualitas Data</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Penggunaan HOT Export
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/" class="menu-link">Download Data OSM dengan Menggunakan Export Tool</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Panduan Pemetaan Lapangan untuk Manajer Proyek
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/" class="menu-link">Metodologi Perencanaan Proyek Pemetaan dengan OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/" class="menu-link">Model Data OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/" class="menu-link">Membuat Presets</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04_penggunaan_yaml_pada_export_tool/" class="menu-link">Penggunaan YAML pada Export Tool</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/" class="menu-link">Membuat Formulir Survei untuk Aplikasi ODK Collect &amp; OpenMapKit</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/" class="menu-link">Meletakkan Formulir Survei ke Ona.io</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07.pembuatan_peta_survey_dengan_qgis/" class="menu-link">Pembuatan Peta Survei dengan Menggunakan QGIS</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/" class="menu-link">Pembuatan MBTiles untuk OpenMapKit (OMK)</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09_perhitungan_kuantitas_data_dengan_group_stats/" class="menu-link">Perhitungan Kuantitas Data Menggunakan Plugin Group Stats</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/" class="menu-link">Konversi Data Shapefile ke GeoJSON</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Menggunakan Map Campaigner
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/" class="menu-link">Membuat dan Mengelola Map Campaigner untuk Pemetaan</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Integrasi data OpenStreetMap ke InAWARE
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/" class="menu-link">Integrasi Data OpenStreetMap di InAWARE</a></li>
+                    
+                </ul>
+            </div>
+    
+
+<a class="pdf-download"  
+    
+    href="../../../../pdfs/id/HOT-PDC_Training_Site.pdf">
+    
+
+    <div>
+        <div class="title">Unduh semua berkas</div>
+        <div class="sub-title sub-title-12">pdf</div>
+    </div>
+</a></div>
+    </aside>
+    <main class="article"><div class="article__container">
+
+ 
+   <div class="git-info">
+<div class="">
+  
+  <div>
+    
+    <a href="https://github.com/hotosm/pdc-documentation/commit/6a2882ec62b66ea53333a84af97bd680642a45b0" class="sub-title sub-title-14" title='Last modified July 29, 2019 by Adityo Dwijananto' target="_blank" rel="noopener">
+      Pembaharuan terakhir: July 29, 2019
     </a>
   </div>
-
-<p><strong>Tujuan Pembelajaran:</strong></p>
-
+  
+</div>
+</div>
+    <div class="article-body">
+           <h1 class="page-title">Penggunaan JOSM untuk Validasi Data Survei</h1><p><strong>Tujuan Pembelajaran:</strong></p>
 <ul>
 <li>Menerapkan cara pengecekkan awal data hasil survei lapangan di JOSM</li>
 <li>Menerapkan cara penjaminan kualitas data hasil survei dengan JOSM</li>
 <li>Memahami jenis-jenis kesalahan dan peringatan yang harus diperbaiki di JOSM</li>
 </ul>
-
 <p>JOSM merupakan <em>software</em> yang paling sering digunakan untuk melakukan pemetaan dan menambahkan data <em>OpenStreetMap</em>. JOSM lebih banyak digunakan karena dapat digunakan secara <em>offline</em> dan memiliki banyak fitur pendukung untuk memudahkan dalam melakukan pemetaan. Salah satu fitur unggulan yang dimiliki oleh JOSM adalah melakukan validasi data. Validasi data merupakan hal yang penting dilakukan untuk menjaga kualitas data <em>OpenStreetMap</em>.</p>
-
-<h3 id="i-tahapan-yang-dibutuhkan-untuk-memeriksa-raw-data-hasil-survei">I. Tahapan yang Dibutuhkan untuk Memeriksa <em>Raw</em> Data Hasil Survei</h3>
-
+<h3 id="i-tahapan-yang-dibutuhkan-untuk-memeriksa--raw--data-hasil-survei">I. Tahapan yang Dibutuhkan untuk Memeriksa <em>Raw</em> Data Hasil Survei</h3>
 <p>Dalam survei lapangan, <em>data entry</em> mengumpulkan dua jenis data yaitu data objek infrastruktur dan data batas administrasi. Sebelum dimasukkan ke dalam JOSM, kedua jenis data tersebut harus diperiksa oleh tim <em>Quality Assurance</em>. Hal ini dilakukan untuk memeriksa kelengkapan atribut yang dikumpulkan yang telah disesuaikan dengan <strong>Pembuatan Model Data OSM</strong> dan objek-objek yang berada didalam suatu area survei apakah sudah semua di ambil datanya.</p>
-
 <ol>
-<li><p><strong>Memeriksa Hasil Survei menggunakan Batas Administrasi</strong></p>
-
+<li>
+<p><strong>Memeriksa Hasil Survei menggunakan Batas Administrasi</strong></p>
 <p>Hasil survei yang telah dikumpulkan harus dicek menggunakan batas administrasi yang ada. Tujuannya untuk melihat apakah seluruh objek yang ada dalam batas administrasi tersebut telah selesai disurvei atau belum. Anda dapat menggunakan batas administrasi yang diperoleh dari BPS atau dengan menggunakan batas administrasi yang telah digambar oleh <em>Quality Assurance</em>.</p>
-
 <ul>
-<li>Silakan Anda buka hasil survei yang telah dikumpulkan. Sebagai contoh, dalam modul ini akan digunakan data hasil survei di daerah Yogyakarta.
-<br /></li>
-</ul>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0201_Contoh_data_hasil_survei_di_Desa_Wedomartani.png" alt="contoh_hasil_survei" />
-    <p align="center"><i>Contoh data hasil survei di Desa Wedomartani, Sleman, Yogyakarta</i></p></p>
-
-<ul>
-<li><p>Setelah itu, silakan Anda buka <em>file</em> batas administrasi yang Anda miliki. Dalam contoh ini akan digunakan data batas desa yang didapatkan dari BPS. Data dari BPS masih dalam format .shp. Untuk dapat dibuka di dalam JOSM, Anda perlu mengubah format data ini menjadi bentuk GeoJSON. Anda dapat membuka materi <strong>Menggunakan GeoJSON</strong> untuk mempelajari bagaimana cara mengubah format data ini.</p>
-
+<li>
+<p>Silakan Anda buka hasil survei yang telah dikumpulkan. Sebagai contoh, dalam modul ini akan digunakan data hasil survei di daerah Yogyakarta.</p>
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0201_Contoh_data_hasil_survei_di_Desa_Wedomartani.png" alt="contoh_hasil_survei"></p>
+<!-- raw HTML omitted -->
+</li>
+<li>
+<p>Setelah itu, silakan Anda buka <em>file</em> batas administrasi yang Anda miliki. Dalam contoh ini akan digunakan data batas desa yang didapatkan dari BPS. Data dari BPS masih dalam format .shp. Untuk dapat dibuka di dalam JOSM, Anda perlu mengubah format data ini menjadi bentuk GeoJSON. Anda dapat membuka materi <strong>Menggunakan GeoJSON</strong> untuk mempelajari bagaimana cara mengubah format data ini.</p>
 <p>Untuk membuka <em>file</em> batas administrasi, silakan pilih menu <strong>File → Open</strong>, kemudian masukkan batas administrasi yang Anda miliki.</p>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0202_Overlay_data_survey_dengan_batas_admin.png" alt="overlay_admin" /></p></li>
-
-<li><p>Anda dapat membandingkan antara sebaran titik yang telah dikumpulkan dengan batas administrasi. Jika menurut Anda titik-titik yang dikumpulkan masih belum memenuhi target pemetaan yang diberikan atau masih ada objek-objek yang belum disurvei, Anda dapat meminta <em>Data Entry</em> untuk melakukan survei ulang untuk memenuhi target yang diinginkan.</p></li>
-</ul></li>
-
-<li><p><strong>Memeriksa Hasil Survei Batas Administrasi</strong></p>
-
-<p><em>Data entry</em> menggunakan peta survei untuk menggambarkan batas administrasi yang didapatkan dari hasil diskusi dengan pihak kelurahan. Anda dapat melakukan pengecekan jumlah RW yang dihasilkan dalam kelurahan tersebut dan batas-batas di dalam peta apakah sudah jelas atau belum.</p></li>
-
-<li><p><strong>Menggabungkan hasil survei menjadi satu layer</strong></p>
-
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0202_Overlay_data_survey_dengan_batas_admin.png" alt="overlay_admin"></p>
+</li>
+<li>
+<p>Anda dapat membandingkan antara sebaran titik yang telah dikumpulkan dengan batas administrasi. Jika menurut Anda titik-titik yang dikumpulkan masih belum memenuhi target pemetaan yang diberikan atau masih ada objek-objek yang belum disurvei, Anda dapat meminta <em>Data Entry</em> untuk melakukan survei ulang untuk memenuhi target yang diinginkan.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Memeriksa Hasil Survei Batas Administrasi</strong></p>
+<p><em>Data entry</em> menggunakan peta survei untuk menggambarkan batas administrasi yang didapatkan dari hasil diskusi dengan pihak kelurahan. Anda dapat melakukan pengecekan jumlah RW yang dihasilkan dalam kelurahan tersebut dan batas-batas di dalam peta apakah sudah jelas atau belum.</p>
+</li>
+<li>
+<p><strong>Menggabungkan hasil survei menjadi satu layer</strong></p>
 <p>Anda harus menggabungkan <em>file</em> hasil survei <em>ODK Collect</em> menjadi satu <em>file</em> yang sama. Untuk menggabungkannya, langkah-langkah yang harus Anda lakukan adalah:</p>
-
 <ul>
 <li>Silakan Anda cari <em>file</em> <em>ODK Collect</em> yang telah Anda pindahkan dari <em>smartphone</em> ke laptop/komputer Anda dengan menggunakan <strong>Windows Explorer</strong>. Jika Anda lupa bagaimana cara memindahkan data ODK Collect dari <em>smartphone</em> ke laptop/komputer Anda, silakan baca kembali modul <strong>Menggunakan Aplikasi ODK Collect</strong>. Sebagai contoh, dalam modul kali ini akan digunakan data hasil survei yang dilakukan di daerah Yogyakarta.</li>
 </ul>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0203_Data_ODK_Collect_yang_sudah_dipindahkan_ke_laptop.png" alt="data_odk_collect" />
-    <p align="center"><i>Data ODK Collect yang sudah dipindahkan ke laptop/komputer</i></p></p>
-
+<pre><code>![data_odk_collect](/id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0203_Data_ODK_Collect_yang_sudah_dipindahkan_ke_laptop.png)
+ &lt;p align=&quot;center&quot;&gt;&lt;i&gt;Data ODK Collect yang sudah dipindahkan ke laptop/komputer&lt;/i&gt;&lt;/p&gt;
+</code></pre>
 <ul>
-<li>Setelah itu, pada kolom pencarian di sebelah kanan atas, silakan Anda ketik <strong>‘.osm’</strong>. Hal ini bertujuan untuk mencari seluruh data hasil survei dengan format .osm.
-<br /></li>
+<li>Setelah itu, pada kolom pencarian di sebelah kanan atas, silakan Anda ketik <strong>‘.osm’</strong>. Hal ini bertujuan untuk mencari seluruh data hasil survei dengan format .osm.</li>
 </ul>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0204_Pencarian_data_dengan_format_osm.png" alt="pencarian_data" />
-    <p align="center"><i>Pencarian data dengan format .osm</i></p></p>
-
+<pre><code>![pencarian_data](/id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0204_Pencarian_data_dengan_format_osm.png)
+ &lt;p align=&quot;center&quot;&gt;&lt;i&gt;Pencarian data dengan format .osm&lt;/i&gt;&lt;/p&gt;
+</code></pre>
 <ul>
-<li>Jika sudah, silakan Anda pilih semua data tersebut dengan cara klik pada salah satu <em>file</em> dan tekan tombol <strong>Ctrl+A</strong> untuk memilih seluruh file tersebut.
-<br /></li>
+<li>Jika sudah, silakan Anda pilih semua data tersebut dengan cara klik pada salah satu <em>file</em> dan tekan tombol <strong>Ctrl+A</strong> untuk memilih seluruh file tersebut.</li>
 </ul>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0205_Seluruh_file_sudah_terpilih.png" alt="seluruh_file" />
-    <p align="center"><i>Seluruh file sudah terpilih</i></p></p>
-
+<pre><code>![seluruh_file](/id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0205_Seluruh_file_sudah_terpilih.png)
+ &lt;p align=&quot;center&quot;&gt;&lt;i&gt;Seluruh file sudah terpilih&lt;/i&gt;&lt;/p&gt;
+</code></pre>
 <ul>
-<li>Selanjutnya, silakan Anda klik dan tahan pada salah satu <em>file</em>, kemudian Anda geser seluruh <em>file</em> tersebut dan masukkan ke dalam JOSM. Pastikan Anda sudah membuka <em>software</em> JOSM terlebih dahulu.
-<br /></li>
+<li>Selanjutnya, silakan Anda klik dan tahan pada salah satu <em>file</em>, kemudian Anda geser seluruh <em>file</em> tersebut dan masukkan ke dalam JOSM. Pastikan Anda sudah membuka <em>software</em> JOSM terlebih dahulu.</li>
 </ul>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0206_Geser_dan_buka_file_osm.png" alt="membuka_file_osm" />
-    <p align="center"><i>Geser dan buka file .osm ke dalam JOSM</i></p></p>
-
+<pre><code>![membuka_file_osm](/id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0206_Geser_dan_buka_file_osm.png)
+ &lt;p align=&quot;center&quot;&gt;&lt;i&gt;Geser dan buka file .osm ke dalam JOSM&lt;/i&gt;&lt;/p&gt;
+</code></pre>
 <ul>
-<li>Jika sudah berhasil terbuka akan muncul tampilan seperti berikut
-<br /></li>
+<li>Jika sudah berhasil terbuka akan muncul tampilan seperti berikut</li>
 </ul>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0207_Seluruh_file_osm_berhasil_dibuka_dalam_JOSM.png" alt="seluruh_file_osm" />
-    <p align="center"><i>Seluruh file .osm yang berhasil dibuka dalam JOSM</i></p></p>
-
+<pre><code>![seluruh_file_osm](/id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0207_Seluruh_file_osm_berhasil_dibuka_dalam_JOSM.png)
+ &lt;p align=&quot;center&quot;&gt;&lt;i&gt;Seluruh file .osm yang berhasil dibuka dalam JOSM&lt;/i&gt;&lt;/p&gt;
+</code></pre>
 <ul>
 <li>Jika Anda lihat pada data yang telah dimasukkan, masing-masing titik hasil survei masih berada dalam satu <em>layer</em> yang berbeda. Untuk itu Anda perlu menggabungkan seluruh data tersebut menjadi satu <em>layer</em> baru. Untuk menggabungkannya, silakan Anda klik salah satu <em>layer</em> data pada <em>layer window</em> kemudian tekan tombol <strong>Ctrl + A</strong> untuk memilih seluruh titik, kemudian klik kanan dan pilih <strong><em>Merge</em></strong>.</li>
 </ul>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0208_Menggabungkan_seluruh_layer.png" alt="menggabungkan_layer" />
-   <p align="center"><i>Menggabungkan seluruh layer</i></p></p>
-
+<pre><code>![menggabungkan_layer](/id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0208_Menggabungkan_seluruh_layer.png)
+&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Menggabungkan seluruh layer&lt;/i&gt;&lt;/p&gt;
+</code></pre>
 <ul>
-<li>Anda akan diminta untuk memilih <em>layer</em> tujuan atau <em>target layer</em>. Anda tidak perlu mengubah <em>target layer</em> ini dan langsung pilih <strong>Merge</strong>.
-<br /></li>
+<li>Anda akan diminta untuk memilih <em>layer</em> tujuan atau <em>target layer</em>. Anda tidak perlu mengubah <em>target layer</em> ini dan langsung pilih <strong>Merge</strong>.</li>
 </ul>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0209_Pilih_merge_untuk_menggabungkan_seluruh_data.png" alt="merge_seluruh_data" />
-    <p align="center"><i>Pilih merge untuk menggabungkan seluruh data</i></p></p>
-
+<pre><code>![merge_seluruh_data](/id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0209_Pilih_merge_untuk_menggabungkan_seluruh_data.png)
+ &lt;p align=&quot;center&quot;&gt;&lt;i&gt;Pilih merge untuk menggabungkan seluruh data&lt;/i&gt;&lt;/p&gt;
+</code></pre>
 <ul>
-<li>Data yang sudah berhasil digabungkan akan menjadi hanya satu <em>layer</em>.
-<br /></li>
+<li>Data yang sudah berhasil digabungkan akan menjadi hanya satu <em>layer</em>.</li>
 </ul>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0210_Seluruh_data_yang_sudah_digabungkan.png" alt="seluruh_data_digabungkan" />
-   <p align="center"><i>Seluruh data yang sudah digabungkan</i></p></p>
-
+<pre><code>![seluruh_data_digabungkan](/id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0210_Seluruh_data_yang_sudah_digabungkan.png)
+&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Seluruh data yang sudah digabungkan&lt;/i&gt;&lt;/p&gt;
+</code></pre>
 <ul>
 <li>Silakan Anda simpan layer yang telah disatukan dengan cara klik kanan pada layer tersebut, kemudian pilih <strong>Save as</strong>. Simpan layer ini sesuai dengan nama yang Anda inginkan.</li>
 </ul>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0211_Save_as.png" alt="save_as_png" /></p></li>
-
-<li><p><strong>Upload Hasil Data Survei ke Google Drive</strong></p></li>
-</ol>
-
+<pre><code>![save_as_png](/id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0211_Save_as.png)
+</code></pre>
+</li>
+<li>
+<p><strong>Upload Hasil Data Survei ke Google Drive</strong></p>
 <p>Setelah Anda gabungkan seluruh titik yang telah dikumpulkan, Anda perlu meng-<em>upload</em> data tersebut ke dalam media penyimpanan yang dapat diakses secara bersama-sama, baik <em>Data Entry</em> maupun <em>Quality Assurance</em> secara online. Anda dapat menggunakan media penyimpanan online gratis seperti <em>Google Drive</em>. Silakan Anda upload sesuai dengan folder yang telah ditentukan.</p>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0212_Google_drive.png" alt="google_drive" /></p>
-
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0212_Google_drive.png" alt="google_drive"></p>
+</li>
+</ol>
 <h3 id="ii-mengecek-hasil-input-data-survei">II. Mengecek Hasil Input Data Survei</h3>
-
 <p>Setelah Anda melakukan pengecekan data mentah atau <em>raw</em> data yang telah dikumpulkan, Anda perlu melakukan pengecekan terhadap data yang telah berhasil di-<em>upload</em> ke dalam server <em>OpenStreetMap</em>. Pengecekan ini dilakukan dengan menggunakan bantuan <em>plugin to do list</em> dan alat validasi <em>(validation tool)</em> yang telah tersedia di <em>software</em> JOSM.</p>
-
 <ol>
-<li><p>Menggunakan <em>Plugin To do list</em></p>
-
+<li>
+<p>Menggunakan <em>Plugin To do list</em></p>
 <p>Anda dapat menggunakan <em>plugin</em> pada JOSM yang bernama <em>To do list</em> untuk melakukan pengecekan data hasil survei. To do list memungkinkan Anda untuk membuat daftar objek-objek apa saja yang telah dikumpulkan. Dengan adanya daftar ini akan memudahkan Anda untuk melakukan pengecekan data sehingga tidak akan ada data yang terlewat. Anda dapat melihat kembali materi <strong>Menggunakan to-do list</strong> di JOSM untuk memahami lebih lanjut.</p>
-
 <p>Sebagai contoh, Anda mempunyai data hasil survei sebagai berikut:</p>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0213_Contoh_data_hasil_survei.png" alt="contoh_hasiL_survey" />
-<p align="center"><i>Contoh data hasil survei</i></p></p>
-
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0213_Contoh_data_hasil_survei.png" alt="contoh_hasiL_survey"></p>
+<!-- raw HTML omitted -->
 <p>Data tersebut dikumpulkan menggunakan ODK Collect dan Open Map Kit (OMK). Data ini harus dilakukan pengecekan apakah data tersebut telah dikumpulkan dengan benar. Terlebih dahulu Anda harus men-<em>download</em> data OSM yang sudah ada untuk mengecek apakah objek yang disurvei sudah dipetakan atau belum. Setelah itu, Anda dapat mengecek data yang telah disurvei, Beberapa pengecekan yang dapat dilakukan antara lain memeriksa adanya kesalahan pengetikan dan peletakan titik. Mengingat banyaknya data yang harus dicek, akan lebih mudah jika Anda menggunakan <em>to do list</em>.</p>
-
 <p>Sebagai contoh, Anda mempunyai data titik survei yaitu kantor kesehatan pelabuhan di daerah Jakarta Utara. Untuk itu, Anda perlu men-<em>download</em> data OSM untuk memeriksa apakah ada kesalahan dalam melakukan input data. Anda dapat melakukan perbandingan mengenai informasi atau atribut yang telah ditambahkan, apakah masih terdapat kesalahan pengetikan atau informasi yang tidak sesuai. Pada contoh, dapat terlihat bahwa pada atribut data mentah atau <em>raw</em> data memiliki penulisan nama objek dengan huruf kecil, namun jika dibandingkan dengan data hasil input, nama yang diketik sudah menggunakan huruf kapital pada awal kata. Hal ini menandakan bahwa <em>data entry</em> sudah memasukan data dengan benar.</p>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0214_Perbandingan_antara_hasil_input_dan_mentah.png" alt="perbandingan_data" />
-<p align="center"><i>Perbandingan antara hasil input dan hasil data mentah</i></p></p>
-
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0214_Perbandingan_antara_hasil_input_dan_mentah.png" alt="perbandingan_data"></p>
+<!-- raw HTML omitted -->
 <p>Selain itu, Anda juga dapat memeriksa apakah titik objek tersebut telah diletakkan sesuai dengan titik yang sebenarnya. Pada gambar terlihat bahwa data mentah (titik survei berwarna abu-abu) belum terletak sesuai dengan lokasi sebenarnya, sedangkan pada data yang sudah dipetakan titiknya telah sesuai dengan lokasi sebenarnya (titik survei berwarna). Anda dapat menggunakan bantuan citra satelit sebagai acuan untuk melihat posisi titik tersebut apakah sudah sesuai dengan objek bangunan yang ada di citra atau belum.</p>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0215_Perbedaan_posisi_titik_data_hasil_input_dan_data_mentah.png" alt="perbedaan_posisi_titik" />
-<p align="center"><i>Perbedaan posisi titik data hasil input dan data mentah</i></p></p></li>
-
-<li><p>Menggunakan Alat Validasi</p>
-
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0215_Perbedaan_posisi_titik_data_hasil_input_dan_data_mentah.png" alt="perbedaan_posisi_titik"></p>
+<!-- raw HTML omitted -->
+</li>
+<li>
+<p>Menggunakan Alat Validasi</p>
 <p>Untuk melakukan pengecekan hasil input data survei, langkah-langkah yang harus dilakukan adalah:</p>
-
-<ul>
-<li><em>Download</em> data <em>OpenStreetMap</em> pada lokasi survei yang ingin Anda cek datanya.</li>
-</ul>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0216_Contoh_data_OSM_yang_telah_didownload.png" alt="contoh_data" />
-  <p align="center"><i>Contoh data OpenStreetMap yang telah di-download</i></p></p>
-
-<ul>
-<li>Lakukan validasi dengan menggunakan <em>validation tools</em> atau alat validasi yang ada di JOSM. Untuk mengaktifkan jendela validasi atau <em>validation result</em> silakan Anda pilih menu <strong>Window</strong> lalu pilih <strong>Validation Result</strong>. Jendela validasi akan muncul di sebelah kanan bawah JOSM Anda.</li>
-</ul>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0217_Mengaktifkan_jendela_validasi_pada_JOSM.png" alt="mengaktifkan_jendela_validasi" />
-  <p align="center"><i>Mengaktifkan jendela validasi pada JOSM</i></p></p>
-
-<ul>
-<li>Untuk melakukan validasi Anda dapat menggunakan tombol <strong><em>Validation</em></strong> yang ada pada jendela <em>validation result</em>. Satu hal yang perlu Anda perhatikan pada saat melakukan validasi adalah pastikan tidak ada objek yang sedang Anda pilih karena jika Anda sedang memilih salah satu objek, JOSM hanya akan melakukan validasi terhadap objek yang sedang Anda pilih.
-<br /></li>
-</ul>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0218_Hasil_validasi_menggunakan_JOSM.png" alt="hasil_validasi" />
-  <p align="center"><i>Hasil validasi menggunakan JOSM</i></p></p>
-
-<ul>
-<li>Perbaiki jika ada kesalahan <em>(error)</em> dan peringatan <em>(warning)</em> yang muncul pada data Anda hingga selesai. Setelah itu jangan lupa untuk mengunggah kembali data yang sudah Anda perbaiki ke dalam server <em>OpenStreetMap</em>.</li>
-</ul></li>
+</li>
 </ol>
-
-<h3 id="iii-pengertian-kesalahan-error-dan-peringatan-warning-di-josm">III. Pengertian Kesalahan <em>(Error)</em> dan Peringatan <em>(Warning)</em> di JOSM</h3>
-
+<ul>
+<li>
+<p><em>Download</em> data <em>OpenStreetMap</em> pada lokasi survei yang ingin Anda cek datanya.</p>
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0216_Contoh_data_OSM_yang_telah_didownload.png" alt="contoh_data"></p>
+<!-- raw HTML omitted -->
+</li>
+<li>
+<p>Lakukan validasi dengan menggunakan <em>validation tools</em> atau alat validasi yang ada di JOSM. Untuk mengaktifkan jendela validasi atau <em>validation result</em> silakan Anda pilih menu <strong>Window</strong> lalu pilih <strong>Validation Result</strong>. Jendela validasi akan muncul di sebelah kanan bawah JOSM Anda.</p>
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0217_Mengaktifkan_jendela_validasi_pada_JOSM.png" alt="mengaktifkan_jendela_validasi"></p>
+<!-- raw HTML omitted -->
+</li>
+<li>
+<p>Untuk melakukan validasi Anda dapat menggunakan tombol <strong><em>Validation</em></strong> yang ada pada jendela <em>validation result</em>. Satu hal yang perlu Anda perhatikan pada saat melakukan validasi adalah pastikan tidak ada objek yang sedang Anda pilih karena jika Anda sedang memilih salah satu objek, JOSM hanya akan melakukan validasi terhadap objek yang sedang Anda pilih.</p>
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0218_Hasil_validasi_menggunakan_JOSM.png" alt="hasil_validasi"></p>
+<!-- raw HTML omitted -->
+</li>
+<li>
+<p>Perbaiki jika ada kesalahan <em>(error)</em> dan peringatan <em>(warning)</em> yang muncul pada data Anda hingga selesai. Setelah itu jangan lupa untuk mengunggah kembali data yang sudah Anda perbaiki ke dalam server <em>OpenStreetMap</em>.</p>
+</li>
+</ul>
+<h3 id="iii-pengertian-kesalahan--error--dan-peringatan--warning--di-josm">III. Pengertian Kesalahan <em>(Error)</em> dan Peringatan <em>(Warning)</em> di JOSM</h3>
 <p>Seperti telah dijelaskan sebelumnya, ketika melakukan validasi menggunakan JOSM, Anda akan menemukan dua jenis hasil validasi:</p>
-
 <ol>
-<li><p>Kesalahan <em>(Error)</em></p>
-
-<p>Kesalahan atau <em>Error</em> merupakan jenis peringatan yang bersifat wajib untuk diperbaiki. Kesalahan atau <em>Error</em> berguna untuk memberitahukan adanya objek yang tidak dipetakan sesuai kaidah <em>OpenStreetMap</em>. Anda tidak dapat melakukan <em>upload</em> data jika Anda belum menyelesaikan kesalahan atau <em>error</em> pada <em>changeset</em> Anda.</p></li>
-
-<li><p>Peringatan <em>(Warning)</em></p>
-
+<li>
+<p>Kesalahan <em>(Error)</em></p>
+<p>Kesalahan atau <em>Error</em> merupakan jenis peringatan yang bersifat wajib untuk diperbaiki. Kesalahan atau <em>Error</em> berguna untuk memberitahukan adanya objek yang tidak dipetakan sesuai kaidah <em>OpenStreetMap</em>. Anda tidak dapat melakukan <em>upload</em> data jika Anda belum menyelesaikan kesalahan atau <em>error</em> pada <em>changeset</em> Anda.</p>
+</li>
+<li>
+<p>Peringatan <em>(Warning)</em></p>
 <p>Berbeda dengan kesalahan atau <em>error</em>, peringatan atau <em>warning</em> tidak bersifat wajib untuk diperbaiki. Sesuai dengan namanya, peringatan atau <em>warning</em> diberikan untuk memberikan informasi bahwa terdapat ketidaksesuaian dalam pemetaan Anda. Peringatan ini dapat Anda abaikan dan Anda tetap dapat melakukan <em>upload</em> data ke dalam server <em>OpenStreetMap</em>. Meskipun demikian, ada juga beberapa jenis <em>warning</em> yang sebaiknya diperbaiki seperti <em>crossing building, building inside building, crossing ways,</em> dan sebagainya. Anda akan mempelajari lebih lanjut mengenai jenis-jenis <em>warning</em> yang harus diperbaiki pada bagian selanjutnya.</p>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0219_Contoh_error_warning_yang_muncul.png" alt="contoh_kesalahan_warning" />
-<p align="center"><i>Contoh kesalahan (errors) dan peringatan (warnings) yang muncul pada saat validasi</i></p></p></li>
-</ol>
-
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0219_Contoh_error_warning_yang_muncul.png" alt="contoh_kesalahan_warning"></p>
+<!-- raw HTML omitted -->
 <p>Untuk kesalahan atau <em>Error</em>, Anda dapat langsung memperbaikinya secara otomatis dengan menekan pada bagian <em>Error</em>, kemudian tekan tombol <strong>Fix</strong>. Namun, untuk peringatan atau <em>warning</em>, Anda harus menyelesaikannya satu per satu.</p>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0220_Kesalahan_atau_errors_diselesaikan.png" alt="memperbaiki_error" />
-   <p align="center"><i>Kesalahan atau Errors dapat diselesaikan secara otomatis dengan menggunakan tombol Fix</i></p></p>
-
-<h3 id="iv-jenis-jenis-kesalahan-error-dan-peringatan-warning-yang-harus-diperbaiki">IV. Jenis-jenis Kesalahan <em>(Error)</em> dan Peringatan <em>(Warning)</em> yang Harus Diperbaiki</h3>
-
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0220_Kesalahan_atau_errors_diselesaikan.png" alt="memperbaiki_error"></p>
+<!-- raw HTML omitted -->
+</li>
+</ol>
+<h3 id="iv-jenis-jenis-kesalahan--error--dan-peringatan--warning--yang-harus-diperbaiki">IV. Jenis-jenis Kesalahan <em>(Error)</em> dan Peringatan <em>(Warning)</em> yang Harus Diperbaiki</h3>
 <p>Terdapat banyak sekali kesalahan dan peringatan yang muncul ketika Anda melakukan validasi data <em>OpenStreetMap</em>. Anda dapat menggunakan <em>tools</em> yang terdapat di JOSM (modul <strong>Menggunakan JOSM</strong>) untuk memperbaiki kesalahan dan peringatan yang muncul pada alat validasi. Anda tidak perlu mengingat setiap jenis kesalahan dan peringatan yang muncul, namun Anda perlu mengetahui jenis-jenis kesalahan dan peringatan apa yang seringkali muncul serta mana yang harus Anda perbaiki, seperti:</p>
-
 <ol>
-<li><p>Kesalahan <em>(Error)</em></p>
-
+<li>
+<p>Kesalahan <em>(Error)</em></p>
 <ul>
-<li><em>Duplicated Node</em> (Titik Terduplikasi)
-<br /></li>
-</ul>
-
+<li>
+<p><em>Duplicated Node</em> (Titik Terduplikasi)</p>
 <p>Kesalahan ini biasanya muncul ketika sebuah objek secara tidak sengaja diunggah sebanyak 2 kali atau lebih sehingga menyebabkan adanya objek yang tumpang tindih pada posisi yang sama. Kesalahan ini biasanya terjadi ketika pengguna mengunggah data dengan menggunakan koneksi internet yang kurang stabil, sehingga menyebabkan adanya gangguan pada saat meng-<em>upload</em> data.</p>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0221_Error_duplicated_node.png" alt="duplicated_node" />
- <p align="center"><i>Error: Duplicated Node</i></p></p>
-
-<ul>
-<li><em>Duplicated Ways</em> (Garis Terduplikasi)
-<br /></li>
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0221_Error_duplicated_node.png" alt="duplicated_node"></p>
+<!-- raw HTML omitted -->
+</li>
+<li>
+<p><em>Duplicated Ways</em> (Garis Terduplikasi)</p>
+</li>
 </ul>
-
 <p>Kesalahan ini sama seperti kesalahan <em>duplicated node</em>, dimana terdapat dua atau lebih garis yang berada pada posisi yang sama. Kesalahan ini biasa terjadi pada objek jalan, namun seringkali juga terjadi pada objek bangunan yang bertumpuk pada satu tempat yang sama. Kesalahan ini juga disebabkan karena adanya objek yang terunggah sebanyak 2 kali dan disebabkan karena koneksi internet yang kurang stabil.</p>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0222_Error_duplicated_ways.png" alt="duplicated_ways" />
- <p align="center"><i>Error: Duplicated ways</i></p></p></li>
-
-<li><p>Peringatan <em>(Warning)</em></p>
-
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0222_Error_duplicated_ways.png" alt="duplicated_ways"></p>
+<!-- raw HTML omitted -->
+</li>
+<li>
+<p>Peringatan <em>(Warning)</em></p>
 <ul>
-<li><em>Crossing Building</em> (Bangunan Bersinggungan)
-<br /></li>
+<li><em>Crossing Building</em> (Bangunan Bersinggungan)</li>
 </ul>
-
 <p>Peringatan ini merupakan peringatan yang cukup sering muncul ketika melakukan validasi. Seringkali pengguna memetakan dua bangunan yang berbeda tetapi diletakkan secara bertumpuk. Untuk mengatasi <em>warning</em> ini, Anda cukup memindahkan atau menghapus  salah satu bangunan yang bertumpukan.</p>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0223_Warning_Crossing_building.png" alt="crossing_building" />
-  <p align="center"><i>Warning: Crossing building</i></p></p>
-
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0223_Warning_Crossing_building.png" alt="crossing_building"></p>
+<!-- raw HTML omitted -->
 <ul>
-<li><em>Crossing Ways</em> (Garis Bersinggungan)
-<br /></li>
+<li><em>Crossing Ways</em> (Garis Bersinggungan)</li>
 </ul>
-
-<p>Warning_ ini muncul ketika terdapat dua buah objek garis atau jalan yang digambar tanpa adanya titik perpotongan antar jalan. Untuk mengatasi <em>warning</em> ini, Anda cukup menambahkan titik perpotongan yang terletak pada percabangan kedua jalan tersebut.</p>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0224_Warning_Crossing_ways.png" alt="crossing_ways" />
- <p align="center"><i>Warning: Crossing ways</i></p></p>
-
+<p>Warning_ ini muncul ketika terdapat dua buah objek garis atau jalan yang digambar tanpa adanya titik perpotongan antar jalan. Untuk mengatasi _warning_ ini, Anda cukup menambahkan titik perpotongan yang terletak pada percabangan kedua jalan tersebut.</p>
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0224_Warning_Crossing_ways.png" alt="crossing_ways"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li><em>Overlapping Highways</em> (Jalan saling bertumpang tindih)</li>
 </ul>
-
 <p><em>Warning</em> ini muncul ketika terdapat bagian jalan yang bertumpukkan dengan bagian jalan lain. Untuk menyelesaikannya, Anda dapat menggeser atau menghapus bagian jalan yang bertumpukkan.</p>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0225_Warning_Overlapping_highways.png" alt="overlapping_highways" />
- <p align="center"><i>Warning: Overlapping highways</i></p></p>
-
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0225_Warning_Overlapping_highways.png" alt="overlapping_highways"></p>
+<!-- raw HTML omitted -->
 <ul>
-<li><em>Node connect highways and building</em> (Titik bangunan dan jalan saling terhubung)</li>
-</ul>
-
+<li>
+<p><em>Node connect highways and building</em> (Titik bangunan dan jalan saling terhubung)</p>
 <p><em>Warning</em> ini muncul ketika titik objek bangunan dan titik objek jalan secara tidak sengaja saling terhubung satu sama lain. Untuk menyelesaikannya, silakan Anda pisahkan titik tersebut dengan menggunakan <em>tools <strong>unglue node</strong></em>.</p>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0226_Warning_Node_connect_higways_and_building.png" alt="node_connect_highways" />
- <p align="center"><i>Warning: Node connect highways and building</i></p></p>
-
-<ul>
-<li><em>Untagged ways</em> (Objek belum diberi tag)
-<br /></li>
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0226_Warning_Node_connect_higways_and_building.png" alt="node_connect_highways"></p>
+<!-- raw HTML omitted -->
+</li>
+<li>
+<p><em>Untagged ways</em> (Objek belum diberi tag)</p>
+<p>Untagged ways_ merupakan peringatan atau _warning_ yang  muncul disebabkan adanya objek yang belum diberi identitas atau _tag_. JOSM akan menandai objek tersebut sebagai objek tanpa identitas, mengingat pentingnya pemberian identitas atau atribut pada setiap objek yang dipetakan. Apabila Anda tetap mengabaikan peringatan ini, objek tersebut tetap dapat Anda _upload_ tetapi objek tersebut tidak akan muncul pada situs _OpenStreetMap_. Silakan Anda berikan _presets_ yang sesuai untuk objek yang belum diberikan informasi objek.</p>
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0227_Warning_Untagged_ways.png" alt="unttaged_ways"></p>
+<!-- raw HTML omitted -->
+</li>
+<li>
+<p><em>Way end node near other highways</em> (titik tidak terhubung dengan garis terdekat)</p>
+</li>
 </ul>
-
-<p>Untagged ways_ merupakan peringatan atau <em>warning</em> yang  muncul disebabkan adanya objek yang belum diberi identitas atau <em>tag</em>. JOSM akan menandai objek tersebut sebagai objek tanpa identitas, mengingat pentingnya pemberian identitas atau atribut pada setiap objek yang dipetakan. Apabila Anda tetap mengabaikan peringatan ini, objek tersebut tetap dapat Anda <em>upload</em> tetapi objek tersebut tidak akan muncul pada situs <em>OpenStreetMap</em>. Silakan Anda berikan <em>presets</em> yang sesuai untuk objek yang belum diberikan informasi objek.</p>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0227_Warning_Untagged_ways.png" alt="unttaged_ways" />
- <p align="center"><i>Warning:Untagged ways</i></p></p>
-
-<ul>
-<li><em>Way end node near other highways</em> (titik tidak terhubung dengan garis terdekat)
-<br /></li>
-</ul>
-
 <p><em>Warning</em> ini muncul ketika ada titik dari objek jalan yang berdekatan dengan jalan lainnya namun tidak terhubung satu sama lain. Jika memang jalan tersebut merupakan jalan yang tidak dapat dilalui (jalan buntu) silakan gunakan tag <strong>highway=block</strong>. Namun jika ternyata jalan tersebut saling berhubungan, silakan Anda gabungkan jalan tersebut dengan menggunakan fungsi <strong>Merge</strong>.</p>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0228_Warning_Way_end_node_near_other_highways.png" alt="node_end_near_highway" />
-<p align="center"><i>Warning: Way end node near other highways</i></p></p>
-
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0228_Warning_Way_end_node_near_other_highways.png" alt="node_end_near_highway"></p>
+<!-- raw HTML omitted -->
 <ul>
-<li><em>Building inside building</em> (bangunan di dalam bangunan)
-<br /></li>
+<li><em>Building inside building</em> (bangunan di dalam bangunan)</li>
 </ul>
-
 <p>Peringatan atau <em>warning</em> ini juga salah satu jenis <em>warning</em> yang sering muncul ketika melakukan validasi. <em>Warning</em> ini terjadi ketika ada poligon bangunan yang digambar di dalam poligon bangunan lain. Untuk menyelesaikannya, silakan Anda geser atau hapus salah satu bangunan yang ada di dalam poligon bangunan lain.</p>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0229_Warning_Building_inside_building.png" alt="building_inside_building" />
-<p align="center"><i>Warning: Building inside building</i></p></p>
-
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0229_Warning_Building_inside_building.png" alt="building_inside_building"></p>
+<!-- raw HTML omitted -->
 <ul>
-<li><em>Unnamed ways</em> (Jalan belum diberi nama)
-<br /></li>
+<li><em>Unnamed ways</em> (Jalan belum diberi nama)</li>
 </ul>
-
 <p><em>Unnamed ways</em> menandakan adanya jalan yang belum diberi nama. Jenis <em>warning</em> ini dapat diabaikan, karena bisa saja ketika Anda melakukan pemetaan jarak jauh, Anda hanya memetakan objek jalannya saja tanpa mengetahui nama jalan tersebut.</p>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0230_Warning_Unnamed_ways.png" alt="unnamed_ways" />
-<p align="center"><i>Warning: Unnamed ways</i></p></p>
-
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0230_Warning_Unnamed_ways.png" alt="unnamed_ways"></p>
+<!-- raw HTML omitted -->
 <ul>
-<li><em>Similarly named ways</em> (Jalan memiliki nama yang sama)
-<br /></li>
+<li><em>Similarly named ways</em> (Jalan memiliki nama yang sama)</li>
 </ul>
-
 <p><em>Warning</em> ini muncul ketika ada beberapa jalan yang memiliki nama jalan yang hampir mirip. Sebagai contoh, ada jalan dengan nama Jalan Tebet Timur I, Jalan Tebet Timur IA, Jalan Tebet Timur IAA, dan sebagainya. Jenis <em>warning</em> ini dapat Anda abaikan jika memang pada kenyataannya jalan tersebut memiliki nama jalan yang hampir serupa.</p>
-
-<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0231_Warning_Similarly_named_ways.png" alt="similarly_named" />
-<p align="center"><i>Warning: Similarly named ways</i></p></p></li>
+<p><img src="../../../../id/images/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/0231_Warning_Similarly_named_ways.png" alt="similarly_named"></p>
+<!-- raw HTML omitted -->
+</li>
 </ol>
-
 <p><strong>RINGKASAN</strong></p>
-
 <p>Data <em>OpenStreetMap</em> yang memiliki sifat data terbuka menyebabkan data <em>OpenStreetMap</em> rawan mengalami kerusakan oleh orang yang kurang bertanggung jawab. Oleh karena itu, setiap relawan pemetaan yang memasukkan data OSM sangat penting untuk menjaga kualitas data OSM yaitu dengan melakukan validasi data. Dengan mempelajari bagian ini, Anda telah dapat melakukan pengecekan kualitas data baik data hasil survei maupun data yang telah dimasukkan ke dalam server <em>OpenStreetMap</em> menggunakan alat validasi yang ada di dalam JOSM. Anda juga telah mengetahui jenis-jenis kesalahan <em>(error)</em> dan peringatan <em>(warning)</em> yang sering muncul ketika melakukan validasi. Setelah mempelajari modul ini, Anda diharapkan dapat memahami pentingnya menjaga kualitas data yang ada di <em>OpenStreetMap</em>.</p>
-</article>
-
-      
-<div class="align-center book-git-footer justify-between">
-    
-  <div>
-    <a href="https://github.com/hotosm/pdc-documentation/edit/master/content/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/02_Penggunaan_JOSM_untuk_Validasi_Data_Survei.md" target="_blank" rel="noopener">
-       Edit this page on GitHub
-    </a>
-  </div>
-  
-  
-  <div>
-    <a href="https://github.com/hotosm/pdc-documentation/commit/6a2882ec62b66ea53333a84af97bd680642a45b0" title='Last modified July 29, 2019 05:48 UTC by Adityo Dwijananto' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Jul 29, 2019
-    </a>
-  </div>
-  
-
 </div>
 
 
+
+
+    
+
+    
+
+    
+
+    
+     
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+<a class="next-page" href="../../../../pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/">
+    <div class="next-page__container">
+            <div class="sub-title sub-title-10">BACA BERIKUTNYA</div>
+            <div class="next-title">Penjaminan Kualitas Data dengan Tasking Manager</div>
     </div>
+    <img src="../../../../svg/forward-arrow.svg" alt="">
+</a>
 
+</div></main>
+    <aside class="toc"><div class="toc__container">
     
-  
-  
-  <aside class="book-toc fixed">
     
-      
-    <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#i-tahapan-yang-dibutuhkan-untuk-memeriksa-raw-data-hasil-survei">I. Tahapan yang Dibutuhkan untuk Memeriksa <em>Raw</em> Data Hasil Survei</a></li>
-<li><a href="#ii-mengecek-hasil-input-data-survei">II. Mengecek Hasil Input Data Survei</a></li>
-<li><a href="#iii-pengertian-kesalahan-error-dan-peringatan-warning-di-josm">III. Pengertian Kesalahan <em>(Error)</em> dan Peringatan <em>(Warning)</em> di JOSM</a></li>
-<li><a href="#iv-jenis-jenis-kesalahan-error-dan-peringatan-warning-yang-harus-diperbaiki">IV. Jenis-jenis Kesalahan <em>(Error)</em> dan Peringatan <em>(Warning)</em> yang Harus Diperbaiki</a></li>
-</ul></li>
-</ul></li>
-</ul>
+    
+    
+    <div class="toc-list">
+        <h4 class="sub-title sub-title-10">DI HALAMAN INI</h4>
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#i-tahapan-yang-dibutuhkan-untuk-memeriksa--raw--data-hasil-survei">I. Tahapan yang Dibutuhkan untuk Memeriksa Raw Data Hasil Survei</a></li>
+        <li><a href="#ii-mengecek-hasil-input-data-survei">II. Mengecek Hasil Input Data Survei</a></li>
+        <li><a href="#iii-pengertian-kesalahan--error--dan-peringatan--warning--di-josm">III. Pengertian Kesalahan (Error) dan Peringatan (Warning) di JOSM</a></li>
+        <li><a href="#iv-jenis-jenis-kesalahan--error--dan-peringatan--warning--yang-harus-diperbaiki">IV. Jenis-jenis Kesalahan (Error) dan Peringatan (Warning) yang Harus Diperbaiki</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
+    </div>
+    <hr class="toc-divider">
     
-  </aside>
-
-
-
-  </main>
-
-  
-  
-  <footer class="footer">
-
-    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
-    <a href="https://github.com/hotosm/pdc-documentation" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-    </svg></a>
     
-
-  </footer>
-  
-
-  
-</body>
-
+    <a href="https://github.com/hotosm/pdc-documentation/edit/master/content/id/pages/04-Data-Validation-and-Quality-Assurance/02-Penggunaan-JOSM-untuk-Validasi-Data-Survei/02_Penggunaan_JOSM_untuk_Validasi_Data_Survei.md" class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/pencil.svg" class="edit-icon" alt="">Sunting halaman ini pada github</a>
+    <a 
+    
+    href="../../../../pdfs/id/02_Penggunaan_JOSM_untuk_Validasi_Data_Survei.pdf"
+    
+    class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/download.svg" class="download-icon" alt="">Unduh halaman ini</a>
+</div></aside>
+</div>
+<script src="../../../../js/main.js"></script>
+<script src="../../../../js/search.js"></script>
+<script src="../../../../js/toc.js"></script></body>
 </html>

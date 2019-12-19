@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HOT-PDC Training Site</title>
@@ -68,7 +68,7 @@ I. Pengertian Export Tool Export tool adalah sebuah layanan terbuka yang digunak
       
       <guid>/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/</guid>
       <description>Tujuan Pembelajaran:
- Memahami cara membuat kerangka kegiatan pemetaan Memahami cara pembagian arsip untuk masing-masing kelompok survei Memahami cara pembagian area survei berdasarkan batas administrasi Mengetahui cara pembagian kelompok yang efektif  Perencanaan proyek pemetaan memerlukan metodologi survei yang tepat dan efisien untuk mencapai target dan tujuan pemetaan. Indikator-indikator yang perlu diperhatikan dalam pembuatan metodologi survei meliputi: luas wilayah survei, jumlah tim pemetaan, jumlah objek yang dikumpulkan, dan pendanaan proyek.</description>
+ Memahami cara membuat kerangka kegiatan pemetaan Memahami cara pembagian arsip untuk masing-masing kelompok survei Memahami cara pembagian area survei berdasarkan batas administrasi Mengetahui cara pembagian kelompok yang efektif  Perencanaan proyek pemetaan memerlukan metodologi survei yang tepat dan efisien untuk mencapai target dan tujuan pemetaan. Indikator-indikator yang perlu diperhatikan dalam pembuatan metodologi survei meliputi: luas wilayah survei, jumlah tim pemetaan, jumlah objek yang dikumpulkan, dan pendanaan proyek. Jika luas wilayah semakin besar dan jumlah objek yang dikumpulkan semakin banyak, maka pendanaan proyek juga semakin besar.</description>
     </item>
     
     <item>
@@ -328,8 +328,8 @@ I. Penjaminan Kualitas Data dengan Tasking Manager a.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/</guid>
-      <description>Tujuan Pembelajaran: * Memahami Pengertian Data GeoJSON * Mengetahui Melakukan Konversi Shapefile ke GeoJSON dengan QGIS * Mengetahui Cara Mendapatkan GeoJSON dengan Overpass Turbo * Mengetahui Melakukan Konversi Shapefile ke GeoJSON dengan GeoData Converter
-Jika Anda tidak memiliki latar belakang pendidikan di bidang geografi ataupun tidak terlalu familier dengan Sistem Informasi Geografi (SIG) maka format GeoJSON ini mungkin terdengar asing bagi Anda. Akan tetapi, Anda tidak perlu khawatir dengan hal tersebut karena mendapatkan data spasial dengan format GeoJSON tidak sesulit yang Anda kira.</description>
+      <description>Tujuan Pembelajaran:
+ Memahami Pengertian Data GeoJSON Mengetahui Melakukan Konversi Shapefile ke GeoJSON dengan QGIS Mengetahui Cara Mendapatkan GeoJSON dengan Overpass Turbo Mengetahui Melakukan Konversi Shapefile ke GeoJSON dengan GeoData Converter  Jika Anda tidak memiliki latar belakang pendidikan di bidang geografi ataupun tidak terlalu familier dengan Sistem Informasi Geografi (SIG) maka format GeoJSON ini mungkin terdengar asing bagi Anda. Akan tetapi, Anda tidak perlu khawatir dengan hal tersebut karena mendapatkan data spasial dengan format GeoJSON tidak sesulit yang Anda kira.</description>
     </item>
     
     <item>

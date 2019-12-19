@@ -1,792 +1,587 @@
-<!DOCTYPE html><html>
-
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HOT-PDC Training Site</title>
-<link rel="icon" type="image/png" sizes="32x32" href="../../../../../favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../../../../../favicon-16x16.png">
-<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
-<script src="https://unpkg.com/lunr/lunr.js"></script>
-
-
-
-<link rel="stylesheet" href="../../../../../normalize.min.css">
-
-<link rel="stylesheet" href="../../../../../book.min.b0e8214cbf05079a2aba369158e0410c2515a8def4c0b44254eefada553ab758.css">
-
-<!--
-Made with Book Theme
-https://github.com/hotosm/hugo-book
--->
-  
-</head>
-
-<body>
-  <header class="header-nav" id="nav">
-    <div class="nav-container">
-      <a class="nav-title with-logo" href="//en">
-        <img class="logo" src="../../../../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
-        <span>HOT-PDC Training Site</span>
-      </a>
-      <a class="nav-guide-link guide-active" href="../../../../../en/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/" >Guide</a>
-      <div class="hr-v"></div>
-      <a class="nav-pdf-download" 
-      
-      href="../../../../../pdfs/en/HOT-PDC_Training_Site.pdf">
-      
-      Download PDF &nbsp;
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
-        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
-          <polygon points="0 0 20 0 20 20 0 20"/>
-          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
-        </g>
-      </svg>
-      </a>
-      <input type="checkbox" style="display: none" id="menu-control" />      
-    </div>
-    <div class="nav-right">
-    
-    
-    
-    <div> <label for="search"></label> <input type="text" name="search" class="search-input" placeholder="Search…"></div>
-    <div class="search-results">
-      <ul class="results-list"></ul>
-    </div>
-    
-    
-
-    
-    <div class="hr-v"></div>
-    <div class="language">
-      <button class="language-btn">Language: en</button>
-      <div class="language-dropdown">
+<!DOCTYPE html>
+<html><head>
+   <link rel="icon" type="image/png" sizes="32x32" href="../../../../../favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="../../../../../favicon-16x16.png">
+   <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+   <script src="../../../../../js/vendor/lunr/lunr.min.js"></script>
+   
+   
+   
+   
+   <link rel="stylesheet" href="../../../../../scss/main.css">
+   <title>HOT-PDC Training Site</title>
+</head><body data-site-url='https://hotosm.github.io/pdc-documentation'  data-default-lang='id' data-lang='en'   ><header class="header" >
+    <div class="header__container">
+        <img src="https://hotosm.github.io/pdc-documentation/svg/hot-logo-red.svg" alt="hot logo"><a href="https://hotosm.github.io/pdc-documentation" class="no-underline"><h4 class="title site-title">HOT-PDC Training Site</h4></a>
+        <div>
         
-          
-          
-          <a href="../../../../../">Indonesia</a>
-          
-         
-          
-            <a href="../../../../../en">English</a>
-          
-         
-      </div>
+    </div><ul class="browse-select-options browse-select-options--hidden js-browse-select-options">
+
+</ul></div>
+        
+        <a class="hotosm-link" href="https://hotosm.org">hotosm.org</a> 
+        <div class="hamburger-icon"></div>
     </div>
-    
-
-    <div class="language-select"></div>
-    <div class="languages">
-    </div>
-    
-    <div class="hr-v"></div>
-    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../../../svg/icon-external-red.svg" alt=""></a>
-    </div>
-  </header>
-  <main class="flex container">
-
-    <aside class="book-menu fixed">
-      <nav role="navigation">
-
-
-
-
-<a href="//en" >Introduction</a>  
-
-    
-
-
-  
-  
-    
-  
- 
-  
-  <ul>
-    
-    <li>
-    
-    OpenStreetMap Guide for Surveyor 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/">
-    Data Collection Methodology</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/">
-    Using ODK Collect</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/">
-    Using the OpenMapKit Application</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/">
-    Using OSMTrackers</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/">
-    Using GPS</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    HOT Tasking Manager 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/">
-    Creating and Managing Tasking Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/" class="active">
-    Using Tasking Manager</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    JOSM 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/">
-    Introduction to OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/">
-    Getting started with OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/">
-    Introduction to Java OpenStreetMap (JOSM)</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/">
-    Using Java OpenStreetMap (JOSM)</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/">
-    Adding Survey Data into OSM Using JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/">
-    Using To-Do List in JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/">
-    Using Filter on JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/">
-    Using buildings tools on JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/">
-    Creating the Administrative Boundaries in JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/">
-    Resolving Conflict on OpenStreetMap Data (OSM)</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Data Validation and Quality Assurance 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/">
-    Quality Assurance Concept</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/josm-for-validating-survey-data/">
-    JOSM for Validating Survey Data</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/">
-    Data Quality Assurance with Tasking Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/">
-    JOSM for Data Quality</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Using HOT Export 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/">
-    Download OSM Data using Export Tool</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Field Mapping Project Guide for Project Manager 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/">
-    The Mapping Methodology with OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/">
-    OpenStreetMap Data Model</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/">
-    Creating Presets</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04-penggunaan-yaml-pada-export-tool/">
-    Using YAML</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/">
-    Creating survey form for ODK Collect &amp; OpenMapKit</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/">
-    Upload survey form to ona.io</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07-pembuatan-peta-survey-dengan-qgis/">
-    Creating Field Maps using QGIS</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/">
-    Creating MBTiles for OpenMapKit (OMK)</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/">
-    Group Stats Plugin for Calculate The Objects</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/">
-    Converting Shapefile Data to GeoJSON</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Using Map Campaigner 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/">
-    Using Map Campaigner to Manage Mapping Campaign</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    OpenStreetMap Data Integration to InAWARE 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/">
-    OpenStreetMap Data Integration to InAWARE</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/">
-    
-    OpenStreetMap Guide for Surveyor</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/02-hot-tasking-manager/">
-    
-    HOT Tasking Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/">
-    
-    JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/">
-    
-    Data Validation and Quality Assurance</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/05-hot-export/">
-    
-    Using HOT Export</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/">
-    
-    Field Mapping Project Guide for Project Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/07-map-campaigner/">
-    
-    Using Map Campaigner</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/08-osm-data-integration-to-inaware/">
-    
-    OpenStreetMap Data Integration to InAWARE</a>
-    </li>
-    
-  </ul>
-
-
-
-
-
-
-
-
-</nav>
-    </aside>
-
-    <div class="book-page">
-      <header class="align-center justify-between book-header">
-  <label for="menu-control">
-    <img src="../../../../../svg/menu.svg" />
-  </label>
-  <strong>
-    Using Tasking Manager</strong>
 </header>
 
-      
-<article class="markdown">
-  <div class="markdown__header">  <h1>Using Tasking Manager</h1>
-    <a 
+<div class="main">
+    <aside class="menu">
+        <div class="menu__container">
+
+
+<h2 class="title">HOT-PDC Training Site</h2> 
+
+<div>
     
-    href="../../../../../pdfs/en/02_Penggunaan_Tasking_Manager.pdf"
     
-    class="pdf-download-link"> Download page as PDF &nbsp;
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
-        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
-          <polygon points="0 0 20 0 20 20 0 20"/>
-          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
-        </g>
-      </svg>
+    <div class="js-language-select language-select">
+        
+            
+        
+            
+                English 
+            
+        
+    </div>
+    
+    <ul class="js-language-select-options language-select-options language-select-options--hidden">
+            
+            
+            <li>
+            
+        <a href="https://hotosm.github.io/pdc-documentation/pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/" class="language-select-option 
+        
+        ">Indonesia</a>
+        
+    </li>
+        
+            
+            <li>
+            
+        <a href="https://hotosm.github.io/pdc-documentation/en/pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/" class="language-select-option
+        
+        language-select-option--selected
+        
+        ">English  </a>
+        
+    </li>
+        
+    </ul>
+</div>
+
+
+
+
+
+
+<input class="search" type="text" placeholder="Search documentation">
+<div class="search-results">
+    <ul class="results-list"></ul>
+</div>
+
+
+
+
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            OpenStreetMap Guide for Surveyor
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/" class="menu-link">Data Collection Methodology</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/" class="menu-link">Using ODK Collect</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/" class="menu-link">Using the OpenMapKit Application</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/" class="menu-link">Using OSMTrackers</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/" class="menu-link">Using GPS</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--open
+        
+        ">
+            HOT Tasking Manager
+        </div>
+        <div class="panel
+        
+        panel--open
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/" class="menu-link">Creating and Managing Tasking Manager</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/" class="menu-link menu-link--active">Using Tasking Manager</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            JOSM
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/" class="menu-link">Introduction to OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/" class="menu-link">Getting started with OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/" class="menu-link">Introduction to Java OpenStreetMap (JOSM)</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/" class="menu-link">Using Java OpenStreetMap (JOSM)</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/" class="menu-link">Adding Survey Data into OSM Using JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/" class="menu-link">Using To-Do List in JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/" class="menu-link">Using Filter on JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/" class="menu-link">Using buildings tools on JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/" class="menu-link">Creating the Administrative Boundaries in JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/" class="menu-link">Resolving Conflict on OpenStreetMap Data (OSM)</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Data Validation and Quality Assurance
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/" class="menu-link">Quality Assurance Concept</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/josm-for-validating-survey-data/" class="menu-link">JOSM for Validating Survey Data</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/" class="menu-link">Data Quality Assurance with Tasking Manager</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/" class="menu-link">JOSM for Data Quality</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Using HOT Export
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/" class="menu-link">Download OSM Data using Export Tool</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Field Mapping Project Guide for Project Manager
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/" class="menu-link">The Mapping Methodology with OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/" class="menu-link">OpenStreetMap Data Model</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/" class="menu-link">Creating Presets</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04-penggunaan-yaml-pada-export-tool/" class="menu-link">Using YAML</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/" class="menu-link">Creating survey form for ODK Collect &amp; OpenMapKit</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/" class="menu-link">Upload survey form to ona.io</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07-pembuatan-peta-survey-dengan-qgis/" class="menu-link">Creating Field Maps using QGIS</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/" class="menu-link">Creating MBTiles for OpenMapKit (OMK)</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/" class="menu-link">Group Stats Plugin for Calculate The Objects</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/" class="menu-link">Converting Shapefile Data to GeoJSON</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Using Map Campaigner
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/" class="menu-link">Using Map Campaigner to Manage Mapping Campaign</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            OpenStreetMap Data Integration to InAWARE
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/" class="menu-link">OpenStreetMap Data Integration to InAWARE</a></li>
+                    
+                </ul>
+            </div>
+    
+
+<a class="pdf-download"  
+    
+    href="../../../../../pdfs/en/HOT-PDC_Training_Site.pdf">
+    
+
+    <div>
+        <div class="title">Download the entire file</div>
+        <div class="sub-title sub-title-12">pdf</div>
+    </div>
+</a></div>
+    </aside>
+    <main class="article"><div class="article__container">
+
+ 
+   <div class="git-info">
+<div class="">
+  
+  <div>
+    
+    <a href="https://github.com/hotosm/pdc-documentation/commit/0a46c2c66ca1118601817d6fa6ceb549a6be6796" class="sub-title sub-title-14" title='Last modified October 10, 2019 by Adityo Dwijananto' target="_blank" rel="noopener">
+      Last modified: October 10, 2019
     </a>
   </div>
-
-<p><strong>Objectives:</strong></p>
-
+  
+</div>
+</div>
+    <div class="article-body">
+           <h1 class="page-title">Using Tasking Manager</h1><p><strong>Objectives:</strong></p>
 <ul>
 <li>Using functions of tasking manager  for participatory mapping</li>
 <li>Operating tasking manager for mapping</li>
 </ul>
-
 <p>As an alternative for open source mapping platform, OpenStreetMap allows everyone to do mapping anytime, anywhere. The problem is, what if you want to do mapping along with the other mapper on the same time? Tasking Manager allows you to divide an area of mapping so everyone can do mapping together. In this module, you will learn more detail about Tasking Manager and how to mapping using Tasking Manager.</p>
-
 <h2 id="i-what-is-tasking-manager"><strong>I. What is Tasking Manager?</strong></h2>
-
 <h3 id="1-the-definition-of-tasking-manager">1. <strong>The Definition of Tasking Manager</strong></h3>
-
 <p>Tasking manager is a tool created specifically for participatory mapping. With Tasking Manager, you can simply do mapping together with the other on the same location, but with different area of mapping. Tasking manager can split the mapping area into separate grid or square. You can also use tasking manager to see your mapping progress, which are still need to map or which area is fully mapped.</p>
-
 <p>Now let’s think about this. Imagine if you want to create a mapping project in a specific area where you need to do the project together with another 20 mapper. If you’re not using tasking manager, there is a possibility of conflict between other mapper or between the data. With tasking manager, you can avoid the conflict and make the mapping project more fast and efficient.</p>
-
 <h3 id="2-the-example-of-tasking-manager">2. <strong>The example of Tasking Manager</strong></h3>
-
 <p>Tasking manager used as a response when Haiyan typhoon occurred in the Philippines on November 8, 2013. Mapping area located in Tacloban city as one of the most severely damaged when the disaster happened. Within 24 hours after the tasking manager project was created. 10.000 buildings added or around 25% of the building amount in Tacloban City. This mapping project was carried out by 33 volunteers.</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0201_Kondisi_bangunan_sebelum_dan_setelah_dipetakan_menggunakan_Tasking_Manager.png" alt="alt_text" title="image_tooltip" />
-<p align="center"><i>Density of the building before and after mapping using Tasking Manager</i></p></p>
-
+<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0201_Kondisi_bangunan_sebelum_dan_setelah_dipetakan_menggunakan_Tasking_Manager.png" alt="alt_text" title="image_tooltip"></p>
+<!-- raw HTML omitted -->
 <p>Tasking manager are also used in Indonesia as a response when disaster happened. One of the examples is when the earthquake and tsunami struck in the Sunda Strait in December 2018. Within a month, all affected areas were mapped by 60 volunteers.</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0202_Tasking_manager_yang_dibuat_sebagai_respon_bencana_gempa_dan_tsunami_di_Selat_Sunda.png" alt="alt_text" title="image_tooltip" />
-<p align="center"><i>Tasking Manager as a response of earthquake and tsunami on Sunda Strait</i></p></p>
-
+<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0202_Tasking_manager_yang_dibuat_sebagai_respon_bencana_gempa_dan_tsunami_di_Selat_Sunda.png" alt="alt_text" title="image_tooltip"></p>
+<!-- raw HTML omitted -->
 <h2 id="ii-starting-tasking-manager"><strong>II. Starting Tasking Manager</strong></h2>
-
 <p>You can open the tasking manager on <a href="https://tasks.hotosm.org/">https://tasks.hotosm.org/</a>. You should see the website looks exactly like the picture:</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0203_Halaman_utama_Taksing_Manager.png" alt="alt_text" title="image_tooltip" />
-<p align="center"><i>Tasking Manager home page</i></p></p>
-
+<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0203_Halaman_utama_Taksing_Manager.png" alt="alt_text" title="image_tooltip"></p>
+<!-- raw HTML omitted -->
 <p>On the main page, you can see several menu. If you want to change the language, you can choose the down-arrow button on the left side of the <strong>Login</strong> button. You can choose <strong>Learn</strong> button on the top side If you want to learn more detail about tasking manager.</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0204_Tombol_untuk_mengganti_bahasa_di_sebelah_kanan_dan_tombol_Learn_di_sebelah_kiri.png" alt="alt_text" title="image_tooltip" />
-<p align="center"><i>You can change the language using button on your right side and Learn on your left side</i></p></p>
-
+<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0204_Tombol_untuk_mengganti_bahasa_di_sebelah_kanan_dan_tombol_Learn_di_sebelah_kiri.png" alt="alt_text" title="image_tooltip"></p>
+<!-- raw HTML omitted -->
 <p>Before you can start using Tasking Manager, there are a few things you need to know:</p>
-
 <h3 id="1-login-to-tasking-manager">1. <strong>Login to Tasking Manager</strong></h3>
-
 <p>You need to login with your OSM account. Choose <strong>Login</strong> button on the top right side of your screen, then write your OpenStreetMap account. On <strong>Authorize access to your account</strong> option, give checkmark on <strong>read your user preferences</strong>, then select <strong>Grant Access</strong>. Please check on the image for more detail:</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0205_Pilihan_untuk_mengizinkan_otorisasi_pada_akun_Anda.png" alt="alt_text" title="image_tooltip" />
-   <p align="center"><i>You must allow JOSM to read your user preferences</i></p></p>
-
+<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0205_Pilihan_untuk_mengizinkan_otorisasi_pada_akun_Anda.png" alt="alt_text" title="image_tooltip"></p>
+<!-- raw HTML omitted -->
 <p>You will directed to the Tasking Manager homepage after you login with your OSM account. If you see your OSM account name, then you are successfully login to Tasking Manager. Choose <strong>Start Mapping</strong> or <strong>Contribute</strong> on the left side of the screen if you want to start mapping immediately.</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0206_Tombol_Contribute_dan_Start_Mapping_pada_halaman_Tasking_Manager.png" alt="alt_text" title="image_tooltip" />
-   <p align="center"><i>Contribute and Start Mapping button on Tasking Manager page</i></p></p>
-
+<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0206_Tombol_Contribute_dan_Start_Mapping_pada_halaman_Tasking_Manager.png" alt="alt_text" title="image_tooltip"></p>
+<!-- raw HTML omitted -->
 <h3 id="2-searching-project-on-tasking-manager-search-box">2. <strong>Searching Project on Tasking Manager search box</strong></h3>
-
 <p>On this page, you will see two different view, Grid View and Map View. on the Grid View, there are few things you should notice, like:</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0207_Beberapa_pengaturan_yang_dapat_dilakukan_pada_tampilan_Grid_View.png" alt="alt_text" title="image_tooltip" />
-  <p align="center"><i>You can change the setting on the Grid View layout</i></p></p>
-
+<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0207_Beberapa_pengaturan_yang_dapat_dilakukan_pada_tampilan_Grid_View.png" alt="alt_text" title="image_tooltip"></p>
+<!-- raw HTML omitted -->
 <ul>
-<li><p><strong>Search</strong></p>
-
-<p>On the search box, you can search your tasking manager project using certain keyword like sub-village, village, province, or by project name.</p></li>
-
-<li><p><strong>Project</strong></p>
-
-<p>On this part, you can see list of the tasking manager project created before.</p></li>
-
-<li><p><strong>Mapping Difficulty</strong></p>
-
-<p>On this section, you can set your own mapping difficulty level of your project. There are 3 different levels: beginner, intermediate, and advance. If you want to see all the project, choose <strong>All</strong>.</p></li>
-
-<li><p><strong>Organization</strong></p>
-
-<p>You can choose the creator of the project like American Red Cross, Missing Maps, HOTOSM, or HOT Indonesia.</p></li>
-
-<li><p><strong>Campaign</strong></p>
-
+<li>
+<p><strong>Search</strong></p>
+<p>On the search box, you can search your tasking manager project using certain keyword like sub-village, village, province, or by project name.</p>
+</li>
+<li>
+<p><strong>Project</strong></p>
+<p>On this part, you can see list of the tasking manager project created before.</p>
+</li>
+<li>
+<p><strong>Mapping Difficulty</strong></p>
+<p>On this section, you can set your own mapping difficulty level of your project. There are 3 different levels: beginner, intermediate, and advance. If you want to see all the project, choose <strong>All</strong>.</p>
+</li>
+<li>
+<p><strong>Organization</strong></p>
+<p>You can choose the creator of the project like American Red Cross, Missing Maps, HOTOSM, or HOT Indonesia.</p>
+</li>
+<li>
+<p><strong>Campaign</strong></p>
 <p>You can also find your tasking manager project based on certain campaign. For example, you can choose project for Malaria Elimination.</p>
-
 <p>You can change the layout from Grid View to Map View. On the Grid View, you can see list of the project on grid/square layout. If you choose Map View, you can see the world map  with blue dots on the top of the map.</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0208_Tombol_untuk_mengubah_tampilan_Grid_View_atau_Map_View.png" alt="alt_text" title="image_tooltip" />
- <p align="center"><i>You can change the layout from Grid View to Map View using this button</i></p></p>
-
+<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0208_Tombol_untuk_mengubah_tampilan_Grid_View_atau_Map_View.png" alt="alt_text" title="image_tooltip"></p>
+<!-- raw HTML omitted -->
 <p>After you change your layout into Map View, the page will be like this:</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0209_Tampilan Map_View_pada_Tasking_Manager.png" alt="alt_text" title="image_tooltip" />
- <p align="center"><i>Map View on Tasking Manager</i></p></p>
-
+<p>![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0209_Tampilan Map_View_pada_Tasking_Manager.png &ldquo;image_tooltip&rdquo;)</p>
+<!-- raw HTML omitted -->
 <p>You can use the plus and minus button on the left side of the map to change your zoom level. When the zoom level is upgraded, there will be a bunch of tasking manager project marked with coloured dots. Each different colors represent the priority of project from urgent to low.</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0210_Prioritas_tasking_manager.png" alt="alt_text" title="image_tooltip" /></p>
-
+<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0210_Prioritas_tasking_manager.png" alt="alt_text" title="image_tooltip"></p>
 <p>If you want to search project, you can set your layout into the Grid View and move your pointer to the search box. In this module, we will try to search tasking manager project using keyword ‘Penjaringan’, and then press <strong>Enter</strong>. You can leave other configuration empty like mapping difficulty, organization, and campaign.</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0211_Hasil pencarian_proyek_tasking_manager_dengan_kata_pencarian_‘penjaringan’.png" alt="alt_text" title="image_tooltip" />
- <p align="center"><i>Result for tasking manager’s project with keyword of ‘penjaringan’</i></p></p>
-
-<p>Tasking manager will show list of all projects that contain the keyword ‘Penjaringan’. Chose the project on the top right corner labeled with_ ‘#781 - INSIST II ( Integrated Services for Infrastructure and Sanitation Technology ) II - Kelurahan Penjaringan’_.</p></li>
+<p>![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0211_Hasil pencarian_proyek_tasking_manager_dengan_kata_pencarian_‘penjaringan’.png &ldquo;image_tooltip&rdquo;)</p>
+<!-- raw HTML omitted -->
+<p>Tasking manager will show list of all projects that contain the keyword ‘Penjaringan’. Chose the project on the top right corner labeled with_ ‘#781 - INSIST II ( Integrated Services for Infrastructure and Sanitation Technology ) II - Kelurahan Penjaringan’_.</p>
+</li>
 </ul>
-
 <h3 id="3-get-to-know-about-tasking-manager-layout-and-display">3. <strong>Get to know about Tasking Manager Layout and Display</strong></h3>
-
 <p>When you select one project, you will see the project page like this:</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0212_Tasking_Kelurahan_Penjaringan.png" alt="alt_text" title="image_tooltip" />
-   <p align="center"><i>Tasking manager #781 INSIST - Kelurahan Penjaringan (Penjaringan District)</i></p></p>
-
+<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0212_Tasking_Kelurahan_Penjaringan.png" alt="alt_text" title="image_tooltip"></p>
+<!-- raw HTML omitted -->
 <p>This page shows you the information about tasking manager project we selected before. On the Project description, you can read the mapping background. Below the description, you can see more detail about the project, from priority level, organisation, creator name, difficulty, and list of objects needed to be mapped. If you want to create your own tasking manager project, you can read the guide on the <strong>Creating and Managing Tasking Manager.</strong></p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0213_Tampilan_proyek_tasking_manager.png" alt="alt_text" title="image_tooltip" />
-   <p align="center"><i>Tasking Manager’s project layout</i></p></p>
-
+<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0213_Tampilan_proyek_tasking_manager.png" alt="alt_text" title="image_tooltip"></p>
+<!-- raw HTML omitted -->
 <p>Under the description box, you can see the map on the right side and view information on the left side. If you see on the map field, you can see different grid/square with different color. Those colors represent:</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0214_Legenda_tasking_manager.png" alt="alt_text" title="image_tooltip" /></p>
-
+<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0214_Legenda_tasking_manager.png" alt="alt_text" title="image_tooltip"></p>
 <ul>
-<li><strong>Ready</strong>
-<br /></li>
+<li><strong>Ready</strong></li>
 </ul>
-
 <p>Shows that you can map the grid selected</p>
-
 <ul>
-<li><strong>Mapped</strong>
-<br /></li>
+<li><strong>Mapped</strong></li>
 </ul>
-
 <p>Grid marked with yellow color shows you that the grid has already been mapped</p>
-
 <ul>
-<li><strong>Bad Imagery</strong>
-<br /></li>
+<li><strong>Bad Imagery</strong></li>
 </ul>
-
 <p>Grey-blackish colored grid marked as an area with bad imagery</p>
-
 <ul>
-<li><strong>Validated</strong>
-<br /></li>
+<li><strong>Validated</strong></li>
 </ul>
-
 <p>Green colored grid shows that the grid has been validated</p>
-
 <ul>
-<li><strong>Invalidated</strong>
-<br /></li>
+<li><strong>Invalidated</strong></li>
 </ul>
-
 <p>Grid marked with  red color shows that the grid need to be re-checked before you can do validation again</p>
-
 <ul>
-<li><strong>Locked</strong>
-<br /></li>
+<li><strong>Locked</strong></li>
 </ul>
-
 <p>Grey colored grid shows that the square has been selected by another user</p>
-
 <ul>
-<li><strong>Locked by you</strong>
-<br /></li>
+<li><strong>Locked by you</strong></li>
 </ul>
-
 <p>Grid with blue outline colored shows that this grid is being selected by you</p>
-
 <h3 id="4-contribute-on-tasking-manager-project">4. <strong>Contribute on Tasking Manager Project</strong></h3>
-
 <p>You can contribute in tasking manager in two different ways, digitizing and validating. To start contributing and do the mapping, please follow these steps below:</p>
-
 <ul>
-<li><p>Select <strong>Map</strong> button.
-<img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0215_Ready_to_get_started.png" alt="alt_text" title="image_tooltip" /></p></li>
-
-<li><p>Next, you need to select one grid/square you will work on. You can straightly choose one grid/square on the project or by using <strong>Select a Random Task</strong> button.</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0216_Choose_a_task.png" alt="alt_text" title="image_tooltip" /></p>
-
-<p>You can change the basemap so you can see which area covered by cloud.</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0217_mengganti_citra_pada_tasking.png" alt="alt_text" title="image_tooltip" /></p>
-
-<p>If you find area covered by the cloud, please select <strong>Mark as Bad Imagery</strong> button. If you see there is only forest in most of your mapping area, you can choose <strong>Mark as Completely Mapped</strong>.</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0218_mark_as_bad_imagery.png" alt="alt_text" title="image_tooltip" /></p></li>
-
-<li><p>After you select your grid, press <strong>Start Mapping</strong>.</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0219_Start_mapping.png" alt="alt_text" title="image_tooltip" /></p></li>
-
-<li><p>Select JOSM as your default mapping editor, then select <strong>Start Editor</strong>. Make sure that you have already open your JOSM before.</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0220_start_editor.png" alt="alt_text" title="image_tooltip" /></p></li>
-
-<li><p>Tasking manager will automatically download OSM data. You can map the area using JOSM and satellite imagery based on information given by the project. If you want to learn more detail about how to mapping using JOSM, please go to the <strong>Using JOSM Module</strong>. Map all the objects inside the square/grid.</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0221_Data_OSM_yang_telah_berhasil_di-download_melalui_tasking_manager.png" alt="alt_text" title="image_tooltip" />
- <p align="center"><i>OSM data downloaded through tasking manager</i></p></p></li>
-
-<li><p>Once you finished your mapping, don’t forget to upload your result periodically. Don’t forget to write down your comment when you upload the data. In the comment section, you can see default comment number similar to the tasking manager project. Please write your own comment after those numbers.</p></li>
+<li>
+<p>Select <strong>Map</strong> button.
+<img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0215_Ready_to_get_started.png" alt="alt_text" title="image_tooltip"></p>
+</li>
+<li>
+<p>Next, you need to select one grid/square you will work on. You can straightly choose one grid/square on the project or by using <strong>Select a Random Task</strong> button.</p>
+<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0216_Choose_a_task.png" alt="alt_text" title="image_tooltip"></p>
+</li>
 </ul>
+<pre><code> You can change the basemap so you can see which area covered by cloud. 
 
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0222_Kolom_komentar_pada_saat_upload_data_dari_JOSM.png" alt="alt_text" title="image_tooltip" />
-  <p align="center"><i>Comment section when you upload your JOSM data</i></p></p>
+   ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0217_mengganti_citra_pada_tasking.png &quot;image_tooltip&quot;)
 
-<ul>
-<li>After you upload your data to OpenStreetMap, please go back to the tasking manager page. You can add your comment about changes happen. After finished mapping all objects, select <strong>Mark as Completely Mapped.</strong> But, if you haven’t finished your area, choose <strong>Stop Mapping</strong> and continue your work later or let the other contributor to finish the area.<br /></li>
-</ul>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0223_Menambahkan_komentar_pada_grid_tasking_manager_yang_telah_dipetakan.png" alt="alt_text" title="image_tooltip" />
-   <p align="center"><i>Adding comment on tasking manager grid</i></p></p>
-
-<h3 id="5-things-you-need-to-know-when-you-selected-your-area">5. <strong>Things you need to know when you selected your area</strong></h3>
-
-<p>There are few things you need to know when you choose a tasking manager project.</p>
-
-<ul>
-<li><p><strong>You only have 120 minutes to do your mapping</strong></p>
-
-<p>When you select one grid/square, you will own the grid/square for 120 minutes or 2 hours. Make sure you still in time to mapping your area and upload your data periodically.</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0224_Pemberitahuan_batas_waktu_pengerjaan_tasking_manager.png" alt="alt_text" title="image_tooltip" />
-<p align="center"><i>Notification of remaining time limit of your tasking manager’s grid</i></p></p></li>
-
-<li><p><strong>Don’t forget to unlock your square/grid</strong></p>
-
-<p>After you have finished your mapping, don’t forget to click <strong>Stop Mapping</strong> if you haven’t finished your job. Click <strong>Mark as Completely Mapped</strong> once you very sure that you have finished your mapping area.</p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0225_Tombol_Stop_Mapping_digunakan_jika_grid_Anda_belum_selesai_dipetakan.png" alt="alt_text" title="image_tooltip" />
-<p align="center"><i>You can use Stop Mapping button if you haven’t finished your grid</i></p></p></li>
-
-<li><p><strong>Do not map area outside tasking area</strong></p>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0226_Area_yang_terarsir_tidak_boleh_Anda_petakan.png" alt="alt_text" title="image_tooltip" />
- <p align="center"><i>You can’t do mapping on the shredded area</i></p></p>
-
-<p>When your square/grid already shown in JOSM, you can see there is two different area on the map, the shaded area and unshaded area. You only allowed to map on the unshaded area. Please remind this things carefully to avoid data crash between another user.</p></li>
-
-<li><p><strong>Special treatment for object located between the square boundary</strong></p>
-
-<p>Mostly when we mapping the area using tasking manager, you will see many objects located in between square boundary, like this:</p></li>
-</ul>
-
-<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0227_Objek_yang_terletak_di_perbatasan_grid_tasking_manager.png" alt="alt_text" title="image_tooltip" />
-    <p align="center"><i>Object located on the border of tasking manager grid</i></p></p>
-
-<p>If you find those kind of object, you can draw the object slightly cross the boundary of your square. You need to draw the object like this especially for highway to give guidance for another user to continue your object.</p>
-
-<p><strong>SUMMARY</strong></p>
-
-<p>Now you have learned the definition of tasking manager. Tasking manager is a tool that can be used to do the participatory and collaborative mapping with another user. When there is an area needed to be mapped quickly, tasking manager can help you to do so. Hopefully when you do mapping using tasking manager, your project will finish quicker and well organized.</p>
-</article>
-
-      
-<div class="align-center book-git-footer justify-between">
     
-  <div>
-    <a href="https://github.com/hotosm/pdc-documentation/edit/master/content/pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/02_Penggunaan_Tasking_Manager.md" target="_blank" rel="noopener">
-       Edit this page on GitHub
-    </a>
-  </div>
-  
-  
-  <div>
-    <a href="https://github.com/hotosm/pdc-documentation/commit/0a46c2c66ca1118601817d6fa6ceb549a6be6796" title='Last modified October 10, 2019 07:05 UTC by Adityo Dwijananto' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Oct 10, 2019
-    </a>
-  </div>
-  
+ If you find area covered by the cloud, please select **Mark as Bad Imagery** button. If you see there is only forest in most of your mapping area, you can choose **Mark as Completely Mapped**. 
 
+![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0218_mark_as_bad_imagery.png &quot;image_tooltip&quot;)
+</code></pre>
+<ul>
+<li>After you select your grid, press <strong>Start Mapping</strong>.</li>
+</ul>
+<pre><code>![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0219_Start_mapping.png &quot;image_tooltip&quot;)
+</code></pre>
+<ul>
+<li>Select JOSM as your default mapping editor, then select <strong>Start Editor</strong>. Make sure that you have already open your JOSM before.</li>
+</ul>
+<pre><code>![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0220_start_editor.png &quot;image_tooltip&quot;)
+</code></pre>
+<ul>
+<li>Tasking manager will automatically download OSM data. You can map the area using JOSM and satellite imagery based on information given by the project. If you want to learn more detail about how to mapping using JOSM, please go to the <strong>Using JOSM Module</strong>. Map all the objects inside the square/grid.</li>
+</ul>
+<pre><code> ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0221_Data_OSM_yang_telah_berhasil_di-download_melalui_tasking_manager.png &quot;image_tooltip&quot;)
+ &lt;p align=&quot;center&quot;&gt;&lt;i&gt;OSM data downloaded through tasking manager&lt;/i&gt;&lt;/p&gt;
+</code></pre>
+<ul>
+<li>Once you finished your mapping, don’t forget to upload your result periodically. Don’t forget to write down your comment when you upload the data. In the comment section, you can see default comment number similar to the tasking manager project. Please write your own comment after those numbers.</li>
+</ul>
+<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0222_Kolom_komentar_pada_saat_upload_data_dari_JOSM.png" alt="alt_text" title="image_tooltip"></p>
+<!-- raw HTML omitted -->
+<ul>
+<li>After you upload your data to OpenStreetMap, please go back to the tasking manager page. You can add your comment about changes happen. After finished mapping all objects, select <strong>Mark as Completely Mapped.</strong> But, if you haven’t finished your area, choose <strong>Stop Mapping</strong> and continue your work later or let the other contributor to finish the area.</li>
+</ul>
+<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0223_Menambahkan_komentar_pada_grid_tasking_manager_yang_telah_dipetakan.png" alt="alt_text" title="image_tooltip"></p>
+<!-- raw HTML omitted -->
+<h3 id="5-things-you-need-to-know-when-you-selected-your-area">5. <strong>Things you need to know when you selected your area</strong></h3>
+<p>There are few things you need to know when you choose a tasking manager project.</p>
+<ul>
+<li><strong>You only have 120 minutes to do your mapping</strong></li>
+</ul>
+<pre><code>When you select one grid/square, you will own the grid/square for 120 minutes or 2 hours. Make sure you still in time to mapping your area and upload your data periodically. 
+
+![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0224_Pemberitahuan_batas_waktu_pengerjaan_tasking_manager.png &quot;image_tooltip&quot;)
+&lt;p align=&quot;center&quot;&gt;&lt;i&gt;Notification of remaining time limit of your tasking manager’s grid&lt;/i&gt;&lt;/p&gt;
+</code></pre>
+<ul>
+<li><strong>Don’t forget to unlock your square/grid</strong></li>
+</ul>
+<pre><code>After you have finished your mapping, don’t forget to click **Stop Mapping** if you haven’t finished your job. Click **Mark as Completely Mapped** once you very sure that you have finished your mapping area. 
+
+![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0225_Tombol_Stop_Mapping_digunakan_jika_grid_Anda_belum_selesai_dipetakan.png &quot;image_tooltip&quot;)
+&lt;p align=&quot;center&quot;&gt;&lt;i&gt;You can use Stop Mapping button if you haven’t finished your grid&lt;/i&gt;&lt;/p&gt;
+</code></pre>
+<ul>
+<li><strong>Do not map area outside tasking area</strong></li>
+</ul>
+<pre><code> ![alt_text](/en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0226_Area_yang_terarsir_tidak_boleh_Anda_petakan.png &quot;image_tooltip&quot;)
+ &lt;p align=&quot;center&quot;&gt;&lt;i&gt;You can’t do mapping on the shredded area&lt;/i&gt;&lt;/p&gt;
+
+When your square/grid already shown in JOSM, you can see there is two different area on the map, the shaded area and unshaded area. You only allowed to map on the unshaded area. Please remind this things carefully to avoid data crash between another user. 
+</code></pre>
+<ul>
+<li><strong>Special treatment for object located between the square boundary</strong></li>
+</ul>
+<pre><code>Mostly when we mapping the area using tasking manager, you will see many objects located in between square boundary, like this:
+</code></pre>
+<p><img src="../../../../../en/images/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/0227_Objek_yang_terletak_di_perbatasan_grid_tasking_manager.png" alt="alt_text" title="image_tooltip">
+<!-- raw HTML omitted --><!-- raw HTML omitted -->Object located on the border of tasking manager grid<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>If you find those kind of object, you can draw the object slightly cross the boundary of your square. You need to draw the object like this especially for highway to give guidance for another user to continue your object.</p>
+<p><strong>SUMMARY</strong></p>
+<p>Now you have learned the definition of tasking manager. Tasking manager is a tool that can be used to do the participatory and collaborative mapping with another user. When there is an area needed to be mapped quickly, tasking manager can help you to do so. Hopefully when you do mapping using tasking manager, your project will finish quicker and well organized.</p>
 </div>
 
 
+
+
+    
+
+    
+     
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+<a class="next-page" href="../../../../../en/pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/">
+    <div class="next-page__container">
+            <div class="sub-title sub-title-10">READ NEXT</div>
+            <div class="next-title">Introduction to OpenStreetMap</div>
     </div>
+    <img src="../../../../../svg/forward-arrow.svg" alt="">
+</a>
 
+</div></main>
+    <aside class="toc"><div class="toc__container">
     
-  
-  
-  <aside class="book-toc fixed">
     
-      
-    <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#i-what-is-tasking-manager"><strong>I. What is Tasking Manager?</strong></a>
-<ul>
-<li><a href="#1-the-definition-of-tasking-manager">1. <strong>The Definition of Tasking Manager</strong></a></li>
-<li><a href="#2-the-example-of-tasking-manager">2. <strong>The example of Tasking Manager</strong></a></li>
-</ul></li>
-<li><a href="#ii-starting-tasking-manager"><strong>II. Starting Tasking Manager</strong></a>
-<ul>
-<li><a href="#1-login-to-tasking-manager">1. <strong>Login to Tasking Manager</strong></a></li>
-<li><a href="#2-searching-project-on-tasking-manager-search-box">2. <strong>Searching Project on Tasking Manager search box</strong></a></li>
-<li><a href="#3-get-to-know-about-tasking-manager-layout-and-display">3. <strong>Get to know about Tasking Manager Layout and Display</strong></a></li>
-<li><a href="#4-contribute-on-tasking-manager-project">4. <strong>Contribute on Tasking Manager Project</strong></a></li>
-<li><a href="#5-things-you-need-to-know-when-you-selected-your-area">5. <strong>Things you need to know when you selected your area</strong></a></li>
-</ul></li>
-</ul></li>
-</ul>
+    
+    
+    <div class="toc-list">
+        <h4 class="sub-title sub-title-10">ON THIS PAGE</h4>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#i-what-is-tasking-manager">I. What is Tasking Manager?</a>
+      <ul>
+        <li><a href="#1-the-definition-of-tasking-manager">1. The Definition of Tasking Manager</a></li>
+        <li><a href="#2-the-example-of-tasking-manager">2. The example of Tasking Manager</a></li>
+      </ul>
+    </li>
+    <li><a href="#ii-starting-tasking-manager">II. Starting Tasking Manager</a>
+      <ul>
+        <li><a href="#1-login-to-tasking-manager">1. Login to Tasking Manager</a></li>
+        <li><a href="#2-searching-project-on-tasking-manager-search-box">2. Searching Project on Tasking Manager search box</a></li>
+        <li><a href="#3-get-to-know-about-tasking-manager-layout-and-display">3. Get to know about Tasking Manager Layout and Display</a></li>
+        <li><a href="#4-contribute-on-tasking-manager-project">4. Contribute on Tasking Manager Project</a></li>
+        <li><a href="#5-things-you-need-to-know-when-you-selected-your-area">5. Things you need to know when you selected your area</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
+    </div>
+    <hr class="toc-divider">
     
-  </aside>
-
-
-
-  </main>
-
-  
-  
-  <footer class="footer">
-
-    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
-    <a href="https://github.com/hotosm/pdc-documentation" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-    </svg></a>
     
-
-  </footer>
-  
-  <script src="../../../../../js/search.js"></script>
-  
-
-  
-</body>
-
+    <a href="https://github.com/hotosm/pdc-documentation/edit/master/content/en/pages/02-HOT-Tasking-Manager/02-Penggunaan-Tasking-Manager/02_Penggunaan_Tasking_Manager.md" class="sub-title sub-title-12 toc-item"> <img src="../../../../../svg/pencil.svg" class="edit-icon" alt="">Edit this page on Github</a>
+    <a 
+    
+    href="../../../../../pdfs/en/02_Penggunaan_Tasking_Manager.pdf"
+    
+    class="sub-title sub-title-12 toc-item"> <img src="../../../../../svg/download.svg" class="download-icon" alt="">Download this page</a>
+</div></aside>
+</div>
+<script src="../../../../../js/main.js"></script>
+<script src="../../../../../js/search.js"></script>
+<script src="../../../../../js/toc.js"></script></body>
 </html>

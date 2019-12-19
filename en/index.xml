@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HOT-PDC Training Site</title>
@@ -17,10 +17,10 @@
       
       <guid>/en/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/</guid>
       <description>Objectives:
- Explain the functions of Tasking Manager in the context of participatory mapping
- Able to explain how to make Tasking Manager
- Able to explain how to manage existing Tasking Manager
-  You must already know how to use tasking manager to perform mapping activities together. When you use a tasking manager that doesn&amp;rsquo;t suit the area you want, then you might want to make a tasking manager for your own area.</description>
+  Explain the functions of Tasking Manager in the context of participatory mapping
+  Able to explain how to make Tasking Manager
+  Able to explain how to manage existing Tasking Manager
+  You must already know how to use tasking manager to perform mapping activities together. When you use a tasking manager that doesn&#39;t suit the area you want, then you might want to make a tasking manager for your own area.</description>
     </item>
     
     <item>
@@ -201,9 +201,9 @@ I. Export Tool Concept The Export Tool is an open service that creates customize
       
       <guid>/en/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/</guid>
       <description>Objectives:
- Explain OSMTracker as one of survey tools for recording tracks and photos
- How to set up the OSMTracker for the first time
- Learn how to use OSMTracker
+  Explain OSMTracker as one of survey tools for recording tracks and photos
+  How to set up the OSMTracker for the first time
+  Learn how to use OSMTracker
   I. What is OSMTracker? OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoint and also track. If you want to learn more about GPS for field survey, you can see the GPS Module.</description>
     </item>
     
@@ -254,7 +254,7 @@ I. Export Tool Concept The Export Tool is an open service that creates customize
       
       <guid>/en/pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/</guid>
       <description>Learning Objectives:
- Able to explain the benefits of using Ona.io Explain how to upload survey forms to the Ona.io server  After we have successfully created the survey forms that have been studied in the module Making Survey Forms for the ODK Collect &amp;amp; OpenMapKit Application, You will learn the platform used to upload survey forms to one of the platforms. The platform used in this material are Ona.</description>
+ Able to explain the benefits of using Ona.io Explain how to upload survey forms to the Ona.io server  After we have successfully created the survey forms that have been studied in the module Making Survey Forms for the ODK Collect &amp;amp; OpenMapKit Application, You will learn the platform used to upload survey forms to one of the platforms. The platform used in this material are Ona.io. Ona.</description>
     </item>
     
     <item>

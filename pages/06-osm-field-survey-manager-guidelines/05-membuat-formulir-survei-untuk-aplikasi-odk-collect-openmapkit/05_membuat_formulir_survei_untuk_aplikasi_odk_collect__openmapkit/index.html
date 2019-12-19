@@ -1,658 +1,439 @@
-<!DOCTYPE html><html>
-
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HOT-PDC Training Site</title>
-<link rel="icon" type="image/png" sizes="32x32" href="../../../../favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../../../../favicon-16x16.png">
-<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
-<script src="https://unpkg.com/lunr/lunr.js"></script>
-
-
-
-<link rel="stylesheet" href="../../../../normalize.min.css">
-
-<link rel="stylesheet" href="../../../../book.min.b0e8214cbf05079a2aba369158e0410c2515a8def4c0b44254eefada553ab758.css">
-
-<!--
-Made with Book Theme
-https://github.com/hotosm/hugo-book
--->
-  
-</head>
-
-<body>
-  <header class="header-nav" id="nav">
-    <div class="nav-container">
-      <a class="nav-title with-logo" href="../../../../">
-        <img class="logo" src="../../../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
-        <span>HOT-PDC Training Site</span>
-      </a>
-      <a class="nav-guide-link guide-active" href="../../../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/" >Guide</a>
-      <div class="hr-v"></div>
-      <a class="nav-pdf-download" 
-      
-      href="../../../../pdfs/id/HOT-PDC_Training_Site.pdf">
-      
-      Download PDF &nbsp;
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
-        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
-          <polygon points="0 0 20 0 20 20 0 20"/>
-          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
-        </g>
-      </svg>
-      </a>
-      <input type="checkbox" style="display: none" id="menu-control" />      
-    </div>
-    <div class="nav-right">
-    
-    
-    
-    
-
-    
-    <div class="hr-v"></div>
-    <div class="language">
-      <button class="language-btn">Language: id</button>
-      <div class="language-dropdown">
+<!DOCTYPE html>
+<html><head>
+   <link rel="icon" type="image/png" sizes="32x32" href="../../../../favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="../../../../favicon-16x16.png">
+   <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+   <script src="../../../../js/vendor/lunr/lunr.min.js"></script>
+   
+   
+   
+   
+   <link rel="stylesheet" href="../../../../scss/main.css">
+   <title>HOT-PDC Training Site</title>
+</head><body data-site-url='https://hotosm.github.io/pdc-documentation'  data-default-lang='id' data-lang='id'   ><header class="header" >
+    <div class="header__container">
+        <img src="https://hotosm.github.io/pdc-documentation/svg/hot-logo-red.svg" alt="hot logo"><a href="https://hotosm.github.io/pdc-documentation" class="no-underline"><h4 class="title site-title">HOT-PDC Training Site</h4></a>
+        <div>
         
-          
-          
-          <a href="../../../../">Indonesia</a>
-          
-         
-          
-            <a href="../../../../en">English</a>
-          
-         
-      </div>
+    </div><ul class="browse-select-options browse-select-options--hidden js-browse-select-options">
+
+</ul></div>
+        
+        <a class="hotosm-link" href="https://hotosm.org">hotosm.org</a> 
+        <div class="hamburger-icon"></div>
     </div>
-    
-
-    <div class="language-select"></div>
-    <div class="languages">
-    </div>
-    
-    <div class="hr-v"></div>
-    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../../svg/icon-external-red.svg" alt=""></a>
-    </div>
-  </header>
-  <main class="flex container">
-
-    <aside class="book-menu fixed">
-      <nav role="navigation">
-
-
-
-
-<a href="../../../../" >Introduction</a>  
-
-    
-
-
-  
-  
-    
-  
- 
-  
-  <ul>
-    
-    <li>
-    
-    Panduan OpenStreetMap untuk Surveyor 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/">
-    Metodologi Pengumpulan Data</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/">
-    Menggunakan Aplikasi ODK Collect</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/">
-    Menggunakan Aplikasi OpenMapKit</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/">
-    Menggunakan Aplikasi OSMTracker</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/">
-    Menggunakan GPS</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    HOT Tasking Manager 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/">
-    Membuat dan Mengelola Tasking Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/">
-    Penggunaan Tasking Manager</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    JOSM 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/">
-    Pengenalan OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/">
-    Memulai menggunakan OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/">
-    Pengenalan Java OpenStreetMap (JOSM)</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/">
-    Menggunakan Java OpenStreetMap (JOSM)</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/">
-    Menambahkan Data Hasil Survei ke OSM Menggunakan JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/">
-    Menggunakan To-Do List di JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/">
-    Menggunakan Alat Filter di JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/">
-    Menggunakan buildings tools di JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/">
-    Pembuatan Batas Administrasi dengan JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/">
-    Mengatasi Konflik pada Data OpenStreetMap (OSM)</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Validasi Data dan Penjaminan Kualitas 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/">
-    Konsep Penjaminan Kualitas</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/02_penggunaan_josm_untuk_validasi_data_survei/">
-    Penggunaan JOSM untuk Validasi Data Survei</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/">
-    Penjaminan Kualitas Data dengan Tasking Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/">
-    JOSM untuk Perhitungan Kualitas Data</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Penggunaan HOT Export 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/">
-    Download Data OSM dengan Menggunakan Export Tool</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Panduan Pemetaan Lapangan untuk Manajer Proyek 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/">
-    Metodologi Perencanaan Proyek Pemetaan dengan OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/">
-    Model Data OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/">
-    Membuat Presets</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04_penggunaan_yaml_pada_export_tool/">
-    Penggunaan YAML pada Export Tool</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/" class="active">
-    Membuat Formulir Survei untuk Aplikasi ODK Collect &amp; OpenMapKit</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/">
-    Meletakkan Formulir Survei ke Ona.io</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07.pembuatan_peta_survey_dengan_qgis/">
-    Pembuatan Peta Survei dengan Menggunakan QGIS</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/">
-    Pembuatan MBTiles untuk OpenMapKit (OMK)</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09_perhitungan_kuantitas_data_dengan_group_stats/">
-    Perhitungan Kuantitas Data Menggunakan Plugin Group Stats</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/">
-    Konversi Data Shapefile ke GeoJSON</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Menggunakan Map Campaigner 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/">
-    Membuat dan Mengelola Map Campaigner untuk Pemetaan</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Integrasi data OpenStreetMap ke InAWARE 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/">
-    Integrasi Data OpenStreetMap di InAWARE</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-
-    
-    <li>
-      <a href="../../../../pages/01-osm-field-surveyor-guideliness/">
-    
-    Panduan OpenStreetMap untuk Surveyor</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/02-hot-tasking-manager/">
-    
-    HOT Tasking Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/03-josm/">
-    
-    JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/04-data-validation-and-quality-assurance/">
-    
-    Validasi Data dan Penjaminan Kualitas</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/05-hot-export/">
-    
-    Penggunaan HOT Export</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/06-osm-field-survey-manager-guidelines/">
-    
-    Panduan Pemetaan Lapangan untuk Manajer Proyek</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/07-map-campaigner/">
-    
-    Menggunakan Map Campaigner</a>
-    </li>
-    
-    <li>
-      <a href="../../../../pages/08-osm-data-integration-to-inaware/">
-    
-    Integrasi data OpenStreetMap ke InAWARE</a>
-    </li>
-    
-  </ul>
-
-
-
-
-
-
-
-
-</nav>
-    </aside>
-
-    <div class="book-page">
-      <header class="align-center justify-between book-header">
-  <label for="menu-control">
-    <img src="../../../../svg/menu.svg" />
-  </label>
-  <strong>
-    Membuat Formulir Survei untuk Aplikasi ODK Collect &amp; OpenMapKit</strong>
 </header>
 
-      
-<article class="markdown">
-  <div class="markdown__header">  <h1>Membuat Formulir Survei untuk Aplikasi ODK Collect &amp; OpenMapKit</h1>
-    <a 
+<div class="main">
+    <aside class="menu">
+        <div class="menu__container">
+
+
+<h2 class="title">HOT-PDC Training Site</h2> 
+
+<div>
     
-    href="../../../../pdfs/id/05_Membuat_Formulir_Survei_untuk_Aplikasi_ODK_Collect_&amp;_OpenMapKit.pdf"
     
-    class="pdf-download-link"> Download page as PDF &nbsp;
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
-        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
-          <polygon points="0 0 20 0 20 20 0 20"/>
-          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
-        </g>
-      </svg>
+    <div class="js-language-select language-select">
+        
+            
+                Indonesia 
+            
+        
+            
+        
+    </div>
+    
+    <ul class="js-language-select-options language-select-options language-select-options--hidden">
+            
+            
+            <li>
+            
+        <a href="https://hotosm.github.io/pdc-documentation/pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/" class="language-select-option 
+        
+        language-select-option--selected
+        
+        ">Indonesia</a>
+        
+    </li>
+        
+            
+            <li>
+            
+        <a href="https://hotosm.github.io/pdc-documentation/en/pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/" class="language-select-option
+        
+        ">English  </a>
+        
+    </li>
+        
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Panduan OpenStreetMap untuk Surveyor
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/" class="menu-link">Metodologi Pengumpulan Data</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/" class="menu-link">Menggunakan Aplikasi ODK Collect</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/" class="menu-link">Menggunakan Aplikasi OpenMapKit</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/" class="menu-link">Menggunakan Aplikasi OSMTracker</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/" class="menu-link">Menggunakan GPS</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            HOT Tasking Manager
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/" class="menu-link">Membuat dan Mengelola Tasking Manager</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/" class="menu-link">Penggunaan Tasking Manager</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            JOSM
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/" class="menu-link">Pengenalan OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/" class="menu-link">Memulai menggunakan OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/" class="menu-link">Pengenalan Java OpenStreetMap (JOSM)</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/" class="menu-link">Menggunakan Java OpenStreetMap (JOSM)</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/" class="menu-link">Menambahkan Data Hasil Survei ke OSM Menggunakan JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/" class="menu-link">Menggunakan To-Do List di JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/" class="menu-link">Menggunakan Alat Filter di JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/" class="menu-link">Menggunakan buildings tools di JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/" class="menu-link">Pembuatan Batas Administrasi dengan JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/" class="menu-link">Mengatasi Konflik pada Data OpenStreetMap (OSM)</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Validasi Data dan Penjaminan Kualitas
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/" class="menu-link">Konsep Penjaminan Kualitas</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/02_penggunaan_josm_untuk_validasi_data_survei/" class="menu-link">Penggunaan JOSM untuk Validasi Data Survei</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/" class="menu-link">Penjaminan Kualitas Data dengan Tasking Manager</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/" class="menu-link">JOSM untuk Perhitungan Kualitas Data</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Penggunaan HOT Export
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/" class="menu-link">Download Data OSM dengan Menggunakan Export Tool</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--open
+        
+        ">
+            Panduan Pemetaan Lapangan untuk Manajer Proyek
+        </div>
+        <div class="panel
+        
+        panel--open
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/" class="menu-link">Metodologi Perencanaan Proyek Pemetaan dengan OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/" class="menu-link">Model Data OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/" class="menu-link">Membuat Presets</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04_penggunaan_yaml_pada_export_tool/" class="menu-link">Penggunaan YAML pada Export Tool</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/" class="menu-link menu-link--active">Membuat Formulir Survei untuk Aplikasi ODK Collect &amp; OpenMapKit</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/" class="menu-link">Meletakkan Formulir Survei ke Ona.io</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07.pembuatan_peta_survey_dengan_qgis/" class="menu-link">Pembuatan Peta Survei dengan Menggunakan QGIS</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/" class="menu-link">Pembuatan MBTiles untuk OpenMapKit (OMK)</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09_perhitungan_kuantitas_data_dengan_group_stats/" class="menu-link">Perhitungan Kuantitas Data Menggunakan Plugin Group Stats</a></li>
+                    
+                        <li class="page"><a href="../../../../pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/" class="menu-link">Konversi Data Shapefile ke GeoJSON</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Menggunakan Map Campaigner
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/" class="menu-link">Membuat dan Mengelola Map Campaigner untuk Pemetaan</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Integrasi data OpenStreetMap ke InAWARE
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/" class="menu-link">Integrasi Data OpenStreetMap di InAWARE</a></li>
+                    
+                </ul>
+            </div>
+    
+
+<a class="pdf-download"  
+    
+    href="../../../../pdfs/id/HOT-PDC_Training_Site.pdf">
+    
+
+    <div>
+        <div class="title">Unduh semua berkas</div>
+        <div class="sub-title sub-title-12">pdf</div>
+    </div>
+</a></div>
+    </aside>
+    <main class="article"><div class="article__container">
+
+ 
+   <div class="git-info">
+<div class="">
+  
+  <div>
+    
+    <a href="https://github.com/hotosm/pdc-documentation/commit/6b1a6915e23166a8983b58fd7241734783a507cb" class="sub-title sub-title-14" title='Last modified October 1, 2019 by Adityo Dwijananto' target="_blank" rel="noopener">
+      Pembaharuan terakhir: October 1, 2019
     </a>
   </div>
-
-<p><strong>Tujuan pembelajaran:</strong></p>
-
+  
+</div>
+</div>
+    <div class="article-body">
+           <h1 class="page-title">Membuat Formulir Survei untuk Aplikasi ODK Collect &amp; OpenMapKit</h1><p><strong>Tujuan pembelajaran:</strong></p>
 <ul>
 <li>Menjelaskan konsep XLSForm</li>
 <li>Mengoperasikan pembuatan XLSForm untuk <em>ODK Collect</em></li>
 <li>Mengoperasikan pembuatan XLSForm untuk <em>OpenMapKit</em></li>
 </ul>
-
 <p>Dalam kegiatan survei lapangan terkadang Anda membutuhkan sebuah formulir survei. Bayangkan apabila Anda membutuhkan formulir survei dengan puluhan pertanyaan untuk setiap responden, Anda tentunya akan mengalami kesulitan pada saat pengisian data dan juga pada saat memasukkan data ke dalam laptop. Pada materi ini Anda akan belajar bagaimana cara membuat sebuah formulir survei dalam format digital yang nantinya akan dimasukkan ke dalam perangkat telepon genggam Anda.</p>
-
-<h2 id="i-pengertian-konsep-xlsform">I. Pengertian konsep <em>XLSForm</em></h2>
-
+<h2 id="i-pengertian-konsep--xlsform-">I. Pengertian konsep <em>XLSForm</em></h2>
 <p><em>XLSForm</em> merupakan sebuah formulir standar yang dibuat untuk membantu mempercepat proses pembuatan formulir survei di <strong>Excel.</strong> Pembuatan formulir survei ini dilakukan dalam format yang mudah dibaca dan menggunakan alat yang familiar - <strong>Excel/Google Spreadsheet</strong>. <em>XLSForm</em> menghasilkan standar baku untuk berbagi dan bekerja sama dalam pembuatan formulir survei. <em>XLSForm</em> sangat mudah untuk digunakan tetapi bisa juga menjadi sangat rumit apabila Anda sudah familiar dalam membuatnya.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0501_contoh_format_XLSForm.png" alt="Contoh format XLSForm" />
-<p align="center"><i>Contoh format XLSForm</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0501_contoh_format_XLSForm.png" alt="Contoh format XLSForm"></p>
+<!-- raw HTML omitted -->
 <p><em>XLSForm</em> ini kemudian akan diubah menjadi bentuk <em>XForm</em>, sebuah format standar yang bersifat terbuka, dimana format tersebut memungkinkan Anda untuk membuat sebuah formulir dengan fungsi yang sangat kompleks, seperti pertanyaan bertingkat, ke dalam format yang sudah dikenali oleh perangkat pengumpulan data baik itu dalam bentuk situs di internet, maupun dalam perangkat telepon genggam.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0502_contoh_format_XForm.png" alt="Contoh format XForm" />
-<p align="center"><i>Contoh format XForm</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0502_contoh_format_XForm.png" alt="Contoh format XForm"></p>
+<!-- raw HTML omitted -->
 <p>Syarat utama dalam membuat <em>XLSForm</em> adalah berkas akhir formulir survei Anda harus dalam jenis <strong>Microsoft Excel</strong> (format <em>.xls</em> atau <em>.xls</em>). Apabila Anda membuat formulir survei menggunakan aplikasi lain seperti <strong>Google Spreadsheet</strong> atau <strong>Libre Office</strong>, Anda harus memastikan bahwa hasil akhir berkas tersebut disimpan dalam format <em>.xls</em> atau <em>.xlsx</em>.</p>
-
 <h2 id="ii-pembuatan-xlsform-untuk-aplikasi-odk-collect">II. Pembuatan XLSForm untuk aplikasi ODK Collect</h2>
-
 <p>Anda tentunya sudah memahami cara penggunaan aplikasi <em>ODK Collect</em> yang dijelaskan pada modul <strong>Menggunakan aplikasi ODK Collect.</strong> Semua pertanyaan yang muncul pada aplikasi <em>ODK Collect</em> dibuat dalam format <em>XLSForm</em>. Saat ini kita akan mempelajari bagaimana cara membuat formulir survei sehingga bisa ditampilkan ke dalam aplikasi <em>ODK Collect</em>.</p>
-
 <h3 id="1-format-standar">1. Format Standar</h3>
-
 <p>Dalam pembuatan formulir survei ada beberapa ketentuan yang harus Anda ikuti agar formulir survei yang kita buat bisa diubah kedalam format <em>XForm</em>. Beberapa aturan yang harus diikuti untuk membuat formulir survei yang sesuai adalah:</p>
-
-<h4 id="a-tiga-lembar-kerja-sheet-utama">a. Tiga lembar kerja/<em>sheet</em> utama.</h4>
-
+<h4 id="a-tiga-lembar-kerja-sheet--utama">a. Tiga lembar kerja/<em>sheet</em> utama.</h4>
 <p>Pada dokumen <em>spreadsheet</em> yang kita buat, harus terdiri dari 3 lembar kerja utama, yaitu lembar kerja yang bernama <em><strong>survey, choices, settings.</strong></em> Penamaan lembar kerja ini harus sesuai dan tidak boleh salah karena nanti akan gagal pada saat meng-<em>upload</em> formulir survei Anda.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0503_tiga_lembar_kerja_utama.png" alt="Tiga Lembar Kerja Utama di setiap XLSForm" />
-<p align="center"><i>Tiga Lembar Kerja Utama di setiap XLSForm</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0503_tiga_lembar_kerja_utama.png" alt="Tiga Lembar Kerja Utama di setiap XLSForm"></p>
+<!-- raw HTML omitted -->
 <p>Lembar kerja pertama yaitu <strong><em>survey</em>.</strong> Pada lembar kerja ini semua pertanyaan yang akan kita buat harus kita letakkan pada lembar kerja ini. Semua pertanyaan yang kita buat tidak perlu disertakan dengan daftar jawaban. Semua daftar jawaban yang kita butuhkan akan mengacu ke lembar kerja berikutnya.</p>
-
 <p>Lembar kerja kedua yaitu <strong><em>choices</em></strong>. Pada lembar kerja ini kita memasukkan semua daftar jawaban kita dari setiap pertanyaan yang membutuhkan pilihan jawaban.</p>
-
 <p>Lembar kerja ketiga yaitu <strong><em>settings</em>.</strong> Pada lembar kerja ini kita hanya dapat memasukkan nama formulir kita apabila nama formulir kita berbeda dengan nama berkas kita. Sebagai contoh, apabila nama berkas kita adalah <em>formulir_survei_air_bersih.xls</em> maka pada lembar kerja ini kita bisa memberikan nama formulir kita dengan nama yang kita inginkan, misalnya <em>Formulir Kondisi Air Bersih</em>.</p>
-
 <h4 id="b-tiga-nama-kolom-utama">b. Tiga nama kolom utama.</h4>
-
 <p>Pada setiap lembar kerja harus terdapat dua-tiga nama kolom yang berbeda di setiap lembar kerja. Nama kolom untuk masing-masing lembar kerja ini pun berbeda-beda.</p>
-
-<h5 id="b-1-kolom-pada-lembar-kerja-survey">b.1. Kolom pada Lembar Kerja <em>survey</em></h5>
-
+<h5 id="b1-kolom-pada-lembar-kerja-survey">b.1. Kolom pada Lembar Kerja <em>survey</em></h5>
 <p>Pada lembar kerja <strong>survey</strong> kita harus memasukkan tiga nama kolom yaitu <strong>type, name,</strong> &amp; <strong>label</strong>. Kolom dengan nama <strong>type</strong> menunjukkan jenis pertanyaan yang akan muncul nantinya, apakah pertanyaan berbentuk pilihan, isian bebas ataupun mengambil lokasi.</p>
-
 <p>Kolom dengan nama <strong>name</strong> menunjukkan variabel unik untuk setiap daftar pertanyaan. Variabel ini tidak boleh sama, tidak menggunakan spasi, dan hanya berupa angka, huruf atau garis bawah.</p>
-
 <p>Kolom dengan nama <strong>label</strong> menunjukkan tulisan pertanyaan yang akan muncul pada perangkat ponsel pengguna. Tidak ada format baku untuk kolom ini, Anda bebas menggunakan huruf, angka, dan karakter spesial pada kolom ini.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0504_ct_kolom_survey.png" alt="Contoh kolom untuk lembar kerja survey" />
-<p align="center"><i>Contoh kolom untuk lembar kerja survey</i></p></p>
-
-<h5 id="b-2-kolom-pada-lembar-kerja-choices">b.2. Kolom pada Lembar Kerja <em>choices</em></h5>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0504_ct_kolom_survey.png" alt="Contoh kolom untuk lembar kerja survey"></p>
+<!-- raw HTML omitted -->
+<h5 id="b2-kolom-pada-lembar-kerja-choices">b.2. Kolom pada Lembar Kerja <em>choices</em></h5>
 <p>Pada lembar kerja <strong>choices</strong> kita harus memasukkan tiga nama kolom yaitu <strong>list_name, name</strong>, &amp; <strong>label.</strong> Pada kolom <strong>list_name</strong> ini anda membuat sebuah grup yang berisikan sebuah set pilihan jawaban. Misalnya seperti sebuah set pilihan jawaban yang akan muncul dibawah pertanyaan pilihan ganda. Untuk penamaan pada variabel <strong>list_name</strong> ini harus mengikuti penamaan yang ada pada lembar kerja <strong>survey</strong>. Misalnya pada lembar kerja <strong>survey</strong> kita memasukkan tipe pilihan ganda dengan nama <strong>select_one jns_bencana</strong>. Maka pada lembar kerja <strong>choices</strong> kita harus mengisi <strong>list_name</strong> kita dengan nama <strong>jns_bencana</strong>. Ini akan dijelaskan lebih lanjut pada pembahasan berikutnya.</p>
-
 <p>Kolom dengan nama <strong>name</strong> memiliki aturan yang sama dengan kolom <strong>name</strong> pada lembar kerja <strong>survey</strong>. Semua harus dalam variabel unik yang tidak sama dengan yang lainnya baik pada lembar kerja <strong>survey</strong> maupun lembar kerja <strong>choices</strong>; tidak menggunakan spasi melainkan diganti dengan menggunakan garis bawah/<em>underscore</em>; dan tidak boleh menggunakan karakter spesial seperti tanda tanya, tanda seru, dsb.</p>
-
 <p>Kolom dengan nama <strong><em>label</em></strong> memiliki aturan yang sama dengan kolom <strong>label</strong> pada lembar kerja <strong>survey</strong>. Pada kolom ini berisikan teks jawaban yang akan muncul pada ponsel pengguna. Anda bisa bebas menggunakan spasi, karakter khusus maupun huruf pada bagian kolom ini.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0505_penamaan_kolom_choices.png" alt="Contoh penamaan kolom pada lembar kerja choices" />
-<p align="center"><i>Contoh penamaan kolom pada lembar kerja <strong>choices</strong></i></p></p>
-
-<h5 id="b-3-kolom-pada-lembar-kerja-settings">b.3. Kolom pada Lembar Kerja <em>settings</em></h5>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0505_penamaan_kolom_choices.png" alt="Contoh penamaan kolom pada lembar kerja choices"></p>
+<!-- raw HTML omitted -->
+<h5 id="b3-kolom-pada-lembar-kerja-settings">b.3. Kolom pada Lembar Kerja <em>settings</em></h5>
 <p>Lembar kerja <strong><em>settings</em></strong> digunakan apabila Anda ingin membuat pengaturan tambahan seperti memberikan nama formulir survei Anda, memberikan id formulir secara spesifik, dan versi formulir survei Anda. Agar dapat menggunakan fitur ini, Anda harus memberikan tiga nama kolom ini: <strong>form_title, form_id,</strong> &amp; <strong>version</strong>.</p>
-
 <p>Pada kolom <strong>form_title,</strong> Anda bisa memberikan penamaan yang bebas untuk formulir Anda. Penamaan ini yang nantinya akan muncul pada ponsel pengguna.</p>
-
 <p>Sementara untuk kolom <strong>form_id</strong>, Anda bisa memberikan id formulir Anda. Syarat penamaan pada kolom ini adalah Anda tidak boleh memiliki id yang sama seperti formulir lainnya, tidak menggunakan spasi, dan tidak menggunakan karakter spesial.</p>
-
 <p>Untuk kolom <strong>version</strong>, Anda bisa memberikan versi formulir Anda. Penambahan kolom <strong>version</strong> ini tidak wajib. Apabila Anda sering menambah/mengubah formulir survei Anda, dengan memberikan kolom <strong>version</strong> ini, akan memudahkan Anda dalam mengunggah formulirnya pada server.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0506_pengaturan_settings.png" alt="Contoh penamaan kolom pada lembar kerja settings" />
-<p align="center"><i>Contoh penamaan kolom pada lembar kerja settings</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0506_pengaturan_settings.png" alt="Contoh penamaan kolom pada lembar kerja settings"></p>
+<!-- raw HTML omitted -->
 <h4 id="c-semua-isian-harus-dengan-format-standar-dan-dimulai-dari-kotak-paling-pertama">c. Semua isian harus dengan format standar dan dimulai dari kotak paling pertama.</h4>
-
 <p>Salah satu syarat yang paling utama adalah ketika kita membuat formulir survei, semua harus dimulai pada <em>field</em>/kuadran <em><strong>A-1.</strong></em></p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0507_posisi_awal_membuat_formulir_survei.png" alt="Posisi awal membuat formulir survei" />
-<p align="center"><i>Posisi awal membuat formulir survei</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0507_posisi_awal_membuat_formulir_survei.png" alt="Posisi awal membuat formulir survei"></p>
+<!-- raw HTML omitted -->
 <p>Semua isian formulir harus dimulai pada kuadran/<em>field</em> tersebut karena nantinya sistem akan mengkonversi berkas <em>spreadsheet</em> ini menjadi dalam bentuk <em>XForm</em>, sehingga apabila Anda tidak memulai dari posisi tersebut, akan terjadi <em>error</em> pada sistem.</p>
-
 <p>Selain itu, syarat utama lainnya adalah tidak boleh menggunakan format tabel seperti contohnya <em>merge, center, hide row/coloum, wrap text,</em> dsb. Semuanya harus dalam keadaan format standar. Pengaturan yang bisa kita gunakan adalah menambahkan huruf cetak tebal/<strong>bold</strong>, memberikan warna pada kolom atau baris, dan mengubah bentuk dan ukuran huruf.</p>
-
 <h2 id="2-tipe-tipe-pertanyaan-standar">2. Tipe-tipe Pertanyaan Standar</h2>
-
 <p>Dalam formulir survei kertas, biasanya kita menemukan beberapa pertanyaan seperti jawaban singkat, jawaban panjang, memasukkan tanggal lahir, dan pilihan berganda. Beberapa pertanyaan tersebut, apabila kita buat dalam <em>spreadsheet</em>, memiliki tipe pertanyaan yang berbeda-beda, seperti:</p>
-
 <h3 id="a-tipe-pertanyaan-text">a. Tipe pertanyaan <em>text</em></h3>
-
 <p>Tipe pertanyaan jenis ini akan menghasilkan format pertanyaan dengan jawaban bebas. Pengguna bisa dengan bebas memasukkan angka, huruf, dan karakter spesial apabila kita menggunakan tipe pertanyaan ini.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0508_contoh_tipe_pertanyaan_text.png" alt="Contoh tipe pertanyaan text" />
-<p align="center"><i>Contoh tipe pertanyaan text</i></p></p>
-
-<h3 id="b-tipe-pertanyaan-integer-decimal">b. Tipe pertanyaan <em>integer/decimal</em></h3>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0508_contoh_tipe_pertanyaan_text.png" alt="Contoh tipe pertanyaan text"></p>
+<!-- raw HTML omitted -->
+<h3 id="b-tipe-pertanyaan-integerdecimal">b. Tipe pertanyaan <em>integer/decimal</em></h3>
 <p>Tipe pertanyaan jenis ini akan menghasilkan format pertanyaan dengan jawaban berupa angka bilangan bulat (khusus untuk tipe <strong>integer</strong>) atau angka bilangan desimal (khusus untuk tipe <strong>decimal</strong>). Pengguna hanya bisa memasukkan angka saja dengan tipe pertanyaan ini, gabungan dari angka dan huruf tidak akan bisa dimasukkan apabila kita menggunakan tipe pertanyaan ini.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0509_contoh_tipe_pertanyaan_integer.png" alt="Contoh tipe pertanyaan integer" />
-<p align="center"><i>Contoh tipe pertanyaan integer</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0509_contoh_tipe_pertanyaan_integer.png" alt="Contoh tipe pertanyaan integer"></p>
+<!-- raw HTML omitted -->
 <h3 id="c-tipe-pertanyaan-select-one">c. Tipe pertanyaan <em>select_one</em></h3>
-
 <p>Tipe pertanyaan jenis ini akan memberikan pengguna sebuah pilihan jawaban dimana pengguna hanya boleh memilih satu jawaban saja. Dalam membuat tipe pertanyaan ini, Anda harus menggunakan format seperti <strong>select_one [opsi]</strong>. Dimana <strong>[opsi]</strong> merupakan variabel grup yang akan dimasukkan ke dalam lembar kerja <strong>choices</strong> di dalam kolom <strong>list_name</strong>.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0510_contoh_select_one.png" alt="Contoh tipe pertanyaan select_one" />
-<p align="center"><i>Contoh tipe pertanyaan select_one [opsi]. Perhatikan bahwa pada  list_name sesuai dengan apa yang ada pada  [opsi] di lembar kerja survey.</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0510_contoh_select_one.png" alt="Contoh tipe pertanyaan select_one"></p>
+<!-- raw HTML omitted -->
 <h3 id="d-tipe-pertanyaan-select-multiple">d. Tipe pertanyaan <em>select_multiple</em></h3>
-
 <p>Tipe pertanyaan jenis ini sama seperti tipe pertanyaan sebelumnya. Jawaban yang disajikan ke pengguna merupakan beberapa pilihan dan pengguna boleh memilih lebih dari satu jawaban. Aturan dalam pembuatan tipe pertanyaan ini juga sama seperti <strong>select_one</strong>. Anda harus menggunakan format seperti <strong>select_multiple [opsi],</strong> dimana <strong>[opsi]</strong> merupakan variabel grup yang akan dimasukkan ke dalam lembar kerja <strong>choices</strong> dalam kolom <strong>list_name</strong>.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0511_contoh_select_multiple.png" alt="Contoh tipe pertanyaan select_multiple" />
-<p align="center"><i>Contoh tipe pertanyaan select_multiple [opsi]. Opsi pada gambar diatas adalah floodcause yang juga muncul didalam lembar kerja choices</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0511_contoh_select_multiple.png" alt="Contoh tipe pertanyaan select_multiple"></p>
+<!-- raw HTML omitted -->
 <h3 id="e-tipe-pertanyaan-geopoint">e. Tipe pertanyaan <em>geopoint</em></h3>
-
 <p>Tipe pertanyaan ini akan meminta pengguna untuk merekam koordinat posisi mereka dan akan menghasilkan data berbentuk koordinat lintang dan bujur.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0512_contoh_geopoint.png" alt="Contoh penggunaan tipe pertanyaan geopoint" />
-<p align="center"><i>Contoh penggunaan tipe pertanyaan geopoint</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0512_contoh_geopoint.png" alt="Contoh penggunaan tipe pertanyaan geopoint"></p>
+<!-- raw HTML omitted -->
 <h3 id="f-tipe-note">f. Tipe <em>note</em></h3>
-
 <p>Tipe ini digunakan untuk menambahkan halaman catatan atau pemberitahuan. Pengguna akan disajikan satu halaman yang berisikan tampilan tulisan saja tanpa harus mengisi informasi apapun. Untuk format penulisan masih mengikuti kaidah penulisan pada kolom <strong>label</strong>, dimana kita bebas memberikan format tulisan apapun.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0513_contoh_note.png" alt="Contoh penggunaan tipe note" />
-<p align="center"><i>Contoh penggunaan tipe note</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0513_contoh_note.png" alt="Contoh penggunaan tipe note"></p>
+<!-- raw HTML omitted -->
 <h3 id="tipe-image-video-atau-audio">Tipe <em>image, video</em> atau <em>audio</em></h3>
-
 <p>Tipe pertanyaan ini akan meminta pengguna untuk mengambil gambar, suara atau video.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0514_contoh_image.png" alt="Contoh penggunaan tipe image" />
-<p align="center"><i>Contoh penggunaan tipe image</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0514_contoh_image.png" alt="Contoh penggunaan tipe image"></p>
+<!-- raw HTML omitted -->
 <h2 id="3-format-tambahan">3. Format Tambahan</h2>
-
 <p>Anda bisa langsung menggunakan formulir survei Anda hanya dengan memasukan beberapa tipe pertanyaan standar yang sudah dijelaskan sebelumnya. Semakin Anda mahir membuat <em>XLSForm</em>, Anda mungkin akan bertanya apakah ada tipe pertanyaan lain yang bisa membuat formulir survei Anda semakin mudah digunakan dan mengambil data sesuai kemauan Anda. Untuk melihat semua tipe pertanyaan yang bisa digunakan dalam membuat <em>XLSForm</em>, Anda bisa menuju situs <a href="http://xlsform.org">http://xlsform.org</a>. Pada materi ini, kita hanya akan membahas beberapa tipe pertanyaan tambahan yang bisa Anda gunakan apabila Anda ingin membuat formulir survei Anda menjadi lebih informatif dan mudah digunakan.</p>
-
 <h3 id="a-hint">a. <em>Hint</em></h3>
-
 <p>Hint merupakan salah satu fitur tambahan yang bisa kita tambahkan pada formulir survei digital kita. Dengan menggunakan fitur ini, kita bisa memberikan informasi tambahan atau petunjuk tentang bagaimana cara mengisi sebuah pertanyaan yang kita buat. Untuk membuat fitur ini, kita harus menambahkan kolom baru pada lembar kerja <strong>survey</strong> yang bernama <strong>hint</strong>. Dengan menambahkan kolom ini, setiap tipe pertanyaan yang kita buat, bisa kita tambahkan dengan petunjuk informasi pengisian dengan mengisi pada kolom <strong>hint</strong> ini.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0515_contoh_kolom_hint.png" alt="Contoh penggunaan kolom hint" />
-<p align="center"><i>Contoh penggunaan kolom hint</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0515_contoh_kolom_hint.png" alt="Contoh penggunaan kolom hint"></p>
+<!-- raw HTML omitted -->
 <h3 id="b-required">b. <em>Required</em></h3>
-
 <p>Fitur ini dibutuhkan apabila pada formulir survei Anda, terdapat pertanyaan yang wajib untuk dijawab. Dengan menggunakan fitur ini, pengguna tidak akan bisa mengisi pertanyaan selanjutnya apabila mereka belum menjawab pertanyaan tersebut. Tipe pertanyaan yang menggunakan fitur ini juga akan memiliki tanda bintang berwarna merah ( * ) apabila dilihat pada ponsel Anda. Untuk menggunakan fitur ini, Anda cukup membuat sebuah kolom baru yang bernama <strong>required</strong> yang terletak pada lembar kerja <strong>survey</strong>. Setiap tipe pertanyaan yang Anda akan atur menjadi wajib, harus anda tambahkan nilai <strong>yes</strong> pada kolom required ini.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0516_contoh_penggunaan_fitur_required.png" alt="Contoh penggunaan fitur required" />
-<p align="center"><i>Contoh penggunaan fitur required. Setiap pertanyaan yang mengaktifkan fitur ini tidak dapat dilewati oleh pengguna apabila belum diisi</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0516_contoh_penggunaan_fitur_required.png" alt="Contoh penggunaan fitur required"></p>
+<!-- raw HTML omitted -->
 <h3 id="c-field-list">c. <em>Field-list</em></h3>
-
 <p>Fungsi dari fitur ini adalah pengguna akan disajikan beberapa pertanyaan pada <strong>satu halaman saja</strong> pada layar aplikasi. Secara pengaturan awal, setiap halaman hanya akan disajikan satu pertanyaan saja. Apabila kita ingin agar semua pertanyaan muncul pada satu halaman, maka kita harus menggunakan fitur ini.</p>
-
-<p>Untuk mengaktifkan fitur ini, Anda harus melakukan beberapa pengaturan:
-1.  Anda harus menyelipkan format <strong>begin_group</strong> pada bagian awal pertanyaan yang ingin Anda tampilkan ke dalam satu halaman dan <strong>end_group</strong> pada bagian akhir pertanyaan yang ingin Anda tampilkan dalam satu halaman. Format <strong>begin_group</strong> dan <strong>end_group</strong> ini harus berada di dalam kolom <strong>type</strong>. Dengan menyelipkan format ini, sistem akan membaca bahwa semua pertanyaan yang berada setelah format <strong>begin_group</strong> dan sebelum format <strong>end_group</strong> merupakan satu grup pertanyaan.</p>
-
+<p>Untuk mengaktifkan fitur ini, Anda harus melakukan beberapa pengaturan:</p>
 <ol>
-<li>Setelah anda membuat grup pertanyaan tersebut, Anda harus menambahkan kolom <strong>appearance</strong> dan disikan dengan format <strong>field-list</strong>. Dengan menambahkan kolom tersebut, Anda memberitahukan kepada sistem bahwa semua grup pertanyaan yang telah Anda buat, akan dimasukkan ke dalam daftar satu halaman saja.
-<br /></li>
+<li>
+<p>Anda harus menyelipkan format <strong>begin_group</strong> pada bagian awal pertanyaan yang ingin Anda tampilkan ke dalam satu halaman dan <strong>end_group</strong> pada bagian akhir pertanyaan yang ingin Anda tampilkan dalam satu halaman. Format <strong>begin_group</strong> dan <strong>end_group</strong> ini harus berada di dalam kolom <strong>type</strong>. Dengan menyelipkan format ini, sistem akan membaca bahwa semua pertanyaan yang berada setelah format <strong>begin_group</strong> dan sebelum format <strong>end_group</strong> merupakan satu grup pertanyaan.</p>
+</li>
+<li>
+<p>Setelah anda membuat grup pertanyaan tersebut, Anda harus menambahkan kolom <strong>appearance</strong> dan disikan dengan format <strong>field-list</strong>. Dengan menambahkan kolom tersebut, Anda memberitahukan kepada sistem bahwa semua grup pertanyaan yang telah Anda buat, akan dimasukkan ke dalam daftar satu halaman saja.</p>
+</li>
 </ol>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0517_contoh_field-list.png" alt="Contoh penggunaan fitur field-list pada beberapa kelompok pertanyaan" />
-<p align="center"><i>Contoh penggunaan fitur field-list pada beberapa kelompok pertanyaan</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0517_contoh_field-list.png" alt="Contoh penggunaan fitur field-list pada beberapa kelompok pertanyaan"></p>
+<!-- raw HTML omitted -->
 <h3 id="d-relevant">d. <em>Relevant</em></h3>
-
 <p>Fitur ini memungkinkan kita untuk  membuat daftar pertanyaan yang mengikuti jawaban dari pertanyaan sebelumnya. Misalkan kita diberikan pertanyaan mengenai “Apa makanan yang kamu suka?” dengan pilihan jawaban “A. Nasi Goreng B. Pizza C. Mi Goreng”. Apabila kita menjawab “B. Pizza”, maka pertanyaan berikutnya hanya akan berkaitan dengan pizza, misalnya seperti “Topping pizza apa yang kamu suka?” atau “Jenis pizza apa yang kamu suka?”. Pertanyaan tersebut tidak akan muncul apabila kita menjawab dengan jawaban lain selain pizza. Cara memasukkan fitur <strong>relevant</strong> terdiri dari beberapa tahapan:</p>
-
 <ol>
-<li><p>Membuat tipe pertanyaan awal
+<li>
+<p>Membuat tipe pertanyaan awal
 Sebelum menggunakan fitur <strong>relevant</strong>, Anda terlebih dahulu harus membuat pertanyaan Awal yang akan Anda masukkan kedalam format fitur <strong>relevant</strong>. Misalnya dengan menggunakan tipe pertanyaan <strong>select_one</strong>:
-<img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0518_contoh_lembar_kerja_survey.png" alt="Contoh pertanyaan pada lembar kerja survey" />
-<p align="center"><i>Contoh pertanyaan pada lembar kerja survey</i></p></p></li>
-
-<li><p>Membuat pilihan jawaban pada lembar kerja <strong>choices</strong>
+<img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0518_contoh_lembar_kerja_survey.png" alt="Contoh pertanyaan pada lembar kerja survey"></p>
+<!-- raw HTML omitted -->
+</li>
+<li>
+<p>Membuat pilihan jawaban pada lembar kerja <strong>choices</strong>
 Setelah Anda membuat pertanyaan awal, langkah selanjutnya adalah Anda harus membuat pilihan jawaban pada lembar kerja <strong>choices</strong>.
-<img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0519_contoh_pilihan_jawaban_choices.png" alt="Contoh pilihan jawaban pada lembar kerja choices" />
-<p align="center"><i>Contoh pilihan jawaban pada lembar kerja choices</i></p></p></li>
-
-<li><p>Memasukkan fitur <strong>relevant</strong> pada pertanyaan selanjutnya
+<img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0519_contoh_pilihan_jawaban_choices.png" alt="Contoh pilihan jawaban pada lembar kerja choices"></p>
+<!-- raw HTML omitted -->
+</li>
+<li>
+<p>Memasukkan fitur <strong>relevant</strong> pada pertanyaan selanjutnya
 Setelah Anda membuat pertanyaan awal dan pilihan jawaban, langkah selanjutnya adalah Anda akan membuat pertanyaan yang akan muncul sesuai dengan pilihan jawaban yang dipilih pada pertanyaan sebelumnya. Misalnya, pada pertanyaan sebelumnya, Anda memilih <strong>prasasti</strong> untuk jenis objek yang dimaksud, maka pada pertanyaan berikutnya akan spesifik mengenai <strong>prasasti</strong> saja. Untuk mengaktifkan fitur ini, Anda harus memasukkan kolom tambahan yang bernama <strong>relevant</strong> pada lembar kerja <strong>survey</strong>. Setelah memasukkan kolom tambahan Anda bisa mengisi baris pertanyaan yang membutuhkan fungsi <strong>relevant</strong> dengan format:</p>
-
 <table>
 <thead>
 <tr>
@@ -660,66 +441,44 @@ Setelah Anda membuat pertanyaan awal dan pilihan jawaban, langkah selanjutnya ad
 <th>Deskripsi</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>${field_name} = ‘choice’</td>
 <td>Untuk tipe select_one saja</td>
 </tr>
-
 <tr>
 <td>selected(${field_name}, ‘choice’)</td>
 <td>Untuk tipe select_multiple &amp; select_one</td>
 </tr>
 </tbody>
 </table>
-
 <p>Untuk <strong>field_name</strong> mengacu kepada variabel yang Anda tentukan sebelumnya di kolom <strong>name</strong> pada lembar kerja <strong>survey.</strong> Sementara itu untuk <strong>choice</strong> mengacu kepada variabel pilihan jawaban yang tersedia pada lembar kerja <strong>choices</strong>.
-<img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0520_contoh_pembuatan_fitur_relevant.png" alt="Contoh pembuatan fitur relevant" />
-<p align="center"><i>Contoh pembuatan fitur relevant</i></p></p></li>
+<img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0520_contoh_pembuatan_fitur_relevant.png" alt="Contoh pembuatan fitur relevant"></p>
+<!-- raw HTML omitted -->
+</li>
 </ol>
-
-<h2 id="iii-pembuatan-form-survey-untuk-aplikasi-openmapkit">III. Pembuatan form survey untuk aplikasi <em>OpenMapKit</em></h2>
-
+<h2 id="iii-pembuatan-form-survey-untuk-aplikasi--openmapkit-">III. Pembuatan form survey untuk aplikasi <em>OpenMapKit</em></h2>
 <p>Selain menggunakan <em>ODK Collect</em>, untuk pengumpulan data di lapangan kita juga menggunakan <em>OpenMapKit</em>. Anda tentunya sudah memahami cara penggunaan <em>OpenMapKit</em> untuk pengumpulan data di lapangan. Jika Anda belum mengetahuinya, Anda bisa membaca modul <strong>Menggunakan Aplikasi OpenMapKit.</strong> Sekarang kita akan belajar cara membuat formulir survei untuk digunakan di <em>OpenMapKit</em>.</p>
-
 <p>Secara umum, pembuatan formulir survei untuk <em>OpenMapKit</em> mengikuti aturan seperti formulir survei <em>ODK Collect</em>. Pembuatan formulir survei ini pun bisa dilakukan dalam berkas yang sama dalam pembuatan <em>ODK Collect</em>. Ada beberapa pengaturan standar yang harus kita ikuti agar formulir survei yang kita buat bisa digunakan untuk <em>OpenMapKit</em>.</p>
-
-<h3 id="1-empat-lembar-kerja-sheet-utama">1. Empat lembar kerja/_sheet _utama</h3>
-
+<h3 id="1-empat-lembar-kerja-sheet--utama">1. Empat lembar kerja/_sheet _utama</h3>
 <p>Secara umum, kebutuhan lembar kerja untuk membuat <em>OpenMapKit</em> tidak jauh berbeda dengan format <em>ODK Collect</em>. Lembar kerja yang dibutuhkan oleh <em>ODK Collect</em> adalah <strong>survey, choices,</strong> &amp; <strong>settings</strong>. Namun untuk <em>OpenMapKit</em>, kita harus <strong>menambahkan lembar kerja baru bernama <em>osm</em></strong>.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0521_lembar_kerja_utama_untuk_openmapkit.png" alt="Lembar kerja utama untuk OpenMapKit" />
-<p align="center"><i>Lembar kerja utama untuk OpenMapKit</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0521_lembar_kerja_utama_untuk_openmapkit.png" alt="Lembar kerja utama untuk OpenMapKit"></p>
+<!-- raw HTML omitted -->
 <p>Lembar kerja <strong>osm</strong> berisikan tentang pertanyaan dan pilihan jawaban yang akan muncul pada <em>OpenMapKit</em>. Pada lembar kerja inilah kita harus memasukkan semua daftar pertanyaan yang akan muncul di <em>OpenMapKit</em>. Sementara itu, tiga lembar kerja lainnya mengikuti pengaturan dalam pembuatan <em>ODK Collect</em>.</p>
-
 <h3 id="2-tipe-pertanyaan-utama">2. Tipe pertanyaan utama</h3>
-
 <p>Agar pertanyaan yang kita buat berhasil dimunculkan ke dalam <em>OpenMapKit</em>, kita harus memasukkan tipe pertanyaan khusus, yaitu <strong>osm</strong>. Dengan memasukkan pertanyaan ini ke dalam lembar kerja <strong>survey</strong>, sistem akan memunculkan semua pertanyaan di <em>OpenMapKit</em> yang telah kita buat pada lembar kerja <strong>osm</strong>.</p>
-
 <p>Tipe pertanyaan ini harus diikuti dengan variabel yang nantinya akan terhubung dengan variabel yang ada pada kolom <strong>list name</strong> di lembar kerja <strong>osm.</strong></p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0522_tipe_pertanyaan_osm.png" alt="Tipe pertanyaan osm dengan variabel yang sama di lembar kerja osm" />
-<p align="center"><i>Tipe pertanyaan osm dengan variabel yang sama di lembar kerja osm</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0522_tipe_pertanyaan_osm.png" alt="Tipe pertanyaan osm dengan variabel yang sama di lembar kerja osm"></p>
+<!-- raw HTML omitted -->
 <h3 id="3-tiga-kolom-utama">3. Tiga kolom utama</h3>
-
 <p>Pada lembar kerja <strong>osm</strong>, kita harus memasukkan tiga kolom utama, yaitu kolom <strong>list name</strong>, <strong>name</strong>, dan <strong>label</strong>. Kolom <strong>list name</strong> berisi tentang pertanyaan dan pilihan jawaban. Kolom <strong>name</strong> berisi tentang variabel unik yang mengikuti standar <em>key</em> dan <em>value</em> dari <em>OpenStreetMap.</em> Untuk daftar <em>key</em> dan <em>value,</em> Anda bisa melihat pada modul <strong>Model Data <em>OpenStreetMap</em></strong> atau bisa langsung menuju situs <a href="https://wiki.openstreetmap.org/wiki/Map_Features">https://wiki.openstreetmap.org/wiki/Map_Features</a> dan <a href="https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines">https://wiki.openstreetmap.org/wiki/Id:Indonesian_Tagging_Guidelines</a>.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0523_aturan_key_dan_value_pada_osm.png" alt="Kolom **name** mengikuti aturan key dan value pada OSM" />
-<p align="center"><i>Kolom <strong>name</strong> mengikuti aturan key dan value pada OSM</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0523_aturan_key_dan_value_pada_osm.png" alt="Kolom name mengikuti aturan key dan value pada OSM"></p>
+<!-- raw HTML omitted -->
 <h3 id="4-pertanyaan-dan-pilihan-jawaban-didalam-satu-lembar-kerja">4. Pertanyaan dan pilihan jawaban didalam satu lembar kerja</h3>
-
 <p>Tidak seperti pembuatan formulir survei untuk <em>ODK Collect</em> yang setiap pertanyaan dan pilihan jawaban terpisah pada lembar kerja berbeda, untuk pembuatan formulir survei <em>OpenMapKit</em> ini kita harus memasukkan semua pertanyaan dan pilihan jawaban di dalam satu lembar kerja.</p>
-
-<h2 id="iv-latihan-membuat-formulir-survei-odk-collect-dan-openmapkit">IV. Latihan Membuat Formulir Survei <em>ODK Collect</em> dan <em>OpenMapKit</em></h2>
-
+<h2 id="iv-latihan-membuat-formulir-survei--odk-collect--dan--openmapkit-">IV. Latihan Membuat Formulir Survei <em>ODK Collect</em> dan <em>OpenMapKit</em></h2>
 <p>Sampai saat ini kita sudah memahami bagaimana cara membuat formulir survei untuk aplikasi <em>ODK Collect</em> dan <em>OpenMapKit</em>. Sekarang kita akan mencoba membuat formulir survei yang bisa digunakan untuk kedua aplikasi ini.</p>
-
 <p>Bayangkan Anda saat ini ingin melakukan kegiatan pengumpulan data tempat ibadah dengan menggunakan <em>ODK Collect</em> dan <em>OpenMapKit</em>. Beberapa data yang Anda ingin kumpulkan adalah:</p>
-
 <ul>
 <li>Nama <em>surveyor</em></li>
 <li>Berada di lokasi rawan bencana atau tidak</li>
@@ -727,132 +486,116 @@ Setelah Anda membuat pertanyaan awal dan pilihan jawaban, langkah selanjutnya ad
 <li>Nama tempat ibadah</li>
 <li>Jenis agama untuk tempat ibadah</li>
 </ul>
-
 <p>Dari data tersebut, Anda berhasil mengidentifikasi mana saja jenis pertanyaan yang masuk ke dalam formulir survei <em>ODK Collect</em> dan mana saja jenis pertanyaan yang masuk ke dalam formulir survei <em>OpenMapKit</em>. Pertanyaan yang masuk kedalam <em>ODK Collect</em> adalah <strong>nama surveyor, rawan bencana,</strong> &amp; <strong>koordinat titik lokasi obyek survey</strong>. Sementara itu pertanyaan yang masuk ke dalam <em>OpenMapKit</em> adalah <strong>nama tempat ibadah</strong> &amp; <strong>jenis agama untuk tempat ibadah</strong>.</p>
-
 <p>Pertama-tama, kita harus membuat formulir survei untuk <em>ODK Collect</em>. Seperti syarat yang sudah Anda pelajari sebelumnya, dalam berkas <em>spreadsheet</em> kita harus dibuat empat lembar kerja, yaitu <strong>survey, choices, settings</strong> &amp; <strong>osm.</strong></p>
-
 <p>Setelah itu, pada lembar kerja <strong>survey</strong> kita harus memberikan kolom utama kita, yaitu kolom <strong>type, name</strong> &amp; <strong>label</strong>. Jenis tipe pertanyaan yang harus kita buat untuk formulir survei ini adalah <strong>text, select_one</strong> &amp; <strong>geopoint</strong>.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0524_tipe_pertanyaan_untuk_lembar_kerja_survey.png" alt="Tipe pertanyaan untuk lembar kerja survey" />
-  <p align="center"><i>Tipe pertanyaan untuk lembar kerja <strong>survey</strong></i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0524_tipe_pertanyaan_untuk_lembar_kerja_survey.png" alt="Tipe pertanyaan untuk lembar kerja survey"></p>
+<!-- raw HTML omitted -->
 <p>Pada lembar kerja <strong>choices</strong> kita memasukkan pilihan jawaban untuk tipe pertanyaan <strong>select_one</strong> yang sudah kita buat pada lembar kerja <strong>survey</strong>. Disini kita harus membuat tiga kolom utama yaitu <strong>list_name, name,</strong> &amp; <strong>label</strong>.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0525_pilihan_jawaban_lembar_kerja_choices.png" alt="Pilihan jawaban yang dimasukkan pada lembar kerja choices" />
-  <p align="center"><i>Pilihan jawaban yang dimasukkan pada lembar kerja choices_</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0525_pilihan_jawaban_lembar_kerja_choices.png" alt="Pilihan jawaban yang dimasukkan pada lembar kerja choices"></p>
+<!-- raw HTML omitted -->
 <p>Karena kita ingin menggunakan <em>OpenMapKit</em> untuk pengumpulan data lapangan kita, kita harus menambahkan tipe pertanyaan yang nantinya akan mengarahkan kita ke aplikasi <em>OpenMapKit</em>, tipe pertanyaan yang harus kita masukkan adalah <strong>osm</strong>. Pada lembar kerja <strong>osm</strong> kita memasukkan semua pertanyaan yang berkaitan dengan <em>OpenMapKit</em>. Pada variabel <strong>name</strong> kita harus mengacu kepada <em>key</em> dan <em>value</em> di wikipedia <em>OpenStreetMap</em>.</p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0526_isi_lembar_kerja_survey_dan_osm.png" alt="Isi lembar kerja survey dan osm" />
-  <p align="center"><i>Isi lembar kerja survey dan osm</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0526_isi_lembar_kerja_survey_dan_osm.png" alt="Isi lembar kerja survey dan osm"></p>
+<!-- raw HTML omitted -->
 <p>Terakhir, pada lembar kerja <strong>settings</strong> kita memasukkan id formulir kita dan judul formulir kita. Pada lembar kerja ini, hanya dibutuhkan dua kolom utama, yaitu <strong>form_id</strong> dan <strong>title.</strong></p>
-
-<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0527_contoh_pengaturan_pada_lembar_kerja_settings.png" alt="Contoh pengaturan pada lembar kerja settings" />
-  <p align="center"><i>Contoh pengaturan pada lembar kerja settings</i></p></p>
-
+<p><img src="../../../../id/images/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/0527_contoh_pengaturan_pada_lembar_kerja_settings.png" alt="Contoh pengaturan pada lembar kerja settings"></p>
+<!-- raw HTML omitted -->
 <p><strong>RINGKASAN</strong></p>
-
 <p>Selamat! Saat ini Anda telah berhasil membuat formulir survei untuk aplikasi <em>ODK Collect</em> dan <em>OpenMapKit</em>. Untuk lebih mengetahui jenis pertanyaan yang dapat dibuat pada <em>ODK Collect</em>, Anda bisa langsung mengakses halaman <a href="http://xlsform.org">http://xlsform.org</a>. Pembuatan formulir yang tepat akan memudahkan para surveyor dalam mengumpulkan data di lapangan.</p>
-</article>
-
-      
-<div class="align-center book-git-footer justify-between">
-    
-  <div>
-    <a href="https://github.com/hotosm/pdc-documentation/edit/master/content/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/05_Membuat_Formulir_Survei_untuk_Aplikasi_ODK_Collect_&amp;_OpenMapKit.md" target="_blank" rel="noopener">
-       Edit this page on GitHub
-    </a>
-  </div>
-  
-  
-  <div>
-    <a href="https://github.com/hotosm/pdc-documentation/commit/6b1a6915e23166a8983b58fd7241734783a507cb" title='Last modified October 1, 2019 10:47 UTC by Adityo Dwijananto' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Oct 1, 2019
-    </a>
-  </div>
-  
-
 </div>
 
 
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+     
+    
+
+    
+
+    
+
+
+
+
+
+<a class="next-page" href="../../../../pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/">
+    <div class="next-page__container">
+            <div class="sub-title sub-title-10">BACA BERIKUTNYA</div>
+            <div class="next-title">Meletakkan Formulir Survei ke Ona.io</div>
     </div>
+    <img src="../../../../svg/forward-arrow.svg" alt="">
+</a>
 
+</div></main>
+    <aside class="toc"><div class="toc__container">
     
-  
-  
-  <aside class="book-toc fixed">
     
-      
-    <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#i-pengertian-konsep-xlsform">I. Pengertian konsep <em>XLSForm</em></a></li>
-<li><a href="#ii-pembuatan-xlsform-untuk-aplikasi-odk-collect">II. Pembuatan XLSForm untuk aplikasi ODK Collect</a>
-<ul>
-<li><a href="#1-format-standar">1. Format Standar</a>
-<ul>
-<li><a href="#a-tiga-lembar-kerja-sheet-utama">a. Tiga lembar kerja/<em>sheet</em> utama.</a></li>
-<li><a href="#b-tiga-nama-kolom-utama">b. Tiga nama kolom utama.</a>
-<ul>
-<li><a href="#b-1-kolom-pada-lembar-kerja-survey">b.1. Kolom pada Lembar Kerja <em>survey</em></a></li>
-<li><a href="#b-2-kolom-pada-lembar-kerja-choices">b.2. Kolom pada Lembar Kerja <em>choices</em></a></li>
-<li><a href="#b-3-kolom-pada-lembar-kerja-settings">b.3. Kolom pada Lembar Kerja <em>settings</em></a></li>
-</ul></li>
-<li><a href="#c-semua-isian-harus-dengan-format-standar-dan-dimulai-dari-kotak-paling-pertama">c. Semua isian harus dengan format standar dan dimulai dari kotak paling pertama.</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#2-tipe-tipe-pertanyaan-standar">2. Tipe-tipe Pertanyaan Standar</a>
-<ul>
-<li><a href="#a-tipe-pertanyaan-text">a. Tipe pertanyaan <em>text</em></a></li>
-<li><a href="#b-tipe-pertanyaan-integer-decimal">b. Tipe pertanyaan <em>integer/decimal</em></a></li>
-<li><a href="#c-tipe-pertanyaan-select-one">c. Tipe pertanyaan <em>select_one</em></a></li>
-<li><a href="#d-tipe-pertanyaan-select-multiple">d. Tipe pertanyaan <em>select_multiple</em></a></li>
-<li><a href="#e-tipe-pertanyaan-geopoint">e. Tipe pertanyaan <em>geopoint</em></a></li>
-<li><a href="#f-tipe-note">f. Tipe <em>note</em></a></li>
-<li><a href="#tipe-image-video-atau-audio">Tipe <em>image, video</em> atau <em>audio</em></a></li>
-</ul></li>
-<li><a href="#3-format-tambahan">3. Format Tambahan</a>
-<ul>
-<li><a href="#a-hint">a. <em>Hint</em></a></li>
-<li><a href="#b-required">b. <em>Required</em></a></li>
-<li><a href="#c-field-list">c. <em>Field-list</em></a></li>
-<li><a href="#d-relevant">d. <em>Relevant</em></a></li>
-</ul></li>
-<li><a href="#iii-pembuatan-form-survey-untuk-aplikasi-openmapkit">III. Pembuatan form survey untuk aplikasi <em>OpenMapKit</em></a>
-<ul>
-<li><a href="#1-empat-lembar-kerja-sheet-utama">1. Empat lembar kerja/_sheet _utama</a></li>
-<li><a href="#2-tipe-pertanyaan-utama">2. Tipe pertanyaan utama</a></li>
-<li><a href="#3-tiga-kolom-utama">3. Tiga kolom utama</a></li>
-<li><a href="#4-pertanyaan-dan-pilihan-jawaban-didalam-satu-lembar-kerja">4. Pertanyaan dan pilihan jawaban didalam satu lembar kerja</a></li>
-</ul></li>
-<li><a href="#iv-latihan-membuat-formulir-survei-odk-collect-dan-openmapkit">IV. Latihan Membuat Formulir Survei <em>ODK Collect</em> dan <em>OpenMapKit</em></a></li>
-</ul></li>
-</ul>
+    
+    
+    <div class="toc-list">
+        <h4 class="sub-title sub-title-10">DI HALAMAN INI</h4>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#i-pengertian-konsep--xlsform-">I. Pengertian konsep XLSForm</a></li>
+    <li><a href="#ii-pembuatan-xlsform-untuk-aplikasi-odk-collect">II. Pembuatan XLSForm untuk aplikasi ODK Collect</a>
+      <ul>
+        <li><a href="#1-format-standar">1. Format Standar</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-tipe-tipe-pertanyaan-standar">2. Tipe-tipe Pertanyaan Standar</a>
+      <ul>
+        <li><a href="#a-tipe-pertanyaan-text">a. Tipe pertanyaan text</a></li>
+        <li><a href="#b-tipe-pertanyaan-integerdecimal">b. Tipe pertanyaan integer/decimal</a></li>
+        <li><a href="#c-tipe-pertanyaan-select-one">c. Tipe pertanyaan select_one</a></li>
+        <li><a href="#d-tipe-pertanyaan-select-multiple">d. Tipe pertanyaan select_multiple</a></li>
+        <li><a href="#e-tipe-pertanyaan-geopoint">e. Tipe pertanyaan geopoint</a></li>
+        <li><a href="#f-tipe-note">f. Tipe note</a></li>
+        <li><a href="#tipe-image-video-atau-audio">Tipe image, video atau audio</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-format-tambahan">3. Format Tambahan</a>
+      <ul>
+        <li><a href="#a-hint">a. Hint</a></li>
+        <li><a href="#b-required">b. Required</a></li>
+        <li><a href="#c-field-list">c. Field-list</a></li>
+        <li><a href="#d-relevant">d. Relevant</a></li>
+      </ul>
+    </li>
+    <li><a href="#iii-pembuatan-form-survey-untuk-aplikasi--openmapkit-">III. Pembuatan form survey untuk aplikasi OpenMapKit</a>
+      <ul>
+        <li><a href="#1-empat-lembar-kerja-sheet--utama">1. Empat lembar kerja/_sheet _utama</a></li>
+        <li><a href="#2-tipe-pertanyaan-utama">2. Tipe pertanyaan utama</a></li>
+        <li><a href="#3-tiga-kolom-utama">3. Tiga kolom utama</a></li>
+        <li><a href="#4-pertanyaan-dan-pilihan-jawaban-didalam-satu-lembar-kerja">4. Pertanyaan dan pilihan jawaban didalam satu lembar kerja</a></li>
+      </ul>
+    </li>
+    <li><a href="#iv-latihan-membuat-formulir-survei--odk-collect--dan--openmapkit-">IV. Latihan Membuat Formulir Survei ODK Collect dan OpenMapKit</a></li>
+  </ul>
 </nav>
+    </div>
+    <hr class="toc-divider">
     
-  </aside>
-
-
-
-  </main>
-
-  
-  
-  <footer class="footer">
-
-    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
-    <a href="https://github.com/hotosm/pdc-documentation" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-    </svg></a>
     
-
-  </footer>
-  
-
-  
-</body>
-
+    <a href="https://github.com/hotosm/pdc-documentation/edit/master/content/id/pages/06-OSM-Field-Survey-Manager-Guidelines/05-Membuat-Formulir-Survei-untuk-Aplikasi-ODK-Collect-&amp;-OpenMapKit/05_Membuat_Formulir_Survei_untuk_Aplikasi_ODK_Collect_&amp;_OpenMapKit.md" class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/pencil.svg" class="edit-icon" alt="">Sunting halaman ini pada github</a>
+    <a 
+    
+    href="../../../../pdfs/id/05_Membuat_Formulir_Survei_untuk_Aplikasi_ODK_Collect_&amp;_OpenMapKit.pdf"
+    
+    class="sub-title sub-title-12 toc-item"> <img src="../../../../svg/download.svg" class="download-icon" alt="">Unduh halaman ini</a>
+</div></aside>
+</div>
+<script src="../../../../js/main.js"></script>
+<script src="../../../../js/search.js"></script>
+<script src="../../../../js/toc.js"></script></body>
 </html>

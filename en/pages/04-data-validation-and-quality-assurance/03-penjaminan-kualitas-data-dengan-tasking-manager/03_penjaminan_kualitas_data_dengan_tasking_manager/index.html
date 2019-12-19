@@ -1,664 +1,484 @@
-<!DOCTYPE html><html>
-
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HOT-PDC Training Site</title>
-<link rel="icon" type="image/png" sizes="32x32" href="../../../../../favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../../../../../favicon-16x16.png">
-<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
-<script src="https://unpkg.com/lunr/lunr.js"></script>
-
-
-
-<link rel="stylesheet" href="../../../../../normalize.min.css">
-
-<link rel="stylesheet" href="../../../../../book.min.b0e8214cbf05079a2aba369158e0410c2515a8def4c0b44254eefada553ab758.css">
-
-<!--
-Made with Book Theme
-https://github.com/hotosm/hugo-book
--->
-  
-</head>
-
-<body>
-  <header class="header-nav" id="nav">
-    <div class="nav-container">
-      <a class="nav-title with-logo" href="//en">
-        <img class="logo" src="../../../../../svg/hot-logo-icon-white.svg" alt="humanitarian openstreetmap team logo">
-        <span>HOT-PDC Training Site</span>
-      </a>
-      <a class="nav-guide-link guide-active" href="../../../../../en/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/" >Guide</a>
-      <div class="hr-v"></div>
-      <a class="nav-pdf-download" 
-      
-      href="../../../../../pdfs/en/HOT-PDC_Training_Site.pdf">
-      
-      Download PDF &nbsp;
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
-        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
-          <polygon points="0 0 20 0 20 20 0 20"/>
-          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
-        </g>
-      </svg>
-      </a>
-      <input type="checkbox" style="display: none" id="menu-control" />      
-    </div>
-    <div class="nav-right">
-    
-    
-    
-    <div> <label for="search"></label> <input type="text" name="search" class="search-input" placeholder="Search…"></div>
-    <div class="search-results">
-      <ul class="results-list"></ul>
-    </div>
-    
-    
-
-    
-    <div class="hr-v"></div>
-    <div class="language">
-      <button class="language-btn">Language: en</button>
-      <div class="language-dropdown">
+<!DOCTYPE html>
+<html><head>
+   <link rel="icon" type="image/png" sizes="32x32" href="../../../../../favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="../../../../../favicon-16x16.png">
+   <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+   <script src="../../../../../js/vendor/lunr/lunr.min.js"></script>
+   
+   
+   
+   
+   <link rel="stylesheet" href="../../../../../scss/main.css">
+   <title>HOT-PDC Training Site</title>
+</head><body data-site-url='https://hotosm.github.io/pdc-documentation'  data-default-lang='id' data-lang='en'   ><header class="header" >
+    <div class="header__container">
+        <img src="https://hotosm.github.io/pdc-documentation/svg/hot-logo-red.svg" alt="hot logo"><a href="https://hotosm.github.io/pdc-documentation" class="no-underline"><h4 class="title site-title">HOT-PDC Training Site</h4></a>
+        <div>
         
-          
-          
-          <a href="../../../../../">Indonesia</a>
-          
-         
-          
-            <a href="../../../../../en">English</a>
-          
-         
-      </div>
+    </div><ul class="browse-select-options browse-select-options--hidden js-browse-select-options">
+
+</ul></div>
+        
+        <a class="hotosm-link" href="https://hotosm.org">hotosm.org</a> 
+        <div class="hamburger-icon"></div>
     </div>
-    
-
-    <div class="language-select"></div>
-    <div class="languages">
-    </div>
-    
-    <div class="hr-v"></div>
-    <a href="https://hotosm.org" class="hotosm-link">hotosm.org <img src="../../../../../svg/icon-external-red.svg" alt=""></a>
-    </div>
-  </header>
-  <main class="flex container">
-
-    <aside class="book-menu fixed">
-      <nav role="navigation">
-
-
-
-
-<a href="//en" >Introduction</a>  
-
-    
-
-
-  
-  
-    
-  
- 
-  
-  <ul>
-    
-    <li>
-    
-    OpenStreetMap Guide for Surveyor 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/">
-    Data Collection Methodology</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/">
-    Using ODK Collect</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/">
-    Using the OpenMapKit Application</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/">
-    Using OSMTrackers</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/">
-    Using GPS</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    HOT Tasking Manager 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/">
-    Creating and Managing Tasking Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/">
-    Using Tasking Manager</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    JOSM 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/">
-    Introduction to OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/">
-    Getting started with OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/">
-    Introduction to Java OpenStreetMap (JOSM)</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/">
-    Using Java OpenStreetMap (JOSM)</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/">
-    Adding Survey Data into OSM Using JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/">
-    Using To-Do List in JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/">
-    Using Filter on JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/">
-    Using buildings tools on JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/">
-    Creating the Administrative Boundaries in JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/">
-    Resolving Conflict on OpenStreetMap Data (OSM)</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Data Validation and Quality Assurance 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/">
-    Quality Assurance Concept</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/josm-for-validating-survey-data/">
-    JOSM for Validating Survey Data</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/" class="active">
-    Data Quality Assurance with Tasking Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/">
-    JOSM for Data Quality</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Using HOT Export 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/">
-    Download OSM Data using Export Tool</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Field Mapping Project Guide for Project Manager 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/">
-    The Mapping Methodology with OpenStreetMap</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/">
-    OpenStreetMap Data Model</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/">
-    Creating Presets</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04-penggunaan-yaml-pada-export-tool/">
-    Using YAML</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/">
-    Creating survey form for ODK Collect &amp; OpenMapKit</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/">
-    Upload survey form to ona.io</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07-pembuatan-peta-survey-dengan-qgis/">
-    Creating Field Maps using QGIS</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/">
-    Creating MBTiles for OpenMapKit (OMK)</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/">
-    Group Stats Plugin for Calculate The Objects</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/">
-    Converting Shapefile Data to GeoJSON</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    Using Map Campaigner 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/">
-    Using Map Campaigner to Manage Mapping Campaign</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-    <li>
-    
-    OpenStreetMap Data Integration to InAWARE 
-  
-  <ul>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/">
-    OpenStreetMap Data Integration to InAWARE</a>
-    </li>
-    
-  </ul>
-
-    </li>
-    
-
-    
-    <li>
-      <a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/">
-    
-    OpenStreetMap Guide for Surveyor</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/02-hot-tasking-manager/">
-    
-    HOT Tasking Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/03-josm/">
-    
-    JOSM</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/04-data-validation-and-quality-assurance/">
-    
-    Data Validation and Quality Assurance</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/05-hot-export/">
-    
-    Using HOT Export</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/">
-    
-    Field Mapping Project Guide for Project Manager</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/07-map-campaigner/">
-    
-    Using Map Campaigner</a>
-    </li>
-    
-    <li>
-      <a href="../../../../../en/pages/08-osm-data-integration-to-inaware/">
-    
-    OpenStreetMap Data Integration to InAWARE</a>
-    </li>
-    
-  </ul>
-
-
-
-
-
-
-
-
-</nav>
-    </aside>
-
-    <div class="book-page">
-      <header class="align-center justify-between book-header">
-  <label for="menu-control">
-    <img src="../../../../../svg/menu.svg" />
-  </label>
-  <strong>
-    Data Quality Assurance with Tasking Manager</strong>
 </header>
 
-      
-<article class="markdown">
-  <div class="markdown__header">  <h1>Data Quality Assurance with Tasking Manager</h1>
-    <a 
+<div class="main">
+    <aside class="menu">
+        <div class="menu__container">
+
+
+<h2 class="title">HOT-PDC Training Site</h2> 
+
+<div>
     
-    href="../../../../../pdfs/en/03_Penjaminan_Kualitas_Data_dengan_Tasking_Manager.pdf"
     
-    class="pdf-download-link"> Download page as PDF &nbsp;
-      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" viewBox="0 0 12 15">
-        <g fill="none" fill-rule="evenodd" transform="translate(-4 -2)">
-          <polygon points="0 0 20 0 20 20 0 20"/>
-          <path fill="#D73F3F" fill-rule="nonzero" d="M15.8333333,7.5 L12.5,7.5 L12.5,2.5 L7.5,2.5 L7.5,7.5 L4.16666667,7.5 L10,13.3333333 L15.8333333,7.5 Z M4.16666667,15 L4.16666667,16.6666667 L15.8333333,16.6666667 L15.8333333,15 L4.16666667,15 Z"/>
-        </g>
-      </svg>
+    <div class="js-language-select language-select">
+        
+            
+        
+            
+                English 
+            
+        
+    </div>
+    
+    <ul class="js-language-select-options language-select-options language-select-options--hidden">
+            
+            
+            <li>
+            
+        <a href="https://hotosm.github.io/pdc-documentation/pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/" class="language-select-option 
+        
+        ">Indonesia</a>
+        
+    </li>
+        
+            
+            <li>
+            
+        <a href="https://hotosm.github.io/pdc-documentation/en/pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/" class="language-select-option
+        
+        language-select-option--selected
+        
+        ">English  </a>
+        
+    </li>
+        
+    </ul>
+</div>
+
+
+
+
+
+
+<input class="search" type="text" placeholder="Search documentation">
+<div class="search-results">
+    <ul class="results-list"></ul>
+</div>
+
+
+
+
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            OpenStreetMap Guide for Surveyor
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/01-metodologi-pengumpulan-data/01_metodologi_pengumpulan_data/" class="menu-link">Data Collection Methodology</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/02-menggunakan-aplikasi-odk-collect/02_menggunakan_aplikasi_odk_collect/" class="menu-link">Using ODK Collect</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/03-menggunakan-aplikasi-omk/03_menggunakan_aplikasi_omk/" class="menu-link">Using the OpenMapKit Application</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/" class="menu-link">Using OSMTrackers</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/01-osm-field-surveyor-guideliness/05-menggunakan-gps/05_menggunakan_gps/" class="menu-link">Using GPS</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            HOT Tasking Manager
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/02-hot-tasking-manager/01-membuat-dan-mengelola-tasking-manager/01_membuat_dan_mengelola_tasking_manager/" class="menu-link">Creating and Managing Tasking Manager</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/02-hot-tasking-manager/02-penggunaan-tasking-manager/02_penggunaan_tasking_manager/" class="menu-link">Using Tasking Manager</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            JOSM
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/01-pengenalan-osm/01_pengenalan_osm/" class="menu-link">Introduction to OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/02-memulai-menggunakan-openstreetmap/02_memulai_menggunakan_openstreetmap/" class="menu-link">Getting started with OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/03-pengenalan-java-openstreetmap-josm/03_pengenalan_java_openstreetmap_josm/" class="menu-link">Introduction to Java OpenStreetMap (JOSM)</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/04-menggunakan-java-openstreetmap-josm/04_menggunakan_java_openstreetmap_josm/" class="menu-link">Using Java OpenStreetMap (JOSM)</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/05-menambahkan-data-osm-menggunakan-josm/05_menambahkan_data_osm_menggunakan_josm/" class="menu-link">Adding Survey Data into OSM Using JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/06-menggunakan-to-do-list-di-josm/06_menggunakan_to_do_list_di_josm/" class="menu-link">Using To-Do List in JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/07-menggunakan-alat-filter-di-josm/07_menggunakan_alat_filter_di_josm/" class="menu-link">Using Filter on JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/08-menggunakan-building-tools-di-josm/08_menggunakan_building_tools_di_josm/" class="menu-link">Using buildings tools on JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/09-pembuatan-batas-administrasi-dengan-josm/09.pembuatan_batas_administrasi_dengan_josm/" class="menu-link">Creating the Administrative Boundaries in JOSM</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/03-josm/10-mengatasi-konflik-data-pada-openstreetmap/10_mengatasi_konflik_pada_data_openstreetmap/" class="menu-link">Resolving Conflict on OpenStreetMap Data (OSM)</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--open
+        
+        ">
+            Data Validation and Quality Assurance
+        </div>
+        <div class="panel
+        
+        panel--open
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/04-data-validation-and-quality-assurance/01-konsep-penjaminan-kualitas/01_konsep_penjaminan_kualitas/" class="menu-link">Quality Assurance Concept</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/04-data-validation-and-quality-assurance/02-penggunaan-josm-untuk-validasi-data-survei/josm-for-validating-survey-data/" class="menu-link">JOSM for Validating Survey Data</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/04-data-validation-and-quality-assurance/03-penjaminan-kualitas-data-dengan-tasking-manager/03_penjaminan_kualitas_data_dengan_tasking_manager/" class="menu-link menu-link--active">Data Quality Assurance with Tasking Manager</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/" class="menu-link">JOSM for Data Quality</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Using HOT Export
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/05-hot-export/01-penggunaan-export-tool/01_menggunakan_export_tool/" class="menu-link">Download OSM Data using Export Tool</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Field Mapping Project Guide for Project Manager
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/01-metodologi-kerangka-kerja-pemetaan-openstreetmap/01_metodologi_kerangka_kerja_pemetaan/" class="menu-link">The Mapping Methodology with OpenStreetMap</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/02-model-data-openstreetmap/02_model_data_openstreetmap/" class="menu-link">OpenStreetMap Data Model</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/03-membuat-presets-openstreetmap/03_membuat_presets_openstreetmap/" class="menu-link">Creating Presets</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/04-penggunaan-yaml-pada-export-tool/04-penggunaan-yaml-pada-export-tool/" class="menu-link">Using YAML</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/05-membuat-formulir-survei-untuk-aplikasi-odk-collect-openmapkit/05_membuat_formulir_survei_untuk_aplikasi_odk_collect__openmapkit/" class="menu-link">Creating survey form for ODK Collect &amp; OpenMapKit</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/06-meletakkan-form-survey-ke-ona.io/06_meletakkan_form_survey_ke_ona.io/" class="menu-link">Upload survey form to ona.io</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/07-pembuatan-peta-survey-dengan-qgis/07-pembuatan-peta-survey-dengan-qgis/" class="menu-link">Creating Field Maps using QGIS</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/08-pembuatan-mbtiles-untuk-openmapkit/08_membuat_mbtiles_untuk_openmapkit/" class="menu-link">Creating MBTiles for OpenMapKit (OMK)</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/09-perhitungan-kuantitas-data-menggunakan-plugin-group-stats/" class="menu-link">Group Stats Plugin for Calculate The Objects</a></li>
+                    
+                        <li class="page"><a href="../../../../../en/pages/06-osm-field-survey-manager-guidelines/10-konversi-data-shapefile-ke-geojson/10_konversi_data_shapefile_ke_geojson/" class="menu-link">Converting Shapefile Data to GeoJSON</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            Using Map Campaigner
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/07-map-campaigner/01-membuat-dan-mengelola-map-campaigner-untuk-pemetaan/01_membuat_dan_mengelola_map_campaigner_untuk_pemetaan/" class="menu-link">Using Map Campaigner to Manage Mapping Campaign</a></li>
+                    
+                </ul>
+            </div>
+    
+
+        <div class="
+        
+        accordion accordion--closed
+        
+        ">
+            OpenStreetMap Data Integration to InAWARE
+        </div>
+        <div class="panel
+        
+        panel--closed
+        ">
+                <ul class="page-list">
+                    
+                        <li class="page"><a href="../../../../../en/pages/08-osm-data-integration-to-inaware/01-integrasi-osm-ke-inaware/01_integrasi_data_osm_ke_inaware/" class="menu-link">OpenStreetMap Data Integration to InAWARE</a></li>
+                    
+                </ul>
+            </div>
+    
+
+<a class="pdf-download"  
+    
+    href="../../../../../pdfs/en/HOT-PDC_Training_Site.pdf">
+    
+
+    <div>
+        <div class="title">Download the entire file</div>
+        <div class="sub-title sub-title-12">pdf</div>
+    </div>
+</a></div>
+    </aside>
+    <main class="article"><div class="article__container">
+
+ 
+   <div class="git-info">
+<div class="">
+  
+  <div>
+    
+    <a href="https://github.com/hotosm/pdc-documentation/commit/5e5e7748cc0485d6b95f3a810be72dec6d65e5d6" class="sub-title sub-title-14" title='Last modified October 10, 2019 by Adityo Dwijananto' target="_blank" rel="noopener">
+      Last modified: October 10, 2019
     </a>
   </div>
-
-<p><strong>Objective:</strong></p>
-
+  
+</div>
+</div>
+    <div class="article-body">
+           <h1 class="page-title">Data Quality Assurance with Tasking Manager</h1><p><strong>Objective:</strong></p>
 <ul>
 <li>Understand data quality assurance by using tasking manager</li>
 </ul>
-
 <p>Previously you have edited OpenStreetMap data using tasking manager. Tasking manager make you easier to edit OpenStreetMap data without have to worry about conflict with other people because you are working in the same area. Beside for edit OpenStreetMap data, you can also validate using the tasking manager, so you and the others can do validation together at the same time.</p>
-
 <h3 id="i-data-quality-assurance-using-tasking-manager"><strong>I. Data Quality Assurance using Tasking Manager</strong></h3>
-
 <p><strong>a. Validation Project Area Tasking</strong></p>
-
 <p>How to validating using tasking manager is similarly with editing with tasking manager. This is the step how to validate using tasking manager:</p>
-
 <ul>
 <li>Open your web browser and please access to <a href="https://tasks.hotosm.org/">https://tasks.hotosm.org/</a>.</li>
-<li>You will see the browser like the picture shown below:
-
-<br /></li>
+<li>You will see the browser like the picture shown below:</li>
 </ul>
-
-<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0301_Tampilan_tasking_manager.png" alt="Tasking manager appearance" />
-<p align="center"><i>Tasking manager appearance</i><p align="center"></p>
-
+<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0301_Tampilan_tasking_manager.png" alt="Tasking manager appearance"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>Please log in using your OpenStreetMap account by click <strong>Login</strong> button in the right corner.</li>
 </ul>
-
-<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0302_Tombol_login_pada_tasking_manager.png" alt="Login button on tasking manager" />
-<p align="center"><i>Login button on tasking manager</i><p align="center"></p>
-
+<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0302_Tombol_login_pada_tasking_manager.png" alt="Login button on tasking manager"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>You will be directed to OpenStreetMap site and click <strong>Grant Access</strong> to allow your account to be accessed by the tasking manager.</li>
 </ul>
-
-<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0303_Tampilan_untuk_Grant_Access_akun_OSM_Anda.png" alt="Grant Access your OSM account" />
-<p align="center"><i>Grant Access your OSM account</i><p align="center"></p>
-
+<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0303_Tampilan_untuk_Grant_Access_akun_OSM_Anda.png" alt="Grant Access your OSM account"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>Then you have successfully logged in tasking manager. You can start validation by click <strong>Contribute</strong> or click <strong>Start Mapping</strong>.</li>
 </ul>
-
-<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0304_Tombol_Contribute_dan_Start_Mapping_untuk_memulai_validasi.png" alt="Contribute and Start Mapping button to start validation" />
-<p align="center"><i>Contribute and Start Mapping button to start validation</i><p align="center"></p>
-
+<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0304_Tombol_Contribute_dan_Start_Mapping_untuk_memulai_validasi.png" alt="Contribute and Start Mapping button to start validation"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>Then your display will look like the image below.</li>
 </ul>
-
-<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0305_Tampilan_Contribute.png" alt="Contribute display" />
-<p align="center"><i>Contribute display</i><p align="center"></p>
-
+<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0305_Tampilan_Contribute.png" alt="Contribute display"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>You can choose one of the many tasks that are available for validation. Or you can also search for the tasking you want to validate by typing the keyword in the <strong>Search</strong> column on the left side of tasking manager, then press <strong>Enter</strong>. You will see a list of tasks that are related to the keywords you were previously looking for. Please search and select the tasking that you want to validate.</li>
 </ul>
-
-<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0306_Contoh_hasil_pencarian_menggunakan_kata_kunci_yang_telah_dimasukkan.png" alt="Example of search using entered keywords" />
-<p align="center"><i>Example of search using entered keywords</i><p align="center"></p>
-
+<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0306_Contoh_hasil_pencarian_menggunakan_kata_kunci_yang_telah_dimasukkan.png" alt="Example of search using entered keywords"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>After you select the tasking that you want to validate, you will see a general explanation of the tasking</li>
 </ul>
-
-<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0307_Penjelasan_umum_mengenai_tasking.png" alt="General information about the tasking" />
-<p align="center"><i>General information about the tasking</i><p align="center"></p>
-
+<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0307_Penjelasan_umum_mengenai_tasking.png" alt="General information about the tasking"></p>
+<!-- raw HTML omitted -->
 <ul>
-<li>If you scroll down, you will see the <strong>Instructions.</strong> Above the instructions there are four tabs, one of them is validate.  You can start validation by click <strong>Validate</strong>. Besides by click validate, at the bottom there is a question box <strong>&ldquo;Ready to get started?&rdquo;</strong> with the Map and Validate options, please choose  <strong>Validate</strong>.</li>
+<li>If you scroll down, you will see the <strong>Instructions.</strong> Above the instructions there are four tabs, one of them is validate.  You can start validation by click <strong>Validate</strong>. Besides by click validate, at the bottom there is a question box <strong>&ldquo;Ready to get started?&quot;</strong> with the Map and Validate options, please choose  <strong>Validate</strong>.</li>
 </ul>
-
-<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0308_Pilihan_untuk_memulai_validasi.png" alt="Option to start validation" />
-<p align="center"><i>Option to start validation</i><p align="center"></p>
-
+<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0308_Pilihan_untuk_memulai_validasi.png" alt="Option to start validation"></p>
+<!-- raw HTML omitted -->
 <ul>
-<li>For information, the box or grid that you will validate is the one that has been mapped or the orange color. When you have finished validating, the box you are working on will turn green.</li>
-
-<li><p>After you click <strong>validate</strong>, there are several options for choosing which box you want to choose. For those whose role as mapper or validator, there are only two choices, the first and the second choice, while the five choices can only be done by the project manager role. There are options:</p>
-
+<li>
+<p>For information, the box or grid that you will validate is the one that has been mapped or the orange color. When you have finished validating, the box you are working on will turn green.</p>
+</li>
+<li>
+<p>After you click <strong>validate</strong>, there are several options for choosing which box you want to choose. For those whose role as mapper or validator, there are only two choices, the first and the second choice, while the five choices can only be done by the project manager role. There are options:</p>
 <ol>
 <li>The first option is to choose one orange color box by yourself.</li>
 <li>The second option is let tasking select one orange box to be validated randomly.</li>
 <li>The third option is to select the area to be validated by drawing a polygon, and then tasking will automatically select several tasking boxes according to the area of ​​the polygon you created, then click <strong>start validating</strong>.</li>
 <li>The fourth option can be chosen when you have locked one of the boxes, but you forget which box you have chosen. After you click option number four, tasking will automatically show the box you have chosen.</li>
 <li>The fifth option is to choose the tasking box based on the name of the contributor under the fifth option.</li>
-</ol></li>
+</ol>
+</li>
 </ul>
-
-<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0309_Pilihan_untuk_memilih_kotak_validasi.png" alt="Options for selecting a validation box" />
-<p align="center"><i>Options for selecting a validation box</i><p align="center"></p>
-
+<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0309_Pilihan_untuk_memilih_kotak_validasi.png" alt="Options for selecting a validation box"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>When you select the box you want to work, around your box will turn yellow. You can start validation by click <strong>Start Validating</strong> box. If you want to change the box, you can click <strong>Select Another Task</strong> box.</li>
 </ul>
-
-<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0310_Tampilan_untuk_memulai_validasi.png" alt="Display to start validation" />
-<p align="center"><i>Display to start validation</i><p align="center"></p>
-
+<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0310_Tampilan_untuk_memulai_validasi.png" alt="Display to start validation"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>If you have already clicked <strong>Start Validating</strong>, the color of the box you selected will change to blue and yellow around the box. This indicates that you have activated the box to be validated. You can choose the tools you want to use for validation. You can use iD Editor, JOSM, Potlatch 2, and Field Papers. We recommend you to use JOSM when validating because JOSM has more features for editing.</li>
 </ul>
-
-<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0311_Pilihan_tools_untuk_melakukan_validasi.png" alt="Choice of tools to do validation" />
-<p align="center"><i>Choice of tools to do validation</i><p align="center"></p>
-
+<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0311_Pilihan_tools_untuk_melakukan_validasi.png" alt="Choice of tools to do validation"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>After you select JOSM as a tool for validation, you can immediately click <strong>Start Editor</strong>.</li>
 </ul>
-
-<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0312_Tombol_start_editor_untuk_memulai_validasi.png" alt="Start editor button to start validation" />
-<p align="center"><i>Start editor button to start validation</i><p align="center"></p>
-
+<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0312_Tombol_start_editor_untuk_memulai_validasi.png" alt="Start editor button to start validation"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>After you click <strong>Start Editor</strong>, JOSM will automatically <strong>download OpenStreetMap</strong> data based on the grid/ box you have chosen. To use JOSM as a validation tool, you can learn through <strong>JOSM for Data Quality Calculation</strong> module.</li>
 <li>Once you have finished doing validation in JOSM and all the objects have been mapped, please go back to the tasking manager web browser and click <strong>Mark as Valid</strong>. If the selected grid/box has not been mapped or there are still many objects that have not been properly mapped, you can click <strong>Mark as Invalid</strong>. You can also add comments on the reason for the box in Mark as Invalid, for example, many unmapped objects, so the next contributor who chooses the box knows the error. After you click Mark as Invalid, other contributors can rework or add data to the box that you have Mark as Invalid. If you want to change the tasking box to be validated, you can click <strong>Stop Validating</strong>, so other people can continue validating in the box.</li>
 </ul>
-
-<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0313_Tombol_tombol_untuk_memilih_setelah_validasi.png" alt="Buttons to choose after validation" />
-<p align="center"><i>Buttons to choose after validation</i><p align="center"></p>
-
+<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0313_Tombol_tombol_untuk_memilih_setelah_validasi.png" alt="Buttons to choose after validation"></p>
+<!-- raw HTML omitted -->
 <ul>
 <li>If you click <strong>Mark as Valid</strong>, then the tasking box that you previously selected turns into <strong>green</strong>. If you click <strong>Mark as Invalid</strong>, then the tasking box you previously selected changes color to <strong>pink</strong>. If you click <strong>Stop Validating</strong>, then the tasking box that you previously selected changes back to <strong>orange</strong>.</li>
 <li>When you have done validating in one box tasking, you can do validation in another orange box. Please validate like the previous steps.</li>
 </ul>
-
 <p><strong>b. Things to Watch When Do Validation in Tasking Manager</strong></p>
-
 <p>When you do validation using tasking manager there are things to watch, that is the time limit for working on the box you have chosen. If you have started validation, there is a time limit for working on the tasking you selected at the top like the picture below:</p>
-
-<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0314_Contoh_batas_waktu_untuk_validasi.png" alt="Time limit for validation" />
-<p align="center"><i>Time limit for validation</i><p align="center"></p>
-
+<p><img src="../../../../../en/images/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/0314_Contoh_batas_waktu_untuk_validasi.png" alt="Time limit for validation"></p>
+<!-- raw HTML omitted -->
 <p>The time limit for working on validation using this tasking manager is two hours. After passing two hours (120 minutes), the tasking manager will automatically unlock the tasking box you have selected. If you are validating and need more than two hours, you should click <strong>Stop Validating</strong> before the duration of the two hours runs out, then select <strong>Start Editor</strong> again. Then you can continue validation again.</p>
-
 <p><strong>SUMMARY</strong></p>
-
 <p>You have learned and practiced how to validate using tasking manager. Validation using the tasking manager makes it easier for you to validate together with other people so the validation process can be completed faster. Next you will learn how to use JOSM to calculate data quality in OSM.</p>
-</article>
-
-      
-<div class="align-center book-git-footer justify-between">
-    
-  <div>
-    <a href="https://github.com/hotosm/pdc-documentation/edit/master/content/pages/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/03_Penjaminan_Kualitas_Data_dengan_Tasking_Manager.md" target="_blank" rel="noopener">
-       Edit this page on GitHub
-    </a>
-  </div>
-  
-  
-  <div>
-    <a href="https://github.com/hotosm/pdc-documentation/commit/5e5e7748cc0485d6b95f3a810be72dec6d65e5d6" title='Last modified October 10, 2019 04:24 UTC by Adityo Dwijananto' target="_blank" rel="noopener">
-      <strong>Last Modified:</strong> Oct 10, 2019
-    </a>
-  </div>
-  
-
 </div>
 
 
+
+
+    
+
+    
+
+    
+
+    
+     
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+<a class="next-page" href="../../../../../en/pages/04-data-validation-and-quality-assurance/04-josm-untuk-perhitungan-kualitas-data/04_josm_perhitungan_kualitas_data/">
+    <div class="next-page__container">
+            <div class="sub-title sub-title-10">READ NEXT</div>
+            <div class="next-title">JOSM for Data Quality</div>
     </div>
+    <img src="../../../../../svg/forward-arrow.svg" alt="">
+</a>
 
+</div></main>
+    <aside class="toc"><div class="toc__container">
     
-  
-  
-  <aside class="book-toc fixed">
     
-      
-    <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#i-data-quality-assurance-using-tasking-manager"><strong>I. Data Quality Assurance using Tasking Manager</strong></a></li>
-</ul></li>
-</ul></li>
-</ul>
+    
+    
+    <div class="toc-list">
+        <h4 class="sub-title sub-title-10">ON THIS PAGE</h4>
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#i-data-quality-assurance-using-tasking-manager">I. Data Quality Assurance using Tasking Manager</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
+    </div>
+    <hr class="toc-divider">
     
-  </aside>
-
-
-
-  </main>
-
-  
-  
-  <footer class="footer">
-
-    <p>Humanitarian OpenStreetMap Team is a 501(c)(3) not-for-profit organization and global community. Learn more about &nbsp;<a href="https://www.openstreetmap.org/about">OpenStreetMap</a>.</p>
-    <a href="https://github.com/hotosm/pdc-documentation" class="github-link">Contribute <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-      <path fill="#D73F3F" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-    </svg></a>
     
-
-  </footer>
-  
-  <script src="../../../../../js/search.js"></script>
-  
-
-  
-</body>
-
+    <a href="https://github.com/hotosm/pdc-documentation/edit/master/content/en/pages/04-Data-Validation-and-Quality-Assurance/03-Penjaminan-Kualitas-Data-dengan-Tasking-Manager/03_Penjaminan_Kualitas_Data_dengan_Tasking_Manager.md" class="sub-title sub-title-12 toc-item"> <img src="../../../../../svg/pencil.svg" class="edit-icon" alt="">Edit this page on Github</a>
+    <a 
+    
+    href="../../../../../pdfs/en/03_Penjaminan_Kualitas_Data_dengan_Tasking_Manager.pdf"
+    
+    class="sub-title sub-title-12 toc-item"> <img src="../../../../../svg/download.svg" class="download-icon" alt="">Download this page</a>
+</div></aside>
+</div>
+<script src="../../../../../js/main.js"></script>
+<script src="../../../../../js/search.js"></script>
+<script src="../../../../../js/toc.js"></script></body>
 </html>

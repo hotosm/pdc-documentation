@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OpenStreetMap Guide for Surveyor on HOT-PDC Training Site</title>
@@ -47,9 +47,9 @@
       
       <guid>/en/pages/01-osm-field-surveyor-guideliness/04-menggunakan-aplikasi-osmtracker/04_menggunakan_aplikasi_osmtracker/</guid>
       <description>Objectives:
- Explain OSMTracker as one of survey tools for recording tracks and photos
- How to set up the OSMTracker for the first time
- Learn how to use OSMTracker
+  Explain OSMTracker as one of survey tools for recording tracks and photos
+  How to set up the OSMTracker for the first time
+  Learn how to use OSMTracker
   I. What is OSMTracker? OSMTracker is an android application that allows us to record our survey data. Similar to GPS, OSMTracker is able to record waypoint and also track. If you want to learn more about GPS for field survey, you can see the GPS Module.</description>
     </item>
     
